@@ -225,13 +225,13 @@ def is_list_has_target_text(text_list, target_text):
             break
     return has_target_text
 
-def get_list_text_count(result, text):
+def get_list_text_count(result_list, text):
     text_line = None
     count = 0
-    if result is None:
+    if result_list is None:
         return count
 
-    for item in result:
+    for item in result_list:
         if text in item:
             count = count + 1
     return count
@@ -290,6 +290,19 @@ def get_file_path_by_dir(folder_path, target_file):
                 logger.info(f"target file: {file_path}")
                 break
     return file_path
+
+def is_target_list_in_row(target_list, row):
+    # logger.info(f'target_list:{target_list}')
+    # logger.info(f'row:{row}')
+
+    match_check = True
+    text_line = None
+    for item in target_list:
+        if item not in row:
+            match_check = False
+            break
+    return match_check
+
 
 if __name__ == '__main__':
     obj = 'ffffe00167eea1c0'

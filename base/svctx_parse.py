@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 from Evtx.Evtx import Evtx
+from base.logger import *
+from base.helper import *
 
 def parse_event_record(xml_str):
     root = ET.fromstring(xml_str)
@@ -33,17 +35,30 @@ def parse_event_record(xml_str):
 
 if __name__ == '__main__':
     # 使用示例
-    evtx_path = r"./System.evtx"
+    evtx_path = r"D:\System.evtx"
+    match_id = False
+    match_Provider = False
+    match_case_3 = False
     with Evtx(evtx_path) as log:
         for i, record in enumerate(log.records()):
             if i >= 10:  # 仅显示前10条
                 pass
             try:
                 parsed = parse_event_record(record.xml())
-                print(f"Time: {parsed['TimeCreated']}")
-                print(f"EventID: {parsed['EventID']}")
-                print(f"Level: {parsed['Level']}")
-                print(f"Provider: {parsed['Provider']}")
-                print("-" * 50)
+                # print(f"Time: {parsed['TimeCreated']}")
+                # print(f"EventID: {parsed['EventID']}")
+                # print(f"Level: {parsed['Level']}")
+                # print(f"Provider: {parsed['Provider']}")
+                # print("-" * 50)
+                if '41' in parsed['EventID']:
+                    match_id = True
+                if 'BugcheckCode:0x0' in parsed['Provider']:
+                    match_Provider = True
+                if match_id and match_Provider:
+                    match_case_3 = True
+                    break
+
             except Exception as e:
                 print(f"解析错误: {e}")
+
+    logger.info(f'match_case_3:{match_case_3}')
