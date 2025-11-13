@@ -141,8 +141,39 @@ def replace_file():
         command = f"cd {path} && sed -i 's/{wait_str}/{target_str}/g' *.yaml"
         cmd_excute(command)
     return
+
+def get_latest_file_path_by_dir(folder_path, target_file):
+    # 要遍历的文件路径
+    target_file_path = None
+    file_list = []
+    file_dict = {}
+    for root, dirs, files in os.walk(folder_path):
+        for dir in dirs:
+            path = os.path.join(root, dir)
+            if '.' in path and '.git' not in path and '.idea' not in path:
+                # print(f"del: {path}")
+                pass
+
+        for file in files:
+            file_path = os.path.join(root, file)
+            # logger.info(f'file_path:{file_path}')
+            # print(file_path)
+            if target_file.lower() in file_path.lower() :
+                c2_Time = os.path.getmtime(file_path)
+                # logger.info(f"c2_Time: {c2_Time}")
+                file_dict[file_path] = c2_Time
+
+    max_time = 0
+    latest_file = None
+    for key, value in file_dict.items():
+        if value > max_time:
+            max_time = value
+            latest_file = key
+    logger.info(f"latest_file: {latest_file}")
+    return latest_file
 # 使用示例
 if __name__ == "__main__":
     # 要删除的文件夹路径
-    folder_path = r'D:\0_LOG_VIP\Result_10_28'
-    post_report_process(folder_path)
+    folder_path = r'D:\hello\DumpFile\ApplicationDumps'
+    target_file = '.dmp'
+    get_latest_file_path_by_dir(folder_path, target_file)
