@@ -5,21 +5,58 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
+from logger import *
+from bs4 import BeautifulSoup
+import csv
+# from base.logger import *
+from base.helper import *
+
+def parse_html_table(html_file):
+    # 读取HTML文件内容
+    # with open(html_file, 'r', encoding='utf-8') as f:
+    encodings = ['utf-8', 'utf-8-sig', 'gbk', 'latin1']
+    html_content = None
+    for enc in encodings:
+        try:
+            with open(html_file, 'r', encoding=enc) as f:
+                html_content = f.read()
+            break  # Success
+        except UnicodeDecodeError:
+            continue
+    if html_content is None:
+        raise ValueError(f"Unable to decode file: {html_file}")
+
+    # 解析HTML
+    soup = BeautifulSoup(html_content, 'html.parser')
+
+    # 查找所有 table 标签
+    tables = soup.find_all('table')
+
+    print(f"共找到 {len(tables)} 个表格")
+
+    # 遍历每个表格（可选：打印或进一步处理）
+    for i, table in enumerate(tables, 1):
+        print(f"\n=== 表格 {i} ===")
+        # 可选：将表格转为文本或提取数据
+        print(table.prettify())  # 美化输出 HTML
+
+    return
 
 def parse_dynamic_table(html_path):
+    logger.info(f'parse_dynamic_table')
     # 初始化浏览器驱动（使用Chrome为例）
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-    
+    logger.info(f'driver')
     try:
         # 加载本地HTML文件（如果是在线网页，替换为URL即可）
         driver.get(f"file:///{html_path}")
         
         # 等待页面关键元素加载完成（根据网页中的表格ID调整）
         # 示例：等待summary-table表格加载
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.ID, "summary-table"))
         )
-        
+        logger.info(f'WebDriverWait')
         # 存储所有表格数据的列表
         all_tables = []
         
@@ -33,6 +70,7 @@ def parse_dynamic_table(html_path):
             # 提取表头
             headers = []
             th_elements = table.find_elements(By.TAG_NAME, "th")
+            # logger.info(f'th_elements:{th_elements}')
             for th in th_elements:
                 headers.append(th.text.strip())
             
@@ -58,25 +96,72 @@ def parse_dynamic_table(html_path):
         # 关闭浏览器
         driver.quit()
 
-if __name__ == "__main__":
-    # 替换为你的HTML文件路径
-    html_file_path = r"D:\SystemPowerReport.html"  # 例如：C:/reports/SystemPowerReport.html
-    
+def get_Abnormal_Shutdown_time(folder_path):
+    # logger.info(f'target_list:{target_list}')
+    # logger.info(f'row:{row}')
+
+    target_file = 'SystemPowerReport.html'
+    file_path = get_file_path_by_dir(folder_path, target_file)
+    logger.info(f'file_path:{file_path}')
+
     # 解析表格
-    tables_data = parse_dynamic_table(html_file_path)
-    
+    tables_data = parse_dynamic_table(file_path)
+
     # 打印结果（或保存为CSV/Excel）
+    target_str = 'START TIME'
+    target_table = None
+    target_time = None
     for table in tables_data:
-        print(f"表格ID: {table['table_id']}")
-        print("表头:", table['headers'])
-        print("内容行数:", len(table['data']))
-        print(table['data'])
+        if target_str in table['headers'] and 'Abnormal Shutdown' in table['data'][0]:
+            target_elem =table['data'][0]
+            target_time = target_elem[1]
+            logger.info(f'target_elem:{target_elem}')
+            logger.info(f'target_time:{target_time}')
+
+    return target_time
+
+def Critical_Event_Check(folder_path):
+    # logger.info(f'target_list:{target_list}')
+    # logger.info(f'row:{row}')
+
+    target_file = 'KernelPowerReport.html'
+    file_path = get_file_path_by_dir(folder_path, target_file)
+    logger.info(f'file_path:{file_path}')
+
+    # 解析表格
+    tables_data = parse_dynamic_table(file_path)
+
+    # 打印结果（或保存为CSV/Excel）
+    target_str = 'TimeCreated'
+    target_table = None
+    target_time = None
+    match_check = False
+    for table in tables_data:
+        if target_str in table['headers'] and 'Critical' in table['data'][0] and '41' in table['data'][0]:
+            target_list =table['data'][0]
+            logger.info(f'target_list:{target_list}')
+            for item in target_list:
+                if 'BugcheckCode:0x0' in item:
+                    match_check = True
+                    break
+
+    logger.info(f'match_check:{match_check}')
+    return match_check
+
+if __name__ == "__main__":
+    folder_path = r'D:\hello'
+    get_Critical_Event_time(folder_path)
+
+    # # 替换为你的HTML文件路径
+    # html_file_path = r"D:\SystemPowerReport.html"  # 例如：C:/reports/SystemPowerReport.html
+
+
+    
+
+        # print(f"表格ID: {table['table_id']}")
+        # print("表头:", table['headers'])
+        # print("内容行数:", len(table['data']))
+        # print(table['data'])
         # print("示例数据:", table['data'][0] if table['data'] else "无数据")
         # print("-" * 50)
-    
-    # # 可选：将第一个表格转换为DataFrame并保存为CSV
-    # if tables_data:
-    #     first_table = tables_data[0]
-    #     df = pd.DataFrame(first_table['data'], columns=first_table['headers'])
-    #     df.to_csv("parsed_table.csv", index=False, encoding="utf-8")
-    #     print("已保存第一个表格到 parsed_table.csv")
+    # logger.info(f'target_elem:{target_elem}')

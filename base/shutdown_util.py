@@ -2,24 +2,20 @@ import os
 from base.logger import *
 from base.fileOP import *
 from base.helper import *
-from base.html_parse import *
+from base.web_help import *
 from base.svctx_parse import *
+
+def shutdown_check_rule_1(folder_path):
+    logger.info(f'folder_path:{folder_path}')
+
+    # folder_path = r'D:\hello'
+    target_time = get_Abnormal_Shutdown_time(folder_path)
+    return target_time
 
 def shutdown_check_rule_2(folder_path):
     logger.info(f'folder_path:{folder_path}')
 
-    target_file = 'KernelPowerReport.html'
-    file_path = get_file_path_by_dir(folder_path, target_file)
-
-    # 解析HTML文件
-    headers, rows = parse_html_table(file_path)
-    target_list = ['41', 'Critical', 'BugcheckCode:0x0']
-    match_check = False
-    for row in rows:
-        match_check = is_target_list_in_row(target_list, row)
-        if match_check == True:
-            break
-    logger.info(f'match_check:{match_check}')
+    match_check = Critical_Event_Check(folder_path)
     return match_check
 
 def shutdown_check_rule_3(folder_path):
@@ -56,7 +52,8 @@ def shutdown_check_rule_3(folder_path):
     logger.info(f'match_case_3:{match_case_3}')
     return match_case_3
 
-def shutdown_check_rule_4(folder_path):
+def check_ShutdownID_01(folder_path):
+    is_ShutdownID_01 = False
     logger.info(f'folder_path:{folder_path}')
     return_dict = None
     out_dict_ec = {'rule_name': 'shutdown_check_rule_4',
@@ -75,11 +72,38 @@ def shutdown_check_rule_4(folder_path):
     count = get_list_text_count(log_line, target_str)
     if count == 0:
         return_dict = out_dict_ec
+        is_ShutdownID_01 = False
     else:
         return_dict = out_dict
+        is_ShutdownID_01 = True
 
     logger.info(f'return_dict:{return_dict}')
-    return return_dict
+    return is_ShutdownID_01
+
+def check_is_abnormal_shutdown(folder_path):
+    is_abnormal_shutdown = False
+
+    check_flag_1 = False
+    target_time = shutdown_check_rule_1(folder_path)
+    logger.info(f'target_time:{target_time}')
+    if target_time is not None:
+        check_flag_1 = True
+
+    check_flag_2 = False
+    match_check = shutdown_check_rule_2(folder_path)
+    logger.info(f'match_check:{match_check}')
+    if match_check == True:
+        check_flag_2 = True
+
+    check_flag_3 = False
+    match_check = shutdown_check_rule_3(folder_path)
+    logger.info(f'match_check:{match_check}')
+    if match_check == True:
+        check_flag_3 = True
+
+    if check_flag_1 and check_flag_2 and check_flag_3:
+        is_abnormal_shutdown = True
+    return is_abnormal_shutdown
 
 def wakeup_check_rule_1(folder_path):
     logger.info(f'folder_path:{folder_path}')

@@ -273,9 +273,10 @@ def update_context_with_list(cmd_output_list, result_dict, key):
         result_dict[key] = target_str
     return
 
-def get_file_path_by_dir(folder_path, target_file):
+def get_file_path_by_dir(folder_path, target_file_name):
     # 要遍历的文件路径
     file_path = None
+    target_file_path = None
     for root, dirs, files in os.walk(folder_path):
         for dir in dirs:
             path = os.path.join(root, dir)
@@ -286,10 +287,12 @@ def get_file_path_by_dir(folder_path, target_file):
         for file in files:
             file_path = os.path.join(root, file)
             # print(file_path)
-            if target_file.lower() in file_path.lower() :
-                logger.info(f"target file: {file_path}")
+            if target_file_name.lower() in file_path.lower() :
+                # logger.info(f"target file: {file_path}")
+                target_file_path = file_path
                 break
-    return file_path
+    logger.info(f"target_file_path: {target_file_path}")
+    return target_file_path
 
 def is_target_list_in_row(target_list, row):
     # logger.info(f'target_list:{target_list}')

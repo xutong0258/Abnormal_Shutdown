@@ -1,7 +1,6 @@
 import os
 from base import fileOP
 from base.common import *
-from base.html_parse import *
 from base.shutdown_util import *
 
 path_dir = os.path.dirname(__file__)
@@ -30,15 +29,12 @@ src_dir_list = [r'G:\BSOD_Debug_SOP_0911\1. Automatic\1.1 0x3b_Context Memory Co
                 ]
 
 if __name__ == '__main__':
-    folder_path = r'D:\test'
-    # match_check = shutdown_check_rule_2(folder_path)
-    # logger.info(f'match_check:{match_check}')
+    folder_path = r'D:\hello'
+    is_abnormal_shutdown = check_is_abnormal_shutdown(folder_path)
+    logger.info(f'is_abnormal_shutdown:{is_abnormal_shutdown}')
 
-    # match_check_3 = shutdown_check_rule_3(folder_path)
-    # logger.info(f'match_check_3:{match_check_3}')
-
-    match_check_4 = shutdown_check_rule_4(folder_path)
-    logger.info(f'match_check_4:{match_check_4}')
+    if is_abnormal_shutdown:
+        is_ShutdownID_01 = check_ShutdownID_01(folder_path)
 
     # match_check_4 = wakeup_check_rule_1(folder_path)
     # logger.info(f'match_check_4:{match_check_4}')
