@@ -45,7 +45,8 @@ def parse_html_table(html_file):
 def parse_dynamic_table(html_path):
     logger.info(f'parse_dynamic_table')
     # 初始化浏览器驱动（使用Chrome为例）
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    driver = webdriver.Firefox()
     logger.info(f'driver')
     try:
         # 加载本地HTML文件（如果是在线网页，替换为URL即可）

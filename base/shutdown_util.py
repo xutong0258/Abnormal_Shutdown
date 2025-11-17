@@ -29,8 +29,6 @@ def shutdown_check_rule_3(folder_path):
     match_case_3 = False
     with Evtx(evtx_path) as log:
         for i, record in enumerate(log.records()):
-            if i >= 10:  # 仅显示前10条
-                pass
             try:
                 parsed = parse_event_record(record.xml())
                 # print(f"Time: {parsed['TimeCreated']}")
@@ -38,8 +36,10 @@ def shutdown_check_rule_3(folder_path):
                 # print(f"Level: {parsed['Level']}")
                 # print(f"Provider: {parsed['Provider']}")
                 # print("-" * 50)
+                # logger.info(f'parsed:{parsed}')
                 if '41' in parsed['EventID']:
                     match_id = True
+                    logger.info(f'parsed:{parsed}')
                 if 'BugcheckCode:0x0' in parsed['Provider']:
                     match_Provider = True
                 if match_id and match_Provider:
@@ -48,7 +48,8 @@ def shutdown_check_rule_3(folder_path):
 
             except Exception as e:
                 print(f"解析错误: {e}")
-
+    if match_case_3 == False:
+        logger.info(f'evtx hasn\'t BugcheckCode:0x0 record')
     logger.info(f'match_case_3:{match_case_3}')
     return match_case_3
 
@@ -86,12 +87,18 @@ def check_is_abnormal_shutdown(folder_path):
     check_flag_1 = False
     target_time = shutdown_check_rule_1(folder_path)
     logger.info(f'target_time:{target_time}')
+    if target_time is None:
+        return is_abnormal_shutdown
+
     if target_time is not None:
         check_flag_1 = True
 
     check_flag_2 = False
     match_check = shutdown_check_rule_2(folder_path)
     logger.info(f'match_check:{match_check}')
+    if match_check == False:
+        return is_abnormal_shutdown
+
     if match_check == True:
         check_flag_2 = True
 
@@ -122,3 +129,7 @@ def wakeup_check_rule_1(folder_path):
             break
     logger.info(f'check_result:{check_result}')
     return
+if __name__ == '__main__':
+    folder_path = r'D:\00\04_异常关机重启唤不醒\log\ALADDIN'
+    shutdown_check_rule_3(folder_path)
+    pass
