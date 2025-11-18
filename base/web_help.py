@@ -149,20 +149,40 @@ def Critical_Event_Check(folder_path):
     logger.info(f'match_check:{match_check}')
     return match_check
 
+def get_wakeup_reason(folder_path):
+    # logger.info(f'target_list:{target_list}')
+    # logger.info(f'row:{row}')
+
+    target_file = 'KernelPowerReport.html'
+    file_path = get_file_path_by_dir(folder_path, target_file)
+    logger.info(f'file_path:{file_path}')
+
+    # 解析表格
+    tables_data = parse_dynamic_table(file_path)
+
+    target_str = 'TimeCreated'
+    target_table = None
+    target_time = None
+    wakeup_reason = None
+    for table in tables_data:
+        # logger.info(f'table:{table}')
+        if target_str in table['headers']:
+            target_list = table['data']
+            for item in target_list:
+                # logger.info(f'item:{item}')
+                if '1' in item[1] and '唤醒源' in item[4]:
+                    wakeup_reason = item[4]
+                    match = re.search(r'唤醒源:(.*)\n', wakeup_reason)
+                    if match:
+                        wakeup_reason = match.group()
+                        # wakeup_reason = wakeup_reason.replace('唤醒源:', '')
+                    else:
+                        logger.info("未找到wakeup_reason")
+                    break
+    logger.info(f'wakeup_reason:{wakeup_reason}')
+    return wakeup_reason
 if __name__ == "__main__":
-    folder_path = r'D:\hello'
-    get_Critical_Event_time(folder_path)
+    folder_path = r'D:\00\04_异常关机重启唤不醒\睡眠休眠异常_log\S3 abnoamal resume'
+    wakeup_reason = get_wakeup_reason(folder_path)
+    # logger.info(f'wakeup_reason:{wakeup_reason}')
 
-    # # 替换为你的HTML文件路径
-    # html_file_path = r"D:\SystemPowerReport.html"  # 例如：C:/reports/SystemPowerReport.html
-
-
-    
-
-        # print(f"表格ID: {table['table_id']}")
-        # print("表头:", table['headers'])
-        # print("内容行数:", len(table['data']))
-        # print(table['data'])
-        # print("示例数据:", table['data'][0] if table['data'] else "无数据")
-        # print("-" * 50)
-    # logger.info(f'target_elem:{target_elem}')

@@ -6,9 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="47a7c56e-3d14-440a-b23b-8521960fcd91" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Automatic/Automatic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Sysinfo/sys_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_Process/case_04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_Storage/case_05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_Pnp/case_06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_ACPI/case_07.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_NDIS/case_08.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_USB/case_09.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_WHEA_0x124/case_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_power_0x9f_3/case_11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Power_0x9f_4/case_12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_DPC/case_13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_locks_0xE2/case_14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSOD_schema.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/BSOD_Cause_Driver_Matrix.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/base/shutdown_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/shutdown_util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/web_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/web_help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_sop.py" beforeDir="false" afterPath="$PROJECT_DIR$/common_sop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_sop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_sop/common_sop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +47,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.0_abnormal_shutdown_reboot.executor": "Run",
+    "Python.1_sleep_abnormal.executor": "Run",
     "Python.Qwen_python_20251107_ny87f9ssq.executor": "Run",
     "Python.common_sop (1).executor": "Run",
     "Python.common_sop.executor": "Run",
@@ -58,6 +77,50 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.prepare_commit">
+    <configuration name="0_abnormal_shutdown_reboot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="0_shutdown_parse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0_abnormal_shutdown_reboot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_sleep_abnormal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="0_shutdown_parse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_sleep_abnormal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="common_sop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="0_shutdown_parse" />
       <option name="ENV_FILES" value="" />
@@ -102,28 +165,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shutdown_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="0_shutdown_parse" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/shutdown_util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="web_help (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="0_shutdown_parse" />
       <option name="ENV_FILES" value="" />
@@ -146,42 +187,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="web_help" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="0_shutdown_parse" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_help.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.prepare_commit" />
-        <item itemvalue="Python.common_sop" />
-        <item itemvalue="Python.shutdown_util" />
+        <item itemvalue="Python.0_abnormal_shutdown_reboot" />
+        <item itemvalue="Python.1_sleep_abnormal" />
         <item itemvalue="Python.web_help (1)" />
-        <item itemvalue="Python.web_help" />
+        <item itemvalue="Python.common_sop" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
   </component>

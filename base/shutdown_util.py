@@ -120,7 +120,7 @@ def wakeup_check_rule_1(folder_path):
 
     # 解析HTML文件
     headers, rows = parse_html_table(file_path)
-    target_list = ['41', 'Critical', 'BugcheckCode:0x0']
+    target_list = ['1', 'Critical', 'BugcheckCode:0x0']
     match_check = False
     check_result = ''
     for row in rows:

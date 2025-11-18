@@ -1,3 +1,6 @@
+是这两场景：
+异常 关机/重启
+睡眠/休眠 异常
 
 match = re.search(r'\d+\.\d+', OS_Version_ID)
 
