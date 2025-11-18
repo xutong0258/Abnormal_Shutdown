@@ -4,6 +4,22 @@ from base.fileOP import *
 from base.web_help import *
 from base.svctx_parse import *
 
+path_dir = os.path.dirname(__file__)
+
+table_file = 'table.yaml'
+table_file = os.path.join(path_dir, table_file)
+table_dict = read_file_dict(table_file)
+
+def get_list_text_line(input_list, text):
+    text = text.lower()
+    text_line = None
+    for item in input_list:
+        item = item.lower()
+        # logger.info(f'item:{item}')
+        if text in item:
+            text_line = item
+    return text_line
+
 def shutdown_check_rule_1(folder_path):
     logger.info(f'folder_path:{folder_path}')
 
@@ -52,33 +68,37 @@ def shutdown_check_rule_3(folder_path):
     logger.info(f'match_case_3:{match_case_3}')
     return match_case_3
 
-def check_ShutdownID_01(folder_path):
-    is_ShutdownID_01 = False
+def check_ShutdownID(folder_path, log_path):
     logger.info(f'folder_path:{folder_path}')
-    return_dict = None
-    out_dict_ec = {'rule_name': 'shutdown_check_rule_4',
-                'Exception': '此次关机事件是由EC这边拉电执行的',
-                'Debug Solution': ''}
-
-    out_dict = {'rule_name': 'shutdown_check_rule_4',
-                'Exception': '此关机/重启不是EC这边拉电导致的',
-                'Debug Solution': ''}
-
     target_file = 'ShutDownID(LBG).txt'
     target_file = get_file_path_by_dir(folder_path, target_file)
 
-    log_line = get_file_content_list(target_file)
-    target_str = '0x01'
-    count = get_list_text_count(log_line, target_str)
-    if count == 0:
-        return_dict = out_dict_ec
-        is_ShutdownID_01 = False
-    else:
-        return_dict = out_dict
-        is_ShutdownID_01 = True
+    if target_file is None:
+        return
 
-    logger.info(f'return_dict:{return_dict}')
-    return is_ShutdownID_01
+    log_lines = get_file_content_list(target_file)
+    target_str = 'The last 1st:'
+    text_line = get_list_text_line(log_lines, target_str)
+    logger.info(f'text_line:{text_line}')
+
+    ShutdownID = text_line.replace('the last 1st:', '')
+    tmp_list = ShutdownID.split('(')
+    ShutdownID = tmp_list[0].strip()
+    logger.info(f'ShutdownID:{ShutdownID}')
+
+    # ShutdownID = '04'
+    if '0X' not in ShutdownID:
+        ShutdownID = f'0x{ShutdownID}'
+
+    # logger.info(f'table_dict:{table_dict}')
+    result_dic = table_dict.get(ShutdownID, None)
+    logger.info(f'result_dic:{result_dic}')
+    if result_dic is not None:
+        file_name = 'result.yaml'
+        file_name = os.path.join(log_path, file_name)
+
+        dump_file(file_name, result_dic)
+    return
 
 def check_is_abnormal_shutdown(folder_path):
     is_abnormal_shutdown = False
@@ -129,6 +149,6 @@ def wakeup_check_rule_1(folder_path):
     logger.info(f'check_result:{check_result}')
     return
 if __name__ == '__main__':
-    folder_path = r'D:\00\04_异常关机重启唤不醒\log\ALADDIN'
-    shutdown_check_rule_3(folder_path)
+    folder_path = r'D:\00\04_异常关机重启唤不醒\01_From_Jian\BIOSandECLog'
+    check_ShutdownID(folder_path)
     pass
