@@ -6,26 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="47a7c56e-3d14-440a-b23b-8521960fcd91" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Automatic/Automatic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_Sysinfo/sys_info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Process/case_04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_Storage/case_05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Pnp/case_06.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_ACPI/case_07.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_NDIS/case_08.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_USB/case_09.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_WHEA_0x124/case_10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_power_0x9f_3/case_11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Power_0x9f_4/case_12.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_DPC/case_13.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_locks_0xE2/case_14.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSOD_schema.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/BSOD_Cause_Driver_Matrix.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0_abnormal_shutdown_reboot.py" beforeDir="false" afterPath="$PROJECT_DIR$/0_abnormal_shutdown_reboot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/AdvancedWinDbgInterface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/cell_command.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/componet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/contants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/count_all_subfolders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/fileOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/fileOP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/folder_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/folder_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/one_step_sop.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/base/shutdown_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/shutdown_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/svctx_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/svctx_parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/util.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/base/web_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/web_help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_sop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_sop/common_sop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,8 +185,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.prepare_commit" />
-        <item itemvalue="Python.0_abnormal_shutdown_reboot" />
         <item itemvalue="Python.1_sleep_abnormal" />
+        <item itemvalue="Python.0_abnormal_shutdown_reboot" />
         <item itemvalue="Python.web_help (1)" />
         <item itemvalue="Python.common_sop" />
       </list>

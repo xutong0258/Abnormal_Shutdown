@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 from Evtx.Evtx import Evtx
 from base.logger import *
-from base.helper import *
+
 
 def parse_event_record(xml_str):
     root = ET.fromstring(xml_str)

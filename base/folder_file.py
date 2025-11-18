@@ -142,6 +142,27 @@ def replace_file():
         cmd_excute(command)
     return
 
+def get_file_path_by_dir(folder_path, target_file_name):
+    # 要遍历的文件路径
+    file_path = None
+    target_file_path = None
+    for root, dirs, files in os.walk(folder_path):
+        for dir in dirs:
+            path = os.path.join(root, dir)
+            if '.' in path and '.git' not in path and '.idea' not in path:
+                # print(f"del: {path}")
+                pass
+
+        for file in files:
+            file_path = os.path.join(root, file)
+            # print(file_path)
+            if target_file_name.lower() in file_path.lower() :
+                # logger.info(f"target file: {file_path}")
+                target_file_path = file_path
+                break
+    logger.info(f"target_file_path: {target_file_path}")
+    return target_file_path
+
 def get_latest_file_path_by_dir(folder_path, target_file):
     # 要遍历的文件路径
     target_file_path = None

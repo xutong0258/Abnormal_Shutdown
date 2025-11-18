@@ -5,8 +5,6 @@ import json
 import os
 import platform
 import re
-from base.helper import *
-from base.contants import *
 
 def get_DPC_Timeout_Cout_cpu_P1_0(input_list):
     # logger.info(f'input_list:{input_list}')

@@ -5,11 +5,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
-from logger import *
 from bs4 import BeautifulSoup
 import csv
-# from base.logger import *
-from base.helper import *
+from base.logger import *
+from base.folder_file import *
 
 def parse_html_table(html_file):
     # 读取HTML文件内容
