@@ -56,7 +56,7 @@ def parse_dynamic_table(html_path):
         WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.ID, "summary-table"))
         )
-        logger.info(f'WebDriverWait')
+        logger.info(f'WebDriverWait end')
         # 存储所有表格数据的列表
         all_tables = []
         

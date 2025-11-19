@@ -28,8 +28,8 @@ src_dir_list = [r'G:\BSOD_Debug_SOP_0911\1. Automatic\1.1 0x3b_Context Memory Co
                 ]
 
 if __name__ == '__main__':
-    # folder_path = r'D:\00\04_异常关机重启唤不醒\log\ALADDIN'
     folder_path = r'D:\00\04_异常关机重启唤不醒\异常关机重启_log\OneDrive_8_2025-10-30\JINGWEI2_IML-SVT-LE46081L004-41A6B8AB\ThinkPad E14 Gen 6_PF5XNHNZ_2025_10_20_08_04_12'
+    folder_path = r'D:\00\04_异常关机重启唤不醒\异常关机重启_log\ALADDIN'
     is_abnormal_shutdown = check_is_abnormal_shutdown(folder_path)
     logger.info(f'is_abnormal_shutdown:{is_abnormal_shutdown}')
 
