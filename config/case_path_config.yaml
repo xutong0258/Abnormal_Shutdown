@@ -11,18 +11,13 @@
     'performance':
       'PATH': 'C:\XXXX'
 
-'03_单双烤':
-    'Intel':
-      'PATH': 'C:\XXXX'
-    'AMD':
-      'PATH': 'C:\XXXX'
-    'GPU':
-      'PATH': 'C:\XXXX'
-    'performance':
-      'PATH': 'C:\XXXX'
 
-'04_异常关机重启唤不醒':
-    'PATH': 'C:\Windows'
+'04_异常关机重启':
+    'PATH': 'D:\0_shutdown_parse\test_data\01_异常关机重启_log\ALADDIN'
+
+'04_异常唤不醒':
+    'PATH': 'D:\0_shutdown_parse\test_data\01_异常关机重启_log\ALADDIN'
+
 
 '05_SW_Hung':
     'PATH': 'C:\Windows'

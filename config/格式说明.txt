@@ -1,0 +1,3 @@
+#define S5_ID				                    0x01	// Shutdown ID for SB SLP_S5 signal
+英文说明部分以// 开头
+数字ID 和//之间需要有空格或者制表符 

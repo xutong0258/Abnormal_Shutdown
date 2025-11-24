@@ -4,12 +4,15 @@ from utils.logger_util import *
 from base.fileOP import *
 from base.web_help import *
 from base.svctx_parse import *
+from base.translator_help import *
 
 path_dir = os.path.dirname(__file__)
 
 table_file = 'table.yaml'
 table_file = os.path.join(CONFIG_PATH, table_file)
-table_dict = read_file_dict(table_file)
+
+if os.path.exists(table_file):
+    table_dict = read_file_dict(table_file)
 
 def get_list_text_line(input_list, text):
     text = text.lower()
@@ -95,13 +98,7 @@ def check_ShutdownID(folder_path, log_path):
     result_dic['ShutdownID'] = ShutdownID
 
     logger.info(f'result_dic:{result_dic}')
-
-    if result_dic is not None:
-        file_name = 'result.yaml'
-        file_name = os.path.join(log_path, file_name)
-
-        dump_file(file_name, result_dic)
-    return
+    return result_dic
 
 def check_is_abnormal_shutdown(folder_path):
     is_abnormal_shutdown = False
@@ -134,22 +131,47 @@ def check_is_abnormal_shutdown(folder_path):
         is_abnormal_shutdown = True
     return is_abnormal_shutdown
 
-def wakeup_check_rule_1(folder_path):
-    logger.info(f'folder_path:{folder_path}')
+def parese_shutdown_cfg_to_dict():
+    file = 'Shutdown_ID.txt'
+    file = os.path.join(CONFIG_PATH, file)
+    log_lines = get_file_content_list(file)
+    # logger.info(f'log_lines:{log_lines}')
+    total_dict = dict()
+    for log_line in log_lines:
+        log_line = log_line.strip()
+        if not log_line.startswith('//') and len(log_line) > 0:
+            cell_dict = {}
+            # logger.info(f'log_line:{log_line}')
+            tmp_list = log_line.split('//')
+            # logger.info(f'tmp_list:{tmp_list}')
+            shutdown_id = tmp_list[0]
 
-    target_file = 'KernelPowerReport.html'
-    file_path = get_file_path_by_dir(folder_path, target_file)
+            root_casue = ''
+            root_casue_ch = ''
+            if len(tmp_list) >= 2:
+                root_casue = tmp_list[1].strip()
+                root_casue_ch = get_translator_zh_CN(root_casue)
 
-    # 解析HTML文件
-    headers, rows = parse_html_table(file_path)
-    target_list = ['1', 'Critical', 'BugcheckCode:0x0']
-    match_check = False
-    check_result = ''
-    for row in rows:
-        if '1' == row[1]:
-            check_result = row[4]
-            break
-    logger.info(f'check_result:{check_result}')
+            match = re.search(r'0x(.*)\t', shutdown_id)
+
+            if match:
+                shutdown_id = match.group()
+                # logger.info(f'shutdown_id:{shutdown_id}')
+            else:
+                match = re.search(r'0x(.*) ', shutdown_id)
+            shutdown_id = shutdown_id.strip()
+            shutdown_id = shutdown_id.replace(' ', '\t')
+            shutdown_id = shutdown_id.split('\t')[-1]
+
+            logger.info(f'shutdown_id:{shutdown_id}')
+            cell_dict = {'root_casue': root_casue, '原因': root_casue_ch}
+            total_dict[shutdown_id] = cell_dict
+
+    file_name = 'table.yaml'
+    file_name = os.path.join(CONFIG_PATH, file_name)
+
+    dump_file(file_name, total_dict)
     return
 if __name__ == '__main__':
+    parese_shutdown_cfg_to_dict()
     pass
