@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47a7c56e-3d14-440a-b23b-8521960fcd91" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_abnormal_shutdown_reboot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_sleep_abnormal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/folder_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/folder_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/shutdown_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/shutdown_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/svctx_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/svctx_parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/table.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/web_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/web_help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/count_all_subfolders.py" beforeDir="false" afterPath="$PROJECT_DIR$/count_all_subfolders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_sleep_abnormal.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_sleep_abnormal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +75,7 @@
       <recent name="D:\0_shutdown_parse\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02_sleep_abnormal">
+  <component name="RunManager" selected="Python.prepare_commit">
     <configuration name="01_abnormal_shutdown_reboot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="0_shutdown_parse" />
       <option name="ENV_FILES" value="" />
@@ -196,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prepare_commit" />
         <item itemvalue="Python.02_sleep_abnormal" />
         <item itemvalue="Python.web_help" />
         <item itemvalue="Python.date_help" />
         <item itemvalue="Python.01_abnormal_shutdown_reboot" />
-        <item itemvalue="Python.prepare_commit" />
       </list>
     </recent_temporary>
   </component>

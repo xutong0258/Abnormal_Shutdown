@@ -21,7 +21,7 @@ if __name__ == '__main__':
     result_dict, latest_reason = get_wakeup_reason(folder_path)
     logger.info(f'latest_reason:{latest_reason}')
 
-    file_name = 'result.yaml'
+    file_name = '唤不醒_result.yaml'
     file_name = os.path.join(path_dir, file_name)
 
     dump_file(file_name, result_dict)
