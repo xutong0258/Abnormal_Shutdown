@@ -1,0 +1,771 @@
+﻿'
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:slp="http://schemas.microsoft.com/sleepstudy/2012" xmlns:js="http://microsoft.com/kernel">
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="ReportUtcOffset" content="+8:00"/>
+	<title>DetailsLog</title>
+	<style type="text/css">
+      body {
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      background-color: #ffffff;
+
+      color: #000000;
+
+      margin: 0em 5.5em 0em 5.5em;
+
+      }
+
+
+
+      h1 {
+
+      color: #00b0f0;
+
+      font-size: 42pt;
+
+      }
+
+
+
+      h2 {
+
+      font-size: 15pt;
+
+      color: #00b0f0;
+
+      margin-top: 2em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      h3, h4, h5 {
+
+      margin-top: 1em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      td {
+
+      padding-left: 0.3em;
+
+      padding-right: 0.3em;
+
+      }
+
+
+
+      .nobatts {
+
+      margin-top: 1.5em;
+
+      font-family: Segoe UI Semibold;
+
+      background: #f0f0f0;
+
+      color: #a0a0a0;
+
+      font-size: 13pt;
+
+      padding-left:0.4em;
+
+      padding-right:0.4em;
+
+      padding-top:0.3em;
+
+      padding-bottom:0.3em;
+
+      }
+
+
+
+      .explanation {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 1em;
+
+      }
+
+
+
+      .explanation2 {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 0.1em;
+
+      }
+
+
+
+      table {
+
+      border-width: 0;
+
+      table-layout: fixed;
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      color: #000000;
+
+      margin-bottom: 10px;
+
+      }
+
+
+
+      table.defs { background-color: transparent; }
+
+
+
+      caption {
+
+      padding: 5px 0px 5px 0px;
+
+      font-weight: bold;
+
+      }
+
+
+
+      thead {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      }
+
+
+
+      text {
+
+      font-size: 12pt;
+
+      font-family: Segoe UI Light;
+
+      fill: #00b0f0;
+
+      }
+
+
+
+      .centered { text-align: center; }
+
+
+
+      .label {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      color: #acacac;
+
+      }
+
+
+
+      #legend {
+
+      background-color: #fafafa;
+
+      margin-bottom: 2.2em;
+
+      border-spacing: 0;
+
+      }
+
+
+
+      #legend thead { background-color: #dfdfdf; }
+
+      #legend td, #legend th {
+
+      padding: 4px 5px 4px 5px;
+
+      }
+
+
+
+      #legend .spanner {
+
+      text-align: center;
+
+      background-color: #dfdfdf;
+
+      font-size: 85%;
+
+      font-weight: bold;
+
+      padding: 3px;
+
+      }
+
+
+
+      #legend td.percent { text-align: left; }
+
+
+
+      .graphline-none, .graphline-dotted, .graphline-solid, .graphline-neutral,
+
+      .graphline-low, .graphline-moderate, .graphline-high .graphline-nonclean {
+
+      font-weight: bold;
+
+      }
+
+
+
+      .graphline-none { color: #7d7d7d; }
+
+      .graphline-dotted { color: #7d7d7d; }
+
+      .graphline-solid { color: #7d7d7d; }
+
+      .graphline-neutral { color: #7d7d7d; }
+
+      .graphline-low { color: #2a7a2a; }
+
+      .graphline-moderate { color: #cc7e06; }
+
+      .graphline-high { color: #970d00; }
+
+      .graphline-nonclean { color: #FF00FF;}
+
+
+
+      .top-blocker td, #summary-table td {
+
+      padding: 0;
+
+      }
+
+
+
+      .top-blocker td a, #summary-table td a {
+
+      padding: 0 0.3em 0 0.3em;
+
+      display: block;
+
+      height: 100%;
+
+      }
+
+
+
+      .top-blocker a:link, .top-blocker a:active, .top-blocker a:visited,
+
+      #summary-table a:link, #summary-table a:active, #summary-table a:visited {
+
+      text-decoration: none;
+
+      color: #000000;
+
+      }
+
+
+
+      #summary-table th,
+
+      .session-summary th,
+
+      .top-blocker th,
+
+      .pdc-phases th,
+
+      .device-components th {
+
+      background-color: transparent;
+
+      }
+
+
+
+      #summary-table tbody tr,
+
+      .session-summary tbody tr,
+
+      .top-blocker tbody tr,
+
+      .device-components tbody tr,
+
+      .pdc-phases tbody tr {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-neutral,
+
+      .session-summary .row-neutral,
+
+      .top-blocker .row-neutral,
+
+      .device-components .row-neutral,
+
+      .pdc-phases .row-neutral {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-low,
+
+      .session-summary .row-low,
+
+      .top-blocker .row-low,
+
+      .device-components .row-low,
+
+      .pdc-phases .row-low {
+
+      background-color: #ace3ac;
+
+      }
+
+
+
+      #summary-table .row-moderate,
+
+      .session-summary .row-moderate,
+
+      .top-blocker .row-moderate,
+
+      .device-components .row-moderate,
+
+      .pdc-phases .row-moderate {
+
+      background-color: #fcd69a;
+
+      }
+
+
+
+      #summary-table .row-high,
+
+      .session-summary .row-high,
+
+      .top-blocker .row-high,
+
+      .device-components .row-high,
+
+      .pdc-phases .row-high {
+
+      background-color: #ffb2aa;
+
+      }
+
+
+
+      #summary-table .row-info,
+
+      .session-summary .row-info,
+
+      .top-blocker .row-info,
+
+      .device-components .row-info,
+
+      .pdc-phases .row-info {
+
+      background-color: #86becb;
+
+      }
+
+
+
+      #summary-table .row-nonclean,
+
+      .session-summary .row-nonclean,
+
+      .top-blocker .row-nonclean,
+
+      .device-components .row-nonclean,
+
+      .pdc-phases .row-nonclean {
+
+      background-color: #EE82EE;
+
+      }
+
+
+
+      #summary-table tbody tr:hover,
+
+      .top-blocker tbody tr:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-neutral:hover,
+
+      .top-blocker .row-neutral:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-low:hover,
+
+      .top-blocker .row-low:hover {
+
+      background-color: #caedca;
+
+      }
+
+
+
+      #summary-table .row-moderate:hover,
+
+      .top-blocker .row-moderate:hover {
+
+      background-color: #fde5c0;
+
+      }
+
+
+
+      #summary-table .row-high:hover,
+
+      .top-blocker .row-high:hover {
+
+      background-color: #ffd5d1;
+
+      }
+
+
+
+      #summary-table .row-nonclean:hover,
+
+      .top-blocker .row-nonclean:hover {
+
+      background-color:#D8BFD8;
+
+      }
+
+
+
+      td.colBreak { padding: 0; width: 0.15em; }
+
+
+
+      td.state { text-align: center; }
+
+      td.chargeOrDrain { text-align: center; }
+
+      td.percentLowPowerStateTime { text-align: center; }
+
+      td.percent { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.hms { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.dateTime { font-family: Segoe UI Symbol; }
+
+      td.blank { background-color: #ffffff; }
+
+      td.nullValue { text-align: center; }
+
+      td.center { text-align: center; }
+
+
+
+      col.percent { width: 7.5em; }
+
+
+
+      td.mw {
+
+      font-family: Segoe UI Symbol;
+
+      text-align: center;
+
+      }
+
+
+
+      td.acdc { text-align: center; }
+
+
+
+      span.date {
+
+      display: inline-block;
+
+      width: 5.5em;
+
+      }
+
+
+
+      span.time {
+
+      text-align: right;
+
+      width: 4.2em;
+
+      display: inline-block;
+
+      }
+
+
+
+      text { font-family: Segoe UI Symbol; }
+
+
+
+      .noncontigbreak {
+
+      height: 0.3em;
+
+      background-color: #1A1A28;
+
+      }
+
+
+
+      div.analysis-container {
+
+      margin-bottom: 10px;
+
+      border: 1px solid #ffffff;
+
+      }
+
+
+
+      div.analysis-container h1 {
+
+      padding: 10px;
+
+      font-size: 14px;
+
+      margin: 0px;
+
+      cursor: pointer;
+
+      }
+
+
+
+      div.analysis-body, div.analysis-body-collapsed {
+
+      padding: 10px;
+
+      }
+
+
+
+      div.analysis-body { display: block; }
+
+      div.analysis-body-collapsed { display: none; }
+
+
+
+      .analysis-base { background-color: #f7f7f7; }
+
+      .analysis-base h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-base h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-neutral { background-color: #f0f0f0; }
+
+      .analysis-neutral h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-neutral h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-high { background-color: #ffd5d1; }
+
+      .analysis-high h1 { background-color: #ff8e83; color: #970d00; }
+
+      .analysis-high h1:hover { background-color: #ffb2aa; }
+
+
+
+      .analysis-moderate { background-color: #fde5c0; }
+
+      .analysis-moderate h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .analysis-moderate h1:hover { background-color: #fcd69a; }
+
+
+
+      .analysis-low { background-color: #caedca; }
+
+      .analysis-low h1 { background-color: #8fd98f; color: #2a7a2a; }
+
+      .analysis-low h1:hover { background-color: #ace3ac; }
+
+
+
+      .analysis-info { background-color: #b2e5e5; }
+
+      .analysis-info h1 { background-color: #1aa3a3; color: #0b5e56; }
+
+      .analysis-info h1:hover { background-color: #86becb; }
+
+
+
+      .analysis-empty {
+
+      color: #a0a0a0;
+
+      font-size: 14px;
+
+      padding: 10px;
+
+      font-weight: bold;
+
+      }
+
+    </style><style>
+
+      .expander { font-family: "Consolas"; font-weight: bold; }
+
+      .warning { background-color: #fde5c0; }
+
+      .warning h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .warning h1:hover { background-color: #fcd69a; }
+
+      .error { background-color: #ffd5d1; }
+
+      .error h1 { background-color: #ff8e83; color: #970d00; }
+
+      .error h1:hover { background-color: #ffb2aa; }
+
+      code { font-family: "Consolas"; }
+
+
+
+      pre {
+
+      font-family: "Consolas";
+
+      display: block;
+
+      border: 1px dashed #b0b0b0;
+
+      padding: 10px;
+
+      margin: 10px 0px 10px 0px;
+
+      }
+
+
+
+      .scroll-top-button {
+
+      border: 2px solid #000000;
+
+      background-color: #ffffff;
+
+      padding: 5px 3px 5px 3px;
+
+      font-size: 12px;
+
+      font-family: Segoe UI Semibold;
+
+      float: left;
+
+      border-radius: 18px;
+
+      margin-top: 15px;
+
+      margin-left: -60px;
+
+      }
+
+
+
+      .scroll-top-button:hover {
+
+      background-color: #f0f0f0;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .scenario-details, .scenario-details-collapsed {
+
+      padding: 5px;
+
+      background-color: #f0f0f0;
+
+      width: 864px;
+
+      border-left: 2px solid #ffffff;
+
+      }
+
+
+
+      .scenario-details { display: block; }
+
+      .scenario-details-collapsed { display: none; }
+
+
+
+      .details-expander {
+
+      background-color: #dfdfdf;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .details-expander:hover { background-color: #cfcfcf; }
+
+
+
+      ul { list-style: square; }
+
+    </style>
+	</head>
+	<body>
+    
+	<h1 id="logtitle">System Wakeup Settings</h1>
+	
+'<div><h3>Devices are configured to wake the system</h3><div class="explanation">HID Keyboard Device<br>HID Keyboard Device (002)<br>HID-compliant mouse (001)<br><br></div><div><div><h3>What woke the system from the last sleep transition</h3><div class="explanation">唤醒历史记录计数 - 1<br>唤醒历史记录 [0]<br>  唤醒源计数 - 1<br>  唤醒源 [0]<br>    类型: 固定功能<br>    电源按钮<br></div><div><div><h3>Wake timer</h3><div class="explanation">系统中不存在活动的唤醒计时器。<br></div><div><div><h3>RTC Wake Setting</h3><div class="explanation">    当前交流电源设置索引: Enable<br>    当前直流电源设置索引: Disable<br></div><div><div><h3>Auto Maintenance - allow wake machine at specific time</h3><div class="explanation">Enable ()</div><div><div><h3>App and Driver Power Request </h3><div class="explanation">DISPLAY:<br>无。<br><br>SYSTEM:<br>无。<br><br>AWAYMODE:<br>无。<br><br>执行:<br>无。<br><br>PERFBOOST:<br>[DRIVER] 旧的内核调用程序<br>Power Manager<br><br>ACTIVELOCKSCREEN:<br>无。<br><br></div><div><div><h3>Task Schedule list</h3><table id="summary-table"><thead id="logtablehead"><tr><th>TaskPath</th><th>TaskName</th><th>State</th></tr></thead><tbody id="logtableboday"><tr class="row-neutral"><td>\Microsoft\Windows\.NET Framework\</td><td>.NET Framework NGEN v4.0.30319 64 Critical</td><td>Disabled</td></tr><tr class="row-neutral"><td>\Microsoft\Windows\.NET Framework\</td><td>.NET Framework NGEN v4.0.30319 Critical</td><td>Disabled</td></tr><tr class="row-neutral"><td>\Microsoft\Windows\InstallService\</td><td>WakeUpAndContinueUpdates</td><td>Disabled</td></tr><tr class="row-neutral"><td>\Microsoft\Windows\InstallService\</td><td>WakeUpAndScanForUpdates</td><td>Disabled</td></tr><tr class="row-neutral"><td>\Microsoft\Windows\SharedPC\</td><td>Account Cleanup</td><td>Disabled</td></tr><tr class="row-neutral"><td>\Microsoft\Windows\UpdateOrchestrator\</td><td>Schedule Wake To Work</td><td>Disabled</td></tr></tbody></table></div></body></html>

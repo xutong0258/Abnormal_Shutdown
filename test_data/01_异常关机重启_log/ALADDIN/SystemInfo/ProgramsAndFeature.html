@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:js="http://microsoft.com/kernel" xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:slp="http://schemas.microsoft.com/sleepstudy/2012">
+ <head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="+8:00" name="ReportUtcOffset"/>
+  <title>
+   DetailsLog
+  </title>
+  <style type="text/css">
+   body {
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      background-color: #ffffff;
+
+      color: #000000;
+
+      margin: 0em 5.5em 0em 5.5em;
+
+      }
+
+
+
+      h1 {
+
+      color: #00b0f0;
+
+      font-size: 42pt;
+
+      }
+
+
+
+      h2 {
+
+      font-size: 15pt;
+
+      color: #00b0f0;
+
+      margin-top: 2em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      h3, h4, h5 {
+
+      margin-top: 1em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      td {
+
+      padding-left: 0.3em;
+
+      padding-right: 0.3em;
+
+      }
+
+
+
+      .nobatts {
+
+      margin-top: 1.5em;
+
+      font-family: Segoe UI Semibold;
+
+      background: #f0f0f0;
+
+      color: #a0a0a0;
+
+      font-size: 13pt;
+
+      padding-left:0.4em;
+
+      padding-right:0.4em;
+
+      padding-top:0.3em;
+
+      padding-bottom:0.3em;
+
+      }
+
+
+
+      .explanation {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 1em;
+
+      }
+
+
+
+      .explanation2 {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 0.1em;
+
+      }
+
+
+
+      table {
+
+      border-width: 0;
+
+      table-layout: fixed;
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      color: #000000;
+
+      margin-bottom: 10px;
+
+      }
+
+
+
+      table.defs { background-color: transparent; }
+
+
+
+      caption {
+
+      padding: 5px 0px 5px 0px;
+
+      font-weight: bold;
+
+      }
+
+
+
+      thead {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      }
+
+
+
+      text {
+
+      font-size: 12pt;
+
+      font-family: Segoe UI Light;
+
+      fill: #00b0f0;
+
+      }
+
+
+
+      .centered { text-align: center; }
+
+
+
+      .label {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      color: #acacac;
+
+      }
+
+
+
+      #legend {
+
+      background-color: #fafafa;
+
+      margin-bottom: 2.2em;
+
+      border-spacing: 0;
+
+      }
+
+
+
+      #legend thead { background-color: #dfdfdf; }
+
+      #legend td, #legend th {
+
+      padding: 4px 5px 4px 5px;
+
+      }
+
+
+
+      #legend .spanner {
+
+      text-align: center;
+
+      background-color: #dfdfdf;
+
+      font-size: 85%;
+
+      font-weight: bold;
+
+      padding: 3px;
+
+      }
+
+
+
+      #legend td.percent { text-align: left; }
+
+
+
+      .graphline-none, .graphline-dotted, .graphline-solid, .graphline-neutral,
+
+      .graphline-low, .graphline-moderate, .graphline-high .graphline-nonclean {
+
+      font-weight: bold;
+
+      }
+
+
+
+      .graphline-none { color: #7d7d7d; }
+
+      .graphline-dotted { color: #7d7d7d; }
+
+      .graphline-solid { color: #7d7d7d; }
+
+      .graphline-neutral { color: #7d7d7d; }
+
+      .graphline-low { color: #2a7a2a; }
+
+      .graphline-moderate { color: #cc7e06; }
+
+      .graphline-high { color: #970d00; }
+
+      .graphline-nonclean { color: #FF00FF;}
+
+
+
+      .top-blocker td, #summary-table td {
+
+      padding: 0;
+
+      }
+
+
+
+      .top-blocker td a, #summary-table td a {
+
+      padding: 0 0.3em 0 0.3em;
+
+      display: block;
+
+      height: 100%;
+
+      }
+
+
+
+      .top-blocker a:link, .top-blocker a:active, .top-blocker a:visited,
+
+      #summary-table a:link, #summary-table a:active, #summary-table a:visited {
+
+      text-decoration: none;
+
+      color: #000000;
+
+      }
+
+
+
+      #summary-table th,
+
+      .session-summary th,
+
+      .top-blocker th,
+
+      .pdc-phases th,
+
+      .device-components th {
+
+      background-color: transparent;
+
+      }
+
+
+
+      #summary-table tbody tr,
+
+      .session-summary tbody tr,
+
+      .top-blocker tbody tr,
+
+      .device-components tbody tr,
+
+      .pdc-phases tbody tr {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-neutral,
+
+      .session-summary .row-neutral,
+
+      .top-blocker .row-neutral,
+
+      .device-components .row-neutral,
+
+      .pdc-phases .row-neutral {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-low,
+
+      .session-summary .row-low,
+
+      .top-blocker .row-low,
+
+      .device-components .row-low,
+
+      .pdc-phases .row-low {
+
+      background-color: #ace3ac;
+
+      }
+
+
+
+      #summary-table .row-moderate,
+
+      .session-summary .row-moderate,
+
+      .top-blocker .row-moderate,
+
+      .device-components .row-moderate,
+
+      .pdc-phases .row-moderate {
+
+      background-color: #fcd69a;
+
+      }
+
+
+
+      #summary-table .row-high,
+
+      .session-summary .row-high,
+
+      .top-blocker .row-high,
+
+      .device-components .row-high,
+
+      .pdc-phases .row-high {
+
+      background-color: #ffb2aa;
+
+      }
+
+
+
+      #summary-table .row-info,
+
+      .session-summary .row-info,
+
+      .top-blocker .row-info,
+
+      .device-components .row-info,
+
+      .pdc-phases .row-info {
+
+      background-color: #86becb;
+
+      }
+
+
+
+      #summary-table .row-nonclean,
+
+      .session-summary .row-nonclean,
+
+      .top-blocker .row-nonclean,
+
+      .device-components .row-nonclean,
+
+      .pdc-phases .row-nonclean {
+
+      background-color: #EE82EE;
+
+      }
+
+
+
+      #summary-table tbody tr:hover,
+
+      .top-blocker tbody tr:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-neutral:hover,
+
+      .top-blocker .row-neutral:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-low:hover,
+
+      .top-blocker .row-low:hover {
+
+      background-color: #caedca;
+
+      }
+
+
+
+      #summary-table .row-moderate:hover,
+
+      .top-blocker .row-moderate:hover {
+
+      background-color: #fde5c0;
+
+      }
+
+
+
+      #summary-table .row-high:hover,
+
+      .top-blocker .row-high:hover {
+
+      background-color: #ffd5d1;
+
+      }
+
+
+
+      #summary-table .row-nonclean:hover,
+
+      .top-blocker .row-nonclean:hover {
+
+      background-color:#D8BFD8;
+
+      }
+
+
+
+      td.colBreak { padding: 0; width: 0.15em; }
+
+
+
+      td.state { text-align: center; }
+
+      td.chargeOrDrain { text-align: center; }
+
+      td.percentLowPowerStateTime { text-align: center; }
+
+      td.percent { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.hms { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.dateTime { font-family: Segoe UI Symbol; }
+
+      td.blank { background-color: #ffffff; }
+
+      td.nullValue { text-align: center; }
+
+      td.center { text-align: center; }
+
+
+
+      col.percent { width: 7.5em; }
+
+
+
+      td.mw {
+
+      font-family: Segoe UI Symbol;
+
+      text-align: center;
+
+      }
+
+
+
+      td.acdc { text-align: center; }
+
+
+
+      span.date {
+
+      display: inline-block;
+
+      width: 5.5em;
+
+      }
+
+
+
+      span.time {
+
+      text-align: right;
+
+      width: 4.2em;
+
+      display: inline-block;
+
+      }
+
+
+
+      text { font-family: Segoe UI Symbol; }
+
+
+
+      .noncontigbreak {
+
+      height: 0.3em;
+
+      background-color: #1A1A28;
+
+      }
+
+
+
+      div.analysis-container {
+
+      margin-bottom: 10px;
+
+      border: 1px solid #ffffff;
+
+      }
+
+
+
+      div.analysis-container h1 {
+
+      padding: 10px;
+
+      font-size: 14px;
+
+      margin: 0px;
+
+      cursor: pointer;
+
+      }
+
+
+
+      div.analysis-body, div.analysis-body-collapsed {
+
+      padding: 10px;
+
+      }
+
+
+
+      div.analysis-body { display: block; }
+
+      div.analysis-body-collapsed { display: none; }
+
+
+
+      .analysis-base { background-color: #f7f7f7; }
+
+      .analysis-base h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-base h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-neutral { background-color: #f0f0f0; }
+
+      .analysis-neutral h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-neutral h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-high { background-color: #ffd5d1; }
+
+      .analysis-high h1 { background-color: #ff8e83; color: #970d00; }
+
+      .analysis-high h1:hover { background-color: #ffb2aa; }
+
+
+
+      .analysis-moderate { background-color: #fde5c0; }
+
+      .analysis-moderate h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .analysis-moderate h1:hover { background-color: #fcd69a; }
+
+
+
+      .analysis-low { background-color: #caedca; }
+
+      .analysis-low h1 { background-color: #8fd98f; color: #2a7a2a; }
+
+      .analysis-low h1:hover { background-color: #ace3ac; }
+
+
+
+      .analysis-info { background-color: #b2e5e5; }
+
+      .analysis-info h1 { background-color: #1aa3a3; color: #0b5e56; }
+
+      .analysis-info h1:hover { background-color: #86becb; }
+
+
+
+      .analysis-empty {
+
+      color: #a0a0a0;
+
+      font-size: 14px;
+
+      padding: 10px;
+
+      font-weight: bold;
+
+      }
+  </style>
+  <style>
+   .expander { font-family: "Consolas"; font-weight: bold; }
+
+      .warning { background-color: #fde5c0; }
+
+      .warning h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .warning h1:hover { background-color: #fcd69a; }
+
+      .error { background-color: #ffd5d1; }
+
+      .error h1 { background-color: #ff8e83; color: #970d00; }
+
+      .error h1:hover { background-color: #ffb2aa; }
+
+      code { font-family: "Consolas"; }
+
+
+
+      pre {
+
+      font-family: "Consolas";
+
+      display: block;
+
+      border: 1px dashed #b0b0b0;
+
+      padding: 10px;
+
+      margin: 10px 0px 10px 0px;
+
+      }
+
+
+
+      .scroll-top-button {
+
+      border: 2px solid #000000;
+
+      background-color: #ffffff;
+
+      padding: 5px 3px 5px 3px;
+
+      font-size: 12px;
+
+      font-family: Segoe UI Semibold;
+
+      float: left;
+
+      border-radius: 18px;
+
+      margin-top: 15px;
+
+      margin-left: -60px;
+
+      }
+
+
+
+      .scroll-top-button:hover {
+
+      background-color: #f0f0f0;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .scenario-details, .scenario-details-collapsed {
+
+      padding: 5px;
+
+      background-color: #f0f0f0;
+
+      width: 864px;
+
+      border-left: 2px solid #ffffff;
+
+      }
+
+
+
+      .scenario-details { display: block; }
+
+      .scenario-details-collapsed { display: none; }
+
+
+
+      .details-expander {
+
+      background-color: #dfdfdf;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .details-expander:hover { background-color: #cfcfcf; }
+
+
+
+      ul { list-style: square; }
+  </style>
+ </head>
+ <body>
+  <h1 id="logtitle">
+   Programs And Features
+  </h1>
+  <table id="summary-table">
+   <thead id="logtablehead">
+    <tr>
+     <th>
+      Name
+     </th>
+     <th>
+      Version
+     </th>
+     <th>
+      InstallSource
+     </th>
+    </tr>
+   </thead>
+   <tbody id="logtableboday">
+    <tr class="row-neutral">
+     <td>
+      Windows Driver Package - Synaptics Incorporated (WUDFRd) Biometric  (11/01/2023 6.0.41.0136)
+     </td>
+     <td>
+      11/01/2023 6.0.41.0136
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      BurnInTest Windows v10
+     </td>
+     <td>
+      10.2.1013.0
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft ASP.NET Core 6.0.24 Shared Framework (x64)
+     </td>
+     <td>
+      6.0.24.23518
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{0FF11E75-EC3D-3BDB-8DA7-C1A5B60CEBCF}v6.0.24.23518\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2022 X64 Additional Runtime - 14.38.33135
+     </td>
+     <td>
+      14.38.33135
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{19AFE054-CA83-45D5-A9DB-4108EF4BD391}v14.38.33135\packages\vcRuntimeAdditional_amd64\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET AppHost Pack - 6.0.24 (x64_arm)
+     </td>
+     <td>
+      48.96.4014
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{1FA4B528-1098-4053-A32A-17F7997117E1}v48.96.4014\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Host FX Resolver - 6.0.24 (x64)
+     </td>
+     <td>
+      48.96.4014
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{1FACB768-CB68-43B5-BB26-1898E1959990}v48.96.4014\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Targeting Pack - 6.0.24 (x64)
+     </td>
+     <td>
+      48.96.4014
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{21590878-2CA4-42E0-81D6-31E28B1E3DD2}v48.96.4014\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030
+     </td>
+     <td>
+      11.0.61030
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{37B8F9C7-03FB-3253-8781-2517C99D7C00}v11.0.61030\packages\vcRuntimeAdditional_amd64\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40660
+     </td>
+     <td>
+      12.0.40660
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{5740BD44-B58D-321A-AFC0-6D3D4556DD6C}v12.0.40660\packages\vcRuntimeAdditional_amd64\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Runtime - 6.0.24 (x64)
+     </td>
+     <td>
+      48.96.4014
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{666FEAD5-547D-451D-B0A7-4DCB3648D53D}v48.96.4014\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft.NET.Sdk.tvOS.Manifest-6.0.300
+     </td>
+     <td>
+      125.191.42208
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{69B1631F-5F98-4C6C-B757-46B0ECC8EDBB}v125.191.42208\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET AppHost Pack - 6.0.24 (x64)
+     </td>
+     <td>
+      48.96.4014
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{7C8AFC50-BE14-433A-B491-721C0D758886}v48.96.4014\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft.NET.Workload.Emscripten.Manifest
+     </td>
+     <td>
+      48.27.39026
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{7CBF3451-2A94-4DFD-8355-6B97C5EABB26}v48.27.39026\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Windows Desktop Runtime - 6.0.24 (x64)
+     </td>
+     <td>
+      48.96.4015
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{956E923F-CC4F-423A-BE6C-18F5FA7D8D5B}v48.96.4015\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Windows Desktop Targeting Pack - 6.0.24 (x64)
+     </td>
+     <td>
+      48.96.4015
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{9B0C393F-656A-4FFB-BE37-2C6515A9F542}v48.96.4015\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)
+     </td>
+     <td>
+      24.0.28113
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{A7036CFB-B403-4598-85FF-D397ABB88173}v24.0.28113\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.38.33135
+     </td>
+     <td>
+      14.38.33135
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{AA0C8AB5-7297-4D46-A0D9-08096FE59E46}v14.38.33135\packages\vcRuntimeMinimum_amd64\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft.NET.Sdk.iOS.Manifest-6.0.300
+     </td>
+     <td>
+      125.191.42208
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{BBA9C60D-75E7-44EE-922D-069AA85C8EC1}v125.191.42208\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET 6.0 Templates 6.0.416 (x64)
+     </td>
+     <td>
+      24.6.58632
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{BDC09B7A-048E-46E0-90B8-A1E1ADAA400D}v24.6.58632\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft ASP.NET Core 6.0.24 Targeting Pack (x64)
+     </td>
+     <td>
+      6.0.24.23518
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{C275C665-F897-343B-B100-B9883993AE15}v6.0.24.23518\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft.NET.Sdk.Maui.Manifest-6.0.300
+     </td>
+     <td>
+      24.78.0
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{C2863251-07E7-44A0-B2F8-4C4E2AF08937}v24.78.0\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      3DMark
+     </td>
+     <td>
+      2.30.8348.0
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{C96DD042-82A9-444C-B55A-B88E44B937D2}v2.30.8348.0\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40660
+     </td>
+     <td>
+      12.0.40660
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{CB0836EC-B072-368D-82B2-D3470BF95707}v12.0.40660\packages\vcRuntimeMinimum_amd64\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET AppHost Pack - 6.0.24 (x64_arm64)
+     </td>
+     <td>
+      48.96.4014
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{CB8E1848-54CA-4FBD-B20C-A166508FD185}v48.96.4014\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030
+     </td>
+     <td>
+      11.0.61030
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}v11.0.61030\packages\vcRuntimeMinimum_amd64\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Toolset 6.0.416 (x64)
+     </td>
+     <td>
+      24.6.58632
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{D21AF2D3-CAAE-4E14-B8CF-9BCB5877B5DD}v24.6.58632\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Host - 6.0.24 (x64)
+     </td>
+     <td>
+      48.96.4014
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{D3A225CD-8D33-41B4-A171-BD75FA1CBC43}v48.96.4014\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2010  x64 Redistributable - 10.0.30319
+     </td>
+     <td>
+      10.0.30319
+     </td>
+     <td>
+      c:\8eaf8f46ced253f95a9d0f7f4488d9\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      PTATLR64
+     </td>
+     <td>
+      1.0.0.0
+     </td>
+     <td>
+      C:\Program Files\Intel Corporation\Intel(R)PTAT\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft.NET.Workload.Mono.Toolchain.Manifest
+     </td>
+     <td>
+      48.3.40665
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{DBB48387-294D-4179-81CB-B06A97F8CD8E}v48.3.40665\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET AppHost Pack - 6.0.24 (x64_x86)
+     </td>
+     <td>
+      48.96.4014
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{DBB9F1F6-A3A0-4399-AC93-F17AABCB537C}v48.96.4014\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft.NET.Sdk.Android.Manifest-6.0.300
+     </td>
+     <td>
+      128.75.16384
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{F4E591C2-810D-4D36-B4F9-DC55103019D1}v128.75.16384\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft.NET.Sdk.macOS.Manifest-6.0.300
+     </td>
+     <td>
+      100.255.42208
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{F590F859-2F6A-4559-9D09-A8FC442AF16B}v100.255.42208\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft.NET.Sdk.MacCatalyst.Manifest-6.0.300
+     </td>
+     <td>
+      125.191.42208
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{FEB76EC8-02F4-46E6-8031-BE403766D13A}v125.191.42208\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Intel(R)PowerAndThermalAnalysisTool
+     </td>
+     <td>
+      02.01.1011
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Edge
+     </td>
+     <td>
+      122.0.2365.106
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Edge Update
+     </td>
+     <td>
+      1.3.185.27
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Edge WebView2 Runtime
+     </td>
+     <td>
+      122.0.2365.106
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET SDK 6.0.416 (x64)
+     </td>
+     <td>
+      6.4.1623.51848
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2010  x86 Redistributable - 10.0.30319
+     </td>
+     <td>
+      10.0.30319
+     </td>
+     <td>
+      c:\49698f71437595e169dd\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.38.33135
+     </td>
+     <td>
+      14.38.33135
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{286DC39B-5FB7-4AFF-9DD4-22DB47664CD7}v14.38.33135\packages\vcRuntimeMinimum_x86\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Futuremark SystemInfo
+     </td>
+     <td>
+      5.77.1320.0
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{307E4986-8A26-412E-A59D-66AFEE5A6110}v5.77.1320.0\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030
+     </td>
+     <td>
+      11.0.61030.0
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.38.33135
+     </td>
+     <td>
+      14.38.33135.0
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40660
+     </td>
+     <td>
+      12.0.40660.0
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      PL23XX USB-to-Serial
+     </td>
+     <td>
+      4.0.8
+     </td>
+     <td>
+      D:\MAKIMG\PL23XX_Prolific_DriverInstaller_v408\PL23XX-M_LogoDriver_Setup_408_20220725.exe
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40660
+     </td>
+     <td>
+      12.0.40660
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{7DAD0258-515C-3DD4-8964-BD714199E0F7}v12.0.40660\packages\vcRuntimeAdditional_x86\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2022 X86 Additional Runtime - 14.38.33135
+     </td>
+     <td>
+      14.38.33135
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{9C19C103-7DB1-44D1-A039-2C076A633A38}v14.38.33135\packages\vcRuntimeAdditional_x86\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+     </td>
+     <td>
+      11.0.61030
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\packages\vcRuntimeAdditional_x86\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+     </td>
+     <td>
+      11.0.61030
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\packages\vcRuntimeMinimum_x86\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      AutoRI 3.21.5.4
+     </td>
+     <td>
+      3.21.5.4
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      3DMark
+     </td>
+     <td>
+      2.30.8348.0
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.38.33135
+     </td>
+     <td>
+      14.38.33135.0
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030
+     </td>
+     <td>
+      11.0.61030.0
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40660
+     </td>
+     <td>
+      12.0.40660
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{E30D8B21-D82D-3211-82CC-0F0A5D1495E8}v12.0.40660\packages\vcRuntimeMinimum_x86\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40660
+     </td>
+     <td>
+      12.0.40660.0
+     </td>
+     <td>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

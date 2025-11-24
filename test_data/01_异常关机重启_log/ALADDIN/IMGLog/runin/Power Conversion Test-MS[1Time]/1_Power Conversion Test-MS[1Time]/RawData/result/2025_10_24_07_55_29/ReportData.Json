@@ -1,0 +1,1140 @@
+{
+  "TestTaskOverviews": [
+    {
+      "TestItem": "Modern Standby",
+      "DelayTime": 90,
+      "SleepTime": 120,
+      "Pass": 1,
+      "Fail": 0,
+      "Remained": 0,
+      "Duration": "00.00:03:48",
+      "StartTime": "2025-10-24 07:57:01",
+      "EndTime": "2025-10-24 08:00:50",
+      "Status": "PASS",
+      "Records": [
+        {
+          "Tag": "Ms_1_1",
+          "Duration": "00.00:03:48",
+          "StartTime": "2025-10-24 07:57:01",
+          "EndTime": "2025-10-24 08:00:50",
+          "Status": "PASS",
+          "PowerState": "Charging",
+          "NetworkState": "EthernetConnected",
+          "ErrorDesc": "Success Exit",
+          "Remark": "",
+          "LowPowerSwState": "-",
+          "LowPowerHwState": "-",
+          "FilterWarnEvents": [
+            {
+              "TimeStamp": "2025-10-24T07:59:09.8919913",
+              "EventType": "WndProcNotify",
+              "EventId": "32772",
+              "EventSource": "537",
+              "Level": "Warning",
+              "EventTask": "4",
+              "GeneralInfo": "Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 528
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09.8010108",
+              "EventType": "WndProcNotify",
+              "EventId": "32772",
+              "EventSource": "537",
+              "Level": "Warning",
+              "EventTask": "4",
+              "GeneralInfo": "Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 527
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09.4771806",
+              "EventType": "WndProcNotify",
+              "EventId": "32772",
+              "EventSource": "537",
+              "Level": "Warning",
+              "EventTask": "4",
+              "GeneralInfo": "Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}\\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 526
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09.4157833",
+              "EventType": "WndProcNotify",
+              "EventId": "32772",
+              "EventSource": "537",
+              "Level": "Warning",
+              "EventTask": "4",
+              "GeneralInfo": "Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{ad498944-762f-11d0-8dcb-00c04fc3358c}\\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 525
+            }
+          ],
+          "FilterCriticalEvents": [
+            {
+              "TimeStamp": "2025-10-24T07:59:11",
+              "EventType": "EventLog",
+              "EventId": "8200",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]License acquisition failure details. \r\nhr=0x80072EE7",
+              "ParamInfo": "hr=0x80072EE7;00010001(0x00000000, 07:59:11:268 - https://activation-v2.sls.microsoft.com/SLActivateProduct/SLActivateProduct.asmx?configextension=DM)\r\n00020001(0x00000000, 07:59:11:269)\r\n00030001(0x00000000, 07:59:11:270 - https://activation-v2.sls.microsoft.com)\r\n00030002(0x00000000, 07:59:11:270 - 0)\r\n00040001(0x00000000, 07:59:11:270 - https://activation-v2.sls.microsoft.com)\r\n00040002(0x00000000, 07:59:11:270 - 1, <NULL>, <NULL>, <NULL>)\r\n00050002(0x80072F94, 07:59:11:273 - 0, 1)\r\n00040006(0x00000001, 07:59:11:273 - 0, https://activation-v2.sls.microsoft.com, <N/A>, <N/A>)\r\n00020005(0x00000000, 07:59:11:273 - 0)\r\n00020008(0x80072EE7, 07:59:11:285 - SOAPAction: \"http://microsoft.com/SL/ProductActivationService/IssueToken\"\r\nContent-Type: text/xml; charset=utf-8\r\n, <soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenc=\"http://schemas.xmlsoap.org/soap/encoding/\"><soap:Body><RequestSecurityToken xmlns=\"http://schemas.xmlsoap.org/ws/2004/04/security/trust\"><TokenType>ProductActivation</TokenType><RequestType>http://schemas.xmlsoap.org/ws/2004/04/security/trust/Issue</RequestType><UseKey><Values xmlns:q1=\"http://schemas.xmlsoap.org/ws/2004/04/security/trust\" soapenc:arrayType=\"q1:TokenEntry[1]\"><TokenEntry><Name>PublishLicense</Name><Value>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</Value></TokenEntry></Values></UseKey><Claims><Values xmlns:q1=\"http://schemas.xmlsoap.org/ws/2004/04/security/trust\" soapenc:arrayType=\"q1:TokenEntry[17]\"><TokenEntry><Name>SessionKey</Name><Value>F5sug+WJBOxTe3QupJD9Ylejwdn9SBLgFK1tojcLD85vaYiPf+i/uGN7JbcrIj/d5/RZG+c4il1ebkmyYog/zI5mHSb1PtkQI4p6+7ztDqRiiAhVrVWiMvgc3UHpOmBN1fFqL+VfvOepyVVTYgQ7lKraH4ZDQqWP+/Pt/+uhLsmL6vA7KqSAcCwx/SItQgtE+sF36Exyu4Bp+9/8xd0hnDYB5hMEwt7qhdFGS6Lt4ViSNHPj67UzagOoLh+vNMWjPm1oLxZ690NEtIIKGwsiijK0coIjfrlh1O6RWS/dq7kc7PgMl7p2tsUpsh+0DTJUbotHq2/U/+VWnZZLr8VTPw==</Value></TokenEntry><TokenEntry><Name>BindingType</Name><Value>CgOlI5iTZj5gae3qi8z5NeIzFBkcntCnPHkc5VTVmLE=</Value></TokenEntry><TokenEntry><Name>Binding</Name><Value>maZhf+MtADNMguOK3y2x8w1L2Shz/8MOFZkau9rjSfo8GWBub0BVQIGqiqwmwEOiBep/l8/U9B0J6QmanXj4uYHztvRZdHBiRBLJmfH1mKWIdWuvT7/EQcjSMRF5/5Hw</Value></TokenEntry><TokenEntry><Name>ProductKey</Name><Value>sMu1c4w1HI9VsT5Ltrk6xBwwM/wEb7aEs/hOtP6Y6bc=</Value></TokenEntry><TokenEntry><Name>ProductKeyType</Name><Value>CgOlI5iTZj5gae3qi8z5NbEQqlDRI4zPHwS0/xZAOUE=</Value></TokenEntry><TokenEntry><Name>ProductKeyActConfigId</Name><Value>AbbPPY5hO/+tSx6EemtnXCBj4wW0fV32RN5d+mWFzl7tE2+HdErB8qP+zBNEPUAELw2+8YEstv+Tn9oBFEyQOuLqJD+nYGfJNyKl1kJ/CVo=</Value></TokenEntry><TokenEntry><Name>SppSvcVersion</Name><Value>x6WmIMVNrPs2bOyum+jn7Q==</Value></TokenEntry><TokenEntry><Name>otherInfoPublic.licenseCategory</Name><Value>43RG9rYYBkS0E6ZD/pGUe7ymiZeqgfRP0bmTCkS86jw=</Value></TokenEntry><TokenEntry><Name>otherInfoPrivate.licenseCategory</Name><Value>43RG9rYYBkS0E6ZD/pGUey+JXFqYqPAmyNctrqkHECc=</Value></TokenEntry><TokenEntry><Name>otherInfoPublic.sysprepAction</Name><Value>LQ+/LsV5OtymQSdIFBP8YQ==</Value></TokenEntry><TokenEntry><Name>otherInfoPrivate.sysprepAction</Name><Value>LQ+/LsV5OtymQSdIFBP8YQ==</Value></TokenEntry><TokenEntry><Name>ClientInformation</Name><Value>7xi1VICAj87geI+OU0A/gJfhRJkZnNJk1iNHkVTfbQhnAJrzIZq+sM32qOM4ZgRHV2e4IZXjuhuQqIYtNs6VuA==</Value></TokenEntry><TokenEntry><Name>ReferralInformation</Name><Value>nmnmeHjk2VxHVdutYc3PFykOC1951ToVpLqKvwkhKQehtQIdFnDu3wYG9ur1R0d7jz+4v0U+Umlix8TZDF7vAQ==</Value></TokenEntry><TokenEntry><Name>ClientSystemTime</Name><Value>HGNyzo+tIKwIH2lM07D253cVC/hU6MDNUiogDAdWaCc=</Value></TokenEntry><TokenEntry><Name>ClientSystemTimeUtc</Name><Value>HGNyzo+tIKwIH2lM07D253cVC/hU6MDNUiogDAdWaCc=</Value></TokenEntry><TokenEntry><Name>otherInfoPublic.secureStoreId</Name><Value>41a5u3VJYFlPhyFia7pSHihZbSs6cNFNCfAqQ3bUaZJzH9D5ofSKl9kGJjKFfgSG</Value></TokenEntry><TokenEntry><Name>otherInfoPrivate.secureStoreId</Name><Value>41a5u3VJYFlPhyFia7pSHihZbSs6cNFNCfAqQ3bUaZJzH9D5ofSKl9kGJjKFfgSG</Value></TokenEntry></Values></Claims></RequestSecurityToken></soap:Body></soap:Envelope>)\r\n00010002(0x80072EE7, 07:59:11:285 - <NULL>)\r\n00010003(0x80072EE7, 07:59:11:285)\r\n",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 545
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:11",
+              "EventType": "EventLog",
+              "EventId": "1014",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]Acquisition of End User License failed. hr=0x80072EE7\r\nSku Id=fe74f55b-0338-41d6-b267-4a201abe7285",
+              "ParamInfo": "hr=0x80072EE7;fe74f55b-0338-41d6-b267-4a201abe7285",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 546
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:11",
+              "EventType": "EventLog",
+              "EventId": "8198",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]License Activation (slui.exe) failed with the following error code:\r\nhr=0x80004005\r\nCommand-line arguments:\r\nRuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=fe74f55b-0338-41d6-b267-4a201abe7285;NotificationInterval=1440;Trigger=NetworkAvailable",
+              "ParamInfo": "hr=0x80004005;RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=fe74f55b-0338-41d6-b267-4a201abe7285;NotificationInterval=1440;Trigger=NetworkAvailable",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 548
+            },
+            {
+              "TimeStamp": "2025-10-24T07:58:24",
+              "EventType": "EventLog",
+              "EventId": "4321",
+              "EventSource": "NetBT",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[System]The name \"LAPTOP-QFNRBVBT:0\" could not be registered on the interface with IP address 150.213.3.24.\r\nThe computer with the IP address 150.213.2.169 did not allow the name to be claimed by\r\nthis computer.",
+              "ParamInfo": ";LAPTOP-QFNRBVBT:0;150.213.3.24;150.213.2.169",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 537
+            },
+            {
+              "TimeStamp": "2025-10-24T07:58:24",
+              "EventType": "EventLog",
+              "EventId": "4321",
+              "EventSource": "NetBT",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[System]The name \"LAPTOP-QFNRBVBT:20\" could not be registered on the interface with IP address 150.213.3.24.\r\nThe computer with the IP address 150.213.2.169 did not allow the name to be claimed by\r\nthis computer.",
+              "ParamInfo": ";LAPTOP-QFNRBVBT:20;150.213.3.24;150.213.2.169",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 538
+            }
+          ],
+          "AllEvents": [
+            {
+              "TimeStamp": "2025-10-24T07:59:41",
+              "EventType": "EventLog",
+              "EventId": "16384",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Information",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]Successfully scheduled Software Protection service for re-start at 2025-10-24T23:58:41Z. Reason: RulesEngine.",
+              "ParamInfo": "2025-10-24T23:58:41Z;RulesEngine",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 549
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:11",
+              "EventType": "EventLog",
+              "EventId": "10016",
+              "EventSource": "DCOM",
+              "Level": "Warning",
+              "EventTask": "0",
+              "GeneralInfo": "[System]The description for Event ID '10016' in Source 'DCOM' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'machine-default', 'Local', 'Activation', '{F87B28F1-DA9A-4F35-8EC0-800EFCF26B83}', '{0868DC9B-D9A2-4F64-9362-133CEA201299}', 'NT AUTHORITY', 'NETWORK SERVICE', 'S-1-5-20', 'LocalHost (Using LRPC)', 'Unavailable', 'Unavailable'",
+              "ParamInfo": "machine-default;Local;Activation;{F87B28F1-DA9A-4F35-8EC0-800EFCF26B83};{0868DC9B-D9A2-4F64-9362-133CEA201299};NT AUTHORITY;NETWORK SERVICE;S-1-5-20;LocalHost (Using LRPC);Unavailable;Unavailable",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 542
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:11",
+              "EventType": "EventLog",
+              "EventId": "8200",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]License acquisition failure details. \r\nhr=0x80072EE7",
+              "ParamInfo": "hr=0x80072EE7;00010001(0x00000000, 07:59:11:268 - https://activation-v2.sls.microsoft.com/SLActivateProduct/SLActivateProduct.asmx?configextension=DM)\r\n00020001(0x00000000, 07:59:11:269)\r\n00030001(0x00000000, 07:59:11:270 - https://activation-v2.sls.microsoft.com)\r\n00030002(0x00000000, 07:59:11:270 - 0)\r\n00040001(0x00000000, 07:59:11:270 - https://activation-v2.sls.microsoft.com)\r\n00040002(0x00000000, 07:59:11:270 - 1, <NULL>, <NULL>, <NULL>)\r\n00050002(0x80072F94, 07:59:11:273 - 0, 1)\r\n00040006(0x00000001, 07:59:11:273 - 0, https://activation-v2.sls.microsoft.com, <N/A>, <N/A>)\r\n00020005(0x00000000, 07:59:11:273 - 0)\r\n00020008(0x80072EE7, 07:59:11:285 - SOAPAction: \"http://microsoft.com/SL/ProductActivationService/IssueToken\"\r\nContent-Type: text/xml; charset=utf-8\r\n, <soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenc=\"http://schemas.xmlsoap.org/soap/encoding/\"><soap:Body><RequestSecurityToken xmlns=\"http://schemas.xmlsoap.org/ws/2004/04/security/trust\"><TokenType>ProductActivation</TokenType><RequestType>http://schemas.xmlsoap.org/ws/2004/04/security/trust/Issue</RequestType><UseKey><Values xmlns:q1=\"http://schemas.xmlsoap.org/ws/2004/04/security/trust\" soapenc:arrayType=\"q1:TokenEntry[1]\"><TokenEntry><Name>PublishLicense</Name><Value>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</Value></TokenEntry></Values></UseKey><Claims><Values xmlns:q1=\"http://schemas.xmlsoap.org/ws/2004/04/security/trust\" soapenc:arrayType=\"q1:TokenEntry[17]\"><TokenEntry><Name>SessionKey</Name><Value>F5sug+WJBOxTe3QupJD9Ylejwdn9SBLgFK1tojcLD85vaYiPf+i/uGN7JbcrIj/d5/RZG+c4il1ebkmyYog/zI5mHSb1PtkQI4p6+7ztDqRiiAhVrVWiMvgc3UHpOmBN1fFqL+VfvOepyVVTYgQ7lKraH4ZDQqWP+/Pt/+uhLsmL6vA7KqSAcCwx/SItQgtE+sF36Exyu4Bp+9/8xd0hnDYB5hMEwt7qhdFGS6Lt4ViSNHPj67UzagOoLh+vNMWjPm1oLxZ690NEtIIKGwsiijK0coIjfrlh1O6RWS/dq7kc7PgMl7p2tsUpsh+0DTJUbotHq2/U/+VWnZZLr8VTPw==</Value></TokenEntry><TokenEntry><Name>BindingType</Name><Value>CgOlI5iTZj5gae3qi8z5NeIzFBkcntCnPHkc5VTVmLE=</Value></TokenEntry><TokenEntry><Name>Binding</Name><Value>maZhf+MtADNMguOK3y2x8w1L2Shz/8MOFZkau9rjSfo8GWBub0BVQIGqiqwmwEOiBep/l8/U9B0J6QmanXj4uYHztvRZdHBiRBLJmfH1mKWIdWuvT7/EQcjSMRF5/5Hw</Value></TokenEntry><TokenEntry><Name>ProductKey</Name><Value>sMu1c4w1HI9VsT5Ltrk6xBwwM/wEb7aEs/hOtP6Y6bc=</Value></TokenEntry><TokenEntry><Name>ProductKeyType</Name><Value>CgOlI5iTZj5gae3qi8z5NbEQqlDRI4zPHwS0/xZAOUE=</Value></TokenEntry><TokenEntry><Name>ProductKeyActConfigId</Name><Value>AbbPPY5hO/+tSx6EemtnXCBj4wW0fV32RN5d+mWFzl7tE2+HdErB8qP+zBNEPUAELw2+8YEstv+Tn9oBFEyQOuLqJD+nYGfJNyKl1kJ/CVo=</Value></TokenEntry><TokenEntry><Name>SppSvcVersion</Name><Value>x6WmIMVNrPs2bOyum+jn7Q==</Value></TokenEntry><TokenEntry><Name>otherInfoPublic.licenseCategory</Name><Value>43RG9rYYBkS0E6ZD/pGUe7ymiZeqgfRP0bmTCkS86jw=</Value></TokenEntry><TokenEntry><Name>otherInfoPrivate.licenseCategory</Name><Value>43RG9rYYBkS0E6ZD/pGUey+JXFqYqPAmyNctrqkHECc=</Value></TokenEntry><TokenEntry><Name>otherInfoPublic.sysprepAction</Name><Value>LQ+/LsV5OtymQSdIFBP8YQ==</Value></TokenEntry><TokenEntry><Name>otherInfoPrivate.sysprepAction</Name><Value>LQ+/LsV5OtymQSdIFBP8YQ==</Value></TokenEntry><TokenEntry><Name>ClientInformation</Name><Value>7xi1VICAj87geI+OU0A/gJfhRJkZnNJk1iNHkVTfbQhnAJrzIZq+sM32qOM4ZgRHV2e4IZXjuhuQqIYtNs6VuA==</Value></TokenEntry><TokenEntry><Name>ReferralInformation</Name><Value>nmnmeHjk2VxHVdutYc3PFykOC1951ToVpLqKvwkhKQehtQIdFnDu3wYG9ur1R0d7jz+4v0U+Umlix8TZDF7vAQ==</Value></TokenEntry><TokenEntry><Name>ClientSystemTime</Name><Value>HGNyzo+tIKwIH2lM07D253cVC/hU6MDNUiogDAdWaCc=</Value></TokenEntry><TokenEntry><Name>ClientSystemTimeUtc</Name><Value>HGNyzo+tIKwIH2lM07D253cVC/hU6MDNUiogDAdWaCc=</Value></TokenEntry><TokenEntry><Name>otherInfoPublic.secureStoreId</Name><Value>41a5u3VJYFlPhyFia7pSHihZbSs6cNFNCfAqQ3bUaZJzH9D5ofSKl9kGJjKFfgSG</Value></TokenEntry><TokenEntry><Name>otherInfoPrivate.secureStoreId</Name><Value>41a5u3VJYFlPhyFia7pSHihZbSs6cNFNCfAqQ3bUaZJzH9D5ofSKl9kGJjKFfgSG</Value></TokenEntry></Values></Claims></RequestSecurityToken></soap:Body></soap:Envelope>)\r\n00010002(0x80072EE7, 07:59:11:285 - <NULL>)\r\n00010003(0x80072EE7, 07:59:11:285)\r\n",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 545
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:11",
+              "EventType": "EventLog",
+              "EventId": "1014",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]Acquisition of End User License failed. hr=0x80072EE7\r\nSku Id=fe74f55b-0338-41d6-b267-4a201abe7285",
+              "ParamInfo": "hr=0x80072EE7;fe74f55b-0338-41d6-b267-4a201abe7285",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 546
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:11",
+              "EventType": "EventLog",
+              "EventId": "1003",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Information",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]The Software Protection service has completed licensing status check.\r\nApplication Id=55c92734-d682-4d71-983e-d6ec3f16059f\r\nLicensing Status=\n1: 01eb852c-424d-4060-94b8-c10d799d7364, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n2: 040fa323-92b1-4baf-97a2-5b67feaefddb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n3: 0724cb7d-3437-4cb7-93cb-830375d0079d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n4: 0ad2ac98-7bb9-4201-8d92-312299201369, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n5: 19de9b2f-0166-4abb-9534-56ea69a80edb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n6: 1a9a717a-cf13-4ba5-83c3-0fe25fa868d5, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n7: 221a02da-e2a1-4b75-864c-0a4410a33fdf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n8: 265f3fad-6a1c-4bdd-ae30-c75efa556ccb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n9: 291ece0e-9c38-40ca-a9e1-32cc7ec19507, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n10: 2936d1d2-913a-4542-b54e-ce5a602a2a38, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n11: 2c293c26-a45a-4a2a-a350-c69a67097529, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n12: 2de67392-b7a7-462a-b1ca-108dd189f588, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n13: 2ffd8952-423e-4903-b993-72a1aa44cf82, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n14: 30a42c86-b7a0-4a34-8c90-ff177cb2acb7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n15: 345a5db0-d94f-4e3b-a0c0-7c42f7bc3ebf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n16: 3502365a-f88a-4ba4-822a-5769d3073b65, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n17: 377333b1-8b5d-48d6-9679-1225c872d37c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n18: 3df374ef-d444-4494-a5a1-4b0d9fd0e203, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n19: 3ebce241-ea87-4946-8a4f-80d00e921dff, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n20: 3f1afc82-f8ac-4f6c-8005-1d233e606eee, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n21: 4322a811-697c-44dc-865e-3e2fdcb86009, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n22: 49cd895b-53b2-4dc4-a5f7-b18aa019ad37, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n23: 4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n24: 4f3da0d2-271d-4508-ae81-626b60809a38, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n25: 5d78c4e9-aeb3-4b40-8ac2-6a6005e0ad6d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n26: 60b3ec1b-9545-4921-821f-311b129dd6f6, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n27: 613d217f-7f13-4268-9907-1662339531cd, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n28: 62f0c100-9c53-4e02-b886-a3528ddfe7f6, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n29: 6365275e-368d-46ca-a0ef-fc0404119333, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n30: 721f9237-9341-4453-a661-09e8baa6cca5, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n31: 73111121-5638-40f6-bc11-f1d7b0d64300, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n32: 7a802526-4c94-4bd1-ba14-835a1aca2120, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n33: 7cb546c0-c7d5-44d8-9a5c-69ecdd782b69, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n34: 80083eae-7031-4394-9e88-4901973d56fe, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n35: 82bbc092-bc50-4e16-8e18-b74fc486aec3, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n36: 8ab9bdd1-1f67-4997-82d9-8878520837d9, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n37: 8b351c9c-f398-4515-9900-09df49427262, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n38: 90da7373-1c51-430b-bf26-c97e9c5cdc31, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n39: 92fb8726-92a8-4ffc-94ce-f82e07444653, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n40: 95dca82f-385d-4d39-b85b-5c73fa285d6f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n41: 97cde3ae-e908-4b59-ac96-a17645c5b57e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n42: a48938aa-62fa-4966-9d44-9f04da3f72f2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n43: b0773a15-df3a-4312-9ad2-83d69648e356, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n44: b4bfe195-541e-4e64-ad23-6177f19e395e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n45: b68e61d2-68ca-4757-be45-0cc2f3e68eee, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n46: bd3762d7-270d-4760-8fb3-d829ca45278a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n47: c86d5194-4840-4dae-9c1c-0301003a5ab0, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n48: ca7df2e3-5ea0-47b8-9ac1-b1be4d8edd69, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n49: d552befb-48cc-4327-8f39-47d2d94f987c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n50: d6eadb3b-5ca8-4a6b-986e-35b550756111, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n51: df96023b-dcd9-4be2-afa0-c6c871159ebe, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n52: e0c42288-980c-4788-a014-c080d2e1926e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n53: e4db50ea-bda1-4566-b047-0ca50abc6f07, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n54: e558417a-5123-4f6f-91e7-385c1c7ca9d4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n55: e7a950a2-e548-4f10-bf16-02ec848e0643, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n56: eb6d346f-1c60-4643-b960-40ec31596c45, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n57: ec868e65-fadf-4759-b23e-93fe37f2cc29, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n58: ef51e000-2659-4f25-8345-3de70a9cf4c4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n59: f7af7d09-40e4-419c-a49b-eae366689ebd, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n60: fa755fe6-6739-40b9-8d84-6d0ea3b6d1ab, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n61: fe74f55b-0338-41d6-b267-4a201abe7285, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]\n\n",
+              "ParamInfo": "55c92734-d682-4d71-983e-d6ec3f16059f;\n1: 01eb852c-424d-4060-94b8-c10d799d7364, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n2: 040fa323-92b1-4baf-97a2-5b67feaefddb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n3: 0724cb7d-3437-4cb7-93cb-830375d0079d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n4: 0ad2ac98-7bb9-4201-8d92-312299201369, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n5: 19de9b2f-0166-4abb-9534-56ea69a80edb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n6: 1a9a717a-cf13-4ba5-83c3-0fe25fa868d5, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n7: 221a02da-e2a1-4b75-864c-0a4410a33fdf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n8: 265f3fad-6a1c-4bdd-ae30-c75efa556ccb, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n9: 291ece0e-9c38-40ca-a9e1-32cc7ec19507, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n10: 2936d1d2-913a-4542-b54e-ce5a602a2a38, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n11: 2c293c26-a45a-4a2a-a350-c69a67097529, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n12: 2de67392-b7a7-462a-b1ca-108dd189f588, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n13: 2ffd8952-423e-4903-b993-72a1aa44cf82, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n14: 30a42c86-b7a0-4a34-8c90-ff177cb2acb7, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n15: 345a5db0-d94f-4e3b-a0c0-7c42f7bc3ebf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n16: 3502365a-f88a-4ba4-822a-5769d3073b65, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n17: 377333b1-8b5d-48d6-9679-1225c872d37c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n18: 3df374ef-d444-4494-a5a1-4b0d9fd0e203, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n19: 3ebce241-ea87-4946-8a4f-80d00e921dff, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n20: 3f1afc82-f8ac-4f6c-8005-1d233e606eee, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n21: 4322a811-697c-44dc-865e-3e2fdcb86009, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n22: 49cd895b-53b2-4dc4-a5f7-b18aa019ad37, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n23: 4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n24: 4f3da0d2-271d-4508-ae81-626b60809a38, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n25: 5d78c4e9-aeb3-4b40-8ac2-6a6005e0ad6d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n26: 60b3ec1b-9545-4921-821f-311b129dd6f6, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n27: 613d217f-7f13-4268-9907-1662339531cd, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n28: 62f0c100-9c53-4e02-b886-a3528ddfe7f6, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n29: 6365275e-368d-46ca-a0ef-fc0404119333, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n30: 721f9237-9341-4453-a661-09e8baa6cca5, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n31: 73111121-5638-40f6-bc11-f1d7b0d64300, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n32: 7a802526-4c94-4bd1-ba14-835a1aca2120, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n33: 7cb546c0-c7d5-44d8-9a5c-69ecdd782b69, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n34: 80083eae-7031-4394-9e88-4901973d56fe, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n35: 82bbc092-bc50-4e16-8e18-b74fc486aec3, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n36: 8ab9bdd1-1f67-4997-82d9-8878520837d9, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n37: 8b351c9c-f398-4515-9900-09df49427262, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n38: 90da7373-1c51-430b-bf26-c97e9c5cdc31, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n39: 92fb8726-92a8-4ffc-94ce-f82e07444653, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n40: 95dca82f-385d-4d39-b85b-5c73fa285d6f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n41: 97cde3ae-e908-4b59-ac96-a17645c5b57e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n42: a48938aa-62fa-4966-9d44-9f04da3f72f2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n43: b0773a15-df3a-4312-9ad2-83d69648e356, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n44: b4bfe195-541e-4e64-ad23-6177f19e395e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n45: b68e61d2-68ca-4757-be45-0cc2f3e68eee, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n46: bd3762d7-270d-4760-8fb3-d829ca45278a, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n47: c86d5194-4840-4dae-9c1c-0301003a5ab0, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n48: ca7df2e3-5ea0-47b8-9ac1-b1be4d8edd69, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n49: d552befb-48cc-4327-8f39-47d2d94f987c, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n50: d6eadb3b-5ca8-4a6b-986e-35b550756111, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n51: df96023b-dcd9-4be2-afa0-c6c871159ebe, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n52: e0c42288-980c-4788-a014-c080d2e1926e, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n53: e4db50ea-bda1-4566-b047-0ca50abc6f07, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n54: e558417a-5123-4f6f-91e7-385c1c7ca9d4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n55: e7a950a2-e548-4f10-bf16-02ec848e0643, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n56: eb6d346f-1c60-4643-b960-40ec31596c45, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n57: ec868e65-fadf-4759-b23e-93fe37f2cc29, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n58: ef51e000-2659-4f25-8345-3de70a9cf4c4, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n59: f7af7d09-40e4-419c-a49b-eae366689ebd, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n60: fa755fe6-6739-40b9-8d84-6d0ea3b6d1ab, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]\n61: fe74f55b-0338-41d6-b267-4a201abe7285, 1, 1 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]\n\n",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 547
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:11",
+              "EventType": "EventLog",
+              "EventId": "8198",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]License Activation (slui.exe) failed with the following error code:\r\nhr=0x80004005\r\nCommand-line arguments:\r\nRuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=fe74f55b-0338-41d6-b267-4a201abe7285;NotificationInterval=1440;Trigger=NetworkAvailable",
+              "ParamInfo": "hr=0x80004005;RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=fe74f55b-0338-41d6-b267-4a201abe7285;NotificationInterval=1440;Trigger=NetworkAvailable",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 548
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:10.0383971",
+              "EventType": "WndProcNotify",
+              "EventId": "32768",
+              "EventSource": "537",
+              "Level": "Information",
+              "EventTask": "4",
+              "GeneralInfo": "Device enabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 532
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:10.0286257",
+              "EventType": "WndProcNotify",
+              "EventId": "32768",
+              "EventSource": "537",
+              "Level": "Information",
+              "EventTask": "4",
+              "GeneralInfo": "Device enabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{ad498944-762f-11d0-8dcb-00c04fc3358c}\\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 530
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:10.0286257",
+              "EventType": "WndProcNotify",
+              "EventId": "32768",
+              "EventSource": "537",
+              "Level": "Information",
+              "EventTask": "4",
+              "GeneralInfo": "Device enabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}\\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 531
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:10.0223131",
+              "EventType": "WndProcNotify",
+              "EventId": "32768",
+              "EventSource": "537",
+              "Level": "Information",
+              "EventTask": "4",
+              "GeneralInfo": "Device enabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 529
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:10",
+              "EventType": "EventLog",
+              "EventId": "16394",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Information",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]Offline downlevel migration succeeded.",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 544
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09.8919913",
+              "EventType": "WndProcNotify",
+              "EventId": "32772",
+              "EventSource": "537",
+              "Level": "Warning",
+              "EventTask": "4",
+              "GeneralInfo": "Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 528
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09.8010108",
+              "EventType": "WndProcNotify",
+              "EventId": "32772",
+              "EventSource": "537",
+              "Level": "Warning",
+              "EventTask": "4",
+              "GeneralInfo": "Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 527
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09.4771806",
+              "EventType": "WndProcNotify",
+              "EventId": "32772",
+              "EventSource": "537",
+              "Level": "Warning",
+              "EventTask": "4",
+              "GeneralInfo": "Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}\\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 526
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09.4157833",
+              "EventType": "WndProcNotify",
+              "EventId": "32772",
+              "EventSource": "537",
+              "Level": "Warning",
+              "EventTask": "4",
+              "GeneralInfo": "Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\\\?\\USB#VID_0BDA&PID_8153#02191ACF8#{ad498944-762f-11d0-8dcb-00c04fc3358c}\\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}",
+              "ParamInfo": "",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 525
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09",
+              "EventType": "EventLog",
+              "EventId": "1014",
+              "EventSource": "Microsoft-Windows-DNS-Client",
+              "Level": "Warning",
+              "EventTask": "1014",
+              "GeneralInfo": "[System]Name resolution for the name ctldl.windowsupdate.com timed out after none of the configured DNS servers responded. Client PID 5824.",
+              "ParamInfo": "ctldl.windowsupdate.com;128;0200000096D50102000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;5824",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 539
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09",
+              "EventType": "EventLog",
+              "EventId": "507",
+              "EventSource": "Microsoft-Windows-Kernel-Power",
+              "Level": "Information",
+              "EventTask": "158",
+              "GeneralInfo": "[System]The description for Event ID '507' in Source 'Microsoft-Windows-Kernel-Power' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'0', '119555648', '1108117542', '0', '0', '119555648', '0', '100', 'true', '1', '249779', '1783743', 'true', '0', '463343', 'false', 'true', '0', '7', '0', 'true', 'false', '3', 'false', '52610', '80000', '1', '86', '0', '18446744072692327408', '0', '0', '0', '0', '456569', 'true', '52610', '52610', '75871', '52610', '52610', '119478616', '80000', '80000', '80000', '80000', '4', '0', '0', '0', '0', '0'",
+              "ParamInfo": "0;119555648;1108117542;0;0;119555648;0;100;true;1;249779;1783743;true;0;463343;false;true;0;7;0;true;false;3;false;52610;80000;1;86;0;18446744072692327408;0;0;0;0;456569;true;52610;52610;75871;52610;52610;119478616;80000;80000;80000;80000;4;0;0;0;0;0",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 540
+            },
+            {
+              "TimeStamp": "2025-10-24T07:59:09",
+              "EventType": "EventLog",
+              "EventId": "566",
+              "EventSource": "Microsoft-Windows-Kernel-Power",
+              "Level": "Information",
+              "EventTask": "268",
+              "GeneralInfo": "[System]The description for Event ID '566' in Source 'Microsoft-Windows-Kernel-Power' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'86', '1', '2', '2', '119478616', '52610', '80000', '52610', '80000', '3', '0', 'true', '1'",
+              "ParamInfo": "86;1;2;2;119478616;52610;80000;52610;80000;3;0;true;1",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 541
+            },
+            {
+              "TimeStamp": "2025-10-24T07:58:24",
+              "EventType": "EventLog",
+              "EventId": "2504",
+              "EventSource": "Server",
+              "Level": "Warning",
+              "EventTask": "0",
+              "GeneralInfo": "[System]The server could not bind to the transport \\Device\\NetBT_Tcpip_{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}.",
+              "ParamInfo": "\\Device\\NetBT_Tcpip_{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 536
+            },
+            {
+              "TimeStamp": "2025-10-24T07:58:24",
+              "EventType": "EventLog",
+              "EventId": "4321",
+              "EventSource": "NetBT",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[System]The name \"LAPTOP-QFNRBVBT:0\" could not be registered on the interface with IP address 150.213.3.24.\r\nThe computer with the IP address 150.213.2.169 did not allow the name to be claimed by\r\nthis computer.",
+              "ParamInfo": ";LAPTOP-QFNRBVBT:0;150.213.3.24;150.213.2.169",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 537
+            },
+            {
+              "TimeStamp": "2025-10-24T07:58:24",
+              "EventType": "EventLog",
+              "EventId": "4321",
+              "EventSource": "NetBT",
+              "Level": "Error",
+              "EventTask": "0",
+              "GeneralInfo": "[System]The name \"LAPTOP-QFNRBVBT:20\" could not be registered on the interface with IP address 150.213.3.24.\r\nThe computer with the IP address 150.213.2.169 did not allow the name to be claimed by\r\nthis computer.",
+              "ParamInfo": ";LAPTOP-QFNRBVBT:20;150.213.3.24;150.213.2.169",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 538
+            },
+            {
+              "TimeStamp": "2025-10-24T07:57:10",
+              "EventType": "EventLog",
+              "EventId": "566",
+              "EventSource": "Microsoft-Windows-Kernel-Power",
+              "Level": "Information",
+              "EventTask": "268",
+              "GeneralInfo": "[System]The description for Event ID '566' in Source 'Microsoft-Windows-Kernel-Power' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'86', '11', '0', '0', '177819083', '0', '0', '52610', '80000', '1', '1', 'true', '11'",
+              "ParamInfo": "86;11;0;0;177819083;0;0;52610;80000;1;1;true;11",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 533
+            },
+            {
+              "TimeStamp": "2025-10-24T07:57:10",
+              "EventType": "EventLog",
+              "EventId": "506",
+              "EventSource": "Microsoft-Windows-Kernel-Power",
+              "Level": "Information",
+              "EventTask": "157",
+              "GeneralInfo": "[System]The description for Event ID '506' in Source 'Microsoft-Windows-Kernel-Power' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'11', 'true', 'false', '1', '52610', '80000', '1', '86'",
+              "ParamInfo": "11;true;false;1;52610;80000;1;86",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 534
+            },
+            {
+              "TimeStamp": "2025-10-24T07:57:10",
+              "EventType": "EventLog",
+              "EventId": "566",
+              "EventSource": "Microsoft-Windows-Kernel-Power",
+              "Level": "Information",
+              "EventTask": "268",
+              "GeneralInfo": "[System]The description for Event ID '566' in Source 'Microsoft-Windows-Kernel-Power' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'86', '11', '1', '1', '75871', '52610', '80000', '52610', '80000', '2', '2', 'true', '11'",
+              "ParamInfo": "86;11;1;1;75871;52610;80000;52610;80000;2;2;true;11",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 535
+            },
+            {
+              "TimeStamp": "2025-10-24T07:57:04",
+              "EventType": "EventLog",
+              "EventId": "16384",
+              "EventSource": "Software Protection Platform Service",
+              "Level": "Information",
+              "EventTask": "0",
+              "GeneralInfo": "[Application]Successfully scheduled Software Protection service for re-start at 2025-10-24T23:54:04Z. Reason: RulesEngine.",
+              "ParamInfo": "2025-10-24T23:54:04Z;RulesEngine",
+              "ItemId": null,
+              "RecordId": null,
+              "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+              "Id": 543
+            }
+          ],
+          "AbnormalDevices": [],
+          "FileDatas": [],
+          "StructedDatas": [
+            {
+              "Id": 5,
+              "RecordId": "01f553c3-1e89-4b97-935e-6dc79d8e7a16",
+              "DataType": "SystemResumeTime",
+              "DataVersion": "1.0.0.0",
+              "Data": "{\"ResumeTime\":464,\"BiosInitTimeMs\":0,\"HiberReadTimeMs\":0,\"DriverWakeTimeMs\":0}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TestFunctionSummaryDict": {
+    "Idle": {
+      "TotalCount": 0,
+      "SuccessCount": 0,
+      "FailureCount": 0,
+      "FailurePercent": 0.0,
+      "ResumeTimeDatas": []
+    },
+    "Ms": {
+      "TotalCount": 1,
+      "SuccessCount": 1,
+      "FailureCount": 0,
+      "FailurePercent": 0.0,
+      "ResumeTimeDatas": [
+        {
+          "Tag": "Ms_1_1",
+          "DataModel": {
+            "ResumeTime": 464,
+            "BiosInitTimeMs": 0,
+            "HiberReadTimeMs": 0,
+            "DriverWakeTimeMs": 0
+          }
+        }
+      ]
+    },
+    "S3": {
+      "TotalCount": 0,
+      "SuccessCount": 0,
+      "FailureCount": 0,
+      "FailurePercent": 0.0,
+      "ResumeTimeDatas": []
+    },
+    "S4": {
+      "TotalCount": 0,
+      "SuccessCount": 0,
+      "FailureCount": 0,
+      "FailurePercent": 0.0,
+      "ResumeTimeDatas": []
+    },
+    "Wb": {
+      "TotalCount": 0,
+      "SuccessCount": 0,
+      "FailureCount": 0,
+      "FailurePercent": 0.0,
+      "ResumeTimeDatas": []
+    },
+    "Fb": {
+      "TotalCount": 0,
+      "SuccessCount": 0,
+      "FailureCount": 0,
+      "FailurePercent": 0.0,
+      "ResumeTimeDatas": []
+    },
+    "Cb": {
+      "TotalCount": 0,
+      "SuccessCount": 0,
+      "FailureCount": 0,
+      "FailurePercent": 0.0,
+      "ResumeTimeDatas": []
+    }
+  },
+  "TestTaskSummaryRecord": {
+    "TotalDuration": "00.00:03:48",
+    "TotalCount": 1,
+    "TotalCriticalEvents": 5,
+    "TotalWarnEvents": 4,
+    "TestEventErrorRecords": [
+      {
+        "IsFailed": false,
+        "ItemIndex": "Ms_1_1",
+        "CycleTime": 228.0,
+        "WarnEvents": 4,
+        "CriticalEvents": 5,
+        "PowerEstimation": 0
+      }
+    ]
+  },
+  "Configurations": {
+    "AppVersion": "3.24.1.1",
+    "Bios": "N4CET36W (1.12 ) 3/6/2025 12:00:00 AM",
+    "Ec": "1.8",
+    "Os": "Windows 10 Pro 26100.2161",
+    "Kb": "KB5044384(Update) KB5046908(Update) ",
+    "Preload": "N/A"
+  },
+  "Applications": [
+    {
+      "name": "Windows Driver Package - Synaptics Incorporated (WUDFRd) Biometric  (11/01/2023 6.0.41.0136)",
+      "version": "11/01/2023 6.0.41.0136",
+      "vendor": "Synaptics Incorporated"
+    },
+    {
+      "name": "BurnInTest Windows v10",
+      "version": "10.2.1013.0",
+      "vendor": "Passmark Software"
+    },
+    {
+      "name": "Microsoft ASP.NET Core 6.0.24 Shared Framework (x64)",
+      "version": "6.0.24.23518",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.38.33135",
+      "version": "14.38.33135",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET AppHost Pack - 6.0.24 (x64_arm)",
+      "version": "48.96.4014",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET Host FX Resolver - 6.0.24 (x64)",
+      "version": "48.96.4014",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET Targeting Pack - 6.0.24 (x64)",
+      "version": "48.96.4014",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030",
+      "version": "11.0.61030",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40660",
+      "version": "12.0.40660",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET Runtime - 6.0.24 (x64)",
+      "version": "48.96.4014",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft.NET.Sdk.tvOS.Manifest-6.0.300",
+      "version": "125.191.42208",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET AppHost Pack - 6.0.24 (x64)",
+      "version": "48.96.4014",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft.NET.Workload.Emscripten.Manifest",
+      "version": "48.27.39026",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Windows Desktop Runtime - 6.0.24 (x64)",
+      "version": "48.96.4015",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Windows Desktop Targeting Pack - 6.0.24 (x64)",
+      "version": "48.96.4015",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)",
+      "version": "24.0.28113",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.38.33135",
+      "version": "14.38.33135",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft.NET.Sdk.iOS.Manifest-6.0.300",
+      "version": "125.191.42208",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET 6.0 Templates 6.0.416 (x64)",
+      "version": "24.6.58632",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft ASP.NET Core 6.0.24 Targeting Pack (x64)",
+      "version": "6.0.24.23518",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft.NET.Sdk.Maui.Manifest-6.0.300",
+      "version": "24.78.0",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "3DMark",
+      "version": "2.30.8348.0",
+      "vendor": "UL"
+    },
+    {
+      "name": "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40660",
+      "version": "12.0.40660",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET AppHost Pack - 6.0.24 (x64_arm64)",
+      "version": "48.96.4014",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030",
+      "version": "11.0.61030",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET Toolset 6.0.416 (x64)",
+      "version": "24.6.58632",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET Host - 6.0.24 (x64)",
+      "version": "48.96.4014",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.30319",
+      "version": "10.0.30319",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "PTATLR64",
+      "version": "1.0.0.0",
+      "vendor": "Intel"
+    },
+    {
+      "name": "Microsoft.NET.Workload.Mono.Toolchain.Manifest",
+      "version": "48.3.40665",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft .NET AppHost Pack - 6.0.24 (x64_x86)",
+      "version": "48.96.4014",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft.NET.Sdk.Android.Manifest-6.0.300",
+      "version": "128.75.16384",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft.NET.Sdk.macOS.Manifest-6.0.300",
+      "version": "100.255.42208",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft.NET.Sdk.MacCatalyst.Manifest-6.0.300",
+      "version": "125.191.42208",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Intel(R)PowerAndThermalAnalysisTool",
+      "version": "02.01.1011",
+      "vendor": "Intel Corporation"
+    },
+    {
+      "name": "Microsoft Edge",
+      "version": "122.0.2365.106",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Edge Update",
+      "version": "1.3.185.27",
+      "vendor": ""
+    },
+    {
+      "name": "Microsoft Edge WebView2 Runtime",
+      "version": "122.0.2365.106",
+      "vendor": ""
+    },
+    {
+      "name": "Microsoft .NET SDK 6.0.416 (x64)",
+      "version": "6.4.1623.51848",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.30319",
+      "version": "10.0.30319",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.38.33135",
+      "version": "14.38.33135",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Futuremark SystemInfo",
+      "version": "5.77.1320.0",
+      "vendor": "Futuremark"
+    },
+    {
+      "name": "Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030",
+      "version": "11.0.61030.0",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.38.33135",
+      "version": "14.38.33135.0",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40660",
+      "version": "12.0.40660.0",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "PL23XX USB-to-Serial",
+      "version": "4.0.8",
+      "vendor": "Prolific Technology INC"
+    },
+    {
+      "name": "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40660",
+      "version": "12.0.40660",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.38.33135",
+      "version": "14.38.33135",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030",
+      "version": "11.0.61030",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030",
+      "version": "11.0.61030",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "AutoRI 3.21.5.4",
+      "version": "3.21.5.4",
+      "vendor": "LCFutureCenter"
+    },
+    {
+      "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.38.33135",
+      "version": "14.38.33135.0",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030",
+      "version": "11.0.61030.0",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40660",
+      "version": "12.0.40660",
+      "vendor": "Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40660",
+      "version": "12.0.40660.0",
+      "vendor": "Microsoft Corporation"
+    }
+  ],
+  "Hardwares": {
+    "CPU": [
+      {
+        "Device": "Intel(R) Core(TM) Ultra 5 228V",
+        "Driver": "N/A",
+        "Firmware": "N/A",
+        "DeviceId": "N/A",
+        "Remark": "Intel64 Family 6 Model 189 Stepping 1"
+      }
+    ],
+    "GPU": [
+      {
+        "Device": "Intel(R) Arc(TM) 130V GPU (16GB)",
+        "Driver": "",
+        "Firmware": "",
+        "DeviceId": "PCI\\VEN_8086&DEV_64A0&SUBSYS_233B17AA&REV_04\\3&11583659&1&10",
+        "Remark": "boost_frequence:0 frequence:0 Vram: Size:0"
+      }
+    ],
+    "MEMORY": [
+      {
+        "Device": "Samsung 8533MHz 4GB",
+        "Driver": "N/A",
+        "Firmware": "                    ",
+        "DeviceId": "BANK 0 Controller0-ChannelA",
+        "Remark": "20000000"
+      },
+      {
+        "Device": "Samsung 8533MHz 4GB",
+        "Driver": "N/A",
+        "Firmware": "                    ",
+        "DeviceId": "BANK 1 Controller0-ChannelB",
+        "Remark": "20000000"
+      },
+      {
+        "Device": "Samsung 8533MHz 4GB",
+        "Driver": "N/A",
+        "Firmware": "                    ",
+        "DeviceId": "BANK 2 Controller0-ChannelC",
+        "Remark": "20000000"
+      },
+      {
+        "Device": "Samsung 8533MHz 4GB",
+        "Driver": "N/A",
+        "Firmware": "                    ",
+        "DeviceId": "BANK 3 Controller0-ChannelD",
+        "Remark": "20000000"
+      },
+      {
+        "Device": "Samsung 8533MHz 4GB",
+        "Driver": "N/A",
+        "Firmware": "                    ",
+        "DeviceId": "BANK 0 Controller1-ChannelA",
+        "Remark": "20000000"
+      },
+      {
+        "Device": "Samsung 8533MHz 4GB",
+        "Driver": "N/A",
+        "Firmware": "                    ",
+        "DeviceId": "BANK 1 Controller1-ChannelB",
+        "Remark": "20000000"
+      },
+      {
+        "Device": "Samsung 8533MHz 4GB",
+        "Driver": "N/A",
+        "Firmware": "                    ",
+        "DeviceId": "BANK 2 Controller1-ChannelC",
+        "Remark": "20000000"
+      },
+      {
+        "Device": "Samsung 8533MHz 4GB",
+        "Driver": "N/A",
+        "Firmware": "                    ",
+        "DeviceId": "BANK 3 Controller1-ChannelD",
+        "Remark": "20000000"
+      }
+    ],
+    "DISK": [
+      {
+        "Device": "WD PC SN740 SDDQMQD-512G-1201",
+        "Driver": "N/A",
+        "Firmware": "73117101",
+        "DeviceId": "scsi\\disk&ven_nvme&prod_wd_pc_sn740_sddq\\5&2ec7d186&0&000000\\{53f56307-b6bf-11d0-94f2-00a0c91efb8b}",
+        "Remark": "E823_8FA6_BF53_0001_001B_444A_4516_9233."
+      }
+    ],
+    "LCD": [
+      {
+        "Device": "Lenovo HDR Display",
+        "Driver": "N/A",
+        "Firmware": "N/A",
+        "DeviceId": "DISPLAY\\LEN4220\\4&14b89aea&0&UID8388688",
+        "Remark": "0.1inch 60Hz 1280*800"
+      }
+    ],
+    "BATTERY": [
+      {
+        "Device": "SMP L24M4PE2(LiP)",
+        "Driver": "N/A",
+        "Firmware": "N/A",
+        "DeviceId": "N/A",
+        "Remark": "Design:80000 Real:80000"
+      }
+    ],
+    "AUDIO": [
+      {
+        "Device": "SoundWire Audio",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "SOUNDWIRE\\AGGREGATOR\\6&25956910&0",
+        "Remark": null
+      },
+      {
+        "Device": "SoundWire Audio",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "SOUNDWIRE\\SDCA_06&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_233B17AA&DYNAMICENUMSPEAKER0\\8&1057396F&0&00001700",
+        "Remark": null
+      },
+      {
+        "Device": "Intel® Smart Sound Technology for Digital Microphones",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "INTELAUDIO\\CTLR_DEV_A828&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_233B17AA&REV_0001\\5&2647C3AC&0&0000DIF_000B&UIF_0000",
+        "Remark": null
+      },
+      {
+        "Device": "SoundWire ACX Streaming for SDW - Speaker",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "{F67B0BEA-BDB7-47D3-9131-75877CDE0ED4}\\STREAMING_SPEAKER&CP_{2880C2D5-735C-11EF-B6B7-806E6F6E6963}\\6&172759E5&0",
+        "Remark": null
+      },
+      {
+        "Device": "Intel ACX Streaming for SDW",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "INTELAUDIO\\DIF_0001&UIF_0001&CTLR_DEV_A828&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35&SUBSYS_233B17AA&REV_0001\\5&2647C3AC&0&0500DIF_000B&UIF_0000",
+        "Remark": null
+      },
+      {
+        "Device": "SoundWire ACX Streaming for SDW - Headset Microphone",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "{F67B0BEA-BDB7-47D3-9131-75877CDE0ED4}\\STREAMING_HEADSETMIC&CP_{2880C2D7-735C-11EF-B6B7-806E6F6E6963}\\6&172759E5&0",
+        "Remark": null
+      },
+      {
+        "Device": "Intel® Smart Sound Technology for Bluetooth® LE Audio",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "INTELAUDIO\\CTLR_DEV_A828&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33&SUBSYS_233B17AA&REV_0001\\5&2647C3AC&0&0301DIF_000B&UIF_0000",
+        "Remark": null
+      },
+      {
+        "Device": "Intel® Smart Sound Technology for Bluetooth® Audio",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "INTELAUDIO\\CTLR_DEV_A828&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30&SUBSYS_233B17AA&REV_0001\\5&2647C3AC&0&0000DIF_000B&UIF_0000",
+        "Remark": null
+      },
+      {
+        "Device": "SoundWire Audio",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "SOUNDWIRE\\SDCA_06&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_233B17AA\\7&34B37D01&0&0000000000000001",
+        "Remark": null
+      },
+      {
+        "Device": "SoundWire Audio",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "SOUNDWIRE\\SDCA_06&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_233B17AA&DYNAMICENUMSPEAKER0\\8&10D1284D&0&00000C00",
+        "Remark": null
+      },
+      {
+        "Device": "SoundWire ACX Streaming for SDW - Headset Earphone",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "{F67B0BEA-BDB7-47D3-9131-75877CDE0ED4}\\STREAMING_HEADSETOUTPUT&CP_{2880C2D6-735C-11EF-B6B7-806E6F6E6963}\\6&172759E5&0",
+        "Remark": null
+      },
+      {
+        "Device": "SoundWire Audio",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "SOUNDWIRE\\SDCA_06&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_233B17AA\\7&34B37D01&0&0000000000000003",
+        "Remark": null
+      },
+      {
+        "Device": "SoundWire Audio",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "SOUNDWIRE\\SDCA_06&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_233B17AA&DYNAMICENUMMICROPHONE0\\8&1057396F&0&00000B00",
+        "Remark": null
+      }
+    ],
+    "LAN": [
+      {
+        "Device": "Realtek USB GbE Family Controller",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "USB\\VID_0BDA&PID_8153\\02191ACF8",
+        "Remark": null
+      }
+    ],
+    "WWAN": [],
+    "WLAN": [],
+    "BLUETOOTH": [
+      {
+        "Device": "Intel(R) Wireless Bluetooth(R)",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "USB\\VID_8087&PID_0037\\5&E60CCA1&0&6",
+        "Remark": null
+      }
+    ],
+    "TOUCHPAD": [],
+    "CAMERA": [
+      {
+        "Device": "Intel(R) LNL AVStream Camera",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "DISPLAY\\INT3480\\4&14B89AEA&0&UID144512",
+        "Remark": "Intel Corporation"
+      }
+    ],
+    "CARDREADER": [],
+    "FINGERPRINT": [
+      {
+        "Device": "Goodix MOC Fingerprint",
+        "Driver": "",
+        "Firmware": "N/A",
+        "DeviceId": "USB\\VID_27C6&PID_659C\\UID49616CED_XXXX_MOC_B0",
+        "Remark": null
+      }
+    ]
+  },
+  "kpiResult": {
+    "TotalKpiLevel": "Bad",
+    "FbKpiLevel": "None",
+    "WbKpiLevel": "Bad",
+    "MsKpiLevel": "Bad",
+    "S3KpiLevel": "None",
+    "S4KpiLevel": "Bad",
+    "IdleKpiLevel": "None",
+    "TotalKpi": -1741,
+    "FbKpi": 0,
+    "WbKpi": -600,
+    "MsKpi": -541,
+    "S3Kpi": 0,
+    "S4Kpi": -600,
+    "IdleKpi": 0
+  }
+}

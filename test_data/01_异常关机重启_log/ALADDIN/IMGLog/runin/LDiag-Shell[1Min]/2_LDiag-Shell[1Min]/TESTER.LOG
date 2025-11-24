@@ -1,0 +1,393 @@
+Running RTCCHECK.NSH - Dated 2019-04-13-Rev.0 ...
+RTC Battery Check Test ...
+ACSTAT.EFI - AC Adapter Presence Checker for ThinkPad Ver2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Yamato, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+CheckACStatus()
+GetACStatus()
+EC Offset 46h: 00  (bit4 = 0) 
+GetACStatus()
+EC Offset 46h: 00  (bit4 = 0) 
+mode: 0 stat: 0
+ACStatus()
+GetACStatus()
+EC Offset 46h: 00  (bit4 = 0) 
+GetACWattageStatus()
+EC Offset CAh: 00 
+EC Offset C9h: 00 
+>  AC Adapter Status ... NOT ATTACHED
+
+Return code is 0x01
+CUTOFF BATTERY
+Running RTCCHECK.NSH - Dated 2019-04-13-Rev.0 ...
+Done!! (RC = 0)
+RTCCHECK.NSH Completed Successfully.
+09/15/2023
+06:53:46 (LOCAL)
+Set 0x55CC
+CPUGPUAutoRun test pass ...  
+Running CHRGTEST.NSH - Dated 2021-03-16-Rev.0 ...
+Battery Charge Current Test Start ...
+Check for the presence of AC adapter ...
+ACSTAT.EFI - AC Adapter Presence Checker for ThinkPad Ver2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Yamato, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+CheckACStatus()
+GetACStatus()
+EC Offset 46h: 14  (bit4 = 1) 
+GetACStatus()
+EC Offset 46h: 14  (bit4 = 1) 
+mode: 1 stat: 1
+ACStatus()
+GetACStatus()
+EC Offset 46h: 14  (bit4 = 1) 
+GetACWattageStatus()
+EC Offset CAh: 00 
+EC Offset C9h: 41 
+>  AC Adapter Status ... ATTACHED (65W)
+
+Return code is 0x01
+Checking for Battery Capacity ...
+BATTSTAT.EFI - Battery Status Checker for ThinkPad ver2022-06-29[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Yamato, Lenovo Japan
+Copyright(C) Lenovo 2015,2022
+
+[RAW Capacity Readout via EC]
+rdata[1]=  0x14
+rdata[0]=  0x89
+curr_capa: 5257 [x10mWh]
+rdata[3]=  0x1F
+rdata[2]=  0x40
+full_capa: 8000 [x10mWh]
+
+Current Battery Capacity : 65 % 
+
+Return code is 0x00 
+
+BATTSTAT.EFI - Battery Status Checker for ThinkPad ver2022-06-29[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Yamato, Lenovo Japan
+Copyright(C) Lenovo 2015,2022
+
+Current Battery Current : 0 mA (Charge Stop)
+
+Return code is 0x00 
+
+.Enabling Battery Charging ...
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC Address 0x0E:  Data: 0x88 
+
+Verify OK!!
+
+Inhibit Charge Flag Set now, so clearing Inhibit Charge Flag...
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0x23:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0x21:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0x22:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+Done!
+.Enabling Battery Charging ...
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC Address 0x0E:  Data: 0x80 
+
+Mismatch !!
+
+Clearing Charge Threshold Setting ...
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB0:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB1:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB2:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB3:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+Done!
+Checking Battery Charging Current greater than 500mA...
+BATTSTAT.EFI - Battery Status Checker for ThinkPad ver2022-06-29[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Yamato, Lenovo Japan
+Copyright(C) Lenovo 2015,2022
+
+Current Battery Current : 960 mA (Charging)
+
+Battery Current is HIGHER than the specified value! 
+
+Return code is 0x03 
+
+Battery Charging Current Greater Than 500mA...
+Disabling Charge Request ...
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB1:  0x00 ===> 0x28
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB3:  0x00 ===> 0x28
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB0:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB2:  0x00 ===> 0x00
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB0:  0x00 ===> 0x1E
+
+*** Completed !! ***
+
+SetEC.EFI - EC I/F Space Access Utility for ThinkPad  Ver 2017-11-21[UDK2017]
+by S.Ikeda  Global NB Test Engineering, Lenovo Japan
+Copyright(C) Lenovo 2015,2017
+
+
+EC RAM data has been changed !!
+Address 0xB2:  0x00 ===> 0x1E
+
+*** Completed !! ***
+
+Battery Charge Current Test Passed!!
+CHRGTEST.NSH Completed Successfully.
+10/24/2025
+07:15:28 (LOCAL)
+POST status check
+10/24/2025
+07:15:30 (LOCAL)
+Check Bottom Cover Switch Status
+10/24/2025
+07:15:31 (LOCAL)
+2nd FAN Test
+type: Cannot open file - 'TPFANTST.LOG'
+10/24/2025
+07:15:33 (LOCAL)
+Running LdgRunInV4.NSH -- Dated 2023-09-25 Rev.0
+LdgRunInV4.NSH:LDIAG CPU Quick Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Memory Quick Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Memory Ex. Adv Pattern Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Memory Ex. Mem Address Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Memory Ex. Random Pattern Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Motherboard-CHIPSET Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Motherboard-PCI Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Motherboard-RTC Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Motherboard-USB Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG PCI Express Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG Video Card Test Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG RunIn Test Passed!! (RC = 0)
+Starting ECC Memory ECC Error Status Test with TPECCCHK ...
+
+TPECCCHK.EFI 2022-12-06[UDK2017] - Fri Oct 24 07:34:58 2025
+  
+Target System is TGL-H or NEWER Platform Products. (N4C) 
+
+[ECC Status]
+ ECC Capability     : Not Capable (CAPID0    : 02006040h) 
+ MC0 Channel 0      : Active      (MC0 MAD0  : FFFFFFFFh) 
+ MC0 Channel 1      : Not Active  (MC0 MAD1  : 01018100h) 
+ MC1 Channel 0      : Active      (MC1 MAD0  : FFFFFFFFh) 
+ MC1 Channel 1      : Not Active  (MC1 MAD1  : 01018100h) 
+[ECC ErrorLog 0]
+ MC0 Ch0 - ERRBANK:00h ERRRANK:00h ERRCHUNK:00h ERRSYND:00h MERRSTS:00h CERRSTS:00h (00000000h)
+ MC0 Ch1 - ERRBANK:00h ERRRANK:00h ERRCHUNK:00h ERRSYND:00h MERRSTS:00h CERRSTS:00h (00000000h)
+ MC1 Ch0 - ERRBANK:00h ERRRANK:00h ERRCHUNK:00h ERRSYND:00h MERRSTS:00h CERRSTS:00h (00000000h)
+ MC1 Ch1 - ERRBANK:00h ERRRANK:00h ERRCHUNK:00h ERRSYND:00h MERRSTS:00h CERRSTS:00h (00000000h)
+[ECC ErrorLog 1]
+ MC0 Ch0 - ERRBANKGROUP:03h ERRCOL:07FFh ERRROW:01FFFFh (FFFFFFFFh)
+ MC0 Ch1 - ERRBANKGROUP:03h ERRCOL:07FFh ERRROW:01FFFFh (FFFFFFFFh)
+ MC0 Ch0 - ERRBANKGROUP:03h ERRCOL:07FFh ERRROW:01FFFFh (FFFFFFFFh)
+ MC0 Ch1 - ERRBANKGROUP:03h ERRCOL:07FFh ERRROW:01FFFFh (FFFFFFFFh)
+
+
+[Overall Check Result]
+>   ECC Not Capable System
+
+Return code is 0x00
+
+
+LdgRunInV4.NSH:LDIAG RunIn ECC Status Test with TPECCCHK Passed!! (RC = 0)
+Starting Storage Test for NVMe SSD ...
+LdgRunInV4.NSH:LDIAG RunIn Storage DEVICE READ TEST Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG RunIn Storage NVME CONTROLLER TEST Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG RunIn Storage NVME SMART TEMPERATURE TEST Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG RunIn Storage NVME SMART SPARE SPACE TEST Passed!! (RC = 0)
+LdgRunInV4.NSH:LDIAG RunIn Storage NVME SMART RELIABILITY TEST Passed!! (RC = 0)
+Starting FAN Test with TPFANTST /T:70 ...
+
+TPFANTST.EFI Ver2023-02-07[UDK2017] - Fri Oct 24 07:40:57 2025
+  
+FAN#1 selected.
+
+EC I/F Space Offset 2Fh (FAN Speed Control   ) : 80
+EC I/F Space Offset 34h (Peripheral Status  2) : 70
+EC I/F Space Offset 35h (Peripheral Status  3) : 04
+EC I/F Space Offset 31h (Peripheral Control 2) : 40
+
+Forcing FAN#1 to STOP first for FAN Startup Test ...
+================================================= 
+Set FAN SPEED to STOP ... Done!
+Waiting until FAN is STOPed completely...
+
+>Current FAN Speed [rpm] : 0 
+Checked OK!!
+
+FAN#1 is now in STOP condition.
+
+Checking FAN#1 Speed in MAX Speed Setting ...
+========================================== 
+
+Set FAN SPEED to MAX  ... Done!
+Waiting until FAN Speed meet the criteria (MIN:3000, MAX:20000 rpm)...
+
+>Current FAN Speed [rpm] : 9100 
+Checked OK!!
+
+FAN#1 Speed in MAX  Condition[rpm]  : 9100
+
+Checking FAN#1 Start-up with AUTO Speed Setting ...
+================================================ 
+
+Set FAN SPEED to AUTO ... Done!
+Waiting until FAN is STARTed Up ...
+FAN Start Up Temp Criteria: 70 [degC]
+
+>Current FAN Speed [rpm] : 3900 
+Checked OK!!
+
+FAN#1 StartUp Speed [rpm]  : 3900
+
+Re-Checking for FAN Error Flag in EC offset 35h bit4 ....
+==================================================== 
+
+
+***PASS***: FAN#1 Diagnostic completed successfully!!
+
+Return code is 00h 
+
+
+LdgRunInV4.NSH:LDIAG RunIn FAN Test with TPFANTST Passed!! (RC = 0)
+Starting Thermal Sensor Test with TPTHMTST ...
+
+TPTHMTST.EXE Ver2017-11-21[UDK2017] - Fri Oct 24 07:41:39 2025
+  
+>Thermal Monitoring Status     : = 1b ( Enabled )
+>Thermal Sensor Error Status   : = 0b ( No Error Detected )
+
+>Limit Validation Result       : PASS
+>Upper Limit Temp [degC]       : 120
+>Lower Limit Temp [degC]       : 005
+>Num of Thermal Sensors        : 011
+>Num of Limit Exceeded Sensors : 00
+
+Sensor ID   :   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+------------------------------------------------------------------------------
+Temp [degC] : 057 --- 044 --- 029 --- 028 --- 030 045 037 043 037 030 036 --- 
+Result      :  OK ---  OK ---  OK ---  OK ---  OK  OK  OK  OK  OK  OK  OK --- 
+
+>Thermal Sensor 0 (CPU) Presence Check 
+Found. OK! (57 degC)
+Force FAN Speed to STOP!
+Done.
+Thermal Senosr 0 (CPU) is changed(alive) (57->59 degC)
+
+***PASS***: Thermal Sensor Diagnostic completed successfully!!
+
+Return code is 00h 
+
+LdgRunInV4.NSH:LDIAG RunIn Thermal Sensor Test with TPTHMTST Passed!! (RC = 0)
+10/24/2025
+07:41:47 (LOCAL)
+LdgRunInV4.NSH Completed with RC = 0x0.

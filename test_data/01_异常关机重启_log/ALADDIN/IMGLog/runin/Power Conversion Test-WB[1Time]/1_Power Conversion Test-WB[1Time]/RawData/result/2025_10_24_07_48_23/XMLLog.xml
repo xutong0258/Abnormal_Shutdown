@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ACPIXML>
+  <Record>
+    <PLANSTARTTIME></PLANSTARTTIME>
+    <PLANENDTIME></PLANENDTIME>
+    <No>-1</No>
+    <LastExeListIndex>-1</LastExeListIndex>
+    <CurrentTestItem>-1</CurrentTestItem>
+    <Isfailed>False</Isfailed>
+    <failedreason></failedreason>
+    <IsFinished>True</IsFinished>
+    <FailedTypeCount>0</FailedTypeCount>
+    <UserStop>False</UserStop>
+  </Record>
+  <OldAcpiData>
+    <name></name>
+    <Sx></Sx>
+    <beforetime></beforetime>
+    <sleeptime></sleeptime>
+    <Execount></Execount>
+    <Passcount></Passcount>
+    <Failcount></Failcount>
+    <Minusetime></Minusetime>
+    <Maxusetime></Maxusetime>
+    <STARTTIME></STARTTIME>
+  </OldAcpiData>
+  <LOG>
+    <ONE>
+      <LINE>1</LINE>
+      <SXNAME>Warm Boot</SXNAME>
+      <STARTTIME>10/24/2025 7:49:55 AM</STARTTIME>
+      <ENDTIME>10/24/2025 7:52:39 AM</ENDTIME>
+      <Minusetime />
+      <Maxusetime />
+      <TimeCheck />
+      <DeviceCheck />
+      <FailedReason>Success Exit</FailedReason>
+      <ErrorMessageCheck />
+      <ErrorType />
+      <DeviceCheckLogPath />
+      <ErrorMessage />
+      <LogPowerStr />
+      <ResumeTime>N/A</ResumeTime>
+      <BiosInitTimeMs>17460</BiosInitTimeMs>
+      <HiberReadTimeMs>N/A</HiberReadTimeMs>
+      <DriverWakeTimeMs>N/A</DriverWakeTimeMs>
+    </ONE>
+  </LOG>
+</ACPIXML>

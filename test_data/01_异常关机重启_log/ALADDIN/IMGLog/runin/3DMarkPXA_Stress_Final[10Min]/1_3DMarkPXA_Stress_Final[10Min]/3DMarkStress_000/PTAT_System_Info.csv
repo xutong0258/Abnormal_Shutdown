@@ -1,0 +1,14 @@
+PTAT System Information
+Version ,02.01.1011
+"CPU Component"
+CPUID,0xB06D
+Stepping,0x1
+Graphics ID,0x64A0
+Host ID,0x6400
+Firmware Version,0x2060A00
+CPU Name,LNL MX
+CPU Brand String,Intel(R) Core(TM) Ultra 5 228V
+TjMax,100
+TSC Freq,3.11GHz
+Base Clock Frequency,100MHz
+

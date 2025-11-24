@@ -1,0 +1,257 @@
+ +0.000s - DEBUG: Starting...PT-D3D12Test32.exe
+ +0.000s - DEBUG Path: C:\Program Files\BurnInTest
+ +0.000s - DEBUG Command line: D3D12Test64.exe 0
+ +0.000s - Date: 10/24/25 08:41:55
+ +0.000s - DEBUG: OSVERSIONINFOEX: dwMajorVersion 10, dwMinorVersion 0, dwBuildNumber 26100
+ +0.000s - DEBUG: Checking for d3d12.dll existence
+ +0.000s - DEBUG: CreateDXGIFactory2()
+ +0.000s - DEBUG: Enumerate Adapters...
+ +0.000s - *** Adapter [0]: Intel(R) Arc(TM) 130V GPU (16GB)
+ +0.000s - 	*** Dedicated Memory: 134217728
+ +0.000s - 	*** Software Adapter: No
+ +0.016s - 	*** Direct3D 12 Support: Yes
+ +0.016s - 	*** Output: \\.\DISPLAY1
+ +0.016s - 		Width = 640 Height = 480 Refresh = 3000/100
+ +0.016s - 		Width = 640 Height = 480 Refresh = 4800/100
+ +0.016s - 		Width = 640 Height = 480 Refresh = 6000/100
+ +0.016s - 		Width = 640 Height = 480 Refresh = 7500/100
+ +0.016s - 		Width = 640 Height = 480 Refresh = 10000/100
+ +0.016s - 		Width = 640 Height = 480 Refresh = 70963300/591360
+ +0.016s - 		Width = 800 Height = 600 Refresh = 3000/100
+ +0.016s - 		Width = 800 Height = 600 Refresh = 4800/100
+ +0.016s - 		Width = 800 Height = 600 Refresh = 6000/100
+ +0.016s - 		Width = 800 Height = 600 Refresh = 7500/100
+ +0.016s - 		Width = 800 Height = 600 Refresh = 10000/100
+ +0.016s - 		Width = 800 Height = 600 Refresh = 70963300/591360
+ +0.016s - 		Width = 1024 Height = 768 Refresh = 3000/100
+ +0.016s - 		Width = 1024 Height = 768 Refresh = 4800/100
+ +0.016s - 		Width = 1024 Height = 768 Refresh = 6000/100
+ +0.016s - 		Width = 1024 Height = 768 Refresh = 7500/100
+ +0.016s - 		Width = 1024 Height = 768 Refresh = 10000/100
+ +0.016s - 		Width = 1024 Height = 768 Refresh = 70963300/591360
+ +0.016s - 		Width = 1152 Height = 864 Refresh = 3000/100
+ +0.016s - 		Width = 1152 Height = 864 Refresh = 4800/100
+ +0.016s - 		Width = 1152 Height = 864 Refresh = 6000/100
+ +0.016s - 		Width = 1152 Height = 864 Refresh = 7500/100
+ +0.016s - 		Width = 1152 Height = 864 Refresh = 10000/100
+ +0.016s - 		Width = 1152 Height = 864 Refresh = 70963300/591360
+ +0.016s - 		Width = 1280 Height = 600 Refresh = 3000/100
+ +0.016s - 		Width = 1280 Height = 600 Refresh = 4800/100
+ +0.016s - 		Width = 1280 Height = 600 Refresh = 6000/100
+ +0.016s - 		Width = 1280 Height = 600 Refresh = 7500/100
+ +0.016s - 		Width = 1280 Height = 600 Refresh = 10000/100
+ +0.016s - 		Width = 1280 Height = 600 Refresh = 70963300/591360
+ +0.016s - 		Width = 1280 Height = 720 Refresh = 3000/100
+ +0.016s - 		Width = 1280 Height = 720 Refresh = 4800/100
+ +0.016s - 		Width = 1280 Height = 720 Refresh = 6000/100
+ +0.016s - 		Width = 1280 Height = 720 Refresh = 7500/100
+ +0.016s - 		Width = 1280 Height = 720 Refresh = 10000/100
+ +0.016s - 		Width = 1280 Height = 720 Refresh = 70963300/591360
+ +0.016s - 		Width = 1280 Height = 768 Refresh = 3000/100
+ +0.016s - 		Width = 1280 Height = 768 Refresh = 4800/100
+ +0.016s - 		Width = 1280 Height = 768 Refresh = 6000/100
+ +0.016s - 		Width = 1280 Height = 768 Refresh = 7500/100
+ +0.016s - 		Width = 1280 Height = 768 Refresh = 10000/100
+ +0.016s - 		Width = 1280 Height = 768 Refresh = 70963300/591360
+ +0.016s - 		Width = 1280 Height = 800 Refresh = 3000/100
+ +0.016s - 		Width = 1280 Height = 800 Refresh = 4800/100
+ +0.016s - 		Width = 1280 Height = 800 Refresh = 6000/100
+ +0.016s - 		Width = 1280 Height = 800 Refresh = 7500/100
+ +0.016s - 		Width = 1280 Height = 800 Refresh = 10000/100
+ +0.016s - 		Width = 1280 Height = 800 Refresh = 70963300/591360
+ +0.016s - 		Width = 1280 Height = 960 Refresh = 3000/100
+ +0.016s - 		Width = 1280 Height = 960 Refresh = 4800/100
+ +0.016s - 		Width = 1280 Height = 960 Refresh = 6000/100
+ +0.016s - 		Width = 1280 Height = 960 Refresh = 7500/100
+ +0.016s - 		Width = 1280 Height = 960 Refresh = 10000/100
+ +0.016s - 		Width = 1280 Height = 960 Refresh = 70963300/591360
+ +0.016s - 		Width = 1280 Height = 1024 Refresh = 3000/100
+ +0.016s - 		Width = 1280 Height = 1024 Refresh = 4800/100
+ +0.016s - 		Width = 1280 Height = 1024 Refresh = 6000/100
+ +0.016s - 		Width = 1280 Height = 1024 Refresh = 7500/100
+ +0.016s - 		Width = 1280 Height = 1024 Refresh = 10000/100
+ +0.016s - 		Width = 1280 Height = 1024 Refresh = 70963300/591360
+ +0.016s - 		Width = 1360 Height = 768 Refresh = 3000/100
+ +0.016s - 		Width = 1360 Height = 768 Refresh = 4800/100
+ +0.016s - 		Width = 1360 Height = 768 Refresh = 6000/100
+ +0.016s - 		Width = 1360 Height = 768 Refresh = 7500/100
+ +0.016s - 		Width = 1360 Height = 768 Refresh = 10000/100
+ +0.016s - 		Width = 1360 Height = 768 Refresh = 70963300/591360
+ +0.016s - 		Width = 1366 Height = 768 Refresh = 3000/100
+ +0.016s - 		Width = 1366 Height = 768 Refresh = 4800/100
+ +0.016s - 		Width = 1366 Height = 768 Refresh = 6000/100
+ +0.016s - 		Width = 1366 Height = 768 Refresh = 7500/100
+ +0.016s - 		Width = 1366 Height = 768 Refresh = 10000/100
+ +0.016s - 		Width = 1366 Height = 768 Refresh = 70963300/591360
+ +0.016s - 		Width = 1400 Height = 1050 Refresh = 3000/100
+ +0.016s - 		Width = 1400 Height = 1050 Refresh = 4800/100
+ +0.016s - 		Width = 1400 Height = 1050 Refresh = 6000/100
+ +0.016s - 		Width = 1400 Height = 1050 Refresh = 7500/100
+ +0.016s - 		Width = 1400 Height = 1050 Refresh = 10000/100
+ +0.016s - 		Width = 1400 Height = 1050 Refresh = 70963300/591360
+ +0.016s - 		Width = 1440 Height = 900 Refresh = 3000/100
+ +0.016s - 		Width = 1440 Height = 900 Refresh = 4800/100
+ +0.016s - 		Width = 1440 Height = 900 Refresh = 6000/100
+ +0.016s - 		Width = 1440 Height = 900 Refresh = 7500/100
+ +0.016s - 		Width = 1440 Height = 900 Refresh = 10000/100
+ +0.016s - 		Width = 1440 Height = 900 Refresh = 70963300/591360
+ +0.016s - 		Width = 1600 Height = 900 Refresh = 3000/100
+ +0.016s - 		Width = 1600 Height = 900 Refresh = 4800/100
+ +0.016s - 		Width = 1600 Height = 900 Refresh = 6000/100
+ +0.016s - 		Width = 1600 Height = 900 Refresh = 7500/100
+ +0.016s - 		Width = 1600 Height = 900 Refresh = 10000/100
+ +0.016s - 		Width = 1600 Height = 900 Refresh = 70963300/591360
+ +0.016s - 		Width = 1600 Height = 1200 Refresh = 3000/100
+ +0.016s - 		Width = 1600 Height = 1200 Refresh = 4800/100
+ +0.016s - 		Width = 1600 Height = 1200 Refresh = 6000/100
+ +0.016s - 		Width = 1600 Height = 1200 Refresh = 7500/100
+ +0.016s - 		Width = 1600 Height = 1200 Refresh = 10000/100
+ +0.016s - 		Width = 1600 Height = 1200 Refresh = 70963300/591360
+ +0.016s - 		Width = 1680 Height = 1050 Refresh = 3000/100
+ +0.016s - 		Width = 1680 Height = 1050 Refresh = 4800/100
+ +0.016s - 		Width = 1680 Height = 1050 Refresh = 6000/100
+ +0.016s - 		Width = 1680 Height = 1050 Refresh = 7500/100
+ +0.016s - 		Width = 1680 Height = 1050 Refresh = 10000/100
+ +0.016s - 		Width = 1680 Height = 1050 Refresh = 70963300/591360
+ +0.016s - 		Width = 1792 Height = 1344 Refresh = 3000/100
+ +0.016s - 		Width = 1792 Height = 1344 Refresh = 4800/100
+ +0.016s - 		Width = 1792 Height = 1344 Refresh = 6000/100
+ +0.016s - 		Width = 1792 Height = 1344 Refresh = 7500/100
+ +0.016s - 		Width = 1792 Height = 1344 Refresh = 10000/100
+ +0.016s - 		Width = 1792 Height = 1344 Refresh = 70963300/591360
+ +0.016s - 		Width = 1856 Height = 1392 Refresh = 3000/100
+ +0.016s - 		Width = 1856 Height = 1392 Refresh = 4800/100
+ +0.016s - 		Width = 1856 Height = 1392 Refresh = 6000/100
+ +0.016s - 		Width = 1856 Height = 1392 Refresh = 7500/100
+ +0.016s - 		Width = 1856 Height = 1392 Refresh = 10000/100
+ +0.016s - 		Width = 1856 Height = 1392 Refresh = 70963300/591360
+ +0.016s - 		Width = 1920 Height = 1080 Refresh = 3000/100
+ +0.016s - 		Width = 1920 Height = 1080 Refresh = 4800/100
+ +0.016s - 		Width = 1920 Height = 1080 Refresh = 6000/100
+ +0.016s - 		Width = 1920 Height = 1080 Refresh = 7500/100
+ +0.016s - 		Width = 1920 Height = 1080 Refresh = 10000/100
+ +0.016s - 		Width = 1920 Height = 1080 Refresh = 70963300/591360
+ +0.016s - 		Width = 1920 Height = 1200 Refresh = 3000/100
+ +0.016s - 		Width = 1920 Height = 1200 Refresh = 4800/100
+ +0.016s - 		Width = 1920 Height = 1200 Refresh = 6000/100
+ +0.016s - 		Width = 1920 Height = 1200 Refresh = 7500/100
+ +0.016s - 		Width = 1920 Height = 1200 Refresh = 10000/100
+ +0.016s - 		Width = 1920 Height = 1200 Refresh = 70963300/591360
+ +0.016s - 		Width = 1920 Height = 1440 Refresh = 3000/100
+ +0.016s - 		Width = 1920 Height = 1440 Refresh = 4800/100
+ +0.016s - 		Width = 1920 Height = 1440 Refresh = 6000/100
+ +0.016s - 		Width = 1920 Height = 1440 Refresh = 7500/100
+ +0.016s - 		Width = 1920 Height = 1440 Refresh = 10000/100
+ +0.032s - 		Width = 1920 Height = 1440 Refresh = 70963300/591360
+ +0.032s - 		Width = 2048 Height = 1152 Refresh = 3000/100
+ +0.032s - 		Width = 2048 Height = 1152 Refresh = 4800/100
+ +0.032s - 		Width = 2048 Height = 1152 Refresh = 6000/100
+ +0.032s - 		Width = 2048 Height = 1152 Refresh = 7500/100
+ +0.032s - 		Width = 2048 Height = 1152 Refresh = 10000/100
+ +0.032s - 		Width = 2048 Height = 1152 Refresh = 70963300/591360
+ +0.032s - 		Width = 2048 Height = 1536 Refresh = 3000/100
+ +0.032s - 		Width = 2048 Height = 1536 Refresh = 4800/100
+ +0.032s - 		Width = 2048 Height = 1536 Refresh = 6000/100
+ +0.032s - 		Width = 2048 Height = 1536 Refresh = 7500/100
+ +0.032s - 		Width = 2048 Height = 1536 Refresh = 10000/100
+ +0.032s - 		Width = 2048 Height = 1536 Refresh = 70963300/591360
+ +0.032s - 		Width = 2560 Height = 1440 Refresh = 3000/100
+ +0.032s - 		Width = 2560 Height = 1440 Refresh = 4800/100
+ +0.032s - 		Width = 2560 Height = 1440 Refresh = 6000/100
+ +0.032s - 		Width = 2560 Height = 1440 Refresh = 7500/100
+ +0.032s - 		Width = 2560 Height = 1440 Refresh = 10000/100
+ +0.032s - 		Width = 2560 Height = 1440 Refresh = 70963300/591360
+ +0.032s - 		Width = 2560 Height = 1600 Refresh = 3000/100
+ +0.032s - 		Width = 2560 Height = 1600 Refresh = 4800/100
+ +0.032s - 		Width = 2560 Height = 1600 Refresh = 6000/100
+ +0.032s - 		Width = 2560 Height = 1600 Refresh = 7500/100
+ +0.032s - 		Width = 2560 Height = 1600 Refresh = 10000/100
+ +0.032s - 		Width = 2560 Height = 1600 Refresh = 70963300/591360
+ +0.032s - 		Width = 2880 Height = 1800 Refresh = 3000/100
+ +0.032s - 		Width = 2880 Height = 1800 Refresh = 4800/100
+ +0.032s - 		Width = 2880 Height = 1800 Refresh = 6000/100
+ +0.032s - 		Width = 2880 Height = 1800 Refresh = 7500/100
+ +0.032s - 		Width = 2880 Height = 1800 Refresh = 10000/100
+ +0.032s - 		Width = 2880 Height = 1800 Refresh = 70963300/591360
+ +0.032s - *** Adapter [1]: Microsoft Basic Render Driver
+ +0.032s - 	*** Dedicated Memory: 0
+ +0.032s - 	*** Software Adapter: Yes
+ +0.032s - 	*** Direct3D 12 Support: Yes
+ +0.032s - DEBUG: DX12 Adapter 0 - dedicated memory 134217728 - maxMemorySize 0
+ +0.032s - DEBUG: DX12 Adapter 0 - DXGI_QUERY_VIDEO_MEMORY_INFO: Budget 134217728, AvailableForReservation 18500304199
+ +0.032s - DEBUG: DX12 using Adapter 0 Intel(R) Arc(TM) 130V GPU (16GB) (detectedVideoMemory: 0)
+ +0.032s - DEBUG: DX12 Adapter 0: SharedSystemMemory 19305610567, DedicatedSystemMemory 0, DedicatedVideoMemory 134217728
+ +0.032s - DEBUG:g_SharedMemoryPtr->VideoMemoryMB 0
+ +0.032s - DEBUG: Setting up Asteroids Simulation: 1000 Asteroids
+ +0.532s - DEBUG: Setting up Scene: 0 Models
+ +0.532s - DEBUG: D3D12CreateDevice() - Intel(R) Arc(TM) 130V GPU (16GB)
+ +0.610s - DEBUG: Number of detected nodes on device: 1
+ +0.610s - DEBUG: Benchmark In use Node Count: 1, Node Resources Count: 4
+ +0.610s - DEBUG: MulitSample Enabled: MS4 Q0
+ +0.610s - DEBUG: Creating Main/Copy Command Queues, Allocators and Lists
+ +0.625s - DEBUG: Creating Nodes Command Queues, Allocators and lists
+ +0.657s - DEBUG: D3D11On12CreateDevice()
+ +0.688s - DEBUG: Create D2D/DWrite components.
+ +0.688s - DEBUG: Asteroids::LoadPipeline Create descriptor heaps for nodes.
+ +0.688s - DEBUG: Create synchronization objects.
+ +0.688s - DEBUG: CreateRootSignature() Generic
+ +0.688s - DEBUG: CreateRootSignature() Quad
+ +0.688s - DEBUG: CreateRootSignature() Asteroids
+ +0.688s - DEBUG: CreateRootSignature() BlurFilter
+ +0.688s - DEBUG: CreateCommandSignature()
+ +0.688s - DEBUG: CreateGraphicsPipelineState() - All
+ +0.719s - DEBUG: Creating Asteroid and Skybox Textures
+ +0.735s - DEBUG: Load Skybox
+ +0.782s - DEBUG: Blur filter
+ +0.782s - DEBUG: sample create
+ +0.782s - DEBUG: Create D2D/DWrite objects for rendering text.
+ +0.782s - DEBUG: Looping... nodeCount: 0 nodeResourcesCount: 0 nodeMask: 1
+ +0.782s - DEBUG: Looping... nodeCount: 0 nodeResourcesCount: 1 nodeMask: 1
+ +0.782s - DEBUG: Looping... nodeCount: 0 nodeResourcesCount: 2 nodeMask: 1
+ +0.782s - DEBUG: Looping... nodeCount: 0 nodeResourcesCount: 3 nodeMask: 1
+ +0.782s - DEBUG: CreateFrameResources() Loop count: 4
+ +0.782s - DEBUG: CreateSubsets
+ +0.782s - DEBUG: Using 4 subsets per frame.
+ +0.782s - DEBUG: Loading Collada Scene
+ +0.797s - DEBUG: SceneRenderer::SceneRenderer Create descriptor heaps for nodes.
+ +0.797s - DEBUG: SceneRenderer::SceneRenderer Create SMPDescriptorList
+ +0.797s - DEBUG: SceneRenderer: GetDescriptorHandleIncrementSize
+ +0.797s - DEBUG: SceneRenderer: create new Scene
+ +3.469s - DEBUG: SceneRenderer: resize buffer
+ +3.469s - DEBUG: SceneRenderer: LoadPipeline
+ +3.469s - DEBUG: SceneRenderer: CreatePSO
+ +3.469s - DEBUG: SceneRenderer::CreatePSO Calling D3D12SerializeRootSignature
+ +3.469s - DEBUG serializedLayout size: 428 buffer: 000001EFF28FF4D0
+ +3.469s - DEBUG: SceneRenderer::CreatePSO Calling CreateRootSignature
+ +3.469s - DEBUG: SceneRenderer::CreatePSO Calling CreateGraphicsPipelineState (Models)
+ +3.469s - DEBUG: SceneRenderer::CreatePSO Calling CreateGraphicsPipelineState (Shadows)
+ +3.469s - DEBUG: LoadPipeline: Creating Samplers
+ +3.469s - DEBUG: SceneRenderer: CreateFrameResources
+ +3.469s - DEBUG: SceneRenderer::CreateFrameResources (0,0) Create Shadow Shader Resources
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,0) Frame Constant Buffer Upload Heap
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,0) Shadow Constant Buffer Upload Heap
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,0) Models Constant Buffer
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,1) Create Shadow Shader Resources
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,1) Frame Constant Buffer Upload Heap
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,1) Shadow Constant Buffer Upload Heap
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,1) Models Constant Buffer
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,2) Create Shadow Shader Resources
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,2) Frame Constant Buffer Upload Heap
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,2) Shadow Constant Buffer Upload Heap
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,2) Models Constant Buffer
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,3) Create Shadow Shader Resources
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,3) Frame Constant Buffer Upload Heap
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,3) Shadow Constant Buffer Upload Heap
+ +3.485s - DEBUG: SceneRenderer::CreateFrameResources (0,3) Models Constant Buffer
+ +3.485s - DEBUG: Creating DX12 Test Window
+ +3.500s - DEBUG: Resize called 300 x 200
+ +3.516s - DEBUG: CreateSwapChainForHwnd()
+ +3.516s - DEBUG: MakeWindowAssociation()
+ +3.516s - DEBUG: IDXGISwapChain1->QueryInterface()
+ +3.516s - DEBUG: Create a wrapped 11On12 resource for each Swap Chain Buffer
+ +3.532s - DEBUG: Create depth stencil/view
+ +3.532s - DEBUG: Resize Scene
+ +3.532s - DEBUG: Entering Main Loop
+ +299.047s - DEBUG: stop test, send close message
+ +299.141s - DEBUG: Exited Main Loop
+ +299.141s - FPS: 59.277412

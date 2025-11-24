@@ -1,0 +1,1005 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:slp="http://schemas.microsoft.com/sleepstudy/2012" xmlns:js="http://microsoft.com/kernel">
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="ReportUtcOffset" content="+8:00"/>
+	<title>DetailsLog</title>
+	<style type="text/css">
+      body {
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      background-color: #ffffff;
+
+      color: #000000;
+
+      margin: 0em 5.5em 0em 5.5em;
+
+      }
+
+
+
+      h1 {
+
+      color: #00b0f0;
+
+      font-size: 42pt;
+
+      }
+
+
+
+      h2 {
+
+      font-size: 15pt;
+
+      color: #00b0f0;
+
+      margin-top: 2em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      h3, h4, h5 {
+
+      margin-top: 1em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      td {
+
+      padding-left: 0.3em;
+
+      padding-right: 0.3em;
+
+      }
+
+
+
+      .nobatts {
+
+      margin-top: 1.5em;
+
+      font-family: Segoe UI Semibold;
+
+      background: #f0f0f0;
+
+      color: #a0a0a0;
+
+      font-size: 13pt;
+
+      padding-left:0.4em;
+
+      padding-right:0.4em;
+
+      padding-top:0.3em;
+
+      padding-bottom:0.3em;
+
+      }
+
+
+
+      .explanation {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 1em;
+
+      }
+
+
+
+      .explanation2 {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 0.1em;
+
+      }
+
+
+
+      table {
+
+      border-width: 0;
+
+      table-layout: fixed;
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      color: #000000;
+
+      margin-bottom: 10px;
+
+      }
+
+
+
+      table.defs { background-color: transparent; }
+
+
+
+      caption {
+
+      padding: 5px 0px 5px 0px;
+
+      font-weight: bold;
+
+      }
+
+
+
+      thead {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      }
+
+
+
+      text {
+
+      font-size: 12pt;
+
+      font-family: Segoe UI Light;
+
+      fill: #00b0f0;
+
+      }
+
+
+
+      .centered { text-align: center; }
+
+
+
+      .label {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      color: #acacac;
+
+      }
+
+
+
+      #legend {
+
+      background-color: #fafafa;
+
+      margin-bottom: 2.2em;
+
+      border-spacing: 0;
+
+      }
+
+
+
+      #legend thead { background-color: #dfdfdf; }
+
+      #legend td, #legend th {
+
+      padding: 4px 5px 4px 5px;
+
+      }
+
+
+
+      #legend .spanner {
+
+      text-align: center;
+
+      background-color: #dfdfdf;
+
+      font-size: 85%;
+
+      font-weight: bold;
+
+      padding: 3px;
+
+      }
+
+
+
+      #legend td.percent { text-align: left; }
+
+
+
+      .graphline-none, .graphline-dotted, .graphline-solid, .graphline-neutral,
+
+      .graphline-low, .graphline-moderate, .graphline-high .graphline-nonclean {
+
+      font-weight: bold;
+
+      }
+
+
+
+      .graphline-none { color: #7d7d7d; }
+
+      .graphline-dotted { color: #7d7d7d; }
+
+      .graphline-solid { color: #7d7d7d; }
+
+      .graphline-neutral { color: #7d7d7d; }
+
+      .graphline-low { color: #2a7a2a; }
+
+      .graphline-moderate { color: #cc7e06; }
+
+      .graphline-high { color: #970d00; }
+
+      .graphline-nonclean { color: #FF00FF;}
+
+
+
+      .top-blocker td, #summary-table td {
+
+      padding: 0;
+
+      }
+
+
+
+      .top-blocker td a, #summary-table td a {
+
+      padding: 0 0.3em 0 0.3em;
+
+      display: block;
+
+      height: 100%;
+
+      }
+
+
+
+      .top-blocker a:link, .top-blocker a:active, .top-blocker a:visited,
+
+      #summary-table a:link, #summary-table a:active, #summary-table a:visited {
+
+      text-decoration: none;
+
+      color: #000000;
+
+      }
+
+
+
+      #summary-table th,
+
+      .session-summary th,
+
+      .top-blocker th,
+
+      .pdc-phases th,
+
+      .device-components th {
+
+      background-color: transparent;
+
+      }
+
+
+
+      #summary-table tbody tr,
+
+      .session-summary tbody tr,
+
+      .top-blocker tbody tr,
+
+      .device-components tbody tr,
+
+      .pdc-phases tbody tr {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-neutral,
+
+      .session-summary .row-neutral,
+
+      .top-blocker .row-neutral,
+
+      .device-components .row-neutral,
+
+      .pdc-phases .row-neutral {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-low,
+
+      .session-summary .row-low,
+
+      .top-blocker .row-low,
+
+      .device-components .row-low,
+
+      .pdc-phases .row-low {
+
+      background-color: #ace3ac;
+
+      }
+
+
+
+      #summary-table .row-moderate,
+
+      .session-summary .row-moderate,
+
+      .top-blocker .row-moderate,
+
+      .device-components .row-moderate,
+
+      .pdc-phases .row-moderate {
+
+      background-color: #fcd69a;
+
+      }
+
+
+
+      #summary-table .row-high,
+
+      .session-summary .row-high,
+
+      .top-blocker .row-high,
+
+      .device-components .row-high,
+
+      .pdc-phases .row-high {
+
+      background-color: #ffb2aa;
+
+      }
+
+
+
+      #summary-table .row-info,
+
+      .session-summary .row-info,
+
+      .top-blocker .row-info,
+
+      .device-components .row-info,
+
+      .pdc-phases .row-info {
+
+      background-color: #86becb;
+
+      }
+
+
+
+      #summary-table .row-nonclean,
+
+      .session-summary .row-nonclean,
+
+      .top-blocker .row-nonclean,
+
+      .device-components .row-nonclean,
+
+      .pdc-phases .row-nonclean {
+
+      background-color: #EE82EE;
+
+      }
+
+
+
+      #summary-table tbody tr:hover,
+
+      .top-blocker tbody tr:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-neutral:hover,
+
+      .top-blocker .row-neutral:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-low:hover,
+
+      .top-blocker .row-low:hover {
+
+      background-color: #caedca;
+
+      }
+
+
+
+      #summary-table .row-moderate:hover,
+
+      .top-blocker .row-moderate:hover {
+
+      background-color: #fde5c0;
+
+      }
+
+
+
+      #summary-table .row-high:hover,
+
+      .top-blocker .row-high:hover {
+
+      background-color: #ffd5d1;
+
+      }
+
+
+
+      #summary-table .row-nonclean:hover,
+
+      .top-blocker .row-nonclean:hover {
+
+      background-color:#D8BFD8;
+
+      }
+
+
+
+      td.colBreak { padding: 0; width: 0.15em; }
+
+
+
+      td.state { text-align: center; }
+
+      td.chargeOrDrain { text-align: center; }
+
+      td.percentLowPowerStateTime { text-align: center; }
+
+      td.percent { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.hms { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.dateTime { font-family: Segoe UI Symbol; }
+
+      td.blank { background-color: #ffffff; }
+
+      td.nullValue { text-align: center; }
+
+      td.center { text-align: center; }
+
+
+
+      col.percent { width: 7.5em; }
+
+
+
+      td.mw {
+
+      font-family: Segoe UI Symbol;
+
+      text-align: center;
+
+      }
+
+
+
+      td.acdc { text-align: center; }
+
+
+
+      span.date {
+
+      display: inline-block;
+
+      width: 5.5em;
+
+      }
+
+
+
+      span.time {
+
+      text-align: right;
+
+      width: 4.2em;
+
+      display: inline-block;
+
+      }
+
+
+
+      text { font-family: Segoe UI Symbol; }
+
+
+
+      .noncontigbreak {
+
+      height: 0.3em;
+
+      background-color: #1A1A28;
+
+      }
+
+
+
+      div.analysis-container {
+
+      margin-bottom: 10px;
+
+      border: 1px solid #ffffff;
+
+      }
+
+
+
+      div.analysis-container h1 {
+
+      padding: 10px;
+
+      font-size: 14px;
+
+      margin: 0px;
+
+      cursor: pointer;
+
+      }
+
+
+
+      div.analysis-body, div.analysis-body-collapsed {
+
+      padding: 10px;
+
+      }
+
+
+
+      div.analysis-body { display: block; }
+
+      div.analysis-body-collapsed { display: none; }
+
+
+
+      .analysis-base { background-color: #f7f7f7; }
+
+      .analysis-base h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-base h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-neutral { background-color: #f0f0f0; }
+
+      .analysis-neutral h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-neutral h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-high { background-color: #ffd5d1; }
+
+      .analysis-high h1 { background-color: #ff8e83; color: #970d00; }
+
+      .analysis-high h1:hover { background-color: #ffb2aa; }
+
+
+
+      .analysis-moderate { background-color: #fde5c0; }
+
+      .analysis-moderate h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .analysis-moderate h1:hover { background-color: #fcd69a; }
+
+
+
+      .analysis-low { background-color: #caedca; }
+
+      .analysis-low h1 { background-color: #8fd98f; color: #2a7a2a; }
+
+      .analysis-low h1:hover { background-color: #ace3ac; }
+
+
+
+      .analysis-info { background-color: #b2e5e5; }
+
+      .analysis-info h1 { background-color: #1aa3a3; color: #0b5e56; }
+
+      .analysis-info h1:hover { background-color: #86becb; }
+
+
+
+      .analysis-empty {
+
+      color: #a0a0a0;
+
+      font-size: 14px;
+
+      padding: 10px;
+
+      font-weight: bold;
+
+      }
+
+    </style><style>
+
+      .expander { font-family: "Consolas"; font-weight: bold; }
+
+      .warning { background-color: #fde5c0; }
+
+      .warning h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .warning h1:hover { background-color: #fcd69a; }
+
+      .error { background-color: #ffd5d1; }
+
+      .error h1 { background-color: #ff8e83; color: #970d00; }
+
+      .error h1:hover { background-color: #ffb2aa; }
+
+      code { font-family: "Consolas"; }
+
+
+
+      pre {
+
+      font-family: "Consolas";
+
+      display: block;
+
+      border: 1px dashed #b0b0b0;
+
+      padding: 10px;
+
+      margin: 10px 0px 10px 0px;
+
+      }
+
+
+
+      .scroll-top-button {
+
+      border: 2px solid #000000;
+
+      background-color: #ffffff;
+
+      padding: 5px 3px 5px 3px;
+
+      font-size: 12px;
+
+      font-family: Segoe UI Semibold;
+
+      float: left;
+
+      border-radius: 18px;
+
+      margin-top: 15px;
+
+      margin-left: -60px;
+
+      }
+
+
+
+      .scroll-top-button:hover {
+
+      background-color: #f0f0f0;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .scenario-details, .scenario-details-collapsed {
+
+      padding: 5px;
+
+      background-color: #f0f0f0;
+
+      width: 864px;
+
+      border-left: 2px solid #ffffff;
+
+      }
+
+
+
+      .scenario-details { display: block; }
+
+      .scenario-details-collapsed { display: none; }
+
+
+
+      .details-expander {
+
+      background-color: #dfdfdf;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .details-expander:hover { background-color: #cfcfcf; }
+
+
+
+      ul { list-style: square; }
+
+    </style>
+	</head>
+	<body>
+    
+	<h1 id="logtitle">Power Transitions Events List</h1><div><h3>Unexpected shutdown/reboot List</h3><div class="explanation"></div><table><tr><td><a href="#record_0">10/24/2025 12:58:30 PM</a></td><td>The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.<BR>BugcheckCode:0x0, SleepInProgress:0, ConnectedStandbyInProgress:false</td></tr></table><div><div><h3>Details List</h3><table id="summary-table"><thead id="logtablehead"><tr><th>TimeCreated</th><th>Id</th><th>LevelDisplayName</th><th>ProviderName</th><th>Message</th></tr></thead><tbody id="logtableboday"><tr class="row-neutral" style="font-weight: bold;" id="record_0"><td>10/24/2025 12:58:30 PM</td><td>41</td><td>Critical</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.<BR>BugcheckCode:0x0, SleepInProgress:0, ConnectedStandbyInProgress:false</td></tr><tr class="row-neutral" style="" id="record_1"><td>10/24/2025 12:58:30 PM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_2"><td>10/24/2025 12:58:27 PM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_3"><td>10/24/2025 12:58:27 PM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_4"><td>10/24/2025 12:58:27 PM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_5"><td>10/24/2025 12:58:27 PM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T12:58:24.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_6"><td>10/24/2025 12:58:27 PM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_7"><td>10/24/2025 12:58:27 PM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was false. The last boot's success status was false.</td></tr><tr class="row-neutral" style="" id="record_8"><td>10/24/2025 12:58:27 PM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_9"><td>10/24/2025 12:58:27 PM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_10"><td>10/24/2025 12:58:27 PM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎24T04:58:26.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_11"><td>10/24/2025 8:47:17 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\Windows\System32\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: </td></tr><tr class="row-neutral" style="" id="record_12"><td>10/24/2025 8:40:46 AM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_13"><td>10/24/2025 8:40:43 AM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_14"><td>10/24/2025 8:40:43 AM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_15"><td>10/24/2025 8:40:43 AM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_16"><td>10/24/2025 8:40:43 AM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T08:40:41.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_17"><td>10/24/2025 8:40:43 AM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_18"><td>10/24/2025 8:40:43 AM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was true. The last boot's success status was true.</td></tr><tr class="row-neutral" style="" id="record_19"><td>10/24/2025 8:40:43 AM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_20"><td>10/24/2025 8:40:43 AM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_21"><td>10/24/2025 8:40:43 AM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎24T00:40:42.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_22"><td>10/24/2025 8:40:21 AM</td><td>13</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system is shutting down at system time ‎2025‎-‎10‎-‎24T00:40:21.514571600Z.</td></tr><tr class="row-neutral" style="" id="record_23"><td>10/24/2025 8:40:21 AM</td><td>577</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has prepared for a system initiated reboot from Active.</td></tr><tr class="row-neutral" style="" id="record_24"><td>10/24/2025 8:40:19 AM</td><td>109</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The kernel power manager has initiated a shutdown transition.
+
+Action: Power Action Reboot 
+Event Code: 0x0 
+Reason: Kernel API</td></tr><tr class="row-neutral" style="" id="record_25"><td>10/24/2025 8:40:04 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\Windows\System32\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: </td></tr><tr class="row-neutral" style="" id="record_26"><td>10/24/2025 8:27:30 AM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_27"><td>10/24/2025 8:27:27 AM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_28"><td>10/24/2025 8:27:27 AM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_29"><td>10/24/2025 8:27:27 AM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_30"><td>10/24/2025 8:27:27 AM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T08:27:25.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_31"><td>10/24/2025 8:27:27 AM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_32"><td>10/24/2025 8:27:27 AM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was true. The last boot's success status was true.</td></tr><tr class="row-neutral" style="" id="record_33"><td>10/24/2025 8:27:27 AM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_34"><td>10/24/2025 8:27:27 AM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_35"><td>10/24/2025 8:27:27 AM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎24T00:27:26.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_36"><td>10/24/2025 8:27:05 AM</td><td>13</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system is shutting down at system time ‎2025‎-‎10‎-‎24T00:27:05.425266300Z.</td></tr><tr class="row-neutral" style="" id="record_37"><td>10/24/2025 8:27:05 AM</td><td>577</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has prepared for a system initiated reboot from Active.</td></tr><tr class="row-neutral" style="" id="record_38"><td>10/24/2025 8:27:03 AM</td><td>109</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The kernel power manager has initiated a shutdown transition.
+
+Action: Power Action Reboot 
+Event Code: 0x0 
+Reason: Kernel API</td></tr><tr class="row-neutral" style="" id="record_39"><td>10/24/2025 8:26:48 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\Windows\System32\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: </td></tr><tr class="row-neutral" style="" id="record_40"><td>10/24/2025 8:19:04 AM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_41"><td>10/24/2025 8:19:01 AM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_42"><td>10/24/2025 8:19:01 AM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_43"><td>10/24/2025 8:19:01 AM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_44"><td>10/24/2025 8:19:01 AM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T08:18:58.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_45"><td>10/24/2025 8:19:01 AM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_46"><td>10/24/2025 8:19:01 AM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was true. The last boot's success status was true.</td></tr><tr class="row-neutral" style="" id="record_47"><td>10/24/2025 8:19:01 AM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_48"><td>10/24/2025 8:19:01 AM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_49"><td>10/24/2025 8:19:01 AM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎24T00:19:00.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_50"><td>10/24/2025 8:18:39 AM</td><td>13</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system is shutting down at system time ‎2025‎-‎10‎-‎24T00:18:39.356634900Z.</td></tr><tr class="row-neutral" style="" id="record_51"><td>10/24/2025 8:18:39 AM</td><td>577</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has prepared for a system initiated reboot from Active.</td></tr><tr class="row-neutral" style="" id="record_52"><td>10/24/2025 8:18:37 AM</td><td>109</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The kernel power manager has initiated a shutdown transition.
+
+Action: Power Action Reboot 
+Event Code: 0x0 
+Reason: Kernel API</td></tr><tr class="row-neutral" style="" id="record_53"><td>10/24/2025 8:18:21 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\Windows\System32\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: </td></tr><tr class="row-neutral" style="" id="record_54"><td>10/24/2025 8:01:53 AM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_55"><td>10/24/2025 8:01:50 AM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_56"><td>10/24/2025 8:01:50 AM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_57"><td>10/24/2025 8:01:50 AM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_58"><td>10/24/2025 8:01:50 AM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T08:01:47.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_59"><td>10/24/2025 8:01:50 AM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_60"><td>10/24/2025 8:01:50 AM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was true. The last boot's success status was true.</td></tr><tr class="row-neutral" style="" id="record_61"><td>10/24/2025 8:01:50 AM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_62"><td>10/24/2025 8:01:50 AM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_63"><td>10/24/2025 8:01:50 AM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎24T00:01:49.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_64"><td>10/24/2025 8:01:28 AM</td><td>13</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system is shutting down at system time ‎2025‎-‎10‎-‎24T00:01:28.394970400Z.</td></tr><tr class="row-neutral" style="" id="record_65"><td>10/24/2025 8:01:28 AM</td><td>577</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has prepared for a system initiated reboot from Active.</td></tr><tr class="row-neutral" style="" id="record_66"><td>10/24/2025 8:01:26 AM</td><td>109</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The kernel power manager has initiated a shutdown transition.
+
+Action: Power Action Reboot 
+Event Code: 0x0 
+Reason: Kernel API</td></tr><tr class="row-neutral" style="" id="record_67"><td>10/24/2025 8:01:10 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\Windows\System32\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: </td></tr><tr class="row-neutral" style="" id="record_68"><td>10/24/2025 7:59:09 AM</td><td>566</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system session has transitioned from 2 to 3.
+
+Reason Unknown 
+
+BootId: 86</td></tr><tr class="row-neutral" style="" id="record_69"><td>10/24/2025 7:59:09 AM</td><td>507</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system is exiting Modern Standby 
+
+Reason: Power Button.</td></tr><tr class="row-neutral" style="" id="record_70"><td>10/24/2025 7:57:10 AM</td><td>566</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system session has transitioned from 1 to 2.
+
+Reason FullWake 
+
+BootId: 86</td></tr><tr class="row-neutral" style="" id="record_71"><td>10/24/2025 7:57:10 AM</td><td>506</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system is entering Modern Standby 
+
+Reason: Screen Off Request.</td></tr><tr class="row-neutral" style="" id="record_72"><td>10/24/2025 7:57:10 AM</td><td>566</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system session has transitioned from 0 to 1.
+
+Reason FullWake 
+
+BootId: 86</td></tr><tr class="row-neutral" style="" id="record_73"><td>10/24/2025 7:54:16 AM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_74"><td>10/24/2025 7:54:13 AM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_75"><td>10/24/2025 7:54:13 AM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_76"><td>10/24/2025 7:54:13 AM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_77"><td>10/24/2025 7:54:13 AM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T07:54:10.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_78"><td>10/24/2025 7:54:13 AM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_79"><td>10/24/2025 7:54:13 AM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was true. The last boot's success status was true.</td></tr><tr class="row-neutral" style="" id="record_80"><td>10/24/2025 7:54:13 AM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_81"><td>10/24/2025 7:54:13 AM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_82"><td>10/24/2025 7:54:13 AM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎23T23:54:12.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_83"><td>10/24/2025 7:53:51 AM</td><td>13</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system is shutting down at system time ‎2025‎-‎10‎-‎23T23:53:51.133008100Z.</td></tr><tr class="row-neutral" style="" id="record_84"><td>10/24/2025 7:53:51 AM</td><td>577</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has prepared for a system initiated reboot from Active.</td></tr><tr class="row-neutral" style="" id="record_85"><td>10/24/2025 7:53:49 AM</td><td>109</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The kernel power manager has initiated a shutdown transition.
+
+Action: Power Action Reboot 
+Event Code: 0x0 
+Reason: Kernel API</td></tr><tr class="row-neutral" style="" id="record_86"><td>10/24/2025 7:53:33 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\Windows\System32\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: </td></tr><tr class="row-neutral" style="" id="record_87"><td>10/24/2025 7:50:30 AM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_88"><td>10/24/2025 7:50:27 AM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_89"><td>10/24/2025 7:50:27 AM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_90"><td>10/24/2025 7:50:27 AM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_91"><td>10/24/2025 7:50:27 AM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T07:50:25.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_92"><td>10/24/2025 7:50:27 AM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_93"><td>10/24/2025 7:50:27 AM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was true. The last boot's success status was true.</td></tr><tr class="row-neutral" style="" id="record_94"><td>10/24/2025 7:50:27 AM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_95"><td>10/24/2025 7:50:27 AM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_96"><td>10/24/2025 7:50:27 AM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎23T23:50:26.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_97"><td>10/24/2025 7:50:05 AM</td><td>13</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system is shutting down at system time ‎2025‎-‎10‎-‎23T23:50:05.078401000Z.</td></tr><tr class="row-neutral" style="" id="record_98"><td>10/24/2025 7:50:05 AM</td><td>577</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has prepared for a system initiated reboot from Active.</td></tr><tr class="row-neutral" style="" id="record_99"><td>10/24/2025 7:50:03 AM</td><td>109</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The kernel power manager has initiated a shutdown transition.
+
+Action: Power Action Reboot 
+Event Code: 0x0 
+Reason: Kernel API</td></tr><tr class="row-neutral" style="" id="record_100"><td>10/24/2025 7:49:55 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\windows\SYSTEM32\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: Sx Assessment Suite Belong To LC Future Center</td></tr><tr class="row-neutral" style="" id="record_101"><td>10/24/2025 7:46:22 AM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_102"><td>10/24/2025 7:46:19 AM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_103"><td>10/24/2025 7:46:19 AM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_104"><td>10/24/2025 7:46:19 AM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_105"><td>10/24/2025 7:46:19 AM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T07:46:17.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_106"><td>10/24/2025 7:46:19 AM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_107"><td>10/24/2025 7:46:19 AM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was true. The last boot's success status was true.</td></tr><tr class="row-neutral" style="" id="record_108"><td>10/24/2025 7:46:19 AM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_109"><td>10/24/2025 7:46:19 AM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_110"><td>10/24/2025 7:46:19 AM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎23T23:46:18.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_111"><td>10/24/2025 7:14:33 AM</td><td>13</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system is shutting down at system time ‎2025‎-‎10‎-‎23T23:14:33.833630200Z.</td></tr><tr class="row-neutral" style="" id="record_112"><td>10/24/2025 7:14:33 AM</td><td>577</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has prepared for a system initiated reboot from Active.</td></tr><tr class="row-neutral" style="" id="record_113"><td>10/24/2025 7:14:32 AM</td><td>109</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The kernel power manager has initiated a shutdown transition.
+
+Action: Power Action Reboot 
+Event Code: 0x0 
+Reason: Kernel API</td></tr><tr class="row-neutral" style="" id="record_114"><td>10/24/2025 7:14:24 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\windows\SysWOW64\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: </td></tr><tr class="row-neutral" style="" id="record_115"><td>10/24/2025 7:12:25 AM</td><td>125</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>ACPI thermal zone \_TZ.THM0 has been enumerated.             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 383K             
+_HOT = 383K             
+minimum throttle = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_116"><td>10/24/2025 7:12:22 AM</td><td>30</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The firmware reported boot metrics.</td></tr><tr class="row-neutral" style="" id="record_117"><td>10/24/2025 7:12:22 AM</td><td>27</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot type was 0x0.</td></tr><tr class="row-neutral" style="" id="record_118"><td>10/24/2025 7:12:22 AM</td><td>25</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The boot menu policy was 0x1.</td></tr><tr class="row-neutral" style="" id="record_119"><td>10/24/2025 7:12:22 AM</td><td>238</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI time zone bias: 2047. Daylight flags: 0. Firmware time: ‎2025‎-‎10‎-‎24T07:12:19.000000000Z.</td></tr><tr class="row-neutral" style="" id="record_120"><td>10/24/2025 7:12:22 AM</td><td>247</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>Unable to load Pluton-Windows firmware. StatusCode: STATUS_SUCCESS, Reason: Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_121"><td>10/24/2025 7:12:22 AM</td><td>20</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The last shutdown's success status was true. The last boot's success status was true.</td></tr><tr class="row-neutral" style="" id="record_122"><td>10/24/2025 7:12:22 AM</td><td>32</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>The bootmgr spent 0 ms waiting for user input.</td></tr><tr class="row-neutral" style="" id="record_123"><td>10/24/2025 7:12:22 AM</td><td>18</td><td>Information</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>There are 0x5 boot options on this system.</td></tr><tr class="row-neutral" style="" id="record_124"><td>10/24/2025 7:12:22 AM</td><td>12</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system started at system time ‎2025‎-‎10‎-‎23T23:12:21.500000000Z.</td></tr><tr class="row-neutral" style="" id="record_125"><td>10/24/2025 7:11:32 AM</td><td>13</td><td>Information</td> <td>Microsoft-Windows-Kernel-General</td> <td>The operating system is shutting down at system time ‎2025‎-‎10‎-‎23T23:11:32.500953800Z.</td></tr><tr class="row-neutral" style="" id="record_126"><td>10/24/2025 7:11:32 AM</td><td>577</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The system has prepared for a system initiated reboot from Active.</td></tr><tr class="row-neutral" style="" id="record_127"><td>10/24/2025 7:11:30 AM</td><td>109</td><td>Information</td> <td>Microsoft-Windows-Kernel-Power</td> <td>The kernel power manager has initiated a shutdown transition.
+
+Action: Power Action Reboot 
+Event Code: 0x0 
+Reason: Kernel API</td></tr><tr class="row-neutral" style="" id="record_128"><td>10/24/2025 7:11:16 AM</td><td>1074</td><td>Information</td> <td>User32</td> <td>The process C:\Windows\System32\shutdown.exe (LAPTOP-QFNRBVBT) has initiated the restart of computer LAPTOP-QFNRBVBT on behalf of user LAPTOP-QFNRBVBT\test for the following reason: No title for this reason could be found
+ Reason Code: 0x800000ff
+ Shutdown Type: restart
+ Comment: </td></tr></tbody></table></div></body></html>

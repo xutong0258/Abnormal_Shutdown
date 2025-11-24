@@ -1,0 +1,105 @@
+//-----------------------------------------------------------------------------
+// Shutdown cause
+//-----------------------------------------------------------------------------
+#define REV0_ID				                    0x00	// Reserved
+#define S5_ID				                    0x01	// Shutdown ID for SB SLP_S5 signal
+//#define OVERTEMP_ID			                0x02	// Shutdown ID for T-diode over temp
+#define APU_THERTRIP_ID                         0x03    // APU thermal trip
+#define COMMAND_ID			                    0x04	// Shutdown ID for command C:0x59 D:0xA2
+#define FLASH_ID			                    0x05	// Shutdown ID for flash
+#define COLDBOOT_ID			                    0x06	// Shutdown ID for EC power reset
+//#define WDT_WARMBOOT_ID		                0x07	// Shutdown ID for EC WDT reset
+#define BOOTFAIL_ID			                    0x08	// Shutdown ID for boot fail restart by command C:0x40 D:0xXX
+//#define FANFAIL_ID			                0x09	// Shutdown ID for fan fail
+#define BATTOVERTEMP_ID		                    0x0A	// Shutdown ID for battery over temp
+#define THERMALCOMMFAIL_ID	                    0x0B	// Shutdown ID for thermal sensor communication fail
+#define BATTEMPTY_ID		                    0x0C	// Shutdown ID for battery empty
+//#define CPUHOT_ID				                0x0D	// Shutdown ID for CPU hot
+#define BATTCOMMFAIL_ID		                    0x0E	// Shutdown ID for battery communication fail
+#define BATTABNORMAL_ID		                    0x0F	// Shutdown ID for battery abnormal device ID
+//#define ESCD_ID				                0x10	// Shutdown ID for ESCD--When receive command 0x59 0xF1 and power button is pressed
+#define DTSOVERTEMP_ID		                    0x11	// Shutdown ID for DTS over temp
+#define VGAOVERTEMP_ID		                    0x12	// Shutdown ID for VGA thermal sensor over temp
+#define BATTLOWVOLT_ID		                    0x13	// Shutdown ID for battery low voltage
+//#define UNKNOWN_WARMBOOT_ID	                0x87	// Shutdown ID for EC code reset and it is not caused by WDT
+#define EXTVGAOVERTEMP_ID	                    0x1C	// Shutdown ID for External VGA thermal sensor over temp
+//#define	CUSTOMER1_ID		                0x1D	// Customer shutdown ID 1
+//#define	CUSTOMER2_ID		                0x1E	// Customer shutdown ID 2
+//#define S35_ID				                0x1F	// Shutdown ID for SB SLP_3.5
+#define VGACOMMFAIL_ID		                    0x20	// Shutdown ID VGA thermal  communication fail
+#define EXTVGACOMMFAIL_ID	                    0x21	// Shutdown ID External VGA thermal sensor communication fail
+#define CPUCOMMFAIL_ID		                    0x22	// Shutdown ID CPU thermal communication fail
+#define ACPI4SS_ID                              0x23    // W114 Shutdown 4s 
+
+#define THERMALCOMMFAIL_1_ID                    0x2A	// Shutdown ID for thermal sensor 1 communication fail
+#define THERMALCOMMFAIL_2_ID                    0x2B	// Shutdown ID for thermal sensor 2 communication fail
+#define THERMALCOMMFAIL_3_ID                    0x2C	// Shutdown ID for thermal sensor 3 communication fail
+#define THERMALCOMMFAIL_4_ID                    0x2D	// Shutdown ID for thermal sensor 4 communication fail
+#define THERMALCOMMFAIL_5_ID                    0x2E	// Shutdown ID for thermal sensor 5 communication fail
+#define THERMALCOMMFAIL_6_ID                    0x2F	// Shutdown ID for thermal sensor 6 communication fail
+
+#define ThermalIClocalOVerTEPM_ID	            0x30	// Shutdown ID thermal sensor local over temp
+#define ThermalICremoteOVerTEPM_ID	            0x31	// Shutdown ID thermal sensor remote over temp
+#define NTC_V_OVerTEPM_ID	                    0x32	// Shutdown ID thermal sensor remote over temp
+#define CPUthermistoroverTemp_ID	            0x33	// Shutdown ID CPU thermistor over temp
+#define GPUthermistoroverTemp_ID	            0x34	// Shutdown ID GPU thermistor over temp
+
+#define STP_safety_ID                           0x35
+
+#define COLDBOOTFAIL_ID                         0x3A    //
+#define DRMOS_OVER_TEMP_ID                      0x3B 
+#define RSOC_1Pto0P_ID	                        0x40	//Force system shutdown with 5S when RSOC drop to 0%.
+#define AI_COMMFAIL_ID                       	0x41
+
+#define OTP_S4_ID                       		0x59
+
+#define SID_BSH									0x70	// BIOS BSH WDT
+
+#define SID_ShipMode_Fail1                      0xA0    // Shipmode battery communication fail
+#define SID_ShipMode_Fail2                      0xA1    // Shipmode battery communication fail
+#define SID_ShipMode_Fail3                      0xA2    // Shipmode battery communication fail
+#define SID_ShipMode_Fail4                      0xA3    // Shipmode battery communication fail
+
+#define SID_ShipMode_Pass1                      0xA6    // Shipmode pass 1
+#define SID_ShipMode_Pass2                      0xA7    // Shipmode pass 2
+#define SID_ShipMode_Pass3                      0xA8    // Shipmode pass 3
+#define SID_ShipMode_Pass4                      0xA9    // Shipmode pass 4
+
+#define SID_PD_FW_Update                        0xB0    // PD shutdownID 1
+#define SID_PD_Reset                            0xB1    // PD shutdownID 2
+#define SID_PD_1                                0xB2    // PD shutdownID 3
+#define SID_PD_2                                0xB4    // PD shutdownID 4
+
+#define SID_Test1                               0xBA    //Test WDT
+#define SID_Test2                               0xBB    //Test WDT
+#define SID_Test3                               0xBC    //Test WDT
+#define SID_Test4                               0xBD    //Test WDT
+#define SID_Test5                               0xBE    //Test WDT
+#define SID_Test6                               0xBF    //Test WDT
+
+#define SID_WA_0xC0								0xC0	// WA shutdown ID    AMD memory traing hang up when BIOS is not live.
+#define SID_WA_0xC1								0xC1	// WA shutdown ID
+#define SID_WA_0xC2								0xC2	// WA shutdown ID
+#define SID_WA_0xC3								0xC3	// WA shutdown ID
+#define SID_WA_0xC4								0xC4	// WA shutdown ID
+#define SID_WA_0xC5								0xC5	// WA shutdown ID
+#define SID_WA_0xC6								0xC6	// WA shutdown ID
+#define SID_WA_0xC7								0xC7	// WA shutdown ID
+
+#define SID_Reserved_0xC8                       0xD8    //reserved shutdown ID 0xC8
+#define SID_Reserved_0xC9                       0xD9    //reserved shutdown ID 0xC9
+#define SID_Reserved_0xCA                       0xDA    //reserved shutdown ID 0xCA
+#define SID_Reserved_0xCB                       0xDB    //reserved shutdown ID 0xCB
+#define SID_Reserved_0xCC                       0xDC    //reserved shutdown ID 0xCC
+#define SID_Reserved_0xCD                       0xDD    //reserved shutdown ID 0xCD
+#define SID_Reserved_0xCE                       0xDE    //reserved shutdown ID 0xCE
+#define SID_Reserved_0xCF                       0xDF    //reserved shutdown ID 0xCF
+
+#define SC_EC_0x0000                            0xEC    // EC code reset
+#define SC_ExtWatchDog                          0xFF    // external watch-dog
+#define SC_IntWatchDog                          0xFE    // internal watch-dog
+#define SC_ECColdBoot                           0xFC    // EC VSTBY or WRST reset
+#define SC_EC8SRESET       	                    0xFD    //8S reset
+
+#define SC_FnDHRST			                    0xFB	//Fn+D+H HW hang shutdown id
+

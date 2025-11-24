@@ -1,0 +1,64 @@
+{
+  "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+  "TaskId": "2025_10_24_07_55_29",
+  "Items": [
+    {
+      "GmtBeginTime": "2025-10-24T07:57:01.9882024+08:00",
+      "GmtEndTime": "2025-10-24T08:00:50.2023235+08:00",
+      "FunctionName": "Ms",
+      "ItemId": "32ea8c3b-75d6-45ba-924c-0ceb68d511d8",
+      "TaskId": "2025_10_24_07_55_29",
+      "DelayTime": 90,
+      "SleepTime": 120,
+      "SleepTimeMax": 999999999,
+      "SleepTimeMin": 30,
+      "FunctionCycle": 1,
+      "FunctionCycleRemained": 0,
+      "FunctionFailureCycle": 0,
+      "FunctionPassCycle": 1,
+      "Status": "PASS",
+      "Records": [],
+      "CurrentRecord": {
+        "Tag": null,
+        "LowPowerHwState": "-",
+        "LowPowerSwState": "-",
+        "EnergyConsumptionEstimation": 0,
+        "AllEvents": [],
+        "FilterWarnEvents": [],
+        "FilterCriticalEvents": [],
+        "Duration": "00:03:48.2120966",
+        "RecordId": "01f553c3-1e89-4b97-935e-6dc79d8e7a16",
+        "ItemId": "32ea8c3b-75d6-45ba-924c-0ceb68d511d8",
+        "Function": "Ms",
+        "No": 1,
+        "State": "PASS",
+        "PowerSource": 1,
+        "NetState": 1,
+        "ErrorCode": 0,
+        "ErrorDesc": "Success Exit",
+        "Remark": null,
+        "GmtBeginTime": "2025-10-24T07:57:01.9882024+08:00",
+        "GmtEndTime": "2025-10-24T08:00:50.200299+08:00",
+        "DebugInfo": null,
+        "StructuredData": [
+          {
+            "Id": 5,
+            "RecordId": "01f553c3-1e89-4b97-935e-6dc79d8e7a16",
+            "DataType": "SystemResumeTime",
+            "DataVersion": "1.0.0.0",
+            "Data": "{\"ResumeTime\":464,\"BiosInitTimeMs\":0,\"HiberReadTimeMs\":0,\"DriverWakeTimeMs\":0}"
+          }
+        ],
+        "FileData": null,
+        "IsInDesignMode": false
+      },
+      "IsInDesignMode": false
+    }
+  ],
+  "GmtBeginTime": "2025-10-24T07:55:29.9364853+08:00",
+  "GmtEndTime": "2025-10-24T08:00:50.4034424+08:00",
+  "Status": "PASS",
+  "CurrentIndex": 0,
+  "LastErrCode": 0,
+  "IsInDesignMode": false
+}

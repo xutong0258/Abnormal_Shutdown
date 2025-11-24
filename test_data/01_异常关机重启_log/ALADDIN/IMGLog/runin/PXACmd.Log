@@ -1,0 +1,490 @@
+2025-10-24 08:02:45,072 | [INFO ] [PXACmd] | Start PreTweak phase
+2025-10-24 08:02:45,088 | [INFO ] [PXACmd] | Start Main phase
+2025-10-24 08:02:45,093 | [INFO ] [PXACmd] | version:1.1.1.0
+2025-10-24 08:02:45,103 | [INFO ] [PXACmd] | Input Arguments: TestName=CGTTPXA_CPU[15MIN] TestMode=NPI TestTime=15 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command=/Job CPU_Single TestStatus=Ready TestGuid=a640f57c5f1345f599ef2289b56160cd
+2025-10-24 08:02:45,167 | [INFO ] [PXACmd] | 
+2025-10-24 08:02:45,167 | [INFO ] [PXACmd] | 
+2025-10-24 08:02:45,167 | [INFO ] [PXACmd] |    Start SMRIController
+2025-10-24 08:02:45,167 | [INFO ] [PXACmd] | Command line: "C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\PXACmd.exe" TestName="CGTTPXA_CPU[15MIN]" TestMode="NPI" TestTime="15" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="/Job CPU_Single" TestStatus="Ready" TestGuid="a640f57c5f1345f599ef2289b56160cd"
+2025-10-24 08:02:45,312 | [INFO ] [PXACmd] | Task/Job: [Job]CPU_Single, Func: Undefined
+2025-10-24 08:02:45,312 | [WARN ] [PXACmd] | Init Status Data
+2025-10-24 08:02:45,595 | [INFO ] [PXACmd] | Start test, please wait...
+2025-10-24 08:02:45,595 | [INFO ] [PXACmd] | DoWork 0 / 1
+2025-10-24 08:02:45,595 | [INFO ] [PXACmd] | Start PXA Test from console mode
+2025-10-24 08:02:45,595 | [INFO ] [PXACmd] | Start sync PXA task
+2025-10-24 08:02:45,595 | [WARN ] [PXACmd] | New start from console mode
+2025-10-24 08:02:45,595 | [INFO ] [PXACmd] | Query Test Item: Job - [0]: CPU_Single, Search Flag: True
+2025-10-24 08:02:45,648 | [INFO ] [PXACmd] | Load db file: [Default] C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\\Bin\data.db
+2025-10-24 08:02:45,648 | [INFO ] [PXACmd] | Load db file: [Runtime] C:\ProgramData\PXA\status.db
+2025-10-24 08:02:45,659 | [INFO ] [PXACmd] | Load db file: [Config] C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\\Bin\cof.db
+2025-10-24 08:02:45,928 | [INFO ] [PXACmd] | Validation Check:21 / Cpu / Single roasting
+2025-10-24 08:02:47,049 | [INFO ] [PXACmd] | Read UnitInfo, please wait...
+2025-10-24 08:02:53,316 | [INFO ] [PXACmd] | Unit SN: PF5XXDFZ
+2025-10-24 08:02:53,325 | [INFO ] [PXACmd] | Process test plan item: CPU_Single
+2025-10-24 08:02:53,341 | [INFO ] [PXACmd] | 
+2025-10-24 08:02:53,341 | [INFO ] [PXACmd] | 
+2025-10-24 08:02:53,341 | [INFO ] [PXACmd] | ==============================================================================
+2025-10-24 08:02:53,341 | [INFO ] [PXACmd] |      Item: 5 - CPU_Single[5]
+2025-10-24 08:02:53,341 | [INFO ] [PXACmd] | ==============================================================================
+2025-10-24 08:02:53,357 | [INFO ] [PXACmd] | Process CGTT
+2025-10-24 08:02:53,387 | [INFO ] [PXACmd] | Try hide windows: 
+2025-10-24 08:02:53,389 | [INFO ] [PXACmd] | Init RuntimeContext for job: Cpu / Single roasting, TestPlan Item: CPU_Single / 5
+2025-10-24 08:02:53,705 | [INFO ] [PXACmd] | Reset the test time from command option: 15
+2025-10-24 08:02:53,742 | [INFO ] [PXACmd] | TempLinearRegression 21
+2025-10-24 08:02:57,607 | [INFO ] [PXACmd] | Try to set SEN3
+2025-10-24 08:02:57,623 | [INFO ] [PXACmd] | PPM        | Plug-in: PPM, check HW Requirement
+2025-10-24 08:02:57,623 | [INFO ] [PXACmd] | PPM        | Check Result: True
+2025-10-24 08:02:57,623 | [INFO ] [PXACmd] | Run Task: PPMController, BestPerformance(PM), StartSync
+2025-10-24 08:02:57,843 | [INFO ] [PXACmd] | PPM        | Plug-in: PPM exit, RTC: 0
+2025-10-24 08:02:57,843 | [INFO ] [PXACmd] | PPM result : 0, taskId: 29
+2025-10-24 08:02:57,843 | [INFO ] [PXACmd] | Test job setting, TestTime: 15 / TestCycle: 0 
+2025-10-24 08:02:57,843 | [INFO ] [PXACmd] | ==================> Current test job:[Cpu] - 0 <==================
+2025-10-24 08:02:57,847 | [INFO ] [PXACmd] | Starting test case : CPU 100% w/ Log, CurrentStatue : Next
+2025-10-24 08:02:57,847 | [INFO ] [PXACmd] | iPTAT      | Plug-in: iPTAT, check HW Requirement
+2025-10-24 08:02:57,847 | [INFO ] [PXACmd] | iPTAT      | Check Result: True
+2025-10-24 08:02:57,847 | [INFO ] [PXACmd] | Run Task: iPTATController, CPU 100% w/ Log, StartAsync
+2025-10-24 08:02:57,857 | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 30
+2025-10-24 08:02:57,857 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:02:58,068 | [INFO ] [PXACmd] | Idle 15min, waiting test finished
+2025-10-24 08:17:58,093 | [INFO ] [PXACmd] | TerminateTask: iPTATController - Terminate
+2025-10-24 08:17:58,099 | [INFO ] [PXACmd] | Run Task: iPTATController, Terminate, Stop
+2025-10-24 08:17:58,265 | [INFO ] [PXACmd] | iPTAT      | Receive Cancel Request...
+2025-10-24 08:18:01,155 | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+2025-10-24 08:18:01,155 | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+2025-10-24 08:18:01,159 | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+taskkill /F /T /IM PTATService.exe
+taskkill /F /T /IM PTATCMD.exe
+taskkill /F /T /IM PTAT.exe
+taskkill /F /T /IM CPUPV.exe
+taskkill /F /T /IM cpu_stress.exe
+taskkill /F /T /IM adl_smallcore_stress.exe
+taskkill /F /T /IM adlN_smallcore_stress.exe
+taskkill /F /T /IM adlPS_smallcore_stress.exe
+taskkill /F /T /IM rpl_stress.exe
+taskkill /F /T /IM adlM_stress.exe
+powershell -Command  "& {sleep -Seconds 2}"
+copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000"
+del /f /q "C:\Users\test\Documents\iTAT\log\*
+copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000"
+del /f /q "C:\Users\test\Documents\iPTAT\log\*
+2025-10-24 08:18:01,378 | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+2025-10-24 08:18:01,378 | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+2025-10-24 08:18:01,378 | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+taskkill /F /T /IM PTATService.exe
+taskkill /F /T /IM PTATCMD.exe
+taskkill /F /T /IM PTAT.exe
+taskkill /F /T /IM CPUPV.exe
+taskkill /F /T /IM cpu_stress.exe
+taskkill /F /T /IM adl_smallcore_stress.exe
+taskkill /F /T /IM adlN_smallcore_stress.exe
+taskkill /F /T /IM adlPS_smallcore_stress.exe
+taskkill /F /T /IM rpl_stress.exe
+taskkill /F /T /IM adlM_stress.exe
+powershell -Command  "& {sleep -Seconds 2}"
+copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000"
+del /f /q "C:\Users\test\Documents\iTAT\log\*
+copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000"
+del /f /q "C:\Users\test\Documents\iPTAT\log\*
+2025-10-24 08:18:08,494 | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+2025-10-24 08:18:08,509 | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+2025-10-24 08:18:08,604 | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 
+2025-10-24 08:18:08,604 | [INFO ] [PXACmd] | TaskID: 30 - RanToCompletion, 0
+2025-10-24 08:18:08,604 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:18:08,604 | [INFO ] [PXACmd] | C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTInfo.json
+2025-10-24 08:18:08,757 | [INFO ] [PXACmd] | Microsoft Windows [Version 10.0.26100.2161]
+2025-10-24 08:18:08,757 | [INFO ] [PXACmd] | (c) Microsoft Corporation. All rights reserved.
+2025-10-24 08:18:08,757 | [INFO ] [PXACmd] | 
+2025-10-24 08:18:08,757 | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_Result.json" /t REG_SZ /f /reg:64
+2025-10-24 08:18:08,764 | [INFO ] [PXACmd] | The operation completed successfully.
+2025-10-24 08:18:08,764 | [INFO ] [PXACmd] | 
+2025-10-24 08:18:08,764 | [INFO ] [PXACmd] | 
+2025-10-24 08:18:08,764 | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>exit /b %errorlvel% 
+2025-10-24 08:18:08,764 | [INFO ] [PXACmd] | 
+2025-10-24 08:18:08,764 | [INFO ] [PXACmd] | 
+2025-10-24 08:18:08,764 | [INFO ] [PXACmd] | Export file to UnitInfo
+2025-10-24 08:18:08,809 | [INFO ] [PXACmd] | PPSEnableFlag: False
+2025-10-24 08:18:08,809 | [INFO ] [PXACmd] | Try to create PXA report 
+2025-10-24 08:18:08,811 | [INFO ] [PXACmd] | Run Task: ResultParserController, PXA Report, StartAsync
+2025-10-24 08:18:13,166 | [INFO ] [PXACmd] | ResultParser result : 0, taskId: 192
+2025-10-24 08:18:14,181 | [INFO ] [PXACmd] | Try to parse CGTT log.
+2025-10-24 08:18:14,186 | [INFO ] [PXACmd] | Run Task: LogParserController, Log Parse, StartSync
+2025-10-24 08:18:17,496 | [INFO ] [PXACmd] | LogParser result : 0, taskId: 202
+2025-10-24 08:18:17,496 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:18:18,508 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:18:18,508 | [INFO ] [PXACmd] | End of test TestJob: 0, Next / End
+2025-10-24 08:18:18,508 | [INFO ] [PXACmd] | Fetch and Upload test result from C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_Result.json
+2025-10-24 08:18:18,565 | [INFO ] [PXACmd] | Try to set SEN3
+2025-10-24 08:18:18,565 | [INFO ] [PXACmd] | PPM        | Plug-in: PPM, check HW Requirement
+2025-10-24 08:18:18,565 | [INFO ] [PXACmd] | PPM        | Check Result: True
+2025-10-24 08:18:18,565 | [INFO ] [PXACmd] | Run Task: PPMController, Balance(PM), StartSync
+2025-10-24 08:18:18,776 | [INFO ] [PXACmd] | PPM        | Plug-in: PPM exit, RTC: 0
+2025-10-24 08:18:18,776 | [INFO ] [PXACmd] | PPM result : 0, taskId: 203
+2025-10-24 08:18:18,776 | [INFO ] [PXACmd] | Try restore windows: 
+2025-10-24 08:18:18,776 | [INFO ] [PXACmd] | Task Status: 5 - CPU_Single[5], RTC: 0
+2025-10-24 08:18:18,871 | [INFO ] [PXACmd] | =============================================
+2025-10-24 08:18:18,871 | [INFO ] [PXACmd] |    PXA Return Code: 0
+2025-10-24 08:18:18,871 | [INFO ] [PXACmd] |    PXA Message: Test Successfully 
+2025-10-24 08:18:18,871 | [INFO ] [PXACmd] | =============================================
+2025-10-24 08:18:18,887 | [INFO ] [PXACmd] | Check test task data
+2025-10-24 08:18:18,905 | [INFO ] [PXACmd] | Upload test StructData
+2025-10-24 08:18:18,905 | [INFO ] [PXACmd] | Add DataString: {"CGID":"1761264177843","cpu_power_issue":false,"mark":"","cpu_power_vice_gap_spec":25,"cpu_power_gap_spec":22,"cpu_package_power_average":24.97,"cpu_package_power_max":25.62,"cpu_power_design_spec":25,"cpu_core0_frequency_min":1683,"cpu_core0_frequency_average":1902.66,"cpu_core0_frequency_max":2206,"cpu_package_temp_average":79.98,"cpu_package_temp_max":81,"cpu_temp_status":true,"total_pwr_gap":0,"vice_total_pwr_gap":0,"JobTag":"Single roasting"}
+2025-10-24 08:18:18,965 | [INFO ] [PXACmd] | Upload debug info: Test Successfully
+2025-10-24 08:18:18,965 | [INFO ] [PXACmd] | Upload test data file : CGTTPXA_CPU[15MIN] -- C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000
+2025-10-24 08:18:18,965 | [INFO ] [PXACmd] | Start PostTweak phase
+2025-10-24 08:18:18,965 | [INFO ] [PXACmd] | End of the task: 0
+2025-10-24 08:18:18,965 | [INFO ] [PXACmd] | Current RTC : 0
+2025-10-24 08:18:18,965 | [INFO ] [PXACmd] | The Exit RTC : 0
+2025-10-24 08:18:18,965 | [INFO ] [PXACmd] | --return code:0x000000--
+2025-10-24 08:28:25,128 | [INFO ] [PXACmd] | Start PreTweak phase
+2025-10-24 08:28:25,151 | [INFO ] [PXACmd] | Start Main phase
+2025-10-24 08:28:25,160 | [INFO ] [PXACmd] | version:1.1.1.0
+2025-10-24 08:28:25,160 | [INFO ] [PXACmd] | Input Arguments: TestName=3DMarkPXA_Stress_Final[10Min] TestMode=NPI TestTime=10 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command=/Job 3DMarkStress TestStatus=Ready TestGuid=1d1cd4529b0c4664b7202ad37f80bf8c
+2025-10-24 08:28:25,226 | [INFO ] [PXACmd] | 
+2025-10-24 08:28:25,226 | [INFO ] [PXACmd] | 
+2025-10-24 08:28:25,226 | [INFO ] [PXACmd] |    Start SMRIController
+2025-10-24 08:28:25,226 | [INFO ] [PXACmd] | Command line: "C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\PXACmd.exe" TestName="3DMarkPXA_Stress_Final[10Min]" TestMode="NPI" TestTime="10" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="/Job 3DMarkStress" TestStatus="Ready" TestGuid="1d1cd4529b0c4664b7202ad37f80bf8c"
+2025-10-24 08:28:25,378 | [INFO ] [PXACmd] | Task/Job: [Job]3DMarkStress, Func: Undefined
+2025-10-24 08:28:25,382 | [WARN ] [PXACmd] | Init Status Data
+2025-10-24 08:28:25,645 | [INFO ] [PXACmd] | Start test, please wait...
+2025-10-24 08:28:25,647 | [INFO ] [PXACmd] | DoWork 0 / 1
+2025-10-24 08:28:25,647 | [INFO ] [PXACmd] | Start PXA Test from console mode
+2025-10-24 08:28:25,647 | [INFO ] [PXACmd] | Start sync PXA task
+2025-10-24 08:28:25,647 | [WARN ] [PXACmd] | New start from console mode
+2025-10-24 08:28:25,649 | [INFO ] [PXACmd] | Query Test Item: Job - [0]: 3DMarkStress, Search Flag: True
+2025-10-24 08:28:25,719 | [INFO ] [PXACmd] | Load db file: [Default] C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\\Bin\data.db
+2025-10-24 08:28:25,726 | [INFO ] [PXACmd] | Load db file: [Runtime] C:\ProgramData\PXA\status.db
+2025-10-24 08:28:25,733 | [INFO ] [PXACmd] | Load db file: [Config] C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\\Bin\cof.db
+2025-10-24 08:28:26,004 | [INFO ] [PXACmd] | Validation Check:20 / 3DMark_Stress / Stress
+2025-10-24 08:28:27,104 | [INFO ] [PXACmd] | Read UnitInfo, please wait...
+2025-10-24 08:28:32,309 | [INFO ] [PXACmd] | Unit SN: PF5XXDFZ
+2025-10-24 08:28:32,325 | [INFO ] [PXACmd] | Process test plan item: 3DMarkStress
+2025-10-24 08:28:32,325 | [INFO ] [PXACmd] | 
+2025-10-24 08:28:32,325 | [INFO ] [PXACmd] | 
+2025-10-24 08:28:32,325 | [INFO ] [PXACmd] | ==============================================================================
+2025-10-24 08:28:32,325 | [INFO ] [PXACmd] |      Item: 6 - 3DMarkStress[6]
+2025-10-24 08:28:32,325 | [INFO ] [PXACmd] | ==============================================================================
+2025-10-24 08:28:32,356 | [INFO ] [PXACmd] | Process UL3DMark
+2025-10-24 08:28:32,372 | [INFO ] [PXACmd] | Try hide windows: 
+2025-10-24 08:28:32,372 | [INFO ] [PXACmd] | Init RuntimeContext for job: 3DMark_Stress / Stress, TestPlan Item: 3DMarkStress / 6
+2025-10-24 08:28:32,696 | [INFO ] [PXACmd] | Reset the test time from command option: 10
+2025-10-24 08:28:36,674 | [INFO ] [PXACmd] | Try to set SEN3
+2025-10-24 08:28:36,689 | [INFO ] [PXACmd] | PPM        | Plug-in: PPM, check HW Requirement
+2025-10-24 08:28:36,689 | [INFO ] [PXACmd] | PPM        | Check Result: True
+2025-10-24 08:28:36,689 | [INFO ] [PXACmd] | Run Task: PPMController, BestPerformance(PM), StartSync
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | PPM        | Plug-in: PPM exit, RTC: 0
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | PPM result : 0, taskId: 29
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | Test job setting, TestTime: 10 / TestCycle: 0 
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | ==================> Current test job:[3DMark_Stress] - 0 <==================
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | Starting test case : Log, CurrentStatue : Next
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | iPTAT      | Plug-in: iPTAT, check HW Requirement
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | iPTAT      | Check Result: True
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | Run Task: iPTATController, Log, StartAsync
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 30
+2025-10-24 08:28:36,928 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:28:36,928 | [INFO ] [PXACmd] | Starting test case : AutoDetect, CurrentStatue : Next
+2025-10-24 08:28:36,949 | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark, check HW Requirement
+2025-10-24 08:28:36,949 | [INFO ] [PXACmd] | 3DMark     | Check Result: True
+2025-10-24 08:28:36,949 | [INFO ] [PXACmd] | Run Task: UL3DMarkController, Auto detect test definition, StartSync
+2025-10-24 08:28:36,959 | [INFO ] [PXACmd] | 3DMark     | 3DMARK Task: AutoDetect, Command-line:   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+2025-10-24 08:28:36,959 | [INFO ] [PXACmd] | 3DMark     | StartProcess->C:\Program Files\UL\3DMark\3DMarkCmd.exe   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+2025-10-24 08:32:12,283 | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark exit, RTC: 0
+2025-10-24 08:32:12,283 | [INFO ] [PXACmd] | 3DMark     | Stop Plug-in: 3DMark
+2025-10-24 08:32:12,283 | [INFO ] [PXACmd] | 3DMark     | Run Script, please wait...
+2025-10-24 08:32:12,288 | [INFO ] [PXACmd] | 3DMark     | taskkill /F /T /IM 3DMark.exe
+taskkill /F /T /IM 3DMarkCmd.exe
+taskkill /F /T /IM 3DMarkAPIOverhead.exe
+taskkill /F /T /IM 3DMarkICFDemo.exe
+taskkill /F /T /IM 3DMarkNightRaid.exe
+taskkill /F /T /IM 3DMarkSkyDiver.exe
+taskkill /F /T /IM 3DMarkTimeSpy.exe
+taskkill /F /T /IM FMSISvc.exe
+taskkill /F /T /IM EasyFMSI.exe
+taskkill /F /T /IM SystemInfoHelper.exe
+taskkill /F /T /IM java.exe
+taskkill /F /T /IM DDSWA.exe
+2025-10-24 08:32:13,012 | [INFO ] [PXACmd] | 3DMark     | Script return code: 128
+2025-10-24 08:32:13,249 | [INFO ] [PXACmd] | 3DMark     | Export result: C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+2025-10-24 08:32:13,328 | [INFO ] [PXACmd] | 3DMark result : 0, taskId: 90
+2025-10-24 08:32:13,328 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:32:13,552 | [INFO ] [PXACmd] | TerminateTask: iPTATController - Terminate
+2025-10-24 08:32:13,552 | [INFO ] [PXACmd] | Run Task: iPTATController, Terminate, Stop
+2025-10-24 08:32:13,726 | [INFO ] [PXACmd] | iPTAT      | Receive Cancel Request...
+2025-10-24 08:32:16,568 | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+2025-10-24 08:32:16,568 | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+2025-10-24 08:32:16,568 | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+taskkill /F /T /IM PTATService.exe
+taskkill /F /T /IM PTATCMD.exe
+taskkill /F /T /IM PTAT.exe
+taskkill /F /T /IM CPUPV.exe
+taskkill /F /T /IM cpu_stress.exe
+taskkill /F /T /IM adl_smallcore_stress.exe
+taskkill /F /T /IM adlN_smallcore_stress.exe
+taskkill /F /T /IM adlPS_smallcore_stress.exe
+taskkill /F /T /IM rpl_stress.exe
+taskkill /F /T /IM adlM_stress.exe
+powershell -Command  "& {sleep -Seconds 2}"
+copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iTAT\log\*
+copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iPTAT\log\*
+2025-10-24 08:32:16,727 | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+2025-10-24 08:32:16,727 | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+2025-10-24 08:32:16,727 | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+taskkill /F /T /IM PTATService.exe
+taskkill /F /T /IM PTATCMD.exe
+taskkill /F /T /IM PTAT.exe
+taskkill /F /T /IM CPUPV.exe
+taskkill /F /T /IM cpu_stress.exe
+taskkill /F /T /IM adl_smallcore_stress.exe
+taskkill /F /T /IM adlN_smallcore_stress.exe
+taskkill /F /T /IM adlPS_smallcore_stress.exe
+taskkill /F /T /IM rpl_stress.exe
+taskkill /F /T /IM adlM_stress.exe
+powershell -Command  "& {sleep -Seconds 2}"
+copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iTAT\log\*
+copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iPTAT\log\*
+2025-10-24 08:32:21,201 | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+2025-10-24 08:32:21,201 | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+2025-10-24 08:32:21,296 | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 
+2025-10-24 08:32:21,309 | [INFO ] [PXACmd] | TaskID: 30 - RanToCompletion, 0
+2025-10-24 08:32:21,309 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:32:21,309 | [INFO ] [PXACmd] | C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_CGTTInfo.json
+2025-10-24 08:32:21,459 | [INFO ] [PXACmd] | Microsoft Windows [Version 10.0.26100.2161]
+2025-10-24 08:32:21,459 | [INFO ] [PXACmd] | (c) Microsoft Corporation. All rights reserved.
+2025-10-24 08:32:21,459 | [INFO ] [PXACmd] | 
+2025-10-24 08:32:21,459 | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_Result.json" /t REG_SZ /f /reg:64
+2025-10-24 08:32:21,469 | [INFO ] [PXACmd] | The operation completed successfully.
+2025-10-24 08:32:21,469 | [INFO ] [PXACmd] | 
+2025-10-24 08:32:21,469 | [INFO ] [PXACmd] | 
+2025-10-24 08:32:21,469 | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>exit /b %errorlvel% 
+2025-10-24 08:32:21,469 | [INFO ] [PXACmd] | 
+2025-10-24 08:32:21,469 | [INFO ] [PXACmd] | 
+2025-10-24 08:32:21,469 | [INFO ] [PXACmd] | Export file to UnitInfo
+2025-10-24 08:32:21,517 | [INFO ] [PXACmd] | PPSEnableFlag: False
+2025-10-24 08:32:21,517 | [INFO ] [PXACmd] | Try to create PXA report 
+2025-10-24 08:32:21,517 | [INFO ] [PXACmd] | Run Task: ResultParserController, PXA Report, StartAsync
+2025-10-24 08:32:25,823 | [INFO ] [PXACmd] | ResultParser result : 0, taskId: 239
+2025-10-24 08:32:26,839 | [INFO ] [PXACmd] | Parse file : C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.xml
+2025-10-24 08:32:27,265 | [INFO ] [PXACmd] | Scores : {"TimeSpyPerformanceGraphicsScoreForPass": 3434,"TimeSpyPerformanceCPUScoreForPass": 7045,"TimeSpyPerformance3DMarkScoreForPass": 3720,"TimeSpyPerformanceGraphicsTest1": 21.98,"TimeSpyPerformanceGraphicsTest2": 20.02,"TimeSpyPerformanceCpuSection2": 23.67}
+2025-10-24 08:32:27,265 | [INFO ] [PXACmd] | ==================> Current test job:[3DMark_Stress] - 1 <==================
+2025-10-24 08:32:27,265 | [INFO ] [PXACmd] | Starting test case : Log, CurrentStatue : Next
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | iPTAT      | Plug-in: iPTAT, check HW Requirement
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | iPTAT      | Check Result: True
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | Run Task: iPTATController, Log, StartAsync
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 240
+2025-10-24 08:32:27,266 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | Starting test case : AutoDetect, CurrentStatue : Next
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark, check HW Requirement
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | 3DMark     | Check Result: True
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | Run Task: UL3DMarkController, Auto detect test definition, StartSync
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | 3DMark     | 3DMARK Task: AutoDetect, Command-line:   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+2025-10-24 08:32:27,266 | [INFO ] [PXACmd] | 3DMark     | StartProcess->C:\Program Files\UL\3DMark\3DMarkCmd.exe   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+2025-10-24 08:36:02,666 | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark exit, RTC: 0
+2025-10-24 08:36:02,666 | [INFO ] [PXACmd] | 3DMark     | Stop Plug-in: 3DMark
+2025-10-24 08:36:02,666 | [INFO ] [PXACmd] | 3DMark     | Run Script, please wait...
+2025-10-24 08:36:02,666 | [INFO ] [PXACmd] | 3DMark     | taskkill /F /T /IM 3DMark.exe
+taskkill /F /T /IM 3DMarkCmd.exe
+taskkill /F /T /IM 3DMarkAPIOverhead.exe
+taskkill /F /T /IM 3DMarkICFDemo.exe
+taskkill /F /T /IM 3DMarkNightRaid.exe
+taskkill /F /T /IM 3DMarkSkyDiver.exe
+taskkill /F /T /IM 3DMarkTimeSpy.exe
+taskkill /F /T /IM FMSISvc.exe
+taskkill /F /T /IM EasyFMSI.exe
+taskkill /F /T /IM SystemInfoHelper.exe
+taskkill /F /T /IM java.exe
+taskkill /F /T /IM DDSWA.exe
+2025-10-24 08:36:03,366 | [INFO ] [PXACmd] | 3DMark     | Script return code: 128
+2025-10-24 08:36:03,589 | [INFO ] [PXACmd] | 3DMark     | Export result: C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+2025-10-24 08:36:03,643 | [INFO ] [PXACmd] | 3DMark result : 0, taskId: 304
+2025-10-24 08:36:03,643 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:36:03,858 | [INFO ] [PXACmd] | TerminateTask: iPTATController - Terminate
+2025-10-24 08:36:03,858 | [INFO ] [PXACmd] | Run Task: iPTATController, Terminate, Stop
+2025-10-24 08:36:04,064 | [INFO ] [PXACmd] | iPTAT      | Receive Cancel Request...
+2025-10-24 08:36:06,875 | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+2025-10-24 08:36:06,875 | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+2025-10-24 08:36:06,875 | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+taskkill /F /T /IM PTATService.exe
+taskkill /F /T /IM PTATCMD.exe
+taskkill /F /T /IM PTAT.exe
+taskkill /F /T /IM CPUPV.exe
+taskkill /F /T /IM cpu_stress.exe
+taskkill /F /T /IM adl_smallcore_stress.exe
+taskkill /F /T /IM adlN_smallcore_stress.exe
+taskkill /F /T /IM adlPS_smallcore_stress.exe
+taskkill /F /T /IM rpl_stress.exe
+taskkill /F /T /IM adlM_stress.exe
+powershell -Command  "& {sleep -Seconds 2}"
+copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iTAT\log\*
+copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iPTAT\log\*
+2025-10-24 08:36:07,081 | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+2025-10-24 08:36:07,081 | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+2025-10-24 08:36:07,081 | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+taskkill /F /T /IM PTATService.exe
+taskkill /F /T /IM PTATCMD.exe
+taskkill /F /T /IM PTAT.exe
+taskkill /F /T /IM CPUPV.exe
+taskkill /F /T /IM cpu_stress.exe
+taskkill /F /T /IM adl_smallcore_stress.exe
+taskkill /F /T /IM adlN_smallcore_stress.exe
+taskkill /F /T /IM adlPS_smallcore_stress.exe
+taskkill /F /T /IM rpl_stress.exe
+taskkill /F /T /IM adlM_stress.exe
+powershell -Command  "& {sleep -Seconds 2}"
+copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iTAT\log\*
+copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iPTAT\log\*
+2025-10-24 08:36:10,925 | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+2025-10-24 08:36:11,012 | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 
+2025-10-24 08:36:11,059 | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+2025-10-24 08:36:11,138 | [INFO ] [PXACmd] | TaskID: 240 - RanToCompletion, 0
+2025-10-24 08:36:11,138 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:36:11,138 | [INFO ] [PXACmd] | C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_CGTTInfo.json
+2025-10-24 08:36:11,161 | [INFO ] [PXACmd] | Microsoft Windows [Version 10.0.26100.2161]
+2025-10-24 08:36:11,161 | [INFO ] [PXACmd] | (c) Microsoft Corporation. All rights reserved.
+2025-10-24 08:36:11,161 | [INFO ] [PXACmd] | 
+2025-10-24 08:36:11,161 | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_Result.json" /t REG_SZ /f /reg:64
+2025-10-24 08:36:11,169 | [INFO ] [PXACmd] | The operation completed successfully.
+2025-10-24 08:36:11,169 | [INFO ] [PXACmd] | 
+2025-10-24 08:36:11,169 | [INFO ] [PXACmd] | 
+2025-10-24 08:36:11,169 | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>exit /b %errorlvel% 
+2025-10-24 08:36:11,169 | [INFO ] [PXACmd] | 
+2025-10-24 08:36:11,169 | [INFO ] [PXACmd] | 
+2025-10-24 08:36:11,169 | [INFO ] [PXACmd] | Export file to UnitInfo
+2025-10-24 08:36:11,175 | [INFO ] [PXACmd] | PPSEnableFlag: False
+2025-10-24 08:36:11,175 | [INFO ] [PXACmd] | Try to create PXA report 
+2025-10-24 08:36:11,175 | [INFO ] [PXACmd] | Run Task: ResultParserController, PXA Report, StartAsync
+2025-10-24 08:36:13,099 | [INFO ] [PXACmd] | ResultParser result : 0, taskId: 457
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | Parse file : C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.xml
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | Scores : {"TimeSpyPerformanceGraphicsScoreForPass": 3429,"TimeSpyPerformanceCPUScoreForPass": 7054,"TimeSpyPerformance3DMarkScoreForPass": 3715,"TimeSpyPerformanceGraphicsTest1": 22.05,"TimeSpyPerformanceGraphicsTest2": 19.90,"TimeSpyPerformanceCpuSection2": 23.70}
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | ==================> Current test job:[3DMark_Stress] - 2 <==================
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | Starting test case : Log, CurrentStatue : Next
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | iPTAT      | Plug-in: iPTAT, check HW Requirement
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | iPTAT      | Check Result: True
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | Run Task: iPTATController, Log, StartAsync
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 458
+2025-10-24 08:36:14,108 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | Starting test case : AutoDetect, CurrentStatue : Next
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark, check HW Requirement
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | 3DMark     | Check Result: True
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | Run Task: UL3DMarkController, Auto detect test definition, StartSync
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | 3DMark     | 3DMARK Task: AutoDetect, Command-line:   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+2025-10-24 08:36:14,108 | [INFO ] [PXACmd] | 3DMark     | StartProcess->C:\Program Files\UL\3DMark\3DMarkCmd.exe   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+2025-10-24 08:39:47,238 | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark exit, RTC: 0
+2025-10-24 08:39:47,238 | [INFO ] [PXACmd] | 3DMark     | Stop Plug-in: 3DMark
+2025-10-24 08:39:47,238 | [INFO ] [PXACmd] | 3DMark     | Run Script, please wait...
+2025-10-24 08:39:47,238 | [INFO ] [PXACmd] | 3DMark     | taskkill /F /T /IM 3DMark.exe
+taskkill /F /T /IM 3DMarkCmd.exe
+taskkill /F /T /IM 3DMarkAPIOverhead.exe
+taskkill /F /T /IM 3DMarkICFDemo.exe
+taskkill /F /T /IM 3DMarkNightRaid.exe
+taskkill /F /T /IM 3DMarkSkyDiver.exe
+taskkill /F /T /IM 3DMarkTimeSpy.exe
+taskkill /F /T /IM FMSISvc.exe
+taskkill /F /T /IM EasyFMSI.exe
+taskkill /F /T /IM SystemInfoHelper.exe
+taskkill /F /T /IM java.exe
+taskkill /F /T /IM DDSWA.exe
+2025-10-24 08:39:47,876 | [INFO ] [PXACmd] | 3DMark     | Script return code: 128
+2025-10-24 08:39:48,110 | [INFO ] [PXACmd] | 3DMark     | Export result: C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+2025-10-24 08:39:48,158 | [INFO ] [PXACmd] | 3DMark result : 0, taskId: 520
+2025-10-24 08:39:48,158 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:39:48,376 | [INFO ] [PXACmd] | TerminateTask: iPTATController - Terminate
+2025-10-24 08:39:48,376 | [INFO ] [PXACmd] | Run Task: iPTATController, Terminate, Stop
+2025-10-24 08:39:48,471 | [INFO ] [PXACmd] | iPTAT      | Receive Cancel Request...
+2025-10-24 08:39:51,378 | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+2025-10-24 08:39:51,378 | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+2025-10-24 08:39:51,378 | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+taskkill /F /T /IM PTATService.exe
+taskkill /F /T /IM PTATCMD.exe
+taskkill /F /T /IM PTAT.exe
+taskkill /F /T /IM CPUPV.exe
+taskkill /F /T /IM cpu_stress.exe
+taskkill /F /T /IM adl_smallcore_stress.exe
+taskkill /F /T /IM adlN_smallcore_stress.exe
+taskkill /F /T /IM adlPS_smallcore_stress.exe
+taskkill /F /T /IM rpl_stress.exe
+taskkill /F /T /IM adlM_stress.exe
+powershell -Command  "& {sleep -Seconds 2}"
+copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iTAT\log\*
+copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iPTAT\log\*
+2025-10-24 08:39:51,473 | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+2025-10-24 08:39:51,473 | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+2025-10-24 08:39:51,473 | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+taskkill /F /T /IM PTATService.exe
+taskkill /F /T /IM PTATCMD.exe
+taskkill /F /T /IM PTAT.exe
+taskkill /F /T /IM CPUPV.exe
+taskkill /F /T /IM cpu_stress.exe
+taskkill /F /T /IM adl_smallcore_stress.exe
+taskkill /F /T /IM adlN_smallcore_stress.exe
+taskkill /F /T /IM adlPS_smallcore_stress.exe
+taskkill /F /T /IM rpl_stress.exe
+taskkill /F /T /IM adlM_stress.exe
+powershell -Command  "& {sleep -Seconds 2}"
+copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iTAT\log\*
+copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+del /f /q "C:\Users\test\Documents\iPTAT\log\*
+2025-10-24 08:39:55,430 | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+2025-10-24 08:39:55,454 | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+2025-10-24 08:39:55,518 | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 
+2025-10-24 08:39:55,533 | [INFO ] [PXACmd] | TaskID: 458 - RanToCompletion, 0
+2025-10-24 08:39:55,533 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:39:55,533 | [INFO ] [PXACmd] | C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_CGTTInfo.json
+2025-10-24 08:39:55,565 | [INFO ] [PXACmd] | Microsoft Windows [Version 10.0.26100.2161]
+2025-10-24 08:39:55,565 | [INFO ] [PXACmd] | (c) Microsoft Corporation. All rights reserved.
+2025-10-24 08:39:55,565 | [INFO ] [PXACmd] | 
+2025-10-24 08:39:55,565 | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_Result.json" /t REG_SZ /f /reg:64
+2025-10-24 08:39:55,571 | [INFO ] [PXACmd] | The operation completed successfully.
+2025-10-24 08:39:55,571 | [INFO ] [PXACmd] | 
+2025-10-24 08:39:55,571 | [INFO ] [PXACmd] | 
+2025-10-24 08:39:55,571 | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>exit /b %errorlvel% 
+2025-10-24 08:39:55,571 | [INFO ] [PXACmd] | 
+2025-10-24 08:39:55,571 | [INFO ] [PXACmd] | 
+2025-10-24 08:39:55,571 | [INFO ] [PXACmd] | Export file to UnitInfo
+2025-10-24 08:39:55,581 | [INFO ] [PXACmd] | PPSEnableFlag: False
+2025-10-24 08:39:55,581 | [INFO ] [PXACmd] | Try to create PXA report 
+2025-10-24 08:39:55,581 | [INFO ] [PXACmd] | Run Task: ResultParserController, PXA Report, StartAsync
+2025-10-24 08:39:58,547 | [INFO ] [PXACmd] | ResultParser result : 0, taskId: 672
+2025-10-24 08:39:59,558 | [INFO ] [PXACmd] | Parse file : C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.xml
+2025-10-24 08:39:59,558 | [INFO ] [PXACmd] | Scores : {"TimeSpyPerformanceGraphicsScoreForPass": 3436,"TimeSpyPerformanceCPUScoreForPass": 7077,"TimeSpyPerformance3DMarkScoreForPass": 3723,"TimeSpyPerformanceGraphicsTest1": 22.05,"TimeSpyPerformanceGraphicsTest2": 19.97,"TimeSpyPerformanceCpuSection2": 23.78}
+2025-10-24 08:39:59,558 | [INFO ] [PXACmd] | Skip item: 3DMarkScore, 0
+2025-10-24 08:39:59,558 | [INFO ] [PXACmd] | Skip item: CPU Score, 0
+2025-10-24 08:39:59,558 | [INFO ] [PXACmd] | Skip item: Graphics Score, 0
+2025-10-24 08:39:59,558 | [INFO ] [PXACmd] | Skip item: GT1, 0
+2025-10-24 08:39:59,558 | [INFO ] [PXACmd] | Skip item: GT2, 0
+2025-10-24 08:39:59,558 | [INFO ] [PXACmd] | Skip item: CPU test, 0
+2025-10-24 08:39:59,564 | [WARN ] [PXACmd] | Call Method: 0
+2025-10-24 08:39:59,564 | [INFO ] [PXACmd] | End of test TestJob: 0, Next / Abort
+2025-10-24 08:39:59,572 | [INFO ] [PXACmd] | Try to set SEN3
+2025-10-24 08:39:59,572 | [INFO ] [PXACmd] | PPM        | Plug-in: PPM, check HW Requirement
+2025-10-24 08:39:59,572 | [INFO ] [PXACmd] | PPM        | Check Result: True
+2025-10-24 08:39:59,572 | [INFO ] [PXACmd] | Run Task: PPMController, Balance(PM), StartSync
+2025-10-24 08:39:59,781 | [INFO ] [PXACmd] | PPM        | Plug-in: PPM exit, RTC: 0
+2025-10-24 08:39:59,781 | [INFO ] [PXACmd] | PPM result : 0, taskId: 673
+2025-10-24 08:39:59,781 | [INFO ] [PXACmd] | Try restore windows: 
+2025-10-24 08:39:59,781 | [INFO ] [PXACmd] | Task Status: 6 - 3DMarkStress[6], RTC: 0
+2025-10-24 08:39:59,898 | [INFO ] [PXACmd] | =============================================
+2025-10-24 08:39:59,898 | [INFO ] [PXACmd] |    PXA Return Code: 0
+2025-10-24 08:39:59,898 | [INFO ] [PXACmd] |    PXA Message: Test Successfully 
+2025-10-24 08:39:59,898 | [INFO ] [PXACmd] | =============================================
+2025-10-24 08:39:59,898 | [INFO ] [PXACmd] | Check test task data
+2025-10-24 08:39:59,908 | [INFO ] [PXACmd] | Upload test StructData
+2025-10-24 08:39:59,908 | [INFO ] [PXACmd] | Add DataString: {"time_spy_graphics_score":3434,"time_spy_physics_score":7045,"time_spy_total_score":3720,"time_spy_graphics_test1_fps":21.98,"time_spy_graphics_test2_fps":20.02,"time_spy_physics_test_fps":23.67}
+2025-10-24 08:39:59,970 | [INFO ] [PXACmd] | Add DataString: {"time_spy_graphics_score":3429,"time_spy_physics_score":7054,"time_spy_total_score":3715,"time_spy_graphics_test1_fps":22.05,"time_spy_graphics_test2_fps":19.9,"time_spy_physics_test_fps":23.7}
+2025-10-24 08:39:59,972 | [INFO ] [PXACmd] | Add DataString: {"time_spy_graphics_score":3436,"time_spy_physics_score":7077,"time_spy_total_score":3723,"time_spy_graphics_test1_fps":22.05,"time_spy_graphics_test2_fps":19.97,"time_spy_physics_test_fps":23.78}
+2025-10-24 08:39:59,972 | [INFO ] [PXACmd] | Upload debug info: Test Successfully
+2025-10-24 08:39:59,975 | [INFO ] [PXACmd] | Upload test data file : 3DMarkPXA_Stress_Final[10Min] -- C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000
+2025-10-24 08:39:59,975 | [INFO ] [PXACmd] | Start PostTweak phase
+2025-10-24 08:39:59,975 | [INFO ] [PXACmd] | End of the task: 0
+2025-10-24 08:39:59,975 | [INFO ] [PXACmd] | Current RTC : 0
+2025-10-24 08:39:59,975 | [INFO ] [PXACmd] | The Exit RTC : 0
+2025-10-24 08:39:59,975 | [INFO ] [PXACmd] | --return code:0x000000--

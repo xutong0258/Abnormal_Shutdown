@@ -1,0 +1,127 @@
+'0x01':
+  'Root Cause': 'Shutdown ID for SB SLP_S5 signal'
+  '原因': 'SB SLP_S5 信号关机 ID'
+
+'0x02':
+  'Root Cause': 'Shutdown ID for T-diode over temp'
+  '原因': 'T-diode over temp 信号关机 ID'
+
+'0x03':
+  'Root Cause': 'APU thermal trip'
+  '原因': 'APU 过热保护触发'
+
+'0x04':
+  'Root Cause': 'Shutdown ID for command C:0x59 D:0xA2'
+  '原因': '对应指令 C:0x59 D:0xA2 的关机 ID'
+
+'0x04':
+  判断标准: '0x04：“Cmd59 - Az shutdown”'
+  'Root Cause': 'Cmd59 - Az 关机'
+
+'0x05':
+  判断标准: '0x05：“Flash shutdown”'
+  'Root Cause': '闪存关机'
+
+'0x06':
+  判断标准: '0x06：“EC power reset shutdown”'
+  'Root Cause': 'EC 电源重置关机'
+
+'0x08':
+  判断标准: '0x08：“Boot1 restart”'
+  'Root Cause': 'Boot1 重启'
+
+'0x0A':
+  判断标准: '0x0A：“Battery over temp shutdown”'
+  'Root Cause': '电池过温关机'
+
+'0x0B':
+  判断标准: '0x0B：“Thermal sensor communication fail shutdown”'
+  'Root Cause': '热传感器通信失败关机'
+
+'0x0C':
+  判断标准: '0x0C：“Battery communication fail shutdown”'
+  'Root Cause': '电池通信失败关机'
+
+'0x0E':
+  判断标准: '0x0E：“Battery empty shutdown”'
+  'Root Cause': '电池耗尽关机'
+
+'0x0F':
+  判断标准: '0x0F：“Battery abnormal shutdown ID shutdown”'
+  'Root Cause': '电池异常关机 ID 关机'
+
+'0x11':
+  判断标准: '0x11：“DTS over temp shutdown”'
+  'Root Cause': 'DTS 过温关机'
+
+'0x12':
+  判断标准: '0x12：“VGA thermal sensor over temp shutdown”'
+  'Root Cause': 'VGA 热传感器过温关机'
+
+'0x13':
+  判断标准: '0x13：“Battery low voltage shutdown”'
+  'Root Cause': '电池低电压关机'
+
+'0x1C':
+  判断标准: '0x1C：“External VGA thermal sensor over temp shutdown”'
+  'Root Cause': '外部 VGA 热传感器过温关机'
+
+'0x20':
+  判断标准: '0x20：“VGA thermal sensor communication fail shutdown”'
+  'Root Cause': 'VGA 热传感器通信失败关机'
+
+'0x21':
+  判断标准: '0x21“External VGA thermal sensor communication fail shutdown”'
+  'Root Cause': '外部 VGA 热传感器通信失败关机'
+
+'0x22':
+  判断标准: '0x22：“CPU thermal sensor communication fail shutdown”'
+  'Root Cause': 'CPU 热传感器通信失败关机'
+
+'0x23':
+  判断标准: '0x23：“W114 Shutdown 4s”'
+  'Root Cause': 'W114 4 秒关机'
+
+'0x30':
+  判断标准: '0x30：“Thermal sensor local over temp shutdown”'
+  'Root Cause': '本地热传感器过温关机'
+
+'0x31':
+  判断标准: '0x31：“Thermal sensor remote over temp shutdown”'
+  'Root Cause': '远程热传感器过温关机'
+
+'0x32':
+  判断标准: '0x32：“Thermal sensor remote over temp shutdown”'
+  'Root Cause': '远程热传感器过温关机'
+
+'0x33':
+  判断标准: '0x33：“CPU thermistor over temp shutdown”'
+  'Root Cause': 'CPU 热敏电阻过温关机'
+
+'0x34':
+  判断标准: '0x34：“GPU thermistor over temp shutdown”'
+  'Root Cause': 'GPU 热敏电阻过温关机'
+
+'0x3A':
+  判断标准: '0x3A：“Cold boot fail shutdown”'
+  'Root Cause': '冷启动失败关机'
+
+'0x40':
+  判断标准: '0x40：“Force system shutdown with SS when RSOC drop to 0%”'
+  'Root Cause': '当剩余电量降至 0% 时，通过 SS 强制系统关机'
+
+'0xEC':
+  判断标准: '0xEC：“HW code reset”'
+  'Root Cause': '硬件代码重置'
+
+'0xFC':
+  判断标准: '0xFC：“EC hang reset”'
+  'Root Cause': 'EC 挂起重置'
+
+'0xFD':
+  判断标准: '0xFD：“EC RSTBT or WRST reset”'
+  'Root Cause': 'EC RSTBT 或 WRST 重置'
+
+'0xFE':
+  判断标准: '0xFE：“RS MTV”'
+  'Root Cause': 'RS MTV'

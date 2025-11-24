@@ -7,8 +7,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 from bs4 import BeautifulSoup
 import csv
-from base.logger import *
+from utils.logger_util import *
 from base.folder_file import *
+from base.date_help import *
 
 def parse_html_table(html_file):
     # 读取HTML文件内容
@@ -66,6 +67,8 @@ def parse_dynamic_table(html_path):
         for table in tables:
             # 提取表格ID（用于标识表格）
             table_id = table.get_attribute("id") or f"table_{len(all_tables)}"
+
+            logger.info(f'table_id:{table_id}')
             
             # 提取表头
             headers = []
@@ -101,7 +104,7 @@ def get_Abnormal_Shutdown_time(folder_path):
     # logger.info(f'row:{row}')
 
     target_file = 'SystemPowerReport.html'
-    file_path = get_file_path_by_dir(folder_path, target_file)
+    file_path = get_latest_file_path_by_dir(folder_path, target_file)
     logger.info(f'file_path:{file_path}')
 
     # 解析表格
@@ -125,7 +128,7 @@ def Critical_Event_Check(folder_path):
     # logger.info(f'row:{row}')
 
     target_file = 'KernelPowerReport.html'
-    file_path = get_file_path_by_dir(folder_path, target_file)
+    file_path = get_latest_file_path_by_dir(folder_path, target_file)
     logger.info(f'file_path:{file_path}')
 
     # 解析表格
@@ -153,7 +156,7 @@ def get_wakeup_reason(folder_path):
     # logger.info(f'row:{row}')
 
     target_file = 'KernelPowerReport.html'
-    file_path = get_file_path_by_dir(folder_path, target_file)
+    file_path = get_latest_file_path_by_dir(folder_path, target_file)
     logger.info(f'file_path:{file_path}')
 
     # 解析表格
@@ -162,7 +165,8 @@ def get_wakeup_reason(folder_path):
     target_str = 'TimeCreated'
     target_table = None
     target_time = None
-    wakeup_reason = None
+    wakeup_reason_dict = {}
+    total_dict = {}
     for table in tables_data:
         # logger.info(f'table:{table}')
         if target_str in table['headers']:
@@ -170,18 +174,45 @@ def get_wakeup_reason(folder_path):
             for item in target_list:
                 # logger.info(f'item:{item}')
                 if '1' in item[1] and '唤醒源' in item[4]:
+                    cell_dict = {}
+                    cell_dict['Id'] = item[1]
+                    cell_dict['ProviderName'] = item[3]
+                    cell_dict['Message'] = item[4]
+
+                    total_dict[item[0]] = cell_dict
+
+                    wakeup_time = item[0]
+                    logger.info(f'wakeup_time:{wakeup_time}')
+                    wakeup_time = get_timestamp(wakeup_time)
+                    logger.info(f'wakeup_time:{wakeup_time}')
+
                     wakeup_reason = item[4]
                     match = re.search(r'唤醒源:(.*)\n', wakeup_reason)
                     if match:
-                        wakeup_reason = match.group()
+                        wakeup_reason = match.group().strip()
                         # wakeup_reason = wakeup_reason.replace('唤醒源:', '')
                     else:
                         logger.info("未找到wakeup_reason")
-                    break
-    logger.info(f'wakeup_reason:{wakeup_reason}')
-    return wakeup_reason
+                    wakeup_reason_dict[f'{wakeup_reason}'] = wakeup_time
+
+    logger.info(f'wakeup_reason_dict:{wakeup_reason_dict}')
+
+    max_time = 0
+    latest_reason = None
+    for key, value in wakeup_reason_dict.items():
+        if float(value) > max_time:
+            max_time = value
+            latest_reason = key
+
+    result_dict = {}
+    result_dict['detect_wakeup_reason'] = latest_reason
+    for key, value in total_dict.items():
+        result_dict[key] = value
+
+    # logger.info(f'latest_reason:{latest_reason}')
+
+    return result_dict, latest_reason
+
 if __name__ == "__main__":
-    folder_path = r'D:\00\04_异常关机重启唤不醒\睡眠休眠异常_log\S3 abnoamal resume'
-    wakeup_reason = get_wakeup_reason(folder_path)
-    # logger.info(f'wakeup_reason:{wakeup_reason}')
+    pass
 

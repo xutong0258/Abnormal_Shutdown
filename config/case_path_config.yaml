@@ -1,0 +1,34 @@
+'01_BSOD':
+    'PATH': 'C:\Windows'
+
+'02_performance':
+    'Intel':
+      'PATH': 'C:\XXXX'
+    'AMD':
+      'PATH': 'C:\XXXX'
+    'GPU':
+      'PATH': 'C:\XXXX'
+    'performance':
+      'PATH': 'C:\XXXX'
+
+'03_单双烤':
+    'Intel':
+      'PATH': 'C:\XXXX'
+    'AMD':
+      'PATH': 'C:\XXXX'
+    'GPU':
+      'PATH': 'C:\XXXX'
+    'performance':
+      'PATH': 'C:\XXXX'
+
+'04_异常关机重启唤不醒':
+    'PATH': 'C:\Windows'
+
+'05_SW_Hung':
+    'PATH': 'C:\Windows'
+
+'06_HW Hung':
+    'PATH': 'C:\XXXX'
+
+'06_HW Hung':
+    'PATH': 'C:\XXXX'

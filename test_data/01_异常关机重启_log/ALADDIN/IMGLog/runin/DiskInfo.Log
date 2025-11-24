@@ -1,0 +1,10 @@
+2025-10-24 07:12:41,276 | [INFO ]  Start DiskInfo
+2025-10-24 07:12:41,305 | [INFO ]  Init tool settings
+2025-10-24 07:12:41,323 | [INFO ] [DiskInfo] | version:2.0.7.1009
+2025-10-24 07:12:41,368 | [INFO ] [DiskInfo] | Input Arguments: C:\Program Files (x86)\AutoRI\Config\TestModules\DiskInfo\DiskInfo.exe TestName=Disk S.M.A.R.T Collection[1Time] TestMode=NPI TestTime=1 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command= TestStatus=Ready TestGuid=48557135b9814580adc9860bf9976de1
+2025-10-24 07:12:41,448 | [INFO ]  Load C:\Program Files (x86)\AutoRI\Config\TestModules\DiskInfo\Config.yaml
+2025-10-24 13:00:01,182 | [INFO ]  Start DiskInfo
+2025-10-24 13:00:01,197 | [INFO ]  Init tool settings
+2025-10-24 13:00:01,216 | [INFO ] [DiskInfo] | version:2.0.7.1003
+2025-10-24 13:00:01,303 | [INFO ] [DiskInfo] | Input Arguments: C:\Program Files (x86)\AutoRI\Config\CollectLogs\tools\DiskInfo\DiskInfo.exe >--> C:\Program Files (x86)\AutoRI\Config\CollectLogs\AutoLog\ThinkPad X9-15 Gen 1_PF5XXDFZ_2025_10_24_13_00_00\DiskInfo\DiskInfo.log
+2025-10-24 13:00:01,382 | [INFO ]  Load C:\Program Files (x86)\AutoRI\Config\CollectLogs\tools\DiskInfo\Config.yaml

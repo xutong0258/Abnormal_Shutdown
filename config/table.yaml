@@ -1,0 +1,341 @@
+'0x01':
+  'Root Cause': 'Shutdown ID for SB SLP_S5 signal'
+  '原因': 'SB SLP_S5 信号关机 ID'
+
+'0x02':
+  'Root Cause': 'Shutdown ID for T-diode over temp'
+  '原因': 'T-diode over temp 信号关机 ID'
+
+'0x03':
+  'Root Cause': 'APU thermal trip'
+  '原因': 'APU 过热保护触发'
+
+'0x04':
+  'Root Cause': 'Shutdown ID for command C:0x59 D:0xA2'
+  '原因': '对应指令 C:0x59 D:0xA2 的关机 ID'
+
+'0x05':
+  'Root Cause': 'Shutdown ID for flash'
+  '原因': 'flash 引起的关机 ID'
+  
+'0x06':
+  'Root Cause': 'Shutdown ID for EC power reset'
+  '原因': 'EC 电源重置的关机 ID'
+
+'0x07':
+  'Root Cause': 'Shutdown ID for EC WDT reset'
+  '原因': 'EC WDT 重置的关机标识'
+
+'0x08':
+  'Root Cause': 'Shutdown ID for boot fail restart by command C:0x40 D:0xXX'
+  '原因': '因命令而导致启动失败重启的关机ID C:0x40 D:0xXX'
+
+'0x09':
+  'Root Cause': 'Shutdown ID for fan fail'
+  '原因': '风扇故障停机ID'
+
+'0x0A':
+  'Root Cause': 'Shutdown ID for battery over temp'
+  '原因': '电池温度过高的关机ID'
+
+'0x0B':
+  'Root Cause': 'Shutdown ID for thermal sensor communication fail'
+  '原因': '热传感器通信失败'
+
+'0x0C':
+  'Root Cause': ' Shutdown ID for battery empty'
+  '原因': '电池耗尽的关机ID'
+
+'0x0D':
+  'Root Cause': 'Shutdown ID for CPU hot'
+  '原因': 'CPU 过热的关机 ID'
+
+'0x0E':
+  'Root Cause': 'Shutdown ID for battery communication fail'
+  '原因': '电池通信失败的关机ID'
+
+'0x0F':
+  'Root Cause': 'Shutdown ID for battery abnormal device ID'
+  '原因': '电池异常设备的关机 ID'
+
+'0x10':
+  'Root Cause': 'Shutdown ID for ESCD--When receive command 0x59 0xF1 and power button is pressed'
+  '原因': 'ESCD 的关机 ID——当接收到命令 0x59 0xF1 并按下电源按钮时'
+
+'0x11':
+  'Root Cause': 'Shutdown ID for DTS over temp'
+  '原因': 'DTS 超温关机 ID'
+
+'0x12':
+  'Root Cause': 'Shutdown ID for VGA thermal sensor over temp'
+  '原因': 'VGA 热传感器过温的关机 ID'
+
+'0x13':
+  'Root Cause': 'Shutdown ID for battery low voltage'
+  '原因': '电池低电压关机 ID'
+
+'0x87':
+  'Root Cause': 'Shutdown ID for EC code reset and it is not caused by WDT'
+  '原因': '用于 EC 代码重置的关机 ID，且不是由 WDT 引起的'
+
+'0x1C':
+  'Root Cause': 'Shutdown ID for External VGA thermal sensor over temp'
+  '原因': '外部 VGA 热传感器过温的 S 关闭 ID'
+
+'0x1D':
+  'Root Cause': 'Customer shutdown ID 1'
+  '原因': '客户关机 ID 1'
+
+'0x1E':
+  'Root Cause': 'Customer shutdown ID 2'
+  '原因': '客户关机 ID 2'
+
+'0x1F':
+  'Root Cause': 'Shutdown ID for SB SLP_3.5'
+  '原因': 'SB SLP_3.5 的关机 ID'
+
+'0x20':
+  'Root Cause': 'Shutdown ID VGA thermal  communication fail'
+  '原因': '关机 ID VGA 热量通信失败'
+
+'0x21':
+  'Root Cause': 'Shutdown ID External VGA thermal sensor communication fail'
+  '原因': '关机 ID 外部 VGA 热传感器通信失败'
+
+'0x22':
+  'Root Cause': 'Shutdown ID CPU thermal communication fail'
+  '原因': '关机 ID CPU 热量通信失败'
+
+'0x23':
+  'Root Cause': 'W114 Shutdown 4s'
+  '原因': 'W114 关闭 4秒'
+
+'0x2A':
+  'Root Cause': 'Shutdown ID for thermal sensor 1 communication fail'
+  '原因': '热传感器1通信故障的关机ID'
+
+'0x2B':
+  'Root Cause': 'Shutdown ID for thermal sensor 2 communication fail'
+  '原因': '热传感器2通信故障的关机ID'
+
+'0x2C':
+  'Root Cause': 'Shutdown ID for thermal sensor 2 communication fail'
+  '原因': '热传感器3通信故障的关机ID'
+
+'0x2D':
+  'Root Cause': 'Shutdown ID for thermal sensor 2 communication fail'
+  '原因': '热传感器4通信故障的关机ID'
+
+'0x2E':
+  'Root Cause': 'Shutdown ID for thermal sensor 2 communication fail'
+  '原因': '热传感器5通信故障的关机ID'
+'0x2F':
+  'Root Cause': 'Shutdown ID for thermal sensor 2 communication fail'
+  '原因': '热传感器6通信故障的关机ID'
+
+'0x31':
+  'Root Cause': ' Shutdown ID thermal sensor remote over temp'
+  '原因': '关机 ID 热传感器远程过温'
+
+'0x32':
+  'Root Cause': 'Shutdown ID thermal sensor remote over temp'
+  '原因': '关机 ID 热传感器远程过温'
+
+'0x33':
+  'Root Cause': 'Shutdown ID CPU thermistor over temp'
+  '原因': '关机 ID CPU 热敏电阻过温'
+
+'0x34':
+  'Root Cause': 'Shutdown ID GPU thermistor over temp'
+  '原因': '关机 ID GPU 热敏电阻过温'
+
+'0x35':
+  'Root Cause': ''
+  '原因': ''
+
+'0x3A':
+  'Root Cause': ''
+  '原因': ''
+
+'0x3B':
+  'Root Cause': ''
+  '原因': ''
+
+'0x40':
+  'Root Cause': 'Force system shutdown with 5S when RSOC drop to 0%'
+  '原因': '当剩余电量降至 0% 时，通过 SS 强制系统关机'
+
+'0x41':
+  'Root Cause': ''
+  '原因': ''
+
+'0x59':
+  'Root Cause': ''
+  '原因': ''
+
+'0x70':
+  'Root Cause': ' BIOS BSH WDT'
+  '原因': ' BIOS BSH WDT'
+
+'0xA0':
+  'Root Cause': 'Shipmode battery communication fail'
+  '原因': '运输模式电池通信失败'
+
+'0xA1':
+  'Root Cause': 'Shipmode battery communication fail'
+  '原因': '运输模式电池通信失败'
+
+'0xA2':
+  'Root Cause': 'Shipmode battery communication fail'
+  '原因': '运输模式电池通信失败'
+
+'0xA3':
+  'Root Cause': 'Shipmode battery communication fail'
+  '原因': '运输模式电池通信失败'
+
+'0xA6':
+  'Root Cause': 'Shipmode pass 1'
+  '原因': '运输模式通过 1'
+
+'0xA7':
+  'Root Cause': 'Shipmode pass 2'
+  '原因': '运输模式通过 2'
+
+'0xA8':
+  'Root Cause': 'Shipmode pass 3'
+  '原因': '运输模式通过 3'
+
+'0xA9':
+  'Root Cause': 'Shipmode pass 4'
+  '原因': '运输模式通过 4'
+
+'0xB0':
+  'Root Cause': 'PD shutdownID 1'
+  '原因': 'PD 关闭ID 1'
+
+'0xB1':
+  'Root Cause': 'PD shutdownID 2'
+  '原因': 'PD 关闭ID 2'
+
+'0xB2':
+  'Root Cause': 'PD shutdownID 3'
+  '原因': 'PD 关闭ID 3'
+
+'0xB3':
+  'Root Cause': 'PD shutdownID 4'
+  '原因': 'PD 关闭ID 4'
+
+'0xBA':
+  'Root Cause': 'Test WDT'
+  '原因': '测试 WDT'
+
+'0xBB':
+  'Root Cause': 'Test WDT'
+  '原因': '测试 WDT'
+
+'0xBC':
+  'Root Cause': 'Test WDT'
+  '原因': '测试 WDT'
+
+'0xBD':
+  'Root Cause': 'Test WDT'
+  '原因': '测试 WDT'
+
+'0xBE':
+  'Root Cause': 'Test WDT'
+  '原因': '测试 WDT'
+
+'0xBF':
+  'Root Cause': 'Test WDT'
+  '原因': '测试 WDT'
+
+'0xC0':
+  'Root Cause': 'WA shutdown ID    AMD memory traing hang up when BIOS is not live'
+  '原因': 'WA 关闭 ID 当 BIOS 未启动时， AMD 内存训练会出现挂起'
+
+'0xC1':
+  'Root Cause': 'WA shutdown ID'
+  '原因': 'WA 关闭 ID'
+
+'0xC2':
+  'Root Cause': 'WA shutdown ID'
+  '原因': 'WA 关闭 ID'
+
+'0xC3':
+  'Root Cause': 'WA shutdown ID'
+  '原因': 'WA 关闭 ID'
+
+'0xC4':
+  'Root Cause': 'WA shutdown ID'
+  '原因': 'WA 关闭 ID'
+
+'0xC5':
+  'Root Cause': 'WA shutdown ID'
+  '原因': 'WA 关闭 ID'
+
+'0xC6':
+  'Root Cause': 'WA shutdown ID'
+  '原因': 'WA 关闭 ID'
+
+'0xC7':
+  'Root Cause': 'WA shutdown ID'
+  '原因': 'WA 关闭 ID'
+
+'0xD8':
+  'Root Cause': 'reserved shutdown ID 0xC8'
+  '原因': '保留的关机 ID 0xC8'
+
+'0xD9':
+  'Root Cause': 'reserved shutdown ID 0xC9'
+  '原因': '保留的关机 ID 0xC9'
+
+'0xDA':
+  'Root Cause': 'reserved shutdown ID 0xCA'
+  '原因': '保留的关机 ID 0xCA'
+
+'0xDB':
+  'Root Cause': 'reserved shutdown ID 0xCB'
+  '原因': '保留的关机 ID 0xCB'
+
+'0xDC':
+  'Root Cause': 'reserved shutdown ID 0xCC'
+  '原因': '保留的关机 ID 0xCC'
+
+'0xDD':
+  'Root Cause': 'reserved shutdown ID 0xCD'
+  '原因': '保留的关机 ID 0xCD'
+
+'0xDE':
+  'Root Cause': 'reserved shutdown ID 0xCE'
+  '原因': '保留的关机 ID 0xCE'
+
+'0xDF':
+  'Root Cause': 'reserved shutdown ID 0xCF'
+  '原因': '保留的关机 ID 0xCF'
+
+'0xEC':
+  'Root Cause': 'EC code reset'
+  '原因': 'EC代码重置'
+
+'0xFF':
+  'Root Cause': 'external watch-dog'
+  '原因': '外部监督'
+
+'0xFE':
+  'Root Cause': 'internal watch-dog'
+  '原因': '内部监督'
+
+'0xFC':
+  'Root Cause': 'EC VSTBY or WRST reset'
+  '原因': 'EC VSTBY 或 WRST 重置'
+
+'0xFD':
+  'Root Cause': '8S reset'
+  '原因': '8S 重置'
+'0xFB':
+  'Root Cause': 'Fn+D+H HW hang shutdown id'
+  '原因': 'Fn D H HW 挂起关机 ID'
+
+
+
+  

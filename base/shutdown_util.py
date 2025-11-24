@@ -1,5 +1,6 @@
 import os
-from base.logger import *
+from base.contants import *
+from utils.logger_util import *
 from base.fileOP import *
 from base.web_help import *
 from base.svctx_parse import *
@@ -7,7 +8,7 @@ from base.svctx_parse import *
 path_dir = os.path.dirname(__file__)
 
 table_file = 'table.yaml'
-table_file = os.path.join(path_dir, table_file)
+table_file = os.path.join(CONFIG_PATH, table_file)
 table_dict = read_file_dict(table_file)
 
 def get_list_text_line(input_list, text):
@@ -17,7 +18,7 @@ def get_list_text_line(input_list, text):
         item = item.lower()
         # logger.info(f'item:{item}')
         if text in item:
-            text_line = item
+            text_line = item.strip()
     return text_line
 
 def shutdown_check_rule_1(folder_path):
@@ -90,9 +91,11 @@ def check_ShutdownID(folder_path, log_path):
     if '0X' not in ShutdownID:
         ShutdownID = f'0x{ShutdownID}'
 
-    # logger.info(f'table_dict:{table_dict}')
     result_dic = table_dict.get(ShutdownID, None)
+    result_dic['ShutdownID'] = ShutdownID
+
     logger.info(f'result_dic:{result_dic}')
+
     if result_dic is not None:
         file_name = 'result.yaml'
         file_name = os.path.join(log_path, file_name)
@@ -149,6 +152,4 @@ def wakeup_check_rule_1(folder_path):
     logger.info(f'check_result:{check_result}')
     return
 if __name__ == '__main__':
-    folder_path = r'D:\00\04_异常关机重启唤不醒\01_From_Jian\BIOSandECLog'
-    check_ShutdownID(folder_path)
     pass

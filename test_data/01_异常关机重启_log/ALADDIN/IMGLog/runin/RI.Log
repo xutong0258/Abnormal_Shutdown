@@ -1,0 +1,2295 @@
+﻿2025-10-24 07:09:25 MODELID:MSF50 SSN:PF5XXDFZ NBID:2221490200001 SCENAIROMODE:NPI
+[DETECT] 2025-10-24 07:09:25 Logical volume inserted.[1000000000000000]
+[DETECT] 2025-10-24 07:09:25 System time changed.
+2025-10-24 07:09:25 RUNINSTARTTIME@2025-10-24 07:09:25.25
+[SETTINGS] 2025-10-24 07:09:25 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 07:09:25 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 07:09:25 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[DETECT] 2025-10-24 07:09:25 Logical volume removed.[1000000000000000]
+[INFO] 2025-10-24 07:09:26 [Event41(37130)]:1/7/2025 9:30:13 AM BugCheckId:0x0 Remark:0x0 0x0 0x0 0x0 0x0
+[INFO] 2025-10-24 07:09:26 [Event12(40001)]:10/24/2025 7:06:21 AM
+[INFO] 2025-10-24 07:09:26 Error Type:{"SystemErrorType":1,"ErrorCode":0,"FilePath":null,"Comments":null,"Flag":null}
+[INFO] 2025-10-24 07:09:26 Info:False,Nothing,DirtyShutdown
+[INFO] 2025-10-24 07:09:26 Check system error end...
+[INFO] 2025-10-24 07:09:26 Check Abnormal Restart...
+[INFO] 2025-10-24 07:09:26 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 07:09:26 AutoSet...
+[DETECT] 2025-10-24 07:09:32 Device disabled.[Device:@oem229.inf,%btndevice.devicedesc%;Power Button Detail:\\?\ROOT#SYSTEM#0001#{4afa3d53-74a7-11d0-be5e-00a0c9062857}]
+[DETECT] 2025-10-24 07:09:32 Device disabled.[Device:@oem229.inf,%btndevice.devicedesc%;Power Button Detail:\\?\ROOT#SYSTEM#0001#{685e2c0f-0e06-4bc5-8255-859669656a1c}]
+[DETECT] 2025-10-24 07:09:32 Device disabled.[Device:@oem229.inf,%btndevice.devicedesc%;Power Button Detail:\\?\ROOT#button#0000#{4afa3d53-74a7-11d0-be5e-00a0c9062857}]
+[DETECT] 2025-10-24 07:09:32 Device disabled.[Device:@oem229.inf,%btndevice.devicedesc%;Power Button Detail:\\?\ROOT#button#0000#{685e2c0f-0e06-4bc5-8255-859669656a1c}]
+[DETECT] 2025-10-24 07:09:35 Device enabled.[Device:@oem229.inf,%btndevice.devicedesc%;Power Button Detail:\\?\ROOT#SYSTEM#0001#{4afa3d53-74a7-11d0-be5e-00a0c9062857}]
+[DETECT] 2025-10-24 07:09:35 Device enabled.[Device:@oem229.inf,%btndevice.devicedesc%;Power Button Detail:\\?\ROOT#SYSTEM#0001#{685e2c0f-0e06-4bc5-8255-859669656a1c}]
+[ACTION] 2025-10-24 07:10:13 Sync local datetime success:True,UTP Server Time:10/24/2025 7:10:13 AM
+[DETECT] 2025-10-24 07:10:14 Device enabled.[Device:@oem229.inf,%btndevice.devicedesc%;Power Button Detail:\\?\ROOT#button#0000#{4afa3d53-74a7-11d0-be5e-00a0c9062857}]
+[DETECT] 2025-10-24 07:10:14 Device enabled.[Device:@oem229.inf,%btndevice.devicedesc%;Power Button Detail:\\?\ROOT#button#0000#{685e2c0f-0e06-4bc5-8255-859669656a1c}]
+[DETECT] 2025-10-24 07:10:14 System time changed.
+[DETECT] 2025-10-24 07:10:15 System time changed.
+[INFO] 2025-10-24 07:11:16 #Clean Memory Dump Files And Event Logs#
+[INFO] 2025-10-24 07:11:16  System WarmBoot Action!
+2025-10-24 07:12:55     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 07:12:56 Read Status Xml
+[SETTINGS] 2025-10-24 07:12:57 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 07:12:57 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 07:12:57 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 07:12:57 Check system error end...
+[INFO] 2025-10-24 07:12:57 Check Abnormal Restart...
+[INFO] 2025-10-24 07:12:57 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 07:12:57 iTest Register C/S[Get Normal Task] ...
+[DETECT] 2025-10-24 07:12:58 Lid status: Opened.
+[DETECT] 2025-10-24 07:12:58 Power source: AC.
+[DETECT] 2025-10-24 07:12:58 Battery percentage remaining 66%.
+[INFO] 2025-10-24 07:12:58 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 354,
+    "TestOrder": null,
+    "GroupID": 12,
+    "AddUser": null,
+    "id": 36084,
+    "SequenceID": 2538,
+    "TestItemName": "Disk S.M.A.R.T Collection[1Time]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "[AutoRI V3.20.0.10及更高版本适用]  1次",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\DiskInfo\\DiskInfo.exe",
+    "RebootAfterTest": false,
+    "MonitorTemp": false,
+    "LockLCD": false,
+    "TestCMD": "",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 1,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "aa1b495f-609f-4c38-ab1d-cc375e1e6a84",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 355,
+    "TestOrder": null,
+    "GroupID": 12,
+    "AddUser": null,
+    "id": 36085,
+    "SequenceID": 2538,
+    "TestItemName": "HwSw Data Collection[1Time]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "[AutoRI V3.20.0.10及更高版本适用]  1次",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\HwSwConfigConsole\\HwSwConfigConsole.exe",
+    "RebootAfterTest": false,
+    "MonitorTemp": false,
+    "LockLCD": false,
+    "TestCMD": "",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 1,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "a32e1f6d-2df7-4a9c-8c86-a5180d7cc90f",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 455,
+    "TestOrder": null,
+    "GroupID": 22,
+    "AddUser": null,
+    "id": 36086,
+    "SequenceID": 2538,
+    "TestItemName": "LDiag-Shell[1Min]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "[AutoRI V3.20.0.10及更高版本适用]  1Min",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\LDiagShell\\LDiag.exe",
+    "RebootAfterTest": false,
+    "MonitorTemp": false,
+    "LockLCD": true,
+    "TestCMD": null,
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 1,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 4,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "c9d03b33-d7b6-474b-b690-c0e07db60373",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 399,
+    "TestOrder": null,
+    "GroupID": 8,
+    "AddUser": null,
+    "id": 36087,
+    "SequenceID": 2538,
+    "TestItemName": "Power Conversion Test-WB[1Time]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "[AutoRI V3.20.0.10及更高版本适用]  1次",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PowerTestSx\\PowerTestSx.exe",
+    "RebootAfterTest": true,
+    "MonitorTemp": false,
+    "LockLCD": false,
+    "TestCMD": "WB",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 1,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 4,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "b54dce1b-480c-45f0-8771-2ed20c3c5237",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 395,
+    "TestOrder": null,
+    "GroupID": 8,
+    "AddUser": null,
+    "id": 36088,
+    "SequenceID": 2538,
+    "TestItemName": "Power Conversion Test-MS[1Time]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "[AutoRI V3.20.0.10及更高版本适用]  1次",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PowerTestSx\\PowerTestSx.exe",
+    "RebootAfterTest": true,
+    "MonitorTemp": false,
+    "LockLCD": false,
+    "TestCMD": "MS",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 1,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "c98e3985-564d-4fbf-a86d-de48693d82ed",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 670,
+    "TestOrder": null,
+    "GroupID": 21,
+    "AddUser": null,
+    "id": 36089,
+    "SequenceID": 2538,
+    "TestItemName": "CGTTPXA_CPU[15MIN]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": "",
+    "Del": null,
+    "ParameterName1": "",
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "CGTT PXA CPU performance mode singleroast Test",
+    "Parameter1": "",
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PXA\\PXACmd.exe",
+    "RebootAfterTest": true,
+    "MonitorTemp": false,
+    "LockLCD": true,
+    "TestCMD": "/Job CPU_Single",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 15,
+    "ToolVersion": "1.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "8d3c59b8-6773-49d5-a1d5-1770109ccc17",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 760,
+    "TestOrder": null,
+    "GroupID": 21,
+    "AddUser": null,
+    "id": 36090,
+    "SequenceID": 2538,
+    "TestItemName": "CGTT-TATStress-5mins_TBG",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "【AutoRI V3.20.0.10及更高版本适用】",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\CGTT\\CGTT.Console.exe",
+    "RebootAfterTest": true,
+    "MonitorTemp": false,
+    "LockLCD": true,
+    "TestCMD": "-Job=TATStress",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 5,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "4978cebe-de9b-4499-9ef3-d4b91025dafb",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 114,
+    "TestOrder": null,
+    "GroupID": 9,
+    "AddUser": null,
+    "id": 36091,
+    "SequenceID": 2538,
+    "TestItemName": "3DMarkPXA_Stress_Final[10Min]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": "",
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "One folder for 3DMark PXA Stress Test",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PXA\\PXACmd.exe",
+    "RebootAfterTest": true,
+    "MonitorTemp": true,
+    "LockLCD": true,
+    "TestCMD": "/Job 3DMarkStress",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 10,
+    "ToolVersion": "1.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "f60faceb-b97b-4fac-a89a-3bf0bcb9f29e",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 451,
+    "TestOrder": null,
+    "GroupID": 10,
+    "AddUser": null,
+    "id": 36092,
+    "SequenceID": 2538,
+    "TestItemName": "BurnIn Test(NoTemp)[5Min]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "[AutoRI V3.20.0.10及更高版本适用]  无温度监控 5Min",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\BurnIn9Test\\BurnIn9Test.exe",
+    "RebootAfterTest": true,
+    "MonitorTemp": false,
+    "LockLCD": true,
+    "TestCMD": "",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 5,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "1d6118c1-5b6a-4465-8ad1-51779a71d35c",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 398,
+    "TestOrder": null,
+    "GroupID": 8,
+    "AddUser": null,
+    "id": 36093,
+    "SequenceID": 2538,
+    "TestItemName": "Power Conversion Test-S4[1Time]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "[AutoRI V3.20.0.10及更高版本适用]  1次",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PowerTestSx\\PowerTestSx.exe",
+    "RebootAfterTest": true,
+    "MonitorTemp": false,
+    "LockLCD": false,
+    "TestCMD": "S4",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 1,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "97d3e0cf-d7f9-4801-bd6f-5b5ed736fa73",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 {
+  "testSequence": {
+    "SequenceName": "Alloy_SIT_MSS4WB_50c_2H",
+    "SequenceDesc": "MCF40",
+    "TestItemID": 354,
+    "TestOrder": null,
+    "GroupID": 12,
+    "AddUser": null,
+    "id": 36094,
+    "SequenceID": 2538,
+    "TestItemName": "Disk S.M.A.R.T Collection[1Time]",
+    "UpdateHistoryGuid": null,
+    "SPECKey": null,
+    "Del": null,
+    "ParameterName1": null,
+    "ParameterName2": null,
+    "ParameterName3": null,
+    "ParameterName4": null,
+    "ParameterName5": null,
+    "ParameterName6": null,
+    "TestItemDesc": "[AutoRI V3.20.0.10及更高版本适用]  1次",
+    "Parameter1": null,
+    "Parameter2": null,
+    "Parameter3": null,
+    "Parameter4": null,
+    "Parameter5": null,
+    "Parameter6": null,
+    "Parameter7": null,
+    "ToolPath": "C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\DiskInfo\\DiskInfo.exe",
+    "RebootAfterTest": false,
+    "MonitorTemp": false,
+    "LockLCD": false,
+    "TestCMD": "",
+    "TestCycle": 1,
+    "PassReturn": "0",
+    "TestTime": 1,
+    "ToolVersion": "2.0.0.0",
+    "ControlMode": 2,
+    "DynamicAdjustmentMark": false,
+    "DoubleRun": false
+  },
+  "UpdateHistoryGuid": "b1eb9838-50a6-4aa2-a29d-c15cb0971864",
+  "DynamicType": 0,
+  "DoubleRun": false
+}
+[INFO] 2025-10-24 07:12:59 Update configuration xml finished.
+[INFO] 2025-10-24 07:12:59 Get configuration data finished.
+[INFO] 2025-10-24 07:12:59 Create status xml finished.
+[INFO] 2025-10-24 07:12:59 Read Status Xml
+[INFO] 2025-10-24 07:12:59 Get status xml finished.
+[INFO] 2025-10-24 07:12:59 iTest Register C/S Finished
+[INFO] 2025-10-24 07:12:59 Init task list finished.
+[DETECT] 2025-10-24 07:12:59 Logical volume inserted.[1000000000000000]
+[DETECT] 2025-10-24 07:12:21 System time changed.
+[DETECT] 2025-10-24 07:12:21 Logical volume removed.[1000000000000000]
+[INFO] 2025-10-24 07:12:21 Check Common Error...
+[INFO] 2025-10-24 07:12:21 Execute Task Classified...
+[INFO] 2025-10-24 07:12:22 Count Down 15s [status:Ready]...
+2025-10-24 07:12:38 
+2025-10-24 07:12:38 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 07:12:38                                                                    #DISK S.M.A.R.T COLLECTION[1TIME](1\1)#
+2025-10-24 07:12:38 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 07:12:39 Update Status Xml
+[INFO] 2025-10-24 07:12:39 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\DiskInfo\DiskInfo.exe",arguments:TestName="Disk S.M.A.R.T Collection[1Time]" TestMode="NPI" TestTime="1" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="" TestStatus="Ready" TestGuid="48557135b9814580adc9860bf9976de1",toolName:Disk S.M.A.R.T Collection[1Time],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\DiskInfo
+[INFO] 2025-10-24 07:12:41 2025-10-24 07:12:41,276 | [INFO ]  Start DiskInfo
+[INFO] 2025-10-24 07:12:41 2025-10-24 07:12:41,305 | [INFO ]  Init tool settings
+[INFO] 2025-10-24 07:12:41 2025-10-24 07:12:41,323 | [INFO ] [DiskInfo] | version:2.0.7.1009
+[INFO] 2025-10-24 07:12:41 2025-10-24 07:12:41,368 | [INFO ] [DiskInfo] | Input Arguments: C:\Program Files (x86)\AutoRI\Config\TestModules\DiskInfo\DiskInfo.exe TestName=Disk S.M.A.R.T Collection[1Time] TestMode=NPI TestTime=1 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command= TestStatus=Ready TestGuid=48557135b9814580adc9860bf9976de1
+[INFO] 2025-10-24 07:12:41 2025-10-24 07:12:41,448 | [INFO ]  Load C:\Program Files (x86)\AutoRI\Config\TestModules\DiskInfo\Config.yaml
+[INFO] 2025-10-24 07:12:41 2025-10-24 07:12:41,638 | [INFO ]  Query and check storage settings
+[INFO] 2025-10-24 07:12:41 2025-10-24 07:12:41,638 | [INFO ]  Scan storage device
+[DETECT] 2025-10-24 07:12:44 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  Query device details info
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]   ==> Parse NVME SSD
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_CriticalWarning
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_CompositeTemperature
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_AvailableSpare
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_AvailableSpareThreshold
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_PercentageUsed
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_DataUnitsRead
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_DataUnitsWritten
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_HostReadCommands
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_HostWriteCommands
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_ControllerBusyTime
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_PowerCycles
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_PowerOnHours
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_UnsafeShutdowns
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_MediaandDataIntegrityErrors
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,410 | [INFO ]  SMART_NumberofErrorInformationLogEntries
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   ==> Parse NVME SSD
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  === START OF INFORMATION SECTION ===
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Model Number:                       WD PC SN740 SDDQMQD-512G-1201
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Serial Number:                      2531FC401946
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Firmware Version:                   73117101
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  PCI Vendor/Subsystem ID:            0x15b7
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  IEEE OUI Identifier:                0x001b44
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Total NVM Capacity:                 512,110,190,592 [512 GB]
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Unallocated NVM Capacity:           0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Controller ID:                      0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  NVMe Version:                       1.4
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Number of Namespaces:               1
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Namespace 1 Formatted LBA Size:     512
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Namespace 1 IEEE EUI-64:            001b44 4a45169233
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Local Time is:                      Fri Oct 24 07:12:45 2025 CST
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Firmware Updates (0x14):            2 Slots, no Reset required
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Optional NVM Commands (0x00df):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp Verify
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Log Page Attributes (0x7e):         Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg Pers_Ev_Lg *Other*
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Maximum Data Transfer Size:         256 Pages
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Warning  Comp. Temp. Threshold:     84 Celsius
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Critical Comp. Temp. Threshold:     88 Celsius
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Namespace 1 Features (0x02):        NA_Fields
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Supported Power States
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   0 +     4.70W    4.30W       -    0  0  0  0        0       0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   1 +     3.00W    3.00W       -    0  0  0  0        0       0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   2 +     2.20W    2.00W       -    0  0  0  0        0       0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   3 -   0.0150W       -        -    3  3  3  3     1500    2500
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   4 -   0.0050W       -        -    4  4  4  4    10000    6000
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   5 -   0.0033W       -        -    5  5  5  5   176000   25000
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Supported LBA Sizes (NSID 0x1)
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Id Fmt  Data  Metadt  Rel_Perf
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   0 +     512       0         2
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]   1 -    4096       0         1
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  === START OF SMART DATA SECTION ===
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  SMART overall-health self-assessment test result: PASSED
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  SMART/Health Information (NVMe Log 0x02)
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Critical Warning:                   0x00
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Temperature:                        38 Celsius
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Available Spare:                    100%
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Available Spare Threshold:          10%
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Percentage Used:                    0%
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Data Units Read:                    100,282 [51.3 GB]
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Data Units Written:                 194,439 [99.5 GB]
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Host Read Commands:                 758,948
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Host Write Commands:                1,328,781
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Controller Busy Time:               4
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Power Cycles:                       45
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Power On Hours:                     3
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Unsafe Shutdowns:                   10
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Media and Data Integrity Errors:    0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Error Information Log Entries:      0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Warning  Comp. Temperature Time:    0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Critical Comp. Temperature Time:    0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Temperature Sensor 1:               57 Celsius
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Temperature Sensor 2:               38 Celsius
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  Error Information (NVMe Log 0x01, 16 of 256 entries)
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,486 | [INFO ]  No Errors Logged
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,541 | [INFO ]  StructedData Details : [
+[INFO] 2025-10-24 07:12:45   {
+[INFO] 2025-10-24 07:12:45     "disk_type_key": 3,
+[INFO] 2025-10-24 07:12:45     "disk_model": "WD PC SN740 SDDQMQD-512G-1201",
+[INFO] 2025-10-24 07:12:45     "disk_interface": "NVM Express",
+[INFO] 2025-10-24 07:12:45     "disk_serial_number": "2531FC401946",
+[INFO] 2025-10-24 07:12:45     "disk_firmware_version": "73117101",
+[INFO] 2025-10-24 07:12:45     "disk_size": 512,
+[INFO] 2025-10-24 07:12:45     "disk_health_status": "1",
+[INFO] 2025-10-24 07:12:45     "disk_power_on_hours": 3,
+[INFO] 2025-10-24 07:12:45     "disk_power_on_count": 45,
+[INFO] 2025-10-24 07:12:45     "ssd_warning_temp_threshold": 60,
+[INFO] 2025-10-24 07:12:45     "ssd_critical_warning": 0,
+[INFO] 2025-10-24 07:12:45     "ssd_available_spare": 100.0,
+[INFO] 2025-10-24 07:12:45     "ssd_available_spare_threshold": 10.0,
+[INFO] 2025-10-24 07:12:45     "ssd_percentage_used": 0.0,
+[INFO] 2025-10-24 07:12:45     "ssd_host_read_commands": 758837,
+[INFO] 2025-10-24 07:12:45     "ssd_host_write_commands": 1328664,
+[INFO] 2025-10-24 07:12:45     "ssd_controller_busy_time": 4,
+[INFO] 2025-10-24 07:12:45     "ssd_unsafe_shutdowns": 10,
+[INFO] 2025-10-24 07:12:45     "ssd_media_and_data_integrity_errors": 0,
+[INFO] 2025-10-24 07:12:45     "ssd_error_information_log_entries": 0,
+[INFO] 2025-10-24 07:12:45     "ssd_critical_temperature_time": 0,
+[INFO] 2025-10-24 07:12:45     "max_transfer_mode": "PCIe 4.0 x4",
+[INFO] 2025-10-24 07:12:45     "current_transfer_mode": "PCIe 4.0 x4",
+[INFO] 2025-10-24 07:12:45     "transfer_mode_type": 0,
+[INFO] 2025-10-24 07:12:45     "ssd_data_units_read": 51.33978,
+[INFO] 2025-10-24 07:12:45     "ssd_data_units_written": 99.55174
+[INFO] 2025-10-24 07:12:45   }
+[INFO] 2025-10-24 07:12:45 ] 
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,553 | [INFO ]  Compare and check the Criterion, CheckFlag: True
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,555 | [INFO ]  Check Disk : NVME_SSD, WD PC SN740 SDDQMQD-512G-1201
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Power_Cycles
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: 2000 <--> Current: 45
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Power_On_Hours
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: 200 <--> Current: 3
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Read
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 51.33978
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Written
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 99.55174
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Media_and_Data_Integrity_Errors
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: 1 <--> Current: 0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Critical_Temperature_Time
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CheckSATASSDCriterion : Total_LBAs_Written
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 92
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,559 | [INFO ]  CheckSATASSDCriterion : TransferModeType
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,561 | [INFO ]  CompareCriterion, Criterion:  <--> Current: 0
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,561 | [INFO ]  CheckSATASSDCriterion : MaxTransferMode
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,561 | [INFO ]  CompareCriterion, Criterion: PCIe 4.0 x4 <--> Current: PCIe 4.0 x4
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,561 | [INFO ]  CheckSATASSDCriterion : CurrentTransferMode
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,561 | [INFO ]  CompareCriterion, Criterion: PCIe 4.0 x4 <--> Current: PCIe 4.0 x4
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,561 | [INFO ]  Filter the Error code and exit: OK
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,561 | [INFO ]  Set RI FileData
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,565 | [INFO ]   --- Exit : OK --- 
+[INFO] 2025-10-24 07:12:45 2025-10-24 07:12:45,565 | [INFO ] [DiskInfo] | --return code:0x000000--
+[INFO] 2025-10-24 07:12:45 ????
+[INFO] 2025-10-24 07:12:46 Update Status Xml
+2025-10-24 07:12:47 TESTITEMRESULT@Disk S.M.A.R.T Collection[1Time];PASS;();8.08
+2025-10-24 07:12:47 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 07:12:47                                                                    #DISK S.M.A.R.T COLLECTION[1TIME](2\1)#
+2025-10-24 07:12:47 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 07:12:47 
+[INFO] 2025-10-24 07:12:48 Count Down 15s [status:Ready]...
+2025-10-24 07:13:04 
+2025-10-24 07:13:04 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 07:13:04                                                                    #HWSW DATA COLLECTION[1TIME](1\1)#
+2025-10-24 07:13:04 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 07:13:05 Update Status Xml
+[INFO] 2025-10-24 07:13:05 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\HwSwConfigConsole\HwSwConfigConsole.exe",arguments:TestName="HwSw Data Collection[1Time]" TestMode="NPI" TestTime="1" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="" TestStatus="Ready" TestGuid="aa9fad00306c4bb6b4004995ab624e9d",toolName:HwSw Data Collection[1Time],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\HwSwConfigConsole
+[INFO] 2025-10-24 07:13:05 2025-10-24 07:13:05,827[1] | [INFO ] [HwSwConfigConsole] | version:1.21.1.2
+[INFO] 2025-10-24 07:13:05 2025-10-24 07:13:05,891[1] | [INFO ] [HwSwConfigConsole] | Input Arguments: TestName=HwSw Data Collection[1Time] TestMode=NPI TestTime=1 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command= TestStatus=Ready TestGuid=aa9fad00306c4bb6b4004995ab624e9d
+[INFO] 2025-10-24 07:13:48 Update Status Xml
+[DETECT] 2025-10-24 07:13:54 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 07:13:54 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[INFO] 2025-10-24 07:13:56 2025-10-24 07:13:56,570[1] | [ERROR] [HwSwConfigConsole] | Get HwSw Info Exception
+[INFO] 2025-10-24 07:13:56 System.NullReferenceException: Object reference not set to an instance of an object.
+[INFO] 2025-10-24 07:13:56    at MBV.UnitInfo.UnitInfoHelper.GetExtraInfo()
+[INFO] 2025-10-24 07:13:56    at MBV.UnitInfo.UnitInfoHelper.GetInfo()
+[INFO] 2025-10-24 07:13:56    at HwSwConfigConsole.Program.Main(String[] args) in D:\SourceCode\AutoRI2.0\HwSwConfigConsole\Program.cs:line 33
+[INFO] 2025-10-24 07:13:56 2025-10-24 07:13:56,595[1] | [INFO ] [HwSwConfigConsole] | --return code:0x000000--
+[INFO] 2025-10-24 07:13:56 ????
+[INFO] 2025-10-24 07:13:58 Update Status Xml
+2025-10-24 07:13:58 TESTITEMRESULT@HwSw Data Collection[1Time];PASS;();53.53
+2025-10-24 07:13:58 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 07:13:58                                                                    #HWSW DATA COLLECTION[1TIME](2\1)#
+2025-10-24 07:13:58 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 07:13:58 
+[INFO] 2025-10-24 07:13:59 Count Down 15s [status:Ready]...
+2025-10-24 07:14:15 
+2025-10-24 07:14:15 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 07:14:15                                                                    #LDIAG-SHELL[1MIN](1\1)#
+2025-10-24 07:14:15 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 07:14:16 Update Status Xml
+[INFO] 2025-10-24 07:14:16 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\LDiag.exe",arguments:TestName="LDiag-Shell[1Min]" TestMode="NPI" TestTime="1" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="" TestStatus="Ready" TestGuid="e4ac7afc2eaf4cfcb63bfbdb99a76577",toolName:LDiag-Shell[1Min],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell
+[INFO] 2025-10-24 07:14:17 2025-10-24 07:14:17,572 | [INFO ]  Start MLSTT
+[INFO] 2025-10-24 07:14:17 2025-10-24 07:14:17,582 | [INFO ]  Init tool settings
+[INFO] 2025-10-24 07:14:17 2025-10-24 07:14:17,608 | [INFO ] [LDiag] | version:1.0.0.5
+[INFO] 2025-10-24 07:14:17 2025-10-24 07:14:17,705 | [INFO ] [LDiag] | Input Arguments: C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\LDiag.exe TestName=LDiag-Shell[1Min] TestMode=NPI TestTime=1 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command= TestStatus=Ready TestGuid=e4ac7afc2eaf4cfcb63bfbdb99a76577
+[INFO] 2025-10-24 07:14:17 2025-10-24 07:14:17,755 | [INFO ]  Load C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\Config.yaml
+[INFO] 2025-10-24 07:14:17 2025-10-24 07:14:17,914 | [INFO ]  Start MLSTT test, please wait...
+[INFO] 2025-10-24 07:14:17 2025-10-24 07:14:17,914 | [INFO ]  Mount the ESP to C:\ESP
+[INFO] 2025-10-24 07:14:17 2025-10-24 07:14:17,914 | [INFO ]  Remove the ESP Path if exist
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,340 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition0\
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,356 | [INFO ]  Remove the ESP Path if exist
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,610 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition1\
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,632 | [INFO ]  Remove the ESP Path if exist
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,872 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition2\
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,905 | [INFO ]  Get the test status and clean flag
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,905 | [INFO ]  Current TestStatus: Ready
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,905 | [WARN ]  Start the new test process
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,905 | [INFO ]  Clean the test flag, CleanAllFlag : True
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  Get current test status
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  Runtime Flag: C:\ESP\LDIAG.run
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  Time Flag: C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\TimeFlag.tag
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  RunFlag:            False
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  TestDurationCheck:  True
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  TestDuration:       0
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  TestTime:           1
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  TestCount:          0
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  RetryCount:         25
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,910 | [INFO ]  BootFlag:           True
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,912 | [INFO ]  FileCopy: C:\ESP\EFI\Boot\shel.efi -> C:\ESP\EFI\Boot\bootx64.efi
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,916 | [INFO ]  FileCopy: C:\ESP\EFI\Boot\shel.efi -> C:\ESP\EFI\Microsoft\Boot\bootmgfw.efi
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,916 | [INFO ]  Try to create the test status flag
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,916 | [INFO ]  Clean the test flag, CleanAllFlag : False
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,916 | [INFO ]  Create the test time flag: C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\TimeFlag.tag
+[INFO] 2025-10-24 07:14:18 2025-10-24 07:14:18,919 | [INFO ]  Create the test runtime flag: C:\ESP\LDIAG.run
+[INFO] 2025-10-24 07:14:23 2025-10-24 07:14:23,932 | [INFO ]  Reboot machine, please wait...
+[DETECT] 2025-10-24 07:14:24 System shutdown functions has been called.
+2025-10-24 07:46:50     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 07:46:52 Read Status Xml
+[SETTINGS] 2025-10-24 07:46:52 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 07:46:52 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 07:46:52 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 07:46:52 Check system error end...
+[INFO] 2025-10-24 07:46:52 Check Abnormal Restart...
+[INFO] 2025-10-24 07:46:52 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 07:46:52 Check Common Error...
+[INFO] 2025-10-24 07:46:52 Execute Task Classified...
+[DETECT] 2025-10-24 07:46:53 Lid status: Opened.
+[DETECT] 2025-10-24 07:46:53 Power source: AC.
+[DETECT] 2025-10-24 07:46:53 Battery percentage remaining 66%.
+[INFO] 2025-10-24 07:46:53 Count Down 5s [status:Working]...
+[INFO] 2025-10-24 07:46:59 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\LDiag.exe",arguments:TestName="LDiag-Shell[1Min]" TestMode="NPI" TestTime="1" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="" TestStatus="Working" TestGuid="e4ac7afc2eaf4cfcb63bfbdb99a76577",toolName:LDiag-Shell[1Min],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell
+[INFO] 2025-10-24 07:47:01 2025-10-24 07:47:01,828 | [INFO ]  Start MLSTT
+[INFO] 2025-10-24 07:47:01 2025-10-24 07:47:01,838 | [INFO ]  Init tool settings
+[INFO] 2025-10-24 07:47:01 2025-10-24 07:47:01,864 | [INFO ] [LDiag] | version:1.0.0.5
+[INFO] 2025-10-24 07:47:01 2025-10-24 07:47:01,900 | [INFO ] [LDiag] | Input Arguments: C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\LDiag.exe TestName=LDiag-Shell[1Min] TestMode=NPI TestTime=1 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command= TestStatus=Working TestGuid=e4ac7afc2eaf4cfcb63bfbdb99a76577
+[INFO] 2025-10-24 07:47:01 2025-10-24 07:47:01,955 | [INFO ]  Load C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\Config.yaml
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,111 | [INFO ]  Start MLSTT test, please wait...
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,111 | [INFO ]  Mount the ESP to C:\ESP
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,114 | [INFO ]  Remove the ESP Path if exist
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,436 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition0\
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,452 | [INFO ]  Remove the ESP Path if exist
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,696 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition1\
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,712 | [INFO ]  Remove the ESP Path if exist
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,950 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition2\
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,966 | [INFO ]  Get the test status and clean flag
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,966 | [INFO ]  Current TestStatus: Working
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,966 | [WARN ]  Start to check the test result
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,966 | [INFO ]  Get current test status
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,966 | [INFO ]  Runtime Flag: C:\ESP\LDIAG.run
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,977 | [INFO ]  Time Flag: C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\TimeFlag.tag
+[INFO] 2025-10-24 07:47:02 2025-10-24 07:47:02,992 | [INFO ]  Clean the test flag, CleanAllFlag : False
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,204 | [INFO ]  Check File: C:\Program Files (x86)\AutoRI\Log\LDiag-Shell[1Min]\2_LDiag-Shell[1Min]\TESTER.LOG
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,204 | [INFO ]  ====> LogCheck Status: True, LFP: True, PAT: True, SKIP: False
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  <==== LogCheck Status: True, LFP: True, PAT: True, SKIP: False
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  LogParser Result: True
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  RunFlag:            True
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  TestDurationCheck:  True
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  TestDuration:       32.74988
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  TestTime:           1
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  TestCount:          1
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  RetryCount:         25
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,212 | [INFO ]  BootFlag:           False
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,214 | [INFO ]  Start test, please wait...
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,214 | [INFO ]   --- Exit : 0 --- 
+[INFO] 2025-10-24 07:47:03 2025-10-24 07:47:03,216 | [INFO ] [LDiag] | --return code:0x000000--
+[INFO] 2025-10-24 07:47:03 ????
+[INFO] 2025-10-24 07:47:37 Update Status Xml
+2025-10-24 07:47:37 TESTITEMRESULT@LDiag-Shell[1Min];PASS;();2002.22
+2025-10-24 07:47:37 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 07:47:37                                                                    #LDIAG-SHELL[1MIN](2\1)#
+2025-10-24 07:47:37 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 07:47:37 
+[INFO] 2025-10-24 07:47:39 Count Down 15s [status:Ready]...
+2025-10-24 07:47:55 
+2025-10-24 07:47:55 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 07:47:55                                                                    #POWER CONVERSION TEST-WB[1TIME](1\1)#
+2025-10-24 07:47:55 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 07:47:55 Update Status Xml
+[INFO] 2025-10-24 07:47:55 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\PowerTestSx\PowerTestSx.exe",arguments:TestName="Power Conversion Test-WB[1Time]" TestMode="NPI" TestTime="1" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="WB" TestStatus="Ready" TestGuid="c11dd33794f4466c862e578c20097f1a",toolName:Power Conversion Test-WB[1Time],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\PowerTestSx
+[INFO] 2025-10-24 07:47:57 2025-10-24 07:47:57,557[1] | [INFO ] [PowerTestSx] | version:1.21.1.2
+[INFO] 2025-10-24 07:47:57 2025-10-24 07:47:57,615[1] | [INFO ] [PowerTestSx] | Input Arguments: TestName=Power Conversion Test-WB[1Time] TestMode=NPI TestTime=1 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command=WB TestStatus=Ready TestGuid=c11dd33794f4466c862e578c20097f1a
+[INFO] 2025-10-24 07:47:57 2025-10-24 07:47:57,788[1] | [INFO ] [PowerTestSx] | Write Success:C:\OSAging\Init\XMLSysInfo.xml
+[INFO] 2025-10-24 07:47:57 2025-10-24 07:47:57,821[1] | [INFO ] [PowerTestSx] | Write configure path file done:C:\OSAging\MFG.txt
+[INFO] 2025-10-24 07:47:57 2025-10-24 07:47:57,821[1] | [INFO ] [PowerTestSx] | Write test plan file done:C:\OSAging\TestPlan.log
+[INFO] 2025-10-24 07:48:03 Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 07:48:03 (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 07:48:03 C:\Program Files (x86)\AutoRI\Config\TestModules\PowerTestSx>RD /S /Q "C:\OSAging\result"& exit
+[INFO] 2025-10-24 07:48:03 2025-10-24 07:48:03,023[1] | [INFO ] [PowerTestSx] | Command execute done:RD /S /Q "C:\OSAging\result"
+[INFO] 2025-10-24 07:48:03 2025-10-24 07:48:03,023[1] | [INFO ] [PowerTestSx] | File init done
+[INFO] 2025-10-24 07:48:08 2025-10-24 07:48:08,225[1] | [INFO ] [PowerTestSx] | Monitor sx result...
+[INFO] 2025-10-24 07:48:13 2025-10-24 07:48:13,239[1] | [ERROR] [PowerTestSx] | Not found time id file:C:\OSAging\TimeID.txt
+[INFO] 2025-10-24 07:48:18 2025-10-24 07:48:18,240[1] | [ERROR] [PowerTestSx] | Not found time id file:C:\OSAging\TimeID.txt
+[INFO] 2025-10-24 07:48:22 Update Status Xml
+[INFO] 2025-10-24 07:48:23 2025-10-24 07:48:23,250[1] | [ERROR] [PowerTestSx] | Not found time id file:C:\OSAging\TimeID.txt
+[DETECT] 2025-10-24 07:48:24 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 07:48:24 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 07:48:35 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[DETECT] 2025-10-24 07:49:55 System shutdown functions has been called.
+2025-10-24 07:50:58     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 07:51:00 Read Status Xml
+[SETTINGS] 2025-10-24 07:51:00 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 07:51:00 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 07:51:00 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 07:51:00 Check system error end...
+[INFO] 2025-10-24 07:51:00 Check Abnormal Restart...
+[INFO] 2025-10-24 07:51:00 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 07:51:00 Check Common Error...
+[INFO] 2025-10-24 07:51:00 Execute Task Classified...
+[DETECT] 2025-10-24 07:51:01 Lid status: Opened.
+[DETECT] 2025-10-24 07:51:01 Power source: AC.
+[DETECT] 2025-10-24 07:51:01 Battery percentage remaining 66%.
+[INFO] 2025-10-24 07:51:02 Count Down 5s [status:Working]...
+[INFO] 2025-10-24 07:51:08 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\PowerTestSx\PowerTestSx.exe",arguments:TestName="Power Conversion Test-WB[1Time]" TestMode="NPI" TestTime="1" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="WB" TestStatus="Working" TestGuid="c11dd33794f4466c862e578c20097f1a",toolName:Power Conversion Test-WB[1Time],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\PowerTestSx
+[INFO] 2025-10-24 07:51:10 2025-10-24 07:51:10,247[1] | [INFO ] [PowerTestSx] | version:1.21.1.2
+[INFO] 2025-10-24 07:51:10 2025-10-24 07:51:10,295[1] | [INFO ] [PowerTestSx] | Input Arguments: TestName=Power Conversion Test-WB[1Time] TestMode=NPI TestTime=1 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command=WB TestStatus=Working TestGuid=c11dd33794f4466c862e578c20097f1a
+[INFO] 2025-10-24 07:51:10 2025-10-24 07:51:10,311[1] | [INFO ] [PowerTestSx] | Monitor sx result...
+[DETECT] 2025-10-24 07:52:34 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 07:52:34 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 07:52:43 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[INFO] 2025-10-24 07:53:00 2025-10-24 07:53:00,209[1] | [INFO ] [PowerTestSx] | Get Resume Time...
+[INFO] 2025-10-24 07:53:00 2025-10-24 07:53:00,219[1] | [INFO ] [PowerTestSx] | Exist WB Valid Data:[{"biosInitTime":17460}]
+[INFO] 2025-10-24 07:53:00 2025-10-24 07:53:00,231[1] | [INFO ] [PowerTestSx] | --return code:0x000000--
+[INFO] 2025-10-24 07:53:00 ????
+[INFO] 2025-10-24 07:53:02 2025-10-24 07:53:02,103[1] | [INFO ] [PowerTestSx] | DebugInfo:
+[INFO] 2025-10-24 07:53:33 Update Status Xml
+2025-10-24 07:53:33 TESTITEMRESULT@Power Conversion Test-WB[1Time];PASS;();337.78
+2025-10-24 07:53:33 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 07:53:33                                                                    #POWER CONVERSION TEST-WB[1TIME](2\1)#
+2025-10-24 07:53:33 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 07:53:33 
+[INFO] 2025-10-24 07:53:33  System WarmBoot Action!
+2025-10-24 07:54:44     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 07:54:46 Read Status Xml
+[SETTINGS] 2025-10-24 07:54:47 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 07:54:47 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 07:54:47 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 07:54:47 Check system error end...
+[INFO] 2025-10-24 07:54:47 Check Abnormal Restart...
+[INFO] 2025-10-24 07:54:47 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 07:54:47 Check Common Error...
+[INFO] 2025-10-24 07:54:47 Execute Task Classified...
+[DETECT] 2025-10-24 07:54:48 Lid status: Opened.
+[DETECT] 2025-10-24 07:54:48 Power source: AC.
+[DETECT] 2025-10-24 07:54:48 Battery percentage remaining 66%.
+[INFO] 2025-10-24 07:54:48 Count Down 15s [status:Ready]...
+2025-10-24 07:55:04 
+2025-10-24 07:55:04 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 07:55:04                                                                    #POWER CONVERSION TEST-MS[1TIME](1\1)#
+2025-10-24 07:55:04 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 07:55:05 Update Status Xml
+[INFO] 2025-10-24 07:55:05 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\PowerTestSx\PowerTestSx.exe",arguments:TestName="Power Conversion Test-MS[1Time]" TestMode="NPI" TestTime="1" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="MS" TestStatus="Ready" TestGuid="44760ea9e2fc4f9e918bb60c47309a6b",toolName:Power Conversion Test-MS[1Time],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\PowerTestSx
+[INFO] 2025-10-24 07:55:07 2025-10-24 07:55:07,528[1] | [INFO ] [PowerTestSx] | version:1.21.1.2
+[INFO] 2025-10-24 07:55:07 2025-10-24 07:55:07,605[1] | [INFO ] [PowerTestSx] | Input Arguments: TestName=Power Conversion Test-MS[1Time] TestMode=NPI TestTime=1 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command=MS TestStatus=Ready TestGuid=44760ea9e2fc4f9e918bb60c47309a6b
+[INFO] 2025-10-24 07:55:07 2025-10-24 07:55:07,769[1] | [INFO ] [PowerTestSx] | Write Success:C:\OSAging\Init\XMLSysInfo.xml
+[INFO] 2025-10-24 07:55:07 2025-10-24 07:55:07,803[1] | [INFO ] [PowerTestSx] | Write configure path file done:C:\OSAging\MFG.txt
+[INFO] 2025-10-24 07:55:07 2025-10-24 07:55:07,805[1] | [INFO ] [PowerTestSx] | Write test plan file done:C:\OSAging\TestPlan.log
+[INFO] 2025-10-24 07:55:12 Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 07:55:12 (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 07:55:12 C:\Program Files (x86)\AutoRI\Config\TestModules\PowerTestSx>RD /S /Q "C:\OSAging\result"& exit
+[INFO] 2025-10-24 07:55:12 2025-10-24 07:55:12,968[1] | [INFO ] [PowerTestSx] | Command execute done:RD /S /Q "C:\OSAging\result"
+[INFO] 2025-10-24 07:55:12 2025-10-24 07:55:12,968[1] | [INFO ] [PowerTestSx] | File init done
+[INFO] 2025-10-24 07:55:18 2025-10-24 07:55:18,123[1] | [INFO ] [PowerTestSx] | Monitor sx result...
+[INFO] 2025-10-24 07:55:23 2025-10-24 07:55:23,124[1] | [ERROR] [PowerTestSx] | Not found time id file:C:\OSAging\TimeID.txt
+[INFO] 2025-10-24 07:55:28 2025-10-24 07:55:28,134[1] | [ERROR] [PowerTestSx] | Not found time id file:C:\OSAging\TimeID.txt
+[INFO] 2025-10-24 07:55:33 2025-10-24 07:55:33,135[1] | [ERROR] [PowerTestSx] | Not found time id file:C:\OSAging\TimeID.txt
+[INFO] 2025-10-24 07:56:17 Update Status Xml
+[DETECT] 2025-10-24 07:56:21 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 07:56:21 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 07:56:29 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[DETECT] 2025-10-24 07:59:09 Device disabled.[Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}]
+[DETECT] 2025-10-24 07:59:09 Device disabled.[Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}]
+[DETECT] 2025-10-24 07:59:09 Device disabled.[Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}]
+[DETECT] 2025-10-24 07:59:09 Device disabled.[Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}]
+[DETECT] 2025-10-24 07:59:09 Device enabled.[Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}]
+[DETECT] 2025-10-24 07:59:09 Device enabled.[Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}]
+[DETECT] 2025-10-24 07:59:09 Device enabled.[Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}]
+[DETECT] 2025-10-24 07:59:10 Device enabled.[Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}]
+[INFO] 2025-10-24 08:01:07 2025-10-24 08:01:07,804[1] | [INFO ] [PowerTestSx] | Get Resume Time...
+[INFO] 2025-10-24 08:01:07 2025-10-24 08:01:07,809[1] | [INFO ] [PowerTestSx] | Average of resume time:464
+[INFO] 2025-10-24 08:01:07 2025-10-24 08:01:07,824[1] | [INFO ] [PowerTestSx] | Exist MS Valid Data:[{"totalTime":464}]
+[INFO] 2025-10-24 08:01:07 2025-10-24 08:01:07,839[1] | [INFO ] [PowerTestSx] | --return code:0x000000--
+[INFO] 2025-10-24 08:01:08 ????
+[INFO] 2025-10-24 08:01:09 2025-10-24 08:01:09,148[1] | [INFO ] [PowerTestSx] | DebugInfo:
+[INFO] 2025-10-24 08:01:10 Update Status Xml
+2025-10-24 08:01:10 TESTITEMRESULT@Power Conversion Test-MS[1Time];PASS;();366.06
+2025-10-24 08:01:10 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:01:10                                                                    #POWER CONVERSION TEST-MS[1TIME](2\1)#
+2025-10-24 08:01:10 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:01:10 
+[INFO] 2025-10-24 08:01:10  System WarmBoot Action!
+[INFO] 2025-10-24 08:01:16 Update Status Xml
+2025-10-24 08:02:21     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 08:02:23 Read Status Xml
+[SETTINGS] 2025-10-24 08:02:23 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 08:02:24 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 08:02:24 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 08:02:24 Check system error end...
+[INFO] 2025-10-24 08:02:24 Check Abnormal Restart...
+[INFO] 2025-10-24 08:02:24 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 08:02:24 Check Common Error...
+[INFO] 2025-10-24 08:02:24 Execute Task Classified...
+[DETECT] 2025-10-24 08:02:25 Lid status: Opened.
+[DETECT] 2025-10-24 08:02:25 Power source: AC.
+[DETECT] 2025-10-24 08:02:25 Battery percentage remaining 66%.
+[INFO] 2025-10-24 08:02:25 Count Down 15s [status:Ready]...
+2025-10-24 08:02:41 
+2025-10-24 08:02:41 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 08:02:41                                                                    #CGTTPXA_CPU[15MIN](1\1)#
+2025-10-24 08:02:41 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 08:02:42 Update Status Xml
+[INFO] 2025-10-24 08:02:42 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\PXACmd.exe",arguments:TestName="CGTTPXA_CPU[15MIN]" TestMode="NPI" TestTime="15" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="/Job CPU_Single" TestStatus="Ready" TestGuid="a640f57c5f1345f599ef2289b56160cd",toolName:CGTTPXA_CPU[15MIN],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\PXA
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,072[1] | [INFO ] [PXACmd] | Start PreTweak phase
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,088[1] | [INFO ] [PXACmd] | Start Main phase
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,093[1] | [INFO ] [PXACmd] | version:1.1.1.0
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,103[1] | [INFO ] [PXACmd] | Input Arguments: TestName=CGTTPXA_CPU[15MIN] TestMode=NPI TestTime=15 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command=/Job CPU_Single TestStatus=Ready TestGuid=a640f57c5f1345f599ef2289b56160cd
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,167[1] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,167[1] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,167[1] | [INFO ] [PXACmd] |    Start SMRIController
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,167[1] | [INFO ] [PXACmd] | Command line: "C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\PXACmd.exe" TestName="CGTTPXA_CPU[15MIN]" TestMode="NPI" TestTime="15" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="/Job CPU_Single" TestStatus="Ready" TestGuid="a640f57c5f1345f599ef2289b56160cd"
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,312[1] | [INFO ] [PXACmd] | Task/Job: [Job]CPU_Single, Func: Undefined
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,312[1] | [WARN ] [PXACmd] | Init Status Data
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,595[1] | [INFO ] [PXACmd] | Start test, please wait...
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,595[1] | [INFO ] [PXACmd] | DoWork 0 / 1
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,595[1] | [INFO ] [PXACmd] | Start PXA Test from console mode
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,595[1] | [INFO ] [PXACmd] | Start sync PXA task
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,595[1] | [WARN ] [PXACmd] | New start from console mode
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,595[1] | [INFO ] [PXACmd] | Query Test Item: Job - [0]: CPU_Single, Search Flag: True
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,648[1] | [INFO ] [PXACmd] | Load db file: [Default] C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\\Bin\data.db
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,648[1] | [INFO ] [PXACmd] | Load db file: [Runtime] C:\ProgramData\PXA\status.db
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,659[1] | [INFO ] [PXACmd] | Load db file: [Config] C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\\Bin\cof.db
+[INFO] 2025-10-24 08:02:45 2025-10-24 08:02:45,928[1] | [INFO ] [PXACmd] | Validation Check:21 / Cpu / Single roasting
+[INFO] 2025-10-24 08:02:47 2025-10-24 08:02:47,049[5] | [INFO ] [PXACmd] | Read UnitInfo, please wait...
+[DETECT] 2025-10-24 08:02:49 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,316[1] | [INFO ] [PXACmd] | Unit SN: PF5XXDFZ
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,325[1] | [INFO ] [PXACmd] | Process test plan item: CPU_Single
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,341[1] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,341[1] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,341[1] | [INFO ] [PXACmd] | ==============================================================================
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,341[1] | [INFO ] [PXACmd] |      Item: 5 - CPU_Single[5]
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,341[1] | [INFO ] [PXACmd] | ==============================================================================
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,357[1] | [INFO ] [PXACmd] | Process CGTT
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,387[1] | [INFO ] [PXACmd] | Try hide windows: 
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,389[1] | [INFO ] [PXACmd] | Init RuntimeContext for job: Cpu / Single roasting, TestPlan Item: CPU_Single / 5
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,705[1] | [INFO ] [PXACmd] | Reset the test time from command option: 15
+[INFO] 2025-10-24 08:02:53 2025-10-24 08:02:53,742[1] | [INFO ] [PXACmd] | TempLinearRegression 21
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,607[1] | [INFO ] [PXACmd] | Try to set SEN3
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,623[1] | [INFO ] [PXACmd] | PPM        | Plug-in: PPM, check HW Requirement
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,623[1] | [INFO ] [PXACmd] | PPM        | Check Result: True
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,623[1] | [INFO ] [PXACmd] | Run Task: PPMController, BestPerformance(PM), StartSync
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,843[11] | [INFO ] [PXACmd] | PPM        | Plug-in: PPM exit, RTC: 0
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,843[1] | [INFO ] [PXACmd] | PPM result : 0, taskId: 29
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,843[1] | [INFO ] [PXACmd] | Test job setting, TestTime: 15 / TestCycle: 0 
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,843[1] | [INFO ] [PXACmd] | ==================> Current test job:[Cpu] - 0 <==================
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,847[1] | [INFO ] [PXACmd] | Starting test case : CPU 100% w/ Log, CurrentStatue : Next
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,847[1] | [INFO ] [PXACmd] | iPTAT      | Plug-in: iPTAT, check HW Requirement
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,847[1] | [INFO ] [PXACmd] | iPTAT      | Check Result: True
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,847[1] | [INFO ] [PXACmd] | Run Task: iPTATController, CPU 100% w/ Log, StartAsync
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,857[1] | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 30
+[INFO] 2025-10-24 08:02:57 2025-10-24 08:02:57,857[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:02:58 2025-10-24 08:02:58,068[1] | [INFO ] [PXACmd] | Idle 15min, waiting test finished
+[INFO] 2025-10-24 08:03:54 Update Status Xml
+[DETECT] 2025-10-24 08:03:57 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 08:03:57 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[INFO] 2025-10-24 08:17:58 2025-10-24 08:17:58,093[1] | [INFO ] [PXACmd] | TerminateTask: iPTATController - Terminate
+[INFO] 2025-10-24 08:17:58 2025-10-24 08:17:58,099[1] | [INFO ] [PXACmd] | Run Task: iPTATController, Terminate, Stop
+[INFO] 2025-10-24 08:17:58 2025-10-24 08:17:58,265[10] | [INFO ] [PXACmd] | iPTAT      | Receive Cancel Request...
+[INFO] 2025-10-24 08:18:01 2025-10-24 08:18:01,155[1] | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+[INFO] 2025-10-24 08:18:01 2025-10-24 08:18:01,155[1] | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+[INFO] 2025-10-24 08:18:01 2025-10-24 08:18:01,159[1] | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM PTATService.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM PTATCMD.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM PTAT.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM CPUPV.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM cpu_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM adl_smallcore_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM adlN_smallcore_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM adlPS_smallcore_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM rpl_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM adlM_stress.exe
+[INFO] 2025-10-24 08:18:01 powershell -Command  "& {sleep -Seconds 2}"
+[INFO] 2025-10-24 08:18:01 copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000"
+[INFO] 2025-10-24 08:18:01 del /f /q "C:\Users\test\Documents\iTAT\log\*
+[INFO] 2025-10-24 08:18:01 copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000"
+[INFO] 2025-10-24 08:18:01 del /f /q "C:\Users\test\Documents\iPTAT\log\*
+[INFO] 2025-10-24 08:18:01 2025-10-24 08:18:01,378[10] | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+[INFO] 2025-10-24 08:18:01 2025-10-24 08:18:01,378[10] | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+[INFO] 2025-10-24 08:18:01 2025-10-24 08:18:01,378[10] | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM PTATService.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM PTATCMD.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM PTAT.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM CPUPV.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM cpu_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM adl_smallcore_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM adlN_smallcore_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM adlPS_smallcore_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM rpl_stress.exe
+[INFO] 2025-10-24 08:18:01 taskkill /F /T /IM adlM_stress.exe
+[INFO] 2025-10-24 08:18:01 powershell -Command  "& {sleep -Seconds 2}"
+[INFO] 2025-10-24 08:18:01 copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000"
+[INFO] 2025-10-24 08:18:01 del /f /q "C:\Users\test\Documents\iTAT\log\*
+[INFO] 2025-10-24 08:18:01 copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000"
+[INFO] 2025-10-24 08:18:01 del /f /q "C:\Users\test\Documents\iPTAT\log\*
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,494[1] | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,509[10] | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,604[1] | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,604[1] | [INFO ] [PXACmd] | TaskID: 30 - RanToCompletion, 0
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,604[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,604[1] | [INFO ] [PXACmd] | C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTInfo.json
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,757[9] | [INFO ] [PXACmd] | Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,757[9] | [INFO ] [PXACmd] | (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,757[9] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,757[9] | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_Result.json" /t REG_SZ /f /reg:64
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,764[9] | [INFO ] [PXACmd] | The operation completed successfully.
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,764[9] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,764[9] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,764[9] | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,764[15] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,764[9] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,764[1] | [INFO ] [PXACmd] | Export file to UnitInfo
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,809[1] | [INFO ] [PXACmd] | PPSEnableFlag: False
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,809[1] | [INFO ] [PXACmd] | Try to create PXA report 
+[INFO] 2025-10-24 08:18:08 2025-10-24 08:18:08,811[1] | [INFO ] [PXACmd] | Run Task: ResultParserController, PXA Report, StartAsync
+[INFO] 2025-10-24 08:18:13 2025-10-24 08:18:13,166[1] | [INFO ] [PXACmd] | ResultParser result : 0, taskId: 192
+[INFO] 2025-10-24 08:18:14 2025-10-24 08:18:14,181[1] | [INFO ] [PXACmd] | Try to parse CGTT log.
+[INFO] 2025-10-24 08:18:14 2025-10-24 08:18:14,186[1] | [INFO ] [PXACmd] | Run Task: LogParserController, Log Parse, StartSync
+[INFO] 2025-10-24 08:18:17 2025-10-24 08:18:17,496[1] | [INFO ] [PXACmd] | LogParser result : 0, taskId: 202
+[INFO] 2025-10-24 08:18:17 2025-10-24 08:18:17,496[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,508[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,508[1] | [INFO ] [PXACmd] | End of test TestJob: 0, Next / End
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,508[1] | [INFO ] [PXACmd] | Fetch and Upload test result from C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_Result.json
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,565[1] | [INFO ] [PXACmd] | Try to set SEN3
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,565[1] | [INFO ] [PXACmd] | PPM        | Plug-in: PPM, check HW Requirement
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,565[1] | [INFO ] [PXACmd] | PPM        | Check Result: True
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,565[1] | [INFO ] [PXACmd] | Run Task: PPMController, Balance(PM), StartSync
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,776[16] | [INFO ] [PXACmd] | PPM        | Plug-in: PPM exit, RTC: 0
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,776[1] | [INFO ] [PXACmd] | PPM result : 0, taskId: 203
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,776[1] | [INFO ] [PXACmd] | Try restore windows: 
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,776[1] | [INFO ] [PXACmd] | Task Status: 5 - CPU_Single[5], RTC: 0
+[INFO] 2025-10-24 08:18:18 Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:18:18 (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:18:18 C:\Windows\System32>xcopy /evhiy "C:\ProgramData\PXA\Logs\PXA004" "C:\Program Files (x86)\AutoRI\Log\CGTTPXA_CPU[15MIN]\1_CGTTPXA_CPU[15MIN]"
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\PXAResult.json
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTInfo.json
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTInfo_UnitInfo.json
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTLogParser.log
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTReport.html
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTT_CPU.csv
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_info_pool.json
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_iPTAT_24-10-2025_08H-03-09S099.csv
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_PXAReport.html
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_result.json
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843__ResultParser.log
+[INFO] 2025-10-24 08:18:18 C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\PTAT_System_Info.csv
+[INFO] 2025-10-24 08:18:18 12 File(s) copied
+[INFO] 2025-10-24 08:18:18 C:\Windows\System32>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,871[1] | [INFO ] [PXACmd] | =============================================
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,871[1] | [INFO ] [PXACmd] |    PXA Return Code: 0
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,871[1] | [INFO ] [PXACmd] |    PXA Message: Test Successfully 
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,871[1] | [INFO ] [PXACmd] | =============================================
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,887[1] | [INFO ] [PXACmd] | Check test task data
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,905[1] | [INFO ] [PXACmd] | Upload test StructData
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,905[1] | [INFO ] [PXACmd] | Add DataString: {"CGID":"1761264177843","cpu_power_issue":false,"mark":"","cpu_power_vice_gap_spec":25,"cpu_power_gap_spec":22,"cpu_package_power_average":24.97,"cpu_package_power_max":25.62,"cpu_power_design_spec":25,"cpu_core0_frequency_min":1683,"cpu_core0_frequency_average":1902.66,"cpu_core0_frequency_max":2206,"cpu_package_temp_average":79.98,"cpu_package_temp_max":81,"cpu_temp_status":true,"total_pwr_gap":0,"vice_total_pwr_gap":0,"JobTag":"Single roasting"}
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,965[1] | [INFO ] [PXACmd] | Upload debug info: Test Successfully
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,965[1] | [INFO ] [PXACmd] | Upload test data file : CGTTPXA_CPU[15MIN] -- C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,965[1] | [INFO ] [PXACmd] | Start PostTweak phase
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,965[1] | [INFO ] [PXACmd] | End of the task: 0
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,965[1] | [INFO ] [PXACmd] | Current RTC : 0
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,965[1] | [INFO ] [PXACmd] | The Exit RTC : 0
+[INFO] 2025-10-24 08:18:18 2025-10-24 08:18:18,965[1] | [INFO ] [PXACmd] | --return code:0x000000--
+[INFO] 2025-10-24 08:18:19 ????
+[INFO] 2025-10-24 08:18:20 Update Status Xml
+2025-10-24 08:18:20 TESTITEMRESULT@CGTTPXA_CPU[15MIN];PASS;();938.79
+2025-10-24 08:18:20 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:18:20                                                                    #CGTTPXA_CPU[15MIN](2\1)#
+2025-10-24 08:18:20 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:18:20 
+[DETECT] 2025-10-24 08:18:21 Logical volume inserted.[100000000000000000]
+[INFO] 2025-10-24 08:18:21  System WarmBoot Action!
+2025-10-24 08:19:33     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 08:19:35 Read Status Xml
+[SETTINGS] 2025-10-24 08:19:35 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 08:19:35 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 08:19:35 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 08:19:36 Check system error end...
+[INFO] 2025-10-24 08:19:36 Check Abnormal Restart...
+[INFO] 2025-10-24 08:19:36 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 08:19:36 Check Common Error...
+[INFO] 2025-10-24 08:19:36 Execute Task Classified...
+[DETECT] 2025-10-24 08:19:37 Lid status: Opened.
+[DETECT] 2025-10-24 08:19:37 Power source: AC.
+[DETECT] 2025-10-24 08:19:37 Battery percentage remaining 66%.
+[INFO] 2025-10-24 08:19:37 Count Down 15s [status:Ready]...
+2025-10-24 08:19:53 
+2025-10-24 08:19:53 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 08:19:53                                                                    #CGTT-TATSTRESS-5MINS_TBG(1\1)#
+2025-10-24 08:19:53 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 08:19:54 Update Status Xml
+[INFO] 2025-10-24 08:19:54 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\CGTT.Console.exe",arguments:TestName="CGTT-TATStress-5mins_TBG" TestMode="NPI" TestTime="5" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="-Job=TATStress" TestStatus="Ready" TestGuid="0a3ffbe66fa24c78b7a05a46651a1ee5",toolName:CGTT-TATStress-5mins_TBG,WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT
+[INFO] 2025-10-24 08:19:56 2025-10-24 08:19:56,245 | [INFO ]  ================= Start CGTT =================
+[INFO] 2025-10-24 08:19:56 2025-10-24 08:19:56,253 | [INFO ]  Detect PhaseA.bat
+[INFO] 2025-10-24 08:19:56 2025-10-24 08:19:56,732 | [INFO ] [CGTT.Console] | version:2.0.9.0
+[INFO] 2025-10-24 08:19:56 2025-10-24 08:19:56,773 | [INFO ] [CGTT.Console] | Input Arguments: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\CGTT.Console.exe TestName=CGTT-TATStress-5mins_TBG TestMode=NPI TestTime=5 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command=-Job=TATStress TestStatus=Ready TestGuid=0a3ffbe66fa24c78b7a05a46651a1ee5
+[INFO] 2025-10-24 08:19:57 2025-10-24 08:19:57,919 | [INFO ]  Invoke InfoQuery Function: Query_SW_OSInfo
+[INFO] 2025-10-24 08:19:57 2025-10-24 08:19:57,921 | [INFO ]  Invoke InfoQuery Function: Query_SW_DriverInfo
+[DETECT] 2025-10-24 08:20:01 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[INFO] 2025-10-24 08:20:01 2025-10-24 08:20:01,576 | [INFO ]  Invoke InfoQuery Function: Query_SW_AppInfo
+[INFO] 2025-10-24 08:20:01 2025-10-24 08:20:01,592 | [INFO ]  Invoke InfoQuery Function: Query_SW_QFEInfo
+[INFO] 2025-10-24 08:20:02 2025-10-24 08:20:02,128 | [INFO ]  Invoke InfoQuery Function: Query_SW_FWInfo
+[INFO] 2025-10-24 08:20:02 2025-10-24 08:20:02,128 | [INFO ]  Invoke InfoQuery Function: Query_SW_BIOSECInfo
+[INFO] 2025-10-24 08:20:02 2025-10-24 08:20:02,135 | [INFO ]  Invoke InfoQuery Function: Query_HW_EnumPNPDevice
+[INFO] 2025-10-24 08:20:02 2025-10-24 08:20:02,413 | [INFO ]  Invoke InfoQuery Function: Query_HW_CPUInfo
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,107 | [INFO ]  Invoke InfoQuery Function: Query_HW_NetWorkInfo
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,435 | [INFO ]  Invoke InfoQuery Function: Query_HW_RAMInfo
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,437 | [INFO ]  Invoke InfoQuery Function: Query_HW_DiskInfo
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,910 | [INFO ]  Invoke InfoQuery Function: Query_HW_MonitorInfo
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,916 | [INFO ]  Invoke InfoQuery Function: Query_HW_BatteryInfo - Skip
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,916 | [INFO ]  Invoke InfoQuery Function: Query_HW_DisplayInfo_GPUZ - Skip
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,916 | [INFO ]  Invoke InfoQuery Function: Query_Ext_ExtraCPU
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,916 | [INFO ]  Invoke InfoQuery Function: Query_Ext_TjMax - Skip
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,916 | [INFO ]  Invoke InfoQuery Function: Query_Ext_DPI
+[INFO] 2025-10-24 08:20:04 2025-10-24 08:20:04,916 | [INFO ]  Invoke InfoQuery Function: Query_Ext_PowerPlan
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,098 | [INFO ]  Invoke InfoQuery Function: Query_Ext_RAM
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,098 | [INFO ]  Invoke InfoQuery Function: Query_Ext_PreloadInfo
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,098 | [INFO ]  Invoke InfoQuery Function: Query_Ext_ProductInfo
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,126 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\GlobalSetting.json
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,378 | [INFO ]  ParseCommandString: -Job=TATStress
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,378 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\TOOL.json
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,537 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\TestCase.json
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,557 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\JobStore.json
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,586 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\CommonTestJob.json
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,665 | [INFO ]  The AutoMode isn't enable, load default id: TATStress
+[INFO] 2025-10-24 08:20:05 2025-10-24 08:20:05,665 | [INFO ]  Load Job: TATStress, Default Job: TATStress
+[INFO] 2025-10-24 08:20:11 2025-10-24 08:20:11,701 | [WARN ]  Console mode not support to update the reg dat
+[INFO] 2025-10-24 08:20:11 2025-10-24 08:20:11,907 | [INFO ]  Execute Tool: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\PrePatch.bat C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ 20251024082005
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,040 | [INFO ]  Check and verfiy the test settings.
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,040 | [INFO ]    ------> Start Test Scenario <------  
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,040 | [INFO ]   ---- Start Test Loop:1 ---- 
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,040 | [INFO ]  CGTTRuntime Status Changed : TaskRunning
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,049 | [INFO ]  Starting test case : iPTAT2 Stress, CurrentStatue : TaskRunning
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,049 | [INFO ]  Execute iPTAT_v2 TestCase
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,049 | [INFO ]  Execute command
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,049 | [INFO ]  Execute Tool: C:\Program Files\Intel Corporation\Intel(R)PTAT\PTAT.exe -s=CGTT_TATscript_C90G80.json -m={timestamp}_iPTAT.csv
+[INFO] 2025-10-24 08:20:12 2025-10-24 08:20:12,331 | [INFO ]  Idle 5min, waiting test finished
+[DETECT] 2025-10-24 08:21:09 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 08:21:09 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[INFO] 2025-10-24 08:21:10 Update Status Xml
+[INFO] 2025-10-24 08:25:12 2025-10-24 08:25:12,698 | [INFO ]  CGTTRuntime Status Changed : TaskComplete
+[INFO] 2025-10-24 08:25:12 2025-10-24 08:25:12,910 | [INFO ]  Try to stop the test case
+[INFO] 2025-10-24 08:25:12 2025-10-24 08:25:12,912 | [INFO ]  Execute iPTAT_v2 TestCase
+[INFO] 2025-10-24 08:25:12 2025-10-24 08:25:12,912 | [INFO ]  Execute command
+[INFO] 2025-10-24 08:26:27 2025-10-24 08:26:27,523 | [INFO ]  Execute Tool: C:\Program Files\Intel Corporation\Intel(R)PTAT\PTAT.exe 
+[INFO] 2025-10-24 08:26:27 2025-10-24 08:26:27,574 | [INFO ]  Export file to UnitInfo
+[INFO] 2025-10-24 08:26:27 2025-10-24 08:26:27,594 | [INFO ]  PPSEnableFlag: False
+[INFO] 2025-10-24 08:26:27 2025-10-24 08:26:27,602 | [INFO ]  Try to parse CGTT log.
+[INFO] 2025-10-24 08:26:27 2025-10-24 08:26:27,602 | [INFO ]  Execute Tool: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\LogParser\LogParser.exe -src C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12 -prefix 20251024082012
+[INFO] 2025-10-24 08:26:30 2025-10-24 08:26:30,557 | [INFO ]          ======CGTT Parse log======        
+[INFO] 2025-10-24 08:26:30 2025-10-24 08:26:30,573 | [INFO ]  2025/10/24 08:26:30 INFO    | 
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | 
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | ============================================================
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    |                    Start CGTT logParser 
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | ============================================================
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | Tool file version: 2.0.4.0, product version: 2.0.2.0
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | Tool create date: Tue Nov 26 07:17:35 2024, modify date: Tue Jun 20 17:49:34 2023
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | cmdline : ['C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\CGTT\\bin\\LogParser\\LogParser.exe', '-src', 'C:\\PROGRA~2\\AutoRI\\Log\\CGTT-T~1\\1_CGTT~1\\PF5XXDFZ_N4CET36W_1.12', '-prefix', '20251024082012']
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | start to parse CGTT Test Result
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | ============= Start CGTT logParser ============= 
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | {'auto': False, 'debug': False, 'src': 'C:\\PROGRA~2\\AutoRI\\Log\\CGTT-T~1\\1_CGTT~1\\PF5XXDFZ_N4CET36W_1.12', 'setting': '', 'prefix': '20251024082012', 'cpu_pwr': False, 'cpu_pwr_gap': 0.0, 'gpu_pwr': False, 'gpu_pwr_gap': 0.0, 'cpu_freq': False, 'cpus_freq': False, 'cpu_freq_gap': 0.0, 'head_offset': 0, 'tail_offset': 10, 'sr': False, 're_parse': False, 'file': False, 'segment': None, 'trange': None, 'src_file': ''}
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | load config file: C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12\20251024082012_CGTTInfo.json
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 ERROR   | Error occurred while parse CGTT data
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | object of type 'NoneType' has no len()
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 ERROR   | Traceback (most recent call last):
+[INFO] 2025-10-24 08:26:30   File "CGTT_Parser\LogParser.py", line 816, in log_parser
+[INFO] 2025-10-24 08:26:30   File "CGTT_Parser\LogParserContext.py", line 393, in __init__
+[INFO] 2025-10-24 08:26:30   File "CGTT_Parser\LogParserContext.py", line 212, in __init__
+[INFO] 2025-10-24 08:26:30   File "CGTT_Parser\LogParserContext.py", line 251, in _init_tool_config
+[INFO] 2025-10-24 08:26:30   File "CGTT_Parser\LogParserContext.py", line 381, in _preprocess_gap_setting
+[INFO] 2025-10-24 08:26:30 TypeError: object of type 'NoneType' has no len()
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | ============================================================
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    |    End of CGTT logParser [ErrorCode.UNKNOWN_EXCEPTION: 2]   
+[INFO] 2025-10-24 08:26:30 2025/10/24 08:26:30 INFO    | ============================================================
+[INFO] 2025-10-24 08:26:30 2025-10-24 08:26:30,573 | [INFO ]          ==========================        
+[INFO] 2025-10-24 08:26:30 2025-10-24 08:26:30,573 | [INFO ]  Try to create PXA report 
+[INFO] 2025-10-24 08:26:30 2025-10-24 08:26:30,573 | [INFO ]  Execute Tool: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\LogParser\ResultParser.exe  report -single_report -source c:\progra~2\autori\log\cgtt-t~1\1_cgtt~1\pf5xxdfz_n4cet36w_1.12 -prefix 20251024082012
+[INFO] 2025-10-24 08:26:33 2025-10-24 08:26:33,081 | [INFO ]  Mapping LogParser RTC: 2
+[INFO] 2025-10-24 08:26:33 2025-10-24 08:26:33,081 | [INFO ]  CGTT Failed: Unknown Exception!
+[INFO] 2025-10-24 08:26:33 2025-10-24 08:26:33,081 | [INFO ]  LogParser check result: NG_UNKOWN_Exception
+[INFO] 2025-10-24 08:26:33 2025-10-24 08:26:33,081 | [INFO ]  SpecCheck:False, return code:OK
+[INFO] 2025-10-24 08:26:33 2025-10-24 08:26:33,081 | [INFO ]  Test result: OK, Test status: TaskComplete, Test Count : 1
+[INFO] 2025-10-24 08:26:33 2025-10-24 08:26:33,097 | [INFO ]  Try to stop the test case
+[INFO] 2025-10-24 08:26:33 2025-10-24 08:26:33,097 | [INFO ]  Execute iPTAT_v2 TestCase
+[INFO] 2025-10-24 08:26:33 2025-10-24 08:26:33,097 | [INFO ]  Execute command
+[INFO] 2025-10-24 08:26:46 2025-10-24 08:26:46,548 | [INFO ]  Execute Tool: C:\Program Files\Intel Corporation\Intel(R)PTAT\PTAT.exe 
+[INFO] 2025-10-24 08:26:46 2025-10-24 08:26:46,554 | [INFO ]  UploadResult Info: 0a3ffbe66fa24c78b7a05a46651a1ee5, True
+[INFO] 2025-10-24 08:26:46 2025-10-24 08:26:46,554 | [INFO ]  Fetch and Upload test result from C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12\20251024082012_Result.json
+[INFO] 2025-10-24 08:26:46 2025-10-24 08:26:46,557 | [INFO ]  Execute Tool: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\PostPatch.bat C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ 20251024082012
+[INFO] 2025-10-24 08:26:46 2025-10-24 08:26:46,651 | [INFO ]    ------> End of Test Scenario:OK <------  
+[INFO] 2025-10-24 08:26:46 2025-10-24 08:26:46,651 | [INFO ]  Filter the Error code and exit: OK
+[INFO] 2025-10-24 08:26:46 2025-10-24 08:26:46,651 | [INFO ]  =================End OF TEST (RTC: OK)=================
+[INFO] 2025-10-24 08:26:46 2025-10-24 08:26:46,651 | [INFO ] [CGTT.Console] | --return code:0x000000--
+[INFO] 2025-10-24 08:26:46 ????
+[INFO] 2025-10-24 08:26:48 Update Status Xml
+2025-10-24 08:26:48 TESTITEMRESULT@CGTT-TATStress-5mins_TBG;PASS;();413.94
+2025-10-24 08:26:48 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:26:48                                                                    #CGTT-TATSTRESS-5MINS_TBG(2\1)#
+2025-10-24 08:26:48 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:26:48 
+[INFO] 2025-10-24 08:26:48  System WarmBoot Action!
+2025-10-24 08:28:00     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 08:28:02 Read Status Xml
+[SETTINGS] 2025-10-24 08:28:03 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 08:28:03 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 08:28:03 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 08:28:03 Check system error end...
+[INFO] 2025-10-24 08:28:03 Check Abnormal Restart...
+[INFO] 2025-10-24 08:28:03 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 08:28:03 Check Common Error...
+[INFO] 2025-10-24 08:28:03 Execute Task Classified...
+[DETECT] 2025-10-24 08:28:04 Lid status: Opened.
+[DETECT] 2025-10-24 08:28:04 Power source: AC.
+[DETECT] 2025-10-24 08:28:04 Battery percentage remaining 66%.
+[INFO] 2025-10-24 08:28:04 Count Down 15s [status:Ready]...
+2025-10-24 08:28:20 
+2025-10-24 08:28:20 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 08:28:20                                                                    #3DMARKPXA_STRESS_FINAL[10MIN](1\1)#
+2025-10-24 08:28:20 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 08:28:21 Update Status Xml
+[INFO] 2025-10-24 08:28:23 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\PXACmd.exe",arguments:TestName="3DMarkPXA_Stress_Final[10Min]" TestMode="NPI" TestTime="10" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="/Job 3DMarkStress" TestStatus="Ready" TestGuid="1d1cd4529b0c4664b7202ad37f80bf8c",toolName:3DMarkPXA_Stress_Final[10Min],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\PXA
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,128[1] | [INFO ] [PXACmd] | Start PreTweak phase
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,151[1] | [INFO ] [PXACmd] | Start Main phase
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,160[1] | [INFO ] [PXACmd] | version:1.1.1.0
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,160[1] | [INFO ] [PXACmd] | Input Arguments: TestName=3DMarkPXA_Stress_Final[10Min] TestMode=NPI TestTime=10 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command=/Job 3DMarkStress TestStatus=Ready TestGuid=1d1cd4529b0c4664b7202ad37f80bf8c
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,226[1] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,226[1] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,226[1] | [INFO ] [PXACmd] |    Start SMRIController
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,226[1] | [INFO ] [PXACmd] | Command line: "C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\PXACmd.exe" TestName="3DMarkPXA_Stress_Final[10Min]" TestMode="NPI" TestTime="10" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="/Job 3DMarkStress" TestStatus="Ready" TestGuid="1d1cd4529b0c4664b7202ad37f80bf8c"
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,378[1] | [INFO ] [PXACmd] | Task/Job: [Job]3DMarkStress, Func: Undefined
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,382[1] | [WARN ] [PXACmd] | Init Status Data
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,645[1] | [INFO ] [PXACmd] | Start test, please wait...
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,647[1] | [INFO ] [PXACmd] | DoWork 0 / 1
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,647[1] | [INFO ] [PXACmd] | Start PXA Test from console mode
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,647[1] | [INFO ] [PXACmd] | Start sync PXA task
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,647[1] | [WARN ] [PXACmd] | New start from console mode
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,649[1] | [INFO ] [PXACmd] | Query Test Item: Job - [0]: 3DMarkStress, Search Flag: True
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,719[1] | [INFO ] [PXACmd] | Load db file: [Default] C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\\Bin\data.db
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,726[1] | [INFO ] [PXACmd] | Load db file: [Runtime] C:\ProgramData\PXA\status.db
+[INFO] 2025-10-24 08:28:25 2025-10-24 08:28:25,733[1] | [INFO ] [PXACmd] | Load db file: [Config] C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\\Bin\cof.db
+[INFO] 2025-10-24 08:28:26 2025-10-24 08:28:26,004[1] | [INFO ] [PXACmd] | Validation Check:20 / 3DMark_Stress / Stress
+[INFO] 2025-10-24 08:28:27 2025-10-24 08:28:27,104[5] | [INFO ] [PXACmd] | Read UnitInfo, please wait...
+[DETECT] 2025-10-24 08:28:29 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,309[1] | [INFO ] [PXACmd] | Unit SN: PF5XXDFZ
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,325[1] | [INFO ] [PXACmd] | Process test plan item: 3DMarkStress
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,325[1] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,325[1] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,325[1] | [INFO ] [PXACmd] | ==============================================================================
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,325[1] | [INFO ] [PXACmd] |      Item: 6 - 3DMarkStress[6]
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,325[1] | [INFO ] [PXACmd] | ==============================================================================
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,356[1] | [INFO ] [PXACmd] | Process UL3DMark
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,372[1] | [INFO ] [PXACmd] | Try hide windows: 
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,372[1] | [INFO ] [PXACmd] | Init RuntimeContext for job: 3DMark_Stress / Stress, TestPlan Item: 3DMarkStress / 6
+[INFO] 2025-10-24 08:28:32 2025-10-24 08:28:32,696[1] | [INFO ] [PXACmd] | Reset the test time from command option: 10
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,674[1] | [INFO ] [PXACmd] | Try to set SEN3
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,689[1] | [INFO ] [PXACmd] | PPM        | Plug-in: PPM, check HW Requirement
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,689[1] | [INFO ] [PXACmd] | PPM        | Check Result: True
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,689[1] | [INFO ] [PXACmd] | Run Task: PPMController, BestPerformance(PM), StartSync
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[9] | [INFO ] [PXACmd] | PPM        | Plug-in: PPM exit, RTC: 0
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | PPM result : 0, taskId: 29
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | Test job setting, TestTime: 10 / TestCycle: 0 
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | ==================> Current test job:[3DMark_Stress] - 0 <==================
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | Starting test case : Log, CurrentStatue : Next
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | iPTAT      | Plug-in: iPTAT, check HW Requirement
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | iPTAT      | Check Result: True
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | Run Task: iPTATController, Log, StartAsync
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 30
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,928[1] | [INFO ] [PXACmd] | Starting test case : AutoDetect, CurrentStatue : Next
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,949[1] | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark, check HW Requirement
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,949[1] | [INFO ] [PXACmd] | 3DMark     | Check Result: True
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,949[1] | [INFO ] [PXACmd] | Run Task: UL3DMarkController, Auto detect test definition, StartSync
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,959[1] | [INFO ] [PXACmd] | 3DMark     | 3DMARK Task: AutoDetect, Command-line:   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+[INFO] 2025-10-24 08:28:36 2025-10-24 08:28:36,959[10] | [INFO ] [PXACmd] | 3DMark     | StartProcess->C:\Program Files\UL\3DMark\3DMarkCmd.exe   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+[INFO] 2025-10-24 08:29:33 Update Status Xml
+[DETECT] 2025-10-24 08:29:39 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 08:29:39 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[INFO] 2025-10-24 08:32:12 2025-10-24 08:32:12,283[10] | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark exit, RTC: 0
+[INFO] 2025-10-24 08:32:12 2025-10-24 08:32:12,283[10] | [INFO ] [PXACmd] | 3DMark     | Stop Plug-in: 3DMark
+[INFO] 2025-10-24 08:32:12 2025-10-24 08:32:12,283[10] | [INFO ] [PXACmd] | 3DMark     | Run Script, please wait...
+[INFO] 2025-10-24 08:32:12 2025-10-24 08:32:12,288[10] | [INFO ] [PXACmd] | 3DMark     | taskkill /F /T /IM 3DMark.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM 3DMarkCmd.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM 3DMarkAPIOverhead.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM 3DMarkICFDemo.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM 3DMarkNightRaid.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM 3DMarkSkyDiver.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM 3DMarkTimeSpy.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM FMSISvc.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM EasyFMSI.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM SystemInfoHelper.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM java.exe
+[INFO] 2025-10-24 08:32:12 taskkill /F /T /IM DDSWA.exe
+[INFO] 2025-10-24 08:32:13 2025-10-24 08:32:13,012[10] | [INFO ] [PXACmd] | 3DMark     | Script return code: 128
+[INFO] 2025-10-24 08:32:13 2025-10-24 08:32:13,249[10] | [INFO ] [PXACmd] | 3DMark     | Export result: C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:32:13 Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:32:13 (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:32:13 C:\Program Files\UL\3DMark>"C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe"  x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000" -y
+[INFO] 2025-10-24 08:32:13 7-Zip 20.02 alpha (x64) : Copyright (c) 1999-2020 Igor Pavlov : 2020-08-08
+[INFO] 2025-10-24 08:32:13 Scanning the drive for archives:
+[INFO] 2025-10-24 08:32:13 1 file, 68703 bytes (68 KiB)
+[INFO] 2025-10-24 08:32:13 Extracting archive: C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:32:13 --
+[INFO] 2025-10-24 08:32:13 Path = C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:32:13 Type = zip
+[INFO] 2025-10-24 08:32:13 Physical Size = 68703
+[INFO] 2025-10-24 08:32:13 Everything is Ok
+[INFO] 2025-10-24 08:32:13 Size:       1307
+[INFO] 2025-10-24 08:32:13 Compressed: 68703
+[INFO] 2025-10-24 08:32:13 C:\Program Files\UL\3DMark>ren "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\Result.xml" 1761265716928_timespyallwindowed.xml
+[INFO] 2025-10-24 08:32:13 C:\Program Files\UL\3DMark>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:32:13 2025-10-24 08:32:13,328[1] | [INFO ] [PXACmd] | 3DMark result : 0, taskId: 90
+[INFO] 2025-10-24 08:32:13 2025-10-24 08:32:13,328[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:32:13 2025-10-24 08:32:13,552[1] | [INFO ] [PXACmd] | TerminateTask: iPTATController - Terminate
+[INFO] 2025-10-24 08:32:13 2025-10-24 08:32:13,552[1] | [INFO ] [PXACmd] | Run Task: iPTATController, Terminate, Stop
+[INFO] 2025-10-24 08:32:13 2025-10-24 08:32:13,726[6] | [INFO ] [PXACmd] | iPTAT      | Receive Cancel Request...
+[INFO] 2025-10-24 08:32:16 2025-10-24 08:32:16,568[1] | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+[INFO] 2025-10-24 08:32:16 2025-10-24 08:32:16,568[1] | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+[INFO] 2025-10-24 08:32:16 2025-10-24 08:32:16,568[1] | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM PTATService.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM PTATCMD.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM PTAT.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM CPUPV.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM cpu_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM adl_smallcore_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM adlN_smallcore_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM adlPS_smallcore_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM rpl_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM adlM_stress.exe
+[INFO] 2025-10-24 08:32:16 powershell -Command  "& {sleep -Seconds 2}"
+[INFO] 2025-10-24 08:32:16 copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:32:16 del /f /q "C:\Users\test\Documents\iTAT\log\*
+[INFO] 2025-10-24 08:32:16 copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:32:16 del /f /q "C:\Users\test\Documents\iPTAT\log\*
+[INFO] 2025-10-24 08:32:16 2025-10-24 08:32:16,727[6] | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+[INFO] 2025-10-24 08:32:16 2025-10-24 08:32:16,727[6] | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+[INFO] 2025-10-24 08:32:16 2025-10-24 08:32:16,727[6] | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM PTATService.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM PTATCMD.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM PTAT.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM CPUPV.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM cpu_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM adl_smallcore_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM adlN_smallcore_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM adlPS_smallcore_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM rpl_stress.exe
+[INFO] 2025-10-24 08:32:16 taskkill /F /T /IM adlM_stress.exe
+[INFO] 2025-10-24 08:32:16 powershell -Command  "& {sleep -Seconds 2}"
+[INFO] 2025-10-24 08:32:16 copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:32:16 del /f /q "C:\Users\test\Documents\iTAT\log\*
+[INFO] 2025-10-24 08:32:16 copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:32:16 del /f /q "C:\Users\test\Documents\iPTAT\log\*
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,201[1] | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,201[6] | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,296[1] | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,309[1] | [INFO ] [PXACmd] | TaskID: 30 - RanToCompletion, 0
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,309[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,309[1] | [INFO ] [PXACmd] | C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_CGTTInfo.json
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,459[17] | [INFO ] [PXACmd] | Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,459[17] | [INFO ] [PXACmd] | (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,459[17] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,459[17] | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_Result.json" /t REG_SZ /f /reg:64
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,469[17] | [INFO ] [PXACmd] | The operation completed successfully.
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,469[17] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,469[17] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,469[17] | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,469[12] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,469[17] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,469[1] | [INFO ] [PXACmd] | Export file to UnitInfo
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,517[1] | [INFO ] [PXACmd] | PPSEnableFlag: False
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,517[1] | [INFO ] [PXACmd] | Try to create PXA report 
+[INFO] 2025-10-24 08:32:21 2025-10-24 08:32:21,517[1] | [INFO ] [PXACmd] | Run Task: ResultParserController, PXA Report, StartAsync
+[INFO] 2025-10-24 08:32:25 2025-10-24 08:32:25,823[1] | [INFO ] [PXACmd] | ResultParser result : 0, taskId: 239
+[INFO] 2025-10-24 08:32:26 2025-10-24 08:32:26,839[1] | [INFO ] [PXACmd] | Parse file : C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.xml
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,265[1] | [INFO ] [PXACmd] | Scores : {"TimeSpyPerformanceGraphicsScoreForPass": 3434,"TimeSpyPerformanceCPUScoreForPass": 7045,"TimeSpyPerformance3DMarkScoreForPass": 3720,"TimeSpyPerformanceGraphicsTest1": 21.98,"TimeSpyPerformanceGraphicsTest2": 20.02,"TimeSpyPerformanceCpuSection2": 23.67}
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,265[1] | [INFO ] [PXACmd] | ==================> Current test job:[3DMark_Stress] - 1 <==================
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,265[1] | [INFO ] [PXACmd] | Starting test case : Log, CurrentStatue : Next
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | iPTAT      | Plug-in: iPTAT, check HW Requirement
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | iPTAT      | Check Result: True
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | Run Task: iPTATController, Log, StartAsync
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 240
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | Starting test case : AutoDetect, CurrentStatue : Next
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark, check HW Requirement
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | 3DMark     | Check Result: True
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | Run Task: UL3DMarkController, Auto detect test definition, StartSync
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[1] | [INFO ] [PXACmd] | 3DMark     | 3DMARK Task: AutoDetect, Command-line:   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+[INFO] 2025-10-24 08:32:27 2025-10-24 08:32:27,266[10] | [INFO ] [PXACmd] | 3DMark     | StartProcess->C:\Program Files\UL\3DMark\3DMarkCmd.exe   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+[DETECT] 2025-10-24 08:34:55 Device enabled.[Device:WAN Miniport (SSTP) Detail:\\?\SWD#MSRRAS#MS_SSTPMINIPORT#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{159BF86A-1C8A-4F86-8BF7-2933FE5CEA4A}]
+[DETECT] 2025-10-24 08:34:55 Device enabled.[Device:WAN Miniport (SSTP) Detail:\\?\SWD#MSRRAS#MS_SSTPMINIPORT#{cac88484-7515-4c03-82e6-71a87abac361}]
+[DETECT] 2025-10-24 08:34:56 Device enabled.[Device:WAN Miniport (IKEv2) Detail:\\?\SWD#MSRRAS#MS_AGILEVPNMINIPORT#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{4B2F15DC-9E0C-414F-A286-9902D9878DC4}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (IKEv2) Detail:\\?\SWD#MSRRAS#MS_AGILEVPNMINIPORT#{cac88484-7515-4c03-82e6-71a87abac361}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (L2TP) Detail:\\?\SWD#MSRRAS#MS_L2TPMINIPORT#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{4AB8FFEA-2D45-4D82-AF8F-7C400A7C3389}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (L2TP) Detail:\\?\SWD#MSRRAS#MS_L2TPMINIPORT#{cac88484-7515-4c03-82e6-71a87abac361}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (PPTP) Detail:\\?\SWD#MSRRAS#MS_PPTPMINIPORT#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{4000AE2C-FF3C-4D0D-8464-796E49B127F1}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (PPTP) Detail:\\?\SWD#MSRRAS#MS_PPTPMINIPORT#{cac88484-7515-4c03-82e6-71a87abac361}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (PPPOE) Detail:\\?\SWD#MSRRAS#MS_PPPOEMINIPORT#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{033DD8CE-0513-40CF-80F9-4CE48754C9C3}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (PPPOE) Detail:\\?\SWD#MSRRAS#MS_PPPOEMINIPORT#{cac88484-7515-4c03-82e6-71a87abac361}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (IP) Detail:\\?\SWD#MSRRAS#MS_NDISWANIP#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{197D7DFA-8996-42F2-A827-59A74DC75BC0}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (IP) Detail:\\?\SWD#MSRRAS#MS_NDISWANIP#{cac88484-7515-4c03-82e6-71a87abac361}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (IPv6) Detail:\\?\SWD#MSRRAS#MS_NDISWANIPV6#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{86EAA30F-20C6-454A-8FFF-FCA9EC85D456}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (IPv6) Detail:\\?\SWD#MSRRAS#MS_NDISWANIPV6#{cac88484-7515-4c03-82e6-71a87abac361}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (Network Monitor) Detail:\\?\SWD#MSRRAS#MS_NDISWANBH#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{9260737C-C27D-4AE5-96BB-659040E3C5B3}]
+[DETECT] 2025-10-24 08:34:57 Device enabled.[Device:WAN Miniport (Network Monitor) Detail:\\?\SWD#MSRRAS#MS_NDISWANBH#{cac88484-7515-4c03-82e6-71a87abac361}]
+[INFO] 2025-10-24 08:36:02 2025-10-24 08:36:02,666[10] | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark exit, RTC: 0
+[INFO] 2025-10-24 08:36:02 2025-10-24 08:36:02,666[10] | [INFO ] [PXACmd] | 3DMark     | Stop Plug-in: 3DMark
+[INFO] 2025-10-24 08:36:02 2025-10-24 08:36:02,666[10] | [INFO ] [PXACmd] | 3DMark     | Run Script, please wait...
+[INFO] 2025-10-24 08:36:02 2025-10-24 08:36:02,666[10] | [INFO ] [PXACmd] | 3DMark     | taskkill /F /T /IM 3DMark.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM 3DMarkCmd.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM 3DMarkAPIOverhead.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM 3DMarkICFDemo.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM 3DMarkNightRaid.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM 3DMarkSkyDiver.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM 3DMarkTimeSpy.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM FMSISvc.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM EasyFMSI.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM SystemInfoHelper.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM java.exe
+[INFO] 2025-10-24 08:36:02 taskkill /F /T /IM DDSWA.exe
+[INFO] 2025-10-24 08:36:03 2025-10-24 08:36:03,366[10] | [INFO ] [PXACmd] | 3DMark     | Script return code: 128
+[INFO] 2025-10-24 08:36:03 2025-10-24 08:36:03,589[10] | [INFO ] [PXACmd] | 3DMark     | Export result: C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:36:03 Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:36:03 (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:36:03 C:\Program Files\UL\3DMark>"C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe"  x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000" -y
+[INFO] 2025-10-24 08:36:03 7-Zip 20.02 alpha (x64) : Copyright (c) 1999-2020 Igor Pavlov : 2020-08-08
+[INFO] 2025-10-24 08:36:03 Scanning the drive for archives:
+[INFO] 2025-10-24 08:36:03 1 file, 69295 bytes (68 KiB)
+[INFO] 2025-10-24 08:36:03 Extracting archive: C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:36:03 --
+[INFO] 2025-10-24 08:36:03 Path = C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:36:03 Type = zip
+[INFO] 2025-10-24 08:36:03 Physical Size = 69295
+[INFO] 2025-10-24 08:36:03 Everything is Ok
+[INFO] 2025-10-24 08:36:03 Size:       1307
+[INFO] 2025-10-24 08:36:03 Compressed: 69295
+[INFO] 2025-10-24 08:36:03 C:\Program Files\UL\3DMark>ren "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\Result.xml" 1761265947265_timespyallwindowed.xml
+[INFO] 2025-10-24 08:36:03 C:\Program Files\UL\3DMark>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:36:03 2025-10-24 08:36:03,643[1] | [INFO ] [PXACmd] | 3DMark result : 0, taskId: 304
+[INFO] 2025-10-24 08:36:03 2025-10-24 08:36:03,643[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:36:03 2025-10-24 08:36:03,858[1] | [INFO ] [PXACmd] | TerminateTask: iPTATController - Terminate
+[INFO] 2025-10-24 08:36:03 2025-10-24 08:36:03,858[1] | [INFO ] [PXACmd] | Run Task: iPTATController, Terminate, Stop
+[INFO] 2025-10-24 08:36:04 2025-10-24 08:36:04,064[17] | [INFO ] [PXACmd] | iPTAT      | Receive Cancel Request...
+[INFO] 2025-10-24 08:36:06 2025-10-24 08:36:06,875[1] | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+[INFO] 2025-10-24 08:36:06 2025-10-24 08:36:06,875[1] | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+[INFO] 2025-10-24 08:36:06 2025-10-24 08:36:06,875[1] | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM PTATService.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM PTATCMD.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM PTAT.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM CPUPV.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM cpu_stress.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM adl_smallcore_stress.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM adlN_smallcore_stress.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM adlPS_smallcore_stress.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM rpl_stress.exe
+[INFO] 2025-10-24 08:36:06 taskkill /F /T /IM adlM_stress.exe
+[INFO] 2025-10-24 08:36:06 powershell -Command  "& {sleep -Seconds 2}"
+[INFO] 2025-10-24 08:36:06 copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:36:06 del /f /q "C:\Users\test\Documents\iTAT\log\*
+[INFO] 2025-10-24 08:36:06 copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:36:06 del /f /q "C:\Users\test\Documents\iPTAT\log\*
+[INFO] 2025-10-24 08:36:07 2025-10-24 08:36:07,081[17] | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+[INFO] 2025-10-24 08:36:07 2025-10-24 08:36:07,081[17] | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+[INFO] 2025-10-24 08:36:07 2025-10-24 08:36:07,081[17] | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM PTATService.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM PTATCMD.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM PTAT.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM CPUPV.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM cpu_stress.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM adl_smallcore_stress.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM adlN_smallcore_stress.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM adlPS_smallcore_stress.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM rpl_stress.exe
+[INFO] 2025-10-24 08:36:07 taskkill /F /T /IM adlM_stress.exe
+[INFO] 2025-10-24 08:36:07 powershell -Command  "& {sleep -Seconds 2}"
+[INFO] 2025-10-24 08:36:07 copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:36:07 del /f /q "C:\Users\test\Documents\iTAT\log\*
+[INFO] 2025-10-24 08:36:07 copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:36:07 del /f /q "C:\Users\test\Documents\iPTAT\log\*
+[INFO] 2025-10-24 08:36:10 2025-10-24 08:36:10,925[1] | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,012[1] | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,059[17] | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,138[1] | [INFO ] [PXACmd] | TaskID: 240 - RanToCompletion, 0
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,138[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,138[1] | [INFO ] [PXACmd] | C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_CGTTInfo.json
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,161[21] | [INFO ] [PXACmd] | Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,161[21] | [INFO ] [PXACmd] | (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,161[21] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,161[21] | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_Result.json" /t REG_SZ /f /reg:64
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,169[21] | [INFO ] [PXACmd] | The operation completed successfully.
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,169[21] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,169[21] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,169[21] | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,169[18] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,169[21] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,169[1] | [INFO ] [PXACmd] | Export file to UnitInfo
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,175[1] | [INFO ] [PXACmd] | PPSEnableFlag: False
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,175[1] | [INFO ] [PXACmd] | Try to create PXA report 
+[INFO] 2025-10-24 08:36:11 2025-10-24 08:36:11,175[1] | [INFO ] [PXACmd] | Run Task: ResultParserController, PXA Report, StartAsync
+[INFO] 2025-10-24 08:36:13 2025-10-24 08:36:13,099[1] | [INFO ] [PXACmd] | ResultParser result : 0, taskId: 457
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | Parse file : C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.xml
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | Scores : {"TimeSpyPerformanceGraphicsScoreForPass": 3429,"TimeSpyPerformanceCPUScoreForPass": 7054,"TimeSpyPerformance3DMarkScoreForPass": 3715,"TimeSpyPerformanceGraphicsTest1": 22.05,"TimeSpyPerformanceGraphicsTest2": 19.90,"TimeSpyPerformanceCpuSection2": 23.70}
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | ==================> Current test job:[3DMark_Stress] - 2 <==================
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | Starting test case : Log, CurrentStatue : Next
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | iPTAT      | Plug-in: iPTAT, check HW Requirement
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | iPTAT      | Check Result: True
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | Run Task: iPTATController, Log, StartAsync
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 458
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | Starting test case : AutoDetect, CurrentStatue : Next
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark, check HW Requirement
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | 3DMark     | Check Result: True
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | Run Task: UL3DMarkController, Auto detect test definition, StartSync
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[1] | [INFO ] [PXACmd] | 3DMark     | 3DMARK Task: AutoDetect, Command-line:   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+[INFO] 2025-10-24 08:36:14 2025-10-24 08:36:14,108[5] | [INFO ] [PXACmd] | 3DMark     | StartProcess->C:\Program Files\UL\3DMark\3DMarkCmd.exe   --definition=C:\PROGRA~2\AutoRI\Config\TESTMO~1\PXA\Tools\UL3DMark\TIMESP~2.3DM --systeminfo=off --systeminfomonitor=off --out="C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result" --loop=1 --audio=on
+[INFO] 2025-10-24 08:39:47 2025-10-24 08:39:47,238[5] | [INFO ] [PXACmd] | 3DMark     | Plug-in: 3DMark exit, RTC: 0
+[INFO] 2025-10-24 08:39:47 2025-10-24 08:39:47,238[5] | [INFO ] [PXACmd] | 3DMark     | Stop Plug-in: 3DMark
+[INFO] 2025-10-24 08:39:47 2025-10-24 08:39:47,238[5] | [INFO ] [PXACmd] | 3DMark     | Run Script, please wait...
+[INFO] 2025-10-24 08:39:47 2025-10-24 08:39:47,238[5] | [INFO ] [PXACmd] | 3DMark     | taskkill /F /T /IM 3DMark.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM 3DMarkCmd.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM 3DMarkAPIOverhead.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM 3DMarkICFDemo.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM 3DMarkNightRaid.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM 3DMarkSkyDiver.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM 3DMarkTimeSpy.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM FMSISvc.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM EasyFMSI.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM SystemInfoHelper.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM java.exe
+[INFO] 2025-10-24 08:39:47 taskkill /F /T /IM DDSWA.exe
+[INFO] 2025-10-24 08:39:47 2025-10-24 08:39:47,876[5] | [INFO ] [PXACmd] | 3DMark     | Script return code: 128
+[INFO] 2025-10-24 08:39:48 2025-10-24 08:39:48,110[5] | [INFO ] [PXACmd] | 3DMark     | Export result: C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:39:48 Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:39:48 (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:39:48 C:\Program Files\UL\3DMark>"C:\Program Files (x86)\AutoRI\Config\TestModules\PXA\Tools\7z\7z.exe"  x "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result" Result.xml -o"C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000" -y
+[INFO] 2025-10-24 08:39:48 7-Zip 20.02 alpha (x64) : Copyright (c) 1999-2020 Igor Pavlov : 2020-08-08
+[INFO] 2025-10-24 08:39:48 Scanning the drive for archives:
+[INFO] 2025-10-24 08:39:48 1 file, 68973 bytes (68 KiB)
+[INFO] 2025-10-24 08:39:48 Extracting archive: C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:39:48 --
+[INFO] 2025-10-24 08:39:48 Path = C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:39:48 Type = zip
+[INFO] 2025-10-24 08:39:48 Physical Size = 68973
+[INFO] 2025-10-24 08:39:48 Everything is Ok
+[INFO] 2025-10-24 08:39:48 Size:       1307
+[INFO] 2025-10-24 08:39:48 Compressed: 68973
+[INFO] 2025-10-24 08:39:48 C:\Program Files\UL\3DMark>ren "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\Result.xml" 1761266174108_timespyallwindowed.xml
+[INFO] 2025-10-24 08:39:48 C:\Program Files\UL\3DMark>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:39:48 2025-10-24 08:39:48,158[1] | [INFO ] [PXACmd] | 3DMark result : 0, taskId: 520
+[INFO] 2025-10-24 08:39:48 2025-10-24 08:39:48,158[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:39:48 2025-10-24 08:39:48,376[1] | [INFO ] [PXACmd] | TerminateTask: iPTATController - Terminate
+[INFO] 2025-10-24 08:39:48 2025-10-24 08:39:48,376[1] | [INFO ] [PXACmd] | Run Task: iPTATController, Terminate, Stop
+[INFO] 2025-10-24 08:39:48 2025-10-24 08:39:48,471[18] | [INFO ] [PXACmd] | iPTAT      | Receive Cancel Request...
+[INFO] 2025-10-24 08:39:51 2025-10-24 08:39:51,378[1] | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+[INFO] 2025-10-24 08:39:51 2025-10-24 08:39:51,378[1] | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+[INFO] 2025-10-24 08:39:51 2025-10-24 08:39:51,378[1] | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM PTATService.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM PTATCMD.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM PTAT.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM CPUPV.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM cpu_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM adl_smallcore_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM adlN_smallcore_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM adlPS_smallcore_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM rpl_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM adlM_stress.exe
+[INFO] 2025-10-24 08:39:51 powershell -Command  "& {sleep -Seconds 2}"
+[INFO] 2025-10-24 08:39:51 copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:39:51 del /f /q "C:\Users\test\Documents\iTAT\log\*
+[INFO] 2025-10-24 08:39:51 copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:39:51 del /f /q "C:\Users\test\Documents\iPTAT\log\*
+[INFO] 2025-10-24 08:39:51 2025-10-24 08:39:51,473[18] | [INFO ] [PXACmd] | iPTAT      | Stop Plug-in: iPTAT
+[INFO] 2025-10-24 08:39:51 2025-10-24 08:39:51,473[18] | [INFO ] [PXACmd] | iPTAT      | Run Script, please wait...
+[INFO] 2025-10-24 08:39:51 2025-10-24 08:39:51,473[18] | [INFO ] [PXACmd] | iPTAT      | taskkill /F /T /IM ThermalAnalysisToolCmd.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM PTATService.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM PTATCMD.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM PTAT.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM CPUPV.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM cpu_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM adl_smallcore_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM adlN_smallcore_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM adlPS_smallcore_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM rpl_stress.exe
+[INFO] 2025-10-24 08:39:51 taskkill /F /T /IM adlM_stress.exe
+[INFO] 2025-10-24 08:39:51 powershell -Command  "& {sleep -Seconds 2}"
+[INFO] 2025-10-24 08:39:51 copy /y "C:\Users\test\Documents\iTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:39:51 del /f /q "C:\Users\test\Documents\iTAT\log\*
+[INFO] 2025-10-24 08:39:51 copy /y "C:\Users\test\Documents\iPTAT\log\*"  "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000"
+[INFO] 2025-10-24 08:39:51 del /f /q "C:\Users\test\Documents\iPTAT\log\*
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,430[1] | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,454[18] | [INFO ] [PXACmd] | iPTAT      | Script return code: 0
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,518[1] | [INFO ] [PXACmd] | iPTAT result : 0, taskId: 
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,533[1] | [INFO ] [PXACmd] | TaskID: 458 - RanToCompletion, 0
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,533[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,533[1] | [INFO ] [PXACmd] | C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_CGTTInfo.json
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,565[27] | [INFO ] [PXACmd] | Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,565[27] | [INFO ] [PXACmd] | (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,565[27] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,565[27] | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_Result.json" /t REG_SZ /f /reg:64
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,571[27] | [INFO ] [PXACmd] | The operation completed successfully.
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,571[27] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,571[27] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,571[27] | [INFO ] [PXACmd] | C:\Program Files\Intel Corporation\Intel(R)PTAT>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,571[27] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,571[28] | [INFO ] [PXACmd] | 
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,571[1] | [INFO ] [PXACmd] | Export file to UnitInfo
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,581[1] | [INFO ] [PXACmd] | PPSEnableFlag: False
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,581[1] | [INFO ] [PXACmd] | Try to create PXA report 
+[INFO] 2025-10-24 08:39:55 2025-10-24 08:39:55,581[1] | [INFO ] [PXACmd] | Run Task: ResultParserController, PXA Report, StartAsync
+[INFO] 2025-10-24 08:39:58 2025-10-24 08:39:58,547[1] | [INFO ] [PXACmd] | ResultParser result : 0, taskId: 672
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,558[1] | [INFO ] [PXACmd] | Parse file : C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.xml
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,558[1] | [INFO ] [PXACmd] | Scores : {"TimeSpyPerformanceGraphicsScoreForPass": 3436,"TimeSpyPerformanceCPUScoreForPass": 7077,"TimeSpyPerformance3DMarkScoreForPass": 3723,"TimeSpyPerformanceGraphicsTest1": 22.05,"TimeSpyPerformanceGraphicsTest2": 19.97,"TimeSpyPerformanceCpuSection2": 23.78}
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,558[1] | [INFO ] [PXACmd] | Skip item: 3DMarkScore, 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,558[1] | [INFO ] [PXACmd] | Skip item: CPU Score, 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,558[1] | [INFO ] [PXACmd] | Skip item: Graphics Score, 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,558[1] | [INFO ] [PXACmd] | Skip item: GT1, 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,558[1] | [INFO ] [PXACmd] | Skip item: GT2, 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,558[1] | [INFO ] [PXACmd] | Skip item: CPU test, 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,564[1] | [WARN ] [PXACmd] | Call Method: 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,564[1] | [INFO ] [PXACmd] | End of test TestJob: 0, Next / Abort
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,572[1] | [INFO ] [PXACmd] | Try to set SEN3
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,572[1] | [INFO ] [PXACmd] | PPM        | Plug-in: PPM, check HW Requirement
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,572[1] | [INFO ] [PXACmd] | PPM        | Check Result: True
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,572[1] | [INFO ] [PXACmd] | Run Task: PPMController, Balance(PM), StartSync
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,781[5] | [INFO ] [PXACmd] | PPM        | Plug-in: PPM exit, RTC: 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,781[1] | [INFO ] [PXACmd] | PPM result : 0, taskId: 673
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,781[1] | [INFO ] [PXACmd] | Try restore windows: 
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,781[1] | [INFO ] [PXACmd] | Task Status: 6 - 3DMarkStress[6], RTC: 0
+[INFO] 2025-10-24 08:39:59 Microsoft Windows [Version 10.0.26100.2161]
+[INFO] 2025-10-24 08:39:59 (c) Microsoft Corporation. All rights reserved.
+[INFO] 2025-10-24 08:39:59 C:\Windows\System32>xcopy /evhiy "C:\ProgramData\PXA\Logs\PXA005" "C:\Program Files (x86)\AutoRI\Log\3DMarkPXA_Stress_Final[10Min]\1_3DMarkPXA_Stress_Final[10Min]"
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\PXAResult.json
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_CGTTInfo.json
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_CGTTInfo_UnitInfo.json
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_iPTAT_24-10-2025_08H-28-47S261.csv
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_PXAReport.html
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928_timespyallwindowed.xml
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265716928__ResultParser.log
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_CGTTInfo.json
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_CGTTInfo_UnitInfo.json
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_iPTAT_24-10-2025_08H-32-36S704.csv
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265_timespyallwindowed.xml
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761265947265__ResultParser.log
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_CGTTInfo.json
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_CGTTInfo_UnitInfo.json
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_iPTAT_24-10-2025_08H-36-23S510.csv
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_PXAReport.html
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.3dmark-result
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108_timespyallwindowed.xml
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\1761266174108__ResultParser.log
+[INFO] 2025-10-24 08:39:59 C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000\PTAT_System_Info.csv
+[INFO] 2025-10-24 08:39:59 22 File(s) copied
+[INFO] 2025-10-24 08:39:59 C:\Windows\System32>exit /b %errorlvel% 
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,898[1] | [INFO ] [PXACmd] | =============================================
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,898[1] | [INFO ] [PXACmd] |    PXA Return Code: 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,898[1] | [INFO ] [PXACmd] |    PXA Message: Test Successfully 
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,898[1] | [INFO ] [PXACmd] | =============================================
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,898[1] | [INFO ] [PXACmd] | Check test task data
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,908[1] | [INFO ] [PXACmd] | Upload test StructData
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,908[1] | [INFO ] [PXACmd] | Add DataString: {"time_spy_graphics_score":3434,"time_spy_physics_score":7045,"time_spy_total_score":3720,"time_spy_graphics_test1_fps":21.98,"time_spy_graphics_test2_fps":20.02,"time_spy_physics_test_fps":23.67}
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,970[1] | [INFO ] [PXACmd] | Add DataString: {"time_spy_graphics_score":3429,"time_spy_physics_score":7054,"time_spy_total_score":3715,"time_spy_graphics_test1_fps":22.05,"time_spy_graphics_test2_fps":19.9,"time_spy_physics_test_fps":23.7}
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,972[1] | [INFO ] [PXACmd] | Add DataString: {"time_spy_graphics_score":3436,"time_spy_physics_score":7077,"time_spy_total_score":3723,"time_spy_graphics_test1_fps":22.05,"time_spy_graphics_test2_fps":19.97,"time_spy_physics_test_fps":23.78}
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,972[1] | [INFO ] [PXACmd] | Upload debug info: Test Successfully
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,975[1] | [INFO ] [PXACmd] | Upload test data file : 3DMarkPXA_Stress_Final[10Min] -- C:\ProgramData\PXA\Logs\PXA005\3DMarkStress_000
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,975[1] | [INFO ] [PXACmd] | Start PostTweak phase
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,975[1] | [INFO ] [PXACmd] | End of the task: 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,975[1] | [INFO ] [PXACmd] | Current RTC : 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,975[1] | [INFO ] [PXACmd] | The Exit RTC : 0
+[INFO] 2025-10-24 08:39:59 2025-10-24 08:39:59,975[1] | [INFO ] [PXACmd] | --return code:0x000000--
+[INFO] 2025-10-24 08:40:00 ????
+[INFO] 2025-10-24 08:40:02 Update Status Xml
+2025-10-24 08:40:02 TESTITEMRESULT@3DMarkPXA_Stress_Final[10Min];PASS;();701.82
+2025-10-24 08:40:02 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:40:02                                                                    #3DMARKPXA_STRESS_FINAL[10MIN](2\1)#
+2025-10-24 08:40:02 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:40:02 
+[DETECT] 2025-10-24 08:40:03 Logical volume inserted.[100000000000000000]
+[INFO] 2025-10-24 08:40:03 Update Status Xml
+[INFO] 2025-10-24 08:40:04  System WarmBoot Action!
+2025-10-24 08:41:16     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 08:41:19 Read Status Xml
+[SETTINGS] 2025-10-24 08:41:19 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 08:41:19 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 08:41:19 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 08:41:19 Check system error end...
+[INFO] 2025-10-24 08:41:19 Check Abnormal Restart...
+[INFO] 2025-10-24 08:41:19 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 08:41:19 Check Common Error...
+[INFO] 2025-10-24 08:41:19 Execute Task Classified...
+[DETECT] 2025-10-24 08:41:20 Lid status: Opened.
+[DETECT] 2025-10-24 08:41:20 Power source: AC.
+[DETECT] 2025-10-24 08:41:20 Battery percentage remaining 66%.
+[INFO] 2025-10-24 08:41:20 Count Down 15s [status:Ready]...
+2025-10-24 08:41:36 
+2025-10-24 08:41:36 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-10-24 08:41:36                                                                    #BURNIN TEST(NOTEMP)[5MIN](1\1)#
+2025-10-24 08:41:36 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 2025-10-24 08:41:37 Update Status Xml
+[INFO] 2025-10-24 08:41:37 Script:"C:\Program Files (x86)\AutoRI\Config\TestModules\BurnIn9Test\BurnIn9Test.exe",arguments:TestName="BurnIn Test(NoTemp)[5Min]" TestMode="NPI" TestTime="5" UUT="Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG" Command="" TestStatus="Ready" TestGuid="8bea8fe3a6df4050ad5b7b93e16bb92c",toolName:BurnIn Test(NoTemp)[5Min],WorkingDir:C:\Program Files (x86)\AutoRI\Config\TestModules\BurnIn9Test
+[INFO] 2025-10-24 08:41:39 2025-10-24 08:41:39,129[1] | [INFO ] [BurnIn9Test] | version:1.20.1.3
+[INFO] 2025-10-24 08:41:39 2025-10-24 08:41:39,193[1] | [INFO ] [BurnIn9Test] | Input Arguments: TestName=BurnIn Test(NoTemp)[5Min] TestMode=NPI TestTime=5 UUT=Score:0;ModelId:MSF50;SN:PF5XXDFZ;VRamSize:0;ProductType:TPG Command= TestStatus=Ready TestGuid=8bea8fe3a6df4050ad5b7b93e16bb92c
+[INFO] 2025-10-24 08:41:39 2025-10-24 08:41:39,416[1] | [INFO ] [BurnIn9Test] | Tool Config Setting Info:{
+[INFO] 2025-10-24 08:41:39   "AutoCleanDisk": false,
+[INFO] 2025-10-24 08:41:39   "ToolPath": "C:\\Program Files\\BurnInTest",
+[INFO] 2025-10-24 08:41:39   "BitLogPath": "C:\\BurnIn_Logs",
+[INFO] 2025-10-24 08:41:39   "KillList": [
+[INFO] 2025-10-24 08:41:39     "bit",
+[INFO] 2025-10-24 08:41:39     "D3D12Test64"
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "LogsTransferPath": "C:\\Program Files (x86)\\AutoRI\\Log",
+[INFO] 2025-10-24 08:41:39   "RetryTimes": 2,
+[INFO] 2025-10-24 08:41:39   "RetryErrorCode": [
+[INFO] 2025-10-24 08:41:39     "0x002766",
+[INFO] 2025-10-24 08:41:39     "0x002767"
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "StopOnFail": true,
+[INFO] 2025-10-24 08:41:39   "NvTdrIgnor": [
+[INFO] 2025-10-24 08:41:39     "0x002736",
+[INFO] 2025-10-24 08:41:39     "0x002737",
+[INFO] 2025-10-24 08:41:39     "0x002765"
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "AmdTdrIgnor": [
+[INFO] 2025-10-24 08:41:39     ""
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "IntelTdrIgnor": [
+[INFO] 2025-10-24 08:41:39     ""
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "ProjectGroup": "Auto",
+[INFO] 2025-10-24 08:41:39   "dGpuDeviceServices": [
+[INFO] 2025-10-24 08:41:39     "nvlddmkm",
+[INFO] 2025-10-24 08:41:39     "amdwddmg"
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "DefaultBitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50.bitcfg",
+[INFO] 2025-10-24 08:41:39   "ForceBitConfig": "",
+[INFO] 2025-10-24 08:41:39   "CpuPlatformList": [
+[INFO] 2025-10-24 08:41:39     "amd",
+[INFO] 2025-10-24 08:41:39     "intel"
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "MfgBitConfigRule": [
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*TPG*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*TPG*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*TPG*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 5,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 5,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 5,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*Core(TM)*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-90_3D-90_DISK-100_SOUND-100_RAM-100_VIDEO-100.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*ryzen*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-90_3D-90_DISK-100_SOUND-100_RAM-100_VIDEO-100.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*Core(TM)*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-100_3D-100_DISK-100_SOUND-100_RAM-100_VIDEO-100_GPGPU-90.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*ryzen*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-100_3D-100_DISK-100_SOUND-100_RAM-100_VIDEO-100_GPGPU-90.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*Core(TM)*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-100_3D-100_DISK-100_SOUND-100_RAM-100_VIDEO-100_GPGPU-90.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*ryzen*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-100_3D-100_DISK-100_SOUND-100_RAM-100_VIDEO-100_GPGPU-90.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     }
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "RdBitConfigRule": [
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*TPG*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*TPG*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*TPG*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 9,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 9,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 9,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "*",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*MX*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-95_3D-95_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-95.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "*",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*MX*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-95_3D-95_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-95.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "*",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*GTX*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-99_2D-99_3D-99_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-99.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "*",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*GTX*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-99_2D-99_3D-99_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-99.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "*",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*RTX*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-99_2D-99_3D-99_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-99.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "*",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*RTX*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-99_2D-99_3D-99_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-99.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*Core(TM)*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-90_3D-90_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*ryzen*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-90_3D-90_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*Core(TM)*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-95_3D-95_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-95.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*ryzen*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-90_2D-95_3D-95_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-95.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*Core(TM)*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-99_2D-99_3D-99_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-99.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "amd",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*ryzen*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-99_2D-99_3D-99_DISK-100_SOUND-100_RAM-100_VIDEO-100_Optical-100_GPGPU-99.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "dis",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ProjectGroup": "*",
+[INFO] 2025-10-24 08:41:39       "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:39       "VgaSet": "hybrid",
+[INFO] 2025-10-24 08:41:39       "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:39       "MemoryMin": 5,
+[INFO] 2025-10-24 08:41:39       "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:39       "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50_Optical-50_GPGPU-50.bitcfg"
+[INFO] 2025-10-24 08:41:39     }
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "HwMarkList": [
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "Mark": "Disk",
+[INFO] 2025-10-24 08:41:39       "ErrorCode": "0x002739",
+[INFO] 2025-10-24 08:41:39       "LastError": "*Error while writing to the disk*"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "Mark": "Disk",
+[INFO] 2025-10-24 08:41:39       "ErrorCode": "0x002739",
+[INFO] 2025-10-24 08:41:39       "LastError": "*Error while reading from the disk*"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "Mark": "Disk",
+[INFO] 2025-10-24 08:41:39       "ErrorCode": "0x002739",
+[INFO] 2025-10-24 08:41:39       "LastError": "*Data Verify failure*"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "Mark": "Memory",
+[INFO] 2025-10-24 08:41:39       "ErrorCode": "0x002735",
+[INFO] 2025-10-24 08:41:39       "LastError": "*Error verifying data in RAM*"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "Mark": "Memory",
+[INFO] 2025-10-24 08:41:39       "ErrorCode": "0x002735",
+[INFO] 2025-10-24 08:41:39       "LastError": "*Standard memory test failure. Faulty RAM likely*"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "Mark": "Memory",
+[INFO] 2025-10-24 08:41:39       "ErrorCode": "0x002735",
+[INFO] 2025-10-24 08:41:39       "LastError": "*Memory test failure. Faulty RAM likely*"
+[INFO] 2025-10-24 08:41:39     },
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "Mark": "MB_CPU",
+[INFO] 2025-10-24 08:41:39       "ErrorCode": "0x002734",
+[INFO] 2025-10-24 08:41:39       "LastError": "*"
+[INFO] 2025-10-24 08:41:39     }
+[INFO] 2025-10-24 08:41:39   ],
+[INFO] 2025-10-24 08:41:39   "SceneMode": "NPI",
+[INFO] 2025-10-24 08:41:39   "DiskDyncTest": true,
+[INFO] 2025-10-24 08:41:39   "IgnorErrorCode": [
+[INFO] 2025-10-24 08:41:39     {
+[INFO] 2025-10-24 08:41:39       "ErrorCode": "0x00273A",
+[INFO] 2025-10-24 08:41:39       "ErrorDesc": "No operations during test period",
+[INFO] 2025-10-24 08:41:39       "ErrorThreshodCount": 1
+[INFO] 2025-10-24 08:41:39     }
+[INFO] 2025-10-24 08:41:39   ]
+[INFO] 2025-10-24 08:41:39 }
+[INFO] 2025-10-24 08:41:41 2025-10-24 08:41:41,834[1] | [INFO ] [BurnIn9Test] | Unit Config Setting Info:{
+[INFO] 2025-10-24 08:41:41   "CpuPlatform": "intel",
+[INFO] 2025-10-24 08:41:41   "VagSet": "uma",
+[INFO] 2025-10-24 08:41:41   "GpuNameList": [
+[INFO] 2025-10-24 08:41:41     "Intel(R) Arc(TM) 130V GPU (16GB)"
+[INFO] 2025-10-24 08:41:41   ],
+[INFO] 2025-10-24 08:41:41   "CpuName": "Intel(R) Core(TM) Ultra 5 228V",
+[INFO] 2025-10-24 08:41:41   "MemorySize": 32,
+[INFO] 2025-10-24 08:41:41   "ProjectGroup": "TPG"
+[INFO] 2025-10-24 08:41:41 }
+[INFO] 2025-10-24 08:41:42 2025-10-24 08:41:42,183[1] | [INFO ] [BurnIn9Test] | Found All Storage:[
+[INFO] 2025-10-24 08:41:42   {
+[INFO] 2025-10-24 08:41:42     "DeviceId": "0",
+[INFO] 2025-10-24 08:41:42     "FriendlyName": "WD PC SN740 SDDQMQD-512G-1201",
+[INFO] 2025-10-24 08:41:42     "HealthStatus": 0,
+[INFO] 2025-10-24 08:41:42     "PhysicalLocation": "Integrated : Bus 4 : Device 0 : Function 0 : Adapter 0",
+[INFO] 2025-10-24 08:41:42     "BusType": 17,
+[INFO] 2025-10-24 08:41:42     "MediaType": 4
+[INFO] 2025-10-24 08:41:42   }
+[INFO] 2025-10-24 08:41:42 ]
+[INFO] 2025-10-24 08:41:42 2025-10-24 08:41:42,183[1] | [INFO ] [BurnIn9Test] | Found Inside Storage:[
+[INFO] 2025-10-24 08:41:42   {
+[INFO] 2025-10-24 08:41:42     "DeviceId": "0",
+[INFO] 2025-10-24 08:41:42     "FriendlyName": "WD PC SN740 SDDQMQD-512G-1201",
+[INFO] 2025-10-24 08:41:42     "HealthStatus": 0,
+[INFO] 2025-10-24 08:41:42     "PhysicalLocation": "Integrated : Bus 4 : Device 0 : Function 0 : Adapter 0",
+[INFO] 2025-10-24 08:41:42     "BusType": 17,
+[INFO] 2025-10-24 08:41:42     "MediaType": 4
+[INFO] 2025-10-24 08:41:42   }
+[INFO] 2025-10-24 08:41:42 ]
+[INFO] 2025-10-24 08:41:42 2025-10-24 08:41:42,183[1] | [INFO ] [BurnIn9Test] | MP Disk Test Type:NoDisk
+[INFO] 2025-10-24 08:41:42 2025-10-24 08:41:42,183[1] | [INFO ] [BurnIn9Test] | Modified Disk Test Type:Auto
+[INFO] 2025-10-24 08:41:42 2025-10-24 08:41:42,231[1] | [INFO ] [BurnIn9Test] | Meet auto config policy:{
+[INFO] 2025-10-24 08:41:42   "ProjectGroup": "*TPG*",
+[INFO] 2025-10-24 08:41:42   "CpuPlatform": "*",
+[INFO] 2025-10-24 08:41:42   "VgaSet": "uma",
+[INFO] 2025-10-24 08:41:42   "GpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:42   "CpuKeyWords": "*",
+[INFO] 2025-10-24 08:41:42   "MemoryMin": 0,
+[INFO] 2025-10-24 08:41:42   "MemoryMax": 100,
+[INFO] 2025-10-24 08:41:42   "BitConfig": "CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50.bitcfg"
+[INFO] 2025-10-24 08:41:42 }
+[INFO] 2025-10-24 08:41:42 2025-10-24 08:41:42,329[1] | [INFO ] [BurnIn9Test] | BurnIn Config Setting:C:\Program Files (x86)\AutoRI\Config\TestModules\BurnIn9Test\BitConfig\10\StopOnFail\CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50.bitcfg
+[INFO] 2025-10-24 08:41:42 2025-10-24 08:41:42,357[1] | [INFO ] [BurnIn9Test] | bit process starting...:bit.exe /r -c "C:\Program Files\BurnInTest\CPU-50_2D-50_3D-50_DISK-50_SOUND-50_RAM-50_VIDEO-50.bitcfg" -d 5
+[INFO] 2025-10-24 08:42:49 Update Status Xml
+[DETECT] 2025-10-24 08:42:55 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 08:42:55 Device enabled.[Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}]
+[DETECT] 2025-10-24 08:43:00 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[INFO] 2025-10-24 08:47:05 2025-10-24 08:47:05,058[1] | [INFO ] [BurnIn9Test] | bit process exited.
+[INFO] 2025-10-24 08:47:15 2025-10-24 08:47:15,102[1] | [INFO ] [BurnIn9Test] | BurnIn test pass, checking test duration from BIT.log
+[INFO] 2025-10-24 08:47:15 2025-10-24 08:47:15,104[1] | [INFO ] [BurnIn9Test] | Test duration is OK, AcutalTime(m):5,ExpectedTime(m):5, BurnIn Test PASS
+[INFO] 2025-10-24 08:47:15 2025-10-24 08:47:15,106[1] | [INFO ] [BurnIn9Test] | --return code:0x000000--
+[INFO] 2025-10-24 08:47:15 ????
+[INFO] 2025-10-24 08:47:15 2025-10-24 08:47:15,424[1] | [INFO ] [BurnIn9Test] | DebugInfo:
+[INFO] 2025-10-24 08:47:16 Update Status Xml
+2025-10-24 08:47:16 TESTITEMRESULT@BurnIn Test(NoTemp)[5Min];PASS;();339.8
+2025-10-24 08:47:16 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:47:16                                                                    #BURNIN TEST(NOTEMP)[5MIN](2\1)#
+2025-10-24 08:47:16 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PASS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-10-24 08:47:16 
+[INFO] 2025-10-24 08:47:17  System WarmBoot Action!
+[INFO] 2025-10-24 08:47:19 Update Status Xml
+2025-10-24 12:58:59     xxxxxxx                       xx                         xxxxxxxxxxxx    xxxxx      xxxxxxx                     xxxx                         xxxxxxxxxxxxx   xxxxx     xxxxxxxxx                   xxxxx                         xxxxx    xxxxx  xxxxx     xxxx xxxx     xxxxx  xxxxx xxxxxxxx     xxxxxx            xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx    xxxxx xxxxx    xxxxx  xxxxx xxxxxxxx   xxxxxxxxxx          xxxxxxxxxxxxx   xxxxx   xxxxx   xxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxxxxxxxx     xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxx    xxxxx   xxxxxxxxxxxxx   xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx  xxxxxx   xxxxx  xxxxxxxxxxxxxxx  xxxxx  xxxxx  xxxxx    xxxxx  xxxxx         xxxxx   xxxxx   xxxxx  xxxxx     xxxxx   xxxxxxxxxxx  xxxxxxx    xxxxxxxx           xxxxx    xxxxx  xxxxx  xxxx       xxxxx   xxxx xxxxx   xxxxxx     xxxxxx            xxxxx    xxxxxx xxxxx  version:3.21.5.4
+[INFO] 2025-10-24 12:59:01 Read Status Xml
+[SETTINGS] 2025-10-24 12:59:01 CheckAbnormalShutdown:True,Event41GapTime:60,ParsingShutdownID:True,CheckBSODEvent:True,CheckAbnormalRestart:False
+[INFO] 2025-10-24 12:59:01 Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+[WARNING] 2025-10-24 12:59:01 LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+[INFO] 2025-10-24 12:59:02 [Event41(41711)]:10/24/2025 12:58:30 PM BugCheckId:0x0 Remark:0x0 0x0 0x0 0x0 0x0
+[INFO] 2025-10-24 12:59:02 [Event12(41681)]:10/24/2025 12:58:27 PM
+[INFO] 2025-10-24 12:59:02 An effective system event 41 exception detection!
+[INFO] 2025-10-24 12:59:02 Insert Exclude Event Index:41711
+[INFO] 2025-10-24 12:59:02 this event may-be is a abnormal shutdown.
+[INFO] 2025-10-24 12:59:02 Error Type:{"SystemErrorType":3,"ErrorCode":10072,"FilePath":null,"Comments":null,"Flag":null}
+[INFO] 2025-10-24 12:59:02 Parsing Dirty Shutdown...
+[DETECT] 2025-10-24 12:59:03 Lid status: Opened.
+[DETECT] 2025-10-24 12:59:03 Power source: AC.
+[DETECT] 2025-10-24 12:59:03 Battery percentage remaining 66%.
+[INFO] 2025-10-24 12:59:04 this is x86 platform.
+[INFO] 2025-10-24 12:59:04 Call get global reset cause process(check cpu register)...
+[INFO] 2025-10-24 12:59:05 Check system error end...
+[INFO] 2025-10-24 12:59:05 Check DirtyShutdown&BSOD Finished.
+[INFO] 2025-10-24 12:59:05 Check Common Error...
+[INFO] 2025-10-24 12:59:05 Update Status Xml
+[DETECT] 2025-10-24 12:59:16 Device enabled.[Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}]
+[INFO] 2025-10-24 12:59:49 Kill autolog process.
+[INFO] 2025-10-24 12:59:53 Autolog collect logs...

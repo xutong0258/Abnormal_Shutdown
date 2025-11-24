@@ -1,0 +1,185 @@
+Device,Status,Device Path,Device Location
+Microsoft ACPI-Compliant System ,Normal ,ACPI_HAL\PNP0C08\0 ,N/A
+PCI Express Root Complex ,Normal ,ACPI\PNP0A08\0 ,N/A
+PCI standard host CPU bridge ,Normal ,PCI\VEN_8086&DEV_6400&SUBSYS_233B17AA&REV_04\3&11583659&1&00 ,PCI bus 0  device 0  function 0
+Intel(R) Arc(TM) 130V GPU (16GB) ,Normal ,PCI\VEN_8086&DEV_64A0&SUBSYS_233B17AA&REV_04\3&11583659&1&10 ,PCI bus 0  device 2  function 0
+Intel(R) Graphics Command Center ,Normal ,SWD\DRIVERENUM\IGCC&4&14B89AEA&0 ,N/A
+Intel(R) LNL AVStream Camera ,Normal ,DISPLAY\INT3480\4&14B89AEA&0&UID144512 ,N/A
+Lenovo HDR Display ,Normal ,DISPLAY\LEN4220\4&14B89AEA&0&UID8388688 ,N/A
+Intel(R) Innovation Platform Framework Processor Participant ,Normal ,PCI\VEN_8086&DEV_641D&SUBSYS_233B17AA&REV_04\3&11583659&1&20 ,PCI bus 0  device 4  function 0
+Intel(R) Innovation Platform Framework Extensible Framework ,Normal ,SWD\DRIVERENUM\IPFEFEXTCOMPONENT&4&116E19F2&0 ,N/A
+Intel(R) Context Sensing Technology Service ,Normal ,SWD\DRIVERENUM\{8B8C671D-3A7B-4BF1-82CD-2AA615118D1E}#ICSTSERVICE&4&116E19F2&0 ,N/A
+Intel(R) Dynamic Tuning Technology Device Extension Component ,Normal ,SWD\DRIVERENUM\{BC7814A1-A80E-44B3-87C6-652EAC676387}#DTTEXTCOMPONENT&4&116E19F2&0 ,N/A
+Intel(R) PPM Provisioning Package ,Normal ,SWC\VID8086_PPM_1006_1.0\4&116E19F2&0&00 ,SWC
+Intel(R) Imaging Signal Processor ,Normal ,PCI\VEN_8086&DEV_645D&SUBSYS_233B17AA&REV_04\3&11583659&1&28 ,PCI bus 0  device 5  function 0
+PCI Express Root Port ,Normal ,PCI\VEN_8086&DEV_A84E&SUBSYS_233B17AA&REV_10\3&11583659&1&38 ,PCI bus 0  device 7  function 0
+PCI Express Root Port ,Normal ,PCI\VEN_8086&DEV_A84F&SUBSYS_233B17AA&REV_10\3&11583659&1&39 ,PCI bus 0  device 7  function 1
+Intel(R) Platform Monitoring Technology (PMT) Driver ,Normal ,PCI\VEN_8086&DEV_647D&SUBSYS_233B17AA&REV_04\3&11583659&1&50 ,PCI bus 0  device 10  function 0
+Intel(R) AI Boost ,Normal ,PCI\VEN_8086&DEV_643E&SUBSYS_233B17AA&REV_04\3&11583659&1&58 ,PCI bus 0  device 11  function 0
+Windows Studio Effects Driver ,Normal ,SWD\DRIVERENUM\{602225F0-B80E-4FC4-9620-C8C6FA7FB6AA}#VEN_8086_DEV_643E_COMPONENT&4&2CEE0EA5&0 ,N/A
+Windows Studio Effects Camera ,Normal ,SWD\DRIVERENUM\MEP_CAMERA_COMPONENT&5&26AA39C&0 ,N/A
+Windows Studio Effects Driver ,Normal ,SWD\DRIVERENUM\{F277B0D4-0D4F-4D8C-ACB1-4D6F8B8703A6}#VEN_8086_DEV_643E_COMPONENT&4&2CEE0EA5&0 ,N/A
+Windows Studio Effects Camera ,Normal ,SWD\DRIVERENUM\MEP_CAMERA_COMPONENT&5&23479605&0 ,N/A
+Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft) ,Normal ,PCI\VEN_8086&DEV_A831&SUBSYS_233B17AA&REV_10\3&11583659&1&68 ,PCI bus 0  device 13  function 0
+USB Root Hub (USB 3.0) ,Normal ,USB\ROOT_HUB30\4&362D6A87&0&0 ,N/A
+Realtek USB GbE Family Controller #7 ,Normal ,USB\VID_0BDA&PID_8153\02191ACF8 ,Port_#0003.Hub_#0002
+USB4(TM) Host Router (Microsoft) ,Normal ,PCI\VEN_8086&DEV_A833&SUBSYS_233B17AA&REV_10&USB4_MS_CM\3&11583659&1&6A ,PCI bus 0  device 13  function 2
+USB4 Root Router (1.0) ,Normal ,USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_A833\4&38AC43ED&0&0 ,N/A
+Intel(R) Quick I2C Host Controller - A848 ,Normal ,PCI\VEN_8086&DEV_A848&SUBSYS_233B17AA&REV_10\3&11583659&1&80 ,PCI bus 0  device 16  function 0
+HID-compliant touch screen ,Normal ,HID\VEN_8086&DEV_A848&SUBSYS_233B17AA&REV_10&COL01\4&D702A1&0&0000 ,N/A
+HID-compliant vendor-defined device ,Normal ,HID\VEN_8086&DEV_A848&SUBSYS_233B17AA&REV_10&COL02\4&D702A1&0&0001 ,N/A
+HID-compliant vendor-defined device ,Normal ,HID\VEN_8086&DEV_A848&SUBSYS_233B17AA&REV_10&COL03\4&D702A1&0&0002 ,N/A
+Intel(R) Integrated Sensor Solution ,Normal ,PCI\VEN_8086&DEV_A845&SUBSYS_233B17AA&REV_10\3&11583659&1&90 ,PCI bus 0  device 18  function 0
+Intel(R) HECI Protocol Device ,Normal ,{95511210-D1F0-4091-B373-46FDCC5329F7}\ISH_HECI\4&1C939DDE&0&01 ,ISH OED BUS
+Intel(R) ISS HID Bus ,Normal ,{45EA05A3-BF9D-4FF5-AA70-91A30F0739C7}\HECI_BUS\5&128B6ABE&0& ,HECI BUS
+Intel(R) ISS HID Device ,Normal ,{DEA5AE2A-D1FD-438A-A091-CBD484788436}\VID_8087&PID_0AC2\6&604435A&0&00 ,Intel ISS HID Bus
+HID Sensor Collection V2 ,Normal ,HID\VID_8087&PID_0AC2\7&20A85CC&0&0000 ,N/A
+Intel(R) ISS HID Device ,Normal ,{DEA5AE2A-D1FD-438A-A091-CBD484788436}\VID_8087&PID_0AC2\6&604435A&0&01 ,Intel ISS HID Bus
+HID Sensor Collection V2 ,Normal ,HID\VID_8087&PID_0AC2\7&14C43671&0&0000 ,N/A
+Microsoft Pluton security processor #1 ,Normal ,PCI\VEN_8086&DEV_A862&SUBSYS_233B17AA&REV_10\3&11583659&1&98 ,PCI bus 0  device 19  function 0
+Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft) ,Normal ,PCI\VEN_8086&DEV_A87D&SUBSYS_233B17AA&REV_10\3&11583659&1&A0 ,PCI bus 0  device 20  function 0
+USB Root Hub (USB 3.0) ,Normal ,USB\ROOT_HUB30\4&1B776295&0&0 ,N/A
+Intel(R) Wireless Bluetooth(R) ,Normal ,USB\VID_8087&PID_0037\5&E60CCA1&0&6 ,Port_#0006.Hub_#0001
+Bluetooth Device (RFCOMM Protocol TDI) ,Normal ,BTH\MS_RFCOMM\6&1B6180C1&2&0 ,N/A
+Microsoft Bluetooth Enumerator ,Normal ,BTH\MS_BTHBRB\6&1B6180C1&2&1 ,N/A
+Bluetooth Device (Personal Area Network) ,Normal ,BTH\MS_BTHPAN\6&1B6180C1&2&2 ,N/A
+Microsoft Bluetooth LE Enumerator ,Normal ,BTH\MS_BTHLE\6&1B6180C1&2&3 ,N/A
+Goodix MOC Fingerprint ,Normal ,USB\VID_27C6&PID_659C\UID49616CED_XXXX_MOC_B0 ,Port_#0005.Hub_#0001
+PCI standard RAM Controller ,Normal ,PCI\VEN_8086&DEV_A87F&SUBSYS_233B17AA&REV_10\3&11583659&1&A2 ,PCI bus 0  device 20  function 2
+Intel(R) Wi-Fi 7 BE201 320MHz #6 ,Normal ,PCI\VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10\3&11583659&1&A3 ,PCI bus 0  device 20  function 3
+Intel(R) Serial IO I2C Host Controller - A878 ,Normal ,PCI\VEN_8086&DEV_A878&SUBSYS_233B17AA&REV_10\3&11583659&1&A8 ,PCI bus 0  device 21  function 0
+Intel(R) Serial IO I2C Host Controller - A879 ,Normal ,PCI\VEN_8086&DEV_A879&SUBSYS_233B17AA&REV_10\3&11583659&1&A9 ,PCI bus 0  device 21  function 1
+Intel(R) Serial IO I2C Host Controller - A87A ,Normal ,PCI\VEN_8086&DEV_A87A&SUBSYS_233B17AA&REV_10\3&11583659&1&AA ,PCI bus 0  device 21  function 2
+Intel(R) Management Engine Interface #1 ,Normal ,PCI\VEN_8086&DEV_A870&SUBSYS_233B17AA&REV_10\3&11583659&1&B0 ,PCI bus 0  device 22  function 0
+Intel(R) iCLS Client ,Normal ,SWD\DRIVERENUM\OEM_ES_COMPONENT&4&290F99A9&0 ,N/A
+Intel(R) Management Engine WMI Provider ,Normal ,SWD\DRIVERENUM\OEM_WMI_COMPONENT&4&290F99A9&0 ,N/A
+Intel(R) Serial IO I2C Host Controller - A850 ,Normal ,PCI\VEN_8086&DEV_A850&SUBSYS_233B17AA&REV_10\3&11583659&1&C8 ,PCI bus 0  device 25  function 0
+Intel(R) Serial IO I2C Host Controller - A851 ,Normal ,PCI\VEN_8086&DEV_A851&SUBSYS_233B17AA&REV_10\3&11583659&1&C9 ,PCI bus 0  device 25  function 1
+I2C HID Device ,Normal ,ACPI\GXTP5100\4&6C004DA&0 ,N/A
+HID-compliant mouse ,Normal ,HID\GXTP5100&COL01\5&336990CD&0&0000 ,N/A
+HID-compliant touch pad ,Normal ,HID\GXTP5100&COL02\5&336990CD&0&0001 ,N/A
+Microsoft Input Configuration Device ,Normal ,HID\GXTP5100&COL03\5&336990CD&0&0002 ,N/A
+HID-compliant vendor-defined device ,Normal ,HID\GXTP5100&COL04\5&336990CD&0&0003 ,N/A
+PCI Express Root Port ,Normal ,PCI\VEN_8086&DEV_A838&SUBSYS_233B17AA&REV_10\3&11583659&1&E0 ,PCI bus 0  device 28  function 0
+Standard NVM Express Controller ,Normal ,PCI\VEN_15B7&DEV_5016&SUBSYS_501615B7&REV_01\4&295E19D8&0&00E0 ,PCI bus 4  device 0  function 0
+WD PC SN740 SDDQMQD-256G-1201 ,Normal ,SCSI\DISK&VEN_NVME&PROD_WD_PC_SN740_SDDQ\5&2EC7D186&0&000000 ,Bus Number 0  Target Id 0  LUN 0
+PCI standard ISA bridge ,Normal ,PCI\VEN_8086&DEV_A807&SUBSYS_233B17AA&REV_10\3&11583659&1&F8 ,PCI bus 0  device 31  function 0
+Microsoft ACPI-Compliant Embedded Controller ,Normal ,ACPI\PNP0C09\0 ,N/A
+Lenovo PM Device ,Normal ,ACPI\LEN0268\5&2890D699&1 ,N/A
+Lenovo Power and Battery ,Normal ,SWD\DRIVERENUM\{0A548529-41E1-458C-9BAF-C10FA17024EC}#POWERMGR_COMPONENT&6&2A4C8B74&0 ,N/A
+Microsoft AC Adapter ,Normal ,ACPI\ACPI0003\0 ,N/A
+Microsoft ACPI-Compliant Control Method Battery ,Normal ,ACPI\PNP0C0A\0 ,N/A
+GPIO Laptop or Slate Indicator Driver ,Normal ,ACPI\INT33D3\5&2890D699&1 ,N/A
+Lenovo Smart Standby ,Normal ,ACPI\LEN0111\5&2890D699&1 ,N/A
+Lenovo Intelligent Thermal Solution ,Normal ,ACPI\LEN0100\5&2890D699&1 ,N/A
+Lenovo Fn and function keys ,Normal ,ACPI\LEN0130\5&2890D699&1 ,N/A
+Lenovo Intelligent Sensing ,Normal ,ACPI\LEN0113\5&2890D699&1 ,N/A
+Intel(R) Innovation Platform Framework Generic Participant ,Normal ,ACPI\INTC1069\SEN1 ,N/A
+Intel(R) Innovation Platform Framework Generic Participant ,Normal ,ACPI\INTC1069\SEN2 ,N/A
+Intel(R) Innovation Platform Framework Generic Participant ,Normal ,ACPI\INTC1069\SEN3 ,N/A
+Intel(R) Innovation Platform Framework Generic Participant ,Normal ,ACPI\INTC1069\SEN4 ,N/A
+Intel(R) Innovation Platform Framework Generic Participant ,Normal ,ACPI\INTC1069\SEN5 ,N/A
+Intel(R) Innovation Platform Framework Generic Participant ,Normal ,ACPI\INTC1069\SEN6 ,N/A
+Intel(R) Innovation Platform Framework Generic Participant ,Normal ,ACPI\INTC1069\SEN7 ,N/A
+High precision event timer ,Normal ,ACPI\PNP0103\0 ,N/A
+Programmable interrupt controller ,Normal ,ACPI\PNP0000\4&3914AF47&0 ,N/A
+System timer ,Normal ,ACPI\PNP0100\4&3914AF47&0 ,N/A
+System speaker ,Normal ,ACPI\PNP0800\4&3914AF47&0 ,N/A
+Standard PS/2 Keyboard ,Normal ,ACPI\LEN0071\4&3914AF47&0 ,N/A
+Intel® Smart Sound Technology BUS ,Normal ,PCI\VEN_8086&DEV_A828&SUBSYS_233B17AA&REV_10\3&11583659&1&FB ,PCI bus 0  device 31  function 3
+Intel® Smart Sound Technology OED ,Normal ,INTELAUDIO\DSP_CTLR_DEV_A828&VEN_8086&DEV_0222&SUBSYS_233B17AA&REV_0010\4&C37430F&0&0800DIF_000B&UIF_0000 ,HD Audio Bus Driver
+Intel® Smart Sound Technology Detection Verification ,Normal ,INTELAUDIO\DIF_0000&UIF_0000&CTLR_DEV_A828&VEN_8086&DETECTIONVERIFICATION\5&2647C3AC&0&DIF_0000&UIF_0000 ,Detection Notification
+Intel® Smart Sound Technology MIPI SoundWire® Controller ,Normal ,INTELAUDIO\DIF_0005&UIF_0000&SDW_CTLR_DEV_A828&VEN_8086&DEV_0333\5&2647C3AC&0 ,Offload Engine Driver
+SoundWire Audio ,Normal ,SOUNDWIRE\AGGREGATOR\6&25956910&0 ,SoundWire Bus
+Cirrus Logic CS42L43 ,Normal ,SOUNDWIRE\SDCA&MAN_01FA&PART_4243&VER_03&CID_00&LID_00&UID_00&SUBSYS_233B17AA\6&25956910&0&01424301FA000300 ,SoundWire Bus
+CS42L43 AMP ,Normal ,SOUNDWIRE\SDCA_06&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_233B17AA\7&34B37D01&0&0000000000000001 ,N/A
+Cirrus Logic XU ,Normal ,SOUNDWIRE\SDCA_06&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_233B17AA&DYNAMICENUMSPEAKER0\8&10D1284D&0&00000C00 ,SDCA Dynamic Enum Speaker
+Elevoc Audio Effects Component(speaker) ,Normal ,SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&9&2F6DB0C3&0 ,N/A
+DolbyAPO SWC Device ,Normal ,SWD\DRIVERENUM\{F972288E-4395-47AF-B3EA-BCC8D06BE01D}#DOLBYAPO_DAX3APOSVC&9&2F6DB0C3&0 ,N/A
+DolbyAPO Software Device (HSA) ,Normal ,SWD\DRIVERENUM\{F972288E-4395-47AF-B3EA-BCC8D06BE01D}#DOLBYAPO_DAX3HSA_DOLBYACCESS&9&2F6DB0C3&0 ,N/A
+Speakers (7- Cirrus Logic XU) ,Normal ,SWD\MMDEVAPI\{0.0.0.00000000}.{250507D0-C30C-4FA9-A4B5-57DB8A45DE50} ,N/A
+CS42L43 UAJ ,Normal ,SOUNDWIRE\SDCA_06&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_233B17AA\7&34B37D01&0&0000000000000003 ,N/A
+Cirrus Logic XU ,Normal ,SOUNDWIRE\SDCA_06&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_233B17AA&DYNAMICENUMSPEAKER0\8&1057396F&0&00001700 ,SDCA Dynamic Enum Speaker
+Elevoc Audio Effects Component(speaker external) ,Normal ,SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&9&330C1593&0 ,N/A
+DolbyAPO SWC Device ,Normal ,SWD\DRIVERENUM\{F972288E-4395-47AF-B3EA-BCC8D06BE01D}#DOLBYAPO_DAX3APOSVC&9&330C1593&0 ,N/A
+DolbyAPO Software Device (HSA) ,Normal ,SWD\DRIVERENUM\{F972288E-4395-47AF-B3EA-BCC8D06BE01D}#DOLBYAPO_DAX3HSA_DOLBYACCESS&9&330C1593&0 ,N/A
+Cirrus Logic XU ,Normal ,SOUNDWIRE\SDCA_06&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_233B17AA&DYNAMICENUMMICROPHONE0\8&1057396F&0&00000B00 ,SDCA Dynamic Enum Microphone
+Elevoc Audio Effects Component(mic external) ,Normal ,SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&9&25E9D32A&0 ,N/A
+CS42L43 HID ,Normal ,SOUNDWIRE\SDCA_06&MAN_01FA&FUNC_4243&TYPE_0A&VER_01&ADR_04&LID_00&UID_00&SUBSYS_233B17AA\7&34B37D01&0&0000000000000004 ,N/A
+Virtual HID Framework (VHF) HID device ,Normal ,VHF\HID_DEVICE_SYSTEM_VHF\8&B985343&0&{D782C0EF-B01F-531C-A36D-E539FE17560B} ,N/A
+HID-compliant consumer control device ,Normal ,HID\HID_DEVICE_SYSTEM_VHF&COL01\9&28DB41B7&0&0000 ,N/A
+HID-compliant headset ,Normal ,HID\HID_DEVICE_SYSTEM_VHF&COL02\9&28DB41B7&0&0001 ,N/A
+Intel ACX Streaming for SDW ,Normal ,INTELAUDIO\DIF_0001&UIF_0001&CTLR_DEV_A828&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35&SUBSYS_233B17AA&REV_0001\5&2647C3AC&0&0500DIF_000B&UIF_0000 ,Offload Engine Driver
+SoundWire ACX Streaming for SDW - Speaker ,Normal ,{F67B0BEA-BDB7-47D3-9131-75877CDE0ED4}\STREAMING_SPEAKER&CP_{2880C2D5-735C-11EF-B6B7-806E6F6E6963}\6&172759E5&0 ,N/A
+SoundWire ACX Streaming for SDW - Headset Earphone ,Normal ,{F67B0BEA-BDB7-47D3-9131-75877CDE0ED4}\STREAMING_HEADSETOUTPUT&CP_{2880C2D6-735C-11EF-B6B7-806E6F6E6963}\6&172759E5&0 ,N/A
+SoundWire ACX Streaming for SDW - Headset Microphone ,Normal ,{F67B0BEA-BDB7-47D3-9131-75877CDE0ED4}\STREAMING_HEADSETMIC&CP_{2880C2D7-735C-11EF-B6B7-806E6F6E6963}\6&172759E5&0 ,N/A
+Intel® Smart Sound Technology for Bluetooth® Audio ,Normal ,INTELAUDIO\CTLR_DEV_A828&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30&SUBSYS_233B17AA&REV_0001\5&2647C3AC&0&0000DIF_000B&UIF_0000 ,Offload Engine Driver
+Intel® Smart Sound Technology for Bluetooth® LE Audio ,Normal ,INTELAUDIO\CTLR_DEV_A828&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33&SUBSYS_233B17AA&REV_0001\5&2647C3AC&0&0301DIF_000B&UIF_0000 ,Offload Engine Driver
+Intel® Smart Sound Technology for Digital Microphones ,Normal ,INTELAUDIO\CTLR_DEV_A828&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_233B17AA&REV_0001\5&2647C3AC&0&0000DIF_000B&UIF_0000 ,Offload Engine Driver
+Elevoc Audio Effects Component(DMIC) ,Normal ,SWD\DRIVERENUM\{E6180347-8AED-4C51-BC54-1F0841EDFEAF}#ELEVOCAPO&6&17D11E76&0 ,N/A
+Elevoc Hardware Support Application ,Normal ,SWD\DRIVERENUM\{E6180347-8AED-4C51-BC54-1F0841EDFEAF}#ELEVOCHSA&6&17D11E76&0 ,N/A
+Microphone Array (3- Intel® Smart Sound Technology for Digital Microphones) ,Normal ,SWD\MMDEVAPI\{0.0.1.00000000}.{D6DEFB7A-B822-4F62-BFFB-58BAAC96BCD2} ,N/A
+Intel(R) SMBus - A822 ,Normal ,PCI\VEN_8086&DEV_A822&SUBSYS_233B17AA&REV_10\3&11583659&1&FC ,PCI bus 0  device 31  function 4
+Intel(R) SPI (flash) Controller - A823 ,Normal ,PCI\VEN_8086&DEV_A823&SUBSYS_233B17AA&REV_10\3&11583659&1&FD ,PCI bus 0  device 31  function 5
+ACPI Wake Alarm ,Normal ,ACPI\ACPI000E\2&DABA3FF&1 ,N/A
+Intel(R) Serial IO Generic GPIO Host Controller ,Normal ,ACPI\INTC105D\0 ,N/A
+Intel(R) Serial IO Generic GPIO Host Controller ,Normal ,ACPI\INTC105D\1 ,N/A
+Intel(R) Serial IO Generic GPIO Host Controller ,Normal ,ACPI\INTC105D\3 ,N/A
+Intel(R) Serial IO Generic GPIO Host Controller ,Normal ,ACPI\INTC105D\4 ,N/A
+Intel(R) Serial IO Generic GPIO Host Controller ,Normal ,ACPI\INTC105D\5 ,N/A
+ACPI Sleep Button ,Normal ,ACPI\PNP0C0E\2&DABA3FF&1 ,N/A
+Intel(R) Core(TM) Ultra 5 228V ,Normal ,ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_189_-_INTEL(R)_CORE(TM)_ULTRA_5_228V\0 ,N/A
+Intel(R) Core(TM) Ultra 5 228V ,Normal ,ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_189_-_INTEL(R)_CORE(TM)_ULTRA_5_228V\1 ,N/A
+Intel(R) Core(TM) Ultra 5 228V ,Normal ,ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_189_-_INTEL(R)_CORE(TM)_ULTRA_5_228V\2 ,N/A
+Intel(R) Core(TM) Ultra 5 228V ,Normal ,ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_189_-_INTEL(R)_CORE(TM)_ULTRA_5_228V\3 ,N/A
+Intel(R) Core(TM) Ultra 5 228V ,Normal ,ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_189_-_INTEL(R)_CORE(TM)_ULTRA_5_228V\4 ,N/A
+Intel(R) Core(TM) Ultra 5 228V ,Normal ,ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_189_-_INTEL(R)_CORE(TM)_ULTRA_5_228V\5 ,N/A
+Intel(R) Core(TM) Ultra 5 228V ,Normal ,ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_189_-_INTEL(R)_CORE(TM)_ULTRA_5_228V\6 ,N/A
+Intel(R) Core(TM) Ultra 5 228V ,Normal ,ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_189_-_INTEL(R)_CORE(TM)_ULTRA_5_228V\7 ,N/A
+ACPI Processor Aggregator ,Normal ,ACPI\ACPI000C\2&DABA3FF&1 ,N/A
+Intel(R) Power Engine Plug-in ,Normal ,ACPI\INT33A1\1 ,N/A
+Intel(R) HID Event Filter ,Normal ,ACPI\INTC107B\2&DABA3FF&1 ,N/A
+HID Keyboard Device ,Normal ,HID\INTC816&COL01\3&1716E103&0&0000 ,N/A
+HID-compliant system controller ,Normal ,HID\INTC816&COL02\3&1716E103&0&0001 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\DSARDEV ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\TESTDEV ,N/A
+ACPI Lid ,Normal ,ACPI\PNP0C0D\2&DABA3FF&1 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\1 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\2 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\3 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\4 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\5 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\6 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\7 ,N/A
+Microsoft Windows Management Interface for ACPI ,Normal ,ACPI\PNP0C14\GMZN ,N/A
+ACPI Power Button ,Normal ,ACPI\PNP0C0C\2&DABA3FF&1 ,N/A
+ACPI Thermal Zone ,Normal ,ACPI\THERMALZONE\THM0 ,N/A
+ACPI Fan ,Normal ,ACPI\PNP0C0B\0 ,N/A
+ACPI Audio Compositor Device ,Normal ,ACPI\ACPI0018\2&DABA3FF&1 ,N/A
+Generic Bus ,Normal ,ACPI\PNP0A05\6 ,N/A
+Trusted Platform Module 2.0 ,Normal ,ACPI\STM0925\2&DABA3FF&1 ,N/A
+Elliptic Labs Smart Sensor Platform Power Control ,Normal ,ACPI\VEN_ELAS&DEV_EB08&SUBSYS_17AA233B&REV_0001\2&DABA3FF&1 ,N/A
+Elliptic Labs Smart Sensor Platform BUS ,Normal ,ACPI\VEN_ELAS&DEV_E550&SUBSYS_17AA233B&REV_0001\2&DABA3FF&1 ,N/A
+Elliptic Labs Smart Sensor Platform HID ,Normal ,ELABSESSP\VEN_ELAS&DEV_E551&SUBSYS_17AA233B\3&32165D04&0& ,
+HID Sensor Collection V2 ,Normal ,HID\VEN_ELAS&DEV_E551&SUBSYS_17AA233B\4&3AC6884B&0&0000 ,N/A
+Elabs AI Virtual Tap-to-connect API Service ,Normal ,SWD\DRIVERENUM\{C9AC678B-DBB3-4F48-969C-FCE65B53E13A}#ELABSVTAP&4&3AC6884B&0 ,N/A
+Elliptic Labs Smart Sensor Platform Engine ,Normal ,ELABSESSP\VEN_ELAS&DEV_E552&SUBSYS_17AA233B\3&32165D04&0& ,
+Intel(R) Innovation Platform Framework Manager ,Normal ,ACPI\INTC1068\IETM ,N/A
+Intel(R) Control Logic ,Normal ,ACPI\INT3472\0 ,N/A
+Intel(R) Control Logic ,Normal ,ACPI\INT3472\1 ,N/A
+Integrated Camera ,Normal ,ACPI\SONY471A\0 ,N/A
+Integrated IR Camera ,Normal ,ACPI\HM1092\1 ,N/A
+Intel(R) Camera Flash LED ,Normal ,ACPI\TXNW3643\1 ,N/A
+UCM-UCSI ACPI Device ,Normal ,ACPI\USBC000\0 ,N/A
+Microsoft UEFI-Compliant System ,Normal ,ACPI_HAL\UEFI\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{3338719A-DF8C-4B8D-BDCE-AA4ABA831378}\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{626D93DB-2C42-48C3-915A-71F968A81B04}\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{86A885EE-D71E-2ED6-0FC1-9D6CCC9677EB}\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{8AB7708F-8BF6-45A9-AA2F-5F799E994BED}\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{A016AD57-248D-433F-BB70-671B4FB8B2BF}\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{A51B4721-FEA5-459F-B3A4-E4690C5E27C2}\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{B898554B-F863-4075-90A9-D281861B1987}\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{D09A0634-C8AF-4C38-ACDF-E2DA58F1283F}\0 ,N/A
+System Firmware ,Normal ,UEFI\RES_{D76BDC3D-8EAE-492C-9B72-8A1D424DBC40}\0 ,N/A
+Device Firmware ,Normal ,UEFI\RES_{E468D139-D9FA-45A3-BEEC-AEA12A1C3DF5}\0 ,N/A
+DolbyAPO SWC Device ,Normal ,SWD\DRIVERENUM\{078925F7-8444-44EA-9DAD-AC3BCC2AA183}#DOLBYAPO_DAX3APOSVC&1&232C8026&0 ,N/A

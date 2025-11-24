@@ -1,0 +1,71 @@
+<PwrTestLog date="10/24/2025" time="07:57:04" filename="C:\OSAging\Result\2025_10_24_07_55_29\PwrTest\Temp\pwrtestlog.xml">
+  <SystemInformation>
+    <ComputerName>LAPTOP-QFNRBVBT</ComputerName>
+    <OSBuildNumber>26100</OSBuildNumber>
+    <SystemManufacturer>LENOVO</SystemManufacturer>
+    <SystemProductName>21Q6CTO1WW</SystemProductName>
+    <BIOSVersion>N4CET36W (1.12 )</BIOSVersion>
+    <BIOSReleaseDate>03/06/2025</BIOSReleaseDate>
+    <ProcessorCount>8</ProcessorCount>
+    <ProcessorPackageCount>1</ProcessorPackageCount>
+  </SystemInformation>
+  <SYSTEM_POWER_CAPABILITIES>
+    <SystemS1StateSupported>0</SystemS1StateSupported>
+    <SystemS2StateSupported>0</SystemS2StateSupported>
+    <SystemS3StateSupported>0</SystemS3StateSupported>
+    <SystemS4StateSupported>1</SystemS4StateSupported>
+    <SystemS5StateSupported>1</SystemS5StateSupported>
+    <WakeAlarmPresent>1</WakeAlarmPresent>
+    <AcOnLineWakeSupported>0</AcOnLineWakeSupported>
+    <RtcWakeSupported>4</RtcWakeSupported>
+    <FastSystemS4>0</FastSystemS4>
+    <VideoDimPresent>1</VideoDimPresent>
+    <HiberFilePresent>1</HiberFilePresent>
+    <AoAc>1</AoAc>
+  </SYSTEM_POWER_CAPABILITIES>
+  <CSTransitions>
+      <EnteringCS Timestamp="10/24/2025 07:57:10.319" />
+      <PhaseExit name="No CS" Timestamp="10/24/2025 07:57:10.319" />
+      <PhaseEnter name="Connection" Timestamp="10/24/2025 07:57:10.319" />
+      <PhaseExit name="Connection" Timestamp="10/24/2025 07:57:10.319" />
+      <PhaseEnter name="Presence" Timestamp="10/24/2025 07:57:10.319" />
+      <PhaseExit name="Presence" Timestamp="10/24/2025 07:57:10.319" />
+      <PhaseEnter name="PLM" Timestamp="10/24/2025 07:57:10.319" />
+      <PhaseExit name="PLM" Timestamp="10/24/2025 07:57:10.356" />
+      <PhaseEnter name="Maintenance" Timestamp="10/24/2025 07:57:10.356" />
+      <PhaseExit name="Maintenance" Timestamp="10/24/2025 07:57:10.356" />
+      <PhaseEnter name="DAM" Timestamp="10/24/2025 07:57:10.356" />
+      <PhaseExit name="DAM" Timestamp="10/24/2025 07:57:10.394" />
+      <PhaseEnter name="Low Power" Timestamp="10/24/2025 07:57:10.394" />
+      <ExecutionRequiredSet Caller="\Device\HarddiskVolume4\Windows\UUS\amd64\MoUsoCoreWorker.exe" Timestamp="10/24/2025 07:57:10.830" />
+      <ExecutionRequiredCleared Caller="\Device\HarddiskVolume4\Windows\UUS\amd64\MoUsoCoreWorker.exe" Timestamp="10/24/2025 07:57:12.182" />
+      <PhaseExit name="Low Power" Timestamp="10/24/2025 07:57:15.735" />
+      <PhaseEnter name="Resiliency Notification" Timestamp="10/24/2025 07:57:15.735" />
+      <PhaseExit name="Resiliency Notification" Timestamp="10/24/2025 07:57:15.735" />
+      <PhaseEnter name="Resiliency" Timestamp="10/24/2025 07:57:15.735" />
+      <ExitingCS Timestamp="10/24/2025 07:59:09.409" />
+      <PhaseExit name="Resiliency" Timestamp="10/24/2025 07:59:09.413" />
+      <PhaseEnter name="Resiliency Notification" Timestamp="10/24/2025 07:59:09.413" />
+      <PhaseExit name="Resiliency Notification" Timestamp="10/24/2025 07:59:09.413" />
+      <PhaseEnter name="Low Power" Timestamp="10/24/2025 07:59:09.413" />
+      <PhaseExit name="Low Power" Timestamp="10/24/2025 07:59:09.413" />
+      <PhaseEnter name="DAM" Timestamp="10/24/2025 07:59:09.413" />
+      <PhaseExit name="DAM" Timestamp="10/24/2025 07:59:09.414" />
+      <PhaseEnter name="Maintenance" Timestamp="10/24/2025 07:59:09.414" />
+      <PhaseExit name="Maintenance" Timestamp="10/24/2025 07:59:09.414" />
+      <PhaseEnter name="PLM" Timestamp="10/24/2025 07:59:09.414" />
+      <PhaseExit name="PLM" Timestamp="10/24/2025 07:59:09.415" />
+      <PhaseEnter name="Presence" Timestamp="10/24/2025 07:59:09.415" />
+      <PhaseExit name="Presence" Timestamp="10/24/2025 07:59:09.415" />
+      <PhaseEnter name="Connection" Timestamp="10/24/2025 07:59:09.415" />
+      <PhaseExit name="Connection" Timestamp="10/24/2025 07:59:09.415" />
+      <PhaseEnter name="No CS" Timestamp="10/24/2025 07:59:09.415" />
+      <ExitedCS Timestamp="10/24/2025 07:59:09.873" />
+      <ExecutionRequiredSet Caller="\Device\HarddiskVolume4\Windows\UUS\amd64\MoUsoCoreWorker.exe" Timestamp="10/24/2025 07:59:09.972" />
+      <ExecutionRequiredCleared Caller="\Device\HarddiskVolume4\Windows\UUS\amd64\MoUsoCoreWorker.exe" Timestamp="10/24/2025 07:59:10.148" />
+      <PlatformIdleStats StateCount="2" ResetCount="1" Timestamp="10/24/2025 07:59:14.888">
+        <State Index="0" SuccessCount="0" FailureCount="0" CancelCount="0" />
+        <State Index="1" SuccessCount="0" FailureCount="0" CancelCount="0" />
+      </PlatformIdleStats>
+  </CSTransitions>
+</PwrTestLog>

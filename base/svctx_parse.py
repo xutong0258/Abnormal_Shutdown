@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 from Evtx.Evtx import Evtx
-from base.logger import *
+from utils.logger_util import *
 
 
 def parse_event_record(xml_str):

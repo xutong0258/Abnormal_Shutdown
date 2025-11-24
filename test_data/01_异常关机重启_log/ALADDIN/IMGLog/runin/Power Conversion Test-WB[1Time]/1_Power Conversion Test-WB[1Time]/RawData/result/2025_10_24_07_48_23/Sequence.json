@@ -1,0 +1,64 @@
+{
+  "RuntimeId": "DBD9AA8900DC78BA83B5C2E776EE5DEC",
+  "TaskId": "2025_10_24_07_48_23",
+  "Items": [
+    {
+      "GmtBeginTime": "2025-10-24T07:49:55.5060908+08:00",
+      "GmtEndTime": "2025-10-24T07:52:39.693048+08:00",
+      "FunctionName": "Wb",
+      "ItemId": "72d4893b-9589-46a6-8ae0-714da0d4b1e9",
+      "TaskId": "2025_10_24_07_48_23",
+      "DelayTime": 90,
+      "SleepTime": 0,
+      "SleepTimeMax": 0,
+      "SleepTimeMin": 0,
+      "FunctionCycle": 1,
+      "FunctionCycleRemained": 0,
+      "FunctionFailureCycle": 0,
+      "FunctionPassCycle": 1,
+      "Status": "PASS",
+      "Records": [],
+      "CurrentRecord": {
+        "Tag": null,
+        "LowPowerHwState": "-",
+        "LowPowerSwState": "-",
+        "EnergyConsumptionEstimation": 0,
+        "AllEvents": [],
+        "FilterWarnEvents": [],
+        "FilterCriticalEvents": [],
+        "Duration": "00:02:44.1869572",
+        "RecordId": "43cfec55-8883-4145-a1e0-3aa24a82e2c3",
+        "ItemId": "72d4893b-9589-46a6-8ae0-714da0d4b1e9",
+        "Function": "Wb",
+        "No": 1,
+        "State": "PASS",
+        "PowerSource": 1,
+        "NetState": 1,
+        "ErrorCode": 0,
+        "ErrorDesc": "Success Exit",
+        "Remark": null,
+        "GmtBeginTime": "2025-10-24T07:49:55.5060908+08:00",
+        "GmtEndTime": "2025-10-24T07:52:39.693048+08:00",
+        "DebugInfo": null,
+        "StructuredData": [
+          {
+            "Id": 4,
+            "RecordId": "43cfec55-8883-4145-a1e0-3aa24a82e2c3",
+            "DataType": "SystemResumeTime",
+            "DataVersion": "1.0.0.0",
+            "Data": "{\"ResumeTime\":0,\"BiosInitTimeMs\":17460,\"HiberReadTimeMs\":0,\"DriverWakeTimeMs\":0}"
+          }
+        ],
+        "FileData": null,
+        "IsInDesignMode": false
+      },
+      "IsInDesignMode": false
+    }
+  ],
+  "GmtBeginTime": "2025-10-24T07:48:23.1720856+08:00",
+  "GmtEndTime": "2025-10-24T07:52:40.7115036+08:00",
+  "Status": "PASS",
+  "CurrentIndex": 0,
+  "LastErrCode": 0,
+  "IsInDesignMode": false
+}
