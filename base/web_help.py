@@ -1,15 +1,15 @@
+import re
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-import pandas as pd
 from bs4 import BeautifulSoup
-import csv
-from utils.logger_util import *
-from base.folder_file import *
-from base.date_time_help import *
+
+from utils.logger_util import logger
+from base.folder_file import get_latest_file_path_by_dir
+from base.date_time_help import get_timestamp
 
 def parse_html_table(html_file):
     # 读取HTML文件内容

@@ -111,7 +111,7 @@ def setup_logger(
     return logger
 
 
-logging = setup_logger("./logs", level="INFO")
+logger = setup_logger("./logs", level="INFO")
 
 if __name__ == '__main__':
     logger.info("=" * 60)

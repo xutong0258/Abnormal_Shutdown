@@ -1,7 +1,6 @@
 import shutil
 import os
-from base.fileOP import *
-from utils.logger_util import *
+from utils.logger_util import logger
 
 BASEDIR = os.path.dirname(__file__)
 

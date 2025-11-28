@@ -141,13 +141,13 @@
   原因: PD 关闭 ID 1
 '0xB1':
   root_casue: PD shutdownID 2
-  原因: PD 关闭 ID 2
+  原因: PD 关闭ID 2
 '0xB2':
   root_casue: PD shutdownID 3
   原因: PD 关闭 ID 3
 '0xB4':
   root_casue: PD shutdownID 4
-  原因: PD 关闭ID 4
+  原因: PD 关闭 ID 4
 '0xBA':
   root_casue: Test WDT
   原因: 测试看门狗定时器

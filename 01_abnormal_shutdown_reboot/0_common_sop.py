@@ -7,7 +7,9 @@ path_dir = os.path.dirname(file_path)
 root_dir = os.path.join(path_dir, '../')
 sys.path.append(root_dir)
 
-from base.shutdown_util import *
+from utils.logger_util import logger
+from base.fileOP import dump_file
+from base.shutdown_util import check_is_abnormal_shutdown, check_ShutdownID
 
 path_dir = os.path.dirname(__file__)
 logger.info(f'path_dir: {path_dir}')
