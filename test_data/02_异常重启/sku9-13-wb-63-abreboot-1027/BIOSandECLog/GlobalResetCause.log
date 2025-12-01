@@ -1,0 +1,4 @@
+>>>>>>>>AMD Platform<<<<<<<<<<
+@@ S5_RESET_STATUS:0x00800800 @@
+  #BIT[11] ==>> Reserved.
+  #BIT[23] ==>> shutdown_msg. Read-write,Read,Write-1-to-clear. Reset: 0. system reset was caused by a SHUTDOWN command from CPU<_when PMx08[20]=1 and PMx74[17]=1_>.Write 1 to clear.Bit[28:16] except bit[20] willbe cleared by Last reset event except the associated bit will be set.

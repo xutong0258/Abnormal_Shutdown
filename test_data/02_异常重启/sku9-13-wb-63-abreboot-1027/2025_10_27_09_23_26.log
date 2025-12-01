@@ -1,0 +1,414 @@
+2025-10-27 09:23:26|INFO|start work...
+2025-10-27 09:23:26|INFO|work dir:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26
+2025-10-27 09:23:26|INFO|zip file:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26.zip
+2025-10-27 09:23:26|INFO|****************Start item :SystemInfo-MS Dxdiag Info*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\MSDxdiagInfo.txt
+2025-10-27 09:23:26|INFO|****************Start item :OSLog-BOOTSTAT*************
+2025-10-27 09:23:26|INFO|****************Start item :SystemInfo-Fireware Version*************
+2025-10-27 09:23:26|INFO|****************Start item :DiskInfo-DiskInfo*************
+2025-10-27 09:23:26|INFO|****************Start item :SystemPowerLog-SRUM Report*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SrumReport.csv
+2025-10-27 09:23:26|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :/srumutil /csv /OUTPUT "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SrumReport.csv"
+2025-10-27 09:23:26|INFO|****************Start item :SystemPowerLog-System Wakeup Settings*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\
+2025-10-27 09:23:26|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\System_Wakeup_settings\System_Wakeup_settings.cmd
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\"
+2025-10-27 09:23:26|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\System_Wakeup_settings\System_Wakeup_settings.cmd "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\"
+2025-10-27 09:23:26|INFO|****************Start item :DumpFile-MemoryDump*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\DumpFile\
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\DiskInfo\DiskInfo.log
+2025-10-27 09:23:26|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\DiskInfo\DiskInfo.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args : >--> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\DiskInfo\DiskInfo.log"
+2025-10-27 09:23:26|INFO|****************Start item :MSEventLog-Windows-Kernel-Boot*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog\
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|exe :C:\Windows\System32\Dxdiag.exe
+2025-10-27 09:23:26|INFO|****************Start item :SystemInfo-Programs and Feature*************
+2025-10-27 09:23:26|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\DiskInfo\DiskInfo.exe  >--> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\DiskInfo\DiskInfo.log"
+2025-10-27 09:23:26|INFO|****************Start item :SystemPowerLog-System Power Report*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SystemPowerReport.html
+2025-10-27 09:23:26|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :/systempowerreport /DURATION 5 /OUTPUT "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SystemPowerReport.html"
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|****************Start item :MSEventLog-Application*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\OSLog\
+2025-10-27 09:23:26|INFO|****************Start item :SystemPowerLog-Kernel Power Events*************
+2025-10-27 09:23:26|INFO|****************Start item :MSEventLog-System*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog\System.evtx
+2025-10-27 09:23:26|INFO|exe :C:\Windows\System32\wevtutil.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :epl System "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog\System.evtx"
+2025-10-27 09:23:26|INFO|****************Start item :SystemPowerLog-Battery Report*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\BatteryReport.html
+2025-10-27 09:23:26|INFO|****************Start item :SystemInfo-Msinfo32*************
+2025-10-27 09:23:26|INFO|****************Start item :SystemInfo-Power Plan*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\PowerSetting.log
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|cmd :powercfg /qh >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\PowerSetting.log"
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\
+2025-10-27 09:23:26|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\ListEvents\ListEvents.cmd
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\"
+2025-10-27 09:23:26|INFO|copy file to dir
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\FirmwareVersion.log
+2025-10-27 09:23:26|INFO|****************Start item :SystemInfo-Device Managment*************
+2025-10-27 09:23:26|INFO|****************Start item :SystemPowerLog-System Sleep Diagnostics Report*************
+2025-10-27 09:23:26|INFO|****************Start item :DumpFile-Live Kernel Reports*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\DumpFile\LiveKernelReports\
+2025-10-27 09:23:26|INFO|****************Start item :DumpFile-Application dumps*************
+2025-10-27 09:23:26|INFO|outPut :
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|****************Start item :WlanReport-Wlan Report*************
+2025-10-27 09:23:26|INFO|outPut :
+2025-10-27 09:23:26|INFO|start exe:C:\Windows\System32\powercfg.exe /systempowerreport /DURATION 5 /OUTPUT "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SystemPowerReport.html"
+2025-10-27 09:23:26|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :/batteryreport /DURATION 5 /OUTPUT "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\BatteryReport.html"
+2025-10-27 09:23:26|INFO|from:C:\Windows\System32\winevt\Logs\Microsoft-Windows-Kernel-Boot%4Operational.evtx
+2025-10-27 09:23:26|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog\
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :/t "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\MSDxdiagInfo.txt"
+2025-10-27 09:23:26|INFO|start exe:C:\Windows\System32\wevtutil.exe epl System "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog\System.evtx"
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\MsInfo.txt
+2025-10-27 09:23:26|INFO|start exe:C:\Windows\System32\powercfg.exe /srumutil /csv /OUTPUT "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SrumReport.csv"
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog\Application.evtx
+2025-10-27 09:23:26|INFO|exe :C:\Windows\System32\wevtutil.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :epl application "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog\Application.evtx"
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SystemSleepDiagnosticsReport.html
+2025-10-27 09:23:26|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\BOOTSTAT\BOOTSTAT.cmd
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\OSLog\"
+2025-10-27 09:23:26|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-10-27 09:23:26|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\ListEvents\ListEvents.cmd "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\"
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :/systemsleepdiagnostics /DURATION 5 /OUTPUT "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SystemSleepDiagnosticsReport.html"
+2025-10-27 09:23:26|INFO|start exe:C:\Windows\System32\powercfg.exe /systemsleepdiagnostics /DURATION 5 /OUTPUT "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SystemSleepDiagnosticsReport.html"
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|****************Start item :BIOSandECLog-LfcDebugInfo log*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\
+2025-10-27 09:23:26|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\LfcDebugInfo\LfcDebugInfo.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\ProgramsAndFeature.html
+2025-10-27 09:23:26|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\ListProgram\ListProgram.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\ProgramsAndFeature.html"
+2025-10-27 09:23:26|INFO|cmd :netsh wlan show wlanreport
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|start cmd:netsh wlan show wlanreport timeOut: 300
+2025-10-27 09:23:26|INFO|start exe:C:\Windows\System32\Dxdiag.exe /t "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\MSDxdiagInfo.txt"
+2025-10-27 09:23:26|INFO|start cmd:powercfg /qh >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\PowerSetting.log" timeOut: -1
+2025-10-27 09:23:26|INFO|start exe:C:\Windows\System32\powercfg.exe /batteryreport /DURATION 5 /OUTPUT "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\BatteryReport.html"
+2025-10-27 09:23:26|INFO|start exe:C:\Windows\System32\wevtutil.exe epl application "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog\Application.evtx"
+2025-10-27 09:23:26|INFO|****************Start item :BIOSandECLog-Global Reset Cause*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\DeviceManagement.txt
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|cmd :powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\DeviceManagement.txt"
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\ListProgram\ListProgram.exe "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\ProgramsAndFeature.html"
+2025-10-27 09:23:26|INFO|start cmd:powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\DeviceManagement.txt" timeOut: -1
+2025-10-27 09:23:26|INFO|exe :C:\Windows\System32\msinfo32.exe
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|cmd :reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\FirmwareVersion.log"
+2025-10-27 09:23:26|INFO|args :
+2025-10-27 09:23:26|INFO|args :/report "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\MsInfo.txt"
+2025-10-27 09:23:26|INFO|start cmd:reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\FirmwareVersion.log" timeOut: -1
+2025-10-27 09:23:26|INFO|start exe:C:\Windows\System32\msinfo32.exe /report "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\MsInfo.txt"
+2025-10-27 09:23:26|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\BOOTSTAT\BOOTSTAT.cmd "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\OSLog\"
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\
+2025-10-27 09:23:26|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\GlobalResetCause\GlobalResetCause.bat
+2025-10-27 09:23:26|INFO|cmd :
+2025-10-27 09:23:26|INFO|args :"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\"
+2025-10-27 09:23:26|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\GlobalResetCause\GlobalResetCause.bat "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\"
+2025-10-27 09:23:26|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\LfcDebugInfo\LfcDebugInfo.exe 
+2025-10-27 09:23:26|INFO|copy dir to dir
+2025-10-27 09:23:26|INFO|from:C:\Windows\LiveKernelReports
+2025-10-27 09:23:26|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\DumpFile\LiveKernelReports
+2025-10-27 09:23:26|INFO|****************Start item :BIOSandECLog-ITE_WinECU_I2EC*************
+2025-10-27 09:23:26|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\
+2025-10-27 09:23:26|INFO|exe :
+2025-10-27 09:23:26|INFO|cmd :"C:\Users\PATest\Desktop\0-LogTool\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\"
+2025-10-27 09:23:26|INFO|args :"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\"
+2025-10-27 09:23:26|INFO|start cmd:"C:\Users\PATest\Desktop\0-LogTool\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\" timeOut: -1
+2025-10-27 09:23:27|INFO|****************Start item :PlatformTool-AMD_Getlog*************
+2025-10-27 09:23:27|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\
+2025-10-27 09:23:27|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\Getlog.bat
+2025-10-27 09:23:27|INFO|cmd :
+2025-10-27 09:23:27|INFO|args :"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\"
+2025-10-27 09:23:27|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\Getlog.bat "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\"
+2025-10-27 09:23:27|INFO|****************Start item :TestToolLog-3DMark / 3DMark11*************
+2025-10-27 09:23:27|INFO|outPut :
+2025-10-27 09:23:27|INFO|exe :
+2025-10-27 09:23:27|INFO|cmd :
+2025-10-27 09:23:27|INFO|args :
+2025-10-27 09:23:27|INFO|****************Start item :TestToolLog-MobileMark Log*************
+2025-10-27 09:23:27|INFO|outPut :
+2025-10-27 09:23:27|INFO|exe :
+2025-10-27 09:23:27|INFO|cmd :
+2025-10-27 09:23:27|INFO|args :
+2025-10-27 09:23:27|INFO|****************Start item :TestToolLog-BurnIn*************
+2025-10-27 09:23:27|INFO|outPut :
+2025-10-27 09:23:27|INFO|exe :
+2025-10-27 09:23:27|INFO|cmd :
+2025-10-27 09:23:27|INFO|args :
+2025-10-27 09:23:27|INFO|****************Start item :TestToolLog-OSAging log*************
+2025-10-27 09:23:27|INFO|outPut :C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\
+2025-10-27 09:23:27|INFO|exe :C:\Users\PATest\Desktop\0-LogTool\tools\OSAging\OSAging.bat
+2025-10-27 09:23:27|INFO|cmd :
+2025-10-27 09:23:27|INFO|args :"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\"
+2025-10-27 09:23:27|INFO|start exe:C:\Users\PATest\Desktop\0-LogTool\tools\OSAging\OSAging.bat "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\"
+2025-10-27 09:23:28|INFO|****************Start item :TestToolLog-BenchLoop log*************
+2025-10-27 09:23:28|INFO|outPut :
+2025-10-27 09:23:28|INFO|exe :
+2025-10-27 09:23:28|INFO|cmd :
+2025-10-27 09:23:28|INFO|args :
+2025-10-27 09:23:28|INFO|****************Start item :IMGLog-RunIn log*************
+2025-10-27 09:23:28|INFO|outPut :
+2025-10-27 09:23:28|INFO|exe :
+2025-10-27 09:23:28|INFO|cmd :
+2025-10-27 09:23:28|INFO|args :
+2025-10-27 09:23:33|INFO|System_Wakeup_settings.cmd:移动了         1 个文件。
+2025-10-27 09:23:33|INFO|start exe result :0
+2025-10-27 09:23:33|INFO|copy file to file
+2025-10-27 09:23:33|INFO|from:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\System_Wakeup_Setting.html
+2025-10-27 09:23:33|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SystemWakeSetting.html
+2025-10-27 09:23:34|INFO|start exe result :0
+2025-10-27 09:23:34|INFO|powercfg.exe:  系统睡眠诊断报告已弃用且替换为系统电源报告。
+2025-10-27 09:23:34|INFO|powercfg.exe:  请改用命令 "powercfg /systempowerreport"。
+2025-10-27 09:23:35|INFO|start exe result :0
+2025-10-27 09:23:35|INFO|copy file to dir
+2025-10-27 09:23:35|INFO|from:C:\Windows\System32\winevt\Logs\Application.evtx
+2025-10-27 09:23:35|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog
+2025-10-27 09:23:35|INFO|start exe result :0
+2025-10-27 09:23:35|INFO|copy file to dir
+2025-10-27 09:23:35|INFO|from:C:\Windows\System32\winevt\Logs\System.evtx
+2025-10-27 09:23:35|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\MSEventLog
+2025-10-27 09:23:35|INFO|start exe result :-1
+2025-10-27 09:23:35|INFO|start exe result :0
+2025-10-27 09:23:35|INFO|powercfg.exe:电池使用时间报告已保存到文件路径 C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\BatteryReport.html。
+2025-10-27 09:23:35|INFO|powercfg.exe:睡眠分析报告已保存到文件路径 C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\SystemPowerReport.html。
+2025-10-27 09:23:35|INFO|start exe result :0
+2025-10-27 09:23:36|INFO|Microsoft Windows [版本 10.0.26200.6899]
+2025-10-27 09:23:36|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-10-27 09:23:36|INFO|C:\Users\PATest\Desktop\0-LogTool>powercfg /qh >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\PowerSetting.log"
+2025-10-27 09:23:36|INFO|ListEvents.cmd:True
+2025-10-27 09:23:36|INFO|Microsoft Windows [版本 10.0.26200.6899]
+2025-10-27 09:23:36|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-10-27 09:23:36|INFO|C:\Users\PATest\Desktop\0-LogTool>powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\DeviceManagement.txt"
+2025-10-27 09:23:36|INFO|Microsoft Windows [版本 10.0.26200.6899]
+2025-10-27 09:23:36|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-10-27 09:23:36|INFO|C:\Users\PATest\Desktop\0-LogTool>reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemInfo\FirmwareVersion.log"
+2025-10-27 09:23:37|INFO|C:\Users\PATest\Desktop\0-LogTool>exit
+2025-10-27 09:23:37|INFO|ListEvents.cmd:移动了         1 个文件。
+2025-10-27 09:23:37|INFO|start exe result :0
+2025-10-27 09:23:37|INFO|copy file to file
+2025-10-27 09:23:37|INFO|from:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\Kernel_Power_Events.html
+2025-10-27 09:23:37|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\SystemPowerLog\KernelPowerReport.html
+2025-10-27 09:23:37|INFO|C:\Users\PATest\Desktop\0-LogTool>exit
+2025-10-27 09:23:38|INFO|C:\Users\PATest\Desktop\0-LogTool>exit
+2025-10-27 09:23:38|INFO|BOOTSTAT.cmd:Disk: 0, Partition: 1, Type: System
+2025-10-27 09:23:38|INFO|BOOTSTAT.cmd:Bootstat file : G:\EFI\Microsoft\Boot\BOOTSTAT.DAT
+2025-10-27 09:23:38|INFO|BOOTSTAT.cmd:移动了         1 个文件。
+2025-10-27 09:23:38|INFO|start exe result :0
+2025-10-27 09:23:39|INFO|powercfg.exe:Completed with status 0 (0x00000000)
+2025-10-27 09:23:39|INFO|start exe result :0
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:  | 00   01   02   03   04   05   06   07   08   09   0A   0B   0C   0D   0E   0F
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:00| 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:10| 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:20| 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:30| 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:40| 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:50| 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:60| 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:70| 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:=========================================================
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:Version:00
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:BIOS POST CODE:0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:Total POST CODE:0x00(Index) 0x0000000000 0x0000000000 0x0000000000
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:LCFC POST CODE:0x00(Index) 0x0000000000 0x0000000000 0x0000000000
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:Platform POST CODE:0x00(Index) 0x0000000000 0x0000000000 0x0000000000
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:DXE DRIVER GUID:00000000000000000000000000000000
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:HW Hung Flag:False 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:Hang Flag For Bios:False 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:Hang Flag For App:False 
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:LCFC SHUTDOWN ID:0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:=========================POST CODE=======================
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:0x0000000000:unknown
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:0x0000000000:unknown
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:0x0000000000:unknown
+2025-10-27 09:23:43|INFO|LfcDebugInfo.exe:End.
+2025-10-27 09:23:43|INFO|start exe result :0
+2025-10-27 09:23:43|INFO|copy file to file
+2025-10-27 09:23:43|INFO|from:C:\Users\PATest\Desktop\0-LogTool\tools\LfcDebugInfo\LfcWmiGetDebugInfo.log
+2025-10-27 09:23:43|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\LfcDebugInfo.log
+2025-10-27 09:23:43|INFO|Microsoft Windows [版本 10.0.26200.6899]
+2025-10-27 09:23:43|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-10-27 09:23:43|INFO|C:\Users\PATest\Desktop\0-LogTool>netsh wlan show wlanreport
+2025-10-27 09:23:43|INFO|姝ｅ湪鐢熸垚鎶ュ憡... 
+2025-10-27 09:23:43|INFO|姝ｅ湪鏌ヨ WLAN 浜嬩欢 ...
+2025-10-27 09:23:43|INFO|姝ｅ湪鏌ヨ NCSI 浜嬩欢 ...
+2025-10-27 09:23:44|INFO|姝ｅ湪鏌ヨ NDIS 浜嬩欢 ...
+2025-10-27 09:23:51|INFO|Microsoft Windows [版本 10.0.26200.6899]
+2025-10-27 09:23:51|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-10-27 09:23:51|INFO|C:\Users\PATest\Desktop\0-LogTool>"C:\Users\PATest\Desktop\0-LogTool\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\"
+2025-10-27 09:23:52|INFO|姝ｅ湪鏌ヨ EAP 浜嬩欢 ...
+2025-10-27 09:23:52|INFO|姝ｅ湪鏌ヨ WCM 浜嬩欢 ...
+2025-10-27 09:23:52|INFO|姝ｅ湪鏌ヨ鍐呮牳浜嬩欢 ...
+2025-10-27 09:23:52|INFO|姝ｅ湪鏌ヨ绯荤粺浜嬩欢 ...
+2025-10-27 09:23:52|INFO|姝ｅ湪杩愯 ipconfig ...
+2025-10-27 09:23:53|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LogTool\tools\GlobalResetCause>rem @echo off 
+2025-10-27 09:23:53|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LogTool\tools\GlobalResetCause>cd /d C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1\ 
+2025-10-27 09:23:53|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>set output="C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\" 
+2025-10-27 09:23:53|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>cd /d "C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\" 
+2025-10-27 09:23:53|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>if {"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\"} == {} set output=C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1\logs 
+2025-10-27 09:23:53|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>set output="C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\" 
+2025-10-27 09:23:53|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>set output=C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\ 
+2025-10-27 09:23:53|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>if {"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\"} == {} set output=C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog 
+2025-10-27 09:23:53|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>if exist .\Global_Reset_Cause_Resutl.log del /f /q .\Global_Reset_Cause_Resutl.log  
+2025-10-27 09:23:53|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>GlobalResetCause.exe auto 
+2025-10-27 09:23:53|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>set output=C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\ 
+2025-10-27 09:23:53|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>if not exist "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\\PATest" (
+2025-10-27 09:23:53|INFO|Getlog.bat:echo "PATest" not exist  
+2025-10-27 09:23:53|INFO|Getlog.bat: mkdir "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\\PATest" 
+2025-10-27 09:23:53|INFO|Getlog.bat:) 
+2025-10-27 09:23:53|INFO|Getlog.bat:"PATest" not exist
+2025-10-27 09:23:53|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>wevtutil.exe epl System "PATest_System_log.evtx" 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LogTool\tools\OSAging>rem @echo off 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LogTool\tools\OSAging>cd /d C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging\ 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>set output="C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\" 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>if {"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\"} == {} set output=C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging\OSAging 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>set output=C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\ 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>if not exist "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\" md "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\"  
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>rem ====================================== 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>rem C:\Tools\OSAgingV2.24\result 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>rem ====================================== 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>if exist C:\Tools\ call:OSAgingLog C:\Tools 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>pushd C:\Tools 
+2025-10-27 09:23:53|INFO|OSAging.bat:C:\Tools>for /F "delims=*" %i in ('dir /a-d /s /b OSAgingTool.exe') do (call:CopyLog %~dpsi ) 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools>(call:CopyLog C:\Tools\OSAGIN~1.5\ ) 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools>pushd C:\Tools\OSAGIN~1.5\ 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools\OSAGIN~1.5>for /F "delims=*" %j in ('dir /ad /b Result*') do (
+2025-10-27 09:23:54|INFO|OSAging.bat:echo "%~j" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\%~nj"  1>>"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\Autolog.log"  
+2025-10-27 09:23:54|INFO|OSAging.bat: robocopy "%~j" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\%~nj" /e /xf *log*.txt *do*.txt /log+:"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\Autolog.log" 
+2025-10-27 09:23:54|INFO|OSAging.bat:) 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools\OSAGIN~1.5>(
+2025-10-27 09:23:54|INFO|OSAging.bat:echo "result" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\result"  1>>"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\Autolog.log"  
+2025-10-27 09:23:54|INFO|OSAging.bat: robocopy "result" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\result" /e /xf *log*.txt *do*.txt /log+:"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\Autolog.log" 
+2025-10-27 09:23:54|INFO|OSAging.bat:) 
+2025-10-27 09:23:54|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>wevtutil.exe epl Application "PATest_Application_log.evtx" 
+2025-10-27 09:23:54|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>amdz.exe /saveall /savetxt 
+2025-10-27 09:23:54|INFO|OSAging.bat:  日志文件: C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\Autolog.log
+2025-10-27 09:23:54|INFO|姝ｅ湪杩愯 netsh wlan show all ...
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools\OSAGIN~1.5>for /F "delims=*" %j in ('dir /ad /b Logs*') do (
+2025-10-27 09:23:54|INFO|OSAging.bat:echo "%~j" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\%~nj"  1>>"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\Autolog.log"  
+2025-10-27 09:23:54|INFO|OSAging.bat: robocopy "%~j" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\%~nj" /e /xf *log*.txt *do*.txt /log+:"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\Autolog.log" 
+2025-10-27 09:23:54|INFO|OSAging.bat:) 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools\OSAGIN~1.5>(
+2025-10-27 09:23:54|INFO|OSAging.bat:echo "Logs" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\Logs"  1>>"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\Autolog.log"  
+2025-10-27 09:23:54|INFO|OSAging.bat: robocopy "Logs" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\Logs" /e /xf *log*.txt *do*.txt /log+:"C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\Autolog.log" 
+2025-10-27 09:23:54|INFO|OSAging.bat:) 
+2025-10-27 09:23:54|INFO|OSAging.bat:  日志文件: C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\Autolog.log
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools\OSAGIN~1.5>if not exist .\OALog.txt goto :endofCopyLog 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools\OSAGIN~1.5>if not exist "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging" md "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging"  
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools\OSAGIN~1.5>copy /y .\OALog.txt "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging"  
+2025-10-27 09:23:54|INFO|OSAging.bat:已复制         1 个文件。
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools\OSAGIN~1.5>popd
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools>goto :eof 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Tools>popd
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>goto :eof 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>if exist C:\OSAging\ call:OSAgingLog C:\OSAging 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>if exist "C:\Users\PATest\desktop" call:OSAgingLog "C:\Users\PATest\desktop" 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>pushd "C:\Users\PATest\desktop" 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop>for /F "delims=*" %i in ('dir /a-d /s /b OSAgingTool.exe') do (call:CopyLog %~dpsi ) 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop>popd
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>goto :eof 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>rem ====================================== 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>rem end  
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>rem ====================================== 
+2025-10-27 09:23:54|INFO|OSAging.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\OSAging>if exist "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging" (exit /b 0 )  else (exit /b 2 ) 
+2025-10-27 09:23:54|INFO|start exe result :0
+2025-10-27 09:23:55|INFO|姝ｅ湪鏌ヨ鏃犵嚎閰嶇疆鏂囦欢...
+2025-10-27 09:23:55|INFO|姝ｅ湪鏌ヨ绯荤粺鍜岀敤鎴疯瘉涔?..
+2025-10-27 09:23:55|INFO|start exe result :0
+2025-10-27 09:23:56|INFO|姝ｅ湪鏌ヨ鐢ㄦ埛淇℃伅...
+2025-10-27 09:23:56|INFO|姝ｅ湪鏌ヨ缃戠粶璁惧...
+2025-10-27 09:23:58|INFO|鎶ュ憡宸插啓鍏ュ埌: C:\ProgramData\Microsoft\Windows\WlanReport\wlan-report-latest.html
+2025-10-27 09:23:58|INFO|瀹屾垚銆?
+2025-10-27 09:23:58|INFO|C:\Users\PATest\Desktop\0-LogTool>exit
+2025-10-27 09:23:58|INFO|copy file to dir
+2025-10-27 09:23:58|INFO|from:C:\ProgramData\Microsoft\Windows\WlanReport\wlan-report-latest.html
+2025-10-27 09:23:58|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\WlanReport\
+2025-10-27 09:24:02|INFO|"C:\Users\PATest\Desktop\0-LogTool\tools\ITE_WinECU_I2EC\*.txt"
+2025-10-27 09:24:02|INFO|""C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\""
+2025-10-27 09:24:03|INFO|start exe result :0
+2025-10-27 09:24:04|INFO|复制了 0 个文件
+2025-10-27 09:24:04|INFO|C:\Users\PATest\Desktop\0-LogTool>exit
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>echo 7z\7z a -t7z "PATest_minidmp.7z" c:\windows\minidump\*.dmp 
+2025-10-27 09:24:11|INFO|Getlog.bat:7z\7z a -t7z "PATest_minidmp.7z" c:\windows\minidump\*.dmp
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>7z\7z a -t7z "PATest_minidmp.7z" c:\windows\minidump\*.dmp 
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>echo 7z\7z a -t7z "PATest_LiveKernelReports.7z" C:\Windows\LiveKernelReports 
+2025-10-27 09:24:11|INFO|Getlog.bat:7z\7z a -t7z "PATest_LiveKernelReports.7z" C:\Windows\LiveKernelReports
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>7z\7z a -t7z "PATest_LiveKernelReports.7z" C:\Windows\LiveKernelReports 
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>echo 7z\7z a -t7z "PATest_ACRDumps.7z" C:\Windows\System32\AMD\ACRDumps 
+2025-10-27 09:24:11|INFO|Getlog.bat:7z\7z a -t7z "PATest_ACRDumps.7z" C:\Windows\System32\AMD\ACRDumps
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>7z\7z a -t7z "PATest_ACRDumps.7z" C:\Windows\System32\AMD\ACRDumps 
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>powercfg /sleepstudy /OUTPUT "sleepstudy_Default.html" 
+2025-10-27 09:24:11|INFO|GlobalResetCause.bat:>>>>>>>>AMD Platform<<<<<<<<<<
+2025-10-27 09:24:11|INFO|Getlog.bat:睡眠分析报告已保存到文件路径 C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\sleepstudy_Default.html。
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>powercfg /sleepstudy /duration 1 /OUTPUT "sleepstudy_1day.html" 
+2025-10-27 09:24:11|INFO|Getlog.bat:睡眠分析报告已保存到文件路径 C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\sleepstudy_1day.html。
+2025-10-27 09:24:11|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>powercfg /sleepstudy /duration 7 /OUTPUT "sleepstudy_7days.html" 
+2025-10-27 09:24:12|INFO|Getlog.bat:睡眠分析报告已保存到文件路径 C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\sleepstudy_7days.html。
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>rem reg export "HKLM\SYSTEM\ControlSet001\Control\Class" C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\PATest_KMD_ACR_Description.txt 
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>rem reg export "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\PATest_GraphicsDrivers.txt 
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>move amd*.txt "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\\PATest" 
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\amdz-20251027092410-LENOVO-GPT1-FP8LPDDR5x.txt
+2025-10-27 09:24:12|INFO|Getlog.bat:移动了         1 个文件。
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>move "PATest*.7z" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\\PATest" 
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>move "PATest*.txt" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\\PATest" 
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>move "PATest*.evtx" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\\PATest" 
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\PATest_Application_log.evtx
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\PATest_System_log.evtx
+2025-10-27 09:24:12|INFO|Getlog.bat:移动了         2 个文件。
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>move sleepstudy*.html "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\\PATest" 
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\sleepstudy_1day.html
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\sleepstudy_7days.html
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog\sleepstudy_Default.html
+2025-10-27 09:24:12|INFO|Getlog.bat:移动了         3 个文件。
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>copy AMDSuspend.2.2.8\*.txt "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\PlatformTool\\PATest" 
+2025-10-27 09:24:12|INFO|Getlog.bat:AMDSuspend.2.2.8\*.txt 
+2025-10-27 09:24:12|INFO|Getlog.bat:已复制         0 个文件。
+2025-10-27 09:24:12|INFO|Getlog.bat:C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog>rem Explorer.exe C:\Users\PATest\Desktop\0-LogTool\tools\AMD_Getlog 
+2025-10-27 09:24:12|INFO|start exe result :0
+2025-10-27 09:24:27|INFO|GlobalResetCause.bat:@@ S5_RESET_STATUS:0x00800800 @@
+2025-10-27 09:24:27|INFO|GlobalResetCause.bat:  #BIT[11] ==>> Reserved.
+2025-10-27 09:24:27|INFO|GlobalResetCause.bat:  #BIT[23] ==>> shutdown_msg. Read-write,Read,Write-1-to-clear. Reset: 0. system reset was caused by a SHUTDOWN command from CPU<_when PMx08[20]=1 and PMx74[17]=1_>.Write 1 to clear.Bit[28:16] except bit[20] willbe cleared by Last reset event except the associated bit will be set.
+2025-10-27 09:24:27|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>if not exist .\Global_Reset_Cause_Resutl.log goto :err 
+2025-10-27 09:24:27|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>if not exist "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\" md "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\" 
+2025-10-27 09:24:27|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>move /y .\Global_Reset_Cause_Resutl.log "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\" 
+2025-10-27 09:24:27|INFO|GlobalResetCause.bat:移动了         1 个文件。
+2025-10-27 09:24:27|INFO|GlobalResetCause.bat:C:\Users\PATest\Desktop\0-LOGT~1\tools\GLOBAL~1>exit /b 0 
+2025-10-27 09:24:27|INFO|start exe result :0
+2025-10-27 09:24:27|INFO|copy file to file
+2025-10-27 09:24:27|INFO|from:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\Global_Reset_Cause_Resutl.log
+2025-10-27 09:24:27|INFO|to:C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\BIOSandECLog\GlobalResetCause.log
+2025-10-27 09:25:22|INFO|start exe result :0
+2025-10-27 09:25:22|INFO|*****************start compress log*****************
+2025-10-27 09:25:22|INFO|compress finish

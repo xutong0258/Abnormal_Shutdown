@@ -18,13 +18,12 @@ logger.info(f'path_dir: {path_dir}')
 if __name__ == '__main__':
     folder_path = r'test_data\01_异常关机重启_log\ALADDIN'
     folder_path = os.path.join(path_dir, '../', folder_path)
-    folder_path = r'D:\01_异常关机\02_ASTER_ARL-SIT-MP6C081L56T-PF5XRWH0-3DMARKPXA_GPU_FINAL[1TIME]-ABNORMAL_SHUTDOWN_4BDB4E4A'
-    logger.info(f'folder_path: {folder_path}')
-    dump_dict = {}
+    folder_path = r'D:\02_异常重启\YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41'
+    # logger.info(f'folder_path: {folder_path}')
 
     is_abnormal_shutdown,result_dic = check_is_abnormal_shutdown(folder_path, path_dir)
     logger.info(f'is_abnormal_shutdown:{is_abnormal_shutdown}')
-    dump_dict['异常关机/重启'] = is_abnormal_shutdown
+
     file_name = '异常关机重启_result.yaml'
     file_name = os.path.join(path_dir, file_name)
 

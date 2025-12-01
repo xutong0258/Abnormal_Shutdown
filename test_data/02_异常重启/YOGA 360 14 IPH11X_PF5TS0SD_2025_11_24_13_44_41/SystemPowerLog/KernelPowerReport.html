@@ -1,0 +1,873 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:slp="http://schemas.microsoft.com/sleepstudy/2012" xmlns:js="http://microsoft.com/kernel">
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="ReportUtcOffset" content="+8:00"/>
+	<title>DetailsLog</title>
+	<style type="text/css">
+      body {
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      background-color: #ffffff;
+
+      color: #000000;
+
+      margin: 0em 5.5em 0em 5.5em;
+
+      }
+
+
+
+      h1 {
+
+      color: #00b0f0;
+
+      font-size: 42pt;
+
+      }
+
+
+
+      h2 {
+
+      font-size: 15pt;
+
+      color: #00b0f0;
+
+      margin-top: 2em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      h3, h4, h5 {
+
+      margin-top: 1em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      td {
+
+      padding-left: 0.3em;
+
+      padding-right: 0.3em;
+
+      }
+
+
+
+      .nobatts {
+
+      margin-top: 1.5em;
+
+      font-family: Segoe UI Semibold;
+
+      background: #f0f0f0;
+
+      color: #a0a0a0;
+
+      font-size: 13pt;
+
+      padding-left:0.4em;
+
+      padding-right:0.4em;
+
+      padding-top:0.3em;
+
+      padding-bottom:0.3em;
+
+      }
+
+
+
+      .explanation {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 1em;
+
+      }
+
+
+
+      .explanation2 {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 0.1em;
+
+      }
+
+
+
+      table {
+
+      border-width: 0;
+
+      table-layout: fixed;
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      color: #000000;
+
+      margin-bottom: 10px;
+
+      }
+
+
+
+      table.defs { background-color: transparent; }
+
+
+
+      caption {
+
+      padding: 5px 0px 5px 0px;
+
+      font-weight: bold;
+
+      }
+
+
+
+      thead {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      }
+
+
+
+      text {
+
+      font-size: 12pt;
+
+      font-family: Segoe UI Light;
+
+      fill: #00b0f0;
+
+      }
+
+
+
+      .centered { text-align: center; }
+
+
+
+      .label {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      color: #acacac;
+
+      }
+
+
+
+      #legend {
+
+      background-color: #fafafa;
+
+      margin-bottom: 2.2em;
+
+      border-spacing: 0;
+
+      }
+
+
+
+      #legend thead { background-color: #dfdfdf; }
+
+      #legend td, #legend th {
+
+      padding: 4px 5px 4px 5px;
+
+      }
+
+
+
+      #legend .spanner {
+
+      text-align: center;
+
+      background-color: #dfdfdf;
+
+      font-size: 85%;
+
+      font-weight: bold;
+
+      padding: 3px;
+
+      }
+
+
+
+      #legend td.percent { text-align: left; }
+
+
+
+      .graphline-none, .graphline-dotted, .graphline-solid, .graphline-neutral,
+
+      .graphline-low, .graphline-moderate, .graphline-high .graphline-nonclean {
+
+      font-weight: bold;
+
+      }
+
+
+
+      .graphline-none { color: #7d7d7d; }
+
+      .graphline-dotted { color: #7d7d7d; }
+
+      .graphline-solid { color: #7d7d7d; }
+
+      .graphline-neutral { color: #7d7d7d; }
+
+      .graphline-low { color: #2a7a2a; }
+
+      .graphline-moderate { color: #cc7e06; }
+
+      .graphline-high { color: #970d00; }
+
+      .graphline-nonclean { color: #FF00FF;}
+
+
+
+      .top-blocker td, #summary-table td {
+
+      padding: 0;
+
+      }
+
+
+
+      .top-blocker td a, #summary-table td a {
+
+      padding: 0 0.3em 0 0.3em;
+
+      display: block;
+
+      height: 100%;
+
+      }
+
+
+
+      .top-blocker a:link, .top-blocker a:active, .top-blocker a:visited,
+
+      #summary-table a:link, #summary-table a:active, #summary-table a:visited {
+
+      text-decoration: none;
+
+      color: #000000;
+
+      }
+
+
+
+      #summary-table th,
+
+      .session-summary th,
+
+      .top-blocker th,
+
+      .pdc-phases th,
+
+      .device-components th {
+
+      background-color: transparent;
+
+      }
+
+
+
+      #summary-table tbody tr,
+
+      .session-summary tbody tr,
+
+      .top-blocker tbody tr,
+
+      .device-components tbody tr,
+
+      .pdc-phases tbody tr {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-neutral,
+
+      .session-summary .row-neutral,
+
+      .top-blocker .row-neutral,
+
+      .device-components .row-neutral,
+
+      .pdc-phases .row-neutral {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-low,
+
+      .session-summary .row-low,
+
+      .top-blocker .row-low,
+
+      .device-components .row-low,
+
+      .pdc-phases .row-low {
+
+      background-color: #ace3ac;
+
+      }
+
+
+
+      #summary-table .row-moderate,
+
+      .session-summary .row-moderate,
+
+      .top-blocker .row-moderate,
+
+      .device-components .row-moderate,
+
+      .pdc-phases .row-moderate {
+
+      background-color: #fcd69a;
+
+      }
+
+
+
+      #summary-table .row-high,
+
+      .session-summary .row-high,
+
+      .top-blocker .row-high,
+
+      .device-components .row-high,
+
+      .pdc-phases .row-high {
+
+      background-color: #ffb2aa;
+
+      }
+
+
+
+      #summary-table .row-info,
+
+      .session-summary .row-info,
+
+      .top-blocker .row-info,
+
+      .device-components .row-info,
+
+      .pdc-phases .row-info {
+
+      background-color: #86becb;
+
+      }
+
+
+
+      #summary-table .row-nonclean,
+
+      .session-summary .row-nonclean,
+
+      .top-blocker .row-nonclean,
+
+      .device-components .row-nonclean,
+
+      .pdc-phases .row-nonclean {
+
+      background-color: #EE82EE;
+
+      }
+
+
+
+      #summary-table tbody tr:hover,
+
+      .top-blocker tbody tr:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-neutral:hover,
+
+      .top-blocker .row-neutral:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-low:hover,
+
+      .top-blocker .row-low:hover {
+
+      background-color: #caedca;
+
+      }
+
+
+
+      #summary-table .row-moderate:hover,
+
+      .top-blocker .row-moderate:hover {
+
+      background-color: #fde5c0;
+
+      }
+
+
+
+      #summary-table .row-high:hover,
+
+      .top-blocker .row-high:hover {
+
+      background-color: #ffd5d1;
+
+      }
+
+
+
+      #summary-table .row-nonclean:hover,
+
+      .top-blocker .row-nonclean:hover {
+
+      background-color:#D8BFD8;
+
+      }
+
+
+
+      td.colBreak { padding: 0; width: 0.15em; }
+
+
+
+      td.state { text-align: center; }
+
+      td.chargeOrDrain { text-align: center; }
+
+      td.percentLowPowerStateTime { text-align: center; }
+
+      td.percent { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.hms { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.dateTime { font-family: Segoe UI Symbol; }
+
+      td.blank { background-color: #ffffff; }
+
+      td.nullValue { text-align: center; }
+
+      td.center { text-align: center; }
+
+
+
+      col.percent { width: 7.5em; }
+
+
+
+      td.mw {
+
+      font-family: Segoe UI Symbol;
+
+      text-align: center;
+
+      }
+
+
+
+      td.acdc { text-align: center; }
+
+
+
+      span.date {
+
+      display: inline-block;
+
+      width: 5.5em;
+
+      }
+
+
+
+      span.time {
+
+      text-align: right;
+
+      width: 4.2em;
+
+      display: inline-block;
+
+      }
+
+
+
+      text { font-family: Segoe UI Symbol; }
+
+
+
+      .noncontigbreak {
+
+      height: 0.3em;
+
+      background-color: #1A1A28;
+
+      }
+
+
+
+      div.analysis-container {
+
+      margin-bottom: 10px;
+
+      border: 1px solid #ffffff;
+
+      }
+
+
+
+      div.analysis-container h1 {
+
+      padding: 10px;
+
+      font-size: 14px;
+
+      margin: 0px;
+
+      cursor: pointer;
+
+      }
+
+
+
+      div.analysis-body, div.analysis-body-collapsed {
+
+      padding: 10px;
+
+      }
+
+
+
+      div.analysis-body { display: block; }
+
+      div.analysis-body-collapsed { display: none; }
+
+
+
+      .analysis-base { background-color: #f7f7f7; }
+
+      .analysis-base h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-base h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-neutral { background-color: #f0f0f0; }
+
+      .analysis-neutral h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-neutral h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-high { background-color: #ffd5d1; }
+
+      .analysis-high h1 { background-color: #ff8e83; color: #970d00; }
+
+      .analysis-high h1:hover { background-color: #ffb2aa; }
+
+
+
+      .analysis-moderate { background-color: #fde5c0; }
+
+      .analysis-moderate h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .analysis-moderate h1:hover { background-color: #fcd69a; }
+
+
+
+      .analysis-low { background-color: #caedca; }
+
+      .analysis-low h1 { background-color: #8fd98f; color: #2a7a2a; }
+
+      .analysis-low h1:hover { background-color: #ace3ac; }
+
+
+
+      .analysis-info { background-color: #b2e5e5; }
+
+      .analysis-info h1 { background-color: #1aa3a3; color: #0b5e56; }
+
+      .analysis-info h1:hover { background-color: #86becb; }
+
+
+
+      .analysis-empty {
+
+      color: #a0a0a0;
+
+      font-size: 14px;
+
+      padding: 10px;
+
+      font-weight: bold;
+
+      }
+
+    </style><style>
+
+      .expander { font-family: "Consolas"; font-weight: bold; }
+
+      .warning { background-color: #fde5c0; }
+
+      .warning h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .warning h1:hover { background-color: #fcd69a; }
+
+      .error { background-color: #ffd5d1; }
+
+      .error h1 { background-color: #ff8e83; color: #970d00; }
+
+      .error h1:hover { background-color: #ffb2aa; }
+
+      code { font-family: "Consolas"; }
+
+
+
+      pre {
+
+      font-family: "Consolas";
+
+      display: block;
+
+      border: 1px dashed #b0b0b0;
+
+      padding: 10px;
+
+      margin: 10px 0px 10px 0px;
+
+      }
+
+
+
+      .scroll-top-button {
+
+      border: 2px solid #000000;
+
+      background-color: #ffffff;
+
+      padding: 5px 3px 5px 3px;
+
+      font-size: 12px;
+
+      font-family: Segoe UI Semibold;
+
+      float: left;
+
+      border-radius: 18px;
+
+      margin-top: 15px;
+
+      margin-left: -60px;
+
+      }
+
+
+
+      .scroll-top-button:hover {
+
+      background-color: #f0f0f0;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .scenario-details, .scenario-details-collapsed {
+
+      padding: 5px;
+
+      background-color: #f0f0f0;
+
+      width: 864px;
+
+      border-left: 2px solid #ffffff;
+
+      }
+
+
+
+      .scenario-details { display: block; }
+
+      .scenario-details-collapsed { display: none; }
+
+
+
+      .details-expander {
+
+      background-color: #dfdfdf;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .details-expander:hover { background-color: #cfcfcf; }
+
+
+
+      ul { list-style: square; }
+
+    </style>
+	</head>
+	<body>
+    
+	<h1 id="logtitle">Power Transitions Events List</h1><div><h3>Unexpected shutdown/reboot List</h3><div class="explanation"></div><table><tr><td><a href="#record_0">2025/11/24 13:41:49</a></td><td>系统已在未先正常关机的情况下重新启动。如果系统停止响应、发生崩溃或意外断电，则可能会导致此错误。<BR>BugcheckCode:0x0, SleepInProgress:0, ConnectedStandbyInProgress:false</td></tr></table><div><div><h3>Details List</h3><table id="summary-table"><thead id="logtablehead"><tr><th>TimeCreated</th><th>Id</th><th>LevelDisplayName</th><th>ProviderName</th><th>Message</th></tr></thead><tbody id="logtableboday"><tr class="row-neutral" style="font-weight: bold;" id="record_0"><td>2025/11/24 13:41:49</td><td>41</td><td>关键</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统已在未先正常关机的情况下重新启动。如果系统停止响应、发生崩溃或意外断电，则可能会导致此错误。<BR>BugcheckCode:0x0, SleepInProgress:0, ConnectedStandbyInProgress:false</td></tr><tr class="row-neutral" style="" id="record_1"><td>2025/11/24 13:41:48</td><td>125</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>已枚举高级配置和电源接口热区域 \_TZ.TZ01。             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 0K             
+_HOT = 373K             
+最低限制 = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_2"><td>2025/11/24 13:41:48</td><td>125</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>已枚举高级配置和电源接口热区域 \_TZ.TZ00。             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 373K             
+_AC1 = 328K             
+_AC2 = 323K             
+_AC3 = 318K             
+_AC4 = 313K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 378K             
+_HOT = 0K             
+最低限制 = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_3"><td>2025/11/24 13:41:46</td><td>30</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>固件报告了启动指标。</td></tr><tr class="row-neutral" style="" id="record_4"><td>2025/11/24 13:41:46</td><td>27</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>引导类型为 0x0。</td></tr><tr class="row-neutral" style="" id="record_5"><td>2025/11/24 13:41:46</td><td>25</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>引导菜单策略为 0x1。</td></tr><tr class="row-neutral" style="" id="record_6"><td>2025/11/24 13:41:46</td><td>238</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI 时区偏移： 2047。夏令时标志： 0。固件时间： ‎2025‎-‎11‎-‎24T13:41:45.000000000Z。 </td></tr><tr class="row-neutral" style="" id="record_7"><td>2025/11/24 13:41:46</td><td>247</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>无法加载 Pluton-Windows 固件。StatusCode： STATUS_SUCCESS，Reason： Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_8"><td>2025/11/24 13:41:46</td><td>20</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>上一次关机的成功状态为“false”。上一次引导的成功状态为“true”。</td></tr><tr class="row-neutral" style="" id="record_9"><td>2025/11/24 13:41:46</td><td>32</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>bootmgr 花费了 0 毫秒等待用户输入。</td></tr><tr class="row-neutral" style="" id="record_10"><td>2025/11/24 13:41:46</td><td>18</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>此系统有 0x1 个引导选项。</td></tr><tr class="row-neutral" style="" id="record_11"><td>2025/11/24 13:41:46</td><td>12</td><td>信息</td> <td>Microsoft-Windows-Kernel-General</td> <td>操作系统已在系统时间 ‎2025‎-‎11‎-‎24T05:41:46.500000000Z 启动。</td></tr><tr class="row-neutral" style="" id="record_12"><td>2025/11/24 13:23:54</td><td>105</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>电源更改。<BR>AcOnline:true, RemainingCapacity:69970</td></tr><tr class="row-neutral" style="" id="record_13"><td>2025/11/24 13:22:08</td><td>105</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>电源更改。<BR>AcOnline:false, RemainingCapacity:70000</td></tr><tr class="row-neutral" style="" id="record_14"><td>2025/11/24 4:31:32</td><td>566</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统会话已从2转换为 4.
+
+原因 WinRT 
+
+BootId： 9</td></tr><tr class="row-neutral" style="" id="record_15"><td>2025/11/24 4:31:32</td><td>507</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统正在退出新型待机状态 
+
+原因: Resume from Hibernate。</td></tr><tr class="row-neutral" style="" id="record_16"><td>2025/11/24 4:31:32</td><td>1</td><td>信息</td> <td>Microsoft-Windows-Power-Troubleshooter</td> <td>系统已从低功耗状态中恢复。
+
+睡眠时间:  ‎2025‎-‎11‎-‎23T19:15:07.426749000Z
+唤醒时间: ‎2025‎-‎11‎-‎23T20:31:31.084769600Z
+
+唤醒源: Unknown<BR>TargetState:6, EffectiveState:5</td></tr><tr class="row-neutral" style="" id="record_17"><td>2025/11/24 4:31:31</td><td>506</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统正在进入新型待机状态 
+
+原因: Sleep, Hibernate, or Shutdown。</td></tr><tr class="row-neutral" style="" id="record_18"><td>2025/11/24 4:31:31</td><td>566</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统会话已从1转换为 2.
+
+原因 SxTransition 
+
+BootId： 9</td></tr><tr class="row-neutral" style="" id="record_19"><td>2025/11/24 4:31:31</td><td>247</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>无法加载 Pluton-Windows 固件。StatusCode： STATUS_SUCCESS，Reason： Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_20"><td>2025/11/24 4:31:31</td><td>27</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>引导类型为 0x1。</td></tr><tr class="row-neutral" style="" id="record_21"><td>2025/11/24 4:31:31</td><td>25</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>引导菜单策略为 0x1。</td></tr><tr class="row-neutral" style="" id="record_22"><td>2025/11/24 4:31:31</td><td>32</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>bootmgr 花费了 0 毫秒等待用户输入。</td></tr><tr class="row-neutral" style="" id="record_23"><td>2025/11/24 4:31:31</td><td>18</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>此系统有 0x1 个引导选项。</td></tr><tr class="row-neutral" style="" id="record_24"><td>2025/11/24 4:31:31</td><td>30</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>固件报告了启动指标。</td></tr><tr class="row-neutral" style="" id="record_25"><td>2025/11/24 3:15:09</td><td>107</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统已从睡眠状态恢复。<BR>TargetState:6, EffectiveState:5, WakeFromState:5</td></tr><tr class="row-neutral" style="" id="record_26"><td>2025/11/24 3:15:08</td><td>42</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统正在进入睡眠状态。
+
+睡眠原因: Application API<BR>TargetState:6, EffectiveState:5</td></tr><tr class="row-neutral" style="" id="record_27"><td>2025/11/24 3:15:07</td><td>566</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统会话已从0转换为 1.
+
+原因 ScreenOffGracePeriod 
+
+BootId： 9</td></tr><tr class="row-neutral" style="" id="record_28"><td>2025/11/24 3:15:07</td><td>187</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>用户模式进程尝试通过调用 SetSuspendState 或 SetSystemPowerState API 更改系统状态。</td></tr><tr class="row-neutral" style="" id="record_29"><td>2025/11/24 3:15:02</td><td>1074</td><td>信息</td> <td>User32</td> <td>进程 C:\Windows\Explorer.EXE (WIN-DMUVTDR6TEJ) 由于以下原因已代表用户 DESKTOP-N4URRAT\1 启动计算机 DESKTOP-N4URRAT 的 关闭电源: 其他(计划外)
+ 原因代码: 0x0
+ 关机类型: 关闭电源
+ 注释: </td></tr><tr class="row-neutral" style="" id="record_30"><td>2025/11/24 1:18:37</td><td>105</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>电源更改。<BR>AcOnline:true, RemainingCapacity:31520</td></tr><tr class="row-neutral" style="" id="record_31"><td>2025/11/24 1:18:31</td><td>105</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>电源更改。<BR>AcOnline:false, RemainingCapacity:31480</td></tr><tr class="row-neutral" style="" id="record_32"><td>2025/11/24 1:18:26</td><td>105</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>电源更改。<BR>AcOnline:true, RemainingCapacity:31710</td></tr><tr class="row-neutral" style="" id="record_33"><td>2025/11/24 1:13:57</td><td>105</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>电源更改。<BR>AcOnline:false, RemainingCapacity:0</td></tr><tr class="row-neutral" style="" id="record_34"><td>2025/11/24 1:13:55</td><td>125</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>已枚举高级配置和电源接口热区域 \_TZ.TZ01。             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 0K             
+_AC1 = 0K             
+_AC2 = 0K             
+_AC3 = 0K             
+_AC4 = 0K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 0K             
+_HOT = 373K             
+最低限制 = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_35"><td>2025/11/24 1:13:55</td><td>125</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>已枚举高级配置和电源接口热区域 \_TZ.TZ00。             
+_PSV = 0K             
+_TC1 = 0             
+_TC2 = 0             
+_TSP = 0ms             
+_AC0 = 373K             
+_AC1 = 328K             
+_AC2 = 323K             
+_AC3 = 318K             
+_AC4 = 313K             
+_AC5 = 0K             
+_AC6 = 0K             
+_AC7 = 0K             
+_AC8 = 0K             
+_AC9 = 0K             
+_CRT = 378K             
+_HOT = 0K             
+最低限制 = 0             
+_CR3 = 0K</td></tr><tr class="row-neutral" style="" id="record_36"><td>2025/11/24 1:13:53</td><td>30</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>固件报告了启动指标。</td></tr><tr class="row-neutral" style="" id="record_37"><td>2025/11/24 1:13:53</td><td>27</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>引导类型为 0x0。</td></tr><tr class="row-neutral" style="" id="record_38"><td>2025/11/24 1:13:53</td><td>25</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>引导菜单策略为 0x1。</td></tr><tr class="row-neutral" style="" id="record_39"><td>2025/11/24 1:13:53</td><td>238</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>EFI 时区偏移： 2047。夏令时标志： 0。固件时间： ‎2025‎-‎11‎-‎24T01:13:51.000000000Z。 </td></tr><tr class="row-neutral" style="" id="record_40"><td>2025/11/24 1:13:53</td><td>247</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>无法加载 Pluton-Windows 固件。StatusCode： STATUS_SUCCESS，Reason： Failed to apply firmware.</td></tr><tr class="row-neutral" style="" id="record_41"><td>2025/11/24 1:13:53</td><td>20</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>上一次关机的成功状态为“true”。上一次引导的成功状态为“true”。</td></tr><tr class="row-neutral" style="" id="record_42"><td>2025/11/24 1:13:53</td><td>32</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>bootmgr 花费了 0 毫秒等待用户输入。</td></tr><tr class="row-neutral" style="" id="record_43"><td>2025/11/24 1:13:53</td><td>18</td><td>信息</td> <td>Microsoft-Windows-Kernel-Boot</td> <td>此系统有 0x1 个引导选项。</td></tr><tr class="row-neutral" style="" id="record_44"><td>2025/11/24 1:13:53</td><td>12</td><td>信息</td> <td>Microsoft-Windows-Kernel-General</td> <td>操作系统已在系统时间 ‎2025‎-‎11‎-‎23T17:13:53.500000000Z 启动。</td></tr><tr class="row-neutral" style="" id="record_45"><td>2025/11/21 10:38:46</td><td>13</td><td>信息</td> <td>Microsoft-Windows-Kernel-General</td> <td>操作系统将在系统时间 ‎2025‎-‎11‎-‎21T02:38:46.227182700Z 关闭。</td></tr><tr class="row-neutral" style="" id="record_46"><td>2025/11/21 10:38:46</td><td>577</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>系统已准备好从 Active 启动的系统。 </td></tr><tr class="row-neutral" style="" id="record_47"><td>2025/11/21 10:38:43</td><td>109</td><td>信息</td> <td>Microsoft-Windows-Kernel-Power</td> <td>内核电源管理器已启动关闭转换。
+
+Action： Power Action Reboot 
+事件代码： 0x0 
+原因： Kernel API</td></tr><tr class="row-neutral" style="" id="record_48"><td>2025/11/21 10:38:34</td><td>1074</td><td>信息</td> <td>User32</td> <td>进程 C:\Windows\system32\sysprep\sysprep.exe (WIN-DMUVTDR6TEJ) 由于以下原因已代表用户 WIN-DMUVTDR6TEJ\Administrator 启动计算机 WIN-DMUVTDR6TEJ 的 重启: 没有找到这个原因的标题
+ 原因代码: 0x40002
+ 关机类型: 重启
+ 注释: </td></tr></tbody></table></div></body></html>

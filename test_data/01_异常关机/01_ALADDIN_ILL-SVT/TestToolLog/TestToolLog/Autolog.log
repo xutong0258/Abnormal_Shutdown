@@ -1,0 +1,112 @@
+"Result" "C:\Program Files (x86)\AutoRI\Config\CollectLogs\AutoLog\ThinkPad X9-15 Gen 1_PF5XXDFZ_2025_10_24_13_00_00\TestToolLog\TestToolLog\\OSAging\Result" 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 24, 2025 1:00:07 PM
+   Source : C:\OSAging\Result\
+     Dest : C:\Program Files (x86)\AutoRI\Config\CollectLogs\AutoLog\ThinkPad X9-15 Gen 1_PF5XXDFZ_2025_10_24_13_00_00\TestToolLog\TestToolLog\OSAging\Result\
+
+    Files : *.*
+	    
+Exc Files : *log*.txt
+	    *do*.txt
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  New Dir          1	C:\OSAging\Result\
+	    New File  		      21	SysTimeStamp.Lock100%  
+	  New Dir          5	C:\OSAging\Result\2025_10_24_07_55_29\
+	    New File  		    4452	Config.json100%  
+	    New File  		    1055	report.TXT100%  
+	    New File  		   98033	ReportData.Json100%  
+	    New File  		    2077	Sequence.json100%  
+	    New File  		    1389	XMLLog.xml100%  
+	  New Dir          2	C:\OSAging\Result\2025_10_24_07_55_29\DeviceCheck\
+	    New File  		   19668	DeviceGenerate.csv100%  
+	    New File  		   19668	DeviceMaternal.csv100%  
+	  New Dir          0	C:\OSAging\Result\2025_10_24_07_55_29\PwrTest\
+	  New Dir          2	C:\OSAging\Result\2025_10_24_07_55_29\PwrTest\Temp\
+	    New File  		    2581	pwrtestlog.log100%  
+	    New File  		    4655	pwrtestlog.xml100%  
+	  New Dir          1	C:\OSAging\Result\2025_10_24_07_55_29\Report\
+	    New File  		  275954	Report.html100%  
+	  New Dir          4	C:\OSAging\Result\2025_10_24_07_55_29\Report\css\
+	    New File  		  141389	bootstrap.css100%  
+	    New File  		   23739	font-awesome.min.css100%  
+	    New File  		     324	root.css100%  
+	    New File  		   84737	style.css100%  
+	  New Dir          6	C:\OSAging\Result\2025_10_24_07_55_29\Report\fonts\
+	    New File  		   60767	fontawesome-webfont.eot100%  
+	    New File  		  313398	fontawesome-webfont.svg100%  
+	    New File  		  122092	fontawesome-webfont.ttf100%  
+	    New File  		   71508	fontawesome-webfont.woff100%  
+	    New File  		   56780	fontawesome-webfont.woff2100%  
+	    New File  		   93888	FontAwesome.otf100%  
+	  New Dir          3	C:\OSAging\Result\2025_10_24_07_55_29\Report\img\
+	    New File  		   35995	blank-bg.png100%  
+	    New File  		   29306	intro-bg.png100%  
+	    New File  		    3951	loading.gif100%  
+	  New Dir          2	C:\OSAging\Result\2025_10_24_07_55_29\Report\js\
+	    New File  		   95786	jquery.min.js100%  
+	    New File  		    4639	plugins.js100%  
+	  New Dir          1	C:\OSAging\Result\2025_10_24_07_55_29\Report\js\bootstrap\
+	    New File  		   35458	bootstrap.min.js100%  
+	  New Dir          2	C:\OSAging\Result\2025_10_24_07_55_29\Report\js\easypiechart\
+	    New File  		    2860	easypiechart-plugin.js100%  
+	    New File  		    9715	easypiechart.js100%  
+	  New Dir          2	C:\OSAging\Result\2025_10_24_07_55_29\Report\js\echarts\
+	    New File  		  657089	echarts.common.min.js100%  
+	    New File  		 1022943	echarts.min.js100%  
+	  New Dir          1	C:\OSAging\Result\2025_10_24_07_55_29\Report\js\jquery-ui\
+	    New File  		  240427	jquery-ui.min.js100%  
+	  New Dir          0	C:\OSAging\Result\2025_10_24_07_55_29\WPR\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        15        15         0         0         0         0
+   Files :        32        32         0         0         0         0
+   Bytes :    3.37 m    3.37 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           98,231,777 Bytes/sec.
+   Speed :            5,620.867 MegaBytes/min.
+   Ended : Friday, October 24, 2025 1:00:07 PM
+
+"Logs" "C:\Program Files (x86)\AutoRI\Config\CollectLogs\AutoLog\ThinkPad X9-15 Gen 1_PF5XXDFZ_2025_10_24_13_00_00\TestToolLog\TestToolLog\\OSAging\Logs" 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 24, 2025 1:00:08 PM
+   Source : C:\OSAging\Logs\
+     Dest : C:\Program Files (x86)\AutoRI\Config\CollectLogs\AutoLog\ThinkPad X9-15 Gen 1_PF5XXDFZ_2025_10_24_13_00_00\TestToolLog\TestToolLog\OSAging\Logs\
+
+    Files : *.*
+	    
+Exc Files : *log*.txt
+	    *do*.txt
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  New Dir          2	C:\OSAging\Logs\
+	    New File  		     794	exception.log100%  
+	    New File  		   59620	info.log100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :         2         2         0         0         0         0
+   Bytes :    58.9 k    58.9 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, October 24, 2025 1:00:08 PM
+

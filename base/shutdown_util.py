@@ -27,20 +27,7 @@ def get_list_text_line(input_list, text):
             text_line = item.strip()
     return text_line
 
-def shutdown_check_rule_1(folder_path):
-    logger.info(f'folder_path:{folder_path}')
-
-    # folder_path = r'D:\hello'
-    target_time, target_elem = get_Abnormal_Shutdown_time(folder_path)
-    return target_time, target_elem
-
-def shutdown_check_rule_2(folder_path):
-    logger.info(f'folder_path:{folder_path}')
-
-    match_check, target_list = Critical_Event_Check(folder_path)
-    return match_check, target_list
-
-def shutdown_check_rule_3(folder_path, log_path):
+def check_rule_3_system_evtx_parse(folder_path, log_path):
     logger.info(f'folder_path:{folder_path}')
 
     target_file = 'System.evtx'
@@ -73,7 +60,7 @@ def shutdown_check_rule_3(folder_path, log_path):
                     break
 
             except Exception as e:
-                print(f"解析错误: {e}")
+                logger.info(f"解析错误: {e}")
     if match_case_3 == False:
         logger.info(f'evtx hasn\'t BugcheckCode:0x0 record')
     logger.info(f'match_case_3:{match_case_3}')
@@ -129,20 +116,23 @@ def check_is_abnormal_shutdown(folder_path, log_path):
     target_list = None
     result_dic = {}
 
-    check_flag_1 = False
-    target_time, target_elem = shutdown_check_rule_1(folder_path)
+    check_flag_1 = True
+    target_time, target_elem = check_rule_1_get_Abnormal_Shutdown_time(folder_path)
     logger.info(f'target_time:{target_time}')
     if target_time is None:
-        return is_abnormal_shutdown, result_dic
+        # logger.info(f'return for target_time is None')
+        # return is_abnormal_shutdown, result_dic
+        pass
 
     if target_time is not None:
         check_flag_1 = True
         result_dic['SystemPowerReport_rule_1'] = target_elem
 
     check_flag_2 = False
-    match_check, target_list = shutdown_check_rule_2(folder_path)
+    match_check, target_list = check_rule_2_KernelPowerReport_critical_event(folder_path, log_path)
     logger.info(f'match_check:{match_check}')
     if match_check == False:
+        logger.info(f'return for KernelPowerReport check not match')
         return is_abnormal_shutdown, result_dic
 
     if match_check == True:
@@ -150,7 +140,7 @@ def check_is_abnormal_shutdown(folder_path, log_path):
         result_dic['KernelPowerReport_rule_2'] = target_list
 
     check_flag_3 = False
-    match_check, target_list = shutdown_check_rule_3(folder_path, log_path)
+    match_check, target_list = check_rule_3_system_evtx_parse(folder_path, log_path)
     logger.info(f'match_check:{match_check}')
     if match_check == True:
         check_flag_3 = True
@@ -158,6 +148,13 @@ def check_is_abnormal_shutdown(folder_path, log_path):
 
     if check_flag_1 and check_flag_2 and check_flag_3:
         is_abnormal_shutdown = True
+
+    if check_flag_1 and check_flag_2:
+        is_abnormal_shutdown = True
+
+    if check_flag_1 and check_flag_3:
+        is_abnormal_shutdown = True
+
     return is_abnormal_shutdown, result_dic
 
 def parese_shutdown_cfg_to_dict():

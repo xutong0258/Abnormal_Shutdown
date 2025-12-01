@@ -1,0 +1,14 @@
+2025-08-06 08:30:20|INFO|2025-08-06 08:30:20,523 | [INFO ]  Start DiskInfo
+2025-08-06 08:30:20|INFO|2025-08-06 08:30:20,531 | [INFO ]  Init tool settings
+2025-08-06 08:30:20|INFO|2025-08-06 08:30:20,549 | [INFO ] [DiskInfo] | version:2.0.7.1003
+2025-08-06 08:30:20|INFO|2025-08-06 08:30:20,556 | [INFO ] [DiskInfo] | Input Arguments: E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\DiskInfo\DiskInfo.exe >--> E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DiskInfo\DiskInfo.log
+2025-08-06 08:30:20|INFO|2025-08-06 08:30:20,635 | [INFO ]  Load E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\DiskInfo\Config.yaml
+2025-08-06 08:30:20|INFO|2025-08-06 08:30:20,714 | [INFO ]  Query and check storage settings
+2025-08-06 08:30:20|INFO|2025-08-06 08:30:20,715 | [INFO ]  Scan storage device
+2025-08-06 08:30:26|INFO|2025-08-06 08:30:26,853 | [ERROR]  No disk detected, exiting...
+2025-08-06 08:30:26|INFO|2025-08-06 08:30:26,853 | [WARN ]  No disk detected, exiting...
+2025-08-06 08:30:26|INFO|2025-08-06 08:30:26,853 | [INFO ]  Filter the Error code and exit: ERR_NoDiskDetect
+2025-08-06 08:30:26|INFO|2025-08-06 08:30:26,853 | [WARN ]  [FilerErrorCode], Update ErrorCode: ERR_NoDiskDetect --> OK
+2025-08-06 08:30:26|INFO|2025-08-06 08:30:26,854 | [INFO ]  Set RI FileData
+2025-08-06 08:30:27|INFO|2025-08-06 08:30:27,055 | [INFO ]   --- Exit : OK --- 
+2025-08-06 08:30:27|INFO|2025-08-06 08:30:27,055 | [INFO ] [DiskInfo] | --return code:0x000000--

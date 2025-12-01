@@ -1,0 +1,3471 @@
+
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\CONVERTEDDEVICE&COL02\5&C00BBDF&0&0001
+HardwareID             : {HID\ConvertedDevice&Col02, HID\VID_045E&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVIC
+                         E_UP:000C_U:0001...}
+PNPDeviceID            : HID\CONVERTEDDEVICE&COL02\5&C00BBDF&0&0001
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL09\3&2DA7FFFA&0&0008
+HardwareID             : {HID\INTC816&Col09, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL09\3&2DA7FFFA&0&0008
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : HID-compliant device
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL07\5&371046B&0&0006
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col07, HID\WACF2200&Col07, HID\*WACF2200&Col07, HID\VID_056A&UP:00FF_U:
+                         0002...}
+PNPDeviceID            : HID\WACF2200&COL07\5&371046B&0&0006
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{3B8A509D-EF4A-4E0A-BE64-6A45F903C38C}\0
+HardwareID             : {UEFI\RES_{3b8a509d-ef4a-4e0a-be64-6a45f903c38c}&REV_1150F, UEFI\RES_{3b8a509d-ef4a-4e0a-be64-
+                         6a45f903c38c}}
+PNPDeviceID            : UEFI\RES_{3B8A509D-EF4A-4E0A-BE64-6A45F903C38C}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Integrated Camera
+CompatibleID           : {USB\MS_COMP_LNVDMFT, USB\COMPAT_VID_30c9&Class_0e&SubClass_03&Prot_00, USB\COMPAT_VID_30c9&Cl
+                         ass_0e&SubClass_03, USB\COMPAT_VID_30c9&Class_0e...}
+DeviceID               : USB\VID_30C9&PID_011C&MI_00\6&1807257&0&0000
+HardwareID             : {USB\VID_30C9&PID_011C&REV_0010&MI_00, USB\VID_30C9&PID_011C&MI_00}
+PNPDeviceID            : USB\VID_30C9&PID_011C&MI_00\6&1807257&0&0000
+PNPClass               : Camera
+Service                : usbvideo
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : SunplusIT
+
+Caption                : Intel(R) Serial IO I2C Host Controller - E47A
+CompatibleID           : {PCI\VEN_8086&DEV_E47A&REV_01, PCI\VEN_8086&DEV_E47A, PCI\VEN_8086&CC_0C8000, PCI\VEN_8086&CC_
+                         0C80...}
+DeviceID               : PCI\VEN_8086&DEV_E47A&SUBSYS_382817AA&REV_01\3&11583659&0&AA
+HardwareID             : {PCI\VEN_8086&DEV_E47A&SUBSYS_382817AA&REV_01, PCI\VEN_8086&DEV_E47A&SUBSYS_382817AA, PCI\VEN_
+                         8086&DEV_E47A&CC_0C8000, PCI\VEN_8086&DEV_E47A&CC_0C80}
+PNPDeviceID            : PCI\VEN_8086&DEV_E47A&SUBSYS_382817AA&REV_01\3&11583659&0&AA
+PNPClass               : System
+Service                : iaLPSS2_I2C_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : CS35L56 amp (left woofer)
+CompatibleID           : {SOUNDWIRE\AUDIOFUNCTION}
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_01&SUBSYS_380917AA\7&1FD
+                         07149&0&0000000000000001
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_01&SUBSYS_380917AA, SOU
+                         NDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&SUBSYS_380917AA, SOUNDWIRE\SDCA_10&MAN
+                         _01FA&FUNC_3556&TYPE_01&VER_01&ADR_01}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_01&SUBSYS_380917AA\7&1FD
+                         07149&0&0000000000000001
+PNPClass               : MEDIA
+Service                : SdcaClass
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 母板资源
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C02\1
+HardwareID             : {ACPI\VEN_PNP&DEV_0C02, ACPI\PNP0C02, *PNP0C02}
+PNPDeviceID            : ACPI\PNP0C02\1
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 母板资源
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C02\2
+HardwareID             : {ACPI\VEN_PNP&DEV_0C02, ACPI\PNP0C02, *PNP0C02}
+PNPDeviceID            : ACPI\PNP0C02\2
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 母板资源
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C02\5
+HardwareID             : {ACPI\VEN_PNP&DEV_0C02, ACPI\PNP0C02, *PNP0C02}
+PNPDeviceID            : ACPI\PNP0C02\5
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL0C\3&2DA7FFFA&0&000B
+HardwareID             : {HID\INTC816&Col0C, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL0C\3&2DA7FFFA&0&000B
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : HID Keyboard Device
+CompatibleID           : 
+DeviceID               : HID\CONVERTEDDEVICE&COL01\5&C00BBDF&0&0000
+HardwareID             : {HID\ConvertedDevice&Col01, HID\VID_045E&UP:0001_U:0006, HID_DEVICE_SYSTEM_KEYBOARD, HID_DEVIC
+                         E_UP:0001_U:0006...}
+PNPDeviceID            : HID\CONVERTEDDEVICE&COL01\5&C00BBDF&0&0000
+PNPClass               : Keyboard
+Service                : kbdhid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准键盘)
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL06\5&371046B&0&0005
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col06, HID\WACF2200&Col06, HID\*WACF2200&Col06, HID\VID_056A&UP:FF11_U:
+                         0002...}
+PNPDeviceID            : HID\WACF2200&COL06\5&371046B&0&0005
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Cirrus Logic XU
+CompatibleID           : 
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA&DYNAM
+                         ICENUMSPEAKER0\8&199CB22&0&00000C00
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA&Dyna
+                         micEnumSpeaker0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&Dyna
+                         micEnumSpeaker0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&DynamicEnumSpeaker
+                         0, SOUNDWIRE\DynamicEnumChild}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA&DYNAM
+                         ICENUMSPEAKER0\8&199CB22&0&00000C00
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : I2C HID 设备
+CompatibleID           : {ACPI\VEN_CIRQ&DEV_1080, ACPI\PNP0C50, PNP0C50}
+DeviceID               : ACPI\CIRQ1080\4&55F1A2F&0
+HardwareID             : {ACPI\VEN_CIRQ&DEV_1080&SUBSYS_CIRQ0001, ACPI\CIRQ1080, *CIRQ1080}
+PNPDeviceID            : ACPI\CIRQ1080\4&55F1A2F&0
+PNPClass               : HIDClass
+Service                : hidi2c
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft 流服务代理
+CompatibleID           : 
+DeviceID               : SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}
+HardwareID             : {SW\{96E080C7-143C-11D1-B40F-00A0C9223196}}
+PNPDeviceID            : SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}
+PNPClass               : MEDIA
+Service                : MSKSSRV
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft ACPI 兼容的嵌入式控制器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C09\1
+HardwareID             : {ACPI\VEN_PNP&DEV_0C09, ACPI\PNP0C09, *PNP0C09}
+PNPDeviceID            : ACPI\PNP0C09\1
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 已转换便携式设备控制装置
+CompatibleID           : 
+DeviceID               : BUTTONCONVERTER\CONVERTEDDEVICE\4&1CA8F95&0&0
+HardwareID             : {ButtonConverter\ConvertedDevice}
+PNPDeviceID            : BUTTONCONVERTER\CONVERTEDDEVICE\4&1CA8F95&0&0
+PNPClass               : HIDClass
+Service                : mshidkmdf
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Lenovo Fn and function keys
+CompatibleID           : 
+DeviceID               : ACPI\LHK2019\0
+HardwareID             : {ACPI\VEN_LHK&DEV_2019, ACPI\LHK2019, *LHK2019}
+PNPDeviceID            : ACPI\LHK2019\0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : SoundWire Audio
+CompatibleID           : {SOUNDWIRE\SDCA_AGGREGATOR}
+DeviceID               : SOUNDWIRE\SDCA_AGGREGATOR\6&2B9FEEC8&0
+HardwareID             : {SOUNDWIRE\SDCA_AGGREGATOR}
+PNPDeviceID            : SOUNDWIRE\SDCA_AGGREGATOR\6&2B9FEEC8&0
+PNPClass               : MEDIA
+Service                : SdcaAggregator
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的手写笔
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL05\5&371046B&0&0004
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col05, HID\WACF2200&Col05, HID\*WACF2200&Col05, HID\VID_056A&UP:000D_U:
+                         0002...}
+PNPDeviceID            : HID\WACF2200&COL05\5&371046B&0&0004
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Intel(R) Dynamic Tuning Technology Updater Component
+CompatibleID           : 
+DeviceID               : SWC\VID8086_DTTCFG_0001\00
+HardwareID             : {SWC\VID8086_DTTCFG_0001}
+PNPDeviceID            : SWC\VID8086_DTTCFG_0001\00
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Microsoft ACPI 兼容的控制方法电池
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0A\1
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0A, ACPI\PNP0C0A, *PNP0C0A}
+PNPDeviceID            : ACPI\PNP0C0A\1
+PNPClass               : Battery
+Service                : CmBatt
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : ACPI 风扇
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0B\0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0B, ACPI\PNP0C0B, *PNP0C0B}
+PNPDeviceID            : ACPI\PNP0C0B\0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : ACPI 风扇
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0B\1
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0B, ACPI\PNP0C0B, *PNP0C0B}
+PNPDeviceID            : ACPI\PNP0C0B\1
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : ACPI 风扇
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0B\2
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0B, ACPI\PNP0C0B, *PNP0C0B}
+PNPDeviceID            : ACPI\PNP0C0B\2
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : ACPI 风扇
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0B\3
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0B, ACPI\PNP0C0B, *PNP0C0B}
+PNPDeviceID            : ACPI\PNP0C0B\3
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : ACPI 风扇
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0B\4
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0B, ACPI\PNP0C0B, *PNP0C0B}
+PNPDeviceID            : ACPI\PNP0C0B\4
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : ACPI 处理器聚合器
+CompatibleID           : 
+DeviceID               : ACPI\ACPI000C\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_ACPI&DEV_000C, ACPI\ACPI000C, *ACPI000C}
+PNPDeviceID            : ACPI\ACPI000C\2&DABA3FF&0
+PNPClass               : System
+Service                : acpipagr
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Elliptic Labs Smart Sensor Platform Power Control
+CompatibleID           : {ACPI\VEN_ELAS&DEV_EB08&REV_0001, ACPI\VEN_ELAS&DEV_EB08}
+DeviceID               : ACPI\VEN_ELAS&DEV_EB08&SUBSYS_17AA3809&REV_0001\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_ELAS&DEV_EB08&SUBSYS_17AA3809&REV_0001, ACPI\VEN_ELAS&DEV_EB08&SUBSYS_17AA3809, ACPI
+                         \ELASEB08, *ELASEB08}
+PNPDeviceID            : ACPI\VEN_ELAS&DEV_EB08&SUBSYS_17AA3809&REV_0001\2&DABA3FF&0
+PNPClass               : System
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elliptic Laboratories ASA
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\CIRQ1080&COL05\5&2357D07D&0&0004
+HardwareID             : {HID\VEN_CIRQ&DEV_1080&SUBSYS_CIRQ0001&Col05, HID\CIRQ1080&Col05, HID\*CIRQ1080&Col05, HID\VID
+                         _0488&UP:FF00_U:0001...}
+PNPDeviceID            : HID\CIRQ1080&COL05\5&2357D07D&0&0004
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL04\5&371046B&0&0003
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col04, HID\WACF2200&Col04, HID\*WACF2200&Col04, HID\VID_056A&UP:FF14_U:
+                         000E...}
+PNPDeviceID            : HID\WACF2200&COL04\5&371046B&0&0003
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 根打印队列
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\PRINTENUM\PRINTQUEUES
+HardwareID             : {PRINTENUM\LocalPrintQueue}
+PNPDeviceID            : SWD\PRINTENUM\PRINTQUEUES
+PNPClass               : PrintQueue
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) NPU
+CompatibleID           : {PCI\VEN_8086&DEV_B03E&REV_06, PCI\VEN_8086&DEV_B03E, PCI\VEN_8086&CC_120000, PCI\VEN_8086&CC_
+                         1200...}
+DeviceID               : PCI\VEN_8086&DEV_B03E&SUBSYS_381A17AA&REV_06\3&11583659&0&58
+HardwareID             : {PCI\VEN_8086&DEV_B03E&SUBSYS_381A17AA&REV_06, PCI\VEN_8086&DEV_B03E&SUBSYS_381A17AA, PCI\VEN_
+                         8086&DEV_B03E&CC_120000, PCI\VEN_8086&DEV_B03E&CC_1200}
+PNPDeviceID            : PCI\VEN_8086&DEV_B03E&SUBSYS_381A17AA&REV_06\3&11583659&0&58
+PNPClass               : ComputeAccelerator
+Service                : npu
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : OneNote (Desktop)
+CompatibleID           : {GenPrintQueue, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\PRINTENUM\{30701E67-C4D9-4CE5-8A94-9BCB6AB6D59E}
+HardwareID             : {PRINTENUM\{3ee39114-30b4-45a4-a109-19d4a40fcc22}, PRINTENUM\LocalPrintQueue, {3ee39114-30b4-4
+                         5a4-a109-19d4a40fcc22}}
+PNPDeviceID            : SWD\PRINTENUM\{30701E67-C4D9-4CE5-8A94-9BCB6AB6D59E}
+PNPClass               : PrintQueue
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : USB4(TM) 主机路由器 (Microsoft)
+CompatibleID           : {PCI\VEN_8086&DEV_E433&REV_01, PCI\VEN_8086&DEV_E433, PCI\VEN_8086&CC_0C0340, PCI\VEN_8086&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_8086&DEV_E433&SUBSYS_382317AA&REV_01&USB4_MS_CM\3&11583659&0&6A
+HardwareID             : {PCI\USB4_MS_CM, PCI\VEN_8086&DEV_E433&SUBSYS_382317AA&REV_01, PCI\VEN_8086&DEV_E433&SUBSYS_38
+                         2317AA, PCI\VEN_8086&DEV_E433&CC_0C0340...}
+PNPDeviceID            : PCI\VEN_8086&DEV_E433&SUBSYS_382317AA&REV_01&USB4_MS_CM\3&11583659&0&6A
+PNPClass               : USB
+Service                : Usb4HostRouter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB4 主机路由器
+
+Caption                : USB4 根路由器 (1.0)
+CompatibleID           : {USB4\ROOT_DEVICE_ROUTER, USB4\DEVICE_ROUTER}
+DeviceID               : USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_E434\4&3A2A4394&0&0
+HardwareID             : {USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_E434&REV_0001, USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_E434
+                         }
+PNPDeviceID            : USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_E434\4&3A2A4394&0&0
+PNPClass               : USB
+Service                : Usb4DeviceRouter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB4 设备路由器
+
+Caption                : Microsoft Input Configuration Device
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL03\5&371046B&0&0002
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col03, HID\WACF2200&Col03, HID\*WACF2200&Col03, HID\VID_056A&UP:000D_U:
+                         000E...}
+PNPDeviceID            : HID\WACF2200&COL03\5&371046B&0&0002
+PNPClass               : HIDClass
+Service                : MTConfig
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 适用于 USB 音频的英特尔? 智音技术
+CompatibleID           : {INTELAUDIO\DIF_0001&UIF_0000&CTLR_DEV_E428&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50, INTELAUD
+                         IO\CTLR_DEV_EXT_E428&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50&SUBSYS_380917AA, INTELAUDIO\CTLR
+                         _DEV_EXT_E428&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50}
+DeviceID               : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50&SUBSYS_380917AA&REV_0001\060
+                         5DIF_000B&UIF_0000
+HardwareID             : {INTELAUDIO\CTLR_DEV_E428&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50&SUBSYS_380917AA&REV_0001, I
+                         NTELAUDIO\CTLR_DEV_E428&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50&SUBSYS_380917AA}
+PNPDeviceID            : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_06&DEVTYPE_06&VEN_8086&DEV_AE50&SUBSYS_380917AA&REV_0001\060
+                         5DIF_000B&UIF_0000
+PNPClass               : MEDIA
+Service                : IntcUSB
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{D62C1510-729E-AD49-8943-FB355832E414}\0
+HardwareID             : {UEFI\RES_{d62c1510-729e-ad49-8943-fb355832e414}&REV_0, UEFI\RES_{d62c1510-729e-ad49-8943-fb35
+                         5832e414}}
+PNPDeviceID            : UEFI\RES_{D62C1510-729E-AD49-8943-FB355832E414}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 卷管理器
+CompatibleID           : {DETECTEDInternal\volmgr, DETECTED\volmgr}
+DeviceID               : ROOT\VOLMGR\0000
+HardwareID             : {ROOT\VOLMGR}
+PNPDeviceID            : ROOT\VOLMGR\0000
+PNPClass               : System
+Service                : volmgr
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{C725E332-8C08-450B-97BA-57CCCFA0DA35}\0
+HardwareID             : {UEFI\RES_{c725e332-8c08-450b-97ba-57cccfa0da35}&REV_1E620000, UEFI\RES_{c725e332-8c08-450b-97
+                         ba-57cccfa0da35}}
+PNPDeviceID            : UEFI\RES_{C725E332-8C08-450B-97BA-57CCCFA0DA35}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL02\5&371046B&0&0001
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col02, HID\WACF2200&Col02, HID\*WACF2200&Col02, HID\VID_056A&UP:FF11_U:
+                         0011...}
+PNPDeviceID            : HID\WACF2200&COL02\5&371046B&0&0001
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Simple Device Orientation Sensor
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\SENSORSWDEVICEENUMERATOR\SDO#{00000000-0000-0000-FFFF-FFFFFFFFFFFF}#0000#5
+HardwareID             : 
+PNPDeviceID            : SWD\SENSORSWDEVICEENUMERATOR\SDO#{00000000-0000-0000-FFFF-FFFFFFFFFFFF}#0000#5
+PNPClass               : Sensor
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_8086&DEV_E43C&REV_01, PCI\VEN_8086&DEV_E43C, PCI\VEN_8086&CC_060400, PCI\VEN_8086&CC_
+                         0604...}
+DeviceID               : PCI\VEN_8086&DEV_E43C&SUBSYS_382417AA&REV_01\3&11583659&0&E0
+HardwareID             : {PCI\VEN_8086&DEV_E43C&SUBSYS_382417AA&REV_01, PCI\VEN_8086&DEV_E43C&SUBSYS_382417AA, PCI\VEN_
+                         8086&DEV_E43C&CC_060400, PCI\VEN_8086&DEV_E43C&CC_0604}
+PNPDeviceID            : PCI\VEN_8086&DEV_E43C&SUBSYS_382417AA&REV_01\3&11583659&0&E0
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : USB Composite Device
+CompatibleID           : {USB\COMPAT_VID_30C9&DevClass_00&SubClass_00&Prot00, USB\COMPAT_VID_30C9&DevClass_00&SubClass_
+                         00, USB\COMPAT_VID_30C9&DevClass_00, USB\DevClass_00&SubClass_00&Prot_00...}
+DeviceID               : USB\VID_30C9&PID_011C\01.00.00
+HardwareID             : {USB\VID_30C9&PID_011C&REV_0010, USB\VID_30C9&PID_011C}
+PNPDeviceID            : USB\VID_30C9&PID_011C\01.00.00
+PNPClass               : USB
+Service                : usbccgp
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 主控制器)
+
+Caption                : 符合 HID 标准的触摸屏
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL01\5&371046B&0&0000
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col01, HID\WACF2200&Col01, HID\*WACF2200&Col01, HID\VID_056A&UP:000D_U:
+                         0004...}
+PNPDeviceID            : HID\WACF2200&COL01\5&371046B&0&0000
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Intel(R) Platform Monitoring Technology (PMT) Driver
+CompatibleID           : {PCI\VEN_8086&DEV_B07D&REV_06, PCI\VEN_8086&DEV_B07D, PCI\VEN_8086&CC_118000, PCI\VEN_8086&CC_
+                         1180...}
+DeviceID               : PCI\VEN_8086&DEV_B07D&SUBSYS_72708086&REV_06\3&11583659&0&50
+HardwareID             : {PCI\VEN_8086&DEV_B07D&SUBSYS_72708086&REV_06, PCI\VEN_8086&DEV_B07D&SUBSYS_72708086, PCI\VEN_
+                         8086&DEV_B07D&CC_118000, PCI\VEN_8086&DEV_B07D&CC_1180}
+PNPDeviceID            : PCI\VEN_8086&DEV_B07D&SUBSYS_72708086&REV_06\3&11583659&0&50
+PNPClass               : System
+Service                : intcpmt
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Platform Monitoring Technology (PMT) Device
+
+Caption                : Intel? Smart Sound Technology ACX Streaming for SoundWire
+CompatibleID           : {INTELAUDIO\DIF_0001&UIF_0001&CTLR_DEV_E428&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35, INTELAUD
+                         IO\CTLR_DEV_EXT_E428&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35&SUBSYS_380917AA, INTELAUDIO\CTLR
+                         _DEV_EXT_E428&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35}
+DeviceID               : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35&SUBSYS_380917AA&REV_0001\5&2
+                         255E73E&0&0500DIF_000B&UIF_0001
+HardwareID             : {INTELAUDIO\CTLR_DEV_E428&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35&SUBSYS_380917AA&REV_0001, I
+                         NTELAUDIO\CTLR_DEV_E428&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35&SUBSYS_380917AA}
+PNPDeviceID            : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_05&DEVTYPE_05&VEN_8086&DEV_AE35&SUBSYS_380917AA&REV_0001\5&2
+                         255E73E&0&0500DIF_000B&UIF_0001
+PNPClass               : MEDIA
+Service                : IntcSSdw
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : Elliptic Labs Smart Sensor Platform BUS
+CompatibleID           : {ACPI\VEN_ELAS&DEV_E550&REV_0001, ACPI\VEN_ELAS&DEV_E550}
+DeviceID               : ACPI\VEN_ELAS&DEV_E550&SUBSYS_17AA3809&REV_0001\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_ELAS&DEV_E550&SUBSYS_17AA3809&REV_0001, ACPI\VEN_ELAS&DEV_E550&SUBSYS_17AA3809, ACPI
+                         \ELASE550, *ELASE550}
+PNPDeviceID            : ACPI\VEN_ELAS&DEV_E550&SUBSYS_17AA3809&REV_0001\2&DABA3FF&0
+PNPClass               : System
+Service                : Elabs.Driver.BUS
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elliptic Laboratories ASA
+
+Caption                : Microsoft 基本显示驱动程序
+CompatibleID           : 
+DeviceID               : ROOT\BASICDISPLAY\0000
+HardwareID             : {ROOT\BasicDisplay}
+PNPDeviceID            : ROOT\BASICDISPLAY\0000
+PNPClass               : System
+Service                : BasicDisplay
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准显示器类型)
+
+Caption                : Elliptic Labs Smart Sensor Platform HID
+CompatibleID           : {ELABSESSP\VEN_ELAS&DEV_E551}
+DeviceID               : ELABSESSP\VEN_ELAS&DEV_E551&SUBSYS_17AA3809\UID00
+HardwareID             : {ELABSESSP\VEN_ELAS&DEV_E551&SUBSYS_17AA3809}
+PNPDeviceID            : ELABSESSP\VEN_ELAS&DEV_E551&SUBSYS_17AA3809\UID00
+PNPClass               : HIDClass
+Service                : MsHidUmdf
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elliptic Laboratories ASA
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_8086&DEV_E44F&REV_01, PCI\VEN_8086&DEV_E44F, PCI\VEN_8086&CC_060400, PCI\VEN_8086&CC_
+                         0604...}
+DeviceID               : PCI\VEN_8086&DEV_E44F&SUBSYS_380B17AA&REV_01\3&11583659&0&38
+HardwareID             : {PCI\VEN_8086&DEV_E44F&SUBSYS_380B17AA&REV_01, PCI\VEN_8086&DEV_E44F&SUBSYS_380B17AA, PCI\VEN_
+                         8086&DEV_E44F&CC_060400, PCI\VEN_8086&DEV_E44F&CC_0604}
+PNPDeviceID            : PCI\VEN_8086&DEV_E44F&SUBSYS_380B17AA&REV_01\3&11583659&0&38
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 
+CompatibleID           : 
+DeviceID               : USB4\VIRTUAL_POWER_PDO\4&3A2A4394&0&0
+HardwareID             : {USB4\VIRTUAL_POWER_PDO&VID_8086&PID_E434&REV_0001, USB4\VIRTUAL_POWER_PDO&VID_8086&PID_E434, 
+                         USB4\VIRTUAL_POWER_PDO}
+PNPDeviceID            : USB4\VIRTUAL_POWER_PDO\4&3A2A4394&0&0
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : ACPI 睡眠按钮
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0E\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0E, ACPI\PNP0C0E, *PNP0C0E}
+PNPDeviceID            : ACPI\PNP0C0E\2&DABA3FF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft 虚拟机监控程序服务
+CompatibleID           : 
+DeviceID               : ROOT\HVSERVICE\0000
+HardwareID             : {ROOT\hvservice}
+PNPDeviceID            : ROOT\HVSERVICE\0000
+PNPClass               : System
+Service                : hvservice
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Cirrus Logic XU
+CompatibleID           : 
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA&DYNAM
+                         ICENUMSPEAKER0\8&11FDC44&0&00001700
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA&Dyna
+                         micEnumSpeaker0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&Dyna
+                         micEnumSpeaker0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&DynamicEnumSpeaker
+                         0, SOUNDWIRE\DynamicEnumChild}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA&DYNAM
+                         ICENUMSPEAKER0\8&11FDC44&0&00001700
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : ACPI 热区域
+CompatibleID           : 
+DeviceID               : ACPI\THERMALZONE\TZ00
+HardwareID             : {ACPI\ThermalZone, *ThermalZone}
+PNPDeviceID            : ACPI\THERMALZONE\TZ00
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : ACPI 热区域
+CompatibleID           : 
+DeviceID               : ACPI\THERMALZONE\TZ01
+HardwareID             : {ACPI\ThermalZone, *ThermalZone}
+PNPDeviceID            : ACPI\THERMALZONE\TZ01
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\DSARDEV
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\DSARDEV
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的系统控制器
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL05\3&2DA7FFFA&0&0004
+HardwareID             : {HID\INTC816&Col05, HID\VID_8087&UP:0001_U:0080, HID_DEVICE_SYSTEM_CONTROL, HID_DEVICE_UP:0001
+                         _U:0080...}
+PNPDeviceID            : HID\INTC816&COL05\3&2DA7FFFA&0&0004
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_8086&DEV_E437&REV_01, PCI\VEN_8086&DEV_E437, PCI\VEN_8086&CC_060400, PCI\VEN_8086&CC_
+                         0604...}
+DeviceID               : PCI\VEN_8086&DEV_E437&SUBSYS_383117AA&REV_01\3&11583659&0&3B
+HardwareID             : {PCI\VEN_8086&DEV_E437&SUBSYS_383117AA&REV_01, PCI\VEN_8086&DEV_E437&SUBSYS_383117AA, PCI\VEN_
+                         8086&DEV_E437&CC_060400, PCI\VEN_8086&DEV_E437&CC_0604}
+PNPDeviceID            : PCI\VEN_8086&DEV_E437&SUBSYS_383117AA&REV_01\3&11583659&0&3B
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Intel(R) Serial IO I2C Host Controller - E450
+CompatibleID           : {PCI\VEN_8086&DEV_E450&REV_01, PCI\VEN_8086&DEV_E450, PCI\VEN_8086&CC_0C8000, PCI\VEN_8086&CC_
+                         0C80...}
+DeviceID               : PCI\VEN_8086&DEV_E450&SUBSYS_381017AA&REV_01\3&11583659&0&C8
+HardwareID             : {PCI\VEN_8086&DEV_E450&SUBSYS_381017AA&REV_01, PCI\VEN_8086&DEV_E450&SUBSYS_381017AA, PCI\VEN_
+                         8086&DEV_E450&CC_0C8000, PCI\VEN_8086&DEV_E450&CC_0C80}
+PNPDeviceID            : PCI\VEN_8086&DEV_E450&SUBSYS_381017AA&REV_01\3&11583659&0&C8
+PNPClass               : System
+Service                : iaLPSS2_I2C_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\4
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\4
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : GPIO 笔记本电脑或平板电脑指示器驱动程序
+CompatibleID           : {ACPI\PNP0C60, PNP0C60}
+DeviceID               : ACPI\INT33D3\5&15D725F4&0
+HardwareID             : {ACPI\VEN_INT&DEV_33D3, ACPI\INT33D3, *INT33D3}
+PNPDeviceID            : ACPI\INT33D3\5&15D725F4&0
+PNPClass               : HIDClass
+Service                : msgpiowin32
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 
+CompatibleID           : 
+DeviceID               : USB4\VIRTUAL_POWER_PDO\4&E78E2C4&0&0
+HardwareID             : {USB4\VIRTUAL_POWER_PDO&VID_8086&PID_E433&REV_0001, USB4\VIRTUAL_POWER_PDO&VID_8086&PID_E433, 
+                         USB4\VIRTUAL_POWER_PDO}
+PNPDeviceID            : USB4\VIRTUAL_POWER_PDO\4&E78E2C4&0&0
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : Intel(R) Integrated Sensor Solution
+CompatibleID           : {PCI\VEN_8086&DEV_E445&REV_01, PCI\VEN_8086&DEV_E445, PCI\VEN_8086&CC_070000, PCI\VEN_8086&CC_
+                         0700...}
+DeviceID               : PCI\VEN_8086&DEV_E445&SUBSYS_381F17AA&REV_01\3&11583659&0&90
+HardwareID             : {PCI\VEN_8086&DEV_E445&SUBSYS_381F17AA&REV_01, PCI\VEN_8086&DEV_E445&SUBSYS_381F17AA, PCI\VEN_
+                         8086&DEV_E445&CC_070000, PCI\VEN_8086&DEV_E445&CC_0700}
+PNPDeviceID            : PCI\VEN_8086&DEV_E445&SUBSYS_381F17AA&REV_01\3&11583659&0&90
+PNPClass               : System
+Service                : IshOed
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : HID 传感器集合 V2
+CompatibleID           : 
+DeviceID               : HID\VID_8087&PID_0AC2\7&6C7C54D&0&0000
+HardwareID             : {HID\Vid_8087&Pid_0AC2, HID\VID_8087&UP:0020_U:0001, HID_DEVICE_UP:0020_U:0001, HID_DEVICE}
+PNPDeviceID            : HID\VID_8087&PID_0AC2\7&6C7C54D&0&0000
+PNPClass               : Sensor
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Idea5004
+CompatibleID           : {USB\MS_COMP_WINUSB, USB\COMPAT_VID_17ef&Class_ff&SubClass_00&Prot_00, USB\COMPAT_VID_17ef&Cla
+                         ss_ff&SubClass_00, USB\COMPAT_VID_17ef&Class_ff...}
+DeviceID               : USB\VID_17EF&PID_F010&MI_00\6&394425CE&0&0000
+HardwareID             : {USB\VID_17EF&PID_F010&REV_0307&MI_00, USB\VID_17EF&PID_F010&MI_00}
+PNPDeviceID            : USB\VID_17EF&PID_F010&MI_00\6&394425CE&0&0000
+PNPClass               : USBDevice
+Service                : WINUSB
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : WinUSB 设备
+
+Caption                : UCM-UCSI ACPI 设备
+CompatibleID           : {*PNP0CA0}
+DeviceID               : ACPI\USBC000\0
+HardwareID             : {ACPI\VEN_USB&DEV_C000, ACPI\USBC000, *USBC000}
+PNPDeviceID            : ACPI\USBC000\0
+PNPClass               : UCM
+Service                : UcmUcsiAcpiClient
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) Innovation Platform Framework Extensible Framework
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\IPFEFEXTCOMPONENT&4&2471F958&0
+HardwareID             : {SWC\VID8086_IPFEF_1.0}
+PNPDeviceID            : SWD\DRIVERENUM\IPFEFEXTCOMPONENT&4&2471F958&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Intel(R) ISS HID Device
+CompatibleID           : {{DEA5AE2A-D1FD-438A-A091-CBD484788436}\ISH_HID_MINI}
+DeviceID               : {DEA5AE2A-D1FD-438A-A091-CBD484788436}\VID_8087&PID_0AC2\6&3AA2AA43&0&00
+HardwareID             : {{DEA5AE2A-D1FD-438A-A091-CBD484788436}\Vid_8087&Pid_0AC2}
+PNPDeviceID            : {DEA5AE2A-D1FD-438A-A091-CBD484788436}\VID_8087&PID_0AC2\6&3AA2AA43&0&00
+PNPClass               : HIDClass
+Service                : IshHidMini
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Intel(R) ISS HID Device
+CompatibleID           : {{DEA5AE2A-D1FD-438A-A091-CBD484788436}\ISH_HID_MINI}
+DeviceID               : {DEA5AE2A-D1FD-438A-A091-CBD484788436}\VID_8087&PID_0AC2\6&3AA2AA43&0&01
+HardwareID             : {{DEA5AE2A-D1FD-438A-A091-CBD484788436}\Vid_8087&Pid_0AC2}
+PNPDeviceID            : {DEA5AE2A-D1FD-438A-A091-CBD484788436}\VID_8087&PID_0AC2\6&3AA2AA43&0&01
+PNPClass               : HIDClass
+Service                : IshHidMini
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL0D\3&2DA7FFFA&0&000C
+HardwareID             : {HID\INTC816&Col0D, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL0D\3&2DA7FFFA&0&000C
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 通用软件组件
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{96BEDF2C-18CB-4A15-B821-5E95ED0FEA61}#VOCAEFFECTPACK&1&1A7A538E&0
+HardwareID             : {SWC\VEN_MSFT&AUDIO_EFFECTPACK_VOICECLARITY}
+PNPDeviceID            : SWD\DRIVERENUM\{96BEDF2C-18CB-4A15-B821-5E95ED0FEA61}#VOCAEFFECTPACK&1&1A7A538E&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Cirrus Logic XU
+CompatibleID           : 
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA&DYNAM
+                         ICENUMSPEAKER0\8&1C3C6884&0&00000E00
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA&Dyna
+                         micEnumSpeaker0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_00&Dyna
+                         micEnumSpeaker0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&DynamicEnumSpeaker
+                         0, SOUNDWIRE\DynamicEnumChild}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA&DYNAM
+                         ICENUMSPEAKER0\8&1C3C6884&0&00000E00
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft Hyper-V 虚拟化基础结构驱动程序
+CompatibleID           : 
+DeviceID               : ROOT\VID\0000
+HardwareID             : {ROOT\VID}
+PNPDeviceID            : ROOT\VID\0000
+PNPClass               : System
+Service                : Vid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 扬声器 (Cirrus Logic XU (with APO Extensions))
+CompatibleID           : {GenericAudioEndpoint, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\MMDEVAPI\{0.0.0.00000000}.{89A54AF3-887E-4BAC-AE67-02453225806E}
+HardwareID             : {MMDEVAPI\AudioEndpoints}
+PNPDeviceID            : SWD\MMDEVAPI\{0.0.0.00000000}.{89A54AF3-887E-4BAC-AE67-02453225806E}
+PNPClass               : AudioEndpoint
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 高精度事件计时器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0103\0
+HardwareID             : {ACPI\VEN_PNP&DEV_0103, ACPI\PNP0103, *PNP0103}
+PNPDeviceID            : ACPI\PNP0103\0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#000000001D300000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#000000001D300000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{A9898AFA-EF58-48FE-B09A-F476AFCE467C}\0
+HardwareID             : {UEFI\RES_{a9898afa-ef58-48fe-b09a-f476afce467c}&REV_0, UEFI\RES_{a9898afa-ef58-48fe-b09a-f476
+                         afce467c}}
+PNPDeviceID            : UEFI\RES_{A9898AFA-EF58-48FE-B09A-F476AFCE467C}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Lenovo Yoga Mode Control Device
+CompatibleID           : 
+DeviceID               : ACPI\YMC2017\0
+HardwareID             : {ACPI\VEN_YMC&DEV_2017, ACPI\YMC2017, *YMC2017}
+PNPDeviceID            : ACPI\YMC2017\0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : Windows Studio Effects Camera
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\MEP_CAMERA_COMPONENT&5&C9F2D3&0
+HardwareID             : {SWC\MEP_CAM&VEN_8086_DEV_B03E}
+PNPDeviceID            : SWD\DRIVERENUM\MEP_CAMERA_COMPONENT&5&C9F2D3&0
+PNPClass               : SoftwareComponent
+Service                : UmPass
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft Corporation
+
+Caption                : HID-compliant mouse
+CompatibleID           : 
+DeviceID               : HID\CIRQ1080&COL01\5&2357D07D&0&0000
+HardwareID             : {HID\VEN_CIRQ&DEV_1080&SUBSYS_CIRQ0001&Col01, HID\CIRQ1080&Col01, HID\*CIRQ1080&Col01, HID\VID
+                         _0488&UP:0001_U:0002...}
+PNPDeviceID            : HID\CIRQ1080&COL01\5&2357D07D&0&0000
+PNPClass               : Mouse
+Service                : mouhid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PS/2 标准键盘
+CompatibleID           : {*PNP0303}
+DeviceID               : ACPI\IDEA0100\4&62F9C21&0
+HardwareID             : {ACPI\VEN_IDEA&DEV_0100, ACPI\IDEA0100, *IDEA0100}
+PNPDeviceID            : ACPI\IDEA0100\4&62F9C21&0
+PNPClass               : Keyboard
+Service                : i8042prt
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准键盘)
+
+Caption                : 复合总线枚举器
+CompatibleID           : 
+DeviceID               : ROOT\COMPOSITEBUS\0000
+HardwareID             : {ROOT\CompositeBus}
+PNPDeviceID            : ROOT\COMPOSITEBUS\0000
+PNPClass               : System
+Service                : CompositeBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : HID 传感器集合 V2
+CompatibleID           : 
+DeviceID               : HID\VEN_ELAS&DEV_E551&SUBSYS_17AA3809\4&6C4894C&0&0000
+HardwareID             : {HID\VEN_ELAS&DEV_E551&SUBSYS_17AA3809, HID\VID_2807&UP:0020_U:0001, HID_DEVICE_UP:0020_U:0001
+                         , HID_DEVICE}
+PNPDeviceID            : HID\VEN_ELAS&DEV_E551&SUBSYS_17AA3809\4&6C4894C&0&0000
+PNPClass               : Sensor
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : DolbyAPO Software Device (HSA)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3HSA_DOLBYSETTINGS&9&29C8EC9
+                         F&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3HSA_DolbySettings}
+PNPDeviceID            : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3HSA_DOLBYSETTINGS&9&29C8EC9
+                         F&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : Microsoft 虚拟驱动器枚举器
+CompatibleID           : 
+DeviceID               : ROOT\VDRVROOT\0000
+HardwareID             : {ROOT\vdrvroot}
+PNPDeviceID            : ROOT\VDRVROOT\0000
+PNPClass               : System
+Service                : vdrvroot
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) Wi-Fi 7 BE211 320MHz
+CompatibleID           : {PCI\VEN_8086&DEV_E440&REV_01, PCI\VEN_8086&DEV_E440, PCI\VEN_8086&CC_028000, PCI\VEN_8086&CC_
+                         0280...}
+DeviceID               : PCI\VEN_8086&DEV_E440&SUBSYS_01108086&REV_01\3&11583659&0&A3
+HardwareID             : {PCI\VEN_8086&DEV_E440&SUBSYS_01108086&REV_01, PCI\VEN_8086&DEV_E440&SUBSYS_01108086, PCI\VEN_
+                         8086&DEV_E440&CC_028000, PCI\VEN_8086&DEV_E440&CC_0280}
+PNPDeviceID            : PCI\VEN_8086&DEV_E440&SUBSYS_01108086&REV_01\3&11583659&0&A3
+PNPClass               : Net
+Service                : Netwnw18
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : 标准 NVM Express 控制器
+CompatibleID           : {PCI\VEN_1344&DEV_5429&REV_01, PCI\VEN_1344&DEV_5429, PCI\VEN_1344&CC_010802, PCI\VEN_1344&CC_
+                         0108...}
+DeviceID               : PCI\VEN_1344&DEV_5429&SUBSYS_21001344&REV_01\4&B89A0EB&0&00E0
+HardwareID             : {PCI\VEN_1344&DEV_5429&SUBSYS_21001344&REV_01, PCI\VEN_1344&DEV_5429&SUBSYS_21001344, PCI\VEN_
+                         1344&DEV_5429&CC_010802, PCI\VEN_1344&DEV_5429&CC_0108}
+PNPDeviceID            : PCI\VEN_1344&DEV_5429&SUBSYS_21001344&REV_01\4&B89A0EB&0&00E0
+PNPClass               : SCSIAdapter
+Service                : stornvme
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 标准 NVM Express 控制器
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{832AF090-2EF9-7C47-8F6D-B405C8C7F156}\0
+HardwareID             : {UEFI\RES_{832af090-2ef9-7c47-8f6d-b405c8c7f156}&REV_0, UEFI\RES_{832af090-2ef9-7c47-8f6d-b405
+                         c8c7f156}}
+PNPDeviceID            : UEFI\RES_{832AF090-2EF9-7C47-8F6D-B405C8C7F156}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft AC 适配器
+CompatibleID           : 
+DeviceID               : ACPI\ACPI0003\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_ACPI&DEV_0003, ACPI\ACPI0003, *ACPI0003}
+PNPDeviceID            : ACPI\ACPI0003\2&DABA3FF&0
+PNPClass               : Battery
+Service                : CmBatt
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft 存储空间控制器
+CompatibleID           : {DETECTEDInternal\spaceport, DETECTED\spaceport}
+DeviceID               : ROOT\SPACEPORT\0000
+HardwareID             : {Root\Spaceport}
+PNPDeviceID            : ROOT\SPACEPORT\0000
+PNPClass               : SCSIAdapter
+Service                : spaceport
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 英特尔? 智音技术 OED
+CompatibleID           : {INTELAUDIO\DIF_000B&UIF_0000&DSP_CTLR_DEV_E428&VEN_8086&DEV_0222, INTELAUDIO\DSP_CTLR_DEV_EXT
+                         _E428&VEN_8086&DEV_0222&SUBSYS_380917AA, INTELAUDIO\DSP_CTLR_DEV_EXT_E428&VEN_8086&DEV_0222}
+DeviceID               : INTELAUDIO\DSP_CTLR_DEV_E428&VEN_8086&DEV_0222&SUBSYS_380917AA&REV_0001\4&35EB79C3&0&0800DIF_0
+                         00B&UIF_0000
+HardwareID             : {INTELAUDIO\DSP_CTLR_DEV_E428&VEN_8086&DEV_0222&SUBSYS_380917AA&REV_0001, INTELAUDIO\DSP_CTLR_
+                         DEV_E428&VEN_8086&DEV_0222&SUBSYS_380917AA}
+PNPDeviceID            : INTELAUDIO\DSP_CTLR_DEV_E428&VEN_8086&DEV_0222&SUBSYS_380917AA&REV_0001\4&35EB79C3&0&0800DIF_0
+                         00B&UIF_0000
+PNPClass               : System
+Service                : IntcOED
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{993BD1CE-03D4-7747-8565-7EBB67B714FE}\0
+HardwareID             : {UEFI\RES_{993bd1ce-03d4-7747-8565-7ebb67b714fe}&REV_71290015, UEFI\RES_{993bd1ce-03d4-7747-85
+                         65-7ebb67b714fe}}
+PNPDeviceID            : UEFI\RES_{993BD1CE-03D4-7747-8565-7EBB67B714FE}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) PPM Provisioning Package
+CompatibleID           : 
+DeviceID               : SWC\VID8086_PPM_1008_1.0\00
+HardwareID             : {SWC\VID8086_PPM_1008_1.0}
+PNPDeviceID            : SWC\VID8086_PPM_1008_1.0\00
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Headset Earphone on SDW
+CompatibleID           : 
+DeviceID               : {A8E1BC37-A331-4A8D-A718-2EF1C496807D}\STREAMING_HEADSETOUTPUT&{3162E510-C67C-11F0-9D67-BEAAE2
+                         0FCB14}\6&FE2664&0
+HardwareID             : {{a8e1bc37-a331-4a8d-a718-2ef1c496807d}\Streaming_HeadsetOutput&{3162e510-c67c-11f0-9d67-beaae
+                         20fcb14}, {a8e1bc37-a331-4a8d-a718-2ef1c496807d}\Streaming_HeadsetOutput}
+PNPDeviceID            : {A8E1BC37-A331-4A8D-A718-2EF1C496807D}\STREAMING_HEADSETOUTPUT&{3162E510-C67C-11F0-9D67-BEAAE2
+                         0FCB14}\6&FE2664&0
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : 可编程中断控制器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0000\4&62F9C21&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0000, ACPI\PNP0000, *PNP0000}
+PNPDeviceID            : ACPI\PNP0000\4&62F9C21&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Intel(R) Innovation Platform Framework Generic Participant
+CompatibleID           : 
+DeviceID               : ACPI\INTC10D5\SEN1
+HardwareID             : {ACPI\VEN_INTC&DEV_10D5, ACPI\INTC10D5, *INTC10D5}
+PNPDeviceID            : ACPI\INTC10D5\SEN1
+PNPClass               : System
+Service                : ipf_acpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Intel(R) Innovation Platform Framework Generic Participant
+CompatibleID           : 
+DeviceID               : ACPI\INTC10D5\SEN2
+HardwareID             : {ACPI\VEN_INTC&DEV_10D5, ACPI\INTC10D5, *INTC10D5}
+PNPDeviceID            : ACPI\INTC10D5\SEN2
+PNPClass               : System
+Service                : ipf_acpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Intel(R) Innovation Platform Framework Generic Participant
+CompatibleID           : 
+DeviceID               : ACPI\INTC10D5\SEN3
+HardwareID             : {ACPI\VEN_INTC&DEV_10D5, ACPI\INTC10D5, *INTC10D5}
+PNPDeviceID            : ACPI\INTC10D5\SEN3
+PNPClass               : System
+Service                : ipf_acpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Intel(R) Silicon Security Engine Interface
+CompatibleID           : {PCI\VEN_8086&DEV_E45D&REV_01, PCI\VEN_8086&DEV_E45D, PCI\VEN_8086&CC_078000, PCI\VEN_8086&CC_
+                         0780...}
+DeviceID               : PCI\VEN_8086&DEV_E45D&SUBSYS_381417AA&REV_01\3&11583659&0&C0
+HardwareID             : {PCI\VEN_8086&DEV_E45D&SUBSYS_381417AA&REV_01, PCI\VEN_8086&DEV_E45D&SUBSYS_381417AA, PCI\VEN_
+                         8086&DEV_E45D&CC_078000, PCI\VEN_8086&DEV_E45D&CC_0780}
+PNPDeviceID            : PCI\VEN_8086&DEV_E45D&SUBSYS_381417AA&REV_01\3&11583659&0&C0
+PNPClass               : System
+Service                : issei
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Microsoft Kernel Debug Network Adapter
+CompatibleID           : 
+DeviceID               : ROOT\KDNIC\0000
+HardwareID             : {root\kdnic}
+PNPDeviceID            : ROOT\KDNIC\0000
+PNPClass               : Net
+Service                : kdnic
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Speaker on SDW
+CompatibleID           : 
+DeviceID               : {A8E1BC37-A331-4A8D-A718-2EF1C496807D}\STREAMING_SPEAKER&{2196E703-C67D-11F0-9D68-B85CD7F59E3A
+                         }\6&FE2664&0
+HardwareID             : {{a8e1bc37-a331-4a8d-a718-2ef1c496807d}\Streaming_Speaker&{2196e703-c67d-11f0-9d68-b85cd7f59e3
+                         a}, {a8e1bc37-a331-4a8d-a718-2ef1c496807d}\Streaming_Speaker}
+PNPDeviceID            : {A8E1BC37-A331-4A8D-A718-2EF1C496807D}\STREAMING_SPEAKER&{2196E703-C67D-11F0-9D68-B85CD7F59E3A
+                         }\6&FE2664&0
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : 通用卷影复制
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT1
+HardwareID             : {STORAGE\VolumeSnapshot}
+PNPDeviceID            : STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT1
+PNPClass               : VolumeSnapshot
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : ACPI 盖子
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0D\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0D, ACPI\PNP0C0D, *PNP0C0D}
+PNPDeviceID            : ACPI\PNP0C0D\2&DABA3FF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Genuine Intel(R) 0000
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\0
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\GenuineIntel_-_Intel64_Family_6_Model_204, *GenuineIntel_-_Intel
+                         64_Family_6_Model_204, ACPI\GenuineIntel_-_Intel64_Family_6...}
+PNPDeviceID            : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\0
+PNPClass               : Processor
+Service                : intelppm
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Genuine Intel(R) 0000
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\1
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\GenuineIntel_-_Intel64_Family_6_Model_204, *GenuineIntel_-_Intel
+                         64_Family_6_Model_204, ACPI\GenuineIntel_-_Intel64_Family_6...}
+PNPDeviceID            : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\1
+PNPClass               : Processor
+Service                : intelppm
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Genuine Intel(R) 0000
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\2
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\GenuineIntel_-_Intel64_Family_6_Model_204, *GenuineIntel_-_Intel
+                         64_Family_6_Model_204, ACPI\GenuineIntel_-_Intel64_Family_6...}
+PNPDeviceID            : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\2
+PNPClass               : Processor
+Service                : intelppm
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Genuine Intel(R) 0000
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\3
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\GenuineIntel_-_Intel64_Family_6_Model_204, *GenuineIntel_-_Intel
+                         64_Family_6_Model_204, ACPI\GenuineIntel_-_Intel64_Family_6...}
+PNPDeviceID            : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\3
+PNPClass               : Processor
+Service                : intelppm
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Genuine Intel(R) 0000
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\4
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\GenuineIntel_-_Intel64_Family_6_Model_204, *GenuineIntel_-_Intel
+                         64_Family_6_Model_204, ACPI\GenuineIntel_-_Intel64_Family_6...}
+PNPDeviceID            : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\4
+PNPClass               : Processor
+Service                : intelppm
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Genuine Intel(R) 0000
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\5
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\GenuineIntel_-_Intel64_Family_6_Model_204, *GenuineIntel_-_Intel
+                         64_Family_6_Model_204, ACPI\GenuineIntel_-_Intel64_Family_6...}
+PNPDeviceID            : ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_204_-_GENUINE_INTEL(R)_0000\5
+PNPClass               : Processor
+Service                : intelppm
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : DolbyAPO Software Device (HSA)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3HSA_DOLBYACCESSOEM&9&29C8EC
+                         9F&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAccessOEM}
+PNPDeviceID            : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3HSA_DOLBYACCESSOEM&9&29C8EC
+                         9F&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\VID_17EF&PID_F010&MI_01&COL01\7&2742ABFD&0&0000
+HardwareID             : {HID\VID_17EF&PID_F010&REV_0307&MI_01&Col01, HID\VID_17EF&PID_F010&MI_01&Col01, HID\VID_17EF&U
+                         P:FFCF_U:0080, HID_DEVICE_UP:FFCF_U:0080...}
+PNPDeviceID            : HID\VID_17EF&PID_F010&MI_01&COL01\7&2742ABFD&0&0000
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Intel(R) Connectivity Performance Suite
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{22D4D930-0FF9-4DAB-A3E6-DC69BE9B7D72}#ICPS&4&A9297E9&0
+HardwareID             : {SWC\VID_8086&PID_ICPS&SID_0002}
+PNPDeviceID            : SWD\DRIVERENUM\{22D4D930-0FF9-4DAB-A3E6-DC69BE9B7D72}#ICPS&4&A9297E9&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#000000EDFAA00000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#000000EDFAA00000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) SMBus Controller - E422
+CompatibleID           : {PCI\VEN_8086&DEV_E422&REV_01, PCI\VEN_8086&DEV_E422, PCI\VEN_8086&CC_0C0500, PCI\VEN_8086&CC_
+                         0C05...}
+DeviceID               : PCI\VEN_8086&DEV_E422&SUBSYS_382117AA&REV_01\3&11583659&0&FC
+HardwareID             : {PCI\VEN_8086&DEV_E422&SUBSYS_382117AA&REV_01, PCI\VEN_8086&DEV_E422&SUBSYS_382117AA, PCI\VEN_
+                         8086&DEV_E422&CC_0C0500, PCI\VEN_8086&DEV_E422&CC_0C05}
+PNPDeviceID            : PCI\VEN_8086&DEV_E422&SUBSYS_382117AA&REV_01\3&11583659&0&FC
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : INTEL
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\LSK20
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\LSK20
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Windows Studio Effects Driver
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{602225F0-B80E-4FC4-9620-C8C6FA7FB6AA}#VEN_8086_DEV_B03E_COMPONENT&4&8FD68CB&0
+HardwareID             : {SWC\MEP_VEN_8086_DEV_B03E}
+PNPDeviceID            : SWD\DRIVERENUM\{602225F0-B80E-4FC4-9620-C8C6FA7FB6AA}#VEN_8086_DEV_B03E_COMPONENT&4&8FD68CB&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft Corporation
+
+Caption                : HID Keyboard Device
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL01\3&2DA7FFFA&0&0000
+HardwareID             : {HID\INTC816&Col01, HID\VID_8087&UP:0001_U:0006, HID_DEVICE_SYSTEM_KEYBOARD, HID_DEVICE_UP:000
+                         1_U:0006...}
+PNPDeviceID            : HID\INTC816&COL01\3&2DA7FFFA&0&0000
+PNPClass               : Keyboard
+Service                : kbdhid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准键盘)
+
+Caption                : Intel(R) Management Engine Interface #1
+CompatibleID           : {PCI\VEN_8086&DEV_E470&REV_01, PCI\VEN_8086&DEV_E470, PCI\VEN_8086&CC_078000, PCI\VEN_8086&CC_
+                         0780...}
+DeviceID               : PCI\VEN_8086&DEV_E470&SUBSYS_380317AA&REV_01\3&11583659&0&B0
+HardwareID             : {PCI\VEN_8086&DEV_E470&SUBSYS_380317AA&REV_01, PCI\VEN_8086&DEV_E470&SUBSYS_380317AA, PCI\VEN_
+                         8086&DEV_E470&CC_078000, PCI\VEN_8086&DEV_E470&CC_0780}
+PNPDeviceID            : PCI\VEN_8086&DEV_E470&SUBSYS_380317AA&REV_01\3&11583659&0&B0
+PNPClass               : System
+Service                : MEIx64
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : ACPI 唤醒警报
+CompatibleID           : 
+DeviceID               : ACPI\ACPI000E\3&11583659&0
+HardwareID             : {ACPI\VEN_ACPI&DEV_000E, ACPI\ACPI000E, *ACPI000E}
+PNPDeviceID            : ACPI\ACPI000E\3&11583659&0
+PNPClass               : System
+Service                : acpitime
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Cirrus Logic XU
+CompatibleID           : 
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_01&SUBSYS_380917AA&DYNAM
+                         ICENUMSPEAKER0\8&169AD261&0&00000E00
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_01&SUBSYS_380917AA&Dyna
+                         micEnumSpeaker0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_01&Dyna
+                         micEnumSpeaker0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&DynamicEnumSpeaker
+                         0, SOUNDWIRE\DynamicEnumChild}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_01&SUBSYS_380917AA&DYNAM
+                         ICENUMSPEAKER0\8&169AD261&0&00000E00
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL06\3&2DA7FFFA&0&0005
+HardwareID             : {HID\INTC816&Col06, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL06\3&2DA7FFFA&0&0005
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) LPC/eSPI - E401
+CompatibleID           : {PCI\VEN_8086&DEV_E401&REV_01, PCI\VEN_8086&DEV_E401, PCI\VEN_8086&CC_060100, PCI\VEN_8086&CC_
+                         0601...}
+DeviceID               : PCI\VEN_8086&DEV_E401&SUBSYS_381317AA&REV_01\3&11583659&0&F8
+HardwareID             : {PCI\VEN_8086&DEV_E401&SUBSYS_381317AA&REV_01, PCI\VEN_8086&DEV_E401&SUBSYS_381317AA, PCI\VEN_
+                         8086&DEV_E401&CC_060100, PCI\VEN_8086&DEV_E401&CC_0601}
+PNPDeviceID            : PCI\VEN_8086&DEV_E401&SUBSYS_381317AA&REV_01\3&11583659&0&F8
+PNPClass               : System
+Service                : msisadrv
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : INTEL
+
+Caption                : Intel(R) Innovation Platform Framework Manager
+CompatibleID           : 
+DeviceID               : ACPI\INTC10D4\IETM
+HardwareID             : {ACPI\VEN_INTC&DEV_10D4, ACPI\INTC10D4, *INTC10D4}
+PNPDeviceID            : ACPI\INTC10D4\IETM
+PNPClass               : System
+Service                : ipf_acpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : USB 大容量存储设备
+CompatibleID           : {USB\COMPAT_VID_0781&Class_08&SubClass_06&Prot_50, USB\COMPAT_VID_0781&Class_08&SubClass_06, U
+                         SB\COMPAT_VID_0781&Class_08, USB\Class_08&SubClass_06&Prot_50...}
+DeviceID               : USB\VID_0781&PID_55A3\0401C25BDAC3B1916C542A0C816C060D802EF3A53CCCA48D2DB9BC28F392A5AEE2E10000
+                         0000000000000000367008FCFF0E2B18A355810738AEBA51
+HardwareID             : {USB\VID_0781&PID_55A3&REV_0100, USB\VID_0781&PID_55A3}
+PNPDeviceID            : USB\VID_0781&PID_55A3\0401C25BDAC3B1916C542A0C816C060D802EF3A53CCCA48D2DB9BC28F392A5AEE2E10000
+                         0000000000000000367008FCFF0E2B18A355810738AEBA51
+PNPClass               : USB
+Service                : USBSTOR
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 兼容 USB 存储设备
+
+Caption                : Intel(R) Innovation Platform Framework Generic Participant
+CompatibleID           : 
+DeviceID               : ACPI\INTC10D5\CHRG
+HardwareID             : {ACPI\VEN_INTC&DEV_10D5, ACPI\INTC10D5, *INTC10D5}
+PNPDeviceID            : ACPI\INTC10D5\CHRG
+PNPClass               : System
+Service                : ipf_acpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : U盘
+CompatibleID           : {wpdbusenum\fs, SWD\Generic}
+DeviceID               : SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN__USB&PROD__SANDISK_3.2GEN1&REV_1.00#0401C25BDAC3B1916C542A
+                         0C816C060D802EF3A53CCCA48D2DB9BC28F392A5A#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}
+HardwareID             : 
+PNPDeviceID            : SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN__USB&PROD__SANDISK_3.2GEN1&REV_1.00#0401C25BDAC3B1916C542A
+                         0C816C060D802EF3A53CCCA48D2DB9BC28F392A5A#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}
+PNPClass               : WPD
+Service                : WUDFWpdFs
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           :  USB
+
+Caption                : 系统固件
+CompatibleID           : {UEFI\CC_00010001, GenFirmwareResource}
+DeviceID               : UEFI\RES_{BE248459-CAF2-4B09-AF02-69B6A49974C1}\0
+HardwareID             : {UEFI\RES_{be248459-caf2-4b09-af02-69b6a49974c1}&REV_71290015, UEFI\RES_{be248459-caf2-4b09-af
+                         02-69b6a49974c1}}
+PNPDeviceID            : UEFI\RES_{BE248459-CAF2-4B09-AF02-69B6A49974C1}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) USB 3.20 可扩展主机控制器 - 1.20 (Microsoft)
+CompatibleID           : {PCI\VEN_8086&DEV_E431&REV_01, PCI\VEN_8086&DEV_E431, PCI\VEN_8086&CC_0C0330, PCI\VEN_8086&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_8086&DEV_E431&SUBSYS_382717AA&REV_01\3&11583659&0&68
+HardwareID             : {PCI\VEN_8086&DEV_E431&SUBSYS_382717AA&REV_01, PCI\VEN_8086&DEV_E431&SUBSYS_382717AA, PCI\VEN_
+                         8086&DEV_E431&CC_0C0330, PCI\VEN_8086&DEV_E431&CC_0C03}
+PNPDeviceID            : PCI\VEN_8086&DEV_E431&SUBSYS_382717AA&REV_01\3&11583659&0&68
+PNPClass               : USB
+Service                : USBXHCI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB xHCI 主机控制器
+
+Caption                : Facial Recognition (Windows Hello) Software Device
+CompatibleID           : 
+DeviceID               : ROOT\WINDOWSHELLOFACESOFTWAREDRIVER\0000
+HardwareID             : {Root\WindowsHelloFaceSoftwareDriver}
+PNPDeviceID            : ROOT\WINDOWSHELLOFACESOFTWAREDRIVER\0000
+PNPClass               : Biometric
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#000000001C300000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#000000001C300000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI 标准 RAM 控制器
+CompatibleID           : {PCI\VEN_8086&DEV_E47F&REV_01, PCI\VEN_8086&DEV_E47F, PCI\VEN_8086&CC_050000, PCI\VEN_8086&CC_
+                         0500...}
+DeviceID               : PCI\VEN_8086&DEV_E47F&SUBSYS_382617AA&REV_01\3&11583659&0&A2
+HardwareID             : {PCI\VEN_8086&DEV_E47F&SUBSYS_382617AA&REV_01, PCI\VEN_8086&DEV_E47F&SUBSYS_382617AA, PCI\VEN_
+                         8086&DEV_E47F&CC_050000, PCI\VEN_8086&DEV_E47F&CC_0500}
+PNPDeviceID            : PCI\VEN_8086&DEV_E47F&SUBSYS_382617AA&REV_01\3&11583659&0&A2
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : USB 输入设备
+CompatibleID           : {USB\COMPAT_VID_17ef&Class_03&SubClass_00&Prot_00, USB\COMPAT_VID_17ef&Class_03&SubClass_00, U
+                         SB\COMPAT_VID_17ef&Class_03, USB\Class_03&SubClass_00&Prot_00...}
+DeviceID               : USB\VID_17EF&PID_F010&MI_01\6&394425CE&0&0001
+HardwareID             : {USB\VID_17EF&PID_F010&REV_0307&MI_01, USB\VID_17EF&PID_F010&MI_01}
+PNPDeviceID            : USB\VID_17EF&PID_F010&MI_01\6&394425CE&0&0001
+PNPClass               : HIDClass
+Service                : HidUsb
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : USB Composite Device
+CompatibleID           : {USB\COMPAT_VID_17EF&DevClass_00&SubClass_00&Prot00, USB\COMPAT_VID_17EF&DevClass_00&SubClass_
+                         00, USB\COMPAT_VID_17EF&DevClass_00, USB\DevClass_00&SubClass_00&Prot_00...}
+DeviceID               : USB\VID_17EF&PID_F010\0123456789ABCDEF
+HardwareID             : {USB\VID_17EF&PID_F010&REV_0307, USB\VID_17EF&PID_F010}
+PNPDeviceID            : USB\VID_17EF&PID_F010\0123456789ABCDEF
+PNPClass               : USB
+Service                : usbccgp
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 主控制器)
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL0E\3&2DA7FFFA&0&000D
+HardwareID             : {HID\INTC816&Col0E, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL0E\3&2DA7FFFA&0&000D
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{64EC2CA6-4AE3-4A6E-B542-27A7E0AA0BA6}\0
+HardwareID             : {UEFI\RES_{64ec2ca6-4ae3-4a6e-b542-27a7e0aa0ba6}&REV_0, UEFI\RES_{64ec2ca6-4ae3-4a6e-b542-27a7
+                         e0aa0ba6}}
+PNPDeviceID            : UEFI\RES_{64EC2CA6-4AE3-4A6E-B542-27A7E0AA0BA6}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\HID_DEVICE_SYSTEM_VHF&COL01\9&1F169A10&0&0000
+HardwareID             : {HID\HID_DEVICE_SYSTEM_VHF&Col01, HID\VID_01FA&PID_4243&Col01, HID\VID_01FA&UP:000C_U:0001, HI
+                         D_DEVICE_SYSTEM_CONSUMER...}
+PNPDeviceID            : HID\HID_DEVICE_SYSTEM_VHF&COL01\9&1F169A10&0&0000
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{DC5D66FE-22A5-427B-9EFC-79B9BD5D0141}\0
+HardwareID             : {UEFI\RES_{dc5d66fe-22a5-427b-9efc-79b9bd5d0141}&REV_5, UEFI\RES_{dc5d66fe-22a5-427b-9efc-79b9
+                         bd5d0141}}
+PNPDeviceID            : UEFI\RES_{DC5D66FE-22A5-427B-9EFC-79B9BD5D0141}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : SpitCameraGroup
+CompatibleID           : {SensorGroup, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\SGDEVAPI\953F92A2B05D3226F87D2966AE2BA8BAB37BCDCD4774AA439E76123837BBD1B7
+HardwareID             : {SGDEVAPI\SensorGroup}
+PNPDeviceID            : SWD\SGDEVAPI\953F92A2B05D3226F87D2966AE2BA8BAB37BCDCD4774AA439E76123837BBD1B7
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : UMBus Root Bus Enumerator
+CompatibleID           : 
+DeviceID               : ROOT\UMBUS\0000
+HardwareID             : {root\umbus}
+PNPDeviceID            : ROOT\UMBUS\0000
+PNPClass               : System
+Service                : umbus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 充电均衡驱动程序
+CompatibleID           : 
+DeviceID               : ROOT\CAD\0000
+HardwareID             : {ROOT\CAD}
+PNPDeviceID            : ROOT\CAD\0000
+PNPClass               : System
+Service                : CAD
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : CTY
+CompatibleID           : {wpdbusenum\fs, SWD\Generic}
+DeviceID               : SWD\WPDBUSENUM\{C984BAA9-C88F-11F0-9D6B-9DFC198C2ED9}#0000001A26300000
+HardwareID             : 
+PNPDeviceID            : SWD\WPDBUSENUM\{C984BAA9-C88F-11F0-9D6B-9DFC198C2ED9}#0000001A26300000
+PNPClass               : WPD
+Service                : WUDFWpdFs
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           :  USB
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL10\3&2DA7FFFA&0&000F
+HardwareID             : {HID\INTC816&Col10, HID\VID_8087&UP:FFB3_U:0010, HID_DEVICE_UP:FFB3_U:0010, HID_DEVICE_UPR:FF0
+                         0-FFFF...}
+PNPDeviceID            : HID\INTC816&COL10\3&2DA7FFFA&0&000F
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : USB4(TM) 主机路由器 (Microsoft)
+CompatibleID           : {PCI\VEN_8086&DEV_E434&REV_01, PCI\VEN_8086&DEV_E434, PCI\VEN_8086&CC_0C0340, PCI\VEN_8086&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_8086&DEV_E434&SUBSYS_383417AA&REV_01&USB4_MS_CM\3&11583659&0&6B
+HardwareID             : {PCI\USB4_MS_CM, PCI\VEN_8086&DEV_E434&SUBSYS_383417AA&REV_01, PCI\VEN_8086&DEV_E434&SUBSYS_38
+                         3417AA, PCI\VEN_8086&DEV_E434&CC_0C0340...}
+PNPDeviceID            : PCI\VEN_8086&DEV_E434&SUBSYS_383417AA&REV_01&USB4_MS_CM\3&11583659&0&6B
+PNPClass               : USB
+Service                : Usb4HostRouter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB4 主机路由器
+
+Caption                : 符合 HID 标准的触摸板
+CompatibleID           : 
+DeviceID               : HID\CIRQ1080&COL02\5&2357D07D&0&0001
+HardwareID             : {HID\VEN_CIRQ&DEV_1080&SUBSYS_CIRQ0001&Col02, HID\CIRQ1080&Col02, HID\*CIRQ1080&Col02, HID\VID
+                         _0488&UP:000D_U:0005...}
+PNPDeviceID            : HID\CIRQ1080&COL02\5&2357D07D&0&0001
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Cirrus Logic XU (with APO Extensions)
+CompatibleID           : 
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&SUBSYS_380917AA&AGGREGATEDSPEAKER\7
+                         &2A167CD6&0&00
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&SUBSYS_380917AA&AGGREGATEDSPEAKER,
+                          SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&AGGREGATEDSPEAKER, SOUNDWIRE\AGGRE
+                         GATEDSPEAKER}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&SUBSYS_380917AA&AGGREGATEDSPEAKER\7
+                         &2A167CD6&0&00
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 英特尔? 智音技术 MIPI SoundWire? 控制器
+CompatibleID           : {INTELAUDIO\DIF_0005&UIF_0000&SDW_CTLR_DEV_E428&VEN_8086&DEV_0333, INTELAUDIO\SDW_CTLR_DEV_E42
+                         8&VEN_8086&DEV_0333}
+DeviceID               : INTELAUDIO\SDW_CTLR_DEV_E428&VEN_8086&DEV_0333\5&2255E73E&0
+HardwareID             : {INTELAUDIO\SDW_CTLR_DEV_E428&VEN_8086&DEV_0333&SUBSYS_380917AA}
+PNPDeviceID            : INTELAUDIO\SDW_CTLR_DEV_E428&VEN_8086&DEV_0333\5&2255E73E&0
+PNPClass               : System
+Service                : IntcSdwBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : Microsoft Radio Device Enumeration Bus
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}
+HardwareID             : 
+PNPDeviceID            : SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft Device Association Root Enumerator
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}
+HardwareID             : 
+PNPDeviceID            : SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 基于 ACPI x64 的电脑
+CompatibleID           : {DETECTEDInternal\ACPI_HAL, DETECTED\ACPI_HAL}
+DeviceID               : ROOT\ACPI_HAL\0000
+HardwareID             : {acpiapic}
+PNPDeviceID            : ROOT\ACPI_HAL\0000
+PNPClass               : Computer
+Service                : \Driver\ACPI_HAL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准计算机)
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\WM00
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\WM00
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Windows Studio Effects Voice Clarity APO
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\MEP_AUDIO_COMPONENT&5&C9F2D3&0
+HardwareID             : {SWC\MEP_AUD&VEN_8086_VOICEFOCUS_V2}
+PNPDeviceID            : SWD\DRIVERENUM\MEP_AUDIO_COMPONENT&5&C9F2D3&0
+PNPClass               : AudioProcessingObject
+Service                : UmPass
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft Corporation
+
+Caption                : XuCsMe Microphone(Ext)
+CompatibleID           : {{2172A9B3-0690-4BB6-88FF-B778E999E04A}}
+DeviceID               : XUCSME\EXTENSIONMICROPHONE\8&11FDC44&0&00
+HardwareID             : {XuCsMe\ExtensionMicrophone}
+PNPDeviceID            : XUCSME\EXTENSIONMICROPHONE\8&11FDC44&0&00
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\LPKG
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\LPKG
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) Innovation Platform Framework Processor Participant
+CompatibleID           : {PCI\VEN_8086&DEV_B01D&REV_06, PCI\VEN_8086&DEV_B01D, PCI\VEN_8086&CC_118000, PCI\VEN_8086&CC_
+                         1180...}
+DeviceID               : PCI\VEN_8086&DEV_B01D&SUBSYS_381B17AA&REV_06\3&11583659&0&20
+HardwareID             : {PCI\VEN_8086&DEV_B01D&SUBSYS_381B17AA&REV_06, PCI\VEN_8086&DEV_B01D&SUBSYS_381B17AA, PCI\VEN_
+                         8086&DEV_B01D&CC_118000, PCI\VEN_8086&DEV_B01D&CC_1180}
+PNPDeviceID            : PCI\VEN_8086&DEV_B01D&SUBSYS_381B17AA&REV_06\3&11583659&0&20
+PNPClass               : System
+Service                : ipf_cpu
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Elliptic Labs Tap Platform Service
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{C9AC678B-DBB3-4F48-969C-FCE65B53E13A}#ELABSTAPPLATFORM&4&6C4894C&0
+HardwareID             : {SWC\VEN_ELAS&DEV_0873}
+PNPDeviceID            : SWD\DRIVERENUM\{C9AC678B-DBB3-4F48-969C-FCE65B53E13A}#ELABSTAPPLATFORM&4&6C4894C&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elliptic Laboratories ASA
+
+Caption                : 通用总线
+CompatibleID           : 
+DeviceID               : ACPI\PNP0A05\6
+HardwareID             : {ACPI\VEN_PNP&DEV_0A05, ACPI\PNP0A05, *PNP0A05}
+PNPDeviceID            : ACPI\PNP0A05\6
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 通用总线
+CompatibleID           : 
+DeviceID               : ACPI\PNP0A05\7
+HardwareID             : {ACPI\VEN_PNP&DEV_0A05, ACPI\PNP0A05, *PNP0A05}
+PNPDeviceID            : ACPI\PNP0A05\7
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\TESTDEV
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\TESTDEV
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : DolbyAPO SWC Device
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3APOSVC&9&29C8EC9F&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3APOSVC}
+PNPDeviceID            : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3APOSVC&9&29C8EC9F&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : PCI Express 根复合体
+CompatibleID           : {*PNP0A03}
+DeviceID               : ACPI\PNP0A08\0
+HardwareID             : {ACPI\VEN_PNP&DEV_0A08, ACPI\PNP0A08, *PNP0A08}
+PNPDeviceID            : ACPI\PNP0A08\0
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Lenovo ACPI-Compliant Virtual Power Controller
+CompatibleID           : 
+DeviceID               : ACPI\VPC2004\0
+HardwareID             : {ACPI\VEN_VPC&DEV_2004, ACPI\VPC2004, *VPC2004}
+PNPDeviceID            : ACPI\VPC2004\0
+PNPClass               : System
+Service                : ACPIVPC
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\_??_USBSTOR#DISK&VEN__USB&PROD__SANDISK_3.2GEN1&REV_1.00#0401C25BDAC3B1916C542A
+                         0C816C060D802EF3A53CCCA48D2DB9BC28F392A5A#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\_??_USBSTOR#DISK&VEN__USB&PROD__SANDISK_3.2GEN1&REV_1.00#0401C25BDAC3B1916C542A
+                         0C816C060D802EF3A53CCCA48D2DB9BC28F392A5A#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{D5B6A88E-30C9-011C-81DD-69BDE5368593}\0
+HardwareID             : {UEFI\RES_{d5b6a88e-30c9-011c-81dd-69bde5368593}&REV_10, UEFI\RES_{d5b6a88e-30c9-011c-81dd-69b
+                         de5368593}}
+PNPDeviceID            : UEFI\RES_{D5B6A88E-30C9-011C-81DD-69BDE5368593}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : XuCsMe Speaker(Ext)
+CompatibleID           : {{2172A9B3-0690-4BB6-88FF-B778E999E04A}}
+DeviceID               : XUCSME\EXTENSIONSPEAKER\8&1C3C6884&0&00
+HardwareID             : {XuCsMe\ExtensionSpeaker}
+PNPDeviceID            : XUCSME\EXTENSIONSPEAKER\8&1C3C6884&0&00
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\LSR
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\LSR
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : SoundWire Audio Multifunction Device
+CompatibleID           : {SOUNDWIRE\SDCA_PERIPHERAL}
+DeviceID               : SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_3557&VER_03&CID_00&LID_00&UID_00&SUBSYS_380917AA\6&2B9
+                         FEEC8&0&01355701FA000300
+HardwareID             : {SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_3557&VER_03&CID_00&LID_00&UID_00&SUBSYS_380917AA}
+PNPDeviceID            : SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_3557&VER_03&CID_00&LID_00&UID_00&SUBSYS_380917AA\6&2B9
+                         FEEC8&0&01355701FA000300
+PNPClass               : System
+Service                : SdcaMfd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Wacom Device
+CompatibleID           : {ACPI\PNP0C50, PNP0C50}
+DeviceID               : ACPI\WACF2200\4
+HardwareID             : {ACPI\VEN_WACF&DEV_2200, ACPI\WACF2200, *WACF2200, WCOM544B}
+PNPDeviceID            : ACPI\WACF2200\4
+PNPClass               : HIDClass
+Service                : hidi2c
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Wacom Technology
+
+Caption                : Microsoft Pluton security processor #1
+CompatibleID           : {PCI\VEN_8086&DEV_E462&REV_01, PCI\VEN_8086&DEV_E462, PCI\VEN_8086&CC_078000, PCI\VEN_8086&CC_
+                         0780...}
+DeviceID               : PCI\VEN_8086&DEV_E462&SUBSYS_382517AA&REV_01\3&11583659&0&98
+HardwareID             : {PCI\VEN_8086&DEV_E462&SUBSYS_382517AA&REV_01, PCI\VEN_8086&DEV_E462&SUBSYS_382517AA, PCI\VEN_
+                         8086&DEV_E462&CC_078000, PCI\VEN_8086&DEV_E462&CC_0780}
+PNPDeviceID            : PCI\VEN_8086&DEV_E462&SUBSYS_382517AA&REV_01\3&11583659&0&98
+PNPClass               : SecurityDevices
+Service                : PlutonHeci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (Standard)
+
+Caption                : 适用于数字麦克风的英特尔? 智音技术
+CompatibleID           : {INTELAUDIO\DIF_0001&UIF_0000&CTLR_DEV_E428&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20, INTELAUD
+                         IO\CTLR_DEV_EXT_E428&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_380917AA, INTELAUDIO\CTLR
+                         _DEV_EXT_E428&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20}
+DeviceID               : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_380917AA&REV_0001\5&2
+                         255E73E&0&0000DIF_000B&UIF_0000
+HardwareID             : {INTELAUDIO\CTLR_DEV_E428&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_380917AA&REV_0001, I
+                         NTELAUDIO\CTLR_DEV_E428&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_380917AA}
+PNPDeviceID            : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_380917AA&REV_0001\5&2
+                         255E73E&0&0000DIF_000B&UIF_0000
+PNPClass               : MEDIA
+Service                : IntcDMic
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : DolbyAPO SWC Device
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{C6996A27-4EA3-45DA-AEC5-E0796C1DEFF4}#DOLBYAPO_DAX3APOSVC&1&1A7A538E&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3APOSVC}
+PNPDeviceID            : SWD\DRIVERENUM\{C6996A27-4EA3-45DA-AEC5-E0796C1DEFF4}#DOLBYAPO_DAX3APOSVC&1&1A7A538E&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\YMC
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\YMC
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Lenovo Virtual Bus
+CompatibleID           : 
+DeviceID               : ROOT\LENOVO_VIRTUAL_BUS\0000
+HardwareID             : {Root\VID_LENOVO_INC_PID_LENOVO_VIRTUAL_BUS_0001}
+PNPDeviceID            : ROOT\LENOVO_VIRTUAL_BUS\0000
+PNPClass               : System
+Service                : lenovoDriverBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo Inc
+
+Caption                : Intel(R) Serial IO Generic GPIO Host Controller
+CompatibleID           : {ACPI\INTC105F, INTC105F}
+DeviceID               : ACPI\INTC10BC\0
+HardwareID             : {ACPI\VEN_INTC&DEV_10BC, ACPI\INTC10BC, *INTC10BC}
+PNPDeviceID            : ACPI\INTC10BC\0
+PNPClass               : System
+Service                : iaLPSS2_GPIO2_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Intel(R) Serial IO Generic GPIO Host Controller
+CompatibleID           : {ACPI\INTC105F, INTC105F}
+DeviceID               : ACPI\INTC10BC\1
+HardwareID             : {ACPI\VEN_INTC&DEV_10BC, ACPI\INTC10BC, *INTC10BC}
+PNPDeviceID            : ACPI\INTC10BC\1
+PNPClass               : System
+Service                : iaLPSS2_GPIO2_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Intel(R) Serial IO Generic GPIO Host Controller
+CompatibleID           : {ACPI\INTC105F, INTC105F}
+DeviceID               : ACPI\INTC10BC\3
+HardwareID             : {ACPI\VEN_INTC&DEV_10BC, ACPI\INTC10BC, *INTC10BC}
+PNPDeviceID            : ACPI\INTC10BC\3
+PNPClass               : System
+Service                : iaLPSS2_GPIO2_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Intel(R) Serial IO Generic GPIO Host Controller
+CompatibleID           : {ACPI\INTC105F, INTC105F}
+DeviceID               : ACPI\INTC10BC\4
+HardwareID             : {ACPI\VEN_INTC&DEV_10BC, ACPI\INTC10BC, *INTC10BC}
+PNPDeviceID            : ACPI\INTC10BC\4
+PNPClass               : System
+Service                : iaLPSS2_GPIO2_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Intel(R) Serial IO Generic GPIO Host Controller
+CompatibleID           : {ACPI\INTC105F, INTC105F}
+DeviceID               : ACPI\INTC10BC\5
+HardwareID             : {ACPI\VEN_INTC&DEV_10BC, ACPI\INTC10BC, *INTC10BC}
+PNPDeviceID            : ACPI\INTC10BC\5
+PNPClass               : System
+Service                : iaLPSS2_GPIO2_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : ACPI 电源按钮
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0C\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0C, ACPI\PNP0C0C, *PNP0C0C}
+PNPDeviceID            : ACPI\PNP0C0C\2&DABA3FF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft ACPI-Compliant System
+CompatibleID           : 
+DeviceID               : ACPI_HAL\PNP0C08\0
+HardwareID             : {ACPI_HAL\PNP0C08, *PNP0C08}
+PNPDeviceID            : ACPI_HAL\PNP0C08\0
+PNPClass               : System
+Service                : ACPI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 
+CompatibleID           : 
+DeviceID               : HTREE\ROOT\0
+HardwareID             : 
+PNPDeviceID            : HTREE\ROOT\0
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : Microsoft 基本呈现驱动程序
+CompatibleID           : 
+DeviceID               : ROOT\BASICRENDER\0000
+HardwareID             : {ROOT\BasicRender}
+PNPDeviceID            : ROOT\BASICRENDER\0000
+PNPClass               : System
+Service                : BasicRender
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Elliptic Labs SDCA Relay
+CompatibleID           : 
+DeviceID               : DETECTOR\HID_{C1ED167F-DA89-4702-A5DF-BFF0BC5EC2FB}\{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}
+HardwareID             : {DETECTOR\HID_{C1ED167F-DA89-4702-A5DF-BFF0BC5EC2FB}, ULTRASOUND\HID_{C1ED167F-DA89-4702-A5DF-
+                         BFF0BC5EC2FB}}
+PNPDeviceID            : DETECTOR\HID_{C1ED167F-DA89-4702-A5DF-BFF0BC5EC2FB}\{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}
+PNPClass               : System
+Service                : Elabs.Driver.Sdca
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elliptic Laboratories ASA
+
+Caption                : HID-compliant device
+CompatibleID           : 
+DeviceID               : HID\VID_17EF&PID_F010&MI_01&COL02\7&2742ABFD&0&0001
+HardwareID             : {HID\VID_17EF&PID_F010&REV_0307&MI_01&Col02, HID\VID_17EF&PID_F010&MI_01&Col02, HID\VID_17EF&U
+                         P:00FF_U:0000, HID_DEVICE_UP:00FF_U:0000...}
+PNPDeviceID            : HID\VID_17EF&PID_F010&MI_01&COL02\7&2742ABFD&0&0001
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Intel(R) ISS HID Bus
+CompatibleID           : {{45EA05A3-BF9D-4FF5-AA70-91A30F0739C7}\HECI_Compatible_BUS}
+DeviceID               : {45EA05A3-BF9D-4FF5-AA70-91A30F0739C7}\HECI_BUS\5&3777C3A6&0&
+HardwareID             : {{45EA05A3-BF9D-4FF5-AA70-91A30F0739C7}\HECI_BUS}
+PNPDeviceID            : {45EA05A3-BF9D-4FF5-AA70-91A30F0739C7}\HECI_BUS\5&3777C3A6&0&
+PNPClass               : System
+Service                : IshHidBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (Standard system devices)
+
+Caption                : SoundWire Audio Multifunction Device
+CompatibleID           : {SOUNDWIRE\SDCA_PERIPHERAL}
+DeviceID               : SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_3557&VER_03&CID_00&LID_00&UID_01&SUBSYS_380917AA\6&2B9
+                         FEEC8&0&01355701FA010300
+HardwareID             : {SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_3557&VER_03&CID_00&LID_00&UID_01&SUBSYS_380917AA}
+PNPDeviceID            : SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_3557&VER_03&CID_00&LID_00&UID_01&SUBSYS_380917AA\6&2B9
+                         FEEC8&0&01355701FA010300
+PNPClass               : System
+Service                : SdcaMfd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) HID Event Filter
+CompatibleID           : 
+DeviceID               : ACPI\INTC10CC\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_INTC&DEV_10CC, ACPI\INTC10CC, *INTC10CC}
+PNPDeviceID            : ACPI\INTC10CC\2&DABA3FF&0
+PNPClass               : HIDClass
+Service                : HidEventFilter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\GMZN
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\GMZN
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) Innovation Platform Framework Fan Participant
+CompatibleID           : 
+DeviceID               : ACPI\INTC10D6\TFN1
+HardwareID             : {ACPI\VEN_INTC&DEV_10D6, ACPI\INTC10D6, *INTC10D6}
+PNPDeviceID            : ACPI\INTC10D6\TFN1
+PNPClass               : System
+Service                : ipf_acpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : Intel(R) Management Engine WMI Provider
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\OEM_WMI_COMPONENT&4&1FE54610&0
+HardwareID             : {SWC\06657A6D-FE0F-4C90-8DDA-A1501C74CE4B}
+PNPDeviceID            : SWD\DRIVERENUM\OEM_WMI_COMPONENT&4&1FE54610&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : XuCsMe Speaker(Ext)
+CompatibleID           : {{2172A9B3-0690-4BB6-88FF-B778E999E04A}}
+DeviceID               : XUCSME\EXTENSIONSPEAKER\8&199CB22&0&00
+HardwareID             : {XuCsMe\ExtensionSpeaker}
+PNPDeviceID            : XUCSME\EXTENSIONSPEAKER\8&199CB22&0&00
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : 英特尔(R) Wireless Dual Bluetooth(R)
+CompatibleID           : {MS_BTHX_BTHMINI}
+DeviceID               : IBTPCIBUS\HCIH4\4&25454351&0&4098
+HardwareID             : {iBtPciBus\HCIH4}
+PNPDeviceID            : IBTPCIBUS\HCIH4\4&25454351&0&4098
+PNPClass               : Bluetooth
+Service                : BthMini
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Intel(R) Serial IO I2C Host Controller - E451
+CompatibleID           : {PCI\VEN_8086&DEV_E451&REV_01, PCI\VEN_8086&DEV_E451, PCI\VEN_8086&CC_0C8000, PCI\VEN_8086&CC_
+                         0C80...}
+DeviceID               : PCI\VEN_8086&DEV_E451&SUBSYS_381217AA&REV_01\3&11583659&0&C9
+HardwareID             : {PCI\VEN_8086&DEV_E451&SUBSYS_381217AA&REV_01, PCI\VEN_8086&DEV_E451&SUBSYS_381217AA, PCI\VEN_
+                         8086&DEV_E451&CC_0C8000, PCI\VEN_8086&DEV_E451&CC_0C80}
+PNPDeviceID            : PCI\VEN_8086&DEV_E451&SUBSYS_381217AA&REV_01\3&11583659&0&C9
+PNPClass               : System
+Service                : iaLPSS2_I2C_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : 符合 HID 标准的无线通信控制
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL02\3&2DA7FFFA&0&0001
+HardwareID             : {HID\INTC816&Col02, HID\VID_8087&UP:0001_U:000C, HID_DEVICE_UP:0001_U:000C, HID_DEVICE}
+PNPDeviceID            : HID\INTC816&COL02\3&2DA7FFFA&0&0001
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft UEFI 兼容系统
+CompatibleID           : 
+DeviceID               : ACPI_HAL\UEFI\0
+HardwareID             : {ACPI_HAL\UEFI}
+PNPDeviceID            : ACPI_HAL\UEFI\0
+PNPClass               : System
+Service                : UEFI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL07\3&2DA7FFFA&0&0006
+HardwareID             : {HID\INTC816&Col07, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL07\3&2DA7FFFA&0&0006
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 母板资源
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C02\SOCCLK
+HardwareID             : {ACPI\VEN_PNP&DEV_0C02, ACPI\PNP0C02, *PNP0C02}
+PNPDeviceID            : ACPI\PNP0C02\SOCCLK
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Integrated Monitor
+CompatibleID           : {*PNP09FF}
+DeviceID               : DISPLAY\LEN8AD6\4&1DAD9995&0&UID8388688
+HardwareID             : {MONITOR\LEN8AD6}
+PNPDeviceID            : DISPLAY\LEN8AD6\4&1DAD9995&0&UID8388688
+PNPClass               : Monitor
+Service                : monitor
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准监视器类型)
+
+Caption                : 麦克风阵列 (适用于数字麦克风的英特尔? 智音技术)
+CompatibleID           : {GenericAudioEndpoint, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\MMDEVAPI\{0.0.1.00000000}.{379B0243-2AA4-45FF-A85A-5889D5585AEE}
+HardwareID             : {MMDEVAPI\AudioEndpoints}
+PNPDeviceID            : SWD\MMDEVAPI\{0.0.1.00000000}.{379B0243-2AA4-45FF-A85A-5889D5585AEE}
+PNPClass               : AudioEndpoint
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Micron MTFDKCD1T0QHK-1BQ1AABLA
+CompatibleID           : {SCSI\Disk, SCSI\RAW, Disk1667}
+DeviceID               : SCSI\DISK&VEN_NVME&PROD_MICRON_MTFDKCD1T\5&25A43713&0&000000
+HardwareID             : {SCSI\DiskNVMe______________Micron_MTFDKCD1T0QHK-1BQ1AABLA1001V9LN, SCSI\DiskNVMe_____________
+                         _Micron_MTFDKCD1T0QHK-1BQ1AABLA, SCSI\DiskNVMe____Micron_MTFDKCD1TV9LN, SCSI\DiskNVMe____Micro
+                         n_MTFDKCD1T...}
+PNPDeviceID            : SCSI\DISK&VEN_NVME&PROD_MICRON_MTFDKCD1T\5&25A43713&0&000000
+PNPClass               : DiskDrive
+Service                : disk
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准磁盘驱动器)
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL0A\3&2DA7FFFA&0&0009
+HardwareID             : {HID\INTC816&Col0A, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL0A\3&2DA7FFFA&0&0009
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Headset Microphone on SDW
+CompatibleID           : 
+DeviceID               : {A8E1BC37-A331-4A8D-A718-2EF1C496807D}\STREAMING_HEADSETMIC&{3162E50F-C67C-11F0-9D67-BEAAE20FC
+                         B14}\6&FE2664&0
+HardwareID             : {{a8e1bc37-a331-4a8d-a718-2ef1c496807d}\Streaming_HeadsetMic&{3162e50f-c67c-11f0-9d67-beaae20f
+                         cb14}, {a8e1bc37-a331-4a8d-a718-2ef1c496807d}\Streaming_HeadsetMic}
+PNPDeviceID            : {A8E1BC37-A331-4A8D-A718-2EF1C496807D}\STREAMING_HEADSETMIC&{3162E50F-C67C-11F0-9D67-BEAAE20FC
+                         B14}\6&FE2664&0
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : 系统计时器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0100\4&62F9C21&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0100, ACPI\PNP0100, *PNP0100}
+PNPDeviceID            : ACPI\PNP0100\4&62F9C21&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 英特尔? 智音技术总线
+CompatibleID           : {PCI\VEN_8086&DEV_E428&REV_01, PCI\VEN_8086&DEV_E428, PCI\VEN_8086&CC_040100, PCI\VEN_8086&CC_
+                         0401...}
+DeviceID               : PCI\VEN_8086&DEV_E428&SUBSYS_380917AA&REV_01\3&11583659&0&FB
+HardwareID             : {PCI\VEN_8086&DEV_E428&SUBSYS_380917AA&REV_01, PCI\VEN_8086&DEV_E428&SUBSYS_380917AA, PCI\VEN_
+                         8086&DEV_E428&CC_040100, PCI\VEN_8086&DEV_E428&CC_0401}
+PNPDeviceID            : PCI\VEN_8086&DEV_E428&SUBSYS_380917AA&REV_01\3&11583659&0&FB
+PNPClass               : System
+Service                : IntcAudioBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{C984BAA9-C88F-11F0-9D6B-9DFC198C2ED9}#0000001A26300000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{C984BAA9-C88F-11F0-9D6B-9DFC198C2ED9}#0000001A26300000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL0F\3&2DA7FFFA&0&000E
+HardwareID             : {HID\INTC816&Col0F, HID\VID_8087&UP:FFB3_U:0010, HID_DEVICE_UP:FFB3_U:0010, HID_DEVICE_UPR:FF0
+                         0-FFFF...}
+PNPDeviceID            : HID\INTC816&COL0F\3&2DA7FFFA&0&000E
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Elevoc Audio Effects Component(mic external)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&9&2C7DE857&0
+HardwareID             : {SWC\VEN_ELEVOC&AID_0005}
+PNPDeviceID            : SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&9&2C7DE857&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elevoc Technology Co.,Ltd
+
+Caption                : HID-compliant headset
+CompatibleID           : 
+DeviceID               : HID\HID_DEVICE_SYSTEM_VHF&COL02\9&1F169A10&0&0001
+HardwareID             : {HID\HID_DEVICE_SYSTEM_VHF&Col02, HID\VID_01FA&PID_4243&Col02, HID\VID_01FA&UP:000B_U:0005, HI
+                         D_DEVICE_UP:000B_U:0005...}
+PNPDeviceID            : HID\HID_DEVICE_SYSTEM_VHF&COL02\9&1F169A10&0&0001
+PNPClass               : HIDClass
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 英特尔(R) Dual Bluetooth(R) PCI 枚举器
+CompatibleID           : {PCI\VEN_8086&DEV_E476&REV_01, PCI\VEN_8086&DEV_E476, PCI\VEN_8086&CC_0D1100, PCI\VEN_8086&CC_
+                         0D11...}
+DeviceID               : PCI\VEN_8086&DEV_E476&SUBSYS_00118086&REV_01\3&11583659&0&A7
+HardwareID             : {PCI\VEN_8086&DEV_E476&SUBSYS_00118086&REV_01, PCI\VEN_8086&DEV_E476&SUBSYS_00118086, PCI\VEN_
+                         8086&DEV_E476&CC_0D1100, PCI\VEN_8086&DEV_E476&CC_0D11}
+PNPDeviceID            : PCI\VEN_8086&DEV_E476&SUBSYS_00118086&REV_01\3&11583659&0&A7
+PNPClass               : Bluetooth
+Service                : ibtpci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Elevoc Audio Effects Component(speaker)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&8&201D235&0
+HardwareID             : {SWC\VEN_ELEVOC&AID_0006}
+PNPDeviceID            : SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&8&201D235&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elevoc Technology Co.,Ltd
+
+Caption                : Intel(R) USB 3.20 可扩展主机控制器 - 1.20 (Microsoft)
+CompatibleID           : {PCI\VEN_8086&DEV_E47D&REV_01, PCI\VEN_8086&DEV_E47D, PCI\VEN_8086&CC_0C0330, PCI\VEN_8086&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_8086&DEV_E47D&SUBSYS_381817AA&REV_01\3&11583659&0&A0
+HardwareID             : {PCI\VEN_8086&DEV_E47D&SUBSYS_381817AA&REV_01, PCI\VEN_8086&DEV_E47D&SUBSYS_381817AA, PCI\VEN_
+                         8086&DEV_E47D&CC_0C0330, PCI\VEN_8086&DEV_E47D&CC_0C03}
+PNPDeviceID            : PCI\VEN_8086&DEV_E47D&SUBSYS_381817AA&REV_01\3&11583659&0&A0
+PNPClass               : USB
+Service                : USBXHCI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB xHCI 主机控制器
+
+Caption                : CS42L43 AMP
+CompatibleID           : {SOUNDWIRE\AUDIOFUNCTION}
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA\7&2F2
+                         78081&0&0000000000000001
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA, SOU
+                         NDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&SUBSYS_380917AA, SOUNDWIRE\SDCA_10&MAN
+                         _01FA&FUNC_4243&TYPE_01&VER_01&ADR_01}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA\7&2F2
+                         78081&0&0000000000000001
+PNPClass               : MEDIA
+Service                : SdcaClass
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : XuCsMe Speaker(Ext)
+CompatibleID           : {{2172A9B3-0690-4BB6-88FF-B778E999E04A}}
+DeviceID               : XUCSME\EXTENSIONSPEAKER\8&169AD261&0&00
+HardwareID             : {XuCsMe\ExtensionSpeaker}
+PNPDeviceID            : XUCSME\EXTENSIONSPEAKER\8&169AD261&0&00
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL11\3&2DA7FFFA&0&0010
+HardwareID             : {HID\INTC816&Col11, HID\VID_8087&UP:FFB3_U:0010, HID_DEVICE_UP:FFB3_U:0010, HID_DEVICE_UPR:FF0
+                         0-FFFF...}
+PNPDeviceID            : HID\INTC816&COL11\3&2DA7FFFA&0&0010
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft Input Configuration Device
+CompatibleID           : 
+DeviceID               : HID\CIRQ1080&COL03\5&2357D07D&0&0002
+HardwareID             : {HID\VEN_CIRQ&DEV_1080&SUBSYS_CIRQ0001&Col03, HID\CIRQ1080&Col03, HID\*CIRQ1080&Col03, HID\VID
+                         _0488&UP:000D_U:000E...}
+PNPDeviceID            : HID\CIRQ1080&COL03\5&2357D07D&0&0002
+PNPClass               : HIDClass
+Service                : MTConfig
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Elevoc Audio Effects Component(speaker external)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&9&29C8EC9F&0
+HardwareID             : {SWC\VEN_ELEVOC&AID_0007}
+PNPDeviceID            : SWD\DRIVERENUM\{BCC22EEC-8DD7-4D91-B18C-08FB8B19346A}#ELEVOCAPO&9&29C8EC9F&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elevoc Technology Co.,Ltd
+
+Caption                : DolbyAPO Software Device (HSA)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3HSA_DOLBYSETTINGS&8&201D235
+                         &0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3HSA_DolbySettings}
+PNPDeviceID            : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3HSA_DOLBYSETTINGS&8&201D235
+                         &0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : XuCsMe Speaker(Ext)
+CompatibleID           : {{2172A9B3-0690-4BB6-88FF-B778E999E04A}}
+DeviceID               : XUCSME\EXTENSIONSPEAKER\8&11FDC44&0&00
+HardwareID             : {XuCsMe\ExtensionSpeaker}
+PNPDeviceID            : XUCSME\EXTENSIONSPEAKER\8&11FDC44&0&00
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : Intel(R) Power Engine Plug-in
+CompatibleID           : {*PNP0D80}
+DeviceID               : ACPI\INT33A1\1
+HardwareID             : {ACPI\VEN_INT&DEV_33A1, ACPI\INT33A1, *INT33A1}
+PNPDeviceID            : ACPI\INT33A1\1
+PNPClass               : System
+Service                : intelpep
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Lenovo Sensor Fusion
+CompatibleID           : 
+DeviceID               : ACPI\IDEA200A\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_IDEA&DEV_200A, ACPI\IDEA200A, *IDEA200A}
+PNPDeviceID            : ACPI\IDEA200A\2&DABA3FF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#0000000000100000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#0000000000100000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Elevoc Audio Effects Component(DMIC)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{E6180347-8AED-4C51-BC54-1F0841EDFEAF}#ELEVOCAPO&6&4914235&0
+HardwareID             : {SWC\VEN_ELEVOC&AID_0003}
+PNPDeviceID            : SWD\DRIVERENUM\{E6180347-8AED-4C51-BC54-1F0841EDFEAF}#ELEVOCAPO&6&4914235&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elevoc Technology Co.,Ltd
+
+Caption                : CS42L43 HID
+CompatibleID           : {SOUNDWIRE\HIDFUNCTION}
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_0A&VER_01&ADR_04&LID_00&UID_00&SUBSYS_380917AA\7&2F2
+                         78081&0&0000000000000004
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_0A&VER_01&ADR_04&LID_00&UID_00&SUBSYS_380917AA, SOU
+                         NDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_0A&VER_01&ADR_04&SUBSYS_380917AA, SOUNDWIRE\SDCA_10&MAN
+                         _01FA&FUNC_4243&TYPE_0A&VER_01&ADR_04}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_0A&VER_01&ADR_04&LID_00&UID_00&SUBSYS_380917AA\7&2F2
+                         78081&0&0000000000000004
+PNPClass               : HIDClass
+Service                : SdcaHid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 母板资源
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C02\IOTRAPS
+HardwareID             : {ACPI\VEN_PNP&DEV_0C02, ACPI\PNP0C02, *PNP0C02}
+PNPDeviceID            : ACPI\PNP0C02\IOTRAPS
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : ACPI Audio Compositor Device
+CompatibleID           : 
+DeviceID               : ACPI\ACPI0018\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_ACPI&DEV_0018, ACPI\ACPI0018, *ACPI0018}
+PNPDeviceID            : ACPI\ACPI0018\2&DABA3FF&0
+PNPClass               : System
+Service                : AcpiAudioCompositor
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft GS 波表合成器
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH
+HardwareID             : 
+PNPDeviceID            : SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : LENOVO 83SE
+CompatibleID           : {COMPUTER\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\COMPUTER\MFG_LENOVO&FAM_YOGA_360_14_IPH11X&PROD_83SE&SKU_LENOVO_MT_83SE_BU_IDEA_FM_YOGA_36
+                         0_
+HardwareID             : {COMPUTER\{C4A5B0CF-6C26-58C9-B71D-3365A2FEE3DA}, COMPUTER\{B2FF9EF6-1B33-534C-AE8D-6B17E8C204
+                         71}, COMPUTER\{75317971-8880-54DD-B22A-B1D8C912E068}, COMPUTER\{8C2887DA-AC1B-5C5E-B61E-673E2A
+                         8F47DD}...}
+PNPDeviceID            : SWD\COMPUTER\MFG_LENOVO&FAM_YOGA_360_14_IPH11X&PROD_83SE&SKU_LENOVO_MT_83SE_BU_IDEA_FM_YOGA_36
+                         0_
+PNPClass               : Computer
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) Serial IO I2C Host Controller - E47B
+CompatibleID           : {PCI\VEN_8086&DEV_E47B&REV_01, PCI\VEN_8086&DEV_E47B, PCI\VEN_8086&CC_0C8000, PCI\VEN_8086&CC_
+                         0C80...}
+DeviceID               : PCI\VEN_8086&DEV_E47B&SUBSYS_381517AA&REV_01\3&11583659&0&AB
+HardwareID             : {PCI\VEN_8086&DEV_E47B&SUBSYS_381517AA&REV_01, PCI\VEN_8086&DEV_E47B&SUBSYS_381517AA, PCI\VEN_
+                         8086&DEV_E47B&CC_0C8000, PCI\VEN_8086&DEV_E47B&CC_0C80}
+PNPDeviceID            : PCI\VEN_8086&DEV_E47B&SUBSYS_381517AA&REV_01\3&11583659&0&AB
+PNPClass               : System
+Service                : iaLPSS2_I2C_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_8086&DEV_B003&REV_06, PCI\VEN_8086&DEV_B003, PCI\VEN_8086&CC_060000, PCI\VEN_8086&CC_
+                         0600...}
+DeviceID               : PCI\VEN_8086&DEV_B003&SUBSYS_389017AA&REV_06\3&11583659&0&00
+HardwareID             : {PCI\VEN_8086&DEV_B003&SUBSYS_389017AA&REV_06, PCI\VEN_8086&DEV_B003&SUBSYS_389017AA, PCI\VEN_
+                         8086&DEV_B003&CC_060000, PCI\VEN_8086&DEV_B003&CC_0600}
+PNPDeviceID            : PCI\VEN_8086&DEV_B003&SUBSYS_389017AA&REV_06\3&11583659&0&00
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Cirrus Logic CS42L43
+CompatibleID           : {SOUNDWIRE\SDCA_PERIPHERAL}
+DeviceID               : SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_4243&VER_03&CID_00&LID_00&UID_00&SUBSYS_380917AA\6&2B9
+                         FEEC8&0&01424301FA000300
+HardwareID             : {SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_4243&VER_03&CID_00&LID_00&UID_00&SUBSYS_380917AA}
+PNPDeviceID            : SOUNDWIRE\SDCA_PERIPHERAL&MAN_01FA&PART_4243&VER_03&CID_00&LID_00&UID_00&SUBSYS_380917AA\6&2B9
+                         FEEC8&0&01424301FA000300
+PNPClass               : System
+Service                : SdcaMfd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : DolbyAPO Software Device (HSA)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3HSA_DOLBYACCESSOEM&8&201D23
+                         5&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAccessOEM}
+PNPDeviceID            : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3HSA_DOLBYACCESSOEM&8&201D23
+                         5&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : USB 根集线器(USB 3.0)
+CompatibleID           : 
+DeviceID               : USB\ROOT_HUB30\4&1EA2F58B&0&0
+HardwareID             : {USB\ROOT_HUB30&VID8086&PIDE47D&REV0001, USB\ROOT_HUB30&VID8086&PIDE47D, USB\ROOT_HUB30}
+PNPDeviceID            : USB\ROOT_HUB30\4&1EA2F58B&0&0
+PNPClass               : USB
+Service                : USBHUB3
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 集线器)
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\VID_17EF&PID_F010&MI_01&COL03\7&2742ABFD&0&0002
+HardwareID             : {HID\VID_17EF&PID_F010&REV_0307&MI_01&Col03, HID\VID_17EF&PID_F010&MI_01&Col03, HID\VID_17EF&U
+                         P:FF83_U:0080, HID_DEVICE_UP:FF83_U:0080...}
+PNPDeviceID            : HID\VID_17EF&PID_F010&MI_01&COL03\7&2742ABFD&0&0002
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Universal Device Client Device Plugins
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\UDCCOMPONENT&1&79F5D87&0
+HardwareID             : {SWC\UdsUdcDriverComponent}
+PNPDeviceID            : SWD\DRIVERENUM\UDCCOMPONENT&1&79F5D87&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{94ECDA5A-E410-411E-A7FB-5B82A0456A47}\0
+HardwareID             : {UEFI\RES_{94ecda5a-e410-411e-a7fb-5b82a0456a47}&REV_0, UEFI\RES_{94ecda5a-e410-411e-a7fb-5b82
+                         a0456a47}}
+PNPDeviceID            : UEFI\RES_{94ECDA5A-E410-411E-A7FB-5B82A0456A47}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{865D322C-6AC7-4734-B43E-55DB5A557D63}\0
+HardwareID             : {UEFI\RES_{865d322c-6ac7-4734-b43e-55db5a557d63}&REV_549, UEFI\RES_{865d322c-6ac7-4734-b43e-55
+                         db5a557d63}}
+PNPDeviceID            : UEFI\RES_{865D322C-6AC7-4734-B43E-55DB5A557D63}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) TXT Authenticated Code Module
+CompatibleID           : {ACPI\INT_PTL_SINIT, INT_PTL_SINIT}
+DeviceID               : ACPI\INTC1025\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_INTC&DEV_1025, ACPI\INTC1025, *INTC1025}
+PNPDeviceID            : ACPI\INTC1025\2&DABA3FF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : INTEL
+
+Caption                : Intel(R) Dynamic Tuning Technology Device Component
+CompatibleID           : 
+DeviceID               : SWC\VID8086_DTT_0001\00
+HardwareID             : {SWC\VID8086_DTT_0001}
+PNPDeviceID            : SWC\VID8086_DTT_0001\00
+PNPClass               : SoftwareComponent
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : 符合 HID 标准的系统控制器
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL03\3&2DA7FFFA&0&0002
+HardwareID             : {HID\INTC816&Col03, HID\VID_8087&UP:0001_U:0080, HID_DEVICE_SYSTEM_CONTROL, HID_DEVICE_UP:0001
+                         _U:0080...}
+PNPDeviceID            : HID\INTC816&COL03\3&2DA7FFFA&0&0002
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : CS42L43 UAJ
+CompatibleID           : {SOUNDWIRE\AUDIOFUNCTION}
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA\7&2F2
+                         78081&0&0000000000000003
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA, SOU
+                         NDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&SUBSYS_380917AA, SOUNDWIRE\SDCA_10&MAN
+                         _01FA&FUNC_4243&TYPE_06&VER_01&ADR_03}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA\7&2F2
+                         78081&0&0000000000000003
+PNPClass               : MEDIA
+Service                : SdcaClass
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#000000641D400000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{A849AADD-C67B-11F0-9D65-806E6F6E6963}#000000641D400000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : NDIS 虚拟网络适配器枚举器
+CompatibleID           : 
+DeviceID               : ROOT\NDISVIRTUALBUS\0000
+HardwareID             : {ROOT\NdisVirtualBus}
+PNPDeviceID            : ROOT\NDISVIRTUALBUS\0000
+PNPClass               : System
+Service                : NdisVirtualBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL08\3&2DA7FFFA&0&0007
+HardwareID             : {HID\INTC816&Col08, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL08\3&2DA7FFFA&0&0007
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) Serial IO I2C Host Controller - E478
+CompatibleID           : {PCI\VEN_8086&DEV_E478&REV_01, PCI\VEN_8086&DEV_E478, PCI\VEN_8086&CC_0C8000, PCI\VEN_8086&CC_
+                         0C80...}
+DeviceID               : PCI\VEN_8086&DEV_E478&SUBSYS_380817AA&REV_01\3&11583659&0&A8
+HardwareID             : {PCI\VEN_8086&DEV_E478&SUBSYS_380817AA&REV_01, PCI\VEN_8086&DEV_E478&SUBSYS_380817AA, PCI\VEN_
+                         8086&DEV_E478&CC_0C8000, PCI\VEN_8086&DEV_E478&CC_0C80}
+PNPDeviceID            : PCI\VEN_8086&DEV_E478&SUBSYS_380817AA&REV_01\3&11583659&0&A8
+PNPClass               : System
+Service                : iaLPSS2_I2C_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : 受信任的平台模块 2.0
+CompatibleID           : {ACPI\MSFT0101, MSFT0101}
+DeviceID               : ACPI\INTC7002\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_INTC&DEV_7002, ACPI\INTC7002, *INTC7002}
+PNPDeviceID            : ACPI\INTC7002\2&DABA3FF&0
+PNPClass               : SecurityDevices
+Service                : TPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准)
+
+Caption                : CS35L56 amp (right woofer)
+CompatibleID           : {SOUNDWIRE\AUDIOFUNCTION}
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA\7&2CC
+                         D8CEE&0&0000000000000001
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA, SOU
+                         NDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&SUBSYS_380917AA, SOUNDWIRE\SDCA_10&MAN
+                         _01FA&FUNC_3556&TYPE_01&VER_01&ADR_01}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_3556&TYPE_01&VER_01&ADR_01&LID_00&UID_00&SUBSYS_380917AA\7&2CC
+                         D8CEE&0&0000000000000001
+PNPClass               : MEDIA
+Service                : SdcaClass
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Lenovo AIFW Service
+CompatibleID           : 
+DeviceID               : ACPI\IDEA2010\5&15D725F4&0
+HardwareID             : {ACPI\VEN_IDEA&DEV_2010, ACPI\IDEA2010, *IDEA2010}
+PNPDeviceID            : ACPI\IDEA2010\5&15D725F4&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL0B\3&2DA7FFFA&0&000A
+HardwareID             : {HID\INTC816&Col0B, HID\VID_8087&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVICE_UP:000
+                         C_U:0001...}
+PNPDeviceID            : HID\INTC816&COL0B\3&2DA7FFFA&0&000A
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft Print to PDF
+CompatibleID           : {GenPrintQueue, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\PRINTENUM\{95E1B2B6-0684-42E6-9DBE-18927CB7FB87}
+HardwareID             : {PRINTENUM\{084f01fa-e634-4d77-83ee-074817c03581}, PRINTENUM\LocalPrintQueue, {084f01fa-e634-4
+                         d77-83ee-074817c03581}}
+PNPDeviceID            : SWD\PRINTENUM\{95E1B2B6-0684-42E6-9DBE-18927CB7FB87}
+PNPClass               : PrintQueue
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 母板资源
+CompatibleID           : {*PNP0C02}
+DeviceID               : ACPI\INTC109D\4&62F9C21&0
+HardwareID             : {ACPI\VEN_INTC&DEV_109D, ACPI\INTC109D, *INTC109D}
+PNPDeviceID            : ACPI\INTC109D\4&62F9C21&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{B9C68CC2-2096-A846-A743-E8C2795D97C9}\0
+HardwareID             : {UEFI\RES_{b9c68cc2-2096-a846-a743-e8c2795d97c9}&REV_1, UEFI\RES_{b9c68cc2-2096-a846-a743-e8c2
+                         795d97c9}}
+PNPDeviceID            : UEFI\RES_{B9C68CC2-2096-A846-A743-E8C2795D97C9}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Elliptic Labs Smart Sensor Platform Engine
+CompatibleID           : {ELABSESSP\VEN_ELAS&DEV_E552}
+DeviceID               : ELABSESSP\VEN_ELAS&DEV_E552&SUBSYS_17AA3809\UID01
+HardwareID             : {ELABSESSP\VEN_ELAS&DEV_E552&SUBSYS_17AA3809}
+PNPDeviceID            : ELABSESSP\VEN_ELAS&DEV_E552&SUBSYS_17AA3809\UID01
+PNPClass               : System
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elliptic Laboratories ASA
+
+Caption                : USB 根集线器(USB 3.0)
+CompatibleID           : 
+DeviceID               : USB\ROOT_HUB30\4&10FCCCE7&0&0
+HardwareID             : {USB\ROOT_HUB30&VID8086&PIDE431&REV0001, USB\ROOT_HUB30&VID8086&PIDE431, USB\ROOT_HUB30}
+PNPDeviceID            : USB\ROOT_HUB30\4&10FCCCE7&0&0
+PNPClass               : USB
+Service                : USBHUB3
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 集线器)
+
+Caption                : Intel(R) Graphics
+CompatibleID           : {PCI\VEN_8086&DEV_B090&REV_00, PCI\VEN_8086&DEV_B090, PCI\VEN_8086&CC_030000, PCI\VEN_8086&CC_
+                         0300...}
+DeviceID               : PCI\VEN_8086&DEV_B090&SUBSYS_388E17AA&REV_00\3&11583659&0&10
+HardwareID             : {PCI\VEN_8086&DEV_B090&SUBSYS_388E17AA&REV_00, PCI\VEN_8086&DEV_B090&SUBSYS_388E17AA, PCI\VEN_
+                         8086&DEV_B090&CC_030000, PCI\VEN_8086&DEV_B090&CC_0300}
+PNPDeviceID            : PCI\VEN_8086&DEV_B090&SUBSYS_388E17AA&REV_00\3&11583659&0&10
+PNPClass               : Display
+Service                : igfxn
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : 便携式设备控制装置
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL12\3&2DA7FFFA&0&0011
+HardwareID             : {HID\INTC816&Col12, HID\VID_8087&UP:0001_U:000D, HID_DEVICE_UP:0001_U:000D, HID_DEVICE}
+PNPDeviceID            : HID\INTC816&COL12\3&2DA7FFFA&0&0011
+PNPClass               : HIDClass
+Service                : buttonconverter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\CIRQ1080&COL04\5&2357D07D&0&0003
+HardwareID             : {HID\VEN_CIRQ&DEV_1080&SUBSYS_CIRQ0001&Col04, HID\CIRQ1080&Col04, HID\*CIRQ1080&Col04, HID\VID
+                         _0488&UP:FF01_U:0002...}
+PNPDeviceID            : HID\CIRQ1080&COL04\5&2357D07D&0&0003
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Intel(R) Application Optimization Driver Component Extension
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{9DE2E99C-1F83-4479-A78C-4C03439E52A8}#APOKPEEXTCOMPONENT&4&2471F958&0
+HardwareID             : {SWC\VID8086_DTTTECH_1.0}
+PNPDeviceID            : SWD\DRIVERENUM\{9DE2E99C-1F83-4479-A78C-4C03439E52A8}#APOKPEEXTCOMPONENT&4&2471F958&0
+PNPClass               : System
+Service                : kpe_apo
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : 虚拟 HID 框架(VHF) HID 设备
+CompatibleID           : 
+DeviceID               : VHF\HID_DEVICE_SYSTEM_VHF\8&1ACFB06E&0&{D782C0EF-B01F-531C-A36D-E539FE17560B}
+HardwareID             : {HID_DEVICE_SYSTEM_VHF, VHF\VID_01FA&PID_4243}
+PNPDeviceID            : VHF\HID_DEVICE_SYSTEM_VHF\8&1ACFB06E&0&{D782C0EF-B01F-531C-A36D-E539FE17560B}
+PNPClass               : HIDClass
+Service                : mshidkmdf
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{978B4CEA-7C60-41F8-B5DD-93797FD3F314}\0
+HardwareID             : {UEFI\RES_{978b4cea-7c60-41f8-b5dd-93797fd3f314}&REV_1E62, UEFI\RES_{978b4cea-7c60-41f8-b5dd-9
+                         3797fd3f314}}
+PNPDeviceID            : UEFI\RES_{978B4CEA-7C60-41F8-B5DD-93797FD3F314}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) SPI (flash) Controller - E423
+CompatibleID           : {PCI\VEN_8086&DEV_E423&REV_01, PCI\VEN_8086&DEV_E423, PCI\VEN_8086&CC_0C8000, PCI\VEN_8086&CC_
+                         0C80...}
+DeviceID               : PCI\VEN_8086&DEV_E423&SUBSYS_382217AA&REV_01\3&11583659&0&FD
+HardwareID             : {PCI\VEN_8086&DEV_E423&SUBSYS_382217AA&REV_01, PCI\VEN_8086&DEV_E423&SUBSYS_382217AA, PCI\VEN_
+                         8086&DEV_E423&CC_0C8000, PCI\VEN_8086&DEV_E423&CC_0C80}
+PNPDeviceID            : PCI\VEN_8086&DEV_E423&SUBSYS_382217AA&REV_01\3&11583659&0&FD
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : INTEL
+
+Caption                : USB4 根路由器 (1.0)
+CompatibleID           : {USB4\ROOT_DEVICE_ROUTER, USB4\DEVICE_ROUTER}
+DeviceID               : USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_E433\4&E78E2C4&0&0
+HardwareID             : {USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_E433&REV_0001, USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_E433
+                         }
+PNPDeviceID            : USB4\ROOT_DEVICE_ROUTER&VID_8086&PID_E433\4&E78E2C4&0&0
+PNPClass               : USB
+Service                : Usb4DeviceRouter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB4 设备路由器
+
+Caption                : Cirrus Logic XU
+CompatibleID           : 
+DeviceID               : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA&DYNAM
+                         ICENUMMICROPHONE0\8&11FDC44&0&00000B00
+HardwareID             : {SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA&Dyna
+                         micEnumMicrophone0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&D
+                         ynamicEnumMicrophone0, SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&DynamicEnumM
+                         icrophone0, SOUNDWIRE\DynamicEnumChild}
+PNPDeviceID            : SOUNDWIRE\SDCA_10&MAN_01FA&FUNC_4243&TYPE_06&VER_01&ADR_03&LID_00&UID_00&SUBSYS_380917AA&DYNAM
+                         ICENUMMICROPHONE0\8&11FDC44&0&00000B00
+PNPClass               : MEDIA
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) HECI Protocol Device
+CompatibleID           : {{95511210-D1F0-4091-B373-46FDCC5329F7}\ISH_HECI_Compatible}
+DeviceID               : {95511210-D1F0-4091-B373-46FDCC5329F7}\ISH_HECI\4&8A63A15&0&01
+HardwareID             : {{95511210-D1F0-4091-B373-46FDCC5329F7}\ISH_HECI&SUBSYS_381F17AA, {95511210-D1F0-4091-B373-46F
+                         DCC5329F7}\ISH_HECI}
+PNPDeviceID            : {95511210-D1F0-4091-B373-46FDCC5329F7}\ISH_HECI\4&8A63A15&0&01
+PNPClass               : System
+Service                : IshHeci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{C1F137F9-6F21-8396-9782-1C08F396042D}\0
+HardwareID             : {UEFI\RES_{c1f137f9-6f21-8396-9782-1c08f396042d}&REV_210003, UEFI\RES_{c1f137f9-6f21-8396-9782
+                         -1c08f396042d}}
+PNPDeviceID            : UEFI\RES_{C1F137F9-6F21-8396-9782-1C08F396042D}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft System Management BIOS Driver
+CompatibleID           : 
+DeviceID               : ROOT\MSSMBIOS\0000
+HardwareID             : {ROOT\mssmbios}
+PNPDeviceID            : ROOT\MSSMBIOS\0000
+PNPClass               : System
+Service                : mssmbios
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 母板资源
+CompatibleID           : {*PNP0C02}
+DeviceID               : ACPI\INT340E\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_INT&DEV_340E, ACPI\INT340E, *INT340E}
+PNPDeviceID            : ACPI\INT340E\2&DABA3FF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                :  USB  SanDisk 3.2Gen1 USB Device
+CompatibleID           : {USBSTOR\Disk, USBSTOR\RAW, GenDisk}
+DeviceID               : USBSTOR\DISK&VEN__USB&PROD__SANDISK_3.2GEN1&REV_1.00\0401C25BDAC3B1916C542A0C816C060D802EF3A53
+                         CCCA48D2DB9BC28F392A5A
+HardwareID             : {USBSTOR\Disk_USB_____SanDisk_3.2Gen11.00, USBSTOR\Disk_USB_____SanDisk_3.2Gen1, USBSTOR\Disk_
+                         USB____, USBSTOR\_USB_____SanDisk_3.2Gen11...}
+PNPDeviceID            : USBSTOR\DISK&VEN__USB&PROD__SANDISK_3.2GEN1&REV_1.00\0401C25BDAC3B1916C542A0C816C060D802EF3A53
+                         CCCA48D2DB9BC28F392A5A
+PNPClass               : DiskDrive
+Service                : disk
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准磁盘驱动器)
+
+Caption                : 英特尔? PROSet/无线 WiFi 软件扩展
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{4D3C822D-417D-4B03-B562-CD33F5FDA354}#PIESOFTWARECOMPONENT&4&A9297E9&0
+HardwareID             : {SWC\VID_8086&PID_PIE&SID_0001}
+PNPDeviceID            : SWD\DRIVERENUM\{4D3C822D-417D-4B03-B562-CD33F5FDA354}#PIESOFTWARECOMPONENT&4&A9297E9&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : WLAN
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\RADIO\{67E1F9DB-8E58-47F6-A79F-D39E9BD93F4B}
+HardwareID             : 
+PNPDeviceID            : SWD\RADIO\{67E1F9DB-8E58-47F6-A79F-D39E9BD93F4B}
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : APP Mode
+CompatibleID           : {USB\MS_COMP_WINUSB, USB\COMPAT_VID_30c9&Class_fe&SubClass_01&Prot_01, USB\COMPAT_VID_30c9&Cla
+                         ss_fe&SubClass_01, USB\COMPAT_VID_30c9&Class_fe...}
+DeviceID               : USB\VID_30C9&PID_011C&MI_04\6&1807257&0&0004
+HardwareID             : {USB\VID_30C9&PID_011C&REV_0010&MI_04, USB\VID_30C9&PID_011C&MI_04}
+PNPDeviceID            : USB\VID_30C9&PID_011C&MI_04\6&1807257&0&0004
+PNPClass               : USBDevice
+Service                : WINUSB
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : WinUSB 设备
+
+Caption                : Intel? Smart Sound Technology ACX Streaming for Bluetooth? LE Audio
+CompatibleID           : {INTELAUDIO\DIF_0001&UIF_0000&CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33, INTELAUD
+                         IO\CTLR_DEV_EXT_E428&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33&SUBSYS_380917AA, INTELAUDIO\CTLR
+                         _DEV_EXT_E428&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33}
+DeviceID               : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33&SUBSYS_380917AA&REV_0001\5&2
+                         255E73E&0&0301DIF_000B&UIF_0000
+HardwareID             : {INTELAUDIO\CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33&SUBSYS_380917AA&REV_0001, I
+                         NTELAUDIO\CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33&SUBSYS_380917AA}
+PNPDeviceID            : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_03&VEN_8086&DEV_AE33&SUBSYS_380917AA&REV_0001\5&2
+                         255E73E&0&0301DIF_000B&UIF_0000
+PNPClass               : MEDIA
+Service                : IntcSBtLe
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : XuCsMe Jack Retasking Audio Module (Ext)
+CompatibleID           : {{2172A9B3-0690-4BB6-88FF-B778E999E04A}}
+DeviceID               : XUCSME\JACKRETASKINGAUDIOMODULE\8&11FDC44&0&00
+HardwareID             : {XuCsMe\JackRetaskingAudioModule}
+PNPDeviceID            : XUCSME\JACKRETASKINGAUDIOMODULE\8&11FDC44&0&00
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : 即插即用软件设备枚举器
+CompatibleID           : 
+DeviceID               : ROOT\SYSTEM\0000
+HardwareID             : {ROOT\SWENUM}
+PNPDeviceID            : ROOT\SYSTEM\0000
+PNPClass               : System
+Service                : swenum
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Universal Device Client Device
+CompatibleID           : 
+DeviceID               : ROOT\SYSTEM\0001
+HardwareID             : {Root\UdsUdcDriver}
+PNPDeviceID            : ROOT\SYSTEM\0001
+PNPClass               : System
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : 蓝牙
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\RADIO\BLUETOOTH_D0577EE4226B
+HardwareID             : 
+PNPDeviceID            : SWD\RADIO\BLUETOOTH_D0577EE4226B
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Intel(R) Serial IO I2C Host Controller - E479
+CompatibleID           : {PCI\VEN_8086&DEV_E479&REV_01, PCI\VEN_8086&DEV_E479, PCI\VEN_8086&CC_0C8000, PCI\VEN_8086&CC_
+                         0C80...}
+DeviceID               : PCI\VEN_8086&DEV_E479&SUBSYS_380D17AA&REV_01\3&11583659&0&A9
+HardwareID             : {PCI\VEN_8086&DEV_E479&SUBSYS_380D17AA&REV_01, PCI\VEN_8086&DEV_E479&SUBSYS_380D17AA, PCI\VEN_
+                         8086&DEV_E479&CC_0C8000, PCI\VEN_8086&DEV_E479&CC_0C80}
+PNPDeviceID            : PCI\VEN_8086&DEV_E479&SUBSYS_380D17AA&REV_01\3&11583659&0&A9
+PNPClass               : System
+Service                : iaLPSS2_I2C_PTL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel Corporation
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\ISET
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\ISET
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 远程桌面设备重定向程序总线
+CompatibleID           : 
+DeviceID               : ROOT\RDPBUS\0000
+HardwareID             : {ROOT\RDPBUS}
+PNPDeviceID            : ROOT\RDPBUS\0000
+PNPClass               : System
+Service                : rdpbus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : HID 传感器集合 V2
+CompatibleID           : 
+DeviceID               : HID\VID_8087&PID_0AC2\7&2FA8DEAF&0&0000
+HardwareID             : {HID\Vid_8087&Pid_0AC2, HID\VID_8087&UP:0020_U:0001, HID_DEVICE_UP:0020_U:0001, HID_DEVICE}
+PNPDeviceID            : HID\VID_8087&PID_0AC2\7&2FA8DEAF&0&0000
+PNPClass               : Sensor
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : HID-compliant mouse
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL09\5&371046B&0&0008
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col09, HID\WACF2200&Col09, HID\*WACF2200&Col09, HID\VID_056A&UP:0001_U:
+                         0001...}
+PNPDeviceID            : HID\WACF2200&COL09\5&371046B&0&0008
+PNPClass               : Mouse
+Service                : mouhid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 适用于蓝牙? 音频的英特尔? 智音技术
+CompatibleID           : {INTELAUDIO\DIF_0001&UIF_0000&CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30, INTELAUD
+                         IO\CTLR_DEV_EXT_E428&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30&SUBSYS_380917AA, INTELAUDIO\CTLR
+                         _DEV_EXT_E428&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30}
+DeviceID               : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30&SUBSYS_380917AA&REV_0001\5&2
+                         255E73E&0&0000DIF_000B&UIF_0000
+HardwareID             : {INTELAUDIO\CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30&SUBSYS_380917AA&REV_0001, I
+                         NTELAUDIO\CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30&SUBSYS_380917AA}
+PNPDeviceID            : INTELAUDIO\CTLR_DEV_E428&LINKTYPE_03&DEVTYPE_00&VEN_8086&DEV_AE30&SUBSYS_380917AA&REV_0001\5&2
+                         255E73E&0&0000DIF_000B&UIF_0000
+PNPClass               : MEDIA
+Service                : IntcBTAu
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Intel(R) Corporation
+
+Caption                : Lenovo Tap-to-X Service
+CompatibleID           : 
+DeviceID               : ACPI\IDEA2013\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_IDEA&DEV_2013, ACPI\IDEA2013, *IDEA2013}
+PNPDeviceID            : ACPI\IDEA2013\2&DABA3FF&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : Integrated IR Camera
+CompatibleID           : {USB\COMPAT_VID_30c9&Class_0e&SubClass_03&Prot_00, USB\COMPAT_VID_30c9&Class_0e&SubClass_03, U
+                         SB\COMPAT_VID_30c9&Class_0e, USB\Class_0e&SubClass_03&Prot_00...}
+DeviceID               : USB\VID_30C9&PID_011C&MI_02\6&1807257&0&0002
+HardwareID             : {USB\VID_30C9&PID_011C&REV_0010&MI_02, USB\VID_30C9&PID_011C&MI_02}
+PNPDeviceID            : USB\VID_30C9&PID_011C&MI_02\6&1807257&0&0002
+PNPClass               : Camera
+Service                : usbvideo
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : SunplusIT
+
+Caption                : DolbyAPO SWC Device
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3APOSVC&8&201D235&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3APOSVC}
+PNPDeviceID            : SWD\DRIVERENUM\{06EC4C8B-0355-4B20-B6A8-CEDA39885E63}#DOLBYAPO_DAX3APOSVC&8&201D235&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : 符合 HID 标准的系统控制器
+CompatibleID           : 
+DeviceID               : HID\CONVERTEDDEVICE&COL03\5&C00BBDF&0&0002
+HardwareID             : {HID\ConvertedDevice&Col03, HID\VID_045E&UP:0001_U:0080, HID_DEVICE_SYSTEM_CONTROL, HID_DEVICE
+                         _UP:0001_U:0080...}
+PNPDeviceID            : HID\CONVERTEDDEVICE&COL03\5&C00BBDF&0&0002
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Lenovo Pen Service
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\WTABLETSERVICEISD&5&371046B&0
+HardwareID             : {SWC\VID_056A&PID_F004}
+PNPDeviceID            : SWD\DRIVERENUM\WTABLETSERVICEISD&5&371046B&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Wacom Technology
+
+Caption                : 符合 HID 标准的数字化器
+CompatibleID           : 
+DeviceID               : HID\WACF2200&COL08\5&371046B&0&0007
+HardwareID             : {HID\VEN_WACF&DEV_2200&Col08, HID\WACF2200&Col08, HID\*WACF2200&Col08, HID\VID_056A&UP:000D_U:
+                         0001...}
+PNPDeviceID            : HID\WACF2200&COL08\5&371046B&0&0007
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 符合 HID 标准的系统控制器
+CompatibleID           : 
+DeviceID               : HID\INTC816&COL04\3&2DA7FFFA&0&0003
+HardwareID             : {HID\INTC816&Col04, HID\VID_8087&UP:0001_U:0080, HID_DEVICE_SYSTEM_CONTROL, HID_DEVICE_UP:0001
+                         _U:0080...}
+PNPDeviceID            : HID\INTC816&COL04\3&2DA7FFFA&0&0003
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Lenovo Dispatcher
+CompatibleID           : 
+DeviceID               : ACPI\IDEA200C\5&15D725F4&0
+HardwareID             : {ACPI\VEN_IDEA&DEV_200C, ACPI\IDEA200C, *IDEA200C}
+PNPDeviceID            : ACPI\IDEA200C\5&15D725F4&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+
+

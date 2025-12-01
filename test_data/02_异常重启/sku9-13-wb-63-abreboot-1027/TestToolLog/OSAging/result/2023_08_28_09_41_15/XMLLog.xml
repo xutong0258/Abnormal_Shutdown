@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ACPIXML>
+  <Record>
+    <PLANSTARTTIME></PLANSTARTTIME>
+    <PLANENDTIME></PLANENDTIME>
+    <No>-1</No>
+    <LastExeListIndex>-1</LastExeListIndex>
+    <CurrentTestItem>-1</CurrentTestItem>
+    <Isfailed>True</Isfailed>
+    <failedreason>User manually stopped test detected</failedreason>
+    <IsFinished>True</IsFinished>
+    <FailedTypeCount>0</FailedTypeCount>
+    <UserStop>True</UserStop>
+  </Record>
+  <OldAcpiData>
+    <name></name>
+    <Sx></Sx>
+    <beforetime></beforetime>
+    <sleeptime></sleeptime>
+    <Execount></Execount>
+    <Passcount></Passcount>
+    <Failcount></Failcount>
+    <Minusetime></Minusetime>
+    <Maxusetime></Maxusetime>
+    <STARTTIME></STARTTIME>
+  </OldAcpiData>
+  <LOG></LOG>
+</ACPIXML>

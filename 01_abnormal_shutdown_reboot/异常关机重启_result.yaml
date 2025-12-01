@@ -1,0 +1,37 @@
+异常关机/重启: True
+KernelPowerReport_rule_2:
+- - 10/24/2025 12:58:30 PM
+  - '41'
+  - Critical
+  - Microsoft-Windows-Kernel-Power
+  - 'The system has rebooted without cleanly shutting down first. This error could
+    be caused if the system stopped responding, crashed, or lost power unexpectedly.
+
+    BugcheckCode:0x0, SleepInProgress:0, ConnectedStandbyInProgress:false'
+System.evtx_rule_3:
+  TimeCreated: '2025-10-24 04:58:30.259272+00:00'
+  EventID: '41'
+  Level: '1'
+  Provider: Microsoft-Windows-Kernel-Power
+  EventData:
+    BugcheckCode: '0'
+    BugcheckParameter1: '0x0000000000000000'
+    BugcheckParameter2: '0x0000000000000000'
+    BugcheckParameter3: '0x0000000000000000'
+    BugcheckParameter4: '0x0000000000000000'
+    SleepInProgress: '0'
+    PowerButtonTimestamp: '0'
+    BootAppStatus: '0'
+    Checkpoint: '0'
+    ConnectedStandbyInProgress: 'False'
+    SystemSleepTransitionsToOn: '0'
+    CsEntryScenarioInstanceId: '0'
+    BugcheckInfoFromEFI: 'False'
+    CheckpointStatus: '0'
+    CsEntryScenarioInstanceIdV2: '0'
+    LongPowerButtonPressDetected: 'False'
+    LidReliability: 'False'
+    InputSuppressionState: '0'
+    PowerButtonSuppressionState: '0'
+    LidState: '1'
+    WHEABootErrorCount: '0'

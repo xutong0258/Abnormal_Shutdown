@@ -1,0 +1,134 @@
+{
+  "IsInDesignMode": false,
+  "CommonSets": {
+    "IsInDesignMode": false,
+    "SysErrorPause": true,
+    "ProgressBarDisplay": false,
+    "DeviceScan": true,
+    "WhiteErrorCodes": [],
+    "BlackErrorCodes": [
+      {
+        "Code": "0x0028BC",
+        "IsInDesignMode": false
+      },
+      {
+        "Code": "0x002763",
+        "IsInDesignMode": false
+      },
+      {
+        "Code": "0x002973",
+        "IsInDesignMode": false
+      }
+    ],
+    "GpuLoad": false,
+    "CheckAppsMem": false,
+    "StopOnFail": false,
+    "AutoExit": false,
+    "HardwareAcceleration": false,
+    "EnergyConsumptionEstimation": false,
+    "ShowKpiResult": false,
+    "FirstIdleTime": 90,
+    "RegisterStartup": true,
+    "SystemAutoSet": false,
+    "CheckSystemException": true,
+    "MonitorSystemLag": false,
+    "SystemLagErrorThrehold": 5,
+    "MonitorEventLog": false,
+    "MonitorSystemEvent": true,
+    "CheckDeviceError": false,
+    "CheckDeviceChange": true,
+    "IgnoredDevices": "",
+    "DeviceDyncCheck": false,
+    "DeviceDyncCheckInterval": 60,
+    "ExecutiveOrderMode": "Sequence",
+    "ScriptPathOnFinished": "",
+    "ScriptParaOnFinished": "",
+    "SysPrep": false,
+    "CleanSpr": true,
+    "AddWhiteErrorCode": {},
+    "AddBlackErrorCode": {}
+  },
+  "MsSets": {
+    "IsInDesignMode": false,
+    "EcWakeTimer": false,
+    "ControlPowerSourceRadio": false,
+    "AcTriggerPoint": 10,
+    "DcTriggerPoint": 90,
+    "CheckScriptExitCode": false,
+    "CommandParas": "/lf:{0} /cs /delaywrite /c:1 /d:3 /p:{1} /etwbuffersize:1024 /etwmaxbuffers:512",
+    "AdaptiveHibernateCommandParas": "/lf:{0} /delaywrite /sleep /s:dozes4 /c:1 /dt:60 /p:{1} /etwbuffersize:1024 /etwmaxbuffers:512",
+    "AdaptiveHibernate": false,
+    "CaptureWPR": false,
+    "CheckPwrTestExitCode": true,
+    "CheckResiliencyPhase": false,
+    "CheckDRIPS": true,
+    "SwDripsMinimumThreshold": 0.9,
+    "HwDripsMinimumThreshold": 0.9,
+    "CheckExitLatencyTime": false,
+    "ExitLatencyTimeMaximumThreshold": 1000,
+    "CheckNetworkConnectivity": false,
+    "AcDcPerSwitching": false,
+    "LoopDyncAdjust": true,
+    "DefaultLoopCycles": 5,
+    "SpecialLoopCycles": 1,
+    "SpecialLoopSleepTime": 610,
+    "ScriptPathOnEachFinished": "",
+    "ScriptParaOnEachFinished": "",
+    "Workloads": "do_nothing"
+  },
+  "S3Sets": {
+    "EcWakeTimer": false,
+    "IsInDesignMode": false,
+    "CheckScriptExitCode": false,
+    "CommandParas": "/lf:{0} /sleep /c:1 /d:3 /p:{1} /s:3 /unattend",
+    "ScriptPathOnEachFinished": "",
+    "ScriptParaOnEachFinished": "",
+    "Workloads": "do_nothing"
+  },
+  "S4Sets": {
+    "EcWakeTimer": false,
+    "IsInDesignMode": false,
+    "CheckScriptExitCode": false,
+    "CommandParas": "/lf:{0} /sleep /c:1 /d:3 /p:{1} /s:4 /unattend",
+    "PchPowerOn": true,
+    "ScriptPathOnEachFinished": "",
+    "ScriptParaOnEachFinished": "",
+    "Workloads": "do_nothing"
+  },
+  "WbSets": {
+    "IsInDesignMode": false,
+    "CheckScriptExitCode": false,
+    "CommandParas": "/r /f /t 00 /c \"Sx Assessment Suite Belong To LC Future Center\"",
+    "ScriptPathOnEachFinished": "",
+    "ScriptParaOnEachFinished": "",
+    "Workloads": "do_nothing"
+  },
+  "FbSets": {
+    "AlarmDeviceWake": false,
+    "AlarmDeviceAcpiPath": "\\_SB.PRTC",
+    "ArmECAcpiPath": "\\_SB.RWEC",
+    "IsInDesignMode": false,
+    "CommandParas": "/s /f /hybrid /t 00 /c \"Sx Assessment Suite Belong To LC Future Center\"",
+    "CheckScriptExitCode": false,
+    "ScriptPathOnEachFinished": "",
+    "ScriptParaOnEachFinished": "",
+    "Workloads": "do_nothing"
+  },
+  "CbSets": {
+    "AlarmDeviceWake": false,
+    "AlarmDeviceAcpiPath": "\\_SB.PRTC",
+    "IsInDesignMode": false,
+    "CommandParas": "/s /f /t 00 /c \"Sx Assessment Suite Belong To LC Future Center\"",
+    "CheckScriptExitCode": false,
+    "ScriptPathOnEachFinished": "",
+    "ScriptParaOnEachFinished": "",
+    "Workloads": "do_nothing"
+  },
+  "IdleSets": {
+    "IsInDesignMode": false,
+    "CheckScriptExitCode": false,
+    "ScriptPathOnEachFinished": "",
+    "ScriptParaOnEachFinished": "",
+    "Workloads": "do_nothing"
+  }
+}

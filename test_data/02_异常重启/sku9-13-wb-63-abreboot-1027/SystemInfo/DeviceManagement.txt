@@ -1,0 +1,2476 @@
+
+
+Caption                : AMD-OpenGL User Mode Driver
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\AMDOGL&5&7A76442&0
+HardwareID             : {SWC\AMDOGL-25.20}
+PNPDeviceID            : SWD\DRIVERENUM\AMDOGL&5&7A76442&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : 高精度事件计时器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0103\3&11583659&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0103, ACPI\PNP0103, *PNP0103}
+PNPDeviceID            : ACPI\PNP0103\3&11583659&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 标准 NVM Express 控制器
+CompatibleID           : {PCI\VEN_1E0F&DEV_0030&REV_01, PCI\VEN_1E0F&DEV_0030, PCI\VEN_1E0F&CC_010802, PCI\VEN_1E0F&CC_
+                         0108...}
+DeviceID               : PCI\VEN_1E0F&DEV_0030&SUBSYS_017E1E0F&REV_01\8CE38E0405B5ACC700
+HardwareID             : {PCI\VEN_1E0F&DEV_0030&SUBSYS_017E1E0F&REV_01, PCI\VEN_1E0F&DEV_0030&SUBSYS_017E1E0F, PCI\VEN_
+                         1E0F&DEV_0030&CC_010802, PCI\VEN_1E0F&DEV_0030&CC_0108}
+PNPDeviceID            : PCI\VEN_1E0F&DEV_0030&SUBSYS_017E1E0F&REV_01\8CE38E0405B5ACC700
+PNPClass               : SCSIAdapter
+Service                : stornvme
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 标准 NVM Express 控制器
+
+Caption                : 符合 HID 标准的触摸板
+CompatibleID           : 
+DeviceID               : HID\SYNA2BA6&COL02\4&2F841EA5&0&0001
+HardwareID             : {HID\VEN_SYNA&DEV_2BA6&Col02, HID\SYNA2BA6&Col02, HID\*SYNA2BA6&Col02, HID\VID_06CB&UP:000D_U:
+                         0005...}
+PNPDeviceID            : HID\SYNA2BA6&COL02\4&2F841EA5&0&0001
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : AMD-Windows Support Components
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\AMDWIN&5&7A76442&0
+HardwareID             : {SWC\AMDWIN-25.20}
+PNPDeviceID            : SWD\DRIVERENUM\AMDWIN&5&7A76442&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : 母板资源
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C02\0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C02, ACPI\PNP0C02, *PNP0C02}
+PNPDeviceID            : ACPI\PNP0C02\0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 母板资源
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C02\1
+HardwareID             : {ACPI\VEN_PNP&DEV_0C02, ACPI\PNP0C02, *PNP0C02}
+PNPDeviceID            : ACPI\PNP0C02\1
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : AMD PCI
+CompatibleID           : {PCI\VEN_1022&DEV_150D&REV_00, PCI\VEN_1022&DEV_150D, PCI\VEN_1022&CC_130000, PCI\VEN_1022&CC_
+                         1300...}
+DeviceID               : PCI\VEN_1022&DEV_150D&SUBSYS_150D1022&REV_00\4&23445453&0&0042
+HardwareID             : {PCI\VEN_1022&DEV_150D&SUBSYS_150D1022&REV_00, PCI\VEN_1022&DEV_150D&SUBSYS_150D1022, PCI\VEN_
+                         1022&DEV_150D&CC_130000, PCI\VEN_1022&DEV_150D&CC_1300}
+PNPDeviceID            : PCI\VEN_1022&DEV_150D&SUBSYS_150D1022&REV_00\4&23445453&0&0042
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc
+
+Caption                : Microsoft 蓝牙枚举器
+CompatibleID           : 
+DeviceID               : BTH\MS_BTHBRB\8&25C8AB9E&0&1
+HardwareID             : {BTH\MS_BTHBRB}
+PNPDeviceID            : BTH\MS_BTHBRB\8&25C8AB9E&0&1
+PNPClass               : Bluetooth
+Service                : BthEnum
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_16F9&SUBSYS_00000000&REV_00\3&11583659&0&C1
+HardwareID             : {PCI\VEN_1022&DEV_16F9&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_16F9&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_16F9&REV_00, PCI\VEN_1022&DEV_16F9...}
+PNPDeviceID            : PCI\VEN_1022&DEV_16F9&SUBSYS_00000000&REV_00\3&11583659&0&C1
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft 流服务代理
+CompatibleID           : 
+DeviceID               : SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}
+HardwareID             : {SW\{96E080C7-143C-11D1-B40F-00A0C9223196}}
+PNPDeviceID            : SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}
+PNPClass               : MEDIA
+Service                : MSKSSRV
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft ACPI 兼容的嵌入式控制器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C09\1
+HardwareID             : {ACPI\VEN_PNP&DEV_0C09, ACPI\PNP0C09, *PNP0C09}
+PNPDeviceID            : ACPI\PNP0C09\1
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 直接内存访问控制器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0200\4&21FEF8AF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0200, ACPI\PNP0200, *PNP0200}
+PNPDeviceID            : ACPI\PNP0200\4&21FEF8AF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Lenovo Fn and function keys
+CompatibleID           : 
+DeviceID               : ACPI\LHK2019\0
+HardwareID             : {ACPI\VEN_LHK&DEV_2019, ACPI\LHK2019, *LHK2019}
+PNPDeviceID            : ACPI\LHK2019\0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : Microsoft ACPI 兼容的控制方法电池
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0A\1
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0A, ACPI\PNP0C0A, *PNP0C0A}
+PNPDeviceID            : ACPI\PNP0C0A\1
+PNPClass               : Battery
+Service                : CmBatt
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 根打印队列
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\PRINTENUM\PRINTQUEUES
+HardwareID             : {PRINTENUM\LocalPrintQueue}
+PNPDeviceID            : SWD\PRINTENUM\PRINTQUEUES
+PNPClass               : PrintQueue
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Integrated Camera
+CompatibleID           : {USB\MS_COMP_LNVDMFT, USB\COMPAT_VID_04f2&Class_0e&SubClass_03&Prot_00, USB\COMPAT_VID_04f2&Cl
+                         ass_0e&SubClass_03, USB\COMPAT_VID_04f2&Class_0e...}
+DeviceID               : USB\VID_04F2&PID_B875&MI_00\7&146DC836&0&0000
+HardwareID             : {USB\VID_04F2&PID_B875&REV_5602&MI_00, USB\VID_04F2&PID_B875&MI_00}
+PNPDeviceID            : USB\VID_04F2&PID_B875&MI_00\7&146DC836&0&0000
+PNPClass               : Camera
+Service                : usbvideo
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Realtek
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_16FA&SUBSYS_00000000&REV_00\3&11583659&0&C2
+HardwareID             : {PCI\VEN_1022&DEV_16FA&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_16FA&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_16FA&REV_00, PCI\VEN_1022&DEV_16FA...}
+PNPDeviceID            : PCI\VEN_1022&DEV_16FA&SUBSYS_00000000&REV_00\3&11583659&0&C2
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 卷管理器
+CompatibleID           : {DETECTEDInternal\volmgr, DETECTED\volmgr}
+DeviceID               : ROOT\VOLMGR\0000
+HardwareID             : {ROOT\VOLMGR}
+PNPDeviceID            : ROOT\VOLMGR\0000
+PNPClass               : System
+Service                : volmgr
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : I2C HID 设备
+CompatibleID           : {ACPI\PNP0C50, PNP0C50}
+DeviceID               : ACPI\SYNA2BA6\3&62D7E73&0
+HardwareID             : {ACPI\VEN_SYNA&DEV_2BA6, ACPI\SYNA2BA6, *SYNA2BA6}
+PNPDeviceID            : ACPI\SYNA2BA6\3&62D7E73&0
+PNPClass               : HIDClass
+Service                : hidi2c
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Bluetooth Device (RFCOMM Protocol TDI)
+CompatibleID           : 
+DeviceID               : BTH\MS_RFCOMM\8&25C8AB9E&0&0
+HardwareID             : {BTH\MS_RFCOMM}
+PNPDeviceID            : BTH\MS_RFCOMM\8&25C8AB9E&0&0
+PNPClass               : Bluetooth
+Service                : RFCOMM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : High Definition Audio 控制器
+CompatibleID           : {PCI\VEN_1022&DEV_15E3&REV_00, PCI\VEN_1022&DEV_15E3, PCI\VEN_1022&CC_040300, PCI\VEN_1022&CC_
+                         0403...}
+DeviceID               : PCI\VEN_1022&DEV_15E3&SUBSYS_38D917AA&REV_00\4&35FE04F8&0&0641
+HardwareID             : {PCI\VEN_1022&DEV_15E3&SUBSYS_38D917AA&REV_00, PCI\VEN_1022&DEV_15E3&SUBSYS_38D917AA, PCI\VEN_
+                         1022&DEV_15E3&CC_040300, PCI\VEN_1022&DEV_15E3&CC_0403}
+PNPDeviceID            : PCI\VEN_1022&DEV_15E3&SUBSYS_38D917AA&REV_00\4&35FE04F8&0&0641
+PNPClass               : System
+Service                : HDAudBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Bluetooth Device (Personal Area Network)
+CompatibleID           : 
+DeviceID               : BTH\MS_BTHPAN\8&25C8AB9E&0&2
+HardwareID             : {BTH\MS_BTHPAN}
+PNPDeviceID            : BTH\MS_BTHPAN\8&25C8AB9E&0&2
+PNPClass               : Net
+Service                : BthPan
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : HID Button over Interrupt Driver
+CompatibleID           : 
+DeviceID               : ACPI\ACPI0011\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_ACPI&DEV_0011, ACPI\ACPI0011, *ACPI0011}
+PNPDeviceID            : ACPI\ACPI0011\2&DABA3FF&0
+PNPClass               : HIDClass
+Service                : hidinterrupt
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : USB 根集线器(USB 3.0)
+CompatibleID           : 
+DeviceID               : USB\ROOT_HUB30\5&8681F7B&0&0
+HardwareID             : {USB\ROOT_HUB30&VID1022&PID151A&REV0000, USB\ROOT_HUB30&VID1022&PID151A, USB\ROOT_HUB30}
+PNPDeviceID            : USB\ROOT_HUB30\5&8681F7B&0&0
+PNPClass               : USB
+Service                : USBHUB3
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 集线器)
+
+Caption                : Microsoft 基本显示驱动程序
+CompatibleID           : 
+DeviceID               : ROOT\BASICDISPLAY\0000
+HardwareID             : {ROOT\BasicDisplay}
+PNPDeviceID            : ROOT\BASICDISPLAY\0000
+PNPClass               : System
+Service                : BasicDisplay
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准显示器类型)
+
+Caption                : USB Attached SCSI (UAS) 大容量存储设备
+CompatibleID           : {USB\COMPAT_VID_0BDA&Class_08&SubClass_06&Prot_62, USB\COMPAT_VID_0BDA&Class_08&SubClass_06, U
+                         SB\COMPAT_VID_0BDA&Class_08, USB\Class_08&SubClass_06&Prot_62...}
+DeviceID               : USB\VID_0BDA&PID_9210\MSFT30012345678905
+HardwareID             : {USB\VID_0BDA&PID_9210&REV_F001, USB\VID_0BDA&PID_9210}
+PNPDeviceID            : USB\VID_0BDA&PID_9210\MSFT30012345678905
+PNPClass               : SCSIAdapter
+Service                : UASPStor
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : USB Attached SCSI (UAS) 兼容设备
+
+Caption                : Microsoft 虚拟机监控程序服务
+CompatibleID           : 
+DeviceID               : ROOT\HVSERVICE\0000
+HardwareID             : {ROOT\hvservice}
+PNPDeviceID            : ROOT\HVSERVICE\0000
+PNPClass               : System
+Service                : hvservice
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : DolbyAPO Software Device (HSA)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3HSA_DOLBYSETTINGS&6&3417445
+                         &0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3HSA_DolbySettings}
+PNPDeviceID            : SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3HSA_DOLBYSETTINGS&6&3417445
+                         &0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : AMD GPIO Controller
+CompatibleID           : {ACPI\AMDI0030, AMDI0030}
+DeviceID               : ACPI\AMDI0030\0
+HardwareID             : {ACPI\VEN_AMDI&DEV_0030, ACPI\AMDI0030, *AMDI0030}
+PNPDeviceID            : ACPI\AMDI0030\0
+PNPClass               : System
+Service                : amdgpio2
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc
+
+Caption                : DolbyAPO Software Device (HSA)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3HSA_DOLBYACCESSOEM&6&341744
+                         5&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAccessOEM}
+PNPDeviceID            : SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3HSA_DOLBYACCESSOEM&6&341744
+                         5&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : ACPI 热区域
+CompatibleID           : 
+DeviceID               : ACPI\THERMALZONE\TZ01
+HardwareID             : {ACPI\ThermalZone, *ThermalZone}
+PNPDeviceID            : ACPI\THERMALZONE\TZ01
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : ACPI 处理器容器设备
+CompatibleID           : {*PNP0A05}
+DeviceID               : ACPI\ACPI0010\0
+HardwareID             : {ACPI\VEN_ACPI&DEV_0010, ACPI\ACPI0010, *ACPI0010}
+PNPDeviceID            : ACPI\ACPI0010\0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : {ACPI\LBGNB, LBGNB}
+DeviceID               : ACPI\PNP0C14\1
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\1
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\4
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\4
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : AMD-OpenCL User Mode Driver
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\AMDOCL&5&7A76442&0
+HardwareID             : {SWC\AMDOCL-25.20}
+PNPDeviceID            : SWD\DRIVERENUM\AMDOCL&5&7A76442&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : Microsoft Input Configuration Device
+CompatibleID           : 
+DeviceID               : HID\SYNA2BA6&COL03\4&2F841EA5&0&0002
+HardwareID             : {HID\VEN_SYNA&DEV_2BA6&Col03, HID\SYNA2BA6&Col03, HID\*SYNA2BA6&Col03, HID\VID_06CB&UP:000D_U:
+                         000E...}
+PNPDeviceID            : HID\SYNA2BA6&COL03\4&2F841EA5&0&0002
+PNPClass               : HIDClass
+Service                : MTConfig
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : UCM-UCSI ACPI 设备
+CompatibleID           : {*PNP0CA0}
+DeviceID               : ACPI\USBC000\0
+HardwareID             : {ACPI\VEN_USB&DEV_C000, ACPI\USBC000, *USBC000}
+PNPDeviceID            : ACPI\USBC000\0
+PNPClass               : UCM
+Service                : UcmUcsiAcpiClient
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : I2C HID 设备
+CompatibleID           : {ACPI\PNP0C50, PNP0C50}
+DeviceID               : ACPI\ITE8350\1
+HardwareID             : {ACPI\VEN_ITE&DEV_8350, ACPI\ITE8350, *ITE8350}
+PNPDeviceID            : ACPI\ITE8350\1
+PNPClass               : HIDClass
+Service                : hidi2c
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_16FF&SUBSYS_00000000&REV_00\3&11583659&0&C7
+HardwareID             : {PCI\VEN_1022&DEV_16FF&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_16FF&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_16FF&REV_00, PCI\VEN_1022&DEV_16FF...}
+PNPDeviceID            : PCI\VEN_1022&DEV_16FF&SUBSYS_00000000&REV_00\3&11583659&0&C7
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&DEV_1507&REV_00, PCI\VEN_1022&DEV_1507, PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_
+                         0600...}
+DeviceID               : PCI\VEN_1022&DEV_1507&SUBSYS_381D17AA&REV_00\3&11583659&0&00
+HardwareID             : {PCI\VEN_1022&DEV_1507&SUBSYS_381D17AA&REV_00, PCI\VEN_1022&DEV_1507&SUBSYS_381D17AA, PCI\VEN_
+                         1022&DEV_1507&CC_060000, PCI\VEN_1022&DEV_1507&CC_0600}
+PNPDeviceID            : PCI\VEN_1022&DEV_1507&SUBSYS_381D17AA&REV_00\3&11583659&0&00
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : AMD PSP 11.0 Device
+CompatibleID           : {PCI\VEN_1022&DEV_17E0&REV_00, PCI\VEN_1022&DEV_17E0, PCI\VEN_1022&CC_108000, PCI\VEN_1022&CC_
+                         1080...}
+DeviceID               : PCI\VEN_1022&DEV_17E0&SUBSYS_383517AA&REV_00\4&35FE04F8&0&0241
+HardwareID             : {PCI\VEN_1022&DEV_17E0&SUBSYS_383517AA&REV_00, PCI\VEN_1022&DEV_17E0&SUBSYS_383517AA, PCI\VEN_
+                         1022&DEV_17E0&CC_108000, PCI\VEN_1022&DEV_17E0&CC_1080}
+PNPDeviceID            : PCI\VEN_1022&DEV_17E0&SUBSYS_383517AA&REV_00\4&35FE04F8&0&0241
+PNPClass               : SecurityDevices
+Service                : amdpsp
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices Inc.
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00\3&11583659&0&08
+HardwareID             : {PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_1509&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_1509&REV_00, PCI\VEN_1022&DEV_1509...}
+PNPDeviceID            : PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00\3&11583659&0&08
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00\3&11583659&0&10
+HardwareID             : {PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_1509&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_1509&REV_00, PCI\VEN_1022&DEV_1509...}
+PNPDeviceID            : PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00\3&11583659&0&10
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00\3&11583659&0&18
+HardwareID             : {PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_1509&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_1509&REV_00, PCI\VEN_1022&DEV_1509...}
+PNPDeviceID            : PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00\3&11583659&0&18
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00\3&11583659&0&40
+HardwareID             : {PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_1509&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_1509&REV_00, PCI\VEN_1022&DEV_1509...}
+PNPDeviceID            : PCI\VEN_1022&DEV_1509&SUBSYS_00000000&REV_00\3&11583659&0&40
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 数值数据处理器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C04\4&21FEF8AF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C04, ACPI\PNP0C04, *PNP0C04}
+PNPDeviceID            : ACPI\PNP0C04\4&21FEF8AF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft Hyper-V 虚拟化基础结构驱动程序
+CompatibleID           : 
+DeviceID               : ROOT\VID\0000
+HardwareID             : {ROOT\VID}
+PNPDeviceID            : ROOT\VID\0000
+PNPClass               : System
+Service                : Vid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : AMD-UWP Version Control
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\AMDUWP&5&7A76442&0
+HardwareID             : {SWC\VID1002&PID0001}
+PNPDeviceID            : SWD\DRIVERENUM\AMDUWP&5&7A76442&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{62AF20C0-7016-424A-9BF8-9CCC86584090}\0
+HardwareID             : {UEFI\RES_{62af20c0-7016-424a-9bf8-9ccc86584090}&REV_2, UEFI\RES_{62af20c0-7016-424a-9bf8-9ccc
+                         86584090}}
+PNPDeviceID            : UEFI\RES_{62AF20C0-7016-424A-9BF8-9CCC86584090}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 复合总线枚举器
+CompatibleID           : 
+DeviceID               : ROOT\COMPOSITEBUS\0000
+HardwareID             : {ROOT\CompositeBus}
+PNPDeviceID            : ROOT\COMPOSITEBUS\0000
+PNPClass               : System
+Service                : CompositeBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft 虚拟驱动器枚举器
+CompatibleID           : 
+DeviceID               : ROOT\VDRVROOT\0000
+HardwareID             : {ROOT\vdrvroot}
+PNPDeviceID            : ROOT\VDRVROOT\0000
+PNPClass               : System
+Service                : vdrvroot
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : WLAN
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\RADIO\{E0F0F861-2D0E-4066-8C03-5B72A5A6DCFF}
+HardwareID             : 
+PNPDeviceID            : SWD\RADIO\{E0F0F861-2D0E-4066-8C03-5B72A5A6DCFF}
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : DolbyAPO SWC Device
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{C6996A27-4EA3-45DA-AEC5-E0796C1DEFF4}#DOLBYAPO_DAX3APOSVC&1&1E1273AD&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3APOSVC}
+PNPDeviceID            : SWD\DRIVERENUM\{C6996A27-4EA3-45DA-AEC5-E0796C1DEFF4}#DOLBYAPO_DAX3APOSVC&1&1E1273AD&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : Microsoft AC 适配器
+CompatibleID           : 
+DeviceID               : ACPI\ACPI0003\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_ACPI&DEV_0003, ACPI\ACPI0003, *ACPI0003}
+PNPDeviceID            : ACPI\ACPI0003\2&DABA3FF&0
+PNPClass               : Battery
+Service                : CmBatt
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft 存储空间控制器
+CompatibleID           : {DETECTEDInternal\spaceport, DETECTED\spaceport}
+DeviceID               : ROOT\SPACEPORT\0000
+HardwareID             : {Root\Spaceport}
+PNPDeviceID            : ROOT\SPACEPORT\0000
+PNPClass               : SCSIAdapter
+Service                : spaceport
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 便携式设备控制装置
+CompatibleID           : 
+DeviceID               : HID\ACPI0011\3&30BE55&0&0000
+HardwareID             : {HID\VEN_ACPI&DEV_0011, HID\ACPI0011, HID\*ACPI0011, HID_DEVICE_UP:0001_U:000D...}
+PNPDeviceID            : HID\ACPI0011\3&30BE55&0&0000
+PNPClass               : HIDClass
+Service                : buttonconverter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 系统固件
+CompatibleID           : {UEFI\CC_00010001, GenFirmwareResource}
+DeviceID               : UEFI\RES_{D1A231A8-F890-4E53-B071-3D8DB47C8C0F}\0
+HardwareID             : {UEFI\RES_{d1a231a8-f890-4e53-b071-3d8db47c8c0f}&REV_19AC3DF, UEFI\RES_{d1a231a8-f890-4e53-b07
+                         1-3d8db47c8c0f}}
+PNPDeviceID            : UEFI\RES_{D1A231A8-F890-4E53-B071-3D8DB47C8C0F}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft Print to PDF
+CompatibleID           : {GenPrintQueue, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\PRINTENUM\{55166D2A-FA14-46EF-9B8D-1F9BF0844BED}
+HardwareID             : {PRINTENUM\{084f01fa-e634-4d77-83ee-074817c03581}, PRINTENUM\LocalPrintQueue, {084f01fa-e634-4
+                         d77-83ee-074817c03581}}
+PNPDeviceID            : SWD\PRINTENUM\{55166D2A-FA14-46EF-9B8D-1F9BF0844BED}
+PNPClass               : PrintQueue
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI 标准 ISA 桥
+CompatibleID           : {PCI\VEN_1022&DEV_790E&REV_51, PCI\VEN_1022&DEV_790E, PCI\VEN_1022&CC_060100, PCI\VEN_1022&CC_
+                         0601...}
+DeviceID               : PCI\VEN_1022&DEV_790E&SUBSYS_38C317AA&REV_51\3&11583659&0&A3
+HardwareID             : {PCI\VEN_1022&DEV_790E&SUBSYS_38C317AA&REV_51, PCI\VEN_1022&DEV_790E&SUBSYS_38C317AA, PCI\VEN_
+                         1022&DEV_790E&CC_060100, PCI\VEN_1022&DEV_790E&CC_0601}
+PNPDeviceID            : PCI\VEN_1022&DEV_790E&SUBSYS_38C317AA&REV_51\3&11583659&0&A3
+PNPClass               : System
+Service                : msisadrv
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : DolbyAPO SWC Device
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3APOSVC&6&3417445&0
+HardwareID             : {SWC\VEN_DOLBY&PID_DAX3APOSVC}
+PNPDeviceID            : SWD\DRIVERENUM\{2C0454A3-AB52-4F33-8FD1-21140301103B}#DOLBYAPO_DAX3APOSVC&6&3417445&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Dolby
+
+Caption                : Microsoft Kernel Debug Network Adapter
+CompatibleID           : 
+DeviceID               : ROOT\KDNIC\0000
+HardwareID             : {root\kdnic}
+PNPDeviceID            : ROOT\KDNIC\0000
+PNPClass               : Net
+Service                : kdnic
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : USB 根集线器(USB 3.0)
+CompatibleID           : 
+DeviceID               : USB\ROOT_HUB30\5&3227E3EF&0&0
+HardwareID             : {USB\ROOT_HUB30&VID1022&PID151F&REV0000, USB\ROOT_HUB30&VID1022&PID151F, USB\ROOT_HUB30}
+PNPDeviceID            : USB\ROOT_HUB30\5&3227E3EF&0&0
+PNPClass               : USB
+Service                : USBHUB3
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 集线器)
+
+Caption                : PS/2 标准键盘
+CompatibleID           : {*PNP0303}
+DeviceID               : ACPI\IDEA0102\4&21FEF8AF&0
+HardwareID             : {ACPI\VEN_IDEA&DEV_0102, ACPI\IDEA0102, *IDEA0102}
+PNPDeviceID            : ACPI\IDEA0102\4&21FEF8AF&0
+PNPClass               : Keyboard
+Service                : i8042prt
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准键盘)
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_16FC&SUBSYS_00000000&REV_00\3&11583659&0&C4
+HardwareID             : {PCI\VEN_1022&DEV_16FC&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_16FC&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_16FC&REV_00, PCI\VEN_1022&DEV_16FC...}
+PNPDeviceID            : PCI\VEN_1022&DEV_16FC&SUBSYS_00000000&REV_00\3&11583659&0&C4
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : AMD Audio Device
+CompatibleID           : {ACP\DEVTYPE_0002&DEVREV_0000&VEN_1022&DEV_15E2&REV_70, ACP\DEVTYPE_0002&DEVREV_0000&VEN_1022&
+                         DEV_15E2}
+DeviceID               : ACP\DEVTYPE_0002&DEVREV_0000&VEN_1022&DEV_15E2&SUBSYS_17AA38FD&REV_70\5&3ABEAEE&0&04
+HardwareID             : {ACP\DEVTYPE_0002&DEVREV_0000&VEN_1022&DEV_15E2&SUBSYS_17AA38FD&REV_70, ACP\DEVTYPE_0002&DEVRE
+                         V_0000&VEN_1022&DEV_15E2&SUBSYS_17AA38FD, ACP\DEVTYPE_0002&DEVREV_0000&VEN_1022&DEV_15E2}
+PNPDeviceID            : ACP\DEVTYPE_0002&DEVREV_0000&VEN_1022&DEV_15E2&SUBSYS_17AA38FD&REV_70\5&3ABEAEE&0&04
+PNPClass               : MEDIA
+Service                : AMDAfdAudioService
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : AMD
+
+Caption                : Windows Studio Effects Camera
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\MEP_CAMERA_COMPONENT&6&8FD7300&0
+HardwareID             : {SWC\MEP_CAM&VEN_1022_DEV_17F0_V1}
+PNPDeviceID            : SWD\DRIVERENUM\MEP_CAMERA_COMPONENT&6&8FD7300&0
+PNPClass               : SoftwareComponent
+Service                : UmPass
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft Corporation
+
+Caption                : 
+CompatibleID           : 
+DeviceID               : USB4\VIRTUAL_POWER_PDO\5&387A9267&0&0
+HardwareID             : {USB4\VIRTUAL_POWER_PDO&VID_1022&PID_151C&REV_0000, USB4\VIRTUAL_POWER_PDO&VID_1022&PID_151C, 
+                         USB4\VIRTUAL_POWER_PDO}
+PNPDeviceID            : USB4\VIRTUAL_POWER_PDO\5&387A9267&0&0
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : HID Keyboard Device
+CompatibleID           : 
+DeviceID               : HID\CONVERTEDDEVICE&COL01\5&2CF12849&0&0000
+HardwareID             : {HID\ConvertedDevice&Col01, HID\VID_045E&UP:0001_U:0006, HID_DEVICE_SYSTEM_KEYBOARD, HID_DEVIC
+                         E_UP:0001_U:0006...}
+PNPDeviceID            : HID\CONVERTEDDEVICE&COL01\5&2CF12849&0&0000
+PNPClass               : Keyboard
+Service                : kbdhid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准键盘)
+
+Caption                : ACPI 盖子
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0D\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0D, ACPI\PNP0C0D, *PNP0C0D}
+PNPDeviceID            : ACPI\PNP0C0D\2&DABA3FF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{77342408-818C-818C-B504-7F1FB9D4331E}\0
+HardwareID             : {UEFI\RES_{77342408-818c-818c-b504-7f1fb9d4331e}&REV_3020006, UEFI\RES_{77342408-818c-818c-b50
+                         4-7f1fb9d4331e}}
+PNPDeviceID            : UEFI\RES_{77342408-818C-818C-B504-7F1FB9D4331E}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : MediaTek Bluetooth Adapter
+CompatibleID           : {USB\COMPAT_VID_0489&Class_e0&SubClass_01&Prot_01, USB\COMPAT_VID_0489&Class_e0&SubClass_01, U
+                         SB\COMPAT_VID_0489&Class_e0, USB\Class_e0&SubClass_01&Prot_01...}
+DeviceID               : USB\VID_0489&PID_E111&MI_00\7&8944179&0&0000
+HardwareID             : {USB\VID_0489&PID_E111&REV_0100&MI_00, USB\VID_0489&PID_E111&MI_00}
+PNPDeviceID            : USB\VID_0489&PID_E111&MI_00\7&8944179&0&0000
+PNPClass               : Bluetooth
+Service                : BTHUSB
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Mediatek Inc.
+
+Caption                : AMD DRTM Boot Driver
+CompatibleID           : 
+DeviceID               : ACPI\DRTM0001\0
+HardwareID             : {ACPI\VEN_DRTM&DEV_0001, ACPI\DRTM0001, *DRTM0001}
+PNPDeviceID            : ACPI\DRTM0001\0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc
+
+Caption                : 系统扬声器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0800\4&21FEF8AF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0800, ACPI\PNP0800, *PNP0800}
+PNPDeviceID            : ACPI\PNP0800\4&21FEF8AF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : USB Composite Device
+CompatibleID           : {USB\COMPAT_VID_04F2&DevClass_00&SubClass_00&Prot00, USB\COMPAT_VID_04F2&DevClass_00&SubClass_
+                         00, USB\COMPAT_VID_04F2&DevClass_00, USB\DevClass_00&SubClass_00&Prot_00...}
+DeviceID               : USB\VID_04F2&PID_B875\0001
+HardwareID             : {USB\VID_04F2&PID_B875&REV_5602, USB\VID_04F2&PID_B875}
+PNPDeviceID            : USB\VID_04F2&PID_B875\0001
+PNPClass               : USB
+Service                : usbccgp
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 主控制器)
+
+Caption                : USB4(TM) 主机路由器 (Microsoft)
+CompatibleID           : {PCI\VEN_1022&DEV_151D&REV_00, PCI\VEN_1022&DEV_151D, PCI\VEN_1022&CC_0C0340, PCI\VEN_1022&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_1022&DEV_151D&SUBSYS_151D1022&REV_00&USB4_MS_CM\4&108AA3AE&0&0643
+HardwareID             : {PCI\USB4_MS_CM, PCI\VEN_1022&DEV_151D&SUBSYS_151D1022&REV_00, PCI\VEN_1022&DEV_151D&SUBSYS_15
+                         1D1022, PCI\VEN_1022&DEV_151D&CC_0C0340...}
+PNPDeviceID            : PCI\VEN_1022&DEV_151D&SUBSYS_151D1022&REV_00&USB4_MS_CM\4&108AA3AE&0&0643
+PNPClass               : USB
+Service                : Usb4HostRouter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB4 主机路由器
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\LSK20
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\LSK20
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : USB4 根路由器 (1.0)
+CompatibleID           : {USB4\ROOT_DEVICE_ROUTER, USB4\DEVICE_ROUTER}
+DeviceID               : USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_151D\5&12CA4ADE&0&0
+HardwareID             : {USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_151D&REV_0000, USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_151D
+                         }
+PNPDeviceID            : USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_151D\5&12CA4ADE&0&0
+PNPClass               : USB
+Service                : Usb4DeviceRouter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB4 设备路由器
+
+Caption                : 蓝牙
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\RADIO\BLUETOOTH_4845E6E3999E
+HardwareID             : 
+PNPDeviceID            : SWD\RADIO\BLUETOOTH_4845E6E3999E
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 扬声器 (Realtek(R) Audio)
+CompatibleID           : {GenericAudioEndpoint, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\MMDEVAPI\{0.0.0.00000000}.{BA018818-93AD-4A00-872F-D202A31CCF5E}
+HardwareID             : {MMDEVAPI\AudioEndpoints}
+PNPDeviceID            : SWD\MMDEVAPI\{0.0.0.00000000}.{BA018818-93AD-4A00-872F-D202A31CCF5E}
+PNPClass               : AudioEndpoint
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_16F8&SUBSYS_00000000&REV_00\3&11583659&0&C0
+HardwareID             : {PCI\VEN_1022&DEV_16F8&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_16F8&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_16F8&REV_00, PCI\VEN_1022&DEV_16F8...}
+PNPDeviceID            : PCI\VEN_1022&DEV_16F8&SUBSYS_00000000&REV_00\3&11583659&0&C0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Facial Recognition (Windows Hello) Software Device
+CompatibleID           : 
+DeviceID               : ROOT\WINDOWSHELLOFACESOFTWAREDRIVER\0000
+HardwareID             : {Root\WindowsHelloFaceSoftwareDriver}
+PNPDeviceID            : ROOT\WINDOWSHELLOFACESOFTWAREDRIVER\0000
+PNPClass               : Biometric
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{CEDF59E9-AF63-11F0-9D65-806E6F6E6963}#0000000000004400
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{CEDF59E9-AF63-11F0-9D65-806E6F6E6963}#0000000000004400
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\SYNA2BA6&COL04\4&2F841EA5&0&0003
+HardwareID             : {HID\VEN_SYNA&DEV_2BA6&Col04, HID\SYNA2BA6&Col04, HID\*SYNA2BA6&Col04, HID\VID_06CB&UP:FF00_U:
+                         0001...}
+PNPDeviceID            : HID\SYNA2BA6&COL04\4&2F841EA5&0&0003
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 
+CompatibleID           : 
+DeviceID               : USB4\VIRTUAL_POWER_PDO\5&12CA4ADE&0&0
+HardwareID             : {USB4\VIRTUAL_POWER_PDO&VID_1022&PID_151D&REV_0000, USB4\VIRTUAL_POWER_PDO&VID_1022&PID_151D, 
+                         USB4\VIRTUAL_POWER_PDO}
+PNPDeviceID            : USB4\VIRTUAL_POWER_PDO\5&12CA4ADE&0&0
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : UMBus Root Bus Enumerator
+CompatibleID           : 
+DeviceID               : ROOT\UMBUS\0000
+HardwareID             : {root\umbus}
+PNPDeviceID            : ROOT\UMBUS\0000
+PNPClass               : System
+Service                : umbus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 充电均衡驱动程序
+CompatibleID           : 
+DeviceID               : ROOT\CAD\0000
+HardwareID             : {ROOT\CAD}
+PNPDeviceID            : ROOT\CAD\0000
+PNPClass               : System
+Service                : CAD
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 标准 NVM Express 控制器
+CompatibleID           : {PCI\VEN_1E0F&DEV_0030&REV_01, PCI\VEN_1E0F&DEV_0030, PCI\VEN_1E0F&CC_010802, PCI\VEN_1E0F&CC_
+                         0108...}
+DeviceID               : PCI\VEN_1E0F&DEV_0030&SUBSYS_017E1E0F&REV_01\8CE38E0405AE76CE00
+HardwareID             : {PCI\VEN_1E0F&DEV_0030&SUBSYS_017E1E0F&REV_01, PCI\VEN_1E0F&DEV_0030&SUBSYS_017E1E0F, PCI\VEN_
+                         1E0F&DEV_0030&CC_010802, PCI\VEN_1E0F&DEV_0030&CC_0108}
+PNPDeviceID            : PCI\VEN_1E0F&DEV_0030&SUBSYS_017E1E0F&REV_01\8CE38E0405AE76CE00
+PNPClass               : SCSIAdapter
+Service                : stornvme
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 标准 NVM Express 控制器
+
+Caption                : Microsoft Radio Device Enumeration Bus
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}
+HardwareID             : 
+PNPDeviceID            : SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : USB 根集线器(USB 3.0)
+CompatibleID           : 
+DeviceID               : USB\ROOT_HUB30\5&12F963B&0&0
+HardwareID             : {USB\ROOT_HUB30&VID1022&PID151E&REV0000, USB\ROOT_HUB30&VID1022&PID151E, USB\ROOT_HUB30}
+PNPDeviceID            : USB\ROOT_HUB30\5&12F963B&0&0
+PNPClass               : USB
+Service                : USBHUB3
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 集线器)
+
+Caption                : ToolLog
+CompatibleID           : {wpdbusenum\fs, SWD\Generic}
+DeviceID               : SWD\WPDBUSENUM\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000272000000
+HardwareID             : 
+PNPDeviceID            : SWD\WPDBUSENUM\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000272000000
+PNPClass               : WPD
+Service                : WUDFWpdFs
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Realtek 
+
+Caption                : Integrated IR Camera
+CompatibleID           : {USB\COMPAT_VID_04f2&Class_0e&SubClass_03&Prot_00, USB\COMPAT_VID_04f2&Class_0e&SubClass_03, U
+                         SB\COMPAT_VID_04f2&Class_0e, USB\Class_0e&SubClass_03&Prot_00...}
+DeviceID               : USB\VID_04F2&PID_B875&MI_02\7&146DC836&0&0002
+HardwareID             : {USB\VID_04F2&PID_B875&REV_5602&MI_02, USB\VID_04F2&PID_B875&MI_02}
+PNPDeviceID            : USB\VID_04F2&PID_B875&MI_02\7&146DC836&0&0002
+PNPClass               : Camera
+Service                : usbvideo
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Realtek
+
+Caption                : Microsoft Device Association Root Enumerator
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}
+HardwareID             : 
+PNPDeviceID            : SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 基于 ACPI x64 的电脑
+CompatibleID           : {DETECTEDInternal\ACPI_HAL, DETECTED\ACPI_HAL}
+DeviceID               : ROOT\ACPI_HAL\0000
+HardwareID             : {acpiapic}
+PNPDeviceID            : ROOT\ACPI_HAL\0000
+PNPClass               : Computer
+Service                : \Driver\ACPI_HAL
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准计算机)
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\WM00
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\WM00
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 系统计时器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0100\4&21FEF8AF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0100, ACPI\PNP0100, *PNP0100}
+PNPDeviceID            : ACPI\PNP0100\4&21FEF8AF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Lenovo Camera Group
+CompatibleID           : {SensorGroup, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\SGDEVAPI\0A68545844A2664ABEC12A8095FAC1F02E79A72FAE4BB66ACF73C63CB1C85C9B
+HardwareID             : {SGDEVAPI\SensorGroup}
+PNPDeviceID            : SWD\SGDEVAPI\0A68545844A2664ABEC12A8095FAC1F02E79A72FAE4BB66ACF73C63CB1C85C9B
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\AOD
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\AOD
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{D4B1C9F4-D035-4DEC-9937-A40852695735}\0
+HardwareID             : {UEFI\RES_{d4b1c9f4-d035-4dec-9937-a40852695735}&REV_301, UEFI\RES_{d4b1c9f4-d035-4dec-9937-a4
+                         0852695735}}
+PNPDeviceID            : UEFI\RES_{D4B1C9F4-D035-4DEC-9937-A40852695735}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : ACP HDA Node
+CompatibleID           : 
+DeviceID               : ACP\DEVTYPE_0001&DEVREV_0000&VEN_1022&DEV_15E2&SUBSYS_17AA38FD&REV_70\5&3ABEAEE&0&01
+HardwareID             : {ACP\DEVTYPE_0001&DEVREV_0000&VEN_1022&DEV_15E2&SUBSYS_17AA38FD&REV_70, ACP\DEVTYPE_0001&DEVRE
+                         V_0000&VEN_1022&DEV_15E2&SUBSYS_17AA38FD, ACP\DEVTYPE_0001&DEVREV_0000&VEN_1022&DEV_15E2}
+PNPDeviceID            : ACP\DEVTYPE_0001&DEVREV_0000&VEN_1022&DEV_15E2&SUBSYS_17AA38FD&REV_70\5&3ABEAEE&0&01
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : PCI Express 根复合体
+CompatibleID           : {*PNP0A03}
+DeviceID               : ACPI\PNP0A08\0
+HardwareID             : {ACPI\VEN_PNP&DEV_0A08, ACPI\PNP0A08, *PNP0A08}
+PNPDeviceID            : ACPI\PNP0A08\0
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Lenovo ACPI-Compliant Virtual Power Controller
+CompatibleID           : 
+DeviceID               : ACPI\VPC2004\0
+HardwareID             : {ACPI\VEN_VPC&DEV_2004, ACPI\VPC2004, *VPC2004}
+PNPDeviceID            : ACPI\VPC2004\0
+PNPClass               : System
+Service                : ACPIVPC
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{CEDF59E9-AF63-11F0-9D65-806E6F6E6963}#0000000001000000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{CEDF59E9-AF63-11F0-9D65-806E6F6E6963}#0000000001000000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{CEDF59E8-AF63-11F0-9D65-806E6F6E6963}#000000001D300000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{CEDF59E8-AF63-11F0-9D65-806E6F6E6963}#000000001D300000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Realtek(R) Audio
+CompatibleID           : {HDAUDIO\FUNC_01&CTLR_VEN_1022&CTLR_DEV_15E3&VEN_10EC&DEV_0257&REV_1000, HDAUDIO\FUNC_01&CTLR_
+                         VEN_1022&VEN_10EC&DEV_0257&REV_1000, HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&REV_1000, HDAUDIO\FUNC_
+                         01&CTLR_VEN_1022&CTLR_DEV_15E3&VEN_10EC&DEV_0257...}
+DeviceID               : HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA80C9&REV_1000\5&C2F2ED0&0&0001
+HardwareID             : {HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA80C9&REV_1000, HDAUDIO\FUNC_01&VEN_10EC&DEV_0257
+                         &SUBSYS_17AA80C9}
+PNPDeviceID            : HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA80C9&REV_1000\5&C2F2ED0&0&0001
+PNPClass               : MEDIA
+Service                : IntcAzAudAddService
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Realtek
+
+Caption                : SHELLPE
+CompatibleID           : {wpdbusenum\fs, SWD\Generic}
+DeviceID               : SWD\WPDBUSENUM\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000001000000
+HardwareID             : 
+PNPDeviceID            : SWD\WPDBUSENUM\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000001000000
+PNPClass               : WPD
+Service                : WUDFWpdFs
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Realtek 
+
+Caption                : AMD USB 3.10 可扩展主机控制器 - 1.20 (Microsoft)
+CompatibleID           : {PCI\VEN_1022&DEV_151E&REV_00, PCI\VEN_1022&DEV_151E, PCI\VEN_1022&CC_0C0330, PCI\VEN_1022&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_1022&DEV_151E&SUBSYS_151E1022&REV_00\4&35FE04F8&0&0441
+HardwareID             : {PCI\VEN_1022&DEV_151E&SUBSYS_151E1022&REV_00, PCI\VEN_1022&DEV_151E&SUBSYS_151E1022, PCI\VEN_
+                         1022&DEV_151E&CC_0C0330, PCI\VEN_1022&DEV_151E&CC_0C03}
+PNPDeviceID            : PCI\VEN_1022&DEV_151E&SUBSYS_151E1022&REV_00\4&35FE04F8&0&0441
+PNPClass               : USB
+Service                : USBXHCI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Generic USB xHCI Host Controller
+
+Caption                : 符合 HID 标准的用户控制设备
+CompatibleID           : 
+DeviceID               : HID\CONVERTEDDEVICE&COL02\5&2CF12849&0&0001
+HardwareID             : {HID\ConvertedDevice&Col02, HID\VID_045E&UP:000C_U:0001, HID_DEVICE_SYSTEM_CONSUMER, HID_DEVIC
+                         E_UP:000C_U:0001...}
+PNPDeviceID            : HID\CONVERTEDDEVICE&COL02\5&2CF12849&0&0001
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Lenovo Virtual Bus
+CompatibleID           : 
+DeviceID               : ROOT\LENOVO_VIRTUAL_BUS\0000
+HardwareID             : {Root\VID_LENOVO_INC_PID_LENOVO_VIRTUAL_BUS_0001}
+PNPDeviceID            : ROOT\LENOVO_VIRTUAL_BUS\0000
+PNPClass               : System
+Service                : lenovoDriverBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo Inc
+
+Caption                : Lenovo DisplayHDR
+CompatibleID           : {*PNP09FF}
+DeviceID               : DISPLAY\LEN8BAF\5&7A76442&0&UID256
+HardwareID             : {MONITOR\LEN8BAF}
+PNPDeviceID            : DISPLAY\LEN8BAF\5&7A76442&0&UID256
+PNPClass               : Monitor
+Service                : monitor
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : USB Composite Device
+CompatibleID           : {USB\COMPAT_VID_0489&DevClass_00&SubClass_00&Prot00, USB\COMPAT_VID_0489&DevClass_00&SubClass_
+                         00, USB\COMPAT_VID_0489&DevClass_00, USB\DevClass_00&SubClass_00&Prot_00...}
+DeviceID               : USB\VID_0489&PID_E111\000000000
+HardwareID             : {USB\VID_0489&PID_E111&REV_0100, USB\VID_0489&PID_E111}
+PNPDeviceID            : USB\VID_0489&PID_E111\000000000
+PNPClass               : USB
+Service                : usbccgp
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 主控制器)
+
+Caption                : ACPI 电源按钮
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C0C\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C0C, ACPI\PNP0C0C, *PNP0C0C}
+PNPDeviceID            : ACPI\PNP0C0C\2&DABA3FF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft ACPI-Compliant System
+CompatibleID           : 
+DeviceID               : ACPI_HAL\PNP0C08\0
+HardwareID             : {ACPI_HAL\PNP0C08, *PNP0C08}
+PNPDeviceID            : ACPI_HAL\PNP0C08\0
+PNPClass               : System
+Service                : ACPI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 
+CompatibleID           : 
+DeviceID               : HTREE\ROOT\0
+HardwareID             : 
+PNPDeviceID            : HTREE\ROOT\0
+PNPClass               : 
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 
+
+Caption                : 符合 HID 标准的供应商定义设备
+CompatibleID           : 
+DeviceID               : HID\ITE8350&COL01\4&39E466F8&0&0000
+HardwareID             : {HID\VEN_ITE&DEV_8350&Col01, HID\ITE8350&Col01, HID\*ITE8350&Col01, HID\VID_048D&UP:FF83_U:008
+                         0...}
+PNPDeviceID            : HID\ITE8350&COL01\4&39E466F8&0&0000
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Microsoft 基本呈现驱动程序
+CompatibleID           : 
+DeviceID               : ROOT\BASICRENDER\0000
+HardwareID             : {ROOT\BasicRender}
+PNPDeviceID            : ROOT\BASICRENDER\0000
+PNPClass               : System
+Service                : BasicRender
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Windows Studio Effects Driver
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{A882D99B-2BB1-484C-B438-A24B8B506686}#MEP_EXTENSIONCOMPONENT&5&1183CC29&0
+HardwareID             : {SWC\MEP_VEN_1022_DEV_17F0}
+PNPDeviceID            : SWD\DRIVERENUM\{A882D99B-2BB1-484C-B438-A24B8B506686}#MEP_EXTENSIONCOMPONENT&5&1183CC29&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft Corporation
+
+Caption                : Microsoft Windows Management Interface for ACPI
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C14\GMZN
+HardwareID             : {ACPI\VEN_PNP&DEV_0C14, ACPI\PNP0C14, *PNP0C14}
+PNPDeviceID            : ACPI\PNP0C14\GMZN
+PNPClass               : System
+Service                : WmiAcpi
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft UEFI 兼容系统
+CompatibleID           : 
+DeviceID               : ACPI_HAL\UEFI\0
+HardwareID             : {ACPI_HAL\UEFI}
+PNPDeviceID            : ACPI_HAL\UEFI\0
+PNPClass               : System
+Service                : UEFI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_16FE&SUBSYS_00000000&REV_00\3&11583659&0&C6
+HardwareID             : {PCI\VEN_1022&DEV_16FE&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_16FE&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_16FE&REV_00, PCI\VEN_1022&DEV_16FE...}
+PNPDeviceID            : PCI\VEN_1022&DEV_16FE&SUBSYS_00000000&REV_00\3&11583659&0&C6
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : AMD USB 3.10 可扩展主机控制器 - 1.20 (Microsoft)
+CompatibleID           : {PCI\VEN_1022&DEV_151A&REV_00, PCI\VEN_1022&DEV_151A, PCI\VEN_1022&CC_0C0330, PCI\VEN_1022&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_1022&DEV_151A&SUBSYS_151A1022&REV_00\4&108AA3AE&0&0343
+HardwareID             : {PCI\VEN_1022&DEV_151A&SUBSYS_151A1022&REV_00, PCI\VEN_1022&DEV_151A&SUBSYS_151A1022, PCI\VEN_
+                         1022&DEV_151A&CC_0C0330, PCI\VEN_1022&DEV_151A&CC_0C03}
+PNPDeviceID            : PCI\VEN_1022&DEV_151A&SUBSYS_151A1022&REV_00\4&108AA3AE&0&0343
+PNPClass               : USB
+Service                : USBXHCI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Generic USB xHCI Host Controller
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000000004400
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000000004400
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150A&REV_00, PCI\VEN_1022&DEV_150A, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150A&SUBSYS_150A1022&REV_00\3&11583659&0&09
+HardwareID             : {PCI\VEN_1022&DEV_150A&SUBSYS_150A1022&REV_00, PCI\VEN_1022&DEV_150A&SUBSYS_150A1022, PCI\VEN_
+                         1022&DEV_150A&CC_060400, PCI\VEN_1022&DEV_150A&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150A&SUBSYS_150A1022&REV_00\3&11583659&0&09
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150A&REV_00, PCI\VEN_1022&DEV_150A, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150A&SUBSYS_150A1022&REV_00\3&11583659&0&0A
+HardwareID             : {PCI\VEN_1022&DEV_150A&SUBSYS_150A1022&REV_00, PCI\VEN_1022&DEV_150A&SUBSYS_150A1022, PCI\VEN_
+                         1022&DEV_150A&CC_060400, PCI\VEN_1022&DEV_150A&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150A&SUBSYS_150A1022&REV_00\3&11583659&0&0A
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : MediaTek Bluetooth Audio Component
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\MTKBTACX&8&25C8AB9E&0
+HardwareID             : {SWC\VEN_0E8D&SID_0001}
+PNPDeviceID            : SWD\DRIVERENUM\MTKBTACX&8&25C8AB9E&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150C&REV_00, PCI\VEN_1022&DEV_150C, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00\3&11583659&0&41
+HardwareID             : {PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00, PCI\VEN_1022&DEV_150C&SUBSYS_150C1022, PCI\VEN_
+                         1022&DEV_150C&CC_060400, PCI\VEN_1022&DEV_150C&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00\3&11583659&0&41
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150C&REV_00, PCI\VEN_1022&DEV_150C, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00\3&11583659&0&42
+HardwareID             : {PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00, PCI\VEN_1022&DEV_150C&SUBSYS_150C1022, PCI\VEN_
+                         1022&DEV_150C&CC_060400, PCI\VEN_1022&DEV_150C&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00\3&11583659&0&42
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150C&REV_00, PCI\VEN_1022&DEV_150C, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00\3&11583659&0&43
+HardwareID             : {PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00, PCI\VEN_1022&DEV_150C&SUBSYS_150C1022, PCI\VEN_
+                         1022&DEV_150C&CC_060400, PCI\VEN_1022&DEV_150C&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150C&SUBSYS_150C1022&REV_00\3&11583659&0&43
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{CEDF59E8-AF63-11F0-9D65-806E6F6E6963}#000000EDFAA00000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{CEDF59E8-AF63-11F0-9D65-806E6F6E6963}#000000EDFAA00000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : AMD-Vulkan User Mode Driver
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\AMDVLK&5&7A76442&0
+HardwareID             : {SWC\AMDVLK-25.20}
+PNPDeviceID            : SWD\DRIVERENUM\AMDVLK&5&7A76442&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : Elevoc Audio Effects Component
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{F8AD342D-16E2-42B7-A8E3-EDED26AAD9E9}#ELEVOCAPO&6&3417445&0
+HardwareID             : {SWC\VEN_ELEVOC&AID_0001}
+PNPDeviceID            : SWD\DRIVERENUM\{F8AD342D-16E2-42B7-A8E3-EDED26AAD9E9}#ELEVOCAPO&6&3417445&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elevoc Technology Co.,Ltd
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000272000000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000272000000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : AMD Micro PEP Device
+CompatibleID           : {*PNP0D80}
+DeviceID               : ACPI\AMDI000A\1
+HardwareID             : {ACPI\VEN_AMDI&DEV_000A, ACPI\AMDI000A, *AMDI000A}
+PNPDeviceID            : ACPI\AMDI000A\1
+PNPClass               : System
+Service                : AmdMicroPEP
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : OneNote (Desktop)
+CompatibleID           : {GenPrintQueue, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\PRINTENUM\{2853066F-3C05-4F6C-895A-3DC983D030A3}
+HardwareID             : {PRINTENUM\{3ee39114-30b4-45a4-a109-19d4a40fcc22}, PRINTENUM\LocalPrintQueue, {3ee39114-30b4-4
+                         5a4-a109-19d4a40fcc22}}
+PNPDeviceID            : SWD\PRINTENUM\{2853066F-3C05-4F6C-895A-3DC983D030A3}
+PNPClass               : PrintQueue
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : AMD High Definition Audio Device
+CompatibleID           : {HDAUDIO\FUNC_01&CTLR_VEN_1002&CTLR_DEV_1640&VEN_1002&DEV_AA01&REV_1009, HDAUDIO\FUNC_01&CTLR_
+                         VEN_1002&VEN_1002&DEV_AA01&REV_1009, HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&REV_1009, HDAUDIO\FUNC_
+                         01&CTLR_VEN_1002&CTLR_DEV_1640&VEN_1002&DEV_AA01...}
+DeviceID               : HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1009\5&27E99CF4&0&0001
+HardwareID             : {HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1009, HDAUDIO\FUNC_01&VEN_1002&DEV_AA01
+                         &SUBSYS_00AA0100}
+PNPDeviceID            : HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1009\5&27E99CF4&0&0001
+PNPClass               : MEDIA
+Service                : AtiHDAudioService
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : 母板资源
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C02\90
+HardwareID             : {ACPI\VEN_PNP&DEV_0C02, ACPI\PNP0C02, *PNP0C02}
+PNPDeviceID            : ACPI\PNP0C02\90
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 阵列麦克风 (AMD Audio Device)
+CompatibleID           : {GenericAudioEndpoint, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\MMDEVAPI\{0.0.1.00000000}.{94B6B355-0F29-4312-9303-6CCF12B84BC8}
+HardwareID             : {MMDEVAPI\AudioEndpoints}
+PNPDeviceID            : SWD\MMDEVAPI\{0.0.1.00000000}.{94B6B355-0F29-4312-9303-6CCF12B84BC8}
+PNPClass               : AudioEndpoint
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{CEDF59E8-AF63-11F0-9D65-806E6F6E6963}#000000001C300000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{CEDF59E8-AF63-11F0-9D65-806E6F6E6963}#000000001C300000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Microsoft 蓝牙 LE 枚举器
+CompatibleID           : 
+DeviceID               : BTH\MS_BTHLE\8&25C8AB9E&0&3
+HardwareID             : {BTH\MS_BTHLE}
+PNPDeviceID            : BTH\MS_BTHLE\8&25C8AB9E&0&3
+PNPClass               : Bluetooth
+Service                : BthLEEnum
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_16FB&SUBSYS_00000000&REV_00\3&11583659&0&C3
+HardwareID             : {PCI\VEN_1022&DEV_16FB&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_16FB&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_16FB&REV_00, PCI\VEN_1022&DEV_16FB...}
+PNPDeviceID            : PCI\VEN_1022&DEV_16FB&SUBSYS_00000000&REV_00\3&11583659&0&C3
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000001000000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{AE3F2F5A-B0DB-11F0-9DB5-4845E6E3999E}#0000000001000000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Realtek Audio Effects Component
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&6&3417445&0
+HardwareID             : {SWC\VEN_10EC&AID_0011}
+PNPDeviceID            : SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&6&3417445&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Realtek
+
+Caption                : Lenovo Intelligent Sensing
+CompatibleID           : 
+DeviceID               : ACPI\IDEA2002\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_IDEA&DEV_2002, ACPI\IDEA2002, *IDEA2002}
+PNPDeviceID            : ACPI\IDEA2002\2&DABA3FF&0
+PNPClass               : System
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : USB4 根路由器 (1.0)
+CompatibleID           : {USB4\ROOT_DEVICE_ROUTER, USB4\DEVICE_ROUTER}
+DeviceID               : USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_151C\5&387A9267&0&0
+HardwareID             : {USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_151C&REV_0000, USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_151C
+                         }
+PNPDeviceID            : USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_151C\5&387A9267&0&0
+PNPClass               : USB
+Service                : Usb4DeviceRouter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB4 设备路由器
+
+Caption                : AMD Radeon(TM) 880M Graphics
+CompatibleID           : {PCI\VEN_1002&DEV_150E&REV_E3, PCI\VEN_1002&DEV_150E, PCI\VEN_1002&CC_038000, PCI\VEN_1002&CC_
+                         0380...}
+DeviceID               : PCI\VEN_1002&DEV_150E&SUBSYS_80C217AA&REV_E3\4&35FE04F8&0&0041
+HardwareID             : {PCI\VEN_1002&DEV_150E&SUBSYS_80C217AA&REV_E3, PCI\VEN_1002&DEV_150E&SUBSYS_80C217AA, PCI\VEN_
+                         1002&DEV_150E&CC_038000, PCI\VEN_1002&DEV_150E&CC_0380}
+PNPDeviceID            : PCI\VEN_1002&DEV_150E&SUBSYS_80C217AA&REV_E3\4&35FE04F8&0&0041
+PNPClass               : Display
+Service                : amduw23g-420065-2aaf0312
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : Microsoft GS 波表合成器
+CompatibleID           : {SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH
+HardwareID             : 
+PNPDeviceID            : SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH
+PNPClass               : SoftwareDevice
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\0
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\0
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\1
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\1
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\2
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\2
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\3
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\3
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\4
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\4
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\5
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\5
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\6
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\6
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\7
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\7
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : 符合 HID 标准的系统控制器
+CompatibleID           : 
+DeviceID               : HID\CONVERTEDDEVICE&COL03\5&2CF12849&0&0002
+HardwareID             : {HID\ConvertedDevice&Col03, HID\VID_045E&UP:0001_U:0080, HID_DEVICE_SYSTEM_CONTROL, HID_DEVICE
+                         _UP:0001_U:0080...}
+PNPDeviceID            : HID\CONVERTEDDEVICE&COL03\5&2CF12849&0&0002
+PNPClass               : HIDClass
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 已转换便携式设备控制装置
+CompatibleID           : 
+DeviceID               : BUTTONCONVERTER\CONVERTEDDEVICE\4&10F15609&0&0
+HardwareID             : {ButtonConverter\ConvertedDevice}
+PNPDeviceID            : BUTTONCONVERTER\CONVERTEDDEVICE\4&10F15609&0&0
+PNPClass               : HIDClass
+Service                : mshidkmdf
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : HID 传感器集合 V2
+CompatibleID           : 
+DeviceID               : HID\ITE8350&COL02\4&39E466F8&0&0001
+HardwareID             : {HID\VEN_ITE&DEV_8350&Col02, HID\ITE8350&Col02, HID\*ITE8350&Col02, HID\VID_048D&UP:0020_U:000
+                         1...}
+PNPDeviceID            : HID\ITE8350&COL02\4&39E466F8&0&0001
+PNPClass               : Sensor
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 通用软件组件
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\UDCCOMPONENT&1&79F5D87&0
+HardwareID             : {SWC\UdsUdcDriverComponent}
+PNPDeviceID            : SWD\DRIVERENUM\UDCCOMPONENT&1&79F5D87&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{EABC9F8A-8842-4AC5-8EE1-075099DAB874}\0
+HardwareID             : {UEFI\RES_{eabc9f8a-8842-4ac5-8ee1-075099dab874}&REV_310003, UEFI\RES_{eabc9f8a-8842-4ac5-8ee1
+                         -075099dab874}}
+PNPDeviceID            : UEFI\RES_{EABC9F8A-8842-4AC5-8EE1-075099DAB874}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150B&REV_00, PCI\VEN_1022&DEV_150B, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00\3&11583659&0&11
+HardwareID             : {PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00, PCI\VEN_1022&DEV_150B&SUBSYS_14531022, PCI\VEN_
+                         1022&DEV_150B&CC_060400, PCI\VEN_1022&DEV_150B&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00\3&11583659&0&11
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150B&REV_00, PCI\VEN_1022&DEV_150B, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00\3&11583659&0&12
+HardwareID             : {PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00, PCI\VEN_1022&DEV_150B&SUBSYS_14531022, PCI\VEN_
+                         1022&DEV_150B&CC_060400, PCI\VEN_1022&DEV_150B&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00\3&11583659&0&12
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150B&REV_00, PCI\VEN_1022&DEV_150B, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00\3&11583659&0&13
+HardwareID             : {PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00, PCI\VEN_1022&DEV_150B&SUBSYS_14531022, PCI\VEN_
+                         1022&DEV_150B&CC_060400, PCI\VEN_1022&DEV_150B&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00\3&11583659&0&13
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : PCI Express 根端口
+CompatibleID           : {PCI\VEN_1022&DEV_150B&REV_00, PCI\VEN_1022&DEV_150B, PCI\VEN_1022&CC_060400, PCI\VEN_1022&CC_
+                         0604...}
+DeviceID               : PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00\3&11583659&0&1A
+HardwareID             : {PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00, PCI\VEN_1022&DEV_150B&SUBSYS_14531022, PCI\VEN_
+                         1022&DEV_150B&CC_060400, PCI\VEN_1022&DEV_150B&CC_0604}
+PNPDeviceID            : PCI\VEN_1022&DEV_150B&SUBSYS_14531022&REV_00\3&11583659&0&1A
+PNPClass               : System
+Service                : pci
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Realtek RTL9210 NVME SCSI Disk Device
+CompatibleID           : {SCSI\Disk, SCSI\RAW}
+DeviceID               : SCSI\DISK&VEN_REALTEK&PROD_RTL9210_NVME\7&A36D6ED&0&000000
+HardwareID             : {SCSI\DiskRealtek_RTL9210_NVME____1.00, SCSI\DiskRealtek_RTL9210_NVME____, SCSI\DiskRealtek_, 
+                         SCSI\Realtek_RTL9210_NVME____1...}
+PNPDeviceID            : SCSI\DISK&VEN_REALTEK&PROD_RTL9210_NVME\7&A36D6ED&0&000000
+PNPClass               : DiskDrive
+Service                : disk
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准磁盘驱动器)
+
+Caption                : AMD Crash Defender
+CompatibleID           : 
+DeviceID               : ROOT\AMDLOG\0000
+HardwareID             : {ROOT\AMDLOG}
+PNPDeviceID            : ROOT\AMDLOG\0000
+PNPClass               : System
+Service                : amdfendrmgr
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : AMD USB 3.10 可扩展主机控制器 - 1.20 (Microsoft)
+CompatibleID           : {PCI\VEN_1022&DEV_151F&REV_00, PCI\VEN_1022&DEV_151F, PCI\VEN_1022&CC_0C0330, PCI\VEN_1022&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_1022&DEV_151F&SUBSYS_151F1022&REV_00\4&108AA3AE&0&0043
+HardwareID             : {PCI\VEN_1022&DEV_151F&SUBSYS_151F1022&REV_00, PCI\VEN_1022&DEV_151F&SUBSYS_151F1022, PCI\VEN_
+                         1022&DEV_151F&CC_0C0330, PCI\VEN_1022&DEV_151F&CC_0C03}
+PNPDeviceID            : PCI\VEN_1022&DEV_151F&SUBSYS_151F1022&REV_00\4&108AA3AE&0&0043
+PNPClass               : USB
+Service                : USBXHCI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Generic USB xHCI Host Controller
+
+Caption                : NDIS 虚拟网络适配器枚举器
+CompatibleID           : 
+DeviceID               : ROOT\NDISVIRTUALBUS\0000
+HardwareID             : {ROOT\NdisVirtualBus}
+PNPDeviceID            : ROOT\NDISVIRTUALBUS\0000
+PNPClass               : System
+Service                : NdisVirtualBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : KEG70ZNT1T02 LS KIOXIA
+CompatibleID           : {SCSI\Disk, SCSI\RAW, Disk1667}
+DeviceID               : SCSI\DISK&VEN_NVME&PROD_KEG70ZNT1T02_LS\5&27A1F63B&0&000000
+HardwareID             : {SCSI\DiskNVMe______________________KEG70ZNT1T02_LS_KIOXIA9104A1LS, SCSI\DiskNVMe_____________
+                         _________KEG70ZNT1T02_LS_KIOXIA, SCSI\DiskNVMe____KEG70ZNT1T02_LS_A1LS, SCSI\DiskNVMe____KEG70
+                         ZNT1T02_LS_...}
+PNPDeviceID            : SCSI\DISK&VEN_NVME&PROD_KEG70ZNT1T02_LS\5&27A1F63B&0&000000
+PNPClass               : DiskDrive
+Service                : disk
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准磁盘驱动器)
+
+Caption                : AMD I2C Controller
+CompatibleID           : 
+DeviceID               : ACPI\AMDI0010\0
+HardwareID             : {ACPI\VEN_AMDI&DEV_0010, ACPI\AMDI0010, *AMDI0010}
+PNPDeviceID            : ACPI\AMDI0010\0
+PNPClass               : System
+Service                : amdi2c
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : AMD I2C Controller
+CompatibleID           : 
+DeviceID               : ACPI\AMDI0010\1
+HardwareID             : {ACPI\VEN_AMDI&DEV_0010, ACPI\AMDI0010, *AMDI0010}
+PNPDeviceID            : ACPI\AMDI0010\1
+PNPClass               : System
+Service                : amdi2c
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : AMD I2C Controller
+CompatibleID           : 
+DeviceID               : ACPI\AMDI0010\2
+HardwareID             : {ACPI\VEN_AMDI&DEV_0010, ACPI\AMDI0010, *AMDI0010}
+PNPDeviceID            : ACPI\AMDI0010\2
+PNPClass               : System
+Service                : amdi2c
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : AMD SMBUS
+CompatibleID           : {PCI\VEN_1022&DEV_790B&REV_71, PCI\VEN_1022&DEV_790B, PCI\VEN_1022&CC_0C0500, PCI\VEN_1022&CC_
+                         0C05...}
+DeviceID               : PCI\VEN_1022&DEV_790B&SUBSYS_38FF17AA&REV_71\3&11583659&0&A0
+HardwareID             : {PCI\VEN_1022&DEV_790B&SUBSYS_38FF17AA&REV_71, PCI\VEN_1022&DEV_790B&SUBSYS_38FF17AA, PCI\VEN_
+                         1022&DEV_790B&CC_0C0500, PCI\VEN_1022&DEV_790B&CC_0C05}
+PNPDeviceID            : PCI\VEN_1022&DEV_790B&SUBSYS_38FF17AA&REV_71\3&11583659&0&A0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc
+
+Caption                : HID-compliant mouse
+CompatibleID           : 
+DeviceID               : HID\SYNA2BA6&COL01\4&2F841EA5&0&0000
+HardwareID             : {HID\VEN_SYNA&DEV_2BA6&Col01, HID\SYNA2BA6&Col01, HID\*SYNA2BA6&Col01, HID\VID_06CB&UP:0001_U:
+                         0002...}
+PNPDeviceID            : HID\SYNA2BA6&COL01\4&2F841EA5&0&0000
+PNPClass               : Mouse
+Service                : mouhid
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Realtek PCIE CardReader
+CompatibleID           : {PCI\VEN_10EC&DEV_522A&REV_01, PCI\VEN_10EC&DEV_522A, PCI\VEN_10EC&CC_FF0000, PCI\VEN_10EC&CC_
+                         FF00...}
+DeviceID               : PCI\VEN_10EC&DEV_522A&SUBSYS_522A10EC&REV_01\00000001004CE00000
+HardwareID             : {PCI\VEN_10EC&DEV_522A&SUBSYS_522A10EC&REV_01, PCI\VEN_10EC&DEV_522A&SUBSYS_522A10EC, PCI\VEN_
+                         10EC&DEV_522A&CC_FF0000, PCI\VEN_10EC&DEV_522A&CC_FF00}
+PNPDeviceID            : PCI\VEN_10EC&DEV_522A&SUBSYS_522A10EC&REV_01\00000001004CE00000
+PNPClass               : MTD
+Service                : RTSPER
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Realtek Semiconductor Corp.
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\10
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\10
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\11
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\11
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\12
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\12
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\13
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\13
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\14
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\14
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\15
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\15
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\16
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\16
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\17
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\17
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\18
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\18
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\19
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\19
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\1A
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\1A
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD Ryzen AI 9 H 465 w/ Radeon 880M
+CompatibleID           : {ACPI\Processor}
+DeviceID               : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\1B
+HardwareID             : {ACPI\VEN_ACPI&DEV_0007, ACPI\AuthenticAMD_-_AMD64_Family_26_Model_36, *AuthenticAMD_-_AMD64_F
+                         amily_26_Model_36, ACPI\AuthenticAMD_-_AMD64_Family_26...}
+PNPDeviceID            : ACPI\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_36_-_AMD_RYZEN_AI_9_H_465_W/_RADEON_880M\1B
+PNPClass               : Processor
+Service                : AmdPPM
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices
+
+Caption                : AMD USB 3.10 可扩展主机控制器 - 1.20 (Microsoft)
+CompatibleID           : {PCI\VEN_1022&DEV_151B&REV_00, PCI\VEN_1022&DEV_151B, PCI\VEN_1022&CC_0C0330, PCI\VEN_1022&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_1022&DEV_151B&SUBSYS_151B1022&REV_00\4&108AA3AE&0&0443
+HardwareID             : {PCI\VEN_1022&DEV_151B&SUBSYS_151B1022&REV_00, PCI\VEN_1022&DEV_151B&SUBSYS_151B1022, PCI\VEN_
+                         1022&DEV_151B&CC_0C0330, PCI\VEN_1022&DEV_151B&CC_0C03}
+PNPDeviceID            : PCI\VEN_1022&DEV_151B&SUBSYS_151B1022&REV_00\4&108AA3AE&0&0443
+PNPClass               : USB
+Service                : USBXHCI
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Generic USB xHCI Host Controller
+
+Caption                : 设备固件
+CompatibleID           : {UEFI\CC_00010002, GenFirmwareResource}
+DeviceID               : UEFI\RES_{2839A1A9-DFDC-45AF-867D-CAEDAD32D51F}\0
+HardwareID             : {UEFI\RES_{2839a1a9-dfdc-45af-867d-caedad32d51f}&REV_5602, UEFI\RES_{2839a1a9-dfdc-45af-867d-c
+                         aedad32d51f}}
+PNPDeviceID            : UEFI\RES_{2839A1A9-DFDC-45AF-867D-CAEDAD32D51F}\0
+PNPClass               : Firmware
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : Realtek Audio Universal Service
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKSRV&6&3417445&0
+HardwareID             : {SWC\VEN_10EC&SID_0001}
+PNPDeviceID            : SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKSRV&6&3417445&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Realtek
+
+Caption                : Camera DFU Device
+CompatibleID           : {USB\MS_COMP_WINUSB, USB\COMPAT_VID_04f2&Class_fe&SubClass_01&Prot_00, USB\COMPAT_VID_04f2&Cla
+                         ss_fe&SubClass_01, USB\COMPAT_VID_04f2&Class_fe...}
+DeviceID               : USB\VID_04F2&PID_B875&MI_04\7&146DC836&0&0004
+HardwareID             : {USB\VID_04F2&PID_B875&REV_5602&MI_04, USB\VID_04F2&PID_B875&MI_04}
+PNPDeviceID            : USB\VID_04F2&PID_B875&MI_04\7&146DC836&0&0004
+PNPClass               : USBDevice
+Service                : WINUSB
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : WinUSB 设备
+
+Caption                : USB 根集线器(USB 3.0)
+CompatibleID           : 
+DeviceID               : USB\ROOT_HUB30\5&680FC&0&0
+HardwareID             : {USB\ROOT_HUB30&VID1022&PID151B&REV0000, USB\ROOT_HUB30&VID1022&PID151B, USB\ROOT_HUB30}
+PNPDeviceID            : USB\ROOT_HUB30\5&680FC&0&0
+PNPClass               : USB
+Service                : USBHUB3
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准 USB 集线器)
+
+Caption                : 系统 CMOS/实时时钟
+CompatibleID           : 
+DeviceID               : ACPI\PNP0B00\4&21FEF8AF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0B00, ACPI\PNP0B00, *PNP0B00}
+PNPDeviceID            : ACPI\PNP0B00\4&21FEF8AF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 系统板
+CompatibleID           : 
+DeviceID               : ACPI\PNP0C01\4&21FEF8AF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0C01, ACPI\PNP0C01, *PNP0C01}
+PNPDeviceID            : ACPI\PNP0C01\4&21FEF8AF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : AMD PMF
+CompatibleID           : 
+DeviceID               : ACPI\AMDI0108\0
+HardwareID             : {ACPI\VEN_AMDI&DEV_0108, ACPI\AMDI0108, *AMDI0108}
+PNPDeviceID            : ACPI\AMDI0108\0
+PNPClass               : System
+Service                : amdpmf
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : Microsoft System Management BIOS Driver
+CompatibleID           : 
+DeviceID               : ROOT\MSSMBIOS\0000
+HardwareID             : {ROOT\mssmbios}
+PNPDeviceID            : ROOT\MSSMBIOS\0000
+PNPClass               : System
+Service                : mssmbios
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : AMD Audio CoProcessor
+CompatibleID           : {PCI\VEN_1022&DEV_15E2&REV_70, PCI\VEN_1022&DEV_15E2, PCI\VEN_1022&CC_048000, PCI\VEN_1022&CC_
+                         0480...}
+DeviceID               : PCI\VEN_1022&DEV_15E2&SUBSYS_38FD17AA&REV_70\4&35FE04F8&0&0541
+HardwareID             : {PCI\VEN_1022&DEV_15E2&SUBSYS_38FD17AA&REV_70, PCI\VEN_1022&DEV_15E2&SUBSYS_38FD17AA, PCI\VEN_
+                         1022&DEV_15E2&CC_048000, PCI\VEN_1022&DEV_15E2&CC_0480}
+PNPDeviceID            : PCI\VEN_1022&DEV_15E2&SUBSYS_38FD17AA&REV_70\4&35FE04F8&0&0541
+PNPClass               : System
+Service                : amdacpbus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : AMD
+
+Caption                : NPU Compute Accelerator Device
+CompatibleID           : {PCI\VEN_1022&DEV_17F0&REV_10, PCI\VEN_1022&DEV_17F0, PCI\VEN_1022&CC_118000, PCI\VEN_1022&CC_
+                         1180...}
+DeviceID               : PCI\VEN_1022&DEV_17F0&SUBSYS_384417AA&REV_10\4&23445453&0&0142
+HardwareID             : {PCI\VEN_1022&DEV_17F0&SUBSYS_384417AA&REV_10, PCI\VEN_1022&DEV_17F0&SUBSYS_384417AA, PCI\VEN_
+                         1022&DEV_17F0&CC_118000, PCI\VEN_1022&DEV_17F0&CC_1180}
+PNPDeviceID            : PCI\VEN_1022&DEV_17F0&SUBSYS_384417AA&REV_10\4&23445453&0&0142
+PNPClass               : ComputeAccelerator
+Service                : IpuMcdmDriver
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : AMD
+
+Caption                : LENOVO 83SJ
+CompatibleID           : {COMPUTER\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\COMPUTER\MFG_LENOVO&FAM_XIAOXINPRO_16GT_AGP11&PROD_83SJ&SKU_LENOVO_MT_83SJ_BU_IDEA_FM_XIAO
+                         XINPR
+HardwareID             : {COMPUTER\{5E02E375-5E09-5579-BD3D-6EB3FD184E81}, COMPUTER\{91699A82-A281-57F2-82EC-EB5C2A32F4
+                         DF}, COMPUTER\{4878FBD4-5C8A-5787-BCFC-EE6EC828F6BC}, COMPUTER\{DB3FFAE2-335E-51F3-84CF-20AD8F
+                         F750A2}...}
+PNPDeviceID            : SWD\COMPUTER\MFG_LENOVO&FAM_XIAOXINPRO_16GT_AGP11&PROD_83SJ&SKU_LENOVO_MT_83SJ_BU_IDEA_FM_XIAO
+                         XINPR
+PNPClass               : Computer
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 可编程中断控制器
+CompatibleID           : 
+DeviceID               : ACPI\PNP0000\4&21FEF8AF&0
+HardwareID             : {ACPI\VEN_PNP&DEV_0000, ACPI\PNP0000, *PNP0000}
+PNPDeviceID            : ACPI\PNP0000\4&21FEF8AF&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : 即插即用软件设备枚举器
+CompatibleID           : 
+DeviceID               : ROOT\SYSTEM\0000
+HardwareID             : {ROOT\SWENUM}
+PNPDeviceID            : ROOT\SYSTEM\0000
+PNPClass               : System
+Service                : swenum
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : Universal Device Client Device
+CompatibleID           : 
+DeviceID               : ROOT\SYSTEM\0001
+HardwareID             : {Root\UdsUdcDriver}
+PNPDeviceID            : ROOT\SYSTEM\0001
+PNPClass               : System
+Service                : WUDFRd
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+Caption                : USB4(TM) 主机路由器 (Microsoft)
+CompatibleID           : {PCI\VEN_1022&DEV_151C&REV_00, PCI\VEN_1022&DEV_151C, PCI\VEN_1022&CC_0C0340, PCI\VEN_1022&CC_
+                         0C03...}
+DeviceID               : PCI\VEN_1022&DEV_151C&SUBSYS_151C1022&REV_00&USB4_MS_CM\4&108AA3AE&0&0543
+HardwareID             : {PCI\USB4_MS_CM, PCI\VEN_1022&DEV_151C&SUBSYS_151C1022&REV_00, PCI\VEN_1022&DEV_151C&SUBSYS_15
+                         1C1022, PCI\VEN_1022&DEV_151C&CC_0C0340...}
+PNPDeviceID            : PCI\VEN_1022&DEV_151C&SUBSYS_151C1022&REV_00&USB4_MS_CM\4&108AA3AE&0&0543
+PNPClass               : USB
+Service                : Usb4HostRouter
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : 通用 USB4 主机路由器
+
+Caption                : Elevoc Audio Effects Component(DMIC)
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{66089998-D0C7-46A4-9321-2D6130B548F1}#ELEVOCAPO&6&A93E18E&0
+HardwareID             : {SWC\VEN_ELEVOC&AID_0003}
+PNPDeviceID            : SWD\DRIVERENUM\{66089998-D0C7-46A4-9321-2D6130B548F1}#ELEVOCAPO&6&A93E18E&0
+PNPClass               : AudioProcessingObject
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Elevoc Technology Co.,Ltd
+
+Caption                : 远程桌面设备重定向程序总线
+CompatibleID           : 
+DeviceID               : ROOT\RDPBUS\0000
+HardwareID             : {ROOT\RDPBUS}
+PNPDeviceID            : ROOT\RDPBUS\0000
+PNPClass               : System
+Service                : rdpbus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 通用软件组件
+CompatibleID           : {SWC\Generic, SWD\GenericRaw, SWD\Generic}
+DeviceID               : SWD\DRIVERENUM\{96BEDF2C-18CB-4A15-B821-5E95ED0FEA61}#VOCAEFFECTPACK&1&1E1273AD&0
+HardwareID             : {SWC\VEN_MSFT&AUDIO_EFFECTPACK_VOICECLARITY}
+PNPDeviceID            : SWD\DRIVERENUM\{96BEDF2C-18CB-4A15-B821-5E95ED0FEA61}#VOCAEFFECTPACK&1&1E1273AD&0
+PNPClass               : SoftwareComponent
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : PCI 标准主机 CPU 桥
+CompatibleID           : {PCI\VEN_1022&CC_060000, PCI\VEN_1022&CC_0600, PCI\VEN_1022, PCI\CC_060000...}
+DeviceID               : PCI\VEN_1022&DEV_16FD&SUBSYS_00000000&REV_00\3&11583659&0&C5
+HardwareID             : {PCI\VEN_1022&DEV_16FD&SUBSYS_00000000&REV_00, PCI\VEN_1022&DEV_16FD&SUBSYS_00000000, PCI\VEN_
+                         1022&DEV_16FD&REV_00, PCI\VEN_1022&DEV_16FD...}
+PNPDeviceID            : PCI\VEN_1022&DEV_16FD&SUBSYS_00000000&REV_00\3&11583659&0&C5
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准系统设备)
+
+Caption                : KEG70ZNT1T02 LS KIOXIA
+CompatibleID           : {SCSI\Disk, SCSI\RAW, Disk1667}
+DeviceID               : SCSI\DISK&VEN_NVME&PROD_KEG70ZNT1T02_LS\5&1093E08E&0&000000
+HardwareID             : {SCSI\DiskNVMe______________________KEG70ZNT1T02_LS_KIOXIA9104A1LS, SCSI\DiskNVMe_____________
+                         _________KEG70ZNT1T02_LS_KIOXIA, SCSI\DiskNVMe____KEG70ZNT1T02_LS_A1LS, SCSI\DiskNVMe____KEG70
+                         ZNT1T02_LS_...}
+PNPDeviceID            : SCSI\DISK&VEN_NVME&PROD_KEG70ZNT1T02_LS\5&1093E08E&0&000000
+PNPClass               : DiskDrive
+Service                : disk
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : (标准磁盘驱动器)
+
+Caption                : High Definition Audio 控制器
+CompatibleID           : {PCI\VEN_1002&DEV_1640&REV_00, PCI\VEN_1002&DEV_1640, PCI\VEN_1002&CC_040300, PCI\VEN_1002&CC_
+                         0403...}
+DeviceID               : PCI\VEN_1002&DEV_1640&SUBSYS_387917AA&REV_00\4&35FE04F8&0&0141
+HardwareID             : {PCI\VEN_1002&DEV_1640&SUBSYS_387917AA&REV_00, PCI\VEN_1002&DEV_1640&SUBSYS_387917AA, PCI\VEN_
+                         1002&DEV_1640&CC_040300, PCI\VEN_1002&DEV_1640&CC_0403}
+PNPDeviceID            : PCI\VEN_1002&DEV_1640&SUBSYS_387917AA&REV_00\4&35FE04F8&0&0141
+PNPClass               : System
+Service                : HDAudBus
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : 卷
+CompatibleID           : 
+DeviceID               : STORAGE\VOLUME\{CEDF59E8-AF63-11F0-9D65-806E6F6E6963}#0000000000100000
+HardwareID             : {STORAGE\Volume}
+PNPDeviceID            : STORAGE\VOLUME\{CEDF59E8-AF63-11F0-9D65-806E6F6E6963}#0000000000100000
+PNPClass               : Volume
+Service                : volume
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Microsoft
+
+Caption                : AMD Provisioning Packages
+CompatibleID           : 
+DeviceID               : ACPI\AMDI0052\2&DABA3FF&0
+HardwareID             : {ACPI\VEN_AMDI&DEV_0052, ACPI\AMDI0052, *AMDI0052}
+PNPDeviceID            : ACPI\AMDI0052\2&DABA3FF&0
+PNPClass               : System
+Service                : AmdPpkg
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Advanced Micro Devices, Inc.
+
+Caption                : MediaTek Wi-Fi 7 MT7925 Wireless LAN Card
+CompatibleID           : {PCI\VEN_14C3&DEV_7925&REV_00, PCI\VEN_14C3&DEV_7925, PCI\VEN_14C3&CC_028000, PCI\VEN_14C3&CC_
+                         0280...}
+DeviceID               : PCI\VEN_14C3&DEV_7925&SUBSYS_E0FF17AA&REV_00\4&3189D836&0&0013
+HardwareID             : {PCI\VEN_14C3&DEV_7925&SUBSYS_E0FF17AA&REV_00, PCI\VEN_14C3&DEV_7925&SUBSYS_E0FF17AA, PCI\VEN_
+                         14C3&DEV_7925&CC_028000, PCI\VEN_14C3&DEV_7925&CC_0280}
+PNPDeviceID            : PCI\VEN_14C3&DEV_7925&SUBSYS_E0FF17AA&REV_00\4&3189D836&0&0013
+PNPClass               : Net
+Service                : mtkwecx
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : MediaTek, Inc.
+
+Caption                : Lenovo Dispatcher
+CompatibleID           : 
+DeviceID               : ACPI\IDEA200C\5&15D725F4&0
+HardwareID             : {ACPI\VEN_IDEA&DEV_200C, ACPI\IDEA200C, *IDEA200C}
+PNPDeviceID            : ACPI\IDEA200C\5&15D725F4&0
+PNPClass               : System
+Service                : 
+Status                 : OK
+ConfigManagerErrorCode : 0
+Manufacturer           : Lenovo
+
+
+

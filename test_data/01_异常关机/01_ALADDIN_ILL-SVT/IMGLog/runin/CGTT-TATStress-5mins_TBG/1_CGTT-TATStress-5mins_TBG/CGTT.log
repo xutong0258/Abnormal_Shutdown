@@ -1,0 +1,146 @@
+2025-10-24 08:20:05,378 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\TOOL.json
+2025-10-24 08:20:05,394 | [DEBUG]  Init the ToolSet
+2025-10-24 08:20:05,537 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\TestCase.json
+2025-10-24 08:20:05,557 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\JobStore.json
+2025-10-24 08:20:05,586 | [INFO ]  Loading config file : C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\CommonTestJob.json
+2025-10-24 08:20:05,665 | [INFO ]  The AutoMode isn't enable, load default id: TATStress
+2025-10-24 08:20:05,665 | [INFO ]  Load Job: TATStress, Default Job: TATStress
+2025-10-24 08:20:11,701 | [WARN ]  Console mode not support to update the reg dat
+2025-10-24 08:20:11,744 | [DEBUG]  Microsoft Windows [Version 10.0.26100.2161]
+2025-10-24 08:20:11,744 | [DEBUG]  (c) Microsoft Corporation. All rights reserved.
+2025-10-24 08:20:11,744 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>reg add HKEY_LOCAL_MACHINE\SOFTWARE\CGTT /v ResultJson /d "" /t REG_SZ /f /reg:64
+2025-10-24 08:20:11,781 | [DEBUG]  The operation completed successfully.
+2025-10-24 08:20:11,781 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>exit /b %errorlvel% 
+2025-10-24 08:20:11,907 | [INFO ]  Execute Tool: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\PrePatch.bat C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ 20251024082005
+2025-10-24 08:20:12,040 | [INFO ]  Check and verfiy the test settings.
+2025-10-24 08:20:12,040 | [DEBUG] Add cid: iPTAT2_logging, Key: case, Wait: False
+2025-10-24 08:20:12,040 | [DEBUG] Skip the item : iPTAT2, OverrideFlag : True
+2025-10-24 08:20:12,040 | [DEBUG] Add cid: iPTAT2_stress, Key: case, Wait: False
+2025-10-24 08:20:12,040 | [INFO ]    ------> Start Test Scenario <------  
+2025-10-24 08:20:12,040 | [DEBUG] Try to reset Runtime Flag: TaskInitial, OF: True
+2025-10-24 08:20:12,040 | [DEBUG]  Gain the Flag Lock.
+2025-10-24 08:20:12,040 | [INFO ]   ---- Start Test Loop:1 ---- 
+2025-10-24 08:20:12,040 | [DEBUG] Try to reset Runtime Flag: TaskRunning, OF: True
+2025-10-24 08:20:12,040 | [DEBUG]  Gain the Flag Lock.
+2025-10-24 08:20:12,040 | [INFO ]  CGTTRuntime Status Changed : TaskRunning
+2025-10-24 08:20:12,049 | [INFO ]  Starting test case : iPTAT2 Stress, CurrentStatue : TaskRunning
+2025-10-24 08:20:12,049 | [INFO ]  Execute iPTAT_v2 TestCase
+2025-10-24 08:20:12,049 | [INFO ]  Execute command
+2025-10-24 08:20:12,049 | [INFO ]  Execute Tool: C:\Program Files\Intel Corporation\Intel(R)PTAT\PTAT.exe -s=CGTT_TATscript_C90G80.json -m={timestamp}_iPTAT.csv
+2025-10-24 08:20:12,331 | [INFO ]  Idle 5min, waiting test finished
+2025-10-24 08:25:12,696 | [DEBUG] Try to reset Runtime Flag: TaskComplete, OF: False
+2025-10-24 08:25:12,696 | [DEBUG]  Gain the Flag Lock.
+2025-10-24 08:25:12,698 | [INFO ]  CGTTRuntime Status Changed : TaskComplete
+2025-10-24 08:25:12,910 | [INFO ]  Try to stop the test case
+2025-10-24 08:25:12,912 | [INFO ]  Execute iPTAT_v2 TestCase
+2025-10-24 08:25:12,912 | [INFO ]  Execute command
+2025-10-24 08:25:14,673 | [DEBUG]  Microsoft Windows [Version 10.0.26100.2161]
+2025-10-24 08:25:14,673 | [DEBUG]  (c) Microsoft Corporation. All rights reserved.
+2025-10-24 08:25:14,673 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>powershell -Command  "& {sleep -Seconds 1}" 
+2025-10-24 08:26:08,452 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM PTAT.exe
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 9532 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 7316 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 1172 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 3648 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 3768 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 2916 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 2832 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 1000 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 11148 (child process of PID 12208) has been terminated.
+2025-10-24 08:26:15,614 | [DEBUG]  SUCCESS: The process with PID 8404 (child process of PID 9800) has been terminated.
+2025-10-24 08:26:15,619 | [DEBUG]  SUCCESS: The process with PID 12208 (child process of PID 9800) has been terminated.
+2025-10-24 08:26:15,619 | [DEBUG]  SUCCESS: The process with PID 9800 (child process of PID 8568) has been terminated.
+2025-10-24 08:26:15,667 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM cpu_stress.exe
+2025-10-24 08:26:15,810 | [DEBUG]  ERROR: The process "cpu_stress.exe" not found.
+2025-10-24 08:26:15,826 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM adl_smallcore_stress.exe
+2025-10-24 08:26:15,921 | [DEBUG]  ERROR: The process "adl_smallcore_stress.exe" not found.
+2025-10-24 08:26:15,921 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM adlN_smallcore_stress.exe
+2025-10-24 08:26:16,016 | [DEBUG]  ERROR: The process "adlN_smallcore_stress.exe" not found.
+2025-10-24 08:26:16,016 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM adlPS_smallcore_stress.exe
+2025-10-24 08:26:16,111 | [DEBUG]  ERROR: The process "adlPS_smallcore_stress.exe" not found.
+2025-10-24 08:26:16,127 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM rpl_stress.exe
+2025-10-24 08:26:16,207 | [DEBUG]  ERROR: The process "rpl_stress.exe" not found.
+2025-10-24 08:26:16,222 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM adlM_stress.exe
+2025-10-24 08:26:16,318 | [DEBUG]  ERROR: The process "adlM_stress.exe" not found.
+2025-10-24 08:26:16,318 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>powershell -Command  "& {sleep -Seconds 10}" 
+2025-10-24 08:26:27,507 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>copy /y "%USERPROFILE%\Documents\iPTAT\log\*" C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12\
+2025-10-24 08:26:27,509 | [DEBUG]  C:\Users\test\Documents\iPTAT\log\20251024082012_iPTAT_24-10-2025_08H-20-23S422.csv
+2025-10-24 08:26:27,523 | [DEBUG]  C:\Users\test\Documents\iPTAT\log\PTAT_System_Info.csv
+2025-10-24 08:26:27,523 | [DEBUG]          2 file(s) copied.
+2025-10-24 08:26:27,523 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>del /f /q "%USERPROFILE%\Documents\iPTAT\log\*" 
+2025-10-24 08:26:27,523 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>exit /b %errorlvel% 
+2025-10-24 08:26:27,523 | [INFO ]  Execute Tool: C:\Program Files\Intel Corporation\Intel(R)PTAT\PTAT.exe 
+2025-10-24 08:26:27,574 | [INFO ]  Export file to UnitInfo
+2025-10-24 08:26:27,594 | [INFO ]  PPSEnableFlag: False
+2025-10-24 08:26:27,602 | [INFO ]  Try to parse CGTT log.
+2025-10-24 08:26:27,602 | [INFO ]  Execute Tool: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\LogParser\LogParser.exe -src C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12 -prefix 20251024082012
+2025-10-24 08:26:30,557 | [INFO ]          ======CGTT Parse log======        
+2025-10-24 08:26:30,573 | [INFO ]  2025/10/24 08:26:30 INFO    | 
+2025/10/24 08:26:30 INFO    | 
+2025/10/24 08:26:30 INFO    | ============================================================
+2025/10/24 08:26:30 INFO    |                    Start CGTT logParser 
+2025/10/24 08:26:30 INFO    | ============================================================
+2025/10/24 08:26:30 INFO    | Tool file version: 2.0.4.0, product version: 2.0.2.0
+2025/10/24 08:26:30 INFO    | Tool create date: Tue Nov 26 07:17:35 2024, modify date: Tue Jun 20 17:49:34 2023
+2025/10/24 08:26:30 INFO    | cmdline : ['C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\CGTT\\bin\\LogParser\\LogParser.exe', '-src', 'C:\\PROGRA~2\\AutoRI\\Log\\CGTT-T~1\\1_CGTT~1\\PF5XXDFZ_N4CET36W_1.12', '-prefix', '20251024082012']
+2025/10/24 08:26:30 INFO    | start to parse CGTT Test Result
+2025/10/24 08:26:30 INFO    | ============= Start CGTT logParser ============= 
+2025/10/24 08:26:30 INFO    | {'auto': False, 'debug': False, 'src': 'C:\\PROGRA~2\\AutoRI\\Log\\CGTT-T~1\\1_CGTT~1\\PF5XXDFZ_N4CET36W_1.12', 'setting': '', 'prefix': '20251024082012', 'cpu_pwr': False, 'cpu_pwr_gap': 0.0, 'gpu_pwr': False, 'gpu_pwr_gap': 0.0, 'cpu_freq': False, 'cpus_freq': False, 'cpu_freq_gap': 0.0, 'head_offset': 0, 'tail_offset': 10, 'sr': False, 're_parse': False, 'file': False, 'segment': None, 'trange': None, 'src_file': ''}
+2025/10/24 08:26:30 INFO    | load config file: C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12\20251024082012_CGTTInfo.json
+2025/10/24 08:26:30 ERROR   | Error occurred while parse CGTT data
+2025/10/24 08:26:30 INFO    | object of type 'NoneType' has no len()
+2025/10/24 08:26:30 ERROR   | Traceback (most recent call last):
+  File "CGTT_Parser\LogParser.py", line 816, in log_parser
+  File "CGTT_Parser\LogParserContext.py", line 393, in __init__
+  File "CGTT_Parser\LogParserContext.py", line 212, in __init__
+  File "CGTT_Parser\LogParserContext.py", line 251, in _init_tool_config
+  File "CGTT_Parser\LogParserContext.py", line 381, in _preprocess_gap_setting
+TypeError: object of type 'NoneType' has no len()
+
+2025/10/24 08:26:30 INFO    | ============================================================
+2025/10/24 08:26:30 INFO    |    End of CGTT logParser [ErrorCode.UNKNOWN_EXCEPTION: 2]   
+2025/10/24 08:26:30 INFO    | ============================================================
+
+2025-10-24 08:26:30,573 | [INFO ]          ==========================        
+2025-10-24 08:26:30,573 | [INFO ]  Try to create PXA report 
+2025-10-24 08:26:30,573 | [INFO ]  Execute Tool: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\LogParser\ResultParser.exe  report -single_report -source c:\progra~2\autori\log\cgtt-t~1\1_cgtt~1\pf5xxdfz_n4cet36w_1.12 -prefix 20251024082012
+2025-10-24 08:26:33,081 | [INFO ]  Mapping LogParser RTC: 2
+2025-10-24 08:26:33,081 | [INFO ]  CGTT Failed: Unknown Exception!
+2025-10-24 08:26:33,081 | [INFO ]  LogParser check result: NG_UNKOWN_Exception
+2025-10-24 08:26:33,081 | [INFO ]  SpecCheck:False, return code:OK
+2025-10-24 08:26:33,081 | [INFO ]  Test result: OK, Test status: TaskComplete, Test Count : 1
+2025-10-24 08:26:33,097 | [INFO ]  Try to stop the test case
+2025-10-24 08:26:33,097 | [INFO ]  Execute iPTAT_v2 TestCase
+2025-10-24 08:26:33,097 | [INFO ]  Execute command
+2025-10-24 08:26:33,120 | [DEBUG]  Microsoft Windows [Version 10.0.26100.2161]
+2025-10-24 08:26:33,120 | [DEBUG]  (c) Microsoft Corporation. All rights reserved.
+2025-10-24 08:26:33,120 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>powershell -Command  "& {sleep -Seconds 1}" 
+2025-10-24 08:26:35,041 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM PTAT.exe
+2025-10-24 08:26:35,138 | [DEBUG]  ERROR: The process "PTAT.exe" not found.
+2025-10-24 08:26:35,152 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM cpu_stress.exe
+2025-10-24 08:26:35,237 | [DEBUG]  ERROR: The process "cpu_stress.exe" not found.
+2025-10-24 08:26:35,237 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM adl_smallcore_stress.exe
+2025-10-24 08:26:35,295 | [DEBUG]  ERROR: The process "adl_smallcore_stress.exe" not found.
+2025-10-24 08:26:35,311 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM adlN_smallcore_stress.exe
+2025-10-24 08:26:35,393 | [DEBUG]  ERROR: The process "adlN_smallcore_stress.exe" not found.
+2025-10-24 08:26:35,397 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM adlPS_smallcore_stress.exe
+2025-10-24 08:26:35,454 | [DEBUG]  ERROR: The process "adlPS_smallcore_stress.exe" not found.
+2025-10-24 08:26:35,460 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM rpl_stress.exe
+2025-10-24 08:26:35,555 | [DEBUG]  ERROR: The process "rpl_stress.exe" not found.
+2025-10-24 08:26:35,567 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>taskkill /F /T /IM adlM_stress.exe
+2025-10-24 08:26:35,630 | [DEBUG]  ERROR: The process "adlM_stress.exe" not found.
+2025-10-24 08:26:35,632 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>powershell -Command  "& {sleep -Seconds 10}" 
+2025-10-24 08:26:46,539 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>copy /y "%USERPROFILE%\Documents\iPTAT\log\*" C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12\
+2025-10-24 08:26:46,539 | [DEBUG]  C:\Users\test\Documents\iPTAT\log\* 
+2025-10-24 08:26:46,541 | [DEBUG]  The system cannot find the file specified.
+2025-10-24 08:26:46,541 | [DEBUG]          0 file(s) copied.
+2025-10-24 08:26:46,541 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>del /f /q "%USERPROFILE%\Documents\iPTAT\log\*" 
+2025-10-24 08:26:46,543 | [DEBUG]  C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT>exit /b %errorlvel% 
+2025-10-24 08:26:46,548 | [INFO ]  Execute Tool: C:\Program Files\Intel Corporation\Intel(R)PTAT\PTAT.exe 
+2025-10-24 08:26:46,554 | [INFO ]  UploadResult Info: 0a3ffbe66fa24c78b7a05a46651a1ee5, True
+2025-10-24 08:26:46,554 | [INFO ]  Fetch and Upload test result from C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12\20251024082012_Result.json
+2025-10-24 08:26:46,557 | [INFO ]  Execute Tool: C:\Program Files (x86)\AutoRI\Config\TestModules\CGTT\\Bin\PostPatch.bat C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ 20251024082012
+2025-10-24 08:26:46,651 | [INFO ]    ------> End of Test Scenario:OK <------  
+2025-10-24 08:26:46,651 | [INFO ]  Filter the Error code and exit: OK
+2025-10-24 08:26:46,651 | [INFO ]  =================End OF TEST (RTC: OK)=================
+2025-10-24 08:26:46,651 | [INFO ] [CGTT.Console] | --return code:0x000000--

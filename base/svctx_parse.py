@@ -59,6 +59,6 @@ if __name__ == '__main__':
                     break
 
             except Exception as e:
-                print(f"解析错误: {e}")
+                logger.info(f"解析错误: {e}")
 
     logger.info(f'match_case_3:{match_case_3}')

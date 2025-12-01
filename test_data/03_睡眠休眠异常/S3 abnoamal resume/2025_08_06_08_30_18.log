@@ -1,0 +1,313 @@
+2025-08-06 08:30:18|INFO|start work...
+2025-08-06 08:30:18|INFO|work dir:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18
+2025-08-06 08:30:18|INFO|zip file:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18.zip
+2025-08-06 08:30:18|INFO|****************Start item :SystemInfo-MS Dxdiag Info*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\MSDxdiagInfo.txt
+2025-08-06 08:30:18|INFO|exe :C:\Windows\System32\Dxdiag.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|****************Start item :DiskInfo-DiskInfo*************
+2025-08-06 08:30:18|INFO|****************Start item :SystemPowerLog-System Sleep Diagnostics Report*************
+2025-08-06 08:30:18|INFO|****************Start item :SystemInfo-Programs and Feature*************
+2025-08-06 08:30:18|INFO|****************Start item :DumpFile-Application dumps*************
+2025-08-06 08:30:18|INFO|****************Start item :BIOSandECLog-LfcDebugInfo log*************
+2025-08-06 08:30:18|INFO|****************Start item :SystemPowerLog-System Wakeup Settings*************
+2025-08-06 08:30:18|INFO|****************Start item :SystemInfo-Power Plan*************
+2025-08-06 08:30:18|INFO|****************Start item :BIOSandECLog-Global Reset Cause*************
+2025-08-06 08:30:18|INFO|****************Start item :MSEventLog-Application*************
+2025-08-06 08:30:18|INFO|****************Start item :SystemPowerLog-SRUM Report*************
+2025-08-06 08:30:18|INFO|****************Start item :BIOSandECLog-ITE_WinECU_I2EC*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\"
+2025-08-06 08:30:18|INFO|args :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\"
+2025-08-06 08:30:18|INFO|****************Start item :SystemPowerLog-Kernel Power Events*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause\GlobalResetCause.bat
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\"
+2025-08-06 08:30:18|INFO|****************Start item :PlatformTool-AMD_Getlog*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\PlatformTool\
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\AMD_Getlog\Getlog.bat
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\PlatformTool\"
+2025-08-06 08:30:18|INFO|args :/t "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\MSDxdiagInfo.txt"
+2025-08-06 08:30:18|INFO|outPut :
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|start exe:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause\GlobalResetCause.bat "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\"
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\
+2025-08-06 08:30:18|INFO|****************Start item :SystemInfo-Msinfo32*************
+2025-08-06 08:30:18|INFO|****************Start item :SystemInfo-Fireware Version*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\FirmwareVersion.log
+2025-08-06 08:30:18|INFO|****************Start item :SystemInfo-Device Managment*************
+2025-08-06 08:30:18|INFO|****************Start item :MSEventLog-System*************
+2025-08-06 08:30:18|INFO|****************Start item :OSLog-BOOTSTAT*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\OSLog\
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\BOOTSTAT\BOOTSTAT.cmd
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\OSLog\"
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SrumReport.csv
+2025-08-06 08:30:18|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :/srumutil /csv /OUTPUT "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SrumReport.csv"
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DiskInfo\DiskInfo.log
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\DiskInfo\DiskInfo.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args : >--> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DiskInfo\DiskInfo.log"
+2025-08-06 08:30:18|INFO|****************Start item :MSEventLog-Windows-Kernel-Boot*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog\
+2025-08-06 08:30:18|INFO|****************Start item :SystemPowerLog-System Power Report*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SystemPowerReport.html
+2025-08-06 08:30:18|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :/systempowerreport /DURATION 5 /OUTPUT "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SystemPowerReport.html"
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|start exe:C:\Windows\System32\powercfg.exe /srumutil /csv /OUTPUT "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SrumReport.csv"
+2025-08-06 08:30:18|INFO|****************Start item :DumpFile-Live Kernel Reports*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DumpFile\LiveKernelReports\
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|****************Start item :DumpFile-MemoryDump*************
+2025-08-06 08:30:18|INFO|****************Start item :SystemPowerLog-Battery Report*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\BatteryReport.html
+2025-08-06 08:30:18|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog\Application.evtx
+2025-08-06 08:30:18|INFO|exe :C:\Windows\System32\wevtutil.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :epl application "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog\Application.evtx"
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\ProgramsAndFeature.html
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\PowerSetting.log
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :powercfg /qh >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\PowerSetting.log"
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|copy file to dir
+2025-08-06 08:30:18|INFO|from:C:\Windows\System32\winevt\Logs\Microsoft-Windows-Kernel-Boot%4Operational.evtx
+2025-08-06 08:30:18|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog\
+2025-08-06 08:30:18|INFO|check HWPlatform error :amd system:GenuineIntel
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog\System.evtx
+2025-08-06 08:30:18|INFO|exe :C:\Windows\System32\wevtutil.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :epl System "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog\System.evtx"
+2025-08-06 08:30:18|INFO|start cmd:powercfg /qh >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\PowerSetting.log" timeOut: -1
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\MsInfo.txt
+2025-08-06 08:30:18|INFO|exe :C:\Windows\System32\msinfo32.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :/report "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\MsInfo.txt"
+2025-08-06 08:30:18|INFO|start exe:C:\Windows\System32\powercfg.exe /systempowerreport /DURATION 5 /OUTPUT "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SystemPowerReport.html"
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ListProgram\ListProgram.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\ProgramsAndFeature.html"
+2025-08-06 08:30:18|INFO|start exe:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ListProgram\ListProgram.exe "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\ProgramsAndFeature.html"
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\LfcDebugInfo\LfcDebugInfo.exe
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :/batteryreport /DURATION 5 /OUTPUT "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\BatteryReport.html"
+2025-08-06 08:30:18|INFO|****************Start item :TestToolLog-3DMark / 3DMark11*************
+2025-08-06 08:30:18|INFO|outPut :
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|start exe:C:\Windows\System32\powercfg.exe /batteryreport /DURATION 5 /OUTPUT "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\BatteryReport.html"
+2025-08-06 08:30:18|INFO|start exe:C:\Windows\System32\msinfo32.exe /report "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\MsInfo.txt"
+2025-08-06 08:30:18|INFO|start exe:C:\Windows\System32\wevtutil.exe epl application "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog\Application.evtx"
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SystemSleepDiagnosticsReport.html
+2025-08-06 08:30:18|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-08-06 08:30:18|INFO|copy dir to dir
+2025-08-06 08:30:18|INFO|from:C:\Users\zhs\AppData\Local\CrashDumps
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\System_Wakeup_settings\System_Wakeup_settings.cmd
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\"
+2025-08-06 08:30:18|INFO|start cmd:"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\" timeOut: -1
+2025-08-06 08:30:18|INFO|start exe:C:\Windows\System32\wevtutil.exe epl System "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog\System.evtx"
+2025-08-06 08:30:18|INFO|start exe:C:\Windows\System32\Dxdiag.exe /t "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\MSDxdiagInfo.txt"
+2025-08-06 08:30:18|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DumpFile\ApplicationDumps\
+2025-08-06 08:30:18|INFO|start exe:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\BOOTSTAT\BOOTSTAT.cmd "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\OSLog\"
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DumpFile\
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|start exe:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\LfcDebugInfo\LfcDebugInfo.exe 
+2025-08-06 08:30:18|INFO|copy dir to dir
+2025-08-06 08:30:18|INFO|from:C:\Windows\Minidump\
+2025-08-06 08:30:18|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DumpFile\MiniMemoryDump\
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\DeviceManagement.txt
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\DeviceManagement.txt"
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|start cmd:powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\DeviceManagement.txt" timeOut: -1
+2025-08-06 08:30:18|INFO|start exe:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\DiskInfo\DiskInfo.exe  >--> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DiskInfo\DiskInfo.log"
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :/systemsleepdiagnostics /DURATION 5 /OUTPUT "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SystemSleepDiagnosticsReport.html"
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ListEvents\ListEvents.cmd
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\FirmwareVersion.log"
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|start cmd:reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\FirmwareVersion.log" timeOut: -1
+2025-08-06 08:30:18|INFO|****************Start item :TestToolLog-MobileMark Log*************
+2025-08-06 08:30:18|INFO|outPut :
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|copy dir to dir
+2025-08-06 08:30:18|INFO|from:C:\Windows\LiveKernelReports
+2025-08-06 08:30:18|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DumpFile\LiveKernelReports
+2025-08-06 08:30:18|INFO|start exe:C:\Windows\System32\powercfg.exe /systemsleepdiagnostics /DURATION 5 /OUTPUT "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SystemSleepDiagnosticsReport.html"
+2025-08-06 08:30:18|INFO|start exe:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\System_Wakeup_settings\System_Wakeup_settings.cmd "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\"
+2025-08-06 08:30:18|INFO|****************Start item :TestToolLog-BurnIn*************
+2025-08-06 08:30:18|INFO|outPut :
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|args :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\"
+2025-08-06 08:30:18|INFO|start exe:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ListEvents\ListEvents.cmd "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\"
+2025-08-06 08:30:18|INFO|****************Start item :TestToolLog-OSAging log*************
+2025-08-06 08:30:18|INFO|outPut :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\
+2025-08-06 08:30:18|INFO|exe :E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging\OSAging.bat
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\"
+2025-08-06 08:30:18|INFO|start exe:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging\OSAging.bat "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\"
+2025-08-06 08:30:18|INFO|****************Start item :TestToolLog-BenchLoop log*************
+2025-08-06 08:30:18|INFO|outPut :
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|****************Start item :IMGLog-RunIn log*************
+2025-08-06 08:30:18|INFO|outPut :
+2025-08-06 08:30:18|INFO|exe :
+2025-08-06 08:30:18|INFO|cmd :
+2025-08-06 08:30:18|INFO|args :
+2025-08-06 08:30:18|INFO|copy dir to dir
+2025-08-06 08:30:18|INFO|from:C:\Program Files (x86)\AutoRI\Log
+2025-08-06 08:30:18|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\IMGLog\runin\
+2025-08-06 08:30:18|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>rem @echo off 
+2025-08-06 08:30:18|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>cd /d E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause\ 
+2025-08-06 08:30:18|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>set output="E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\" 
+2025-08-06 08:30:18|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>if {"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\"} == {} set output=E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause\logs 
+2025-08-06 08:30:18|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>set output=E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\ 
+2025-08-06 08:30:18|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>if exist .\Global_Reset_Cause_Resutl.log del /f /q .\Global_Reset_Cause_Resutl.log  
+2025-08-06 08:30:18|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>GlobalResetCause.exe auto 
+2025-08-06 08:30:20|INFO|GlobalResetCause.bat:>>>>>>>>Intel Platform<<<<<<<<<<
+2025-08-06 08:30:20|INFO|start exe result :0
+2025-08-06 08:30:20|INFO|powercfg.exe:  系统睡眠诊断报告已弃用且替换为系统电源报告。
+2025-08-06 08:30:20|INFO|powercfg.exe:  请改用命令 "powercfg /systempowerreport"。
+2025-08-06 08:30:20|INFO|start exe result :0
+2025-08-06 08:30:20|INFO|copy file to dir
+2025-08-06 08:30:20|INFO|from:C:\Windows\System32\winevt\Logs\Application.evtx
+2025-08-06 08:30:20|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog
+2025-08-06 08:30:20|INFO|start exe result :0
+2025-08-06 08:30:20|INFO|powercfg.exe:电池使用时间报告已保存到文件路径 E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\BatteryReport.html。
+2025-08-06 08:30:20|INFO|LfcDebugInfo.exe:Exception:找不到     在 System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+2025-08-06 08:30:20|INFO|LfcDebugInfo.exe:   在 System.Management.ManagementObject.Initialize(Boolean getObject)
+2025-08-06 08:30:20|INFO|LfcDebugInfo.exe:   在 System.Management.ManagementBaseObject.get_ClassName()
+2025-08-06 08:30:20|INFO|LfcDebugInfo.exe:   在 System.Management.ManagementClass.GetInstances(EnumerationOptions options)
+2025-08-06 08:30:20|INFO|LfcDebugInfo.exe:   在 LfcDebugInfo.Program.LfcWmiGetDebugInfo(Byte[]& buffer)
+2025-08-06 08:30:20|INFO|LfcDebugInfo.exe:Not Support Lfc Debug  Interface.
+2025-08-06 08:30:20|INFO|start exe result :-1
+2025-08-06 08:30:20|INFO|Microsoft Windows [版本 10.0.26100.4652]
+2025-08-06 08:30:20|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-08-06 08:30:20|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)>powercfg /qh >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\PowerSetting.log"
+2025-08-06 08:30:20|INFO|start exe result :0
+2025-08-06 08:30:20|INFO|copy file to dir
+2025-08-06 08:30:20|INFO|from:C:\Windows\System32\winevt\Logs\System.evtx
+2025-08-06 08:30:20|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\MSEventLog
+2025-08-06 08:30:20|INFO|start exe result :0
+2025-08-06 08:30:20|INFO|Microsoft Windows [版本 10.0.26100.4652]
+2025-08-06 08:30:20|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-08-06 08:30:20|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)>powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\DeviceManagement.txt"
+2025-08-06 08:30:20|INFO|powercfg.exe:Completed with status 0 (0x00000000)
+2025-08-06 08:30:20|INFO|start exe result :0
+2025-08-06 08:30:20|INFO|Microsoft Windows [版本 10.0.26100.4652]
+2025-08-06 08:30:20|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-08-06 08:30:20|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)>reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemInfo\FirmwareVersion.log"
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>rem @echo off 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>cd /d E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging\ 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>set output="E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\" 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>if {"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\"} == {} set output=E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging\OSAging 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>set output=E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\ 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>if not exist "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\" md "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\"  
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>rem ====================================== 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>rem C:\Tools\OSAgingV2.24\result 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>rem ====================================== 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>if exist C:\Tools\ call:OSAgingLog C:\Tools 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>if exist C:\OSAging\ call:OSAgingLog C:\OSAging 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>if exist "C:\Users\zhs\desktop" call:OSAgingLog "C:\Users\zhs\desktop" 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>pushd "C:\Users\zhs\desktop" 
+2025-08-06 08:30:20|INFO|OSAging.bat:C:\Users\zhs\Desktop>for /F "delims=*" %i in ('dir /a-d /s /b OSAgingTool.exe') do (call:CopyLog %~dpsi ) 
+2025-08-06 08:30:20|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)>exit
+2025-08-06 08:30:20|INFO|Microsoft Windows [版本 10.0.26100.4652]
+2025-08-06 08:30:20|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-08-06 08:30:20|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)>"E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\"
+2025-08-06 08:30:20|INFO|DiskInfo.exe:2025-08-06 08:30:20,523 | [INFO ]  Start DiskInfo
+2025-08-06 08:30:20|INFO|DiskInfo.exe:2025-08-06 08:30:20,531 | [INFO ]  Init tool settings
+2025-08-06 08:30:20|INFO|DiskInfo.exe:2025-08-06 08:30:20,549 | [INFO ] [DiskInfo] | version:2.0.7.1003
+2025-08-06 08:30:20|INFO|DiskInfo.exe:2025-08-06 08:30:20,556 | [INFO ] [DiskInfo] | Input Arguments: E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\DiskInfo\DiskInfo.exe >--> E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DiskInfo\DiskInfo.log
+2025-08-06 08:30:20|INFO|OSAging.bat:C:\Users\zhs\Desktop>popd
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>goto :eof 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>rem ====================================== 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>rem end  
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>rem ====================================== 
+2025-08-06 08:30:20|INFO|OSAging.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\OSAging>if exist "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\TestToolLog\\OSAging" (exit /b 0 )  else (exit /b 2 ) 
+2025-08-06 08:30:20|INFO|start exe result :2
+2025-08-06 08:30:20|INFO|DiskInfo.exe:2025-08-06 08:30:20,635 | [INFO ]  Load E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\DiskInfo\Config.yaml
+2025-08-06 08:30:20|INFO|DiskInfo.exe:2025-08-06 08:30:20,714 | [INFO ]  Query and check storage settings
+2025-08-06 08:30:20|INFO|DiskInfo.exe:2025-08-06 08:30:20,715 | [INFO ]  Scan storage device
+2025-08-06 08:30:22|INFO|powercfg.exe:睡眠分析报告已保存到文件路径 E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SystemPowerReport.html。
+2025-08-06 08:30:22|INFO|start exe result :0
+2025-08-06 08:30:22|INFO|ListEvents.cmd:True
+2025-08-06 08:30:23|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)>exit
+2025-08-06 08:30:23|INFO|ListEvents.cmd:移动了         1 个文件。
+2025-08-06 08:30:23|INFO|start exe result :0
+2025-08-06 08:30:23|INFO|copy file to file
+2025-08-06 08:30:23|INFO|from:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\Kernel_Power_Events.html
+2025-08-06 08:30:23|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\KernelPowerReport.html
+2025-08-06 08:30:23|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)>exit
+2025-08-06 08:30:23|INFO|BOOTSTAT.cmd:Disk: 0, Partition: 1, Type: System
+2025-08-06 08:30:24|INFO|BOOTSTAT.cmd:Bootstat file : F:\EFI\Microsoft\Boot\BOOTSTAT.DAT
+2025-08-06 08:30:24|INFO|BOOTSTAT.cmd:移动了         1 个文件。
+2025-08-06 08:30:24|INFO|start exe result :0
+2025-08-06 08:30:25|INFO|System_Wakeup_settings.cmd:移动了         1 个文件。
+2025-08-06 08:30:25|INFO|start exe result :0
+2025-08-06 08:30:25|INFO|copy file to file
+2025-08-06 08:30:25|INFO|from:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\System_Wakeup_Setting.html
+2025-08-06 08:30:25|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\SystemPowerLog\SystemWakeSetting.html
+2025-08-06 08:30:26|INFO|DiskInfo.exe:2025-08-06 08:30:26,853 | [ERROR]  No disk detected, exiting...
+2025-08-06 08:30:26|INFO|DiskInfo.exe:2025-08-06 08:30:26,853 | [WARN ]  No disk detected, exiting...
+2025-08-06 08:30:26|INFO|DiskInfo.exe:2025-08-06 08:30:26,853 | [INFO ]  Filter the Error code and exit: ERR_NoDiskDetect
+2025-08-06 08:30:26|INFO|DiskInfo.exe:2025-08-06 08:30:26,853 | [WARN ]  [FilerErrorCode], Update ErrorCode: ERR_NoDiskDetect --> OK
+2025-08-06 08:30:26|INFO|DiskInfo.exe:2025-08-06 08:30:26,854 | [INFO ]  Set RI FileData
+2025-08-06 08:30:27|INFO|DiskInfo.exe:2025-08-06 08:30:27,055 | [INFO ]   --- Exit : OK --- 
+2025-08-06 08:30:27|INFO|DiskInfo.exe:2025-08-06 08:30:27,055 | [INFO ] [DiskInfo] | --return code:0x000000--
+2025-08-06 08:30:27|INFO|start exe result :0
+2025-08-06 08:30:27|INFO|copy file to dir
+2025-08-06 08:30:27|INFO|from:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\DiskInfo\diskinf_raw.json
+2025-08-06 08:30:27|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\DiskInfo
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:@@ GBLRST_CAUSE0:0x00000000 @@
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:@@ GBLRST_CAUSE1:0x00000000 @@
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:@@ GBLRST_CAUSE2:0x00000002 @@
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:  #BIT[1] ==>> Write to CF9 (CF9_ES): This bit will be set when Host software writes a value of 6h or Eh to the CF9 register.Note: The shutdown special cycle from the CPU will also set this bit.
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>if not exist .\Global_Reset_Cause_Resutl.log goto :err 
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>if not exist "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\" md "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\" 
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>move /y .\Global_Reset_Cause_Resutl.log "E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\" 
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:移动了         1 个文件。
+2025-08-06 08:30:27|INFO|GlobalResetCause.bat:E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>exit /b 0 
+2025-08-06 08:30:27|INFO|start exe result :0
+2025-08-06 08:30:27|INFO|copy file to file
+2025-08-06 08:30:27|INFO|from:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\Global_Reset_Cause_Resutl.log
+2025-08-06 08:30:27|INFO|to:E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\GlobalResetCause.log
+2025-08-06 08:30:29|INFO|"E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\*.txt"
+2025-08-06 08:30:29|INFO|""E:\Users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_06_08_30_18\BIOSandECLog\""
+2025-08-06 08:30:29|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\AllRegLog20250805083451.txt
+2025-08-06 08:30:29|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\AllRegLog20250806083028.txt
+2025-08-06 08:30:29|INFO|复制了 2 个文件
+2025-08-06 08:30:29|INFO|E:\users\Desktop\Y7 合盖不休眠\AutoLog_1.0.1.1029(1)>exit
+2025-08-06 08:30:31|INFO|start exe result :0
+2025-08-06 08:31:32|INFO|start exe result :0
+2025-08-06 08:31:32|INFO|*****************start compress log*****************

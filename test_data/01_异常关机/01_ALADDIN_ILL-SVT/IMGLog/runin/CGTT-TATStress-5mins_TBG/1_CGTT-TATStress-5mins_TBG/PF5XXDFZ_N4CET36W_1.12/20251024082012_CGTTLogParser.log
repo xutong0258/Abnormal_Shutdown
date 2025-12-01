@@ -1,0 +1,25 @@
+2025/10/24 08:26:30 INFO    | 
+2025/10/24 08:26:30 INFO    | 
+2025/10/24 08:26:30 INFO    | ============================================================
+2025/10/24 08:26:30 INFO    |                    Start CGTT logParser 
+2025/10/24 08:26:30 INFO    | ============================================================
+2025/10/24 08:26:30 INFO    | Tool file version: 2.0.4.0, product version: 2.0.2.0
+2025/10/24 08:26:30 INFO    | Tool create date: Tue Nov 26 07:17:35 2024, modify date: Tue Jun 20 17:49:34 2023
+2025/10/24 08:26:30 INFO    | cmdline : ['C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\CGTT\\bin\\LogParser\\LogParser.exe', '-src', 'C:\\PROGRA~2\\AutoRI\\Log\\CGTT-T~1\\1_CGTT~1\\PF5XXDFZ_N4CET36W_1.12', '-prefix', '20251024082012']
+2025/10/24 08:26:30 INFO    | start to parse CGTT Test Result
+2025/10/24 08:26:30 INFO    | ============= Start CGTT logParser ============= 
+2025/10/24 08:26:30 INFO    | {'auto': False, 'debug': False, 'src': 'C:\\PROGRA~2\\AutoRI\\Log\\CGTT-T~1\\1_CGTT~1\\PF5XXDFZ_N4CET36W_1.12', 'setting': '', 'prefix': '20251024082012', 'cpu_pwr': False, 'cpu_pwr_gap': 0.0, 'gpu_pwr': False, 'gpu_pwr_gap': 0.0, 'cpu_freq': False, 'cpus_freq': False, 'cpu_freq_gap': 0.0, 'head_offset': 0, 'tail_offset': 10, 'sr': False, 're_parse': False, 'file': False, 'segment': None, 'trange': None, 'src_file': ''}
+2025/10/24 08:26:30 INFO    | load config file: C:\PROGRA~2\AutoRI\Log\CGTT-T~1\1_CGTT~1\PF5XXDFZ_N4CET36W_1.12\20251024082012_CGTTInfo.json
+2025/10/24 08:26:30 ERROR   | Error occurred while parse CGTT data
+2025/10/24 08:26:30 INFO    | object of type 'NoneType' has no len()
+2025/10/24 08:26:30 ERROR   | Traceback (most recent call last):
+  File "CGTT_Parser\LogParser.py", line 816, in log_parser
+  File "CGTT_Parser\LogParserContext.py", line 393, in __init__
+  File "CGTT_Parser\LogParserContext.py", line 212, in __init__
+  File "CGTT_Parser\LogParserContext.py", line 251, in _init_tool_config
+  File "CGTT_Parser\LogParserContext.py", line 381, in _preprocess_gap_setting
+TypeError: object of type 'NoneType' has no len()
+
+2025/10/24 08:26:30 INFO    | ============================================================
+2025/10/24 08:26:30 INFO    |    End of CGTT logParser [ErrorCode.UNKNOWN_EXCEPTION: 2]   
+2025/10/24 08:26:30 INFO    | ============================================================

@@ -1,0 +1,2388 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>wlan report</title>
+<style type="text/css">
+          body {
+          margin: 0;
+          padding: 0;
+          background-color: #EFEFEF;
+          font-family: "segoe ui light", "segoe ui";
+          letter-spacing: 0.03em;
+          }
+
+          table {
+          border-collapse: collapse;
+          }
+
+          th {
+          border: 1px solid #222;
+          text-align: center;
+          }
+
+          tr {
+          height: 1.5em;
+          border: 1px solid #222;
+          }
+
+          td {
+          border: 1px solid #222;
+          }
+
+          #top-btn {
+          position: fixed;
+          padding: 5px;
+          border: 2px solid #333;
+          cursor: pointer;
+          }
+          #top-btn p {
+          margin: 0;
+          }
+
+          #report-wrapper {
+          width: 1000px;
+          margin: 0 auto;
+          }
+
+          #session-graph-wrapper {
+          background-color: #1F1F1F;
+          outline: 2px solid #AAA;
+          }
+
+          #session-graph {
+          cursor: pointer;
+          }
+
+          #graph-event-info {
+          float: left;
+          width: 500px;
+          height: 170px;
+          color: #DDD;
+          padding: 0px 30px 0px 20px;
+          }
+          #graph-event-info h4 {
+          margin: 0px 0px 10px 0px;
+          }
+
+          #event-info {
+          margin: 0;
+          height: 135px overflow: scroll;
+          }
+
+          #sysinfo {
+          margin: 0px 0px 30px 0px;
+          }
+          #sysinfo p {
+          margin: 0;
+          padding: 0;
+          }
+
+          #report-info p {
+          margin: 0;
+          padding: 0;
+          }
+
+          #disconnect-status tr {
+          border: 1px solid #222;
+          }
+
+          #disconnect-status td {
+          border: 1px solid #222;
+          }
+
+          #disconnect-status .status {
+          width: 300px;
+          padding-top: 0px;
+          }
+
+          #disconnect-reasons .reason {
+          width: 800px;
+          padding-top: 0;
+          }
+
+          .count {
+          width: 75px;
+          text-align: center;
+          }
+
+          .graph-background {
+          position: absolute;
+          z-index: -1;
+          height: 1.5em;
+          margin: -1px;
+          background-color: rgb(171,168,244);
+          }
+          .graph-background.success {
+          background-color: rgb(108, 216, 108);
+          }
+
+          .graph-background.failure {
+          background-color: rgb(216, 108, 108);
+          }
+
+          .graph-background.warning {
+          background-color: rgb(216, 216, 108);
+          }
+
+          #session-durations {
+          border-left: 1px solid #222;
+          overflow: hidden;
+          }
+
+          #duration-labels {
+          text-align: center;
+          }
+
+          #duration-graph {
+          height: 550px;
+          border: none;
+          }
+          #duration-graph td {
+          width: 80px;
+          padding: 0px 2px 0px 2px;
+          vertical-align: top;
+          position: relative;
+          border: none;
+          }
+
+          .duration-bar {
+          width: 80px;
+          position: absolute;
+          }
+
+          .bar-label {
+          width: 80px;
+          position: absolute;
+          text-align: center;
+          font-weight: bold;
+          }
+
+          .bar-background {
+          background-color: rgb(171,168,244);
+          display: block;
+          width: 100%;
+          height: 100%;
+          outline: 1px solid #222;
+          }
+
+          .session {
+          background-color: #FFF;
+          margin: 0px 0px 20px 0px;
+          padding: 10px;
+          border: 2px solid #666;
+          }
+          .session p {
+          margin: 0.2em;
+          }
+
+          .session table {
+          width: 100%;
+          }
+
+          .session .event-header {
+          width: 75px;
+          }
+
+          .session .time-header {
+          width: 180px;
+          }
+
+          .session .message-header {
+          width: auto;
+          }
+
+          .successful {
+          background-color: #1BEB00;
+          }
+
+          .warning {
+          background-color: #EBEB00;
+          }
+
+          .failed {
+          background-color: #F00;
+          }
+
+          .info {
+          background-color: #E2E2E2;
+          }
+
+          .message {
+          width: 700px;
+          height: 1.5em;
+          overflow: hidden;
+          white-space: pre;
+          text-overflow: ellipsis;
+          }
+          .message.show {
+          height: auto;
+          overflow: auto;
+          white-space: normal;
+          }
+
+          .message .expand-btn {
+          cursor: pointer;
+          }
+
+          .error {
+          background-color: rgb(255,178,178);
+          font-weight: bold;
+          }
+
+          .ndis.sleep {
+          background-color: #AF9AE4;
+          }
+
+          .ndis.wake {
+          background-color: #E49AEF;
+          }
+
+          .wlan {
+          background-color: #FFF;
+          }
+          .wlan.connect {
+          background-color: #9AE4A6;
+          }
+
+          .wlan.disconnect {
+          background-color: #F5BE9C;
+          }
+
+          .ncsi.internet {
+          background-color: #9CCAF5;
+          }
+
+          .ncsi.local {
+          background-color: #F1F59C;
+          }
+
+          .ncsi.none {
+          background-color: #F59C9C;
+          }
+		  
+          .wcm {
+          background-color: #F0FFFF;
+          }
+		  
+          .eap {
+          background-color: #FFFFF0;
+          }
+		  
+          .glow {
+          font-weight: bold;
+          outline: 3px solid #000000;
+          }
+		  
+          #commands-output {
+          margin: 0px 0px 30px 0px;
+          }
+          .command-output {
+          background-color: #000;
+          color: #C0C0C0;
+          padding: 5px;
+          outline: 5px solid #BBB;
+          }
+        </style>
+</head>
+<body>
+<div id="top-btn">
+<p>Top</p>
+</div>
+<div id="report-wrapper">
+<h1>Wlan Report</h1>
+<div id="session-graph-wrapper"><canvas id="session-graph" width="1000" height="315"></canvas><div id="graph-event-info">
+<h4>Summary</h4>
+<p id="event-info">
+                            Hover over a session or event to view a summary <br>
+                            Click on an event to jump to it in the session list
+                        </p>
+</div><canvas id="graph-legend" width="400" height="170"></canvas></div>
+<div id="report-info">
+<h2>Report Info</h2>
+<p>Report created:<b>2025-10-27T09:23:43Z</b></p>
+<p>Report duration:<b>3 days</b></p>
+</div>
+<div id="sysinfo">
+<h2>General System Info</h2>
+<p>ComputerName: <b>LAPTOP-28DT86KD</b></p>
+<p>System Manufacturer:<b>LENOVO</b></p>
+<p>System Product Name:<b>83SJ</b></p>
+<p>BIOS Date:<b>10/24/2025</b></p>
+<p>BIOS Version:<b>T8CN14WW_WTL</b></p>
+<p>OS Build:<b>26100.1.amd64fre.ge_release.240331-1435</b></p>
+<p>Machine Id: <b>{F28973D0-28C8-4886-9BB7-C4B06093555D}</b></p>
+<p>MDM joined: 
+                                <b>False</b></p>
+<h2>User Info</h2>
+<p>Username: <b>PATest</b></p>
+<p>User Domain:<b>LAPTOP-28DT86KD</b></p>
+<p>User DNS Domain:<b>Unknown</b></p>
+<h2>Network Adapters</h2>
+<p>Device: <b>Bluetooth Device (Personal Area Network)</b></p>
+<p>PNP ID: <b>BTH\MS_BTHPAN\8&amp;25C8AB9E&amp;0&amp;2</b></p>
+<p>Guid: <b>{AC83BD55-8861-4F8F-A3B3-06CCEAC3328C}</b></p>
+<p>Current driver version: <b>10.0.26100.5074</b></p>
+<p>Driver date: <b>6-21-2006 </b></p>
+<p>DevNode flags: <b>0x180200a</b></p><br><p>Device: <b>Microsoft Kernel Debug Network Adapter</b></p>
+<p>PNP ID: <b>ROOT\KDNIC\0000</b></p>
+<p>Guid: <b>{503E1103-1DF3-4206-A0B1-4CC999F4A6DB}</b></p>
+<p>Current driver version: <b>10.0.26100.3624</b></p>
+<p>Driver date: <b>6-21-2006 </b></p>
+<p>DevNode flags: <b>0x4180200b</b></p><br><p>Device: <b>MediaTek Wi-Fi 7 MT7925 Wireless LAN Card</b></p>
+<p>PNP ID: <b>PCI\VEN_14C3&amp;DEV_7925&amp;SUBSYS_E0FF17AA&amp;REV_00\4&amp;3189D836&amp;0&amp;0013</b></p>
+<p>Guid: <b>{E0F0F861-2D0E-4066-8C03-5B72A5A6DCFF}</b></p>
+<p>Current driver version: <b>25.30.3.56</b></p>
+<p>Driver date: <b>9-29-2025 </b></p>
+<p>DevNode flags: <b>0x180200a</b></p><br></div>
+<div id="commands-output">
+<h2>Script Output</h2>
+<h3> Output for <em>'ipconfig /all'</em></h3><textarea class="command-output" cols="91" rows="25" readonly="true" spellcheck="false">
+
+Windows IP 配置
+
+
+
+   主机名  . . . . . . . . . . . . . : LAPTOP-28DT86KD
+
+   主 DNS 后缀 . . . . . . . . . . . : 
+
+   节点类型  . . . . . . . . . . . . : 混合
+
+   IP 路由已启用 . . . . . . . . . . : 否
+
+   WINS 代理已启用 . . . . . . . . . : 否
+
+
+
+无线局域网适配器 WLAN 2:
+
+
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+   描述. . . . . . . . . . . . . . . : MediaTek Wi-Fi 7 MT7925 Wireless LAN Card #2
+
+   物理地址. . . . . . . . . . . . . : 4A-45-E6-E3-B9-BD
+
+   DHCP 已启用 . . . . . . . . . . . : 是
+
+   自动配置已启用. . . . . . . . . . : 是
+
+
+
+无线局域网适配器 WLAN 5:
+
+
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+   描述. . . . . . . . . . . . . . . : MediaTek Wi-Fi 7 MT7925 Wireless LAN Card #5
+
+   物理地址. . . . . . . . . . . . . : 4A-45-E6-E3-A9-AD
+
+   DHCP 已启用 . . . . . . . . . . . : 是
+
+   自动配置已启用. . . . . . . . . . : 是
+
+
+
+无线局域网适配器 WLAN:
+
+
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+   描述. . . . . . . . . . . . . . . : MediaTek Wi-Fi 7 MT7925 Wireless LAN Card
+
+   物理地址. . . . . . . . . . . . . : 48-45-E6-E3-99-9D
+
+   DHCP 已启用 . . . . . . . . . . . : 是
+
+   自动配置已启用. . . . . . . . . . : 是
+
+   本地链接 IPv6 地址. . . . . . . . : fe80::327e:87b:4b6a:a15d%12(首选) 
+
+   IPv4 地址 . . . . . . . . . . . . : 100.101.32.60(首选) 
+
+   子网掩码  . . . . . . . . . . . . : 255.255.248.0
+
+   获得租约的时间  . . . . . . . . . : 2025年10月24日 21:17:07
+
+   租约过期的时间  . . . . . . . . . : 2025年11月4日 9:18:36
+
+   默认网关. . . . . . . . . . . . . : 100.101.39.254
+
+   DHCP 服务器 . . . . . . . . . . . : 100.101.11.10
+
+   DHCPv6 IAID . . . . . . . . . . . : 206063078
+
+   DHCPv6 客户端 DUID  . . . . . . . : 00-01-00-01-30-8A-BE-09-3C-18-A0-19-48-4B
+
+   DNS 服务器  . . . . . . . . . . . : 100.101.11.1
+
+   TCPIP 上的 NetBIOS  . . . . . . . : 已启用
+
+
+
+以太网适配器 蓝牙网络连接:
+
+
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+   描述. . . . . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+
+   物理地址. . . . . . . . . . . . . : 48-45-E6-E3-99-9E
+
+   DHCP 已启用 . . . . . . . . . . . : 是
+
+   自动配置已启用. . . . . . . . . . : 是
+
+</textarea><h3> Output for <em>'netsh wlan show all'</em></h3><textarea class="command-output" cols="91" rows="25" readonly="true" spellcheck="false">鏃犵嚎绯荤粺淇℃伅鎽樿
+
+(鏃堕棿: 2025/10/27 9:23:54 涓浗鏍囧噯鏃堕棿)
+
+
+
+
+
+======================================================================= 
+
+============================== 鏄剧ず椹卞姩绋嬪簭 =========================== 
+
+=======================================================================
+
+
+
+
+
+鎺ュ彛鍚嶇О: WLAN
+
+
+
+    椹卞姩绋嬪簭                  : MediaTek Wi-Fi 7 MT7925 Wireless LAN Card
+
+    渚涘簲鍟?                   : MediaTek, Inc.
+
+    鎻愪緵绋嬪簭                  : MediaTek, Inc.
+
+    鏃ユ湡                      : 2025/9/29
+
+    鐗堟湰                      : 25.30.3.56
+
+    INF 鏂囦欢                  : oem50.inf
+
+    绫诲瀷                      : 鏈満 WLAN 椹卞姩绋嬪簭
+
+    鏀寔鐨勬棤绾跨數绫诲瀷          : 802.11b 802.11a 802.11g 802.11n 802.11ac 802.11ax 802.11be
+
+    鏀寔 FIPS 140 妯″紡: 鏄?
+    鏀寔 802.11w 绠＄悊甯т繚鎶?: 鏄?
+    鏀寔鐨勬壙杞界綉缁? : 鍚?
+    鍩虹缁撴瀯妯″紡涓敮鎸佺殑韬唤楠岃瘉鍜屽瘑鐮?
+
+                                寮€鏀惧紡              鏃?
+                                寮€鏀惧紡              WEP-40bit
+
+                                寮€鏀惧紡              WEP-104 浣?
+                                寮€鏀惧紡              WEP
+
+                                WPA - 涓汉         TKIP
+
+                                WPA - 涓汉         CCMP
+
+                                WPA - 浼佷笟         TKIP
+
+                                WPA - 浼佷笟         CCMP
+
+                                WPA2 - 涓汉        TKIP
+
+                                WPA2 - 涓汉        CCMP
+
+                                WPA2 - 浼佷笟        TKIP
+
+                                WPA2 - 浼佷笟        CCMP
+
+                                WPA2 - 浼佷笟        GCMP
+
+                                OWE              CCMP
+
+                                OWE              GCMP-256
+
+                                WPA3 - 涓汉        CCMP
+
+                                WPA3 - 涓汉        GCMP
+
+                                WPA3 - 涓汉        GCMP-256
+
+                                WPA3 - 浼佷笟        TKIP
+
+                                WPA3 - 浼佷笟        CCMP
+
+                                WPA3 - 浼佷笟        GCMP
+
+                                WPA3 - 浼佷笟        GCMP-256
+
+                                WPA3-Enterprise 192 浣?GCMP-256
+
+鏀寔鐨勯娈垫暟锛?
+
+                                2.4 GHz [ 2412 MHz - 2472 MHz]
+
+                                5 GHz [ 5160 MHz - 5885 MHz]
+
+                                6 GHz [ 5955 MHz - 7115 MHz]
+
+    鏄惁瀛樺湪 IHV 鏈嶅姟         : 鏄?
+    IHV 閫傞厤鍣?OUI            : [00 00 00]锛岀被鍨? [00]
+
+    IHV 鎵╁睍 DLL 璺緞         : C:\Windows\System32\DriverStore\FileRepository\mtkwecx.inf_amd64_3443cb6c9b7397ca\mtkihvx.dll
+
+    IHV UI 鎵╁睍 ClSID         : {00000000-0000-0000-0000-000000000000}
+
+    IHV 璇婃柇 CLSID            : {00000000-0000-0000-0000-000000000000}
+
+    鏀寔鐨勬棤绾挎樉绀哄櫒: 鏄?(鍥惧舰椹卞姩绋嬪簭: 鏄紝WLAN 椹卞姩绋嬪簭: 鏄?
+
+
+
+
+
+======================================================================= 
+
+============================= 鏄剧ず鎺ュ彛 ================================ 
+
+=======================================================================
+
+
+
+
+
+绯荤粺涓婃湁 1 涓帴鍙? 
+
+缃戠粶 shell 鍛戒护闇€瑕佷綅缃潈闄愭墠鑳借闂?WLAN 淇℃伅銆傚湪鈥滈殣绉佸拰瀹夊叏璁剧疆鈥濅腑鐨勨€滀綅缃€濋〉涓婂惎鐢ㄤ綅缃湇鍔°€?
+浠ヤ笅鏄€滆缃€濆簲鐢ㄤ腑鈥滀綅缃€濋〉鐨?URI锛歮s-settings锛歱rivacy-location
+
+鑻ヨ鍦ㄢ€滆缃€濆簲鐢ㄤ腑鎵撳紑鈥滀綅缃€濋〉锛岃杩愯浠ヤ笅鍛戒护锛?
+start ms-settings:privacy-location
+
+
+
+鎴栬€咃紝鑻ヨ浠庘€滆繍琛屸€濆璇濇鎵撳紑鈥滀綅缃€濋〉锛岃鎸?Windows 寰芥爣閿?+ R锛岀劧鍚庡鍒跺苟绮樿创涓婇潰鐨?URI銆?
+
+
+鍔熻兘 WlanQueryInterface 杩斿洖閿欒 5:
+
+
+
+
+
+======================================================================= 
+
+=========================== 鏄剧ず鎵胯浇缃戠粶 ======================= 
+
+=======================================================================
+
+
+
+
+
+鎵胯浇缃戠粶璁剧疆 
+
+----------------------- 
+
+    妯″紡                   : 宸插惎鐢?
+    璁剧疆              : &lt;鏈厤缃?
+
+
+
+鎵胯浇缃戠粶鐘舵€?
+--------------------- 
+
+    鐘舵€?                : 涓嶅彲鐢?
+
+
+
+
+======================================================================= 
+
+============================= 鏄剧ず璁剧疆 ================================ 
+
+=======================================================================
+
+
+
+
+
+鏃犵嚎灞€鍩熺綉閰嶇疆
+
+--------------------- 
+
+    鏄剧ず鍙缃戠粶鍒楄〃涓殑闃绘缃戠粶: 鍚?
+    鍦ㄩ厤缃?GP 鐨勭綉缁滀笂浠呬娇鐢?GP 閰嶇疆鏂囦欢: 鍚?
+    鍦?WLAN 鏈嶅姟涓厑璁告壙杞界綉缁滄ā寮? 鏄?
+
+
+    鍏佽鍏变韩鐢ㄦ埛鍑嵁鐢ㄤ簬缃戠粶韬唤楠岃瘉: 鏄?
+    闃绘鏃堕棿娈? 鏈厤缃€?
+
+
+    鍦ㄦ帴鍙ｂ€淲LAN鈥濅笂宸插惎鐢ㄨ嚜鍔ㄩ厤缃€昏緫
+
+宸插湪鎺ュ彛 WLAN 涓婄鐢?MAC 闅忔満鍖?
+
+
+
+
+======================================================================= 
+
+============================== 鏄剧ず绛涢€夊櫒 ============================= 
+
+=======================================================================
+
+
+
+
+
+绯荤粺涓婄殑鍏佽鍒楄〃(缁勭瓥鐣? 
+
+--------------------------------------- 
+
+    &lt;鏃?
+
+
+
+绯荤粺涓婄殑鍏佽鍒楄〃(鐢ㄦ埛) 
+
+------------------------------- 
+
+    &lt;鏃?
+
+
+
+绯荤粺涓婄殑闃绘鍒楄〃(缁勭瓥鐣? 
+
+--------------------------------------- 
+
+    &lt;鏃?
+
+
+
+绯荤粺涓婄殑闃绘鍒楄〃(鐢ㄦ埛) 
+
+------------------------------- 
+
+    &lt;鏃?
+
+
+
+
+
+======================================================================= 
+
+=========================== 鏄剧ず CREATEALLUSER ======================== 
+
+=======================================================================
+
+
+
+
+
+鍏佽鎵€鏈変汉鍒涘缓鎵€鏈夌敤鎴烽厤缃枃浠躲€?
+
+
+
+
+======================================================================= 
+
+============================= 鏄剧ず閰嶇疆鏂囦欢 ============================ 
+
+=======================================================================
+
+
+
+
+
+鎺ュ彛 WLAN 涓婄殑閰嶇疆鏂囦欢: 
+
+
+
+
+
+缁勭瓥鐣ラ厤缃枃浠?鍙)
+
+---------------------------------
+
+    &lt;鏃?
+
+
+
+鐢ㄦ埛閰嶇疆鏂囦欢
+
+-------------
+
+    鎵€鏈夌敤鎴烽厤缃枃浠?: iTest
+
+
+
+
+
+======================================================================= 
+
+========================== 鏄剧ず閰嶇疆鏂囦欢鍚嶇О ======================== 
+
+=======================================================================
+
+
+
+
+
+鎺ュ彛 WLAN 涓婄殑閰嶇疆鏂囦欢 iTest: 
+
+======================================================================= 
+
+
+
+宸插簲鐢? 鎵€鏈夌敤鎴烽厤缃枃浠?
+
+
+閰嶇疆鏂囦欢淇℃伅
+
+------------------- 
+
+    鐗堟湰                   : 1
+
+    绫诲瀷                   : 鏃犵嚎灞€鍩熺綉
+
+    鍚嶇О                   : iTest
+
+    鎺у埗閫夐」               : 
+
+        杩炴帴妯″紡           : 鑷姩杩炴帴
+
+        缃戠粶骞挎挱           : 鍙湪缃戠粶骞挎挱鏃惰繛鎺?
+        AutoSwitch         : 璇峰嬁鍒囨崲鍒板叾浠栫綉缁?
+        MAC 闅忔満鍖? 绂佺敤
+
+
+
+杩炴帴璁剧疆
+
+--------------------- 
+
+    SSID 鏁扮洰              : 1
+
+    SSID 鍚嶇О              :鈥渋Test鈥?
+    缃戠粶绫诲瀷               : 缁撴瀯
+
+    鏃犵嚎鐢电被鍨?            : [ 浠讳綍鏃犵嚎鐢电被鍨?]
+
+    渚涘簲鍟嗘墿灞曞悕           : 涓嶅瓨鍦?
+
+
+瀹夊叏璁剧疆
+
+----------------- 
+
+    韬唤楠岃瘉         : WPA2 - 涓汉
+
+    瀵嗙爜                 : GCMP
+
+    韬唤楠岃瘉         : WPA2 - 涓汉
+
+    瀵嗙爜                 : CCMP
+
+    瀹夊叏瀵嗛挜               : 瀛樺湪
+
+
+
+璐圭敤璁剧疆 
+
+------------- 
+
+    璐圭敤                   : 鏃犻檺鍒?
+    闃诲                : 鍚?
+    鎺ヨ繎娴侀噺涓婇檺        : 鍚?
+    瓒呭嚭娴侀噺涓婇檺        : 鍚?
+    婕父                : 鍚?
+    璐圭敤鏉ユ簮            : 榛樿
+
+
+
+
+
+======================================================================= 
+
+======================= 鏄剧ず缃戠粶妯″紡 MODE=BSSID ====================== 
+
+=======================================================================
+
+
+
+ 
+
+鎺ュ彛鍚嶇О : WLAN 
+
+缃戠粶 shell 鍛戒护闇€瑕佷綅缃潈闄愭墠鑳借闂?WLAN 淇℃伅銆傚湪鈥滈殣绉佸拰瀹夊叏璁剧疆鈥濅腑鐨勨€滀綅缃€濋〉涓婂惎鐢ㄤ綅缃湇鍔°€?
+浠ヤ笅鏄€滆缃€濆簲鐢ㄤ腑鈥滀綅缃€濋〉鐨?URI锛歮s-settings锛歱rivacy-location
+
+鑻ヨ鍦ㄢ€滆缃€濆簲鐢ㄤ腑鎵撳紑鈥滀綅缃€濋〉锛岃杩愯浠ヤ笅鍛戒护锛?
+start ms-settings:privacy-location
+
+
+
+鎴栬€咃紝鑻ヨ浠庘€滆繍琛屸€濆璇濇鎵撳紑鈥滀綅缃€濋〉锛岃鎸?Windows 寰芥爣閿?+ R锛岀劧鍚庡鍒跺苟绮樿创涓婇潰鐨?URI銆?
+
+
+
+
+
+
+======================================================================= 
+
+======================= 鏄剧ず鎺ュ彛鍔熻兘 =================== 
+
+=======================================================================
+
+
+
+
+
+鏃犵嚎绯荤粺鍔熻兘 
+
+---------------------------- 
+
+    杩炴帴鍒?802.11 鏃犵嚎鐢电殑澶╃嚎鏁?(鍊间笉鍙敤)
+
+    璁惧杩愯鏃跺彲浠ュ悓鏃跺崰鐢ㄧ殑鏈€澶ч€氶亾鏁?鍊间笉鍙敤)
+
+    鍏卞瓨鏀寔                        : 鏈煡
+
+
+
+
+
+鏃犵嚎璁惧鍔熻兘 
+
+---------------------------- 
+
+
+
+鎺ュ彛鍚嶇О: WLAN
+
+
+
+    WDI 鐗堟湰(Windows)                       : 0.2.0.13
+
+    WDI 鐗堟湰(IHV)                           : 0.2.0.12
+
+    WDI 鐗堟湰(Windows)                       : 1.2.
+
+    WiFiCx 鐗堟湰 (IHV)锛?1.2
+
+    鍥轰欢鐗堟湰                            : 20250926201210
+
+    绔?                                    : 鏀寔
+
+    杞?AP                                     : 涓嶆敮鎸?
+    缃戠粶鐩戣妯″紡                        : 涓嶆敮鎸?
+    Wi-Fi Direct 璁惧                         : 鏀寔
+
+    Wi-Fi Direct GO                             : 鏀寔
+
+    Wi-Fi Direct 瀹㈡埛绔?                        : 鏀寔
+
+    鍙椾繚鎶ょ鐞嗗抚                 : 鏀寔
+
+    DOT11k 閭诲眳鎶ュ憡                      : 鏀寔
+
+    ANQP 鏈嶅姟淇℃伅鍙戠幇          : 鏀寔
+
+    鍔ㄤ綔甯?                               : 鏀寔
+
+    鍒嗛泦澶╃嚎                           : 鏈煡
+
+    IBSS                                        : 涓嶅彈鏀寔
+
+    娣锋潅妯″紡                            : 涓嶅彈鏀寔
+
+    P2P 璁惧鍙戠幇                        : 鏀寔
+
+    P2P 鏈嶅姟鍚嶇О鍙戠幇                  : 涓嶅彈鏀寔
+
+    P2P 鏈嶅姟淇℃伅鍙戠幇                  : 涓嶅彈鏀寔
+
+    P2P 鑳屾櫙鍙戠幇                    : 涓嶅彈鏀寔
+
+    5 GHz 鐨?P2P GO                             : 鏀寔
+
+    6 GHz 鐨?P2P GO                             : 涓嶅彈鏀寔
+
+    GO 涓婄殑 P2P Sae                               : 鏀寔
+
+    ASP 2.0 鏈嶅姟鍚嶇О鍙戠幇              : 涓嶅彈鏀寔
+
+    ASP 2.0 鏈嶅姟淇℃伅鍙戠幇       : 涓嶅彈鏀寔
+
+    鏀寔 IP 瀵规帴                          : 涓嶅彈鏀寔
+
+    涓绘満 FIPS 妯″紡                              : 鏀寔
+
+    鍗虫椂杩炴帴                             : 鏀寔
+
+    Dx 寰呮満 NLO                              : 鏀寔
+
+    鎵╁睍閫氶亾浜ゆ崲鏈哄叕鍛?       : 鏀寔
+
+    鍔熻兘绾у埆閲嶇疆                        : 涓嶅彈鏀寔
+
+    骞冲彴绾у埆閲嶇疆                        : 鏀寔
+
+    鎬荤嚎绾у埆閲嶇疆                             : 鏀寔
+
+    MAC 闅忔満鍖?                          : 鏀寔
+
+    蹇€熻浆鎹?                            : 鏀寔
+
+    MU-MIMO                                     : 鏀寔
+
+    Miracast 鎺ユ敹鍣?                              : 鏀寔
+
+    BSS 杞崲(802.11v)                    : 鏀寔
+
+    宸查厤缃?IHV 鎵╁睍妯″潡         : 鏀寔
+
+    SAE 韬唤楠岃瘉                          : 鏀寔
+
+    SAE 鍝堝笇鍒板厓绱犺韩浠介獙璇?         : 鏀寔
+
+    WPA3 SUITE-B 韬唤楠岃瘉                 : 涓嶅彈鏀寔
+
+    OWE 韬唤楠岃瘉                          : 鏀寔
+
+    FTM 浣滀负鍙戣捣绋嬪簭                            : 涓嶅彈鏀寔
+
+    MBO 鏀寔                                 : 鏀寔
+
+    Tx 绌洪棿娴佹暟鐩?               : 2
+
+    Rx 绌洪棿娴佹暟鐩?               : 2
+
+    鏀寔鐨勫苟鍙戦€氶亾鏁?    : 0
+
+    鏃犵嚎鏀跺彂鍣ㄦ暟                            : 0
+
+    P2P GO 绔彛璁℃暟                          : 1
+
+    P2P 瀹㈡埛绔鍙ｈ鏁?                     : 2
+
+    P2P 绉诲姩 AP 瀹㈡埛绔暟涓婇檺                   : 8
+
+    鏀寔鐨?ANQP 鏈嶅姟鎾彂鏁颁笂闄?  : 0
+
+    鏀寔鐨勮緟鍔?STA 鏈€澶ф暟閲? 0
+
+    鏀寔鐨?MLO 杩炴帴鏁?        : 3
+
+    Wi-Fi 7 浼佷笟鐗?                         : 涓嶅彈鏀寔
+
+    鏀寔鐨?QoS MSCS                          :鏀寔
+
+    鏀寔鐨?QoS DSCP 鍒?UP 鏄犲皠            : 鏀寔
+
+    鏀寔鐨勪紶鍏ユ搷浣滃抚妯″紡鐨勬渶澶у敜閱掓暟: 2
+
+    鏀寔 384 浣?Pmk 鐨?Wpa3-Sae         : 鏀寔
+
+    璺?Akm/瀵嗙爜璺敱                    : 涓嶅彈鏀寔
+
+    鍏卞瓨鏀寔                        : 鏈煡
+
+
+
+
+
+</textarea><h3> Output for <em>'certutil -store -silent My &amp; certutil -store -silent -user My'</em></h3><textarea class="command-output" cols="91" rows="25" readonly="true" spellcheck="false">My "个人"
+
+
+My "个人"
+
+</textarea></div>
+<div id="commands-output">
+<h2>Profile Output</h2><textarea class="command-output" cols="91" rows="25" readonly="true" spellcheck="false">
+<!--Interface: WLAN, Profile: iTest-->
+&lt;?xml version="1.0"?&gt;&lt;WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1"&gt;&lt;name&gt;iTest&lt;/name&gt;&lt;SSIDConfig&gt;&lt;SSID&gt;&lt;hex&gt;6954657374&lt;/hex&gt;&lt;name&gt;iTest&lt;/name&gt;&lt;/SSID&gt;&lt;/SSIDConfig&gt;&lt;connectionType&gt;ESS&lt;/connectionType&gt;&lt;connectionMode&gt;auto&lt;/connectionMode&gt;&lt;MSM&gt;&lt;security&gt;&lt;authEncryption&gt;&lt;authentication&gt;WPA2PSK&lt;/authentication&gt;&lt;encryption&gt;AES&lt;/encryption&gt;&lt;useOneX&gt;false&lt;/useOneX&gt;&lt;/authEncryption&gt;&lt;sharedKey&gt;&lt;keyType&gt;passPhrase&lt;/keyType&gt;&lt;protected&gt;true&lt;/protected&gt;&lt;keyMaterial&gt;01000000D08C9DDF0115D1118C7A00C04FC297EB01000000BDF76A4A2A2CD3458D33678DB08E7CF200000000020000000000106600000001000020000000CCA2940B0EB0C2DE7641A37EC7F79D2282EEE6160FAC4B5399A078FE817DE441000000000E80000000020000200000002B7054D6DE660A21E783FD6D1A571ED2FC34FE42C6AF5477C5FFAF8D95A44534100000003FAC2EDA7336CA6C1C6CD74EFC07DF6D4000000032E9F7ED5783C4CDCBFF30376F6D0DBE9C25A34FB1696241AC1E198794122DB3B499954B08C7082C02740BDE15F3AB6119C3073BC238E1EA98B660392BA2FF18&lt;/keyMaterial&gt;&lt;/sharedKey&gt;&lt;/security&gt;&lt;/MSM&gt;&lt;MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3"&gt;&lt;enableRandomization&gt;false&lt;/enableRandomization&gt;&lt;randomizationSeed&gt;99032061&lt;/randomizationSeed&gt;&lt;/MacRandomization&gt;&lt;/WLANProfile&gt;</textarea></div>
+<div id="events-summary">
+<h2>Summary</h2>
+<h3>Session Success/Failures</h3>
+<table id="disconnect-status">
+<tr>
+<th>Status</th>
+<th>Count</th>
+</tr>
+<tr>
+<td class="status"><span class="graph-background success" style="width: NaNpx">
+                                     
+                                </span>
+                                Successes
+                            </td>
+<td class="count">0</td>
+</tr>
+<tr>
+<td><span class="graph-background failure" style="width: NaNpx">
+                                     
+                                </span>
+                                Failures
+                            </td>
+<td class="count">0</td>
+</tr>
+<tr>
+<td class="status"><span class="graph-background warning" style="width: NaNpx">
+                                     
+                                </span>
+                                Warnings
+                            </td>
+<td class="count">0</td>
+</tr>
+</table>
+<h3>Disconnect Reasons</h3>
+<table id="disconnect-reasons">
+<tr>
+<th>Reason</th>
+<th>Count</th>
+</tr>
+</table>
+<h3>Session Durations</h3>
+<table id="session-durations">
+<tr id="duration-graph">
+<td style="top: 550px;">
+<div class="duration-bar" style="height: 0px;"><span class="bar-label" style="bottom: 0px;">0</span><span class="bar-background">
+                                             
+                                        </span></div>
+</td>
+<td style="top: 550px;">
+<div class="duration-bar" style="height: 0px;"><span class="bar-label" style="bottom: 0px;">0</span><span class="bar-background">
+                                             
+                                        </span></div>
+</td>
+<td style="top: 550px;">
+<div class="duration-bar" style="height: 0px;"><span class="bar-label" style="bottom: 0px;">0</span><span class="bar-background">
+                                             
+                                        </span></div>
+</td>
+<td style="top: 550px;">
+<div class="duration-bar" style="height: 0px;"><span class="bar-label" style="bottom: 0px;">0</span><span class="bar-background">
+                                             
+                                        </span></div>
+</td>
+<td style="top: 550px;">
+<div class="duration-bar" style="height: 0px;"><span class="bar-label" style="bottom: 0px;">0</span><span class="bar-background">
+                                             
+                                        </span></div>
+</td>
+<td style="top: 550px;">
+<div class="duration-bar" style="height: 0px;"><span class="bar-label" style="bottom: 0px;">0</span><span class="bar-background">
+                                             
+                                        </span></div>
+</td>
+<td style="top: 550px;">
+<div class="duration-bar" style="height: 0px;"><span class="bar-label" style="bottom: 0px;">0</span><span class="bar-background">
+                                             
+                                        </span></div>
+</td>
+</tr>
+<tr id="duration-labels">
+<td>0 - 1<br>minutes
+                                </td>
+<td>1 - 5<br>minutes
+                                </td>
+<td>5 - 10<br>minutes
+                                </td>
+<td>10 - 30<br>minutes
+                                </td>
+<td>30 - 60<br>minutes
+                                </td>
+<td>60 - 360<br>minutes
+                                </td>
+<td>360+<br>minutes
+                                </td>
+</tr>
+</table>
+</div>
+<h2>Wireless Sessions</h2>
+<div id="session-list">
+<div class="session">
+<table>
+<tr class="info">
+<th class="event-header">EventId</th>
+<th class="time-header">Time</th>
+<th class="message-header">Message</th>
+</tr>
+<tr class="wlan ">
+<td>12<a id="1033"></a></td>
+<td>2025-10-24T17:37:24</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">操作系统已在系统时间 ‎2025‎-‎10‎-‎24T09:37:24.500000000Z 启动。</span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1009<a id="832"></a></td>
+<td>2025-10-24T17:37:43</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">CDE 报告了 L2 适配器到达 <br><br> 接口: {994208c4-94eb-429f-90cb-cc0881691bab} <br><br> 类型: Ethernet.</span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>4000<a id="448"></a></td>
+<td>2025-10-24T17:38:02</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功启动 WLAN 自动配置服务。<br></span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1009<a id="833"></a></td>
+<td>2025-10-24T17:38:02</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">CDE 报告了 L2 适配器到达 <br><br> 接口: {e0f0f861-2d0e-4066-8c03-5b72a5a6dcff} <br><br> 类型: Wlan</span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1015<a id="834"></a></td>
+<td>2025-10-24T17:38:02</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">接口令牌应用<br><br>接口：  {e0f0f861-2d0e-4066-8c03-5b72a5a6dcff}<br>媒体类型：  Wlan<br>手动启用：  true<br>自动启用：  true</span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>10001<a id="449"></a></td>
+<td>2025-10-24T17:38:02</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功启动 WLAN 扩展模块。<br><br>模块路径: C:\Windows\System32\DriverStore\FileRepository\mtkwecx.inf_amd64_3443cb6c9b7397ca\mtkihvx.dll<br></span></div>
+</td>
+</tr>
+<tr class="
+                                                    error
+                                                ">
+<td>10002<a id="450"></a></td>
+<td>2025-10-24T17:42:56</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">WLAN 扩展模块已停止。<br><br>模块路径: C:\Windows\System32\DriverStore\FileRepository\mtkwecx.inf_amd64_3443cb6c9b7397ca\mtkihvx.dll<br></span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>4001<a id="451"></a></td>
+<td>2025-10-24T17:42:56</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功停止 WLAN 自动配置服务。<br></span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>12<a id="1034"></a></td>
+<td>2025-10-24T17:43:18</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">操作系统已在系统时间 ‎2025‎-‎10‎-‎24T09:43:18.500000000Z 启动。</span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1009<a id="835"></a></td>
+<td>2025-10-24T17:43:37</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">CDE 报告了 L2 适配器到达 <br><br> 接口: {994208c4-94eb-429f-90cb-cc0881691bab} <br><br> 类型: Ethernet.</span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>4000<a id="452"></a></td>
+<td>2025-10-24T17:43:55</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功启动 WLAN 自动配置服务。<br></span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>10001<a id="453"></a></td>
+<td>2025-10-24T17:43:55</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功启动 WLAN 扩展模块。<br><br>模块路径: C:\Windows\System32\DriverStore\FileRepository\mtkwecx.inf_amd64_3443cb6c9b7397ca\mtkihvx.dll<br></span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1009<a id="836"></a></td>
+<td>2025-10-24T17:43:55</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">CDE 报告了 L2 适配器到达 <br><br> 接口: {e0f0f861-2d0e-4066-8c03-5b72a5a6dcff} <br><br> 类型: Wlan</span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1015<a id="837"></a></td>
+<td>2025-10-24T17:43:55</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">接口令牌应用<br><br>接口：  {e0f0f861-2d0e-4066-8c03-5b72a5a6dcff}<br>媒体类型：  Wlan<br>手动启用：  true<br>自动启用：  true</span></div>
+</td>
+</tr>
+<tr class="
+                                                    error
+                                                ">
+<td>10002<a id="454"></a></td>
+<td>2025-10-24T17:54:05</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">WLAN 扩展模块已停止。<br><br>模块路径: C:\Windows\System32\DriverStore\FileRepository\mtkwecx.inf_amd64_3443cb6c9b7397ca\mtkihvx.dll<br></span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>4001<a id="455"></a></td>
+<td>2025-10-24T17:54:05</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功停止 WLAN 自动配置服务。<br></span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>12<a id="1035"></a></td>
+<td>2025-10-24T17:57:58</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">操作系统已在系统时间 ‎2025‎-‎10‎-‎24T09:57:58.500000000Z 启动。</span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1009<a id="838"></a></td>
+<td>2025-10-24T17:58:17</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">CDE 报告了 L2 适配器到达 <br><br> 接口: {994208c4-94eb-429f-90cb-cc0881691bab} <br><br> 类型: Ethernet.</span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>4000<a id="456"></a></td>
+<td>2025-10-24T17:58:36</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功启动 WLAN 自动配置服务。<br></span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1009<a id="839"></a></td>
+<td>2025-10-24T17:58:36</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">CDE 报告了 L2 适配器到达 <br><br> 接口: {e0f0f861-2d0e-4066-8c03-5b72a5a6dcff} <br><br> 类型: Wlan</span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1015<a id="840"></a></td>
+<td>2025-10-24T17:58:36</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">接口令牌应用<br><br>接口：  {e0f0f861-2d0e-4066-8c03-5b72a5a6dcff}<br>媒体类型：  Wlan<br>手动启用：  true<br>自动启用：  true</span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>10001<a id="457"></a></td>
+<td>2025-10-24T17:58:36</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功启动 WLAN 扩展模块。<br><br>模块路径: C:\Windows\System32\DriverStore\FileRepository\mtkwecx.inf_amd64_3443cb6c9b7397ca\mtkihvx.dll<br></span></div>
+</td>
+</tr>
+<tr class="
+                                                    error
+                                                ">
+<td>10002<a id="458"></a></td>
+<td>2025-10-24T17:59:34</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">WLAN 扩展模块已停止。<br><br>模块路径: C:\Windows\System32\DriverStore\FileRepository\mtkwecx.inf_amd64_3443cb6c9b7397ca\mtkihvx.dll<br></span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>4001<a id="459"></a></td>
+<td>2025-10-24T17:59:34</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功停止 WLAN 自动配置服务。<br></span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>12<a id="1036"></a></td>
+<td>2025-10-24T18:31:02</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">操作系统已在系统时间 ‎2025‎-‎10‎-‎24T10:31:02.500000000Z 启动。</span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1009<a id="841"></a></td>
+<td>2025-10-24T18:31:21</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">CDE 报告了 L2 适配器到达 <br><br> 接口: {994208c4-94eb-429f-90cb-cc0881691bab} <br><br> 类型: Ethernet.</span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>4000<a id="460"></a></td>
+<td>2025-10-24T18:31:40</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功启动 WLAN 自动配置服务。<br></span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1009<a id="842"></a></td>
+<td>2025-10-24T18:31:40</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">CDE 报告了 L2 适配器到达 <br><br> 接口: {e0f0f861-2d0e-4066-8c03-5b72a5a6dcff} <br><br> 类型: Wlan</span></div>
+</td>
+</tr>
+<tr class="wcm">
+<td>1015<a id="843"></a></td>
+<td>2025-10-24T18:31:40</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">接口令牌应用<br><br>接口：  {e0f0f861-2d0e-4066-8c03-5b72a5a6dcff}<br>媒体类型：  Wlan<br>手动启用：  true<br>自动启用：  true</span></div>
+</td>
+</tr>
+<tr class="wlan ">
+<td>10001<a id="461"></a></td>
+<td>2025-10-24T18:31:40</td>
+<td>
+<div class="message"><span class="expand-btn">[+]</span><span class="message-body">已成功启动 WLAN 扩展模块。<br><br>模块路径: C:\Windows\System32\DriverStore\FileRepository\mtkwecx.inf_amd64_3443cb6c9b7397ca\mtkihvx.dll<br></span></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div><script type="text/javascript">
+                var snapshots = [
+                    
+                ];
+            
+                
+        var wlanReport = ( function()
+        {
+            var wlanReport = {},
+
+            pointRadius = 8,
+            eventOffset = 50,
+            wlanYOffset = 0,
+            ncsiYOffset = 100,
+            ndisYOffset = 200,
+            eventRenderInfo,
+            boundRenderInfo,
+            wlanBounds = [],
+            connectivityBounds = [],
+            powerBounds = [],
+
+            bindToggleMessageBtns,
+            toggleMessage,
+            timeToXCoord,
+            findNewestEvent,
+            calculateEventCoordinates,
+            findwlanBounds,
+            findConnectivityBounds,
+            findPowerBounds,
+            drawEvents,
+            drawPoint,
+            drawSessionBounds,
+            drawBound,
+            drawAxis,
+            drawEventRegionLabels,
+            drawLegend,
+            drawLegendLabel,
+            drawSessionGraph,
+            eventClickHandler,
+            eventMouseMoveHandler,
+            calculateSessionDuration,
+            getSnapshotAtXY,
+            getSessionAtXY,
+            convertSnapshotTimes,
+            convertFileTimeToUnixTime,
+            fixCommandOutputFormatting,
+			checkForEmptyReport,
+            bindTopBtn;
+
+            eventRenderInfo = {
+                'Connect':   {'label':'C', 'color':'#9AE4A6'},
+                'Disconnect':{'label':'D', 'color':'#F5BE9C'},
+                'Sleep':     {'label':'S', 'color':'#AF9AE4'},
+                'CS-Sleep':  {'label':'S', 'color':'#AF9AE4'},
+                'Wake':      {'label':'W', 'color':'#E49AEF'},
+                'CS-Wake':   {'label':'W', 'color':'#E49AEF'},
+                'Internet':  {'label':'I', 'color':'#9CCAF5'},
+                'Local':     {'label':'L', 'color':'#F1F59C'},
+                'None':      {'label':'N', 'color':'#F59C9C'},
+                'Error':     {'label':'X', 'color':'#FF0000'}
+            };
+
+            boundRenderInfo = {
+                'Connected':       {'fill':'rgba(0,210,0,0.3)','stroke':'rgba(0,210,0,0.8)', 'lineWidth':'3'},
+                'Power':           {'fill':'rgba(0,0,0,0.95)', 'stroke':'rgba(20,20,20,1.0)','lineWidth':'1'},
+                'ConnectedStandby':{'fill':'rgba(0,135,0,0.3)','stroke':'rgba(0,100,0,0.95)','lineWidth':'1'}
+            };
+
+            bindToggleMessageBtns = function()
+            {
+                var divElements,
+                    expandBtn,
+                    i;
+
+                divElements = document.getElementsByTagName('div');
+
+                for( i = 0; i < divElements.length; i++ ) {
+                    if( divElements[i].className === 'message' ) {
+                        expandBtn = divElements[i].firstChild;
+                        expandBtn.addEventListener('click', toggleMessage(expandBtn), false);
+                    }
+                }
+            };
+
+            toggleMessage = function(btn)
+            {
+                return function() {
+                    var message = btn.parentNode;
+
+                    if(message.className === "message")
+                    {
+                        message.className = "message show";
+                        btn.innerHTML = "[‒]"; //A digit width hyphen. This way the button doesn't shrink (by much)
+                    }
+                    else
+                    {
+                        message.className = "message";
+                        btn.innerHTML = "[+]";
+                    }
+                }
+            };
+            
+            // Calculate the X coordinate for the snapshot based on the time it
+            // occured relative to the 48 hours displayed on the graph.
+            timeToXCoord = function(startTimeStr, snapshotTimeStr, width)
+            {
+                var twoDaysInMS  = (1000 * 60 * 60 * 24) * 2,
+                    startTime    = parseInt(startTimeStr, 10),
+                    snapshotTime = parseInt(snapshotTimeStr, 10),
+                    endTime = startTime - twoDaysInMS,
+                    xPosRatio    = 0;
+
+                xPosRatio = (snapshotTime - startTime) / (endTime - startTime);
+
+                return (width - (xPosRatio * width));
+            };
+
+            calculateEventCoordinates = function(canvas)
+            {
+                var width,
+                    height,
+                    xOffset  = 10,
+                    yOffset  = 0,
+                    xPos     = 0,
+                    yPos     = 0,
+                    lastXPos = [],
+                    minXDiff = 2 * pointRadius, //The min difference between points to prevent them from overlapping
+                    startTime,
+                    i;
+
+                if(snapshots.length === 0) {
+                    return;
+                }
+
+                width = canvas.width;
+                height = canvas.height;
+
+                lastXPos[wlanYOffset] = -1;
+                lastXPos[ndisYOffset] = -1;
+                lastXPos[ncsiYOffset] = -1;
+
+                startTime = findNewestEvent();
+
+                for(i = 0; i < snapshots.length; i++)
+                {
+                    if(snapshots[i].type === 'Connect') {
+                        yOffset = wlanYOffset;
+                    } else if(snapshots[i].type === 'Disconnect') {
+                        yOffset = wlanYOffset;
+                    } else if(snapshots[i].type === 'Error') {
+                        yOffset = wlanYOffset;
+                    } else if(snapshots[i].type === 'Wake' || snapshots[i].type === 'CS-Wake') {
+                        yOffset = ndisYOffset;
+                    } else if(snapshots[i].type === 'Sleep' || snapshots[i].type === 'CS-Sleep') {
+                        yOffset = ndisYOffset;
+                    } else {
+                        yOffset = ncsiYOffset;
+                    }
+
+                    xPos = timeToXCoord(startTime, snapshots[i].time, width) - xOffset;
+                    if(lastXPos[yOffset] >= 0 && (lastXPos[yOffset]) - xPos < minXDiff)
+                    {
+                        // Keep track of the offset we are adding to events to make sure that events
+                        // remain in chronological order across their different y-axis channels (wlan,ndis,ncsi)
+                        xOffset += (minXDiff - (lastXPos[yOffset] - xPos));
+                        xPos = lastXPos[yOffset] - minXDiff;
+                    }
+                    
+                    yPos = eventOffset + yOffset;
+                    snapshots[i].x = xPos;
+                    snapshots[i].y = yPos;
+
+                    lastXPos[yOffset] = xPos;
+
+                    // If the xPos is greater than the width of the canvas
+                    // stop calculating cordinates since they won't fit anyways.
+                    if (xPos > width) {
+                        snapshots = snapshots.slice(0, i); //Discard the points that don't fit
+                        break;
+                    }
+                }
+            };
+
+            // Unfortunatly the newest event is not always the first event in the list,
+            // so we have to do a search for the newest event
+            findNewestEvent = function()
+            {
+                var startTime = 0,
+                    i;
+
+                for(i = 0; i < snapshots.length; i++) {
+                    startTime = Math.max(startTime, snapshots[i].time);
+                }
+
+                return startTime;
+            };
+
+            drawEvents = function(canvas)
+            {
+                var graph,
+                pointLabel,
+                snapshot,
+                style,
+                i;
+
+                graph = canvas.getContext('2d');
+
+                if(snapshots.length === 0){
+                    graph.font = "18px sans-serif";
+                    graph.fillStyle = "#EFEFEF";
+                    graph.textAlign = "center";
+                    graph.fillText("No events from the last 48 hours to display", canvas.width/2, canvas.height/2);
+                    return;
+                }
+
+                graph.strokeStyle = "#111";
+                graph.lineWidth = 1;
+
+                for( i = 0; i < snapshots.length; i++)
+                {
+                    snapshot = snapshots[i];
+                    
+                    if(snapshot.error !== "0") {
+                      style = eventRenderInfo["Error"];
+                    } else {
+                      style = eventRenderInfo[snapshot.type];
+                    }
+                
+                    if( style === undefined) {
+                        continue;
+                    }
+                
+                    graph.fillStyle = style.color;
+                    pointLabel = style.label;
+
+                    drawPoint(graph, snapshot.x, snapshot.y, pointLabel);
+
+                }
+            };
+
+            drawPoint = function(graph, x, y, label)
+            {
+                graph.font = "10px sans-serif";
+                graph.textAlign = "center";
+
+                graph.beginPath();
+                graph.arc( x, y, pointRadius, 0, 2 * Math.PI, false);
+                graph.fill();
+                graph.stroke();
+
+                graph.fillStyle = "#222";
+                graph.fillText(label, x, y + (pointRadius/2));
+            };
+
+            findwlanBounds = function()
+            {
+                var connectEvent    = null,
+                    disconnectEvent = null,
+                    isConnected     = false,
+                    currentEvent,
+                    type,
+                    boundType,
+                    i;
+
+                // Snapshots only include the state from the last 48 hours.
+                // In order to properly draw session bounds we need to know
+                // the state from when the 48 hours started. i.e. was a session
+                // in progress already when the 48 section began. To fnd this out
+                // look to see if the first wlan event is a disconnect or a connect.
+                for(i = snapshots.length - 1; i >= 0; i-- )
+                {
+                    if( snapshots[i].type === 'Disconnect' ) {
+                        isConnected = true;
+                        break;
+                    } else if (snapshots[i].type === 'Connect'){
+                        isConnected = false;
+                        break;
+                    }
+                }
+
+                // If we start in a connected state draw a bound from the left side
+                // of the graph to the first wlan/ndis event
+                if( isConnected ) {
+                    for(i = snapshots.length - 1; i >= 0; i-- )
+                    {
+                        type = snapshots[i].type;
+                        
+                        if(type === 'Wake' || type === 'CS-Wake' )
+                        {
+                            boundType = type === 'Wake' ? 'Sleep' : 'CS-Sleep';
+                            
+                            powerBounds.push({'type':boundType, 'sleepEvent':snapshots[i], 'wakeEvent':snapshots[i], 'x':0, 'y':snapshots[i].y,
+                                'width':snapshots[i].x, 'height':200});
+                                break;
+                        }
+                        else if(type === 'Disconnect')
+                        {
+                            wlanBounds.push({'connectEvent':snapshots[i], 'disconnectEvent':snapshots[i], 'x':0, 'y': wlanYOffset + eventOffset,
+                                'width':snapshots[i].x, 'height':200});
+                                break;
+                        }
+                    }
+                }
+                
+                // Loop through all of the events finding pairs of events to draw a box between
+                // indicating the start and stop of a particular wlan state. Current pairs include
+                //
+                // Connect->Disconnect/Error/Sleep/CS-Sleep
+                // Wake->Disconnect/Error/Sleep/CS-Sleep (if previously connected)
+                //
+                for(i = snapshots.length - 1; i >= 0; i-- )
+                {
+                    currentEvent = snapshots[i];
+                    type = currentEvent.type;
+
+                    if ( type === 'Internet' || type === 'Local' || type == 'None')
+                    {
+                        continue;
+                    }
+
+                    if( type === 'Connect' )
+                    {
+                        if (connectEvent === null)
+                        {
+                            connectEvent = snapshots[i];
+                        }
+                        isConnected = true;
+                    }
+                    else if( type === 'Disconnect' || type === 'Sleep' || type === 'CS-Sleep')
+                    {
+                        disconnectEvent = snapshots[i];
+
+                        // If we are stopping the session because of the Sleep, consider the
+                        // session to still be connected since we will likely do a fast reconnect
+                        // on wake meaning we will not see a new connect event
+                        if( type !== 'Sleep' && type !== 'CS-Sleep')
+                        {
+                            isConnected = false;
+                        }
+
+                        // If we have a connect event and a disconnect event, have the session bounds be a box connecting them
+                        if(connectEvent !== null && disconnectEvent !== null )
+                        {
+                            wlanBounds.push({'connectEvent':connectEvent, 'disconnectEvent':disconnectEvent, 'x':connectEvent.x, 'y': wlanYOffset + eventOffset,
+                                'width':disconnectEvent.x - connectEvent.x, 'height':200});
+                        }
+
+                        // If we only have a disconnect event, and it is the first connection event,
+                        // Draw a session bounds from the left end of the graph to the disconnect
+                        if( connectEvent === null && wlanBounds.length === 0 )
+                        {
+                            wlanBounds.push({'connectEvent':null, 'disconnectEvent':disconnectEvent, 'x':0, 'y':wlanYOffset + eventOffset,
+                                'width':disconnectEvent.x, 'height':200});
+                        }
+
+                        connectEvent = null;
+                        disconnectEvent = null;
+                    }
+                    else if( type === 'Wake' || type === 'CS-Wake' )
+                    {
+                        if(isConnected && connectEvent === null)
+                        {
+                            connectEvent = snapshots[i];
+                        }
+                    }
+                }
+
+                // If there is a current active session with no disconnect draw its bound
+                // The bound will be from the connect to beyond the end of the graph
+                if( connectEvent !== null && disconnectEvent === null)
+                {
+                    wlanBounds.push({'connectEvent':connectEvent, 'disconnectEvent':null, 'x':connectEvent.x, 'y':wlanYOffset + eventOffset,
+                        'width':1000, 'height':200});
+                }
+            };
+
+            findConnectivityBounds = function()
+            {
+                var connectivityStart    = null,
+                    connectivityEnd      = null,
+                    isConnectedToNetwork = false,
+                    i;
+
+                for(i = snapshots.length - 1; i >= 0; i-- )
+                {
+                    if (snapshots[i].type === 'Connect')
+                    {
+                        isConnectedToNetwork = true;
+                    }
+                    else if (snapshots[i].type === 'Disconnect' || snapshots[i].type === 'Sleep' || snapshots[i].type === 'Error')
+                    {
+                        connectivityEnd = snapshots[i];
+
+                        // Draw the bounds of the last capability from when it
+                        // started to when the disconnect event happened
+                        if (connectivityStart !== null) {
+                            connectivityBounds.push({'startEvent':connectivityStart, 'endEvent':connectivityEnd, 'x':connectivityStart.x, 'y':connectivityStart.y,
+                                'width':connectivityEnd.x - connectivityStart.x, 'height':2*pointRadius});
+                        }
+
+                        if (snapshots[i].type === 'Disconnect') {
+                            isConnectedToNetwork = false;
+                        }
+
+                        connectivityStart = null;
+                        connectivityEnd = null;
+                    }
+                    else if(snapshots[i].type === 'Internet' || snapshots[i].type === 'Local' || snapshots[i].type === 'None')
+                    {
+                        // Don't draw bounds between capability events
+                        // that are not part of a session
+                        if( !isConnectedToNetwork )
+                        {
+                            continue;
+                        }
+
+                        if( connectivityStart == null )
+                        {
+                            connectivityStart = snapshots[i];
+                        }
+                        else
+                        {
+                            connectivityEnd = snapshots[i];
+
+                            connectivityBounds.push({'startEvent':connectivityStart, 'endEvent':connectivityEnd, 'x':connectivityStart.x, 'y':connectivityStart.y,
+                                'width':connectivityEnd.x - connectivityStart.x, 'height':2*pointRadius});
+
+                            connectivityStart = connectivityEnd;
+                            connectivityEnd = null;
+                        }
+                    }
+                    else if ( snapshots[i].type === 'Disconnect' && connectivityStart !== null )
+                    {
+                        // Do not draw connectivity bounds that span from one session to another.
+                        // On disconnect there is an implicit capability None where the current
+                        // capability would end.
+                        connectivityBounds.push({'startEvent':connectivityStart, 'endEvent':snapshots[i], 'x':connectivityStart.x, 'y':connectivityStart.y,
+                            'width':snapshots[i].x - connectivityStart.x, 'height':2*pointRadius});
+
+                        connectivityStart = null;
+                        connectivityEnd = null;
+                    }
+                }
+
+                // If the last connectivity event started a bounds, creat a region
+                // from it to the edge of the graph
+                if(connectivityStart)
+                {
+                    connectivityBounds.push({'startEvent':connectivityStart, 'endEvent':null, 'x':connectivityStart.x, 'y':connectivityStart.y,
+                        'width':1000, 'height':2*pointRadius});
+                }
+            };
+
+            findPowerBounds = function()
+            {
+                var sleepEvent = null,
+                    wakeEvent  = null,
+                    isConnected = false,
+                    boundType = 'Sleep',
+                    i;
+                
+                // Find the initial connected state
+                for(i = snapshots.length - 1; i >= 0; i-- )
+                {
+                    if( snapshots[i].type === 'Disconnect' ) {
+                        isConnected = true;
+                        break;
+                    } else if (snapshots[i].type === 'Connect'){
+                        isConnected = false;
+                        break;
+                    }
+                }
+                
+                // Generate power bounds
+                for(i = snapshots.length - 1; i >= 0; i--)
+                {
+                    if(snapshots[i].type === 'CS-Sleep' || snapshots[i].type === 'Sleep')
+                    {
+                        sleepEvent = snapshots[i];
+                    }
+                    else if( snapshots[i].type === 'CS-Wake' || snapshots[i].type === 'Wake')
+                    {
+                        wakeEvent = snapshots[i];
+
+                        // If we have a sleep and a wake, draw a bounds between them
+                        if(sleepEvent !== null && wakeEvent !== null) {
+                            
+                            // If we are connected to a network and the power event is a connected standby
+                            // sleep, draw a light green box for the time asleep signifying that the 
+                            // connection is still active
+                            if( isConnected && sleepEvent.type === 'CS-Sleep')
+                            {
+                                boundType = 'CS-Sleep';
+                            }
+                            else
+                            {
+                                boundType = 'Sleep';
+                            }
+                            
+                            powerBounds.push({'type':boundType, 'sleepEvent':sleepEvent, 'wakeEvent':wakeEvent, 'x':sleepEvent.x, 'y':wakeEvent.y,
+                                'width':wakeEvent.x - sleepEvent.x, 'height':200});
+                        }
+
+                        sleepEvent = null;
+                        wakeEvent = null;
+                    }
+                    else if( snapshots[i].type === 'Connect')
+                    {
+                        isConnected = true;
+                    }
+                    else if( snapshots[i].type === 'Disconnect')
+                    {
+                        isConnected = false;
+                    }
+                }
+            };
+
+            drawSessionBounds = function(canvas)
+            {
+                var graph,
+                    session,
+                    i;
+
+                graph = canvas.getContext('2d');
+
+                if(wlanBounds)
+                {
+                    for(i = wlanBounds.length - 1; i >= 0; i--)
+                    {
+                        session = wlanBounds[i];
+                        drawBound(graph, 'Connect', session.x, session.width);
+                    }
+                }
+
+                if(powerBounds)
+                {
+                    for(i = powerBounds.length - 1; i >= 0; i--)
+                    {
+                        session = powerBounds[i];
+                        drawBound(graph, session.type, session.x, session.width);
+                    }
+                }
+
+                // Draw Internet/Limited connectivity bounds
+                graph.fillStyle = "rgba(235,235,0,0.4)";
+                graph.strokeStyle = "rgba(30,30,30,0.8)";
+                graph.lineWidth = 1;
+
+
+                if(connectivityBounds)
+                {
+                    for(i = 0; i < connectivityBounds.length; i++)
+                    {
+                        session = connectivityBounds[i];
+                        if(session.startEvent.type === 'Local')
+                        {
+                            graph.fillStyle = "rgba(235,235,0,0.4)";
+                        }
+                        else if(session.startEvent.type === 'None')
+                        {
+                            graph.fillStyle = "rgba(235,0,0,0.4)";
+                        }
+                        else
+                        {
+                            // Don't draw bounds when the capability is internet
+                            continue;
+                            //graph.fillStyle = "rgba(156,202,245,0.6)";
+                        }
+
+                        graph.fillRect( session.x, session.y - pointRadius, session.width, session.height);
+                    }
+                }
+            };
+
+            drawBound = function(graph, type, x, width)
+            {
+                var style,
+                    y      = 50,
+                    height = 200;
+
+                if(type === 'Connect' || type === 'Disconnect')
+                {
+                    style = boundRenderInfo['Connected'];
+                }
+                else if(type === 'Sleep' || type === 'Wake')
+                {
+                    style = boundRenderInfo['Power'];
+                }
+                else if(type === 'CS-Sleep' || type === 'CS-Wake' )
+                {
+                    style = boundRenderInfo['ConnectedStandby'];
+                }
+                else
+                {
+                    style = boundRenderInfo['Connected'];
+                }
+
+                graph.fillStyle = style['fill'];
+                graph.strokeStyle = style['stroke'];
+                graph.lineWidth = style['lineWidth'];
+
+                graph.fillRect(x, y, width, height);
+                graph.strokeRect(x, y, width, height);
+            }
+
+            drawAxis = function(canvas)
+            {
+                var graph,
+                    width,
+                    height,
+                    xPadding,
+                    yPadding,
+                    step,
+                    twoDaysInHours = 48,
+                    i;
+
+                width = canvas.width;
+                height = canvas.height;
+                xPadding = 10;
+                yPadding = 15;
+
+                graph = canvas.getContext('2d');
+
+
+                // Separate WLAN/NCSI/NDIS events
+                // into their own 'lanes'
+                graph.fillStyle = "#141414";
+                graph.fillRect(0, 0, width, 100);   //WLAN lane
+                graph.fillRect(0, 200, width, 100); //NDIS lane
+                
+                //Draw a line for each of the 48 hours in 2 days
+                graph.strokeStyle = "#333";
+                graph.lineWidth = 1;
+                graph.font = "12px sans-serif";
+                graph.fillStyle = "#555";
+                graph.textAlign = "center";
+
+                step = width/twoDaysInHours;
+
+                for( i = 0; i < twoDaysInHours; i++)
+                {
+                    graph.beginPath();
+                    graph.moveTo((step * i), 0);
+                    graph.lineTo((step * i), height - yPadding);
+                    graph.stroke();
+                }
+
+                // Label X axis
+                graph.fillText('Oldest', 30, height - 5);
+                graph.fillText('Newest', width - 30, height - 5);
+            };
+
+            drawEventRegionLabels = function(canvas)
+            {
+                var graph = canvas.getContext('2d');
+
+                // Label event regions
+                graph.font = "12px sans-serif";
+                graph.textAlign = "center";
+                graph.strokeStyle = "#333";
+                graph.lineWidth = 1;
+
+                graph.fillStyle = "#050505";
+                //WLAN
+                graph.fillRect(0, 0, 40, 20);
+                graph.strokeRect(0,0,40,20);
+                //NCSI
+                graph.fillRect(0, 101, 40, 20);
+                graph.strokeRect(0,101,40,20);
+                //NDIS
+                graph.fillRect(0, 201, 40, 20);
+                graph.strokeRect(0,201,40,20);
+
+                graph.fillStyle = "#EEE";
+                graph.fillText('WLAN', 20, 15);
+                graph.fillText('NCSI', 20, 115);
+                graph.fillText('NDIS', 20, 215);
+            };
+
+            drawLegend = function()
+            {
+                var canvas,
+                    legend,
+                    width,
+                    height,
+                    x;
+
+                canvas = document.getElementById('graph-legend');
+                width = canvas.width;
+                height = canvas.height;
+                symbolX = 20;
+                textX = 40;
+
+                legend = canvas.getContext('2d');
+
+                // Connect
+                legend.fillStyle = eventRenderInfo['Connect'].color;
+                drawPoint(legend, symbolX, 10, eventRenderInfo['Connect'].label);
+                drawLegendLabel(legend, textX, 13, "- Started a connection");
+
+                // Disconnect
+                legend.fillStyle = eventRenderInfo['Disconnect'].color;
+                drawPoint(legend, symbolX, 30, eventRenderInfo['Disconnect'].label);
+                drawLegendLabel(legend, textX, 33, "- Disconnected from a network");
+
+                // Sleep
+                legend.fillStyle = eventRenderInfo['Sleep'].color;
+                drawPoint(legend, symbolX, 50, eventRenderInfo['Sleep'].label);
+                drawLegendLabel(legend, textX, 53, "- Wireless adapter entered a low power state");
+
+                // Wake
+                legend.fillStyle = eventRenderInfo['Wake'].color;
+                drawPoint(legend, symbolX, 70, eventRenderInfo['Wake'].label);
+                drawLegendLabel(legend, textX, 73, "- Wireless adapter entered a working power state");
+
+                // Capability Internet
+                legend.fillStyle = eventRenderInfo['Internet'].color;
+                drawPoint(legend, symbolX, 90, eventRenderInfo['Internet'].label);
+                drawLegendLabel(legend, textX, 93, "- Network is connected to the internet");
+
+                // Capability Local
+                legend.fillStyle = eventRenderInfo['Local'].color;
+                drawPoint(legend, symbolX, 110, eventRenderInfo['Local'].label);
+                drawLegendLabel(legend, textX, 113, "- Network has limited connectivity");
+
+                // Capability None
+                legend.fillStyle = eventRenderInfo['None'].color;
+                drawPoint(legend, symbolX, 130, eventRenderInfo['None'].label);
+                drawLegendLabel(legend, textX, 133, "- Network has no connectivity");
+
+                // Error
+                legend.fillStyle = eventRenderInfo['Error'].color;
+                drawPoint(legend, symbolX, 150, eventRenderInfo['Error'].label);
+                drawLegendLabel(legend, textX, 153, "- Error");
+            };
+
+            drawLegendLabel = function(legend, x, y, text)
+            {
+                legend.font = "14px sans-serif";
+                legend.fillStyle = '#DDD';
+                legend.textAlign = "left";
+                legend.fillText(text, x, y);
+            };
+
+            drawSessionGraph = function()
+            {
+                var canvas,
+                    events;
+
+                canvas = document.getElementById('session-graph');
+
+                calculateEventCoordinates(canvas);
+
+                drawAxis(canvas);
+
+                findwlanBounds();
+                findConnectivityBounds();
+                findPowerBounds();
+                drawSessionBounds(canvas);
+
+                drawEvents(canvas);
+
+                drawEventRegionLabels(canvas);
+
+                drawLegend();
+
+                canvas.addEventListener('click', eventClickHandler, false);
+                canvas.addEventListener('mousemove', eventMouseMoveHandler, false);
+            };
+
+            eventClickHandler = function(e)
+            {
+                var canvas = document.getElementById('session-graph'),
+                    x,
+                    y,
+                    snapshot,
+                    originalClass;
+
+                e = e || window.event;
+
+                if( e.stopPropogation )
+                {
+                    e.stopPropogation();
+                } else {
+                    e.cancelBubble = true;
+                }
+
+                x = e.offsetX;
+                y = e.offsetY;
+
+                snapshot = getSnapshotAtXY(x,y);
+                
+                // Emphasize the selected event by placing a border
+                // around it that dissapears after one second
+                if( snapshot !== null)
+                {
+                    window.location.hash = snapshot.correspondingEvent;
+                    evtElement = document.getElementById(snapshot.correspondingEvent).parentNode.parentNode;
+                    originalClass = evtElement.className;
+                    evtElement.className = evtElement.className + ' glow';
+
+                    setTimeout(function(){
+                        evtElement.className = originalClass;
+                    }, 1000);
+                }
+            };
+
+            eventMouseMoveHandler = function(e)
+            {
+                var summary,
+                    x,
+                    y,
+                    snapshot,
+                    session,
+                    startEvent = null,
+                    endEvent   = null,
+                    i;
+
+                e = e || window.event;
+
+                if( e.stopPropogation )
+                {
+                    e.stopPropogation();
+                } else {
+                    e.cancelBubble = true;
+                }
+
+                x = e.offsetX;
+                y = e.offsetY;
+                summary = document.getElementById('event-info');
+
+                snapshot = getSnapshotAtXY(x,y);
+
+                summary.innerHTML = "Hover over a session or event to view a summary <br> Click on an event to jump to it in the session list";
+                
+                // Handle mouseover on snapshot events
+                if(snapshot !== null)
+                {
+                    if(snapshot.type === 'Connect')
+                    {
+                        summary.innerHTML = 'Started a connection to a wireless network <br>' +
+                        '<br>' + snapshot.date + '<br>' +
+                        'Connection mode: ' + snapshot.connectionMode + '<br>' +
+                        'Profile: ' + snapshot.profileName + '<br>' +
+                        'SSID: ' + snapshot.ssid;
+                    }
+                    else if(snapshot.type === 'Disconnect')
+                    {
+                        summary.innerHTML = snapshot.disconnectReason + '<br>' +
+                        '<br>' + snapshot.date + '<br>' +
+                        'Connection mode: ' + snapshot.connectionMode + '<br>' +
+                        'Profile: ' + snapshot.profileName + '<br>' +
+                        'SSID: ' + snapshot.ssid;
+                    }
+                    else if( snapshot.type === 'Wake' || snapshot.type === 'CS-Wake' ||
+                            snapshot.type === 'Sleep' || snapshot.type === 'CS-Sleep' )
+                    {
+                        summary.innerHTML = snapshot.message + '<br>' +
+                        '<br>' + snapshot.date + '<br>';
+
+                    }
+                    else if(snapshot.type === 'Internet' || snapshot.type == 'Local' || snapshot.type == 'None')
+                    {
+                        summary.innerHTML = snapshot.message + '<br>' +
+                        '<br>' + snapshot.date + '<br>';
+
+                    }
+                    else if( snapshot.type === 'Error' )
+                    {
+                        var messageCutoffIndex = 0;
+                        messageCutoffIndex = snapshot.message.indexOf('br') - 1;
+                        summary.innerHTML = snapshot.message.substring(0,messageCutoffIndex) + '<br>' +
+                        '<br>' + snapshot.date + '<br>';
+                    }
+
+                    return;
+                }
+
+                session = getSessionAtXY(x,y);
+                
+                // Handle mouseover on session bounds
+                if( session !== null)
+                {
+                    startEvent = session.connectEvent;
+                    endEvent = session.disconnectEvent;
+                    if(startEvent !== null && endEvent !== null)
+                    {
+                        summary.innerHTML = 'Session duration: ' + calculateSessionDuration(startEvent.time, endEvent.time) + '<br>' +
+                        'Start time: ' + startEvent.date.toLocaleString() + '<br>' +
+                        'End time: ' + endEvent.date.toLocaleString() + '<br>' +
+                        'Disconnect reason: ' + endEvent.disconnectReason + '<br>';
+                    }
+                    else if(startEvent !== null)
+                    {
+                        summary.innerHTML = 'Session duration: Ongoing' + '<br>' +
+                        'Start time: ' + startEvent.date.toLocaleString() + '<br>';
+                    }
+                    else if(endEvent !== null)
+                    {
+                        summary.innerHTML = 'End time: ' + endEvent.date.toLocaleString() + '<br>' +
+                        'Disconnect reason: ' + endEvent.disconnectReason + '<br>';
+                    }
+                }
+            };
+
+            calculateSessionDuration = function(start, end )
+            {
+                var duration = (end - start) / 1000,
+                    hours    = parseInt( duration / (60 * 60), 10),
+                    minutes  = parseInt((duration / 60) % 60, 10),
+                    seconds  = Math.round(duration % 60);
+
+                return (hours + ' hours ' + minutes + ' minutes ' + seconds + ' seconds');
+            };
+
+            getSnapshotAtXY = function(x, y)
+            {
+                var snapshot,
+                    i;
+
+                // Check to see if the mouse pointer correspondes to an event
+                for(i = 0; i < snapshots.length; i++)
+                {
+                    snapshot = snapshots[i];
+                    if( x >= snapshot.x - pointRadius && x <= snapshot.x + pointRadius )
+                    {
+                        if(y >= snapshot.y - pointRadius && y <= snapshot.y + pointRadius)
+                        {
+                            return snapshot;
+                        }
+                    }
+                }
+
+                return null;
+            };
+
+            getSessionAtXY = function(x, y)
+            {
+                var session,
+                    i;
+
+                // Check to see if the mouse pointer corresponds to a session
+                for(i = 0; i < wlanBounds.length; i++)
+                {
+                    session = wlanBounds[i];
+                    if( x >= session.x && x <= session.x + session.width )
+                    {
+                        if(y >= session.y && y <= session.y + session.height)
+                        {
+                            return session;
+                        }
+                    }
+                }
+
+                return null;
+            };
+
+            convertSnapshotTimes = function()
+            {
+                var i;
+                for(i = 0; i < snapshots.length; i++)
+                {
+                    snapshots[i].time = convertFileTimeToUnixTime(snapshots[i].time);
+                    snapshots[i].date = new Date(snapshots[i].time);
+                }
+            };
+
+            convertFileTimeToUnixTime = function(time)
+            {
+                var nanoSecondsPerMS   = 10000,
+                    yearDifferenceInMS = 11644473600000; //MS between 1601 and 1970
+
+                return (time / nanoSecondsPerMS) - yearDifferenceInMS;
+            };
+			
+            fixCommandOutputFormatting = function()
+            {
+                var commandTextboxes = document.getElementsByTagName("textarea"),
+                    textbox,
+                    i;
+				
+                for(i in commandTextboxes)
+                {
+                    textbox = commandTextboxes[i];
+                    if(textbox.className === "command-output")
+                    {
+	                    var output = textbox.innerHTML;
+	                    output = output.replace(/\n\n\n\n/g, '\n');
+	                    textbox.innerHTML = output.trim();
+                    }
+                }
+				
+            };
+			
+            checkForEmptyReport = function()
+            {
+                var sessionList = document.getElementById('session-list'),
+                    eventsSummary;
+				
+                if(sessionList.innerHTML == '')
+                {
+                    sessionList.innerHTML = "<h4>No WLAN events were found on this system.</h4>";
+                    sessionList.style.margin = "0 0 100px 0";
+					
+                    eventsSummary =  document.getElementById('events-summary');
+                    eventsSummary.parentNode.removeChild(eventsSummary);
+                }
+            };
+			
+            bindTopBtn = function()
+            {
+                var btn           = document.getElementById('top-btn'),
+                    reportWrapper = document.getElementById('report-wrapper');
+
+                btn.style.left = (reportWrapper.offsetLeft - btn.clientWidth - 20) + 'px';
+                btn.style.top = '30px';
+
+                btn.addEventListener('click', function() {
+                    window.scrollTo(0,0);
+                    window.history.replaceState({}, '', window.location.href.split('#')[0]);
+                }, false);
+            };
+
+            wlanReport.initialize = function()
+            {
+                bindTopBtn();
+                bindToggleMessageBtns();
+                convertSnapshotTimes();
+                drawSessionGraph();
+                fixCommandOutputFormatting();
+                checkForEmptyReport();
+            };
+
+            return wlanReport;
+        }());
+
+        window.addEventListener('load', wlanReport.initialize, false);
+    </script></body>
+</html>

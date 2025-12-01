@@ -1,0 +1,247 @@
+2025/10/24 08:18:15 INFO    | 
+2025/10/24 08:18:15 INFO    | 
+2025/10/24 08:18:15 INFO    | ============================================================
+2025/10/24 08:18:15 INFO    |                    Start CGTT logParser 
+2025/10/24 08:18:15 INFO    | ============================================================
+2025/10/24 08:18:15 INFO    | Tool file version: 2.0.9.3, product version: 2.0.2.0
+2025/10/24 08:18:15 INFO    | Tool create date: Sun Sep 15 21:11:41 2024, modify date: Mon Oct 28 15:20:46 2024
+2025/10/24 08:18:15 INFO    | cmdline : ['C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PXA\\Tools\\LogParser\\LogParser.exe', '-src', 'C:\\ProgramData\\PXA\\Logs\\PXA004\\CPU_Single_000', '-prefix', '1761264177843']
+2025/10/24 08:18:15 INFO    | start to parse CGTT Test Result
+2025/10/24 08:18:15 INFO    | ============= Start CGTT logParser ============= 
+2025/10/24 08:18:15 INFO    | {'auto': False, 'debug': False, 'src': 'C:\\ProgramData\\PXA\\Logs\\PXA004\\CPU_Single_000', 'setting': '', 'prefix': '1761264177843', 'cpu_pwr': False, 'cpu_pwr_gap': 0.0, 'gpu_pwr': False, 'gpu_pwr_gap': 0.0, 'cpu_freq': False, 'cpus_freq': False, 'cpu_freq_gap': 0.0, 'head_offset': 0, 'tail_offset': 10, 'sr': False, 're_parse': False, 'file': False, 'segment': None, 'trange': None, 'src_file': ''}
+2025/10/24 08:18:15 INFO    | load config file: C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTInfo.json
+2025/10/24 08:18:15 INFO    | Check file / folder --> C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTInfo.json
+2025/10/24 08:18:15 INFO    | Check file / folder --> C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTInfo_UnitInfo.json
+2025/10/24 08:18:15 INFO    | Check file / folder --> C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_iPTAT_24-10-2025_08H-03-09S099.csv
+2025/10/24 08:18:15 INFO    | Check file / folder --> C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_PXAReport.html
+2025/10/24 08:18:15 INFO    | Check file / folder --> C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843__ResultParser.log
+2025/10/24 08:18:15 INFO    | Check file / folder --> C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\CGTTLogParser.log
+2025/10/24 08:18:15 INFO    | The file prefix mismatch.
+2025/10/24 08:18:15 INFO    | Check file / folder --> C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\PTAT_System_Info.csv
+2025/10/24 08:18:15 INFO    | The file prefix mismatch.
+2025/10/24 08:18:15 INFO    | Skip, 1761264177843_CGTTInfo.json
+2025/10/24 08:18:15 INFO    | Skip, 1761264177843_CGTTInfo_UnitInfo.json
+2025/10/24 08:18:15 INFO    | The iPTAT file was detected, 1761264177843_iPTAT_24-10-2025_08H-03-09S099.csv
+2025/10/24 08:18:15 INFO    | DataStore(len:891) trim -> test_time: 2025-10-24T08:02:57.8473004+08:00 - 2025-10-24T08:17:58.0913351+08:00, offset: 0 - 5, DateAlign: False
+2025/10/24 08:18:15 INFO    | Raw DataStore: 2025-10-24 08:03:11.112000 ~ 2025-10-24 08:18:01.120000
+2025/10/24 08:18:15 INFO    | Trim data from tail, offset:5 - timestamp:2025-10-24 08:13:01.120000
+2025/10/24 08:18:15 INFO    | Trimmed DataStore(len:300)
+2025/10/24 08:18:15 INFO    | Trimmed DataStore(len:300), data range: 2025-10-24 08:13:02.118000 ~ 2025-10-24 08:18:01.120000
+2025/10/24 08:18:15 INFO    | Power-IA Core Power(Watts) not exist!
+2025/10/24 08:18:15 INFO    | Power-Integrated Graphics Power(Watts) not exist!
+2025/10/24 08:18:15 INFO    | ConfigTDP-Package TDP Power(Watts) not exist!
+2025/10/24 08:18:15 INFO    | Miscellaneous-Package Temperature(Degree C) not exist!
+2025/10/24 08:18:15 INFO    | CPU-Info-MMIO Package Temperature(Degree C) not exist!
+2025/10/24 08:18:15 INFO    | CPU-Info-TCC Offset Temperature(Degree C) not exist!
+2025/10/24 08:18:15 INFO    | Power-MSR EWMA Package Power(Watts) not exist!
+2025/10/24 08:18:15 INFO    | ConfigTDP-CTDP2-TDPFrequency(MHz) not exist!
+2025/10/24 08:18:15 INFO    | TCC not exist!
+2025/10/24 08:18:15 INFO    | Miscellaneous-DG Package Power(Watts) not exist!
+2025/10/24 08:18:15 INFO    | DG Package Power-DG0(Watts) not exist!
+2025/10/24 08:18:15 INFO    | Power Limit_1 Power-DG0(Watts) not exist!
+2025/10/24 08:18:15 INFO    | PL1_Min not exist!
+2025/10/24 08:18:15 INFO    | TotalPowerCustomized not exist!
+2025/10/24 08:18:15 INFO    | Turbo Parameters-GT VR TDC Current Limit(Ampere) not exist!
+2025/10/24 08:18:15 INFO    | The column: CPU8-Turbo Capability not exist
+2025/10/24 08:18:15 WARNING | The Condition is not matched: ('PL1 Power', None, 'MUL', 'cpu_pwr_gap', None, 'cpu_pwr_by_percentage')
+2025/10/24 08:18:15 WARNING | Skip empty value for item CPU_PWR_MGAP_SPEC
+2025/10/24 08:18:15 WARNING | The Condition is not matched: ('PL1 Power', None, 'MUL', 'vice_cpu_pwr_gap', None, 'vice_cpu_pwr_by_percentage')
+2025/10/24 08:18:15 WARNING | Skip empty value for item CPU_PWR_VGAP_SPEC
+2025/10/24 08:18:15 WARNING | The "PL1_Min" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | Skip empty value for item CPU_PWR_MGAP_SPEC
+2025/10/24 08:18:15 WARNING | The Condition is not matched: ('PL1_Min', None, 'MUL', 'cpu_pwr_gap', None, 'cpu_pwr_by_percentage')
+2025/10/24 08:18:15 WARNING | Skip empty value for item CPU_PWR_MGAP_SPEC
+2025/10/24 08:18:15 WARNING | The "PL1_Min" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | Skip empty value for item CPU_PWR_VGAP_SPEC
+2025/10/24 08:18:15 WARNING | The Condition is not matched: ('PL1_Min', None, 'MUL', 'vice_cpu_pwr_gap', None, 'vice_cpu_pwr_by_percentage')
+2025/10/24 08:18:15 WARNING | Skip empty value for item CPU_PWR_VGAP_SPEC
+2025/10/24 08:18:15 INFO    | Skip, 1761264177843_PXAReport.html
+2025/10/24 08:18:15 INFO    | Skip, 1761264177843__ResultParser.log
+2025/10/24 08:18:15 INFO    | column STAPM Limit not exist
+2025/10/24 08:18:15 INFO    | column SLOW PPT Limit not exist
+2025/10/24 08:18:15 INFO    | column APU Power Customized not exist
+2025/10/24 08:18:15 INFO    | column APU Power Limit not exist
+2025/10/24 08:18:15 INFO    | column AC_Target_TPP_Limit not exist
+2025/10/24 08:18:15 INFO    | column Total Power Customized not exist
+2025/10/24 08:18:15 INFO    | Skip DCCM, NVGPU Power not exist
+2025/10/24 08:18:15 INFO    | column APU Power not exist
+2025/10/24 08:18:15 INFO    | column APU Power not exist
+2025/10/24 08:18:15 INFO    | load gap mode
+2025/10/24 08:18:15 INFO    | ****************** Check Job <<< CPU_PWR >>> ******************
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': '$DEFAULT_FALSE_CONSTANT'}
+2025/10/24 08:18:15 INFO    | Set default_value: False
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: None, execution_flag: 0
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': 'Package Power', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': 'PL1 Power Limit', 'SIndex': None, 'SMOp': 'SUB', 'SConst': 'cpu_pwr_gap', 'LOp': None, 'Condition': 'Not:cpu_pwr_by_percentage', 'AliasConvert': True}
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: True, setting: {'FOperand': 'Package Power', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': 'PL1 Power Limit', 'SIndex': None, 'SMOp': 'MUL', 'SConst': 'cpu_pwr_gap', 'LOp': None, 'Condition': 'cpu_pwr_by_percentage', 'AliasConvert': True}
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: True, setting: {'FOperand': 'APU Power', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': 'APU Power Limit', 'SIndex': None, 'SMOp': 'SUB', 'SConst': 'cpu_pwr_gap', 'LOp': None, 'Condition': 'Not:cpu_pwr_by_percentage', 'AliasConvert': True}
+2025/10/24 08:18:15 WARNING | The "APU Power" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The "APU Power Limit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The APU Power:None, APU Power Limit:None is None
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: True, setting: {'FOperand': 'APU Power', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': 'APU Power Limit', 'SIndex': None, 'SMOp': 'MUL', 'SConst': 'cpu_pwr_gap', 'LOp': None, 'Condition': 'cpu_pwr_by_percentage', 'AliasConvert': True}
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: True, execution_flag: 1
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': '$DEFAULT_TRUE_CONSTANT'}
+2025/10/24 08:18:15 INFO    | Set default_value: True
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: None, execution_flag: 0
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': 'Package Temperature', 'FIndex': 'MAX', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'TCC', 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': None, 'Tag': 'cpu_temp_status'}
+2025/10/24 08:18:15 INFO    | Append the result to InfoPool, cpu_temp_status: True
+2025/10/24 08:18:15 WARNING | The "None" value not exist, load the default: None
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: True, setting: {'FOperand': 'CCX0 Temp', 'FIndex': 'MAX', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'CCX0 Temp Limit', 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': None, 'Tag': 'cpu_temp_status'}
+2025/10/24 08:18:15 WARNING | The "CCX0 Temp" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The "CCX0 Temp Limit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The CCX0 Temp:None, CCX0 Temp Limit:None is None
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: True, setting: {'FOperand': 'CCX1 Temp', 'FIndex': 'MAX', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'CCX1 Temp Limit', 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': None, 'Tag': 'cpu_temp_status'}
+2025/10/24 08:18:15 WARNING | The "CCX1 Temp" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The "CCX1 Temp Limit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The CCX1 Temp:None, CCX1 Temp Limit:None is None
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: True, setting: {'FOperand': 'CORE Temperature', 'FIndex': 'MAX', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'CORE Temp Limit', 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': None, 'Tag': 'cpu_temp_status'}
+2025/10/24 08:18:15 WARNING | The "CORE Temperature" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The "CORE Temp Limit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The CORE Temperature:None, CORE Temp Limit:None is None
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: True, setting: {'FOperand': '$DEFAULT_TRUE_CONSTANT', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': None, 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': 'AND', 'Condition': None}
+2025/10/24 08:18:15 INFO    | Set default_value: True
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: True, execution_flag: 1
+2025/10/24 08:18:15 INFO    | ****************** Job RTC -> 0b1 ******************
+2025/10/24 08:18:15 INFO    | Total Result: 1
+2025/10/24 08:18:15 INFO    | Query error status: 1, stage: 
+2025/10/24 08:18:15 INFO    | Mask: 255 / 7 / 0
+2025/10/24 08:18:15 INFO    | Query Status, job: CPU_PWR, error: ERR_1 / ERR_1
+2025/10/24 08:18:15 INFO    | Mask: 0 / 0 / 197379
+2025/10/24 08:18:15 INFO    | Query Status, job: None, error: TERR_1 / TERR_1
+2025/10/24 08:18:15 ERROR   | Not matched error code, set it as SUCCESS
+2025/10/24 08:18:15 INFO    | Analysis status: ErrorCode.SUCCESS, data_process_error: False
+2025/10/24 08:18:15 INFO    | ****************** ExtendCheck ******************
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': 'PL1 Power', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'ExpectedCpuPowerLimit', 'SIndex': None, 'SMOp': 'ADD', 'SConst': 'ExpectedCpuPowerGap', 'LOp': 'AND', 'Condition': 'ExpectedCpuPowerLimit'}
+2025/10/24 08:18:15 WARNING | The "ExpectedCpuPowerLimit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': 'PL1 Power', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': 'ExpectedCpuPowerLimit', 'SIndex': None, 'SMOp': 'SUB', 'SConst': 'ExpectedCpuPowerGap', 'LOp': 'AND', 'Condition': 'ExpectedCpuPowerLimit'}
+2025/10/24 08:18:15 WARNING | The "ExpectedCpuPowerLimit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': '$DEFAULT_TRUE_CONSTANT', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': None, 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': 'AND', 'Condition': None}
+2025/10/24 08:18:15 INFO    | Set default_value: True
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: False, execution_flag: 0
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': 'STAPM Limit', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'ExpectedCpuPowerLimit', 'SIndex': None, 'SMOp': 'ADD', 'SConst': 'ExpectedCpuPowerGap', 'LOp': 'AND', 'Condition': 'ExpectedCpuPowerLimit'}
+2025/10/24 08:18:15 WARNING | The "ExpectedCpuPowerLimit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': 'STAPM Limit', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': 'ExpectedCpuPowerLimit', 'SIndex': None, 'SMOp': 'SUB', 'SConst': 'ExpectedCpuPowerGap', 'LOp': 'AND', 'Condition': 'ExpectedCpuPowerLimit'}
+2025/10/24 08:18:15 WARNING | The "ExpectedCpuPowerLimit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': '$DEFAULT_TRUE_CONSTANT', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': None, 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': 'AND', 'Condition': None}
+2025/10/24 08:18:15 INFO    | Set default_value: True
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: False, execution_flag: 0
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': 'TGPv2', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'ExpectedGpuPowerLimit', 'SIndex': None, 'SMOp': 'ADD', 'SConst': 'ExpectedGpuPowerGap', 'LOp': 'AND', 'Condition': 'ExpectedGpuPowerLimit'}
+2025/10/24 08:18:15 WARNING | The "ExpectedGpuPowerLimit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': 'TGPv2', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': 'ExpectedGpuPowerLimit', 'SIndex': None, 'SMOp': 'SUB', 'SConst': 'ExpectedGpuPowerGap', 'LOp': 'AND', 'Condition': 'ExpectedGpuPowerLimit'}
+2025/10/24 08:18:15 WARNING | The "ExpectedGpuPowerLimit" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': '$DEFAULT_TRUE_CONSTANT', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': None, 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': 'AND', 'Condition': None}
+2025/10/24 08:18:15 INFO    | Set default_value: True
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: False, execution_flag: 0
+2025/10/24 08:18:15 INFO    | ****************** ExtendCheck: True ******************
+2025/10/24 08:18:15 INFO    | Skip Extend Check Item: GpuLBoundCheck / MinTGPFlag
+2025/10/24 08:18:15 INFO    | Skip Extend Check Item: GpuUBoundCheck / MaxTGPFlag
+2025/10/24 08:18:15 INFO    | Skip Extend Check Item: CpuMinCLKCheck / MinCpuCLKFlag
+2025/10/24 08:18:15 INFO    | Skip Extend Check Item: GpuMinCLKCheck / MinGpuCLKFlag
+2025/10/24 08:18:15 INFO    | ****************** VramTempCheck ******************
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': 'VramTemp', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'AvgVramTemp', 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': 'AvgVramTempFlag'}
+2025/10/24 08:18:15 WARNING | The "AvgVramTempFlag" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': '$DEFAULT_TRUE_CONSTANT', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': None, 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': 'Not:AvgVramTempFlag'}
+2025/10/24 08:18:15 WARNING | The "AvgVramTempFlag" value not exist, load the default: None
+2025/10/24 08:18:15 INFO    | Set default_value: True
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: False, execution_flag: 0
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': 'VramTemp', 'FIndex': 'MAX', 'FMOp': None, 'FConst': None, 'Cop': 'LEQ', 'SOperand': 'MaxVramTemp', 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': 'MaxVramTempFlag'}
+2025/10/24 08:18:15 WARNING | The "MaxVramTempFlag" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': '$DEFAULT_TRUE_CONSTANT', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': None, 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': 'Not:MaxVramTempFlag'}
+2025/10/24 08:18:15 WARNING | The "MaxVramTempFlag" value not exist, load the default: None
+2025/10/24 08:18:15 INFO    | Set default_value: True
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: False, execution_flag: 0
+2025/10/24 08:18:15 INFO    | ****************** VramTempCheck: True ******************
+2025/10/24 08:18:15 INFO    | ****************** EMPTempDeviationCheck ******************
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: None, setting: {'FOperand': 'EMPTemp', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': 'ThermistorAmbientTemp', 'SIndex': None, 'SMOp': 'ADD', 'SConst': 'EMPTempDeviation', 'LOp': None, 'Condition': 'EMPTempDeviationFlag'}
+2025/10/24 08:18:15 WARNING | The "EMPTempDeviationFlag" value not exist, load the default: None
+2025/10/24 08:18:15 WARNING | The Condition is not match
+2025/10/24 08:18:15 INFO    | >>>>>>>>>>>>> status: False, setting: {'FOperand': '$DEFAULT_TRUE_CONSTANT', 'FIndex': 'AVG', 'FMOp': None, 'FConst': None, 'Cop': 'GEQ', 'SOperand': None, 'SIndex': None, 'SMOp': None, 'SConst': None, 'LOp': None, 'Condition': 'Not:EMPTempDeviationFlag'}
+2025/10/24 08:18:15 WARNING | The "EMPTempDeviationFlag" value not exist, load the default: None
+2025/10/24 08:18:15 INFO    | Set default_value: True
+2025/10/24 08:18:15 INFO    | <<<<<<<<<<<<< status: False, execution_flag: 0
+2025/10/24 08:18:15 INFO    | ****************** EMPTempDeviationCheck: True ******************
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Power-IA Core Power
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: TDP
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: EWMA Package Power
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: STAPM Limit
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: APU Power
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: FAST PPT Limit
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: SLOW PPT Limit
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Sustained Limit
+2025/10/24 08:18:15 WARNING | Append Charts: CPU Power Package
+2025/10/24 08:18:15 WARNING | Append Charts: Turbo Parameters Clip Reason
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CPU8-Turbo Capability
+2025/10/24 08:18:15 WARNING | Append Charts: CPU Turbo Capability
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CORE Temperature
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CORE Temp Limit
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CCX0 Temp Limit
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CCX1 Temp Limit
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CCX0 Temp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CCX1 Temp
+2025/10/24 08:18:15 WARNING | Append Charts: CPU Temp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Core8 Freq
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CPU Min Frequency
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Base Frequency
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CTDP2-TDPFrequency
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: MinCpuCLK
+2025/10/24 08:18:15 WARNING | Append Charts: CPU Frequency
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Power-Integrated Graphics Power
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Power-IA Core Power
+2025/10/24 08:18:15 WARNING | Skip Charts: IGFX Power
+2025/10/24 08:18:15 WARNING | Append Charts: Icc Max
+2025/10/24 08:18:15 WARNING | Append Charts: VR TDC
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: AMD DGPU Power
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: AMD DGPU Power Limit
+2025/10/24 08:18:15 WARNING | Skip Charts: AMD DGPU Power
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: AMD DGPU Temp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: AMD DGPU Temp Limit
+2025/10/24 08:18:15 WARNING | Skip Charts: AMD DGPU Temp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: NVGPU Power
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: TGP
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: MinTGP
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: MaxTGP
+2025/10/24 08:18:15 WARNING | Skip Charts: NVGPU Power
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: NVGPU Temp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: AvgVramTemp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: VramTemp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Target Temp
+2025/10/24 08:18:15 WARNING | Skip Charts: NVGPU Temp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: GPC CLK
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: 1:clk_mem
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Base Clock
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Boost Clock
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: MinGpuCLK
+2025/10/24 08:18:15 WARNING | Skip Charts: NVGPU CLK
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: STP Sensor
+2025/10/24 08:18:15 WARNING | Skip Charts: STP Sensor
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: AmbientSensorTempLimit
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: AmbientSensorTemp
+2025/10/24 08:18:15 WARNING | Skip Charts: AmbientSensor Temp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Main Board Temp(40E)
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CPU Local Temp(4B0)
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: GPU Remote Temp(4B3)
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Average GPU Temp(C0A)
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: CPUProchotOnTemp
+2025/10/24 08:18:15 WARNING | Skip Charts: Temp by EC
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Fan1Speed
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: Fan2Speed
+2025/10/24 08:18:15 WARNING | Skip Charts: FanSpeed
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: EMPTemp
+2025/10/24 08:18:15 WARNING | [Data Not Exist]: ThermistorAmbientTemp
+2025/10/24 08:18:15 WARNING | Skip Charts: EMP Temp
+2025/10/24 08:18:15 INFO    | Generate test report: C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTReport.html, please wait...
+2025/10/24 08:18:16 INFO    | Output file to -> C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_CGTTReport.html
+2025/10/24 08:18:16 INFO    | Export Json file: C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_result.json
+2025/10/24 08:18:16 INFO    | Export Json file: C:\ProgramData\PXA\Logs\PXA004\CPU_Single_000\1761264177843_info_pool.json
+2025/10/24 08:18:16 INFO    | ============================================================
+2025/10/24 08:18:16 INFO    |         End of CGTT logParser [ErrorCode.SUCCESS: 0]        
+2025/10/24 08:18:16 INFO    | ============================================================

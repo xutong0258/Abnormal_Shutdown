@@ -13,10 +13,10 @@
 
 
 '04_异常关机重启':
-    'PATH': 'D:\0_shutdown_parse\test_data\01_异常关机重启_log\ALADDIN'
+    'PATH': 'D:\01_异常关机\01_ALADDIN_ILL-SVT-MSF5091023B-PF5XXDFZ-IDLEPHASE-ABNORMAL_SHUTDOWN_144BAFB6'
 
 '04_异常唤不醒':
-    'PATH': 'D:\0_shutdown_parse\test_data\01_异常关机重启_log\ALADDIN'
+    'PATH': 'D:\03_睡眠休眠异常\S3 abnoamal resume'
 
 
 '05_SW_Hung':

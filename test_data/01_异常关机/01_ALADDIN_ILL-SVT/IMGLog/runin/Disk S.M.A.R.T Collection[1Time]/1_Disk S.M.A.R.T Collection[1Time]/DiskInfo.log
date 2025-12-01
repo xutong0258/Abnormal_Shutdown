@@ -1,0 +1,135 @@
+2025-10-24 07:12:41,638 | [INFO ]  Query and check storage settings
+2025-10-24 07:12:41,638 | [INFO ]  Scan storage device
+2025-10-24 07:12:45,410 | [INFO ]  Query device details info
+2025-10-24 07:12:45,410 | [INFO ]   ==> Parse NVME SSD
+2025-10-24 07:12:45,410 | [INFO ]  SMART_CriticalWarning
+2025-10-24 07:12:45,410 | [INFO ]  SMART_CompositeTemperature
+2025-10-24 07:12:45,410 | [INFO ]  SMART_AvailableSpare
+2025-10-24 07:12:45,410 | [INFO ]  SMART_AvailableSpareThreshold
+2025-10-24 07:12:45,410 | [INFO ]  SMART_PercentageUsed
+2025-10-24 07:12:45,410 | [INFO ]  SMART_DataUnitsRead
+2025-10-24 07:12:45,410 | [INFO ]  SMART_DataUnitsWritten
+2025-10-24 07:12:45,410 | [INFO ]  SMART_HostReadCommands
+2025-10-24 07:12:45,410 | [INFO ]  SMART_HostWriteCommands
+2025-10-24 07:12:45,410 | [INFO ]  SMART_ControllerBusyTime
+2025-10-24 07:12:45,410 | [INFO ]  SMART_PowerCycles
+2025-10-24 07:12:45,410 | [INFO ]  SMART_PowerOnHours
+2025-10-24 07:12:45,410 | [INFO ]  SMART_UnsafeShutdowns
+2025-10-24 07:12:45,410 | [INFO ]  SMART_MediaandDataIntegrityErrors
+2025-10-24 07:12:45,410 | [INFO ]  SMART_NumberofErrorInformationLogEntries
+2025-10-24 07:12:45,486 | [INFO ]   ==> Parse NVME SSD
+2025-10-24 07:12:45,486 | [INFO ]  === START OF INFORMATION SECTION ===
+2025-10-24 07:12:45,486 | [INFO ]  Model Number:                       WD PC SN740 SDDQMQD-512G-1201
+2025-10-24 07:12:45,486 | [INFO ]  Serial Number:                      2531FC401946
+2025-10-24 07:12:45,486 | [INFO ]  Firmware Version:                   73117101
+2025-10-24 07:12:45,486 | [INFO ]  PCI Vendor/Subsystem ID:            0x15b7
+2025-10-24 07:12:45,486 | [INFO ]  IEEE OUI Identifier:                0x001b44
+2025-10-24 07:12:45,486 | [INFO ]  Total NVM Capacity:                 512,110,190,592 [512 GB]
+2025-10-24 07:12:45,486 | [INFO ]  Unallocated NVM Capacity:           0
+2025-10-24 07:12:45,486 | [INFO ]  Controller ID:                      0
+2025-10-24 07:12:45,486 | [INFO ]  NVMe Version:                       1.4
+2025-10-24 07:12:45,486 | [INFO ]  Number of Namespaces:               1
+2025-10-24 07:12:45,486 | [INFO ]  Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
+2025-10-24 07:12:45,486 | [INFO ]  Namespace 1 Formatted LBA Size:     512
+2025-10-24 07:12:45,486 | [INFO ]  Namespace 1 IEEE EUI-64:            001b44 4a45169233
+2025-10-24 07:12:45,486 | [INFO ]  Local Time is:                      Fri Oct 24 07:12:45 2025 CST
+2025-10-24 07:12:45,486 | [INFO ]  Firmware Updates (0x14):            2 Slots, no Reset required
+2025-10-24 07:12:45,486 | [INFO ]  Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+2025-10-24 07:12:45,486 | [INFO ]  Optional NVM Commands (0x00df):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp Verify
+2025-10-24 07:12:45,486 | [INFO ]  Log Page Attributes (0x7e):         Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg Pers_Ev_Lg *Other*
+2025-10-24 07:12:45,486 | [INFO ]  Maximum Data Transfer Size:         256 Pages
+2025-10-24 07:12:45,486 | [INFO ]  Warning  Comp. Temp. Threshold:     84 Celsius
+2025-10-24 07:12:45,486 | [INFO ]  Critical Comp. Temp. Threshold:     88 Celsius
+2025-10-24 07:12:45,486 | [INFO ]  Namespace 1 Features (0x02):        NA_Fields
+2025-10-24 07:12:45,486 | [INFO ]  Supported Power States
+2025-10-24 07:12:45,486 | [INFO ]  St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+2025-10-24 07:12:45,486 | [INFO ]   0 +     4.70W    4.30W       -    0  0  0  0        0       0
+2025-10-24 07:12:45,486 | [INFO ]   1 +     3.00W    3.00W       -    0  0  0  0        0       0
+2025-10-24 07:12:45,486 | [INFO ]   2 +     2.20W    2.00W       -    0  0  0  0        0       0
+2025-10-24 07:12:45,486 | [INFO ]   3 -   0.0150W       -        -    3  3  3  3     1500    2500
+2025-10-24 07:12:45,486 | [INFO ]   4 -   0.0050W       -        -    4  4  4  4    10000    6000
+2025-10-24 07:12:45,486 | [INFO ]   5 -   0.0033W       -        -    5  5  5  5   176000   25000
+2025-10-24 07:12:45,486 | [INFO ]  Supported LBA Sizes (NSID 0x1)
+2025-10-24 07:12:45,486 | [INFO ]  Id Fmt  Data  Metadt  Rel_Perf
+2025-10-24 07:12:45,486 | [INFO ]   0 +     512       0         2
+2025-10-24 07:12:45,486 | [INFO ]   1 -    4096       0         1
+2025-10-24 07:12:45,486 | [INFO ]  === START OF SMART DATA SECTION ===
+2025-10-24 07:12:45,486 | [INFO ]  SMART overall-health self-assessment test result: PASSED
+2025-10-24 07:12:45,486 | [INFO ]  SMART/Health Information (NVMe Log 0x02)
+2025-10-24 07:12:45,486 | [INFO ]  Critical Warning:                   0x00
+2025-10-24 07:12:45,486 | [INFO ]  Temperature:                        38 Celsius
+2025-10-24 07:12:45,486 | [INFO ]  Available Spare:                    100%
+2025-10-24 07:12:45,486 | [INFO ]  Available Spare Threshold:          10%
+2025-10-24 07:12:45,486 | [INFO ]  Percentage Used:                    0%
+2025-10-24 07:12:45,486 | [INFO ]  Data Units Read:                    100,282 [51.3 GB]
+2025-10-24 07:12:45,486 | [INFO ]  Data Units Written:                 194,439 [99.5 GB]
+2025-10-24 07:12:45,486 | [INFO ]  Host Read Commands:                 758,948
+2025-10-24 07:12:45,486 | [INFO ]  Host Write Commands:                1,328,781
+2025-10-24 07:12:45,486 | [INFO ]  Controller Busy Time:               4
+2025-10-24 07:12:45,486 | [INFO ]  Power Cycles:                       45
+2025-10-24 07:12:45,486 | [INFO ]  Power On Hours:                     3
+2025-10-24 07:12:45,486 | [INFO ]  Unsafe Shutdowns:                   10
+2025-10-24 07:12:45,486 | [INFO ]  Media and Data Integrity Errors:    0
+2025-10-24 07:12:45,486 | [INFO ]  Error Information Log Entries:      0
+2025-10-24 07:12:45,486 | [INFO ]  Warning  Comp. Temperature Time:    0
+2025-10-24 07:12:45,486 | [INFO ]  Critical Comp. Temperature Time:    0
+2025-10-24 07:12:45,486 | [INFO ]  Temperature Sensor 1:               57 Celsius
+2025-10-24 07:12:45,486 | [INFO ]  Temperature Sensor 2:               38 Celsius
+2025-10-24 07:12:45,486 | [INFO ]  Error Information (NVMe Log 0x01, 16 of 256 entries)
+2025-10-24 07:12:45,486 | [INFO ]  No Errors Logged
+2025-10-24 07:12:45,541 | [INFO ]  StructedData Details : [
+  {
+    "disk_type_key": 3,
+    "disk_model": "WD PC SN740 SDDQMQD-512G-1201",
+    "disk_interface": "NVM Express",
+    "disk_serial_number": "2531FC401946",
+    "disk_firmware_version": "73117101",
+    "disk_size": 512,
+    "disk_health_status": "1",
+    "disk_power_on_hours": 3,
+    "disk_power_on_count": 45,
+    "ssd_warning_temp_threshold": 60,
+    "ssd_critical_warning": 0,
+    "ssd_available_spare": 100.0,
+    "ssd_available_spare_threshold": 10.0,
+    "ssd_percentage_used": 0.0,
+    "ssd_host_read_commands": 758837,
+    "ssd_host_write_commands": 1328664,
+    "ssd_controller_busy_time": 4,
+    "ssd_unsafe_shutdowns": 10,
+    "ssd_media_and_data_integrity_errors": 0,
+    "ssd_error_information_log_entries": 0,
+    "ssd_critical_temperature_time": 0,
+    "max_transfer_mode": "PCIe 4.0 x4",
+    "current_transfer_mode": "PCIe 4.0 x4",
+    "transfer_mode_type": 0,
+    "ssd_data_units_read": 51.33978,
+    "ssd_data_units_written": 99.55174
+  }
+] 
+2025-10-24 07:12:45,553 | [INFO ]  Compare and check the Criterion, CheckFlag: True
+2025-10-24 07:12:45,555 | [INFO ]  Check Disk : NVME_SSD, WD PC SN740 SDDQMQD-512G-1201
+2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Power_Cycles
+2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: 2000 <--> Current: 45
+2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Power_On_Hours
+2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: 200 <--> Current: 3
+2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Read
+2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 51.33978
+2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Written
+2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 99.55174
+2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Media_and_Data_Integrity_Errors
+2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: 1 <--> Current: 0
+2025-10-24 07:12:45,559 | [INFO ]  CheckNVMESSDCriterion : Critical_Temperature_Time
+2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 0
+2025-10-24 07:12:45,559 | [INFO ]  CheckSATASSDCriterion : Total_LBAs_Written
+2025-10-24 07:12:45,559 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 92
+2025-10-24 07:12:45,559 | [INFO ]  CheckSATASSDCriterion : TransferModeType
+2025-10-24 07:12:45,561 | [INFO ]  CompareCriterion, Criterion:  <--> Current: 0
+2025-10-24 07:12:45,561 | [INFO ]  CheckSATASSDCriterion : MaxTransferMode
+2025-10-24 07:12:45,561 | [INFO ]  CompareCriterion, Criterion: PCIe 4.0 x4 <--> Current: PCIe 4.0 x4
+2025-10-24 07:12:45,561 | [INFO ]  CheckSATASSDCriterion : CurrentTransferMode
+2025-10-24 07:12:45,561 | [INFO ]  CompareCriterion, Criterion: PCIe 4.0 x4 <--> Current: PCIe 4.0 x4
+2025-10-24 07:12:45,561 | [INFO ]  Filter the Error code and exit: OK
+2025-10-24 07:12:45,561 | [INFO ]  Set RI FileData
+2025-10-24 07:12:45,565 | [INFO ]   --- Exit : OK --- 
+2025-10-24 07:12:45,565 | [INFO ] [DiskInfo] | --return code:0x000000--

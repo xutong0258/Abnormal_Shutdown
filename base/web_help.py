@@ -1,3 +1,4 @@
+import os
 import re
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -10,6 +11,7 @@ from bs4 import BeautifulSoup
 from utils.logger_util import logger
 from base.folder_file import get_latest_file_path_by_dir
 from base.date_time_help import get_timestamp
+from base.fileOP import dump_file
 
 def parse_html_table(html_file):
     # 读取HTML文件内容
@@ -63,8 +65,10 @@ def parse_dynamic_table(html_path):
         
         # 获取页面中所有表格（可根据需要筛选特定表格）
         tables = driver.find_elements(By.TAG_NAME, "table")
-        
-        for table in tables:
+        # for table in tables:
+        for idx, table in enumerate(tables):
+            if idx >=200:
+                break
             # 提取表格ID（用于标识表格）
             table_id = table.get_attribute("id") or f"table_{len(all_tables)}"
 
@@ -92,14 +96,17 @@ def parse_dynamic_table(html_path):
                 "headers": headers,
                 "data": rows
             })
-        
+            # logger.info(f'headers:{headers}')
+            # if table_id == 'summary-table':
+            #     break
+
         return all_tables
     
     finally:
         # 关闭浏览器
         driver.quit()
 
-def get_Abnormal_Shutdown_time(folder_path):
+def check_rule_1_get_Abnormal_Shutdown_time(folder_path):
     # logger.info(f'target_list:{target_list}')
     # logger.info(f'row:{row}')
 
@@ -114,7 +121,9 @@ def get_Abnormal_Shutdown_time(folder_path):
     target_str = 'START TIME'
     target_table = None
     target_time = None
+    target_elem = None
     for table in tables_data:
+        # logger.info(f'table:{table}')
         if target_str in table['headers'] and 'Abnormal Shutdown' in table['data'][0]:
             target_elem =table['data'][0]
             target_time = target_elem[1]
@@ -123,7 +132,7 @@ def get_Abnormal_Shutdown_time(folder_path):
 
     return target_time, target_elem
 
-def Critical_Event_Check(folder_path):
+def check_rule_2_KernelPowerReport_critical_event(folder_path, log_path):
     # logger.info(f'target_list:{target_list}')
     # logger.info(f'row:{row}')
 
@@ -139,18 +148,31 @@ def Critical_Event_Check(folder_path):
     target_table = None
     target_time = None
     match_check = False
+    result_list = []
     target_list = None
     for table in tables_data:
-        if target_str in table['headers'] and 'Critical' in table['data'][0] and '41' in table['data'][0]:
-            target_list =table['data'][0]
-            logger.info(f'target_list:{target_list}')
-            for item in target_list:
-                if 'BugcheckCode:0x0' in item:
-                    match_check = True
-                    break
+        # logger.info(f'table:{table}')
 
-    logger.info(f'Critical_Event_Check match_check:{match_check}')
-    return match_check, target_list
+        if target_str not in table['headers']:
+            continue
+
+        # target_list = table['data'][0]
+        target_list = table['data']
+        # logger.info(f'target_list:{target_list}')
+
+        for cell_record in target_list:
+            # logger.info(f'cell_record:{cell_record}')
+            if '41' in cell_record[1] and 'Critical' in cell_record[2] and 'BugcheckCode:0x0' in cell_record[4]:
+                match_check = True
+                result_list.append(cell_record)
+                break
+
+    file_name = 'KernelPowerReport.yaml'
+    file_name = os.path.join(log_path, file_name)
+    dump_file(file_name, result_list)
+
+    logger.info(f'check_rule_2_KernelPowerReport_critical_event match_check:{match_check}')
+    return match_check, result_list
 
 def get_wakeup_reason(folder_path):
     # logger.info(f'target_list:{target_list}')

@@ -1,0 +1,593 @@
+2025-08-05 08:34:35|INFO|start work...
+2025-08-05 08:34:35|INFO|work dir:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35
+2025-08-05 08:34:35|INFO|zip file:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35.zip
+2025-08-05 08:34:35|INFO|****************Start item :SystemInfo-MS Dxdiag Info*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\MSDxdiagInfo.txt
+2025-08-05 08:34:35|INFO|exe :C:\Windows\System32\Dxdiag.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :/t "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\MSDxdiagInfo.txt"
+2025-08-05 08:34:35|INFO|****************Start item :DumpFile-Application dumps*************
+2025-08-05 08:34:35|INFO|****************Start item :BIOSandECLog-ITE_WinECU_I2EC*************
+2025-08-05 08:34:35|INFO|****************Start item :SystemPowerLog-System Sleep Diagnostics Report*************
+2025-08-05 08:34:35|INFO|****************Start item :OSLog-BOOTSTAT*************
+2025-08-05 08:34:35|INFO|****************Start item :MSEventLog-Windows-Kernel-Boot*************
+2025-08-05 08:34:35|INFO|****************Start item :SystemInfo-Fireware Version*************
+2025-08-05 08:34:35|INFO|****************Start item :SystemInfo-Programs and Feature*************
+2025-08-05 08:34:35|INFO|****************Start item :SystemInfo-Device Managment*************
+2025-08-05 08:34:35|INFO|****************Start item :SystemInfo-Msinfo32*************
+2025-08-05 08:34:35|INFO|****************Start item :MSEventLog-System*************
+2025-08-05 08:34:35|INFO|****************Start item :MSEventLog-Application*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog\Application.evtx
+2025-08-05 08:34:35|INFO|exe :C:\Windows\System32\wevtutil.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :epl application "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog\Application.evtx"
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\"
+2025-08-05 08:34:35|INFO|args :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\"
+2025-08-05 08:34:35|INFO|start exe:C:\Windows\System32\wevtutil.exe epl application "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog\Application.evtx"
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\FirmwareVersion.log
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\FirmwareVersion.log"
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|start cmd:reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\FirmwareVersion.log" timeOut: -1
+2025-08-05 08:34:35|INFO|****************Start item :SystemPowerLog-Kernel Power Events*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\ListEvents\ListEvents.cmd
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\"
+2025-08-05 08:34:35|INFO|****************Start item :SystemInfo-Power Plan*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\PowerSetting.log
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :powercfg /qh >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\PowerSetting.log"
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|****************Start item :SystemPowerLog-System Power Report*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SystemPowerReport.html
+2025-08-05 08:34:35|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :/systempowerreport /DURATION 5 /OUTPUT "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SystemPowerReport.html"
+2025-08-05 08:34:35|INFO|start exe:C:\Windows\System32\powercfg.exe /systempowerreport /DURATION 5 /OUTPUT "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SystemPowerReport.html"
+2025-08-05 08:34:35|INFO|****************Start item :DumpFile-Live Kernel Reports*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DumpFile\LiveKernelReports\
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|start cmd:powercfg /qh >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\PowerSetting.log" timeOut: -1
+2025-08-05 08:34:35|INFO|****************Start item :DumpFile-MemoryDump*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DumpFile\
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\ProgramsAndFeature.html
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\ListProgram\ListProgram.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\ProgramsAndFeature.html"
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\DeviceManagement.txt
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\DeviceManagement.txt"
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|start cmd:powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\DeviceManagement.txt" timeOut: -1
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\MsInfo.txt
+2025-08-05 08:34:35|INFO|exe :C:\Windows\System32\msinfo32.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :/report "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\MsInfo.txt"
+2025-08-05 08:34:35|INFO|****************Start item :SystemPowerLog-System Wakeup Settings*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\System_Wakeup_settings\System_Wakeup_settings.cmd
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\"
+2025-08-05 08:34:35|INFO|****************Start item :SystemPowerLog-SRUM Report*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SrumReport.csv
+2025-08-05 08:34:35|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :/srumutil /csv /OUTPUT "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SrumReport.csv"
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog\
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\OSLog\
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\BOOTSTAT\BOOTSTAT.cmd
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\OSLog\"
+2025-08-05 08:34:35|INFO|****************Start item :SystemPowerLog-Battery Report*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\BatteryReport.html
+2025-08-05 08:34:35|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :/batteryreport /DURATION 5 /OUTPUT "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\BatteryReport.html"
+2025-08-05 08:34:35|INFO|start exe:C:\Windows\System32\powercfg.exe /batteryreport /DURATION 5 /OUTPUT "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\BatteryReport.html"
+2025-08-05 08:34:35|INFO|start exe:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\BOOTSTAT\BOOTSTAT.cmd "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\OSLog\"
+2025-08-05 08:34:35|INFO|start cmd:"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\" timeOut: -1
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SystemSleepDiagnosticsReport.html
+2025-08-05 08:34:35|INFO|exe :C:\Windows\System32\powercfg.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :/systemsleepdiagnostics /DURATION 5 /OUTPUT "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SystemSleepDiagnosticsReport.html"
+2025-08-05 08:34:35|INFO|****************Start item :PlatformTool-AMD_Getlog*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\PlatformTool\
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\AMD_Getlog\Getlog.bat
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\PlatformTool\"
+2025-08-05 08:34:35|INFO|copy dir to dir
+2025-08-05 08:34:35|INFO|from:C:\Windows\Minidump\
+2025-08-05 08:34:35|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DumpFile\MiniMemoryDump\
+2025-08-05 08:34:35|INFO|start exe:C:\Windows\System32\powercfg.exe /srumutil /csv /OUTPUT "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SrumReport.csv"
+2025-08-05 08:34:35|INFO|start exe:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\System_Wakeup_settings\System_Wakeup_settings.cmd "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\"
+2025-08-05 08:34:35|INFO|copy file to dir
+2025-08-05 08:34:35|INFO|from:C:\Windows\System32\winevt\Logs\Microsoft-Windows-Kernel-Boot%4Operational.evtx
+2025-08-05 08:34:35|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog\
+2025-08-05 08:34:35|INFO|start exe:C:\Windows\System32\msinfo32.exe /report "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\MsInfo.txt"
+2025-08-05 08:34:35|INFO|****************Start item :BIOSandECLog-Global Reset Cause*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause\GlobalResetCause.bat
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\"
+2025-08-05 08:34:35|INFO|start exe:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause\GlobalResetCause.bat "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\"
+2025-08-05 08:34:35|INFO|start exe:C:\Windows\System32\powercfg.exe /systemsleepdiagnostics /DURATION 5 /OUTPUT "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SystemSleepDiagnosticsReport.html"
+2025-08-05 08:34:35|INFO|check HWPlatform error :amd system:GenuineIntel
+2025-08-05 08:34:35|INFO|****************Start item :BIOSandECLog-LfcDebugInfo log*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\LfcDebugInfo\LfcDebugInfo.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog\System.evtx
+2025-08-05 08:34:35|INFO|exe :C:\Windows\System32\wevtutil.exe
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :epl System "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog\System.evtx"
+2025-08-05 08:34:35|INFO|start exe:C:\Windows\System32\wevtutil.exe epl System "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog\System.evtx"
+2025-08-05 08:34:35|INFO|****************Start item :TestToolLog-3DMark / 3DMark11*************
+2025-08-05 08:34:35|INFO|outPut :
+2025-08-05 08:34:35|INFO|outPut :
+2025-08-05 08:34:35|INFO|****************Start item :DiskInfo-DiskInfo*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DiskInfo\DiskInfo.log
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\DiskInfo\DiskInfo.exe
+2025-08-05 08:34:35|INFO|start exe:C:\Windows\System32\Dxdiag.exe /t "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\MSDxdiagInfo.txt"
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|start exe:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\ListProgram\ListProgram.exe "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\ProgramsAndFeature.html"
+2025-08-05 08:34:35|INFO|****************Start item :TestToolLog-MobileMark Log*************
+2025-08-05 08:34:35|INFO|outPut :
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|copy dir to dir
+2025-08-05 08:34:35|INFO|from:C:\Users\zhs\AppData\Local\CrashDumps
+2025-08-05 08:34:35|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DumpFile\ApplicationDumps\
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|start exe:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\ListEvents\ListEvents.cmd "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\"
+2025-08-05 08:34:35|INFO|start exe:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\LfcDebugInfo\LfcDebugInfo.exe 
+2025-08-05 08:34:35|INFO|****************Start item :TestToolLog-BurnIn*************
+2025-08-05 08:34:35|INFO|outPut :
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|****************Start item :TestToolLog-OSAging log*************
+2025-08-05 08:34:35|INFO|outPut :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\
+2025-08-05 08:34:35|INFO|exe :E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging\OSAging.bat
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\"
+2025-08-05 08:34:35|INFO|start exe:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging\OSAging.bat "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\"
+2025-08-05 08:34:35|INFO|****************Start item :TestToolLog-BenchLoop log*************
+2025-08-05 08:34:35|INFO|outPut :
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|copy dir to dir
+2025-08-05 08:34:35|INFO|from:C:\Windows\LiveKernelReports
+2025-08-05 08:34:35|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DumpFile\LiveKernelReports
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args : >--> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DiskInfo\DiskInfo.log"
+2025-08-05 08:34:35|INFO|start exe:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\DiskInfo\DiskInfo.exe  >--> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DiskInfo\DiskInfo.log"
+2025-08-05 08:34:35|INFO|****************Start item :IMGLog-RunIn log*************
+2025-08-05 08:34:35|INFO|outPut :
+2025-08-05 08:34:35|INFO|exe :
+2025-08-05 08:34:35|INFO|cmd :
+2025-08-05 08:34:35|INFO|args :
+2025-08-05 08:34:35|INFO|copy dir to dir
+2025-08-05 08:34:35|INFO|from:C:\Program Files (x86)\AutoRI\Log
+2025-08-05 08:34:35|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\IMGLog\runin\
+2025-08-05 08:34:36|INFO|start exe result :0
+2025-08-05 08:34:36|INFO|powercfg.exe:  系统睡眠诊断报告已弃用且替换为系统电源报告。
+2025-08-05 08:34:36|INFO|powercfg.exe:  请改用命令 "powercfg /systempowerreport"。
+2025-08-05 08:34:36|INFO|start exe result :0
+2025-08-05 08:34:36|INFO|copy file to dir
+2025-08-05 08:34:36|INFO|from:C:\Windows\System32\winevt\Logs\Application.evtx
+2025-08-05 08:34:36|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog
+2025-08-05 08:34:36|INFO|start exe result :0
+2025-08-05 08:34:36|INFO|copy file to dir
+2025-08-05 08:34:36|INFO|from:C:\Windows\System32\winevt\Logs\System.evtx
+2025-08-05 08:34:36|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\MSEventLog
+2025-08-05 08:34:36|INFO|start exe result :0
+2025-08-05 08:34:36|INFO|powercfg.exe:电池使用时间报告已保存到文件路径 E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\BatteryReport.html。
+2025-08-05 08:34:36|INFO|Microsoft Windows [版本 10.0.26100.4652]
+2025-08-05 08:34:36|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-08-05 08:34:36|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)>reg query "HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS" >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\FirmwareVersion.log"
+2025-08-05 08:34:36|INFO|Microsoft Windows [版本 10.0.26100.4652]
+2025-08-05 08:34:36|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-08-05 08:34:36|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)>powershell "Get-WmiObject -Class Win32_PnpEntity | Select-Object Caption,CompatibleID,DeviceID,HardwareID,PNPDeviceID,PNPClass,Service,Status,ConfigManagerErrorCode,Manufacturer" >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\DeviceManagement.txt"
+2025-08-05 08:34:36|INFO|Microsoft Windows [版本 10.0.26100.4652]
+2025-08-05 08:34:36|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-08-05 08:34:36|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)>powercfg /qh >> "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemInfo\PowerSetting.log"
+2025-08-05 08:34:37|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)>exit
+2025-08-05 08:34:38|INFO|start exe result :0
+2025-08-05 08:34:38|INFO|powercfg.exe:Completed with status 0 (0x00000000)
+2025-08-05 08:34:39|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>rem @echo off 
+2025-08-05 08:34:39|INFO|start exe result :0
+2025-08-05 08:34:39|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>cd /d E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause\ 
+2025-08-05 08:34:39|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>set output="E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\" 
+2025-08-05 08:34:39|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>if {"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\"} == {} set output=E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause\logs 
+2025-08-05 08:34:39|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>set output=E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\ 
+2025-08-05 08:34:39|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>if exist .\Global_Reset_Cause_Resutl.log del /f /q .\Global_Reset_Cause_Resutl.log  
+2025-08-05 08:34:39|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>GlobalResetCause.exe auto 
+2025-08-05 08:34:39|INFO|GlobalResetCause.bat:>>>>>>>>Intel Platform<<<<<<<<<<
+2025-08-05 08:34:39|INFO|LfcDebugInfo.exe:Exception:找不到     在 System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+2025-08-05 08:34:39|INFO|LfcDebugInfo.exe:   在 System.Management.ManagementObject.Initialize(Boolean getObject)
+2025-08-05 08:34:39|INFO|LfcDebugInfo.exe:   在 System.Management.ManagementBaseObject.get_ClassName()
+2025-08-05 08:34:39|INFO|LfcDebugInfo.exe:   在 System.Management.ManagementClass.GetInstances(EnumerationOptions options)
+2025-08-05 08:34:39|INFO|LfcDebugInfo.exe:   在 LfcDebugInfo.Program.LfcWmiGetDebugInfo(Byte[]& buffer)
+2025-08-05 08:34:39|INFO|LfcDebugInfo.exe:Not Support Lfc Debug  Interface.
+2025-08-05 08:34:39|INFO|DiskInfo.exe:2025-08-05 08:34:38,427 | [INFO ]  Start DiskInfo
+2025-08-05 08:34:39|INFO|start exe result :-1
+2025-08-05 08:34:39|INFO|Microsoft Windows [版本 10.0.26100.4652]
+2025-08-05 08:34:39|INFO|(c) Microsoft Corporation。保留所有权利。
+2025-08-05 08:34:39|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)>"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\ITE_WinECU_I2EC.bat" "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\"
+2025-08-05 08:34:39|INFO|DiskInfo.exe:2025-08-05 08:34:38,441 | [INFO ]  Init tool settings
+2025-08-05 08:34:39|INFO|DiskInfo.exe:2025-08-05 08:34:38,470 | [INFO ] [DiskInfo] | version:2.0.7.1003
+2025-08-05 08:34:39|INFO|DiskInfo.exe:2025-08-05 08:34:38,480 | [INFO ] [DiskInfo] | Input Arguments: E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\DiskInfo\DiskInfo.exe >--> E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DiskInfo\DiskInfo.log
+2025-08-05 08:34:39|INFO|DiskInfo.exe:2025-08-05 08:34:38,537 | [INFO ]  Load E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\DiskInfo\Config.yaml
+2025-08-05 08:34:39|INFO|DiskInfo.exe:2025-08-05 08:34:38,677 | [INFO ]  Query and check storage settings
+2025-08-05 08:34:39|INFO|DiskInfo.exe:2025-08-05 08:34:38,678 | [INFO ]  Scan storage device
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>rem @echo off 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>cd /d E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging\ 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>set output="E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\" 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>if {"E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\"} == {} set output=E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging\OSAging 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>set output=E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\ 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>if not exist "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\" md "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\"  
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>rem ====================================== 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>rem C:\Tools\OSAgingV2.24\result 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>rem ====================================== 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>if exist C:\Tools\ call:OSAgingLog C:\Tools 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>if exist C:\OSAging\ call:OSAgingLog C:\OSAging 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>if exist "C:\Users\zhs\desktop" call:OSAgingLog "C:\Users\zhs\desktop" 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>pushd "C:\Users\zhs\desktop" 
+2025-08-05 08:34:40|INFO|OSAging.bat:C:\Users\zhs\Desktop>for /F "delims=*" %i in ('dir /a-d /s /b OSAgingTool.exe') do (call:CopyLog %~dpsi ) 
+2025-08-05 08:34:40|INFO|OSAging.bat:C:\Users\zhs\Desktop>popd
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>goto :eof 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>rem ====================================== 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>rem end  
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>rem ====================================== 
+2025-08-05 08:34:40|INFO|OSAging.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\OSAging>if exist "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\TestToolLog\\OSAging" (exit /b 0 )  else (exit /b 2 ) 
+2025-08-05 08:34:40|INFO|start exe result :2
+2025-08-05 08:34:40|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)>exit
+2025-08-05 08:34:40|INFO|powercfg.exe:睡眠分析报告已保存到文件路径 E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SystemPowerReport.html。
+2025-08-05 08:34:40|INFO|start exe result :0
+2025-08-05 08:34:41|INFO|ListEvents.cmd:True
+2025-08-05 08:34:41|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)>exit
+2025-08-05 08:34:42|INFO|ListEvents.cmd:移动了         1 个文件。
+2025-08-05 08:34:42|INFO|start exe result :0
+2025-08-05 08:34:42|INFO|copy file to file
+2025-08-05 08:34:42|INFO|from:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\Kernel_Power_Events.html
+2025-08-05 08:34:42|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\KernelPowerReport.html
+2025-08-05 08:34:43|INFO|BOOTSTAT.cmd:Disk: 0, Partition: 1, Type: System
+2025-08-05 08:34:43|INFO|BOOTSTAT.cmd:Bootstat file : F:\EFI\Microsoft\Boot\BOOTSTAT.DAT
+2025-08-05 08:34:44|INFO|BOOTSTAT.cmd:移动了         1 个文件。
+2025-08-05 08:34:44|INFO|start exe result :0
+2025-08-05 08:34:45|INFO|System_Wakeup_settings.cmd:移动了         1 个文件。
+2025-08-05 08:34:45|INFO|start exe result :0
+2025-08-05 08:34:45|INFO|copy file to file
+2025-08-05 08:34:45|INFO|from:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\System_Wakeup_Setting.html
+2025-08-05 08:34:45|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\SystemPowerLog\SystemWakeSetting.html
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,062 | [INFO ]  Query device details info
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,063 | [INFO ]   ==> Parse NVME SSD
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,064 | [INFO ]  SMART_CriticalWarning
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,064 | [INFO ]  SMART_CompositeTemperature
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,064 | [INFO ]  SMART_AvailableSpare
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,064 | [INFO ]  SMART_AvailableSpareThreshold
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,064 | [INFO ]  SMART_PercentageUsed
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,064 | [INFO ]  SMART_DataUnitsRead
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,065 | [INFO ]  SMART_DataUnitsWritten
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,065 | [INFO ]  SMART_HostReadCommands
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,065 | [INFO ]  SMART_HostWriteCommands
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_ControllerBusyTime
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_PowerCycles
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_PowerOnHours
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_UnsafeShutdowns
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_MediaandDataIntegrityErrors
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_NumberofErrorInformationLogEntries
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]   ==> Parse NVME SSD
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_CriticalWarning
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_CompositeTemperature
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_AvailableSpare
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_AvailableSpareThreshold
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_PercentageUsed
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_DataUnitsRead
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_DataUnitsWritten
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_HostReadCommands
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_HostWriteCommands
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_ControllerBusyTime
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_PowerCycles
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_PowerOnHours
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_UnsafeShutdowns
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_MediaandDataIntegrityErrors
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,066 | [INFO ]  SMART_NumberofErrorInformationLogEntries
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,109 | [INFO ]  StructedData Details : [
+2025-08-05 08:34:47|INFO|DiskInfo.exe:  {
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_type_key": 3,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_model": "UMIS RPJYJ1T24MML1AWY",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_interface": "NVM Express",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_serial_number": "SS1Q24313Z1CH4CT0P77",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_firmware_version": "1.0L06C1",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_size": 1024,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_health_status": "1",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_power_on_hours": 670,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_power_on_count": 481,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_warning_temp_threshold": 60,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_critical_warning": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_available_spare": 100.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_available_spare_threshold": 10.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_percentage_used": 0.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_host_read_commands": 80683460,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_host_write_commands": 77280903,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_controller_busy_time": 2468,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_unsafe_shutdowns": 14,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_media_and_data_integrity_errors": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_error_information_log_entries": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_data_units_read": 3739.26758,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_data_units_written": 3787.04541
+2025-08-05 08:34:47|INFO|DiskInfo.exe:  },
+2025-08-05 08:34:47|INFO|DiskInfo.exe:  {
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_type_key": 3,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_model": "WDC PC SN730 SDBPNTY-1T00-1101",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_interface": "NVM Express",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_serial_number": "20091E801244",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_firmware_version": "11130001",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_size": 1024,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_health_status": "1",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_power_on_hours": 2455,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_power_on_count": 131144,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_warning_temp_threshold": 60,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_critical_warning": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_available_spare": 100.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_available_spare_threshold": 10.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_percentage_used": 0.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_host_read_commands": 1212609217,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_host_write_commands": 100198282,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_controller_busy_time": 756,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_unsafe_shutdowns": 73,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_media_and_data_integrity_errors": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_error_information_log_entries": 59,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_data_units_read": 9044.986,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_data_units_written": 3516.47168
+2025-08-05 08:34:47|INFO|DiskInfo.exe:  }
+2025-08-05 08:34:47|INFO|DiskInfo.exe:] 
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]   ==> Parse NVME SSD
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  === START OF INFORMATION SECTION ===
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Model Number:                       UMIS RPJYJ1T24MML1AWY
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Serial Number:                      SS1Q24313Z1CH4CT0P77
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Firmware Version:                   1.0L06C1
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  PCI Vendor/Subsystem ID:            0x1cc4
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  IEEE OUI Identifier:                0x5cdfb8
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Total NVM Capacity:                 1,024,209,543,168 [1.02 TB]
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Unallocated NVM Capacity:           0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Controller ID:                      1
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  NVMe Version:                       1.4
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Number of Namespaces:               1
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Namespace 1 Size/Capacity:          1,024,209,543,168 [1.02 TB]
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Namespace 1 Formatted LBA Size:     512
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Namespace 1 IEEE EUI-64:            5cdfb8 14c1fe456e
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Local Time is:                      Tue Aug 05 08:34:47 2025 
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Firmware Updates (0x16):            3 Slots, no Reset required
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Log Page Attributes (0x0e):         Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Maximum Data Transfer Size:         64 Pages
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Warning  Comp. Temp. Threshold:     80 Celsius
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Critical Comp. Temp. Threshold:     83 Celsius
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Supported Power States
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]   0 +     9.00W       -        -    0  0  0  0        0       0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]   1 +     4.60W       -        -    1  1  1  1        0       0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]   2 +     3.80W       -        -    2  2  2  2        0       0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]   3 -   0.0250W       -        -    3  3  3  3     2000    2000
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]   4 -   0.0040W       -        -    3  3  3  3     5000   21000
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Supported LBA Sizes (NSID 0x1)
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Id Fmt  Data  Metadt  Rel_Perf
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]   0 +     512       0         0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  === START OF SMART DATA SECTION ===
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  SMART overall-health self-assessment test result: PASSED
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  SMART/Health Information (NVMe Log 0x02)
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Critical Warning:                   0x00
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Temperature:                        32 Celsius
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Available Spare:                    100%
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Available Spare Threshold:          10%
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Percentage Used:                    0%
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,490 | [INFO ]  Data Units Read:                    7,303,299 [3.73 TB]
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Data Units Written:                 7,396,580 [3.78 TB]
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Host Read Commands:                 80,683,794
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Host Write Commands:                77,280,989
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Controller Busy Time:               2,468
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Power Cycles:                       481
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Power On Hours:                     670
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Unsafe Shutdowns:                   14
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Media and Data Integrity Errors:    0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Error Information Log Entries:      0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Warning  Comp. Temperature Time:    0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Critical Comp. Temperature Time:    0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Temperature Sensor 1:               32 Celsius
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Temperature Sensor 2:               46 Celsius
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Thermal Temp. 1 Transition Count:   49
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Thermal Temp. 2 Transition Count:   18
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  Error Information (NVMe Log 0x01, 16 of 256 entries)
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,491 | [INFO ]  No Errors Logged
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]   ==> Parse NVME SSD
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  === START OF INFORMATION SECTION ===
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Model Number:                       WDC PC SN730 SDBPNTY-1T00-1101
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Serial Number:                      20091E801244
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Firmware Version:                   11130001
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  PCI Vendor/Subsystem ID:            0x15b7
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  IEEE OUI Identifier:                0x001b44
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Total NVM Capacity:                 1,024,209,543,168 [1.02 TB]
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Unallocated NVM Capacity:           0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Controller ID:                      8215
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  NVMe Version:                       1.3
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Number of Namespaces:               1
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Namespace 1 Size/Capacity:          1,024,209,543,168 [1.02 TB]
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Namespace 1 Formatted LBA Size:     512
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Namespace 1 IEEE EUI-64:            001b44 8b46ac8ee4
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Local Time is:                      Tue Aug 05 08:34:47 2025 
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Firmware Updates (0x14):            2 Slots, no Reset required
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Optional NVM Commands (0x005f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Log Page Attributes (0x1e):         Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg Pers_Ev_Lg
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Maximum Data Transfer Size:         128 Pages
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Warning  Comp. Temp. Threshold:     84 Celsius
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Critical Comp. Temp. Threshold:     88 Celsius
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Namespace 1 Features (0x02):        NA_Fields
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Supported Power States
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]   0 +     6.00W       -        -    0  0  0  0        0       0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]   1 +     3.50W       -        -    1  1  1  1        0       0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]   2 +     3.00W       -        -    2  2  2  2        0       0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]   3 -   0.1000W       -        -    3  3  3  3     4000   10000
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]   4 -   0.0025W       -        -    4  4  4  4     4000   40000
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Supported LBA Sizes (NSID 0x1)
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Id Fmt  Data  Metadt  Rel_Perf
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]   0 +     512       0         2
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]   1 -    4096       0         1
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  === START OF SMART DATA SECTION ===
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  SMART overall-health self-assessment test result: PASSED
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  SMART/Health Information (NVMe Log 0x02)
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Critical Warning:                   0x00
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Temperature:                        37 Celsius
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Available Spare:                    100%
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Available Spare Threshold:          10%
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Percentage Used:                    0%
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Data Units Read:                    17,665,991 [9.04 TB]
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Data Units Written:                 6,868,164 [3.51 TB]
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Host Read Commands:                 1,212,609,290
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Host Write Commands:                100,198,361
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Controller Busy Time:               756
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Power Cycles:                       131,144
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Power On Hours:                     2,455
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Unsafe Shutdowns:                   73
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Media and Data Integrity Errors:    0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,647 | [INFO ]  Error Information Log Entries:      59
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,649 | [INFO ]  Warning  Comp. Temperature Time:    13
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,650 | [INFO ]  Critical Comp. Temperature Time:    0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,650 | [INFO ]  Thermal Temp. 1 Transition Count:   6
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,650 | [INFO ]  Thermal Temp. 2 Transition Count:   2
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,650 | [INFO ]  Thermal Temp. 1 Total Time:         2854
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,650 | [INFO ]  Thermal Temp. 2 Total Time:         312
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,650 | [INFO ]  Error Information (NVMe Log 0x01, 16 of 256 entries)
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,651 | [INFO ]  No Errors Logged
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,666 | [INFO ]  StructedData Details : [
+2025-08-05 08:34:47|INFO|DiskInfo.exe:  {
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_type_key": 3,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_model": "UMIS RPJYJ1T24MML1AWY",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_serial_number": "SS1Q24313Z1CH4CT0P77",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_firmware_version": "1.0L06C1",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_size": 1024,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_health_status": "PASSED",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_power_on_hours": 670,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_power_on_count": 481,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_warning_temp_threshold": 80,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_critical_temp_threshold": 83,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_critical_warning": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_available_spare": 1.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_available_spare_threshold": 0.1,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_percentage_used": 0.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_host_read_commands": 80683794,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_host_write_commands": 77280989,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_controller_busy_time": 2468,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_unsafe_shutdowns": 14,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_media_and_data_integrity_errors": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_error_information_log_entries": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_warning_temperature_time": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_critical_temperature_time": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_data_units_read": 3739.289,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_data_units_written": 3787.049
+2025-08-05 08:34:47|INFO|DiskInfo.exe:  },
+2025-08-05 08:34:47|INFO|DiskInfo.exe:  {
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_type_key": 3,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_model": "WDC PC SN730 SDBPNTY-1T00-1101",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_serial_number": "20091E801244",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_firmware_version": "11130001",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_size": 1024,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_health_status": "PASSED",
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_power_on_hours": 2455,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "disk_power_on_count": 131144,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_warning_temp_threshold": 84,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_critical_temp_threshold": 88,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_critical_warning": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_available_spare": 1.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_available_spare_threshold": 0.1,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_percentage_used": 0.0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_host_read_commands": 1212609290,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_host_write_commands": 100198361,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_controller_busy_time": 756,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_unsafe_shutdowns": 73,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_media_and_data_integrity_errors": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_error_information_log_entries": 59,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_warning_temperature_time": 13,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_critical_temperature_time": 0,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_data_units_read": 9044.988,
+2025-08-05 08:34:47|INFO|DiskInfo.exe:    "ssd_data_units_written": 3516.5
+2025-08-05 08:34:47|INFO|DiskInfo.exe:  }
+2025-08-05 08:34:47|INFO|DiskInfo.exe:] 
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,666 | [INFO ]  Compare and check the Criterion， CheckFlag: True
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,667 | [INFO ]  Check Disk : NVME_SSD, UMIS RPJYJ1T24MML1AWY
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Power_Cycles
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 481
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Power_On_Hours
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 670
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Read
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 3739.268
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Written
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 3787.045
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Media_and_Data_Integrity_Errors
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CompareCriterion,   Criterion: 1 <--> Current: 0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Critical_Temperature_Time
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  Check Disk : NVME_SSD, WDC PC SN730 SDBPNTY-1T00-1101
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Power_Cycles
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 131144
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Power_On_Hours
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 2455
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,668 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Read
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,672 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 9044.986
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,672 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Written
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,672 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 3516.472
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,672 | [INFO ]  CheckNVMESSDCriterion : Media_and_Data_Integrity_Errors
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,672 | [INFO ]  CompareCriterion,   Criterion: 1 <--> Current: 0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,672 | [INFO ]  CheckNVMESSDCriterion : Critical_Temperature_Time
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,672 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 0
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,673 | [INFO ]  Filter the Error code and exit: OK
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,673 | [WARN ]  [FilerErrorCode], Update ErrorCode: OK --> OK
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,673 | [INFO ]  Set RI FileData
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,676 | [INFO ]   --- Exit : OK --- 
+2025-08-05 08:34:47|INFO|DiskInfo.exe:2025-08-05 08:34:47,676 | [INFO ] [DiskInfo] | --return code:0x000000--
+2025-08-05 08:34:47|INFO|start exe result :0
+2025-08-05 08:34:47|INFO|copy file to dir
+2025-08-05 08:34:47|INFO|from:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\tools\DiskInfo\diskinf_raw.json
+2025-08-05 08:34:47|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\DiskInfo
+2025-08-05 08:34:49|INFO|GlobalResetCause.bat:@@ GBLRST_CAUSE0:0x00000000 @@
+2025-08-05 08:34:49|INFO|GlobalResetCause.bat:@@ GBLRST_CAUSE1:0x00000000 @@
+2025-08-05 08:34:49|INFO|GlobalResetCause.bat:@@ GBLRST_CAUSE2:0x00000000 @@
+2025-08-05 08:34:49|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>if not exist .\Global_Reset_Cause_Resutl.log goto :err 
+2025-08-05 08:34:49|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>if not exist "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\" md "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\" 
+2025-08-05 08:34:49|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>move /y .\Global_Reset_Cause_Resutl.log "E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\" 
+2025-08-05 08:34:49|INFO|GlobalResetCause.bat:移动了         1 个文件。
+2025-08-05 08:34:49|INFO|GlobalResetCause.bat:E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\GlobalResetCause>exit /b 0 
+2025-08-05 08:34:49|INFO|start exe result :0
+2025-08-05 08:34:49|INFO|copy file to file
+2025-08-05 08:34:49|INFO|from:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\Global_Reset_Cause_Resutl.log
+2025-08-05 08:34:49|INFO|to:E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\GlobalResetCause.log
+2025-08-05 08:34:52|INFO|"E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\*.txt"
+2025-08-05 08:34:52|INFO|""E:\Users\Desktop\AutoLog_1.0.1.1029(1)\AutoLog\Legion Y9000X IAX10_PF5HWZ0S_2025_08_05_08_34_35\BIOSandECLog\""
+2025-08-05 08:34:52|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)\tools\ITE_WinECU_I2EC\AllRegLog20250805083451.txt
+2025-08-05 08:34:52|INFO|复制了 1 个文件
+2025-08-05 08:34:52|INFO|E:\users\Desktop\AutoLog_1.0.1.1029(1)>exit
+2025-08-05 08:34:53|INFO|start exe result :0
+2025-08-05 08:36:02|INFO|start exe result :0
+2025-08-05 08:36:02|INFO|*****************start compress log*****************

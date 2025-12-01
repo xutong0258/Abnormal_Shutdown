@@ -1,0 +1,7 @@
+>>>>>>>>Intel Platform<<<<<<<<<<
+@@ GBLRST_CAUSE0:0x00000000 @@
+
+@@ GBLRST_CAUSE1:0x00000000 @@
+
+@@ GBLRST_CAUSE2:0x00000002 @@
+  #BIT[1] ==>> Write to CF9 (CF9_ES): This bit will be set when Host software writes a value of 6h or Eh to the CF9 register.Note: The shutdown special cycle from the CPU will also set this bit.

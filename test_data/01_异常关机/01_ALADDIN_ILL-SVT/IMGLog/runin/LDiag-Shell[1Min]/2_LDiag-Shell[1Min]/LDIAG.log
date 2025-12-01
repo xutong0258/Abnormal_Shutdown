@@ -1,0 +1,29 @@
+2025-10-24 07:47:02,111 | [INFO ]  Start MLSTT test, please wait...
+2025-10-24 07:47:02,111 | [INFO ]  Mount the ESP to C:\ESP
+2025-10-24 07:47:02,114 | [INFO ]  Remove the ESP Path if exist
+2025-10-24 07:47:02,436 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition0\
+2025-10-24 07:47:02,452 | [INFO ]  Remove the ESP Path if exist
+2025-10-24 07:47:02,696 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition1\
+2025-10-24 07:47:02,712 | [INFO ]  Remove the ESP Path if exist
+2025-10-24 07:47:02,950 | [INFO ]  Try mount ESP Symbolic: C:\ESP <-- \\?\globalroot\device\harddisk0\partition2\
+2025-10-24 07:47:02,966 | [INFO ]  Get the test status and clean flag
+2025-10-24 07:47:02,966 | [INFO ]  Current TestStatus: Working
+2025-10-24 07:47:02,966 | [WARN ]  Start to check the test result
+2025-10-24 07:47:02,966 | [INFO ]  Get current test status
+2025-10-24 07:47:02,966 | [INFO ]  Runtime Flag: C:\ESP\LDIAG.run
+2025-10-24 07:47:02,977 | [INFO ]  Time Flag: C:\Program Files (x86)\AutoRI\Config\TestModules\LDiagShell\TimeFlag.tag
+2025-10-24 07:47:02,992 | [INFO ]  Clean the test flag, CleanAllFlag : False
+2025-10-24 07:47:03,204 | [INFO ]  Check File: C:\Program Files (x86)\AutoRI\Log\LDiag-Shell[1Min]\2_LDiag-Shell[1Min]\TESTER.LOG
+2025-10-24 07:47:03,204 | [INFO ]  ====> LogCheck Status: True, LFP: True, PAT: True, SKIP: False
+2025-10-24 07:47:03,212 | [INFO ]  <==== LogCheck Status: True, LFP: True, PAT: True, SKIP: False
+2025-10-24 07:47:03,212 | [INFO ]  LogParser Result: True
+2025-10-24 07:47:03,212 | [INFO ]  RunFlag:            True
+2025-10-24 07:47:03,212 | [INFO ]  TestDurationCheck:  True
+2025-10-24 07:47:03,212 | [INFO ]  TestDuration:       32.74988
+2025-10-24 07:47:03,212 | [INFO ]  TestTime:           1
+2025-10-24 07:47:03,212 | [INFO ]  TestCount:          1
+2025-10-24 07:47:03,212 | [INFO ]  RetryCount:         25
+2025-10-24 07:47:03,212 | [INFO ]  BootFlag:           False
+2025-10-24 07:47:03,214 | [INFO ]  Start test, please wait...
+2025-10-24 07:47:03,214 | [INFO ]   --- Exit : 0 --- 
+2025-10-24 07:47:03,216 | [INFO ] [LDiag] | --return code:0x000000--

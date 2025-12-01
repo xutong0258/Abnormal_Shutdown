@@ -1,0 +1,619 @@
+﻿2024-11-26 08:27:31,264[1 ] | [INFO ] [OSAgingTool] | 
+[*]WELCOME TO SX ASSESSMENT SUITE BELONG TO LC FUTURE CENTER![*]
+2024-11-26 08:27:31,272[1 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\OSAgingTool.exe MFG
+2024-11-26 08:27:31,313[1 ] | [DEBUG] [OSAgingTool] | Database init.
+2024-11-26 08:27:32,506[1 ] | [DEBUG] [OSAgingTool] | Load default sequence.
+2024-11-26 08:27:32,648[1 ] | [DEBUG] [OSAgingTool] | Load default configuration.
+2024-11-26 08:27:33,748[1 ] | [DEBUG] [OSAgingTool] | Load-ui main area view.
+2024-11-26 08:27:40,899[4 ] | [DEBUG] [OSAgingTool] | _mBackMainThread Start
+2024-11-26 08:27:40,905[8 ] | [DEBUG] [OSAgingTool] | On the system exception check,wait a minute...
+2024-11-26 08:27:40,905[1 ] | [INFO ] [OSAgingTool] | Monitor System Event
+2024-11-26 08:27:40,922[8 ] | [INFO ] [OSAgingTool] | Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+2024-11-26 08:27:40,931[8 ] | [WARN ] [OSAgingTool] | LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+2024-11-26 08:27:40,987[8 ] | [INFO ] [OSAgingTool] | Check system error end...
+2024-11-26 08:27:41,057[1 ] | [DEBUG] [OSAgingTool] | Lid status: Opened.
+2024-11-26 08:27:41,057[1 ] | [DEBUG] [OSAgingTool] | Power source: AC.
+2024-11-26 08:27:41,057[1 ] | [DEBUG] [OSAgingTool] | Battery percentage remaining 100%.
+2024-11-26 08:27:41,144[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:27:41,144[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:29:10,709[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:29:11,694[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:29:12,705[8 ] | [INFO ] [OSAgingTool] | GetExecutiveItem, Index:0
+2024-11-26 08:29:12,789[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Execute Wb Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:29:12,797[8 ] | [INFO ] [OSAgingTool] | Write AlreadyExecuteFlag:6dc7baba-3b06-4f49-a66a-d0794206fa35_1
+2024-11-26 08:30:02,598[1 ] | [INFO ] [OSAgingTool] | 
+[*]WELCOME TO SX ASSESSMENT SUITE BELONG TO LC FUTURE CENTER![*]
+2024-11-26 08:30:02,617[1 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\OSAgingTool.exe --MSTATE Working
+2024-11-26 08:30:02,710[1 ] | [DEBUG] [OSAgingTool] | Database init.
+2024-11-26 08:30:02,804[1 ] | [DEBUG] [OSAgingTool] | Load default sequence.
+2024-11-26 08:30:03,225[1 ] | [DEBUG] [OSAgingTool] | Load default configuration.
+2024-11-26 08:30:04,325[1 ] | [DEBUG] [OSAgingTool] | Load-ui main area view.
+2024-11-26 08:30:05,497[6 ] | [DEBUG] [OSAgingTool] | _mBackMainThread Start
+2024-11-26 08:30:05,497[4 ] | [DEBUG] [OSAgingTool] | On the system exception check,wait a minute...
+2024-11-26 08:30:05,497[1 ] | [INFO ] [OSAgingTool] | Monitor System Event
+2024-11-26 08:30:05,509[4 ] | [INFO ] [OSAgingTool] | Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+2024-11-26 08:30:05,513[4 ] | [WARN ] [OSAgingTool] | LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+2024-11-26 08:30:05,591[4 ] | [INFO ] [OSAgingTool] | Check system error end...
+2024-11-26 08:30:05,591[4 ] | [INFO ] [OSAgingTool] | GetExecutiveItem, Index:0
+2024-11-26 08:30:06,123[1 ] | [DEBUG] [OSAgingTool] | Lid status: Opened.
+2024-11-26 08:30:06,123[1 ] | [DEBUG] [OSAgingTool] | Power source: AC.
+2024-11-26 08:30:06,130[1 ] | [DEBUG] [OSAgingTool] | Battery percentage remaining 100%.
+2024-11-26 08:30:06,190[4 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Execute Wb Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:30:06,197[4 ] | [INFO ] [OSAgingTool] | Read AlreadyExecuteFlag:6dc7baba-3b06-4f49-a66a-d0794206fa35_1
+2024-11-26 08:30:06,197[4 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Execute Wb Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:30:06,198[4 ] | [INFO ] [OSAgingTool] | Countdown:89,Step2:Resumed From Wb Scenario=>Int32 ResumedScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:30:06,206[4 ] | [INFO ] [OSAgingTool] | Countdown:89,Step2:Resumed From Wb Scenario=>Int32 ResumedScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:31:25,741[4 ] | [INFO ] [OSAgingTool] | Countdown:10,Step4:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:31:25,744[4 ] | [INFO ] [OSAgingTool] | Device Scan Begin...
+2024-11-26 08:31:25,746[4 ] | [INFO ] [OSAgingTool] | Located devnode
+2024-11-26 08:31:27,281[4 ] | [INFO ] [OSAgingTool] | Device Scan Finished.
+2024-11-26 08:31:27,281[4 ] | [INFO ] [OSAgingTool] | Countdown:10,Step4:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:31:37,378[4 ] | [INFO ] [OSAgingTool] | Countdown:0,Step5:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:31:38,313[4 ] | [INFO ] [OSAgingTool] | Countdown:0,Step5:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:31:38,313[4 ] | [INFO ] [OSAgingTool] | Countdown:0,Step6:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:31:38,317[4 ] | [INFO ] [OSAgingTool] | Check Device Change:True,Check Device Error:True
+2024-11-26 08:31:38,327[4 ] | [INFO ] [OSAgingTool] | Countdown:0,Step6:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:31:39,692[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 08:31:39,698[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 08:31:40,376[4 ] | [INFO ] [OSAgingTool] | Create Report Data Start...
+2024-11-26 08:31:40,492[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_OSInfo
+2024-11-26 08:31:40,494[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_DriverInfo
+2024-11-26 08:31:42,355[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_AppInfo
+2024-11-26 08:31:42,357[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_QFEInfo
+2024-11-26 08:31:42,999[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_FWInfo
+2024-11-26 08:31:42,999[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_BIOSECInfo
+2024-11-26 08:31:43,005[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_EnumPNPDevice
+2024-11-26 08:31:43,146[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_CPUInfo
+2024-11-26 08:31:44,805[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_NetWorkInfo
+2024-11-26 08:31:44,928[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_RAMInfo
+2024-11-26 08:31:44,940[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DiskInfo
+2024-11-26 08:31:45,134[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_MonitorInfo
+2024-11-26 08:31:45,138[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_BatteryInfo
+2024-11-26 08:31:45,161[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DisplayInfo
+2024-11-26 08:31:46,225[4 ] | [INFO ] [OSAgingTool] | Export GPU Info to -> C:\Users\test\AppData\Local\Temp\tmpFCE9.tmp
+2024-11-26 08:31:52,953[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ExtraCPU
+2024-11-26 08:31:52,954[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_TjMax - Skip
+2024-11-26 08:31:52,954[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_DPI
+2024-11-26 08:31:52,955[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PowerPlan
+2024-11-26 08:31:52,960[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_RAM
+2024-11-26 08:31:52,961[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PreloadInfo
+2024-11-26 08:31:52,961[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ProductInfo
+2024-11-26 08:31:52,980[4 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_MFGInfo
+2024-11-26 08:31:52,983[4 ] | [INFO ] [OSAgingTool] | Unit Info Retuen Success!
+2024-11-26 08:31:52,992[4 ] | [INFO ] [OSAgingTool] | HwSwConfig OK!
+2024-11-26 08:31:53,058[4 ] | [INFO ] [OSAgingTool] | GetTaskEventErrorRecords OK!
+2024-11-26 08:31:53,067[4 ] | [INFO ] [OSAgingTool] | GetKpiResult OK!
+2024-11-26 08:31:53,103[4 ] | [INFO ] [OSAgingTool] | Create Report Data End.
+2024-11-26 08:31:53,104[4 ] | [INFO ] [OSAgingTool] | Create HTML Report Start...
+2024-11-26 08:31:53,840[4 ] | [INFO ] [OSAgingTool] | Create HTML Report End.
+2024-11-26 08:31:53,841[4 ] | [INFO ] [OSAgingTool] | Write Old Report Start...
+2024-11-26 08:31:53,896[4 ] | [INFO ] [OSAgingTool] | Write Old Report End.
+2024-11-26 08:31:53,896[4 ] | [INFO ] [OSAgingTool] | Auto Exit...
+2024-11-26 08:34:06,453[1 ] | [INFO ] [OSAgingTool] | 
+[*]WELCOME TO SX ASSESSMENT SUITE BELONG TO LC FUTURE CENTER![*]
+2024-11-26 08:34:06,460[1 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\OSAgingTool.exe MFG
+2024-11-26 08:34:06,522[1 ] | [DEBUG] [OSAgingTool] | Database init.
+2024-11-26 08:34:06,590[1 ] | [DEBUG] [OSAgingTool] | Load default sequence.
+2024-11-26 08:34:06,855[1 ] | [DEBUG] [OSAgingTool] | Load default configuration.
+2024-11-26 08:34:07,947[1 ] | [DEBUG] [OSAgingTool] | Load-ui main area view.
+2024-11-26 08:34:15,082[4 ] | [DEBUG] [OSAgingTool] | _mBackMainThread Start
+2024-11-26 08:34:15,085[8 ] | [DEBUG] [OSAgingTool] | On the system exception check,wait a minute...
+2024-11-26 08:34:15,085[1 ] | [INFO ] [OSAgingTool] | Monitor System Event
+2024-11-26 08:34:15,087[8 ] | [INFO ] [OSAgingTool] | Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+2024-11-26 08:34:15,098[8 ] | [WARN ] [OSAgingTool] | LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+2024-11-26 08:34:15,241[8 ] | [INFO ] [OSAgingTool] | Check system error end...
+2024-11-26 08:34:16,079[1 ] | [DEBUG] [OSAgingTool] | Lid status: Opened.
+2024-11-26 08:34:16,083[1 ] | [DEBUG] [OSAgingTool] | Power source: AC.
+2024-11-26 08:34:16,087[1 ] | [DEBUG] [OSAgingTool] | Battery percentage remaining 100%.
+2024-11-26 08:34:16,158[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:34:16,160[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:35:13,668[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 08:35:13,683[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 08:35:45,737[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:35:46,827[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:35:47,847[8 ] | [INFO ] [OSAgingTool] | GetExecutiveItem, Index:0
+2024-11-26 08:35:47,908[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Ms Scenario Prepare=>Int32 PrepareScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:35:47,972[8 ] | [INFO ] [OSAgingTool] | Change system sleep time1 sucess.
+2024-11-26 08:35:48,003[8 ] | [INFO ] [OSAgingTool] | Change system sleep time2 sucess.
+2024-11-26 08:35:48,003[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Ms Scenario Prepare=>Int32 PrepareScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:35:49,008[8 ] | [INFO ] [OSAgingTool] | Countdown:89,Step2:Ms Scenario Pre-Action=>Int32 PreActionScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:35:49,008[8 ] | [INFO ] [OSAgingTool] | Countdown:89,Step2:Ms Scenario Pre-Action=>Int32 PreActionScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:35:50,022[8 ] | [INFO ] [OSAgingTool] | Countdown:88,Step3:Execute Ms Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:35:50,039[8 ] | [INFO ] [OSAgingTool] | Write AlreadyExecuteFlag:ff021567-2d2d-4adc-8148-ca92afcc5f00_1
+2024-11-26 08:35:50,119[8 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\Chain\SysTool\Amd64\PwrTest\pwrtest_26100.exe /lf:C:\OSAging\Result\2024_11_26_08_34_16\PwrTest\Temp /cs /delaywrite /c:1 /d:3 /p:120 /etwbuffersize:1024 /etwmaxbuffers:512
+2024-11-26 08:38:04,550[8 ] | [INFO ] [OSAgingTool] | Start: PwrTest
+SYSTEM_POWER_CAPABILITIES 
+    SystemS1StateSupported = 0 
+    SystemS2StateSupported = 0 
+    SystemS3StateSupported = 0 
+    SystemS4StateSupported = 1 
+    SystemS5StateSupported = 1 
+    WakeAlarmPresent       = 1 
+    AcOnLineWakeSupported  = 0 
+    RtcWakeSupported       = S4 
+    FastSystemS4           = 0 
+    VideoDimPresent        = 1 
+    HiberFilePresent       = 1 
+    AoAc                   = 1 
+
+Press 'Q' to quit early
+
+
+#########################################
+Connected Standby Cycle 1
+#########################################
+08:35:56.109  --->Entering Connected Standby
+08:35:56.109    <---Exiting No CS Phase
+08:35:56.109    --->Entering Connection Phase
+08:35:56.109    <---Exiting Connection Phase
+08:35:56.109    --->Entering Presence Phase
+08:35:56.110    <---Exiting Presence Phase
+08:35:56.110    --->Entering PLM Phase
+08:35:56.148    <---Exiting PLM Phase
+08:35:56.148    --->Entering Maintenance Phase
+08:35:56.148    <---Exiting Maintenance Phase
+08:35:56.148    --->Entering DAM Phase
+08:35:56.170    <---Exiting DAM Phase
+08:35:56.170    --->Entering Low Power Phase
+08:36:01.565    <---Exiting Low Power Phase
+08:36:01.565    --->Entering Resiliency Notification Phase
+08:36:01.566    <---Exiting Resiliency Notification Phase
+08:36:01.566    --->Entering Resiliency Phase
+08:37:55.273  <---Exiting Connected Standby
+08:37:55.276    <---Exiting Resiliency Phase
+08:37:55.276    --->Entering Resiliency Notification Phase
+08:37:55.276    <---Exiting Resiliency Notification Phase
+08:37:55.276    --->Entering Low Power Phase
+08:37:55.277    <---Exiting Low Power Phase
+08:37:55.277    --->Entering DAM Phase
+08:37:55.278    <---Exiting DAM Phase
+08:37:55.278    --->Entering Maintenance Phase
+08:37:55.278    <---Exiting Maintenance Phase
+08:37:55.278    --->Entering PLM Phase
+08:37:55.278    <---Exiting PLM Phase
+08:37:55.278    --->Entering Presence Phase
+08:37:55.278    <---Exiting Presence Phase
+08:37:55.278    --->Entering Connection Phase
+08:37:55.278    <---Exiting Connection Phase
+08:37:55.278    --->Entering No CS Phase
+08:37:55.759  ====Exited Connected Standby
+-----------------------------------------
+Platform Idle Transition Counts
+  Supported Platform States: 2
+  Index  Succeeded  Failed  Cancelled
+  -----------------------------------
+      0          0       0          0
+      1          0       0          0
+-----------------------------------------
+End: Pass, PwrTest, (null)
+
+2024-11-26 08:38:04,582[8 ] | [INFO ] [OSAgingTool] | Countdown:88,Step3:Execute Ms Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:38:05,595[8 ] | [INFO ] [OSAgingTool] | Countdown:87,Step4:Resumed From Ms Scenario=>Int32 ResumedScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:38:05,595[8 ] | [INFO ] [OSAgingTool] | Countdown:87,Step4:Resumed From Ms Scenario=>Int32 ResumedScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:39:23,015[8 ] | [INFO ] [OSAgingTool] | Countdown:10,Step6:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:39:23,015[8 ] | [INFO ] [OSAgingTool] | Device Scan Begin...
+2024-11-26 08:39:23,018[8 ] | [INFO ] [OSAgingTool] | Located devnode
+2024-11-26 08:39:24,546[8 ] | [INFO ] [OSAgingTool] | Device Scan Finished.
+2024-11-26 08:39:24,546[8 ] | [INFO ] [OSAgingTool] | Countdown:10,Step6:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:39:34,613[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step7:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:39:34,858[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step7:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:39:34,858[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step8:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:39:34,864[8 ] | [INFO ] [OSAgingTool] | Check Device Change:True,Check Device Error:True
+2024-11-26 08:39:34,869[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step8:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:39:36,031[8 ] | [INFO ] [OSAgingTool] | Create Report Data Start...
+2024-11-26 08:39:36,123[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_OSInfo
+2024-11-26 08:39:36,123[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_DriverInfo
+2024-11-26 08:39:37,957[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_AppInfo
+2024-11-26 08:39:37,959[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_QFEInfo
+2024-11-26 08:39:38,616[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_FWInfo
+2024-11-26 08:39:38,616[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_BIOSECInfo
+2024-11-26 08:39:38,622[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_EnumPNPDevice
+2024-11-26 08:39:38,758[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_CPUInfo
+2024-11-26 08:39:39,924[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_NetWorkInfo
+2024-11-26 08:39:40,049[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_RAMInfo
+2024-11-26 08:39:40,059[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DiskInfo
+2024-11-26 08:39:40,264[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_MonitorInfo
+2024-11-26 08:39:40,267[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_BatteryInfo
+2024-11-26 08:39:40,321[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DisplayInfo
+2024-11-26 08:39:41,400[8 ] | [INFO ] [OSAgingTool] | Export GPU Info to -> C:\Users\test\AppData\Local\Temp\tmpF91D.tmp
+2024-11-26 08:39:48,273[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ExtraCPU
+2024-11-26 08:39:48,273[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_TjMax - Skip
+2024-11-26 08:39:48,273[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_DPI
+2024-11-26 08:39:48,274[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PowerPlan
+2024-11-26 08:39:48,281[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_RAM
+2024-11-26 08:39:48,282[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PreloadInfo
+2024-11-26 08:39:48,282[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ProductInfo
+2024-11-26 08:39:48,301[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_MFGInfo
+2024-11-26 08:39:48,303[8 ] | [INFO ] [OSAgingTool] | Unit Info Retuen Success!
+2024-11-26 08:39:48,312[8 ] | [INFO ] [OSAgingTool] | HwSwConfig OK!
+2024-11-26 08:39:48,376[8 ] | [INFO ] [OSAgingTool] | GetTaskEventErrorRecords OK!
+2024-11-26 08:39:48,387[8 ] | [INFO ] [OSAgingTool] | GetKpiResult OK!
+2024-11-26 08:39:48,412[8 ] | [INFO ] [OSAgingTool] | Create Report Data End.
+2024-11-26 08:39:48,414[8 ] | [INFO ] [OSAgingTool] | Create HTML Report Start...
+2024-11-26 08:39:49,091[8 ] | [INFO ] [OSAgingTool] | Create HTML Report End.
+2024-11-26 08:39:49,091[8 ] | [INFO ] [OSAgingTool] | Write Old Report Start...
+2024-11-26 08:39:49,129[8 ] | [INFO ] [OSAgingTool] | Write Old Report End.
+2024-11-26 08:39:49,129[8 ] | [INFO ] [OSAgingTool] | Auto Exit...
+2024-11-26 08:56:56,468[1 ] | [INFO ] [OSAgingTool] | 
+[*]WELCOME TO SX ASSESSMENT SUITE BELONG TO LC FUTURE CENTER![*]
+2024-11-26 08:56:56,474[1 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\OSAgingTool.exe MFG
+2024-11-26 08:56:56,538[1 ] | [DEBUG] [OSAgingTool] | Database init.
+2024-11-26 08:56:56,592[1 ] | [DEBUG] [OSAgingTool] | Load default sequence.
+2024-11-26 08:56:56,867[1 ] | [DEBUG] [OSAgingTool] | Load default configuration.
+2024-11-26 08:56:57,965[1 ] | [DEBUG] [OSAgingTool] | Load-ui main area view.
+2024-11-26 08:57:05,099[4 ] | [DEBUG] [OSAgingTool] | _mBackMainThread Start
+2024-11-26 08:57:05,103[8 ] | [DEBUG] [OSAgingTool] | On the system exception check,wait a minute...
+2024-11-26 08:57:05,103[1 ] | [INFO ] [OSAgingTool] | Monitor System Event
+2024-11-26 08:57:05,107[8 ] | [INFO ] [OSAgingTool] | Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+2024-11-26 08:57:05,114[8 ] | [WARN ] [OSAgingTool] | LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+2024-11-26 08:57:05,384[8 ] | [INFO ] [OSAgingTool] | Check system error end...
+2024-11-26 08:57:06,110[1 ] | [DEBUG] [OSAgingTool] | Lid status: Opened.
+2024-11-26 08:57:06,112[1 ] | [DEBUG] [OSAgingTool] | Battery percentage remaining 99%.
+2024-11-26 08:57:06,112[1 ] | [DEBUG] [OSAgingTool] | Power source: AC.
+2024-11-26 08:57:06,185[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:57:06,185[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:58:03,434[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 08:58:03,442[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 08:58:35,723[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:58:36,836[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 08:58:37,856[8 ] | [INFO ] [OSAgingTool] | GetExecutiveItem, Index:0
+2024-11-26 08:58:37,914[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Execute S4 Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 08:58:37,920[8 ] | [INFO ] [OSAgingTool] | Write AlreadyExecuteFlag:a2c96dcc-ef1b-47d3-b011-c2d5c835d40a_1
+2024-11-26 08:58:39,919[8 ] | [INFO ] [OSAgingTool] | EC Keep PCH Power Command Done!
+2024-11-26 08:58:39,986[8 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\Chain\SysTool\Amd64\PwrTest\pwrtest_26100.exe /lf:C:\OSAging\Result\2024_11_26_08_57_06\PwrTest\Temp /sleep /c:1 /d:3 /p:60 /s:4 /unattend
+2024-11-26 08:58:41,980[1 ] | [DEBUG] [OSAgingTool] | System is entering to sleep or hibernation.
+2024-11-26 08:58:43,833[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Bluetooth Device (Personal Area Network) Detail:\\?\BTH#MS_BTHPAN#6&1b6180c1&0&2#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{23C574DB-DAEE-448D-8976-5941B5946940}
+2024-11-26 08:58:43,846[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Bluetooth Device (Personal Area Network) Detail:\\?\BTH#MS_BTHPAN#6&1b6180c1&0&2#{cac88484-7515-4c03-82e6-71a87abac361}
+2024-11-26 08:58:43,854[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Realtek USB GbE Family Controller Detail:\\?\USB#VID_0BDA&PID_8153#000001#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{127635DD-4A7C-4BF3-97FF-16C8E10670F7}
+2024-11-26 08:58:43,859[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Realtek USB GbE Family Controller Detail:\\?\USB#VID_0BDA&PID_8153#000001#{cac88484-7515-4c03-82e6-71a87abac361}\{127635DD-4A7C-4BF3-97FF-16C8E10670F7}
+2024-11-26 08:58:43,863[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 08:58:43,870[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 08:58:43,961[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{5281D9D3-DA41-4CC9-B999-7BD15BCCFDA7}
+2024-11-26 08:58:43,966[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{5281D9D3-DA41-4CC9-B999-7BD15BCCFDA7}
+2024-11-26 08:58:43,971[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{5C3B43FE-5DE4-40A6-96BD-CF06D60B16D8}
+2024-11-26 08:58:43,977[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{5C3B43FE-5DE4-40A6-96BD-CF06D60B16D8}
+2024-11-26 08:59:57,975[1 ] | [DEBUG] [OSAgingTool] | System time changed.
+2024-11-26 08:59:58,000[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Bluetooth Device (Personal Area Network) Detail:\\?\BTH#MS_BTHPAN#6&1b6180c1&0&2#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{23C574DB-DAEE-448D-8976-5941B5946940}
+2024-11-26 08:59:58,010[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Bluetooth Device (Personal Area Network) Detail:\\?\BTH#MS_BTHPAN#6&1b6180c1&0&2#{cac88484-7515-4c03-82e6-71a87abac361}
+2024-11-26 08:59:58,118[1 ] | [DEBUG] [OSAgingTool] | System is resuming from sleep or hibernation.
+2024-11-26 08:59:58,471[1 ] | [DEBUG] [OSAgingTool] | System display resolution changed.[2880x1800]
+2024-11-26 08:59:58,698[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Realtek USB GbE Family Controller Detail:\\?\USB#VID_0BDA&PID_8153#000001#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{127635DD-4A7C-4BF3-97FF-16C8E10670F7}
+2024-11-26 08:59:58,709[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Realtek USB GbE Family Controller Detail:\\?\USB#VID_0BDA&PID_8153#000001#{cac88484-7515-4c03-82e6-71a87abac361}\{127635DD-4A7C-4BF3-97FF-16C8E10670F7}
+2024-11-26 08:59:58,719[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{5C3B43FE-5DE4-40A6-96BD-CF06D60B16D8}
+2024-11-26 08:59:58,728[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{5C3B43FE-5DE4-40A6-96BD-CF06D60B16D8}
+2024-11-26 08:59:58,736[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{5281D9D3-DA41-4CC9-B999-7BD15BCCFDA7}
+2024-11-26 08:59:58,746[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{5281D9D3-DA41-4CC9-B999-7BD15BCCFDA7}
+2024-11-26 09:00:03,824[8 ] | [INFO ] [OSAgingTool] | Start: PwrTest
+SYSTEM_POWER_CAPABILITIES 
+    SystemS1StateSupported = 0 
+    SystemS2StateSupported = 0 
+    SystemS3StateSupported = 0 
+    SystemS4StateSupported = 1 
+    SystemS5StateSupported = 1 
+    WakeAlarmPresent       = 1 
+    AcOnLineWakeSupported  = 0 
+    RtcWakeSupported       = S4 
+    FastSystemS4           = 0 
+    VideoDimPresent        = 1 
+    HiberFilePresent       = 1 
+    AoAc                   = 1 
+ACPI Time And Alarm Capabilities:
+    Ac Wake Supported = 1
+    Dc Wake Supported = 1
+    Ac Wake Supported (S4) = 1
+    Dc Wake Supported (S4) = 1
+    Ac Wake Supported (S5) = 0
+    Dc Wake Supported (S5) = 0
+    Wake Status Supported (S4/S5) = 1
+    Deepest Wakeable State = 5
+
+No.1 of 1 Transition -- TargetState: S4
+  TargetState:       S4
+  EffectiveState:    S4
+  SleepTimeMs:       2708    
+  HiberPagesWritten: 405187  
+  HiberWriteTimeMs:  2316    
+  HiberReadTimeMs:   3029    
+  BiosInitTimeMs:    8832    
+  DriverWakeTimeMs:  559     
+  Transition StartTime: 11/26/2024 08:58:41::113
+  Transition EndTime:   11/26/2024 08:59:59::060
+No.1 of 1 Transition -- Complete
+End: Pass, PwrTest, (null)
+
+2024-11-26 09:00:03,856[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Execute S4 Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 09:01:24,230[8 ] | [INFO ] [OSAgingTool] | Countdown:10,Step4:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 09:01:24,230[8 ] | [INFO ] [OSAgingTool] | Device Scan Begin...
+2024-11-26 09:01:24,234[8 ] | [INFO ] [OSAgingTool] | Located devnode
+2024-11-26 09:01:25,658[8 ] | [INFO ] [OSAgingTool] | Device Scan Finished.
+2024-11-26 09:01:25,658[8 ] | [INFO ] [OSAgingTool] | Countdown:10,Step4:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 09:01:35,762[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step5:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 09:01:36,049[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step5:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 09:01:36,049[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step6:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!Start
+2024-11-26 09:01:36,059[8 ] | [INFO ] [OSAgingTool] | Check Device Change:True,Check Device Error:True
+2024-11-26 09:01:36,063[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step6:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!End
+2024-11-26 09:01:37,366[8 ] | [INFO ] [OSAgingTool] | Create Report Data Start...
+2024-11-26 09:01:37,451[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_OSInfo
+2024-11-26 09:01:37,451[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_DriverInfo
+2024-11-26 09:01:39,321[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_AppInfo
+2024-11-26 09:01:39,327[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_QFEInfo
+2024-11-26 09:01:39,940[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_FWInfo
+2024-11-26 09:01:39,940[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_BIOSECInfo
+2024-11-26 09:01:39,948[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_EnumPNPDevice
+2024-11-26 09:01:40,102[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_CPUInfo
+2024-11-26 09:01:41,137[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_NetWorkInfo
+2024-11-26 09:01:41,250[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_RAMInfo
+2024-11-26 09:01:41,259[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DiskInfo
+2024-11-26 09:01:41,469[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_MonitorInfo
+2024-11-26 09:01:41,474[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_BatteryInfo
+2024-11-26 09:01:41,510[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DisplayInfo
+2024-11-26 09:01:42,630[8 ] | [INFO ] [OSAgingTool] | Export GPU Info to -> C:\Users\test\AppData\Local\Temp\tmp3E87.tmp
+2024-11-26 09:01:47,228[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 09:01:47,250[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{71532FCD-A5DB-4A8A-87AC-E7DED831244F}
+2024-11-26 09:01:49,661[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ExtraCPU
+2024-11-26 09:01:49,661[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_TjMax - Skip
+2024-11-26 09:01:49,662[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_DPI
+2024-11-26 09:01:49,662[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PowerPlan
+2024-11-26 09:01:49,668[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_RAM
+2024-11-26 09:01:49,668[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PreloadInfo
+2024-11-26 09:01:49,669[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ProductInfo
+2024-11-26 09:01:49,682[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_MFGInfo
+2024-11-26 09:01:49,684[8 ] | [INFO ] [OSAgingTool] | Unit Info Retuen Success!
+2024-11-26 09:01:49,694[8 ] | [INFO ] [OSAgingTool] | HwSwConfig OK!
+2024-11-26 09:01:49,753[8 ] | [INFO ] [OSAgingTool] | GetTaskEventErrorRecords OK!
+2024-11-26 09:01:49,773[8 ] | [INFO ] [OSAgingTool] | GetKpiResult OK!
+2024-11-26 09:01:49,798[8 ] | [INFO ] [OSAgingTool] | Create Report Data End.
+2024-11-26 09:01:49,798[8 ] | [INFO ] [OSAgingTool] | Create HTML Report Start...
+2024-11-26 09:01:50,438[8 ] | [INFO ] [OSAgingTool] | Create HTML Report End.
+2024-11-26 09:01:50,438[8 ] | [INFO ] [OSAgingTool] | Write Old Report Start...
+2024-11-26 09:01:50,476[8 ] | [INFO ] [OSAgingTool] | Write Old Report End.
+2024-11-26 09:01:50,476[8 ] | [INFO ] [OSAgingTool] | Auto Exit...
+2025-10-24 07:48:12,674[1 ] | [INFO ] [OSAgingTool] | 
+[*]WELCOME TO SX ASSESSMENT SUITE BELONG TO LC FUTURE CENTER![*]
+2025-10-24 07:48:12,684[1 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\OSAgingTool.exe MFG
+2025-10-24 07:48:13,160[1 ] | [DEBUG] [OSAgingTool] | Database init.
+2025-10-24 07:48:13,456[1 ] | [DEBUG] [OSAgingTool] | Load default sequence.
+2025-10-24 07:48:13,757[1 ] | [DEBUG] [OSAgingTool] | Load default configuration.
+2025-10-24 07:48:15,154[1 ] | [DEBUG] [OSAgingTool] | Load-ui main area view.
+2025-10-24 07:48:22,443[12] | [DEBUG] [OSAgingTool] | _mBackMainThread Start
+2025-10-24 07:48:22,452[14] | [DEBUG] [OSAgingTool] | On the system exception check,wait a minute...
+2025-10-24 07:48:22,462[1 ] | [INFO ] [OSAgingTool] | Monitor System Event
+2025-10-24 07:48:22,476[14] | [INFO ] [OSAgingTool] | Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+2025-10-24 07:48:22,490[14] | [WARN ] [OSAgingTool] | LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+2025-10-24 07:48:22,556[14] | [INFO ] [OSAgingTool] | Check system error end...
+2025-10-24 07:48:23,159[1 ] | [DEBUG] [OSAgingTool] | Lid status: Opened.
+2025-10-24 07:48:23,167[1 ] | [DEBUG] [OSAgingTool] | Power source: AC.
+2025-10-24 07:48:23,172[1 ] | [DEBUG] [OSAgingTool] | Battery percentage remaining 66%.
+2025-10-24 07:48:23,270[14] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:48:23,270[14] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:48:24,475[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}
+2025-10-24 07:48:24,488[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}
+2025-10-24 07:48:35,490[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}
+2025-10-24 07:49:52,848[14] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:49:54,442[14] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:49:55,447[14] | [INFO ] [OSAgingTool] | GetExecutiveItem, Index:0
+2025-10-24 07:49:55,521[14] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Execute Wb Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:49:55,537[14] | [INFO ] [OSAgingTool] | Write AlreadyExecuteFlag:72d4893b-9589-46a6-8ae0-714da0d4b1e9_1
+2025-10-24 07:51:01,349[1 ] | [INFO ] [OSAgingTool] | 
+[*]WELCOME TO SX ASSESSMENT SUITE BELONG TO LC FUTURE CENTER![*]
+2025-10-24 07:51:01,370[1 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\OSAgingTool.exe --MSTATE Working
+2025-10-24 07:51:01,588[1 ] | [DEBUG] [OSAgingTool] | Database init.
+2025-10-24 07:51:01,822[1 ] | [DEBUG] [OSAgingTool] | Load default sequence.
+2025-10-24 07:51:02,213[1 ] | [DEBUG] [OSAgingTool] | Load default configuration.
+2025-10-24 07:51:03,551[1 ] | [DEBUG] [OSAgingTool] | Load-ui main area view.
+2025-10-24 07:51:04,785[12] | [DEBUG] [OSAgingTool] | _mBackMainThread Start
+2025-10-24 07:51:04,785[8 ] | [DEBUG] [OSAgingTool] | On the system exception check,wait a minute...
+2025-10-24 07:51:04,785[1 ] | [INFO ] [OSAgingTool] | Monitor System Event
+2025-10-24 07:51:04,785[8 ] | [INFO ] [OSAgingTool] | Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+2025-10-24 07:51:04,801[8 ] | [WARN ] [OSAgingTool] | LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+2025-10-24 07:51:04,893[8 ] | [INFO ] [OSAgingTool] | Check system error end...
+2025-10-24 07:51:04,897[8 ] | [INFO ] [OSAgingTool] | GetExecutiveItem, Index:0
+2025-10-24 07:51:05,608[1 ] | [DEBUG] [OSAgingTool] | Lid status: Opened.
+2025-10-24 07:51:05,608[1 ] | [DEBUG] [OSAgingTool] | Power source: AC.
+2025-10-24 07:51:05,619[1 ] | [DEBUG] [OSAgingTool] | Battery percentage remaining 66%.
+2025-10-24 07:51:05,701[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Execute Wb Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:51:05,712[8 ] | [INFO ] [OSAgingTool] | Read AlreadyExecuteFlag:72d4893b-9589-46a6-8ae0-714da0d4b1e9_1
+2025-10-24 07:51:05,712[8 ] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Execute Wb Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:51:05,714[8 ] | [INFO ] [OSAgingTool] | Countdown:89,Step2:Resumed From Wb Scenario=>Int32 ResumedScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:51:05,717[8 ] | [INFO ] [OSAgingTool] | Countdown:89,Step2:Resumed From Wb Scenario=>Int32 ResumedScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:52:25,217[8 ] | [INFO ] [OSAgingTool] | Countdown:10,Step4:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:52:25,221[8 ] | [INFO ] [OSAgingTool] | Device Scan Begin...
+2025-10-24 07:52:25,223[8 ] | [INFO ] [OSAgingTool] | Located devnode
+2025-10-24 07:52:26,842[8 ] | [INFO ] [OSAgingTool] | Device Scan Finished.
+2025-10-24 07:52:26,842[8 ] | [INFO ] [OSAgingTool] | Countdown:10,Step4:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:52:34,344[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}
+2025-10-24 07:52:34,344[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}
+2025-10-24 07:52:36,921[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step5:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:52:38,674[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step5:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:52:38,674[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step6:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:52:38,674[8 ] | [INFO ] [OSAgingTool] | Check Device Change:True,Check Device Error:True
+2025-10-24 07:52:38,687[8 ] | [INFO ] [OSAgingTool] | Countdown:0,Step6:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:52:40,758[8 ] | [INFO ] [OSAgingTool] | Create Report Data Start...
+2025-10-24 07:52:40,840[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_OSInfo
+2025-10-24 07:52:40,841[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_DriverInfo
+2025-10-24 07:52:43,932[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}
+2025-10-24 07:52:44,380[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_AppInfo
+2025-10-24 07:52:44,383[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_QFEInfo
+2025-10-24 07:52:45,020[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_FWInfo
+2025-10-24 07:52:45,020[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_BIOSECInfo
+2025-10-24 07:52:45,036[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_EnumPNPDevice
+2025-10-24 07:52:45,315[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_CPUInfo
+2025-10-24 07:52:47,789[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_NetWorkInfo
+2025-10-24 07:52:48,236[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_RAMInfo
+2025-10-24 07:52:48,245[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DiskInfo
+2025-10-24 07:52:48,640[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_MonitorInfo
+2025-10-24 07:52:48,646[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_BatteryInfo
+2025-10-24 07:52:48,702[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DisplayInfo
+2025-10-24 07:52:50,134[8 ] | [INFO ] [OSAgingTool] | Export GPU Info to -> C:\Users\test\AppData\Local\Temp\tmp3260.tmp
+2025-10-24 07:52:58,488[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ExtraCPU
+2025-10-24 07:52:58,489[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_TjMax - Skip
+2025-10-24 07:52:58,490[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_DPI
+2025-10-24 07:52:58,491[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PowerPlan
+2025-10-24 07:52:58,495[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_RAM
+2025-10-24 07:52:58,496[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PreloadInfo
+2025-10-24 07:52:58,496[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ProductInfo
+2025-10-24 07:52:58,538[8 ] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_MFGInfo
+2025-10-24 07:52:58,548[8 ] | [INFO ] [OSAgingTool] | Unit Info Retuen Success!
+2025-10-24 07:52:58,551[8 ] | [INFO ] [OSAgingTool] | HwSwConfig OK!
+2025-10-24 07:52:58,619[8 ] | [INFO ] [OSAgingTool] | GetTaskEventErrorRecords OK!
+2025-10-24 07:52:58,662[8 ] | [INFO ] [OSAgingTool] | GetKpiResult OK!
+2025-10-24 07:52:58,680[8 ] | [INFO ] [OSAgingTool] | Create Report Data End.
+2025-10-24 07:52:58,681[8 ] | [INFO ] [OSAgingTool] | Create HTML Report Start...
+2025-10-24 07:52:59,508[8 ] | [INFO ] [OSAgingTool] | Create HTML Report End.
+2025-10-24 07:52:59,508[8 ] | [INFO ] [OSAgingTool] | Write Old Report Start...
+2025-10-24 07:52:59,571[8 ] | [INFO ] [OSAgingTool] | Write Old Report End.
+2025-10-24 07:52:59,571[8 ] | [INFO ] [OSAgingTool] | Auto Exit...
+2025-10-24 07:55:20,009[1 ] | [INFO ] [OSAgingTool] | 
+[*]WELCOME TO SX ASSESSMENT SUITE BELONG TO LC FUTURE CENTER![*]
+2025-10-24 07:55:20,018[1 ] | [INFO ] [OSAgingTool] | Command:C:\OSAging\OSAgingTool.exe MFG
+2025-10-24 07:55:20,169[1 ] | [DEBUG] [OSAgingTool] | Database init.
+2025-10-24 07:55:20,393[1 ] | [DEBUG] [OSAgingTool] | Load default sequence.
+2025-10-24 07:55:20,683[1 ] | [DEBUG] [OSAgingTool] | Load default configuration.
+2025-10-24 07:55:22,031[1 ] | [DEBUG] [OSAgingTool] | Load-ui main area view.
+2025-10-24 07:55:29,225[12] | [DEBUG] [OSAgingTool] | _mBackMainThread Start
+2025-10-24 07:55:29,227[14] | [DEBUG] [OSAgingTool] | On the system exception check,wait a minute...
+2025-10-24 07:55:29,231[1 ] | [INFO ] [OSAgingTool] | Monitor System Event
+2025-10-24 07:55:29,235[14] | [INFO ] [OSAgingTool] | Check system error start...CheckBsodEvent[True],CheckDirtyShutdown[True]
+2025-10-24 07:55:29,240[14] | [WARN ] [OSAgingTool] | LFC DEBUG NOT ENABLE. CAN'T CHECK HUNG AND SHUTDOWN ID.
+2025-10-24 07:55:29,338[14] | [INFO ] [OSAgingTool] | Check system error end...
+2025-10-24 07:55:29,929[1 ] | [DEBUG] [OSAgingTool] | Lid status: Opened.
+2025-10-24 07:55:29,936[1 ] | [DEBUG] [OSAgingTool] | Power source: AC.
+2025-10-24 07:55:29,936[1 ] | [DEBUG] [OSAgingTool] | Battery percentage remaining 66%.
+2025-10-24 07:55:30,031[14] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:55:30,039[14] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Check SysPrep=>Int32 CheckSysPrep(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:56:21,038[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}
+2025-10-24 07:56:21,052[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Intel(R) Wi-Fi 7 BE201 320MHz #6 Detail:\\?\PCI#VEN_8086&DEV_A840&SUBSYS_00E48086&REV_10#3&11583659&1&A3#{cac88484-7515-4c03-82e6-71a87abac361}\{97B09EB3-50C8-48AD-AA11-ED21F6C68A0E}
+2025-10-24 07:56:29,565[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Microsoft Print to PDF Detail:\\?\SWD#PRINTENUM#{D5E2D683-FB60-4D9B-B082-413FB83AFAA2}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}
+2025-10-24 07:56:59,580[14] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:57:00,920[14] | [INFO ] [OSAgingTool] | Countdown:0,Step3:Device Information Enumeration=>Int32 DeviceEnumerationMaternal(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:57:01,923[14] | [INFO ] [OSAgingTool] | GetExecutiveItem, Index:0
+2025-10-24 07:57:02,009[14] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Ms Scenario Prepare=>Int32 PrepareScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:57:02,079[14] | [INFO ] [OSAgingTool] | Change system sleep time1 sucess.
+2025-10-24 07:57:02,110[14] | [INFO ] [OSAgingTool] | Change system sleep time2 sucess.
+2025-10-24 07:57:02,110[14] | [INFO ] [OSAgingTool] | Countdown:90,Step1:Ms Scenario Prepare=>Int32 PrepareScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:57:03,119[14] | [INFO ] [OSAgingTool] | Countdown:89,Step2:Ms Scenario Pre-Action=>Int32 PreActionScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:57:03,121[14] | [INFO ] [OSAgingTool] | Countdown:89,Step2:Ms Scenario Pre-Action=>Int32 PreActionScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:57:04,121[14] | [INFO ] [OSAgingTool] | Countdown:88,Step3:Execute Ms Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:57:04,153[14] | [INFO ] [OSAgingTool] | Write AlreadyExecuteFlag:32ea8c3b-75d6-45ba-924c-0ceb68d511d8_1
+2025-10-24 07:57:04,284[14] | [INFO ] [OSAgingTool] | Command:C:\OSAging\Chain\SysTool\Amd64\PwrTest\pwrtest_26100.exe /lf:C:\OSAging\Result\2025_10_24_07_55_29\PwrTest\Temp /cs /delaywrite /c:1 /d:3 /p:120 /etwbuffersize:1024 /etwmaxbuffers:512
+2025-10-24 07:59:09,477[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}
+2025-10-24 07:59:09,801[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}
+2025-10-24 07:59:09,868[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}
+2025-10-24 07:59:10,022[1 ] | [DEBUG] [OSAgingTool] | Device disabled.Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}
+2025-10-24 07:59:10,028[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{a5dcbf10-6530-11d2-901f-00c04fb951ed}
+2025-10-24 07:59:10,028[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{ad498944-762f-11d0-8dcb-00c04fc3358c}\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}
+2025-10-24 07:59:10,038[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}\{F1D5D758-7E80-443D-AD9D-EC89E565EA4D}
+2025-10-24 07:59:10,038[1 ] | [DEBUG] [OSAgingTool] | Device enabled.Device:Realtek USB GbE Family Controller #7 Detail:\\?\USB#VID_0BDA&PID_8153#02191ACF8#{cac88484-7515-4c03-82e6-71a87abac361}
+2025-10-24 07:59:18,696[14] | [INFO ] [OSAgingTool] | Start: PwrTest
+SYSTEM_POWER_CAPABILITIES 
+    SystemS1StateSupported = 0 
+    SystemS2StateSupported = 0 
+    SystemS3StateSupported = 0 
+    SystemS4StateSupported = 1 
+    SystemS5StateSupported = 1 
+    WakeAlarmPresent       = 1 
+    AcOnLineWakeSupported  = 0 
+    RtcWakeSupported       = S4 
+    FastSystemS4           = 0 
+    VideoDimPresent        = 1 
+    HiberFilePresent       = 1 
+    AoAc                   = 1 
+
+Press 'Q' to quit early
+
+
+#########################################
+Connected Standby Cycle 1
+#########################################
+07:57:10.319  --->Entering Connected Standby
+07:57:10.319    <---Exiting No CS Phase
+07:57:10.319    --->Entering Connection Phase
+07:57:10.319    <---Exiting Connection Phase
+07:57:10.319    --->Entering Presence Phase
+07:57:10.319    <---Exiting Presence Phase
+07:57:10.319    --->Entering PLM Phase
+07:57:10.356    <---Exiting PLM Phase
+07:57:10.356    --->Entering Maintenance Phase
+07:57:10.356    <---Exiting Maintenance Phase
+07:57:10.356    --->Entering DAM Phase
+07:57:10.394    <---Exiting DAM Phase
+07:57:10.394    --->Entering Low Power Phase
+07:57:15.735    <---Exiting Low Power Phase
+07:57:15.735    --->Entering Resiliency Notification Phase
+07:57:15.735    <---Exiting Resiliency Notification Phase
+07:57:15.735    --->Entering Resiliency Phase
+07:59:09.409  <---Exiting Connected Standby
+07:59:09.413    <---Exiting Resiliency Phase
+07:59:09.413    --->Entering Resiliency Notification Phase
+07:59:09.413    <---Exiting Resiliency Notification Phase
+07:59:09.413    --->Entering Low Power Phase
+07:59:09.413    <---Exiting Low Power Phase
+07:59:09.413    --->Entering DAM Phase
+07:59:09.414    <---Exiting DAM Phase
+07:59:09.414    --->Entering Maintenance Phase
+07:59:09.414    <---Exiting Maintenance Phase
+07:59:09.414    --->Entering PLM Phase
+07:59:09.415    <---Exiting PLM Phase
+07:59:09.415    --->Entering Presence Phase
+07:59:09.415    <---Exiting Presence Phase
+07:59:09.415    --->Entering Connection Phase
+07:59:09.415    <---Exiting Connection Phase
+07:59:09.415    --->Entering No CS Phase
+07:59:09.873  ====Exited Connected Standby
+-----------------------------------------
+Platform Idle Transition Counts
+  Supported Platform States: 2
+  Index  Succeeded  Failed  Cancelled
+  -----------------------------------
+      0          0       0          0
+      1          0       0          0
+-----------------------------------------
+End: Pass, PwrTest, (null)
+
+2025-10-24 07:59:18,710[14] | [INFO ] [OSAgingTool] | Countdown:88,Step3:Execute Ms Scenario=>Int32 ExecuteScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 07:59:19,733[14] | [INFO ] [OSAgingTool] | Countdown:87,Step4:Resumed From Ms Scenario=>Int32 ResumedScenario(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 07:59:19,737[14] | [INFO ] [OSAgingTool] | Countdown:87,Step4:Resumed From Ms Scenario=>Int32 ResumedScenario(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 08:00:37,118[14] | [INFO ] [OSAgingTool] | Countdown:10,Step6:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 08:00:37,118[14] | [INFO ] [OSAgingTool] | Device Scan Begin...
+2025-10-24 08:00:37,122[14] | [INFO ] [OSAgingTool] | Located devnode
+2025-10-24 08:00:38,839[14] | [INFO ] [OSAgingTool] | Device Scan Finished.
+2025-10-24 08:00:38,839[14] | [INFO ] [OSAgingTool] | Countdown:10,Step6:Device Scan=>Int32 DeviceScan(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 08:00:48,880[14] | [INFO ] [OSAgingTool] | Countdown:0,Step7:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 08:00:49,179[14] | [INFO ] [OSAgingTool] | Countdown:0,Step7:Device Information Enumeration=>Int32 DeviceEnumeration(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 08:00:49,179[14] | [INFO ] [OSAgingTool] | Countdown:0,Step8:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!Start
+2025-10-24 08:00:49,185[14] | [INFO ] [OSAgingTool] | Check Device Change:True,Check Device Error:True
+2025-10-24 08:00:49,197[14] | [INFO ] [OSAgingTool] | Countdown:0,Step8:Check Device Information=>Int32 DeviceChangesAndError(OSAgingTool.Model.ExecutiveItemModel)!End
+2025-10-24 08:00:50,435[14] | [INFO ] [OSAgingTool] | Create Report Data Start...
+2025-10-24 08:00:50,528[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_OSInfo
+2025-10-24 08:00:50,529[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_DriverInfo
+2025-10-24 08:00:53,813[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_AppInfo
+2025-10-24 08:00:53,816[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_QFEInfo
+2025-10-24 08:00:54,450[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_FWInfo
+2025-10-24 08:00:54,450[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_SW_BIOSECInfo
+2025-10-24 08:00:54,458[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_EnumPNPDevice
+2025-10-24 08:00:54,743[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_CPUInfo
+2025-10-24 08:00:55,789[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_NetWorkInfo
+2025-10-24 08:00:56,310[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_RAMInfo
+2025-10-24 08:00:56,321[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DiskInfo
+2025-10-24 08:00:56,806[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_MonitorInfo
+2025-10-24 08:00:56,812[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_BatteryInfo
+2025-10-24 08:00:56,866[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_HW_DisplayInfo
+2025-10-24 08:00:58,266[14] | [INFO ] [OSAgingTool] | Export GPU Info to -> C:\Users\test\AppData\Local\Temp\tmp325D.tmp
+2025-10-24 08:01:06,073[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ExtraCPU
+2025-10-24 08:01:06,074[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_TjMax - Skip
+2025-10-24 08:01:06,074[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_DPI
+2025-10-24 08:01:06,074[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PowerPlan
+2025-10-24 08:01:06,077[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_RAM
+2025-10-24 08:01:06,077[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_PreloadInfo
+2025-10-24 08:01:06,078[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_ProductInfo
+2025-10-24 08:01:06,109[14] | [INFO ] [OSAgingTool] | Invoke InfoQuery Function: Query_Ext_MFGInfo
+2025-10-24 08:01:06,118[14] | [INFO ] [OSAgingTool] | Unit Info Retuen Success!
+2025-10-24 08:01:06,124[14] | [INFO ] [OSAgingTool] | HwSwConfig OK!
+2025-10-24 08:01:06,205[14] | [INFO ] [OSAgingTool] | GetTaskEventErrorRecords OK!
+2025-10-24 08:01:06,247[14] | [INFO ] [OSAgingTool] | GetKpiResult OK!
+2025-10-24 08:01:06,273[14] | [INFO ] [OSAgingTool] | Create Report Data End.
+2025-10-24 08:01:06,274[14] | [INFO ] [OSAgingTool] | Create HTML Report Start...
+2025-10-24 08:01:07,122[14] | [INFO ] [OSAgingTool] | Create HTML Report End.
+2025-10-24 08:01:07,123[14] | [INFO ] [OSAgingTool] | Write Old Report Start...
+2025-10-24 08:01:07,180[14] | [INFO ] [OSAgingTool] | Write Old Report End.
+2025-10-24 08:01:07,180[14] | [INFO ] [OSAgingTool] | Auto Exit...

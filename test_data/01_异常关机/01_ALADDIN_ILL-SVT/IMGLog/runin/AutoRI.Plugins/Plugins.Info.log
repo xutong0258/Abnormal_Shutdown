@@ -1,0 +1,739 @@
+
+2025-10-24 07:09:15,508[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 07:09:35,022[13] | [INFO ] [CloudBeans.dll]| Post->http://150.213.1.1:39202/register:{"MachinePartNumber":"MSF5091023B","ProductName":"ALADDIN_ILL","ProjectPhase":"SVT","ProductType":"TPG","PlatformType":"INTEL","OrderId":"22214902","ModelId":"MSF50","RemarkJsonStr":"{\"RESULT\":\"ONRACK_OK\",\"PORTIDBOM\":\"183D2DF76714\",\"ORDER_TYPE\":\"CTO\",\"MOID\":\"22214902\",\"MTM\":\"21Q6CTO1WW\",\"CUSTOMERPN\":\"21Q6CTO1WW\",\"MBFRULABPN\":\"SL11R35484\",\"RAMCOUNT\":\"0\",\"HDDCOUNT\":\"1\",\"LINENUM\":\"F\",\"BATTERYCOUNT\":\"1\",\"AMDTSCKEY\":\"N/A\",\"ANTENNA\":\"DC330025B00\",\"ASSETTAGPN\":\"N/A\",\"ATGFLG\":\"N/A\",\"BAGPN\":\"N/A\",\"BTKBD\":\"N/A\",\"BTPN\":\"N/A\",\"CAM3DPN1\":\"N/A\",\"CAM3DPN\":\"N/A\",\"CAMERAPN1\":\"N/A\",\"CAMERAPN\":\"PK40001S500\",\"CLICKPADPN1\":\"PK09001E500\",\"CLICKPADPN\":\"N/A\",\"CMOSPN\":\"N/A\",\"CPUPN\":\"N/A\",\"CVF\":\"N/A\",\"DISICPSPN\":\"N/A\",\"EARBUDSPN\":\"N/A\",\"EARPHONEPN\":\"N/A\",\"EIDPN\":\"N/A\",\"FCC_FLAGPN\":\"LIF1DB01000\",\"FINGPRINTPN1\":\"N/A\",\"FINGPRINTPN\":\"PK09001DN00\",\"FLAGPN\":\"LIF11P01000\",\"FWSECEKKEY\":\"N/A\",\"G3PN\":\"N/A\",\"GIFTBOXPN\":\"HA3K5000100\",\"GPUBPN\":\"N/A\",\"H-CONNPN\":\"DA300012410\",\"HPDBPN\":\"N/A\",\"ICPSPN\":\"LIF29R01000\",\"INTELTXTPN\":\"N/A\",\"INTERBIOS\":\"N/A\",\"IRCAMERAPN\":\"N/A\",\"KBDLANG_FLAG\":\"LIF1L110000\",\"KBPN1\":\"PK133LS1A20\",\"KBPN\":\"N/A\",\"LAN/B\":\"N/A\",\"LEGACYFLAG\":\"N/A\",\"LIDPN1\":\"N/A\",\"LIDPN\":\"N/A\",\"LOBIOSPN\":\"N/A\",\"LOG_COVER\":\"5134V601002\",\"MBPN\":\"4511UG0111N\",\"MICB1\":\"N/A\",\"MICB\":\"N/A\",\"MSATAPN\":\"N/A\",\"NEC_CLOTH\":\"N/A\",\"NFCPN1\":\"N/A\",\"NFCPN\":\"N/A\",\"NOHDD1FLAG\":\"N/A\",\"NOHDD2FLAG\":\"N/A\",\"NOLANCHIP\":\"N/A\",\"NONPLASTICPN\":\"N/A\",\"NOSSD1FLAG\":\"N/A\",\"NOSSD2FLAG\":\"N/A\",\"ODDPN\":\"N/A\",\"PBIOS\":\"N/A\",\"RAIDPN\":\"N/A\",\"RAIDTYPEPN\":\"N/A\",\"REARCAMERA\":\"N/A\",\"SC4PPW\":\"N/A\",\"SMARTCARDPN\":\"N/A\",\"SPEAKER\":\"N/A\",\"SSDBRACKET\":\"AM3K5000H00\",\"SSDSN\":\"8SSSS1D33688D3CM57X04AP\",\"SSDSPEC1\":\"512GB\",\"SSDSPEC2\":\"PCIE\",\"SSDSPEC3\":\"N/A\",\"TDS_FLAG\":\"N/A\",\"THERMALPN\":\"AT3K50020F0\",\"TPMFLAG\":\"N/A\",\"TPMKEY\":\"N/A\",\"TPMTYPEPN\":\"LIF1A10A000\",\"TSCKEY\":\"N/A\",\"UPPN\":\"N/A\",\"VGABPN\":\"N/A\",\"VPROFLG\":\"N/A\",\"VPROPN\":\"N/A\",\"WIGIGPN1\":\"N/A\",\"WIGIGPN\":\"N/A\",\"WIN732\":\"N/A\",\"WIRELESSPN\":\"N/A\",\"XBOXPN\":\"N/A\",\"NBID\":\"2221490200001\",\"SSN\":\"PF5XXDFZ\",\"ASSETTAG\":\"N/A\",\"MODELID\":\"MSF50\",\"SWIDNUM\":\"MSF5091023B\",\"MO_FAST_SHIP\":\"N/A\",\"MBSN\":\"2183767600005\",\"DBMAC\":\"183D2DF76714\",\"UUID\":\"2D973DCB991F4ACD828A183D2DF76714\",\"MB11S\":\"8SSB21R92119L1HF58G0005\",\"MBKPDESC\":\"PCBA MB NMG471 MSF50 LNL U5 32GB UMA NM\",\"MB_MODEL_ID\":\"MSF50\",\"PANELTYPE\":\"TOUCH\",\"PANELPN1\":\"AC600021L00\",\"AODPN1\":\"LE1U800G000\",\"AODPN2\":\"LE3GU01P000\",\"AODPN3\":\"LE3K5004000\",\"AODPN4\":\"LE3K5005000\",\"AODPN5\":\"LE3K5006000\",\"AODPN6\":\"LE3K501T000\",\"AODPN7\":\"LE3K501U000\",\"AODPN8\":\"LE3K501V000\",\"APPPN1\":\"N/A\",\"SWDLPN1\":\"N/A\",\"BATTERYPN1\":\"GC02002UK00\",\"BATTINERPN1\":\"GC02002UK00\",\"TPAF\":\"N/A\",\"MEMORYPN1\":\"N/A\",\"HDDPN1\":\"N/A\",\"SSHDPN1\":\"N/A\",\"SSDPN1\":\"DD90001AA00\",\"SSDPN1_Speed\":\"\",\"OSSPEC\":\"N/A\",\"WIN8OSDESC\":\"W11 Pro NG DPK WW\",\"OA30VER\":\"WIN\",\"DPKPN\":\"SDK0T76575\",\"COUNTRY\":\"PT\",\"ZCOUNTRY\":\"PT\",\"COUNTRYPOR\":\"N/A\",\"IMAGEPN\":\"LE3K501C000\",\"RAMSIZE\":\"32G\",\"MOQTY\":\"1\",\"MOINPUTQTY\":\"1\",\"LOT_COUNT\":\"1\",\"ORDER_CREATE_TIME\":\"2025-10-22 09:05:02\",\"PRODUCT_ORDER\":\"22214902\",\"IMEI\":\"N/A\",\"DBWLMAC\":\"N/A\",\"MTMNO\":\"21Q6\",\"BRANDNAME\":\"X9-15 Gen 1\",\"ASSETW\":\"NO\",\"SCMOSPN\":\"N/A\",\"SPBIMAGEFLAG\":\"N\",\"STATUS\":\"RUNIN\",\"UPDESC\":\"LOG UP ASSY MSF50 BKLT BK FPR POR\",\"UPFINGER\":\"Y\",\"UPNFC\":\"N\",\"BIOSLNVPN\":\"N/A\",\"HDCP_KEY\":\"N/A\",\"HDCP_PN\":\"N/A\",\"HDCP_PEMCRC\":\"N/A\",\"AMTDESC\":\"NOAMT\",\"TPMDESC\":\"TPM\",\"PO_DUE_DATE\":\"2025/10/26\",\"OTS_TARGET_DATE\":\"2025/10/09\",\"SHIPDAY\":\"2\",\"AGDAY\":\"1\",\"NBTYPE\":\"2ASSYF\",\"NEC_BTO_CODE\":\"N/A\",\"NEC_MODEL_NUMBER\":\"N/A\",\"REP_FLAG\":\"Y\",\"TAT_TIME\":\"20\",\"RUNIN_IN_COUNT\":\"1\",\"TPDL_IN_COUNT\":\"1\",\"PROCESS_NAME\":\"ASSYPACKING\",\"DOCK_MAC\":\"N/A\",\"TPM_KEY\":\"N/A\",\"KBSPEC1\":\"POR\",\"KBSPEC2\":\"BL\",\"KBSPEC3\":\"MATRIX-UK\",\"ERRORCODE\":\"4K38\",\"ERRORCOUNT\":\"1\",\"SWDLINQTY\":\"0\",\"MCR_TIME\":\"2.05\",\"MCR_QTY\":\"1/1\",\"LASER_PRINT\":\"TRUE\"}","MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"}
+
+2025-10-24 07:09:35,467[13] | [INFO ] [CloudBeans.dll]| Reponse->http://150.213.1.1:39202/register:{"data":{"id":"e2f4e16a01754d67ab6b8e273f139901","timeStamp":"2025-10-24 07:10:13"},"code":"200","msg":"success"}
+
+2025-10-24 07:10:13,000[13] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 07:10:13,022[13] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 07:10:13,024[13] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 07:10:13,024[22] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 07:10:32,528[14] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 07:10:32,536[22] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 07:12:53,347[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 07:12:58,346[10] | [INFO ] [iTestBeans.dll] | Post->http://150.213.1.1:8088/V3/api/OnlLine/On:{"RulePlus":null,"ip":null,"LoacationID":"1S1300101633","bom":{"RESULT":"ONRACK_OK","PORTIDBOM":"183D2DF76714","ORDER_TYPE":"CTO","MOID":"22214902","CUSTOMERPN":"21Q6CTO1WW","OA3PID":null,"OA3KEY":null,"RAMCOUNT":"0","HDDCOUNT":"1","LINENUM":"F","BATTERYCOUNT":"1","ANTENNA":"N/A","ASSETTAGPN":"N/A","ATGFLG":"N/A","BEZELPN":null,"BLDMBPN":null,"BTPN":"N/A","CAM3DPN1":"N/A","CAM3DPN":"N/A","CAMERAPN1":"N/A","CAMERAPN":"N/A","CLICKPADPN":"N/A","CMOSPN":"N/A","CPUPN":"N/A","FINGPRINTPN1":"N/A","FINGPRINTPN":"PK09001DN00","FLAGPN":"LIF1XX01000","G3PN":"N/A","IRCAMERAPN":null,"KBPN":"N/A","LEGACYFLAG":"N/A","LIDPN1":"N/A","LIDPN":"N/A","LOBIOSPN":"N/A","MBPN":"4511UG0111N","MSATAPN":"N/A","NFCPN1":"N/A","NFCPN":"N/A","ODDPN":"N/A","QR_LABEL":null,"SMARTCARDPN":"N/A","SPEAKER":"N/A","UPPN":"N/A","VGABPN":"N/A","WIRELESSPN":"N/A","XBOXPN":"N/A","NBID":"2221490200001","SSN":"PF5XXDFZ","ASSETTAG":"N/A","MODELID":"MSF50","SWIDNUM":"MSF5091023B","MBSN":"2183767600005","DBMAC":"183D2DF76714","UUID":"2D973DCB991F4ACD828A183D2DF76714","MB11S":"8SSB21R92119L1HF58G0005","MBKPDESC":"PCBA MB NMG471 MSF50 LNL U5 32GB UMA NM","PANELTYPE":"TOUCH","PANELPN1":"AC600021L00","AODPN1":"LE1U800G000","APPPN1":"N/A","SWDLPN1":"N/A","BATTERYPN1":"GC02002UK00","BATTINERPN1":"GC02002UK00","TPAF":"N/A","MEMORYPN1":"N/A","HDDPN1":"N/A","SSHDPN1":"N/A","SSDPN1":"DD90001AA00","OSSPEC":"N/A","WIN8OSDESC":"W11 Pro NG DPK WW","DPKPN":"SDK0T76575","COUNTRY":"PT","IMAGEPN":"LE3K501C000","RAMSIZE":"32G","MOQTY":"1","MOINPUTQTY":"1","IMEI":"N/A","DBWLMAC":"N/A","MTMNO":"21Q6","ASSETW":"NO","SCMOSPN":null,"SPBIMAGEFLAG":"N","ORTMODEL":null,"SWDL_IN_COUNT":null,"RUNIN_IN_COUNT":"1","ASSETPRINT":null,"PACKTYPE":null,"NPIDPK":null,"MOCR":null,"TAG_PN":null,"BIOSLNVPN":"N/A","OHR1":null,"OHR2":null,"PO_DUE_DATE":"2025/10/26","SHIPDAY":"2","AGDAY":"1","NBTYPE":"2ASSYF","NEC_BTO_CODE":"N/A","NEC_MODEL_NUMBER":"N/A","REP_FLAG":"Y","TAT_TIME":"20"}}
+
+2025-10-24 07:12:58,943[10] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V3/api/OnlLine/On:{"MD5":null,"jsonText":"{\"HistoryGuid\":\"d3032de8-6707-4a61-a07a-210bbf7ad87b\",\"actionResult\":{\"id\":1649,\"ModelName\":\"MSF50\",\"GotoSequenceID\":null,\"LastUpdateTime\":null,\"KPIResult\":\"\",\"BootTime\":null,\"D3MarkSky\":null,\"BIOS\":\"\",\"BIOSForceUpdate\":true,\"ProductName\":\"Aladdin_ILL\",\"ProjectName\":\"Aladdin_ILL\",\"FamilyName\":\"Aladdin_ILL\",\"RuninFinishRun\":\"\",\"TestMode\":\"NPI\",\"BeepVioce\":1,\"EC\":null,\"ECForceUpdate\":null},\"kpConfig\":null,\"ModelList\":\"MSF50\",\"runTask\":[{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":354,\"TestOrder\":null,\"GroupID\":12,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"Disk S.M.A.R.T Collection[1Time]\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"[AutoRI V3.20.0.10???????]  1?\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\DiskInfo\\\\DiskInfo.exe\",\"RebootAfterTest\":false,\"MonitorTemp\":false,\"LockLCD\":false,\"TestCMD\":\"\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":1,\"ToolVersion\":\"2.0.0.0\",\"id\":36084,\"ControlMode\":2},\"UpdateHistoryGuid\":\"aa1b495f-609f-4c38-ab1d-cc375e1e6a84\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":355,\"TestOrder\":null,\"GroupID\":12,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"HwSw Data Collection[1Time]\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"[AutoRI V3.20.0.10???????]  1?\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\HwSwConfigConsole\\\\HwSwConfigConsole.exe\",\"RebootAfterTest\":false,\"MonitorTemp\":false,\"LockLCD\":false,\"TestCMD\":\"\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":1,\"ToolVersion\":\"2.0.0.0\",\"id\":36085,\"ControlMode\":2},\"UpdateHistoryGuid\":\"a32e1f6d-2df7-4a9c-8c86-a5180d7cc90f\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":455,\"TestOrder\":null,\"GroupID\":22,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"LDiag-Shell[1Min]\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"[AutoRI V3.20.0.10???????]  1Min\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\LDiagShell\\\\LDiag.exe\",\"RebootAfterTest\":false,\"MonitorTemp\":false,\"LockLCD\":true,\"TestCMD\":null,\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":1,\"ToolVersion\":\"2.0.0.0\",\"id\":36086,\"ControlMode\":4},\"UpdateHistoryGuid\":\"c9d03b33-d7b6-474b-b690-c0e07db60373\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":399,\"TestOrder\":null,\"GroupID\":8,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"Power Conversion Test-WB[1Time]\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"[AutoRI V3.20.0.10???????]  1?\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\PowerTestSx\\\\PowerTestSx.exe\",\"RebootAfterTest\":true,\"MonitorTemp\":false,\"LockLCD\":false,\"TestCMD\":\"WB\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":1,\"ToolVersion\":\"2.0.0.0\",\"id\":36087,\"ControlMode\":4},\"UpdateHistoryGuid\":\"b54dce1b-480c-45f0-8771-2ed20c3c5237\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":395,\"TestOrder\":null,\"GroupID\":8,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"Power Conversion Test-MS[1Time]\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"[AutoRI V3.20.0.10???????]  1?\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\PowerTestSx\\\\PowerTestSx.exe\",\"RebootAfterTest\":true,\"MonitorTemp\":false,\"LockLCD\":false,\"TestCMD\":\"MS\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":1,\"ToolVersion\":\"2.0.0.0\",\"id\":36088,\"ControlMode\":2},\"UpdateHistoryGuid\":\"c98e3985-564d-4fbf-a86d-de48693d82ed\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":670,\"TestOrder\":null,\"GroupID\":21,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"CGTTPXA_CPU[15MIN]\",\"UpdateHistoryGuid\":null,\"SPECKey\":\"\",\"Del\":null,\"ParameterName1\":\"\",\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"CGTT PXA CPU performance mode singleroast Test\",\"Parameter1\":\"\",\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\PXA\\\\PXACmd.exe\",\"RebootAfterTest\":true,\"MonitorTemp\":false,\"LockLCD\":true,\"TestCMD\":\"/Job CPU_Single\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":15,\"ToolVersion\":\"1.0.0.0\",\"id\":36089,\"ControlMode\":2},\"UpdateHistoryGuid\":\"8d3c59b8-6773-49d5-a1d5-1770109ccc17\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":760,\"TestOrder\":null,\"GroupID\":21,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"CGTT-TATStress-5mins_TBG\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"?AutoRI V3.20.0.10????????\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\CGTT\\\\CGTT.Console.exe\",\"RebootAfterTest\":true,\"MonitorTemp\":false,\"LockLCD\":true,\"TestCMD\":\"-Job=TATStress\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":5,\"ToolVersion\":\"2.0.0.0\",\"id\":36090,\"ControlMode\":2},\"UpdateHistoryGuid\":\"4978cebe-de9b-4499-9ef3-d4b91025dafb\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":114,\"TestOrder\":null,\"GroupID\":9,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"3DMarkPXA_Stress_Final[10Min]\",\"UpdateHistoryGuid\":null,\"SPECKey\":\"\",\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"One folder for 3DMark PXA Stress Test\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\PXA\\\\PXACmd.exe\",\"RebootAfterTest\":true,\"MonitorTemp\":true,\"LockLCD\":true,\"TestCMD\":\"/Job 3DMarkStress\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":10,\"ToolVersion\":\"1.0.0.0\",\"id\":36091,\"ControlMode\":2},\"UpdateHistoryGuid\":\"f60faceb-b97b-4fac-a89a-3bf0bcb9f29e\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":451,\"TestOrder\":null,\"GroupID\":10,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"BurnIn Test(NoTemp)[5Min]\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"[AutoRI V3.20.0.10???????]  ????? 5Min\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\BurnIn9Test\\\\BurnIn9Test.exe\",\"RebootAfterTest\":true,\"MonitorTemp\":false,\"LockLCD\":true,\"TestCMD\":\"\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":5,\"ToolVersion\":\"2.0.0.0\",\"id\":36092,\"ControlMode\":2},\"UpdateHistoryGuid\":\"1d6118c1-5b6a-4465-8ad1-51779a71d35c\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":398,\"TestOrder\":null,\"GroupID\":8,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"Power Conversion Test-S4[1Time]\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"[AutoRI V3.20.0.10???????]  1?\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\PowerTestSx\\\\PowerTestSx.exe\",\"RebootAfterTest\":true,\"MonitorTemp\":false,\"LockLCD\":false,\"TestCMD\":\"S4\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":1,\"ToolVersion\":\"2.0.0.0\",\"id\":36093,\"ControlMode\":2},\"UpdateHistoryGuid\":\"97d3e0cf-d7f9-4801-bd6f-5b5ed736fa73\",\"DynamicType\":0,\"DoubleRun\":false},{\"testSequence\":{\"SequenceName\":\"Alloy_SIT_MSS4WB_50c_2H\",\"SequenceDesc\":\"MCF40\",\"TestItemID\":354,\"TestOrder\":null,\"GroupID\":12,\"AddUser\":null,\"SequenceID\":2538,\"TestItemName\":\"Disk S.M.A.R.T Collection[1Time]\",\"UpdateHistoryGuid\":null,\"SPECKey\":null,\"Del\":null,\"ParameterName1\":null,\"ParameterName2\":null,\"ParameterName3\":null,\"ParameterName4\":null,\"ParameterName5\":null,\"ParameterName6\":null,\"TestItemDesc\":\"[AutoRI V3.20.0.10???????]  1?\",\"Parameter1\":null,\"Parameter2\":null,\"Parameter3\":null,\"Parameter4\":null,\"Parameter5\":null,\"Parameter6\":null,\"ToolPath\":\"C:\\\\Program Files (x86)\\\\AutoRI\\\\Config\\\\TestModules\\\\DiskInfo\\\\DiskInfo.exe\",\"RebootAfterTest\":false,\"MonitorTemp\":false,\"LockLCD\":false,\"TestCMD\":\"\",\"TestCycle\":1,\"PassReturn\":\"0\",\"TestTime\":1,\"ToolVersion\":\"2.0.0.0\",\"id\":36094,\"ControlMode\":2},\"UpdateHistoryGuid\":\"b1eb9838-50a6-4aa2-a29d-c15cb0971864\",\"DynamicType\":0,\"DoubleRun\":false}],\"clientActionResult\":null,\"clientActionTestitem\":[],\"error\":null}","obj1":null,"obj2":null,"remark1":null,"remark2":null,"encrypt":false,"TimeFlg":"1761259214774.8","Result":"Successful"}
+
+2025-10-24 07:12:21,152[10] | [INFO ] [iTestBeans.dll] | Post->http://150.213.1.1:39204/api/gateway:{"OBJS":[{"SSN":"PF5XXDFZ","MBID":"2183767600005","NBID":"2221490200001","MAC":"183D2DF76714"}]}
+
+2025-10-24 07:12:21,190[10] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:39204/api/gateway:{"status":true,"data":null,"message":"Receive data sucessed."}
+
+2025-10-24 07:12:28,887[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 07:12:28,899[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 07:12:28,914[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 07:12:28,918[21] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 07:12:47,267[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:plan/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"TaskClasses":[{"TaskSequenceNumber":0,"TaskUuid":"16355004d757487fa790b62e8c73b6de","ParentTaskUuid":null,"ModelUuid":"55233e5b473baf86ca04ef75162593c4","TaskIgnore":false,"TaskCaseSectionDescription":"AutoRI Top Task","TaskType":"AutoRI Top Task","TestToolPath":null,"TaskModelVersion":null,"Command":null,"LoopCycles":"0","TestTime":null,"TestTimeExpect":null,"PassReturnCode":null,"IsReboot":false,"IsMonitorTemp":false,"IsLock":false,"ControlMode":null,"RemarkJsonStr":""},{"TaskSequenceNumber":1,"TaskUuid":"098f6f2496c94f5cb2a3fd4b476f0deb","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"60db68f38eab24fa9a05139e7fbc0725","TaskIgnore":false,"TaskCaseSectionDescription":"Disk S.M.A.R.T Collection[1Time]","TaskType":"DiskInfo","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\DiskInfo\\DiskInfo.exe","TaskModelVersion":"2.0.7.1009","Command":"","LoopCycles":"1","TestTime":"1","TestTimeExpect":"1","PassReturnCode":"0","IsReboot":false,"IsMonitorTemp":false,"IsLock":false,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""},{"TaskSequenceNumber":2,"TaskUuid":"af8ef1bfc91f488687f43717148d13d4","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"af3206dc0aeacc421baf15a23c611799","TaskIgnore":false,"TaskCaseSectionDescription":"HwSw Data Collection[1Time]","TaskType":"HwSw Data Collection[1Time]","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\HwSwConfigConsole\\HwSwConfigConsole.exe","TaskModelVersion":"1.21.1.2","Command":"","LoopCycles":"1","TestTime":"1","TestTimeExpect":"1","PassReturnCode":"0","IsReboot":false,"IsMonitorTemp":false,"IsLock":false,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""},{"TaskSequenceNumber":3,"TaskUuid":"5432a5aa99de42aa9a84d9e924670268","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"c887971e9d0fe4a26a94e81f626add68","TaskIgnore":false,"TaskCaseSectionDescription":"LDiag-Shell[1Min]","TaskType":"Ldiag","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\LDiagShell\\LDiag.exe","TaskModelVersion":"1.0.0.5","Command":"","LoopCycles":"1","TestTime":"1","TestTimeExpect":"1","PassReturnCode":"0","IsReboot":false,"IsMonitorTemp":false,"IsLock":true,"ControlMode":"CaseDesign_Uncontrolled","RemarkJsonStr":""},{"TaskSequenceNumber":4,"TaskUuid":"77c1426068d645a287c2fb1b8a78fb01","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"096966fac374c04b1c39cbadd182cc5b","TaskIgnore":false,"TaskCaseSectionDescription":"Power Conversion Test-WB[1Time]","TaskType":"SxTest(WB)","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PowerTestSx\\PowerTestSx.exe","TaskModelVersion":"1.21.1.2","Command":"WB","LoopCycles":"1","TestTime":"1","TestTimeExpect":"3","PassReturnCode":"0","IsReboot":true,"IsMonitorTemp":false,"IsLock":false,"ControlMode":"CaseDesign_Uncontrolled","RemarkJsonStr":""},{"TaskSequenceNumber":5,"TaskUuid":"74fa8979230343a4a88fa062a14c83ca","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"7d1593b9144de88b693675c70d42e29d","TaskIgnore":false,"TaskCaseSectionDescription":"Power Conversion Test-MS[1Time]","TaskType":"SxTest(MS)","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PowerTestSx\\PowerTestSx.exe","TaskModelVersion":"1.21.1.2","Command":"MS","LoopCycles":"1","TestTime":"1","TestTimeExpect":"4","PassReturnCode":"0","IsReboot":true,"IsMonitorTemp":false,"IsLock":false,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""},{"TaskSequenceNumber":6,"TaskUuid":"a51254d9cea543a5bb3134902beaa9bb","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"cfdab01aa4ccdd080e7cfc1bd58bb8a5","TaskIgnore":false,"TaskCaseSectionDescription":"CGTTPXA_CPU[15MIN]","TaskType":"CGTTPXA_CPU[15MIN]","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PXA\\PXACmd.exe","TaskModelVersion":"1.1.1.0","Command":"/Job CPU_Single","LoopCycles":"1","TestTime":"15","TestTimeExpect":"15","PassReturnCode":"0","IsReboot":true,"IsMonitorTemp":false,"IsLock":true,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""},{"TaskSequenceNumber":7,"TaskUuid":"447b4338743d47e5aa5bdc183bdb02cc","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"3965907dae2abd8b0678548b0ef6ffb5","TaskIgnore":false,"TaskCaseSectionDescription":"CGTT-TATStress-5mins_TBG","TaskType":"CGTT(-Job=TATStress)","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\CGTT\\CGTT.Console.exe","TaskModelVersion":"2.0.9.0","Command":"-Job=TATStress","LoopCycles":"1","TestTime":"5","TestTimeExpect":"5","PassReturnCode":"0","IsReboot":true,"IsMonitorTemp":false,"IsLock":true,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""},{"TaskSequenceNumber":8,"TaskUuid":"06646ef7690a438cb56dfd7d71adf498","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"60cb07f50da8f853ec3392a5e567d8af","TaskIgnore":false,"TaskCaseSectionDescription":"3DMarkPXA_Stress_Final[10Min]","TaskType":"3DMarkPXA_Stress_Final[10Min]","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PXA\\PXACmd.exe","TaskModelVersion":"1.1.1.0","Command":"/Job 3DMarkStress","LoopCycles":"1","TestTime":"10","TestTimeExpect":"10","PassReturnCode":"0","IsReboot":true,"IsMonitorTemp":true,"IsLock":true,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""},{"TaskSequenceNumber":9,"TaskUuid":"c9047f4309ef4799afd192de19a2af3d","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"a4594cf7bb32788c1ab14db98fd1512c","TaskIgnore":false,"TaskCaseSectionDescription":"BurnIn Test(NoTemp)[5Min]","TaskType":"BurnIn9","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\BurnIn9Test\\BurnIn9Test.exe","TaskModelVersion":"1.20.1.3","Command":"","LoopCycles":"1","TestTime":"5","TestTimeExpect":"5","PassReturnCode":"0","IsReboot":true,"IsMonitorTemp":false,"IsLock":true,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""},{"TaskSequenceNumber":10,"TaskUuid":"508bc2b7280b4e9593bac04debf14d8e","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"b6772c5d5de3e1698fd837b505a2e286","TaskIgnore":false,"TaskCaseSectionDescription":"Power Conversion Test-S4[1Time]","TaskType":"SxTest(S4)","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\PowerTestSx\\PowerTestSx.exe","TaskModelVersion":"1.21.1.2","Command":"S4","LoopCycles":"1","TestTime":"1","TestTimeExpect":"4","PassReturnCode":"0","IsReboot":true,"IsMonitorTemp":false,"IsLock":false,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""},{"TaskSequenceNumber":11,"TaskUuid":"f38cb07447564c80906276ddfffea65d","ParentTaskUuid":"16355004d757487fa790b62e8c73b6de","ModelUuid":"60db68f38eab24fa9a05139e7fbc0725","TaskIgnore":false,"TaskCaseSectionDescription":"Disk S.M.A.R.T Collection[1Time]","TaskType":"DiskInfo","TestToolPath":"C:\\Program Files (x86)\\AutoRI\\Config\\TestModules\\DiskInfo\\DiskInfo.exe","TaskModelVersion":"2.0.7.1009","Command":"","LoopCycles":"1","TestTime":"1","TestTimeExpect":"1","PassReturnCode":"0","IsReboot":false,"IsMonitorTemp":false,"IsLock":false,"ControlMode":"CaseDesign_Controlled","RemarkJsonStr":""}],"RemarkJsonStr":null,"ModelUuidTop":"55233e5b473baf86ca04ef75162593c4","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","OperationUuidTop":"3db87aaa975040ab86a4a17f07688fd6","MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 07:12:47,283[21] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 07:12:48,883[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 07:12:48,897[21] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True
+
+2025-10-24 07:13:02,393[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"48557135b9814580adc9860bf9976de1","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"098f6f2496c94f5cb2a3fd4b476f0deb","StartTime":"2025-10-24 07:12:38.38","EndTime":"2025-10-24 07:12:46.46","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(4)!
+
+2025-10-24 07:13:02,427[21] | [INFO ] [CloudBeans.dll]| MessageId = 4 Published = True
+
+2025-10-24 07:13:02,509[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-data/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"FileDataClasses":null,"StructuredDataClasses":[{"Type":"DiskInfo","Version":"1.0","JsonString":"[\r\n  {\r\n    \"disk_type_key\": 3,\r\n    \"disk_model\": \"WD PC SN740 SDDQMQD-512G-1201\",\r\n    \"disk_interface\": \"NVM Express\",\r\n    \"disk_serial_number\": \"2531FC401946\",\r\n    \"disk_firmware_version\": \"73117101\",\r\n    \"disk_size\": 512,\r\n    \"disk_health_status\": \"1\",\r\n    \"disk_power_on_hours\": 3,\r\n    \"disk_power_on_count\": 45,\r\n    \"ssd_warning_temp_threshold\": 60,\r\n    \"ssd_critical_warning\": 0,\r\n    \"ssd_available_spare\": 100.0,\r\n    \"ssd_available_spare_threshold\": 10.0,\r\n    \"ssd_percentage_used\": 0.0,\r\n    \"ssd_host_read_commands\": 758837,\r\n    \"ssd_host_write_commands\": 1328664,\r\n    \"ssd_controller_busy_time\": 4,\r\n    \"ssd_unsafe_shutdowns\": 10,\r\n    \"ssd_media_and_data_integrity_errors\": 0,\r\n    \"ssd_error_information_log_entries\": 0,\r\n    \"ssd_critical_temperature_time\": 0,\r\n    \"max_transfer_mode\": \"PCIe 4.0 x4\",\r\n    \"current_transfer_mode\": \"PCIe 4.0 x4\",\r\n    \"transfer_mode_type\": 0,\r\n    \"ssd_data_units_read\": 51.33978,\r\n    \"ssd_data_units_written\": 99.55174\r\n  }\r\n]","RemarkJsonStr":null}],"OperationUuid":"48557135b9814580adc9860bf9976de1","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(5)!
+
+2025-10-24 07:13:02,549[21] | [INFO ] [CloudBeans.dll]| MessageId = 5 Published = True
+
+2025-10-24 07:13:17,739[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"aa9fad00306c4bb6b4004995ab624e9d","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"af8ef1bfc91f488687f43717148d13d4","StartTime":"2025-10-24 07:13:04.04","EndTime":null,"FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Working","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(6)!
+
+2025-10-24 07:13:17,739[21] | [INFO ] [CloudBeans.dll]| MessageId = 6 Published = True
+
+2025-10-24 07:13:48,890[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(7)!
+
+2025-10-24 07:13:48,890[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=aa1b495f-609f-4c38-ab1d-cc375e1e6a84&sn=PF5XXDFZ&dt=2025-10-24 07:12:38.38
+
+2025-10-24 07:13:48,890[21] | [INFO ] [CloudBeans.dll]| MessageId = 7 Published = True
+
+2025-10-24 07:13:48,904[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=aa1b495f-609f-4c38-ab1d-cc375e1e6a84&sn=PF5XXDFZ&dt=2025-10-24 07:12:38.38:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761259303094.67","Result":"ERROR_Fusing"}
+
+2025-10-24 07:13:48,904[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=aa1b495f-609f-4c38-ab1d-cc375e1e6a84&dt=2025-10-24 07:12:46.46
+
+2025-10-24 07:13:48,907[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=aa1b495f-609f-4c38-ab1d-cc375e1e6a84&dt=2025-10-24 07:12:46.46:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761347623945.6","Result":"ERROR_Fusing"}
+
+2025-10-24 07:13:48,907[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=a32e1f6d-2df7-4a9c-8c86-a5180d7cc90f&sn=PF5XXDFZ&dt=2025-10-24 07:13:04.04
+
+2025-10-24 07:13:48,923[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=a32e1f6d-2df7-4a9c-8c86-a5180d7cc90f&sn=PF5XXDFZ&dt=2025-10-24 07:13:04.04:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761259303110.29","Result":"ERROR_Fusing"}
+
+2025-10-24 07:13:49,050[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 07:13:49,066[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 07:14:03,197[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"aa9fad00306c4bb6b4004995ab624e9d","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"af8ef1bfc91f488687f43717148d13d4","StartTime":"2025-10-24 07:13:04.04","EndTime":"2025-10-24 07:13:57.57","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(8)!
+
+2025-10-24 07:14:03,197[21] | [INFO ] [CloudBeans.dll]| MessageId = 8 Published = True
+
+2025-10-24 07:14:03,307[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-data/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"FileDataClasses":null,"StructuredDataClasses":[{"Type":"BomInfoV1","Version":"1.0","JsonString":"{\"SSDSN1\":\"8SSSS1D33688D3CM57X04AP\",\"SSDSN2\":null}","RemarkJsonStr":null}],"OperationUuid":"aa9fad00306c4bb6b4004995ab624e9d","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(9)!
+
+2025-10-24 07:14:03,307[21] | [INFO ] [CloudBeans.dll]| MessageId = 9 Published = True
+
+2025-10-24 07:14:18,530[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"e4ac7afc2eaf4cfcb63bfbdb99a76577","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"5432a5aa99de42aa9a84d9e924670268","StartTime":"2025-10-24 07:14:15.15","EndTime":null,"FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Working","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(10)!
+
+2025-10-24 07:14:18,532[21] | [INFO ] [CloudBeans.dll]| MessageId = 10 Published = True
+
+2025-10-24 07:46:48,177[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 07:47:02,637[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 07:47:02,664[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 07:47:02,672[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 07:47:02,688[22] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 07:47:22,637[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 07:47:22,637[22] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 07:47:51,692[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"e4ac7afc2eaf4cfcb63bfbdb99a76577","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"5432a5aa99de42aa9a84d9e924670268","StartTime":"2025-10-24 07:14:15.15","EndTime":"2025-10-24 07:47:37.37","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 07:47:51,692[22] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True
+
+2025-10-24 07:48:06,916[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"c11dd33794f4466c862e578c20097f1a","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"77c1426068d645a287c2fb1b8a78fb01","StartTime":"2025-10-24 07:47:55.55","EndTime":null,"FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Working","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(4)!
+
+2025-10-24 07:48:06,920[22] | [INFO ] [CloudBeans.dll]| MessageId = 4 Published = True
+
+2025-10-24 07:48:22,649[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(5)!
+
+2025-10-24 07:48:22,649[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=a32e1f6d-2df7-4a9c-8c86-a5180d7cc90f&dt=2025-10-24 07:13:57.57
+
+2025-10-24 07:48:22,649[22] | [INFO ] [CloudBeans.dll]| MessageId = 5 Published = True
+
+2025-10-24 07:48:22,805[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=a32e1f6d-2df7-4a9c-8c86-a5180d7cc90f&dt=2025-10-24 07:13:57.57:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761261377172.21","Result":"ERROR_Fusing"}
+
+2025-10-24 07:48:22,809[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=c9d03b33-d7b6-474b-b690-c0e07db60373&sn=PF5XXDFZ&dt=2025-10-24 07:14:15.15
+
+2025-10-24 07:48:22,818[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=c9d03b33-d7b6-474b-b690-c0e07db60373&sn=PF5XXDFZ&dt=2025-10-24 07:14:15.15:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761349698012.63","Result":"ERROR_Fusing"}
+
+2025-10-24 07:48:22,818[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=c9d03b33-d7b6-474b-b690-c0e07db60373&dt=2025-10-24 07:47:37.37
+
+2025-10-24 07:48:22,823[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=c9d03b33-d7b6-474b-b690-c0e07db60373&dt=2025-10-24 07:47:37.37:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761261377203.38","Result":"ERROR_Fusing"}
+
+2025-10-24 07:48:22,823[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=b54dce1b-480c-45f0-8771-2ed20c3c5237&sn=PF5XXDFZ&dt=2025-10-24 07:47:55.55
+
+2025-10-24 07:48:22,823[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=b54dce1b-480c-45f0-8771-2ed20c3c5237&sn=PF5XXDFZ&dt=2025-10-24 07:47:55.55:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761349698028.27","Result":"ERROR_Fusing"}
+
+2025-10-24 07:48:22,950[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 07:48:22,956[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 07:49:22,653[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(6)!
+
+2025-10-24 07:49:22,717[22] | [INFO ] [CloudBeans.dll]| MessageId = 6 Published = True
+
+2025-10-24 07:49:53,052[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 07:49:53,070[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 07:50:56,684[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 07:51:10,784[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 07:51:10,812[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 07:51:10,812[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 07:51:10,812[23] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 07:51:30,787[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 07:51:30,787[23] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 07:52:30,774[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 07:52:30,800[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 07:52:30,821[23] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True
+
+2025-10-24 07:52:30,981[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 07:53:14,992[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-data/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"FileDataClasses":null,"StructuredDataClasses":[{"Type":"WbBoot","Version":"1.0","JsonString":"[{\"biosInitTime\":17460}]","RemarkJsonStr":null},{"Type":"SxTestCycle","Version":"1.0","JsonString":"{\"SxCommand\":\"wb\",\"TotalCycle\":1,\"ExecutedCycle\":1}","RemarkJsonStr":null}],"OperationUuid":"c11dd33794f4466c862e578c20097f1a","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(4)!
+
+2025-10-24 07:53:15,036[23] | [INFO ] [CloudBeans.dll]| MessageId = 4 Published = True
+
+2025-10-24 07:53:30,801[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(5)!
+
+2025-10-24 07:53:30,807[23] | [INFO ] [CloudBeans.dll]| MessageId = 5 Published = True
+
+2025-10-24 07:54:42,185[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 07:54:57,230[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 07:54:57,244[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 07:54:57,251[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 07:54:57,256[19] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 07:55:00,694[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"c11dd33794f4466c862e578c20097f1a","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"77c1426068d645a287c2fb1b8a78fb01","StartTime":"2025-10-24 07:47:55.55","EndTime":"2025-10-24 07:53:33.33","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 07:55:00,710[19] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 07:55:16,242[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"44760ea9e2fc4f9e918bb60c47309a6b","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"74fa8979230343a4a88fa062a14c83ca","StartTime":"2025-10-24 07:55:04.04","EndTime":null,"FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Working","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 07:55:16,242[19] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True
+
+2025-10-24 07:55:17,221[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(4)!
+
+2025-10-24 07:55:17,319[19] | [INFO ] [CloudBeans.dll]| MessageId = 4 Published = True
+
+2025-10-24 07:56:17,219[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=b54dce1b-480c-45f0-8771-2ed20c3c5237&dt=2025-10-24 07:53:33.33
+
+2025-10-24 07:56:17,228[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(5)!
+
+2025-10-24 07:56:17,234[19] | [INFO ] [CloudBeans.dll]| MessageId = 5 Published = True
+
+2025-10-24 07:56:17,379[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=b54dce1b-480c-45f0-8771-2ed20c3c5237&dt=2025-10-24 07:53:33.33:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761261851136.44","Result":"ERROR_Fusing"}
+
+2025-10-24 07:56:17,381[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=c98e3985-564d-4fbf-a86d-de48693d82ed&sn=PF5XXDFZ&dt=2025-10-24 07:55:04.04
+
+2025-10-24 07:56:17,389[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=c98e3985-564d-4fbf-a86d-de48693d82ed&sn=PF5XXDFZ&dt=2025-10-24 07:55:04.04:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761350171973.99","Result":"ERROR_Fusing"}
+
+2025-10-24 07:56:17,498[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 07:56:17,505[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 07:59:16,239[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 07:59:16,246[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 07:59:16,246[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(6)!
+
+2025-10-24 07:59:16,254[36] | [INFO ] [CloudBeans.dll]| Subscribed for id = 6
+
+2025-10-24 07:59:21,701[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(7)!
+
+2025-10-24 07:59:21,709[36] | [INFO ] [CloudBeans.dll]| MessageId = 7 Published = True
+
+2025-10-24 07:59:46,667[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 07:59:46,698[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:00:21,714[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(8)!
+
+2025-10-24 08:00:21,714[36] | [INFO ] [CloudBeans.dll]| MessageId = 8 Published = True
+
+2025-10-24 08:01:16,702[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=c98e3985-564d-4fbf-a86d-de48693d82ed&dt=2025-10-24 08:01:10.10
+
+2025-10-24 08:01:16,726[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=c98e3985-564d-4fbf-a86d-de48693d82ed&dt=2025-10-24 08:01:10.10:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761262150504.68","Result":"ERROR_Fusing"}
+
+2025-10-24 08:01:16,842[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:01:16,860[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:01:17,288[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"44760ea9e2fc4f9e918bb60c47309a6b","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"74fa8979230343a4a88fa062a14c83ca","StartTime":"2025-10-24 07:55:04.04","EndTime":"2025-10-24 08:01:10.10","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(9)!
+
+2025-10-24 08:01:17,288[36] | [INFO ] [CloudBeans.dll]| MessageId = 9 Published = True
+
+2025-10-24 08:01:17,401[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-data/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"FileDataClasses":null,"StructuredDataClasses":[{"Type":"MsResume","Version":"1.0","JsonString":"[{\"totalTime\":464}]","RemarkJsonStr":null},{"Type":"SxTestCycle","Version":"1.0","JsonString":"{\"SxCommand\":\"ms\",\"TotalCycle\":1,\"ExecutedCycle\":1}","RemarkJsonStr":null}],"OperationUuid":"44760ea9e2fc4f9e918bb60c47309a6b","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(10)!
+
+2025-10-24 08:01:17,417[36] | [INFO ] [CloudBeans.dll]| MessageId = 10 Published = True
+
+2025-10-24 08:02:19,592[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 08:02:34,005[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 08:02:34,021[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 08:02:34,021[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 08:02:34,037[19] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 08:02:52,725[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"a640f57c5f1345f599ef2289b56160cd","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"a51254d9cea543a5bb3134902beaa9bb","StartTime":"2025-10-24 08:02:41.41","EndTime":null,"FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Working","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 08:02:52,725[19] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 08:02:54,006[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 08:02:54,006[19] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True
+
+2025-10-24 08:03:54,008[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=8d3c59b8-6773-49d5-a1d5-1770109ccc17&sn=PF5XXDFZ&dt=2025-10-24 08:02:41.41
+
+2025-10-24 08:03:54,017[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(4)!
+
+2025-10-24 08:03:54,023[19] | [INFO ] [CloudBeans.dll]| MessageId = 4 Published = True
+
+2025-10-24 08:03:54,690[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=8d3c59b8-6773-49d5-a1d5-1770109ccc17&sn=PF5XXDFZ&dt=2025-10-24 08:02:41.41:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761262308511.04","Result":"ERROR_Fusing"}
+
+2025-10-24 08:03:54,807[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:03:54,827[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:04:54,026[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(5)!
+
+2025-10-24 08:04:54,054[19] | [INFO ] [CloudBeans.dll]| MessageId = 5 Published = True
+
+2025-10-24 08:05:25,020[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:05:25,097[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:06:06,174[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(6)!
+
+2025-10-24 08:06:06,277[19] | [INFO ] [CloudBeans.dll]| MessageId = 6 Published = True
+
+2025-10-24 08:06:55,109[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:06:55,153[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:07:06,180[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(7)!
+
+2025-10-24 08:07:06,301[19] | [INFO ] [CloudBeans.dll]| MessageId = 7 Published = True
+
+2025-10-24 08:08:06,193[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(8)!
+
+2025-10-24 08:08:06,260[19] | [INFO ] [CloudBeans.dll]| MessageId = 8 Published = True
+
+2025-10-24 08:08:25,165[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:08:25,231[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:09:20,887[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(9)!
+
+2025-10-24 08:09:20,987[19] | [INFO ] [CloudBeans.dll]| MessageId = 9 Published = True
+
+2025-10-24 08:09:55,259[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:09:55,342[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:10:20,893[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(10)!
+
+2025-10-24 08:10:20,950[19] | [INFO ] [CloudBeans.dll]| MessageId = 10 Published = True
+
+2025-10-24 08:11:20,902[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(11)!
+
+2025-10-24 08:11:20,969[19] | [INFO ] [CloudBeans.dll]| MessageId = 11 Published = True
+
+2025-10-24 08:11:25,379[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:11:25,475[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:12:33,279[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(12)!
+
+2025-10-24 08:12:33,459[19] | [INFO ] [CloudBeans.dll]| MessageId = 12 Published = True
+
+2025-10-24 08:12:55,516[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:12:55,581[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:13:33,284[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(13)!
+
+2025-10-24 08:13:33,359[19] | [INFO ] [CloudBeans.dll]| MessageId = 13 Published = True
+
+2025-10-24 08:14:25,632[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:14:25,805[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:14:33,293[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(14)!
+
+2025-10-24 08:14:33,414[19] | [INFO ] [CloudBeans.dll]| MessageId = 14 Published = True
+
+2025-10-24 08:15:43,271[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(15)!
+
+2025-10-24 08:15:43,369[19] | [INFO ] [CloudBeans.dll]| MessageId = 15 Published = True
+
+2025-10-24 08:15:55,837[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:15:55,930[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:16:43,279[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(16)!
+
+2025-10-24 08:16:43,337[19] | [INFO ] [CloudBeans.dll]| MessageId = 16 Published = True
+
+2025-10-24 08:17:25,968[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:17:26,036[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:17:43,281[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(17)!
+
+2025-10-24 08:17:43,362[19] | [INFO ] [CloudBeans.dll]| MessageId = 17 Published = True
+
+2025-10-24 08:18:27,992[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"a640f57c5f1345f599ef2289b56160cd","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"a51254d9cea543a5bb3134902beaa9bb","StartTime":"2025-10-24 08:02:41.41","EndTime":"2025-10-24 08:18:20.20","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":"\r\nTest Successfully","DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(18)!
+
+2025-10-24 08:18:27,992[19] | [INFO ] [CloudBeans.dll]| MessageId = 18 Published = True
+
+2025-10-24 08:18:28,103[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-data/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"FileDataClasses":[{"Type":"CGTTPXA_CPU[15MIN]","FilePath":"FILEDATA\\ALADDIN_ILL\\SVT\\CGTTPXA_CPU[15MIN]\\PF5XXDFZ\\2025-10-24_080241.41\\CPU_Single_000_2025-10-24_001819.7z","RemarkJsonStr":null}],"StructuredDataClasses":[{"Type":"CGTT","Version":"1.0.0.1","JsonString":"{\"CGID\":\"1761264177843\",\"cpu_power_issue\":false,\"mark\":\"\",\"cpu_power_vice_gap_spec\":25.0,\"cpu_power_gap_spec\":22.0,\"cpu_package_power_average\":24.97,\"cpu_package_power_max\":25.62,\"cpu_power_design_spec\":25.0,\"cpu_core0_frequency_min\":1683.0,\"cpu_core0_frequency_average\":1902.66,\"cpu_core0_frequency_max\":2206.0,\"cpu_package_temp_average\":79.98,\"cpu_package_temp_max\":81.0,\"cpu_temp_status\":true,\"total_pwr_gap\":0.0,\"vice_total_pwr_gap\":0.0,\"JobTag\":\"Single roasting\"}","RemarkJsonStr":null}],"OperationUuid":"a640f57c5f1345f599ef2289b56160cd","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(19)!
+
+2025-10-24 08:18:28,106[19] | [INFO ] [CloudBeans.dll]| MessageId = 19 Published = True
+
+2025-10-24 08:19:31,585[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 08:19:45,981[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 08:19:46,003[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 08:19:46,014[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 08:19:46,019[19] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 08:20:04,814[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"0a3ffbe66fa24c78b7a05a46651a1ee5","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"447b4338743d47e5aa5bdc183bdb02cc","StartTime":"2025-10-24 08:19:53.53","EndTime":null,"FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Working","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 08:20:04,857[19] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 08:20:05,972[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 08:20:05,978[19] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True
+
+2025-10-24 08:21:06,074[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=8d3c59b8-6773-49d5-a1d5-1770109ccc17&dt=2025-10-24 08:18:20.20
+
+2025-10-24 08:21:06,096[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(4)!
+
+2025-10-24 08:21:06,102[19] | [INFO ] [CloudBeans.dll]| MessageId = 4 Published = True
+
+2025-10-24 08:21:10,776[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=8d3c59b8-6773-49d5-a1d5-1770109ccc17&dt=2025-10-24 08:18:20.20:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761351664473.53","Result":"ERROR_Fusing"}
+
+2025-10-24 08:21:10,790[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=4978cebe-de9b-4499-9ef3-d4b91025dafb&sn=PF5XXDFZ&dt=2025-10-24 08:19:53.53
+
+2025-10-24 08:21:10,910[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=4978cebe-de9b-4499-9ef3-d4b91025dafb&sn=PF5XXDFZ&dt=2025-10-24 08:19:53.53:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761263344793.62","Result":"ERROR_Fusing"}
+
+2025-10-24 08:21:11,028[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:21:11,052[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:22:06,185[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(5)!
+
+2025-10-24 08:22:06,353[19] | [INFO ] [CloudBeans.dll]| MessageId = 5 Published = True
+
+2025-10-24 08:22:42,235[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:22:42,450[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:23:24,589[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(6)!
+
+2025-10-24 08:23:24,733[19] | [INFO ] [CloudBeans.dll]| MessageId = 6 Published = True
+
+2025-10-24 08:24:12,528[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:24:12,701[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:24:24,698[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(7)!
+
+2025-10-24 08:24:24,704[19] | [INFO ] [CloudBeans.dll]| MessageId = 7 Published = True
+
+2025-10-24 08:25:24,803[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(8)!
+
+2025-10-24 08:25:24,809[19] | [INFO ] [CloudBeans.dll]| MessageId = 8 Published = True
+
+2025-10-24 08:25:42,715[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:25:42,725[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:26:30,084[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(9)!
+
+2025-10-24 08:26:30,084[19] | [INFO ] [CloudBeans.dll]| MessageId = 9 Published = True
+
+2025-10-24 08:26:48,892[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"0a3ffbe66fa24c78b7a05a46651a1ee5","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"447b4338743d47e5aa5bdc183bdb02cc","StartTime":"2025-10-24 08:19:53.53","EndTime":"2025-10-24 08:26:47.47","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":"\r\nCGTT Test Successfully","DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(10)!
+
+2025-10-24 08:26:48,898[19] | [INFO ] [CloudBeans.dll]| MessageId = 10 Published = True
+
+2025-10-24 08:27:58,867[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 08:28:13,171[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 08:28:13,194[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 08:28:13,201[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 08:28:13,203[19] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 08:28:31,679[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"1d1cd4529b0c4664b7202ad37f80bf8c","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"06646ef7690a438cb56dfd7d71adf498","StartTime":"2025-10-24 08:28:20.20","EndTime":null,"FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Working","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 08:28:31,679[19] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 08:28:33,179[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 08:28:33,195[19] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True
+
+2025-10-24 08:29:33,176[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=4978cebe-de9b-4499-9ef3-d4b91025dafb&dt=2025-10-24 08:26:47.47
+
+2025-10-24 08:29:33,187[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(4)!
+
+2025-10-24 08:29:33,187[19] | [INFO ] [CloudBeans.dll]| MessageId = 4 Published = True
+
+2025-10-24 08:29:33,379[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=4978cebe-de9b-4499-9ef3-d4b91025dafb&dt=2025-10-24 08:26:47.47:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761352168090.42","Result":"ERROR_Fusing"}
+
+2025-10-24 08:29:33,379[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=f60faceb-b97b-4fac-a89a-3bf0bcb9f29e&sn=PF5XXDFZ&dt=2025-10-24 08:28:20.20
+
+2025-10-24 08:29:33,379[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=f60faceb-b97b-4fac-a89a-3bf0bcb9f29e&sn=PF5XXDFZ&dt=2025-10-24 08:28:20.20:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761263847357.83","Result":"ERROR_Fusing"}
+
+2025-10-24 08:29:33,504[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:29:33,520[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:30:33,201[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(5)!
+
+2025-10-24 08:30:33,201[19] | [INFO ] [CloudBeans.dll]| MessageId = 5 Published = True
+
+2025-10-24 08:31:03,570[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:31:03,586[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:31:38,502[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(6)!
+
+2025-10-24 08:31:38,527[19] | [INFO ] [CloudBeans.dll]| MessageId = 6 Published = True
+
+2025-10-24 08:32:33,604[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:32:33,604[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:32:38,517[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(7)!
+
+2025-10-24 08:32:38,517[19] | [INFO ] [CloudBeans.dll]| MessageId = 7 Published = True
+
+2025-10-24 08:33:38,524[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(8)!
+
+2025-10-24 08:33:38,530[19] | [INFO ] [CloudBeans.dll]| MessageId = 8 Published = True
+
+2025-10-24 08:34:03,624[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:34:03,632[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:34:43,871[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(9)!
+
+2025-10-24 08:34:43,871[19] | [INFO ] [CloudBeans.dll]| MessageId = 9 Published = True
+
+2025-10-24 08:35:33,647[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:35:33,659[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:35:43,880[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(10)!
+
+2025-10-24 08:35:43,904[19] | [INFO ] [CloudBeans.dll]| MessageId = 10 Published = True
+
+2025-10-24 08:36:43,890[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(11)!
+
+2025-10-24 08:36:43,890[19] | [INFO ] [CloudBeans.dll]| MessageId = 11 Published = True
+
+2025-10-24 08:37:03,667[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:37:03,667[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:37:49,060[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(12)!
+
+2025-10-24 08:37:49,060[19] | [INFO ] [CloudBeans.dll]| MessageId = 12 Published = True
+
+2025-10-24 08:38:33,681[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:38:33,681[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:38:49,077[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(13)!
+
+2025-10-24 08:38:49,093[19] | [INFO ] [CloudBeans.dll]| MessageId = 13 Published = True
+
+2025-10-24 08:39:49,092[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(14)!
+
+2025-10-24 08:39:49,092[19] | [INFO ] [CloudBeans.dll]| MessageId = 14 Published = True
+
+2025-10-24 08:40:03,695[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=f60faceb-b97b-4fac-a89a-3bf0bcb9f29e&dt=2025-10-24 08:40:02.02
+
+2025-10-24 08:40:03,700[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=f60faceb-b97b-4fac-a89a-3bf0bcb9f29e&dt=2025-10-24 08:40:02.02:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761264477666.34","Result":"ERROR_Fusing"}
+
+2025-10-24 08:40:03,806[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:40:03,822[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:40:08,047[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"1d1cd4529b0c4664b7202ad37f80bf8c","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"06646ef7690a438cb56dfd7d71adf498","StartTime":"2025-10-24 08:28:20.20","EndTime":"2025-10-24 08:40:02.02","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":"\r\nTest Successfully","DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(15)!
+
+2025-10-24 08:40:08,050[19] | [INFO ] [CloudBeans.dll]| MessageId = 15 Published = True
+
+2025-10-24 08:40:08,169[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-data/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"FileDataClasses":[{"Type":"3DMarkPXA_Stress_Final[10Min]","FilePath":"FILEDATA\\ALADDIN_ILL\\SVT\\3DMARKPXA_STRESS_FINAL[10MIN]\\PF5XXDFZ\\2025-10-24_082820.20\\3DMarkStress_000_2025-10-24_004000.7z","RemarkJsonStr":null}],"StructuredDataClasses":[{"Type":"3DMarkTimeSpy","Version":"1.0.0.0","JsonString":"{\"time_spy_graphics_score\":3434.0,\"time_spy_physics_score\":7045.0,\"time_spy_total_score\":3720.0,\"time_spy_graphics_test1_fps\":21.98,\"time_spy_graphics_test2_fps\":20.02,\"time_spy_physics_test_fps\":23.67}","RemarkJsonStr":null},{"Type":"3DMarkTimeSpy","Version":"1.0.0.0","JsonString":"{\"time_spy_graphics_score\":3429.0,\"time_spy_physics_score\":7054.0,\"time_spy_total_score\":3715.0,\"time_spy_graphics_test1_fps\":22.05,\"time_spy_graphics_test2_fps\":19.9,\"time_spy_physics_test_fps\":23.7}","RemarkJsonStr":null},{"Type":"3DMarkTimeSpy","Version":"1.0.0.0","JsonString":"{\"time_spy_graphics_score\":3436.0,\"time_spy_physics_score\":7077.0,\"time_spy_total_score\":3723.0,\"time_spy_graphics_test1_fps\":22.05,\"time_spy_graphics_test2_fps\":19.97,\"time_spy_physics_test_fps\":23.78}","RemarkJsonStr":null}],"OperationUuid":"1d1cd4529b0c4664b7202ad37f80bf8c","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(16)!
+
+2025-10-24 08:40:08,180[19] | [INFO ] [CloudBeans.dll]| MessageId = 16 Published = True
+
+2025-10-24 08:41:14,963[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 08:41:29,320[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 08:41:29,330[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 08:41:29,330[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 08:41:29,346[19] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 08:41:47,709[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"8bea8fe3a6df4050ad5b7b93e16bb92c","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"c9047f4309ef4799afd192de19a2af3d","StartTime":"2025-10-24 08:41:36.36","EndTime":null,"FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Working","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 08:41:47,731[19] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 08:41:49,307[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 08:41:49,324[19] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True
+
+2025-10-24 08:42:49,317[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(4)!
+
+2025-10-24 08:42:49,321[19] | [INFO ] [CloudBeans.dll]| MessageId = 4 Published = True
+
+2025-10-24 08:42:49,322[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=1d6118c1-5b6a-4465-8ad1-51779a71d35c&sn=PF5XXDFZ&dt=2025-10-24 08:41:36.36
+
+2025-10-24 08:42:49,539[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskStartTestSQL?guid=1d6118c1-5b6a-4465-8ad1-51779a71d35c&sn=PF5XXDFZ&dt=2025-10-24 08:41:36.36:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761352964476.26","Result":"ERROR_Fusing"}
+
+2025-10-24 08:42:49,664[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:42:49,675[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:43:49,325[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(5)!
+
+2025-10-24 08:43:49,331[19] | [INFO ] [CloudBeans.dll]| MessageId = 5 Published = True
+
+2025-10-24 08:44:19,753[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:44:19,772[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:44:54,500[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(6)!
+
+2025-10-24 08:44:54,505[19] | [INFO ] [CloudBeans.dll]| MessageId = 6 Published = True
+
+2025-10-24 08:45:49,786[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:45:49,803[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:45:54,503[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(7)!
+
+2025-10-24 08:45:54,507[19] | [INFO ] [CloudBeans.dll]| MessageId = 7 Published = True
+
+2025-10-24 08:46:54,503[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(8)!
+
+2025-10-24 08:46:54,566[19] | [INFO ] [CloudBeans.dll]| MessageId = 8 Published = True
+
+2025-10-24 08:47:19,808[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=1d6118c1-5b6a-4465-8ad1-51779a71d35c&dt=2025-10-24 08:47:16.16
+
+2025-10-24 08:47:19,823[13] | [INFO ] [iTestBeans.dll] | Reponse->http://150.213.1.1:8088/V2/api/Test/UpdateTaskEndTestSQL?guid=1d6118c1-5b6a-4465-8ad1-51779a71d35c&dt=2025-10-24 08:47:16.16:{"MD5":null,"jsonText":null,"obj1":null,"obj2":null,"remark1":"???????","remark2":null,"encrypt":false,"TimeFlg":"1761353234800.58","Result":"ERROR_Fusing"}
+
+2025-10-24 08:47:19,951[13] | [INFO ] [iTestBeans.dll] | Get->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+
+2025-10-24 08:47:19,951[13] | [ERROR] [iTestBeans.dll] | Exception->http://150.213.1.1:8088/V2/api/Heartbeat/HelloServer?sn=PF5XXDFZ&portid=1S1300101633
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at iTestBeans.HttpHelp.HttpGetRequest(String url, IDictionary`2 headers) in D:\Tool\CodeWork\AutoRI\SourceCode\AutoRI2.0\iTestBeans\Common\HttpHelp.cs:line 26
+
+2025-10-24 08:47:20,449[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"8bea8fe3a6df4050ad5b7b93e16bb92c","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"c9047f4309ef4799afd192de19a2af3d","StartTime":"2025-10-24 08:41:36.36","EndTime":"2025-10-24 08:47:16.16","FailDateTime":null,"ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":null,"Result":"Pass","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(9)!
+
+2025-10-24 08:47:20,460[19] | [INFO ] [CloudBeans.dll]| MessageId = 9 Published = True
+
+2025-10-24 12:58:57,736[1] | [INFO ] [EventCollector.dll] | EventController Init...
+
+2025-10-24 12:59:11,969[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connecting...
+
+2025-10-24 12:59:11,984[11] | [INFO ] [CloudBeans.dll]| MQTT Client Connected!
+
+2025-10-24 12:59:11,984[11] | [INFO ] [CloudBeans.dll]| subscribe utp/down/cmd/PF5XXDFZ finished(1)!
+
+2025-10-24 12:59:11,990[19] | [INFO ] [CloudBeans.dll]| Subscribed for id = 1
+
+2025-10-24 12:59:12,096[11] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:test-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"OperationUuid":"144bafb65fea475696cf500f5e41b104","ParentOperationUuid":"3db87aaa975040ab86a4a17f07688fd6","TaskUuidTop":"16355004d757487fa790b62e8c73b6de","TaskUuid":"16355004d757487fa790b62e8c73b6de","StartTime":"2025-10-24 08:47:16.16","EndTime":"2025-10-24 12:59:05.05","FailDateTime":"2025-10-24 12:59:05.05","ExcuteCycle":null,"DebugInfo":null,"DebugFlag":null,"AutoRetryFlag":false,"ErrorCode":"0x002758","Result":"Fail","TaskIgnore":false,"LocationKey":"1S1300101633","RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(2)!
+
+2025-10-24 12:59:12,112[19] | [INFO ] [CloudBeans.dll]| MessageId = 2 Published = True
+
+2025-10-24 12:59:31,974[12] | [INFO ] [CloudBeans.dll]| PublishOperationMsg:machine-status/56aa3755d3a1e41f4f2a7eeef7fb428c=>{"LocationKey":"1S1300101633","BatteryRemain":"66","PowerStatusKey":true,"RemarkJsonStr":null,"MachineUuid":"56aa3755d3a1e41f4f2a7eeef7fb428c","MachineTypeKey":"Notebook","NotebookSerialNumber":"2221490200001","MotherboardSerialNumber":"2183767600005","ShippingSerialNumber":"PF5XXDFZ"} MessageId:(3)!
+
+2025-10-24 12:59:31,988[19] | [INFO ] [CloudBeans.dll]| MessageId = 3 Published = True

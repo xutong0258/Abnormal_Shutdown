@@ -1,0 +1,152 @@
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:47,582 | [INFO ]  Start DiskInfo
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:47,598 | [INFO ]  Init tool settings
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:47,609 | [INFO ] [DiskInfo] | version:2.0.7.1003
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:47,722 | [INFO ] [DiskInfo] | Input Arguments: C:\Users\1\Desktop\AutoLog_1.0.1.1027(1)\tools\DiskInfo\DiskInfo.exe >--> C:\Users\1\Desktop\AutoLog_1.0.1.1027(1)\AutoLog\YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41\DiskInfo\DiskInfo.log
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:47,789 | [INFO ]  Load C:\Users\1\Desktop\AutoLog_1.0.1.1027(1)\tools\DiskInfo\Config.yaml
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:47,895 | [INFO ]  Query and check storage settings
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:47,895 | [INFO ]  Scan storage device
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,248 | [INFO ]  Query device details info
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,249 | [INFO ]   ==> Parse NVME SSD
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,250 | [INFO ]  SMART_CriticalWarning
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,250 | [INFO ]  SMART_CompositeTemperature
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,250 | [INFO ]  SMART_AvailableSpare
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,251 | [INFO ]  SMART_AvailableSpareThreshold
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,251 | [INFO ]  SMART_PercentageUsed
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,251 | [INFO ]  SMART_DataUnitsRead
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,251 | [INFO ]  SMART_DataUnitsWritten
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,252 | [INFO ]  SMART_HostReadCommands
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,252 | [INFO ]  SMART_HostWriteCommands
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,252 | [INFO ]  SMART_ControllerBusyTime
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,252 | [INFO ]  SMART_PowerCycles
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,252 | [INFO ]  SMART_PowerOnHours
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,252 | [INFO ]  SMART_UnsafeShutdowns
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,252 | [INFO ]  SMART_MediaandDataIntegrityErrors
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,252 | [INFO ]  SMART_NumberofErrorInformationLogEntries
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:54,302 | [INFO ]  StructedData Details : [
+2025-11-24 13:45:01|INFO|  {
+2025-11-24 13:45:01|INFO|    "disk_type_key": 3,
+2025-11-24 13:45:01|INFO|    "disk_model": "Micron MTFDKCD1T0QHK-1BQ1AABLA",
+2025-11-24 13:45:01|INFO|    "disk_interface": "NVM Express",
+2025-11-24 13:45:01|INFO|    "disk_serial_number": "252550E9944C",
+2025-11-24 13:45:01|INFO|    "disk_firmware_version": "1001V9LN",
+2025-11-24 13:45:01|INFO|    "disk_size": 1024,
+2025-11-24 13:45:01|INFO|    "disk_health_status": "1",
+2025-11-24 13:45:01|INFO|    "disk_power_on_hours": 1191,
+2025-11-24 13:45:01|INFO|    "disk_power_on_count": 1216,
+2025-11-24 13:45:01|INFO|    "ssd_warning_temp_threshold": 60,
+2025-11-24 13:45:01|INFO|    "ssd_critical_warning": 0,
+2025-11-24 13:45:01|INFO|    "ssd_available_spare": 100.0,
+2025-11-24 13:45:01|INFO|    "ssd_available_spare_threshold": 5.0,
+2025-11-24 13:45:01|INFO|    "ssd_percentage_used": 5.0,
+2025-11-24 13:45:01|INFO|    "ssd_host_read_commands": 440654564,
+2025-11-24 13:45:01|INFO|    "ssd_host_write_commands": 285027066,
+2025-11-24 13:45:01|INFO|    "ssd_controller_busy_time": 643,
+2025-11-24 13:45:01|INFO|    "ssd_unsafe_shutdowns": 77,
+2025-11-24 13:45:01|INFO|    "ssd_media_and_data_integrity_errors": 0,
+2025-11-24 13:45:01|INFO|    "ssd_error_information_log_entries": 0,
+2025-11-24 13:45:01|INFO|    "ssd_data_units_read": 19432.71,
+2025-11-24 13:45:01|INFO|    "ssd_data_units_written": 19019.81
+2025-11-24 13:45:01|INFO|  }
+2025-11-24 13:45:01|INFO|] 
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,433 | [INFO ]   ==> Parse NVME SSD
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  === START OF INFORMATION SECTION ===
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Model Number:                       Micron MTFDKCD1T0QHK-1BQ1AABLA
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Serial Number:                      252550E9944C
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Firmware Version:                   1001V9LN
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  PCI Vendor/Subsystem ID:            0x1344
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  IEEE OUI Identifier:                0x00a075
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Controller ID:                      0
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  NVMe Version:                       2.0
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Number of Namespaces:               1
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Namespace 1 Size/Capacity:          1,024,209,543,168 [1.02 TB]
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Namespace 1 Formatted LBA Size:     512
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Namespace 1 IEEE EUI-64:            00a075 0150e9944c
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Local Time is:                      Mon Nov 24 13:44:55 2025 
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Firmware Updates (0x14):            2 Slots, no Reset required
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Optional NVM Commands (0x00df):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat Timestmp Verify
+2025-11-24 13:45:01|INFO|2025-11-24 13:44:55,434 | [INFO ]  Log Page Attributes (0x3e):         Cmd_Eff_Lg Ext_Get_Lg Telmtry_Lg Pers_Ev_Lg *Other*
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]  Maximum Data Transfer Size:         64 Pages
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]  Warning  Comp. Temp. Threshold:     86 Celsius
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]  Critical Comp. Temp. Threshold:     88 Celsius
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]  Namespace 1 Features (0x18):        No_ID_Reuse NP_Fields
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]  Supported Power States
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]  St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]   0 +     7.50W       -        -    0  0  0  0        0       0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]   1 +     3.00W       -        -    1  1  1  1        0       0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]   2 +     1.50W       -        -    2  2  2  2        0       0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]   3 -   0.0300W       -        -    3  3  3  3     5000    5000
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,096 | [INFO ]   4 -   0.0025W       -        -    4  4  4  4     5000   30000
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,128 | [INFO ]  Supported LBA Sizes (NSID 0x1)
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,128 | [INFO ]  Id Fmt  Data  Metadt  Rel_Perf
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,128 | [INFO ]   0 +     512       0         0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,128 | [INFO ]  === START OF SMART DATA SECTION ===
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,128 | [INFO ]  SMART overall-health self-assessment test result: PASSED
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,128 | [INFO ]  SMART/Health Information (NVMe Log 0x02)
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,128 | [INFO ]  Critical Warning:                   0x00
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,129 | [INFO ]  Temperature:                        44 Celsius
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,129 | [INFO ]  Available Spare:                    100%
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,129 | [INFO ]  Available Spare Threshold:          5%
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,129 | [INFO ]  Percentage Used:                    5%
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,129 | [INFO ]  Data Units Read:                    37,954,541 [19.4 TB]
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,129 | [INFO ]  Data Units Written:                 37,148,108 [19.0 TB]
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Host Read Commands:                 440,654,955
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Host Write Commands:                285,027,296
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Controller Busy Time:               643
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Power Cycles:                       1,216
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Power On Hours:                     1,191
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Unsafe Shutdowns:                   77
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Media and Data Integrity Errors:    0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Error Information Log Entries:      0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Warning  Comp. Temperature Time:    0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Critical Comp. Temperature Time:    0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Temperature Sensor 1:               44 Celsius
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  Error Information (NVMe Log 0x01, 16 of 255 entries)
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,144 | [INFO ]  No Errors Logged
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,172 | [INFO ]  StructedData Details : [
+2025-11-24 13:45:01|INFO|  {
+2025-11-24 13:45:01|INFO|    "disk_type_key": 3,
+2025-11-24 13:45:01|INFO|    "disk_model": "Micron MTFDKCD1T0QHK-1BQ1AABLA",
+2025-11-24 13:45:01|INFO|    "disk_serial_number": "252550E9944C",
+2025-11-24 13:45:01|INFO|    "disk_firmware_version": "1001V9LN",
+2025-11-24 13:45:01|INFO|    "disk_size": 0,
+2025-11-24 13:45:01|INFO|    "disk_health_status": "PASSED",
+2025-11-24 13:45:01|INFO|    "disk_power_on_hours": 1191,
+2025-11-24 13:45:01|INFO|    "disk_power_on_count": 1216,
+2025-11-24 13:45:01|INFO|    "ssd_warning_temp_threshold": 86,
+2025-11-24 13:45:01|INFO|    "ssd_critical_temp_threshold": 88,
+2025-11-24 13:45:01|INFO|    "ssd_critical_warning": 0,
+2025-11-24 13:45:01|INFO|    "ssd_available_spare": 1.0,
+2025-11-24 13:45:01|INFO|    "ssd_available_spare_threshold": 0.05,
+2025-11-24 13:45:01|INFO|    "ssd_percentage_used": 0.05,
+2025-11-24 13:45:01|INFO|    "ssd_host_read_commands": 440654955,
+2025-11-24 13:45:01|INFO|    "ssd_host_write_commands": 285027296,
+2025-11-24 13:45:01|INFO|    "ssd_controller_busy_time": 643,
+2025-11-24 13:45:01|INFO|    "ssd_unsafe_shutdowns": 77,
+2025-11-24 13:45:01|INFO|    "ssd_media_and_data_integrity_errors": 0,
+2025-11-24 13:45:01|INFO|    "ssd_error_information_log_entries": 0,
+2025-11-24 13:45:01|INFO|    "ssd_warning_temperature_time": 0,
+2025-11-24 13:45:01|INFO|    "ssd_critical_temperature_time": 0,
+2025-11-24 13:45:01|INFO|    "ssd_data_units_read": 19432.7246,
+2025-11-24 13:45:01|INFO|    "ssd_data_units_written": 19019.832
+2025-11-24 13:45:01|INFO|  }
+2025-11-24 13:45:01|INFO|] 
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,173 | [INFO ]  Compare and check the Criterion， CheckFlag: True
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,174 | [INFO ]  Check Disk : NVME_SSD, Micron MTFDKCD1T0QHK-1BQ1AABLA
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,174 | [INFO ]  CheckNVMESSDCriterion : Power_Cycles
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 1216
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CheckNVMESSDCriterion : Power_On_Hours
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 1191
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Read
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 19432.71
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CheckNVMESSDCriterion : Data_Units_Written
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 19019.81
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CheckNVMESSDCriterion : Media_and_Data_Integrity_Errors
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CompareCriterion,   Criterion: 1 <--> Current: 0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CheckNVMESSDCriterion : Critical_Temperature_Time
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,175 | [INFO ]  CompareCriterion,   Criterion: -1 <--> Current: 0
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,176 | [INFO ]  Filter the Error code and exit: OK
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,176 | [WARN ]  [FilerErrorCode], Update ErrorCode: OK --> OK
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,176 | [INFO ]  Set RI FileData
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,181 | [INFO ]   --- Exit : OK --- 
+2025-11-24 13:45:01|INFO|2025-11-24 13:45:01,182 | [INFO ] [DiskInfo] | --return code:0x000000--

@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:js="http://microsoft.com/kernel" xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:slp="http://schemas.microsoft.com/sleepstudy/2012">
+ <head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="+8:00" name="ReportUtcOffset"/>
+  <title>
+   DetailsLog
+  </title>
+  <style type="text/css">
+   body {
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      background-color: #ffffff;
+
+      color: #000000;
+
+      margin: 0em 5.5em 0em 5.5em;
+
+      }
+
+
+
+      h1 {
+
+      color: #00b0f0;
+
+      font-size: 42pt;
+
+      }
+
+
+
+      h2 {
+
+      font-size: 15pt;
+
+      color: #00b0f0;
+
+      margin-top: 2em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      h3, h4, h5 {
+
+      margin-top: 1em;
+
+      margin-bottom: 0em;
+
+      letter-spacing: 0.08em;
+
+      }
+
+
+
+      td {
+
+      padding-left: 0.3em;
+
+      padding-right: 0.3em;
+
+      }
+
+
+
+      .nobatts {
+
+      margin-top: 1.5em;
+
+      font-family: Segoe UI Semibold;
+
+      background: #f0f0f0;
+
+      color: #a0a0a0;
+
+      font-size: 13pt;
+
+      padding-left:0.4em;
+
+      padding-right:0.4em;
+
+      padding-top:0.3em;
+
+      padding-bottom:0.3em;
+
+      }
+
+
+
+      .explanation {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 1em;
+
+      }
+
+
+
+      .explanation2 {
+
+      color: #777777;
+
+      font-size: 12pt;
+
+      margin-bottom: 0.1em;
+
+      }
+
+
+
+      table {
+
+      border-width: 0;
+
+      table-layout: fixed;
+
+      font-family: Segoe UI Light;
+
+      letter-spacing: 0.02em;
+
+      color: #000000;
+
+      margin-bottom: 10px;
+
+      }
+
+
+
+      table.defs { background-color: transparent; }
+
+
+
+      caption {
+
+      padding: 5px 0px 5px 0px;
+
+      font-weight: bold;
+
+      }
+
+
+
+      thead {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      }
+
+
+
+      text {
+
+      font-size: 12pt;
+
+      font-family: Segoe UI Light;
+
+      fill: #00b0f0;
+
+      }
+
+
+
+      .centered { text-align: center; }
+
+
+
+      .label {
+
+      font-family: Segoe UI Semibold;
+
+      font-size: 85%;
+
+      color: #acacac;
+
+      }
+
+
+
+      #legend {
+
+      background-color: #fafafa;
+
+      margin-bottom: 2.2em;
+
+      border-spacing: 0;
+
+      }
+
+
+
+      #legend thead { background-color: #dfdfdf; }
+
+      #legend td, #legend th {
+
+      padding: 4px 5px 4px 5px;
+
+      }
+
+
+
+      #legend .spanner {
+
+      text-align: center;
+
+      background-color: #dfdfdf;
+
+      font-size: 85%;
+
+      font-weight: bold;
+
+      padding: 3px;
+
+      }
+
+
+
+      #legend td.percent { text-align: left; }
+
+
+
+      .graphline-none, .graphline-dotted, .graphline-solid, .graphline-neutral,
+
+      .graphline-low, .graphline-moderate, .graphline-high .graphline-nonclean {
+
+      font-weight: bold;
+
+      }
+
+
+
+      .graphline-none { color: #7d7d7d; }
+
+      .graphline-dotted { color: #7d7d7d; }
+
+      .graphline-solid { color: #7d7d7d; }
+
+      .graphline-neutral { color: #7d7d7d; }
+
+      .graphline-low { color: #2a7a2a; }
+
+      .graphline-moderate { color: #cc7e06; }
+
+      .graphline-high { color: #970d00; }
+
+      .graphline-nonclean { color: #FF00FF;}
+
+
+
+      .top-blocker td, #summary-table td {
+
+      padding: 0;
+
+      }
+
+
+
+      .top-blocker td a, #summary-table td a {
+
+      padding: 0 0.3em 0 0.3em;
+
+      display: block;
+
+      height: 100%;
+
+      }
+
+
+
+      .top-blocker a:link, .top-blocker a:active, .top-blocker a:visited,
+
+      #summary-table a:link, #summary-table a:active, #summary-table a:visited {
+
+      text-decoration: none;
+
+      color: #000000;
+
+      }
+
+
+
+      #summary-table th,
+
+      .session-summary th,
+
+      .top-blocker th,
+
+      .pdc-phases th,
+
+      .device-components th {
+
+      background-color: transparent;
+
+      }
+
+
+
+      #summary-table tbody tr,
+
+      .session-summary tbody tr,
+
+      .top-blocker tbody tr,
+
+      .device-components tbody tr,
+
+      .pdc-phases tbody tr {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-neutral,
+
+      .session-summary .row-neutral,
+
+      .top-blocker .row-neutral,
+
+      .device-components .row-neutral,
+
+      .pdc-phases .row-neutral {
+
+      background-color: #e0e0e0;
+
+      }
+
+
+
+      #summary-table .row-low,
+
+      .session-summary .row-low,
+
+      .top-blocker .row-low,
+
+      .device-components .row-low,
+
+      .pdc-phases .row-low {
+
+      background-color: #ace3ac;
+
+      }
+
+
+
+      #summary-table .row-moderate,
+
+      .session-summary .row-moderate,
+
+      .top-blocker .row-moderate,
+
+      .device-components .row-moderate,
+
+      .pdc-phases .row-moderate {
+
+      background-color: #fcd69a;
+
+      }
+
+
+
+      #summary-table .row-high,
+
+      .session-summary .row-high,
+
+      .top-blocker .row-high,
+
+      .device-components .row-high,
+
+      .pdc-phases .row-high {
+
+      background-color: #ffb2aa;
+
+      }
+
+
+
+      #summary-table .row-info,
+
+      .session-summary .row-info,
+
+      .top-blocker .row-info,
+
+      .device-components .row-info,
+
+      .pdc-phases .row-info {
+
+      background-color: #86becb;
+
+      }
+
+
+
+      #summary-table .row-nonclean,
+
+      .session-summary .row-nonclean,
+
+      .top-blocker .row-nonclean,
+
+      .device-components .row-nonclean,
+
+      .pdc-phases .row-nonclean {
+
+      background-color: #EE82EE;
+
+      }
+
+
+
+      #summary-table tbody tr:hover,
+
+      .top-blocker tbody tr:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-neutral:hover,
+
+      .top-blocker .row-neutral:hover {
+
+      background-color: #f0f0f0;
+
+      }
+
+
+
+      #summary-table .row-low:hover,
+
+      .top-blocker .row-low:hover {
+
+      background-color: #caedca;
+
+      }
+
+
+
+      #summary-table .row-moderate:hover,
+
+      .top-blocker .row-moderate:hover {
+
+      background-color: #fde5c0;
+
+      }
+
+
+
+      #summary-table .row-high:hover,
+
+      .top-blocker .row-high:hover {
+
+      background-color: #ffd5d1;
+
+      }
+
+
+
+      #summary-table .row-nonclean:hover,
+
+      .top-blocker .row-nonclean:hover {
+
+      background-color:#D8BFD8;
+
+      }
+
+
+
+      td.colBreak { padding: 0; width: 0.15em; }
+
+
+
+      td.state { text-align: center; }
+
+      td.chargeOrDrain { text-align: center; }
+
+      td.percentLowPowerStateTime { text-align: center; }
+
+      td.percent { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.hms { font-family: Segoe UI Symbol; text-align: center; }
+
+      td.dateTime { font-family: Segoe UI Symbol; }
+
+      td.blank { background-color: #ffffff; }
+
+      td.nullValue { text-align: center; }
+
+      td.center { text-align: center; }
+
+
+
+      col.percent { width: 7.5em; }
+
+
+
+      td.mw {
+
+      font-family: Segoe UI Symbol;
+
+      text-align: center;
+
+      }
+
+
+
+      td.acdc { text-align: center; }
+
+
+
+      span.date {
+
+      display: inline-block;
+
+      width: 5.5em;
+
+      }
+
+
+
+      span.time {
+
+      text-align: right;
+
+      width: 4.2em;
+
+      display: inline-block;
+
+      }
+
+
+
+      text { font-family: Segoe UI Symbol; }
+
+
+
+      .noncontigbreak {
+
+      height: 0.3em;
+
+      background-color: #1A1A28;
+
+      }
+
+
+
+      div.analysis-container {
+
+      margin-bottom: 10px;
+
+      border: 1px solid #ffffff;
+
+      }
+
+
+
+      div.analysis-container h1 {
+
+      padding: 10px;
+
+      font-size: 14px;
+
+      margin: 0px;
+
+      cursor: pointer;
+
+      }
+
+
+
+      div.analysis-body, div.analysis-body-collapsed {
+
+      padding: 10px;
+
+      }
+
+
+
+      div.analysis-body { display: block; }
+
+      div.analysis-body-collapsed { display: none; }
+
+
+
+      .analysis-base { background-color: #f7f7f7; }
+
+      .analysis-base h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-base h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-neutral { background-color: #f0f0f0; }
+
+      .analysis-neutral h1 { color: #a0a0a0; background-color: #d0d0d0; }
+
+      .analysis-neutral h1:hover { background-color: #dfdfdf; }
+
+
+
+      .analysis-high { background-color: #ffd5d1; }
+
+      .analysis-high h1 { background-color: #ff8e83; color: #970d00; }
+
+      .analysis-high h1:hover { background-color: #ffb2aa; }
+
+
+
+      .analysis-moderate { background-color: #fde5c0; }
+
+      .analysis-moderate h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .analysis-moderate h1:hover { background-color: #fcd69a; }
+
+
+
+      .analysis-low { background-color: #caedca; }
+
+      .analysis-low h1 { background-color: #8fd98f; color: #2a7a2a; }
+
+      .analysis-low h1:hover { background-color: #ace3ac; }
+
+
+
+      .analysis-info { background-color: #b2e5e5; }
+
+      .analysis-info h1 { background-color: #1aa3a3; color: #0b5e56; }
+
+      .analysis-info h1:hover { background-color: #86becb; }
+
+
+
+      .analysis-empty {
+
+      color: #a0a0a0;
+
+      font-size: 14px;
+
+      padding: 10px;
+
+      font-weight: bold;
+
+      }
+  </style>
+  <style>
+   .expander { font-family: "Consolas"; font-weight: bold; }
+
+      .warning { background-color: #fde5c0; }
+
+      .warning h1 { background-color: #fbc674; color: #cc7e06; }
+
+      .warning h1:hover { background-color: #fcd69a; }
+
+      .error { background-color: #ffd5d1; }
+
+      .error h1 { background-color: #ff8e83; color: #970d00; }
+
+      .error h1:hover { background-color: #ffb2aa; }
+
+      code { font-family: "Consolas"; }
+
+
+
+      pre {
+
+      font-family: "Consolas";
+
+      display: block;
+
+      border: 1px dashed #b0b0b0;
+
+      padding: 10px;
+
+      margin: 10px 0px 10px 0px;
+
+      }
+
+
+
+      .scroll-top-button {
+
+      border: 2px solid #000000;
+
+      background-color: #ffffff;
+
+      padding: 5px 3px 5px 3px;
+
+      font-size: 12px;
+
+      font-family: Segoe UI Semibold;
+
+      float: left;
+
+      border-radius: 18px;
+
+      margin-top: 15px;
+
+      margin-left: -60px;
+
+      }
+
+
+
+      .scroll-top-button:hover {
+
+      background-color: #f0f0f0;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .scenario-details, .scenario-details-collapsed {
+
+      padding: 5px;
+
+      background-color: #f0f0f0;
+
+      width: 864px;
+
+      border-left: 2px solid #ffffff;
+
+      }
+
+
+
+      .scenario-details { display: block; }
+
+      .scenario-details-collapsed { display: none; }
+
+
+
+      .details-expander {
+
+      background-color: #dfdfdf;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+      }
+
+
+
+      .details-expander:hover { background-color: #cfcfcf; }
+
+
+
+      ul { list-style: square; }
+  </style>
+ </head>
+ <body>
+  <h1 id="logtitle">
+   Programs And Features
+  </h1>
+  <table id="summary-table">
+   <thead id="logtablehead">
+    <tr>
+     <th>
+      Name
+     </th>
+     <th>
+      Version
+     </th>
+     <th>
+      InstallSource
+     </th>
+    </tr>
+   </thead>
+   <tbody id="logtableboday">
+    <tr class="row-neutral">
+     <td>
+      天禧个人超级智能体
+     </td>
+     <td>
+      3.0.4.11172
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft 365 - zh-cn
+     </td>
+     <td>
+      16.0.19231.20098
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      超级互联
+     </td>
+     <td>
+      9.0.0.011.001
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Host FX Resolver - 9.0.5 (x64)
+     </td>
+     <td>
+      72.20.32761
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{27B4F1C4-D1FD-4C0F-BA10-15D600657C51}v72.20.32761\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Runtime - 9.0.5 (x64)
+     </td>
+     <td>
+      72.20.32761
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{3AA8E866-9345-48D2-9B65-2FC8DDE659C0}v72.20.32761\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Runtime - 8.0.20 (x64)
+     </td>
+     <td>
+      64.80.39230
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{402EB961-5AED-472A-B785-B5AE9EF71286}v64.80.39230\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Host FX Resolver - 9.0.8 (x64)
+     </td>
+     <td>
+      72.32.37563
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{416ACB21-5EB0-444C-8E44-0975705598C3}v72.32.37563\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211
+     </td>
+     <td>
+      14.44.35211
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{43B0D101-A022-48F4-9D04-BA404CEB1D53}v14.44.35211\packages\vcRuntimeMinimum_amd64\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Host - 9.0.8 (x64)
+     </td>
+     <td>
+      72.32.37563
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{45586851-E8D7-4E1B-83A2-CD38A8C665E5}v72.32.37563\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      FlickLift
+     </td>
+     <td>
+      1.0.0.39
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      AI画师
+     </td>
+     <td>
+      02.00.101.1006
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211
+     </td>
+     <td>
+      14.44.35211
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{86AB2CC9-08BD-4643-B0F9-F82D006D72FF}v14.44.35211\packages\vcRuntimeAdditional_amd64\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Windows Desktop Runtime - 9.0.8 (x64)
+     </td>
+     <td>
+      72.32.37601
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{89F36AB9-4F0D-4504-8126-64D5BFB63886}v72.32.37601\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Office 16 Click-to-Run Extensibility Component
+     </td>
+     <td>
+      16.0.19231.20098
+     </td>
+     <td>
+      C:\Program Files\Microsoft Office\root\Integration\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Office 16 Click-to-Run Localization Component
+     </td>
+     <td>
+      16.0.19231.20098
+     </td>
+     <td>
+      C:\Program Files\Microsoft Office\root\Integration\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Host FX Resolver - 8.0.20 (x64)
+     </td>
+     <td>
+      64.80.39230
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{BB4BB73D-8784-40A3-9888-9BD29EC1B023}v64.80.39230\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Windows Desktop Runtime - 8.0.20 (x64)
+     </td>
+     <td>
+      64.80.39251
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{D330A645-92DF-4389-8324-B82FE3561498}v64.80.39251\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      LenovoVisionCore_Intel
+     </td>
+     <td>
+      1.5.111.1001
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Host - 8.0.20 (x64)
+     </td>
+     <td>
+      64.80.39230
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{E8562B28-F84C-45AA-AE65-E31D1068377F}v64.80.39230\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Runtime - 9.0.8 (x64)
+     </td>
+     <td>
+      72.32.37563
+     </td>
+     <td>
+      C:\ProgramData\Package Cache\{F91CC18B-2C99-4BD4-95D1-A0FA7CF40BCF}v72.32.37563\
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Smart Note
+     </td>
+     <td>
+      3.2.2.14
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      联想浏览器(原厂认证，极速体验)
+     </td>
+     <td>
+      9.0.0.1
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      联想应用商店
+     </td>
+     <td>
+      9.0.2530.1030
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Edge
+     </td>
+     <td>
+      142.0.3595.94
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Edge WebView2 Runtime
+     </td>
+     <td>
+      142.0.3595.94
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft .NET Runtime - 9.0.5 (x64)
+     </td>
+     <td>
+      9.0.5.34815
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      LenovoModelMgr
+     </td>
+     <td>
+      2.00.109.1001
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Windows Desktop Runtime - 9.0.8 (x64)
+     </td>
+     <td>
+      9.0.8.35118
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      联想电脑管家（原厂驱动和官方服务）
+     </td>
+     <td>
+      5.1.125.9191
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211
+     </td>
+     <td>
+      14.44.35211.0
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr class="row-neutral">
+     <td>
+      Microsoft Windows Desktop Runtime - 8.0.20 (x64)
+     </td>
+     <td>
+      8.0.20.35221
+     </td>
+     <td>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>
