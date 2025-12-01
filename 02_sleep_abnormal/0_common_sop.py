@@ -14,8 +14,8 @@ path_dir = os.path.dirname(__file__)
 logger.info(f'path_dir: {path_dir}')
 
 if __name__ == '__main__':
-    folder_path = r'test_data\02_睡眠休眠异常_log\S3 abnoamal resume'
-    folder_path = os.path.join(path_dir, '../', folder_path)
+    folder_path = r'D:\异常关机、异常重启和睡眠休眠异常\03_睡眠休眠异常\S3_Resume_abnormal'
+    # folder_path = os.path.join(path_dir, '../', folder_path)
     logger.info(f'folder_path: {folder_path}')
     # 唤醒源
     result_dict, latest_reason = get_wakeup_reason(folder_path)

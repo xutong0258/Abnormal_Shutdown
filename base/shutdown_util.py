@@ -31,41 +31,45 @@ def shutdown_check_rule_1(folder_path):
     logger.info(f'folder_path:{folder_path}')
 
     # folder_path = r'D:\hello'
-    target_time = get_Abnormal_Shutdown_time(folder_path)
-    return target_time
+    target_time, target_elem = get_Abnormal_Shutdown_time(folder_path)
+    return target_time, target_elem
 
 def shutdown_check_rule_2(folder_path):
     logger.info(f'folder_path:{folder_path}')
 
-    match_check = Critical_Event_Check(folder_path)
-    return match_check
+    match_check, target_list = Critical_Event_Check(folder_path)
+    return match_check, target_list
 
-def shutdown_check_rule_3(folder_path):
+def shutdown_check_rule_3(folder_path, log_path):
     logger.info(f'folder_path:{folder_path}')
 
-    target_file = '.evtx'
+    target_file = 'System.evtx'
     evtx_path = get_file_path_by_dir(folder_path, target_file)
     # evtx_path = r"D:\System.evtx"
     match_id = False
     match_Provider = False
     match_case_3 = False
+    parsed_result = None
+
+    event_list = []
+
     with Evtx(evtx_path) as log:
         for i, record in enumerate(log.records()):
             try:
                 parsed = parse_event_record(record.xml())
-                # print(f"Time: {parsed['TimeCreated']}")
-                # print(f"EventID: {parsed['EventID']}")
-                # print(f"Level: {parsed['Level']}")
-                # print(f"Provider: {parsed['Provider']}")
-                # print("-" * 50)
                 # logger.info(f'parsed:{parsed}')
+                event_list.append(parsed)
                 if '41' in parsed['EventID']:
                     match_id = True
-                    logger.info(f'parsed:{parsed}')
-                if 'BugcheckCode:0x0' in parsed['Provider']:
+                EventData = parsed.get('EventData')
+                # logger.info(f'EventData:{EventData}')
+                BugcheckCode = EventData.get('BugcheckCode')
+                if BugcheckCode is not None and BugcheckCode == '0':
                     match_Provider = True
                 if match_id and match_Provider:
                     match_case_3 = True
+                    parsed_result = parsed
+                    logger.info(f'parsed:{parsed}')
                     break
 
             except Exception as e:
@@ -73,22 +77,35 @@ def shutdown_check_rule_3(folder_path):
     if match_case_3 == False:
         logger.info(f'evtx hasn\'t BugcheckCode:0x0 record')
     logger.info(f'match_case_3:{match_case_3}')
-    return match_case_3
+
+    file_name = 'System.evtx.yaml'
+    file_name = os.path.join(log_path, file_name)
+    dump_file(file_name, event_list)
+
+    return match_case_3, parsed_result
 
 def check_ShutdownID(folder_path, log_path):
     logger.info(f'folder_path:{folder_path}')
-    target_file = 'ShutDownID(LBG).txt'
+    target_file = 'GlobalResetCause.log'
     target_file = get_file_path_by_dir(folder_path, target_file)
 
     if target_file is None:
         return
 
     log_lines = get_file_content_list(target_file)
-    target_str = 'The last 1st:'
+    target_str = '@@'
     text_line = get_list_text_line(log_lines, target_str)
     logger.info(f'text_line:{text_line}')
 
-    ShutdownID = text_line.replace('the last 1st:', '')
+    match = re.search(r':(.*) ', text_line)
+
+    if match:
+        ShutdownID = match.group()
+        logger.info(f"提取的数字部分：{ShutdownID}")  # 输出：9600.17238
+    else:
+        logger.info("未找到数字部分")
+
+    ShutdownID = ShutdownID.replace(':', '')
     tmp_list = ShutdownID.split('(')
     ShutdownID = tmp_list[0].strip()
     logger.info(f'ShutdownID:{ShutdownID}')
@@ -97,42 +114,51 @@ def check_ShutdownID(folder_path, log_path):
     if '0X' not in ShutdownID:
         ShutdownID = f'0x{ShutdownID}'
 
-    result_dic = table_dict.get(ShutdownID, None)
-    result_dic['ShutdownID'] = ShutdownID
+    result_dic = {'ShutdownID': ShutdownID}
+    tmp_dic = table_dict.get(ShutdownID, None)
+    # result_dic['ShutdownID'] = ShutdownID
+    if tmp_dic is not None:
+        result_dic['root_casue'] = tmp_dic['root_casue']
+        result_dic['原因'] = tmp_dic['原因']
 
     logger.info(f'result_dic:{result_dic}')
     return result_dic
 
-def check_is_abnormal_shutdown(folder_path):
+def check_is_abnormal_shutdown(folder_path, log_path):
     is_abnormal_shutdown = False
+    target_list = None
+    result_dic = {}
 
     check_flag_1 = False
-    target_time = shutdown_check_rule_1(folder_path)
+    target_time, target_elem = shutdown_check_rule_1(folder_path)
     logger.info(f'target_time:{target_time}')
     if target_time is None:
-        return is_abnormal_shutdown
+        return is_abnormal_shutdown, result_dic
 
     if target_time is not None:
         check_flag_1 = True
+        result_dic['SystemPowerReport_rule_1'] = target_elem
 
     check_flag_2 = False
-    match_check = shutdown_check_rule_2(folder_path)
+    match_check, target_list = shutdown_check_rule_2(folder_path)
     logger.info(f'match_check:{match_check}')
     if match_check == False:
-        return is_abnormal_shutdown
+        return is_abnormal_shutdown, result_dic
 
     if match_check == True:
         check_flag_2 = True
+        result_dic['KernelPowerReport_rule_2'] = target_list
 
     check_flag_3 = False
-    match_check = shutdown_check_rule_3(folder_path)
+    match_check, target_list = shutdown_check_rule_3(folder_path, log_path)
     logger.info(f'match_check:{match_check}')
     if match_check == True:
         check_flag_3 = True
+        result_dic['System.evtx_rule_3'] = target_list
 
     if check_flag_1 and check_flag_2 and check_flag_3:
         is_abnormal_shutdown = True
-    return is_abnormal_shutdown
+    return is_abnormal_shutdown, result_dic
 
 def parese_shutdown_cfg_to_dict():
     file = 'Shutdown_ID.txt'

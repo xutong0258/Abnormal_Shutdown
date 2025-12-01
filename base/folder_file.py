@@ -36,6 +36,7 @@ def delete_folder(folder_path):
         logger.info(f"错误: 没有权限删除 '{folder_path}'")
     except Exception as e:
         logger.info(f"删除文件夹时发生错误: {str(e)}")
+    return
 
 def create_folder(folder_path):
     try:
@@ -196,6 +197,17 @@ def get_latest_file_path_by_dir(folder_path, target_file, target_file_p2=None):
             latest_file = key
     logger.info(f"latest_file: {latest_file}")
     return latest_file
+
+def ceate_folder_with_folder():
+    # 要删除的文件夹路径
+    folder_path = r'D:\01_异常关机'
+    folder_list = os.listdir(folder_path)
+    logger.info(f'folder_list:{folder_list}')
+    target_path = r'C:\Users\15319\Desktop\1201\01_异常关机'
+    for item in folder_list:
+        full_path = os.path.join(target_path, item)
+        create_folder(full_path)
+    return
 # 使用示例
 if __name__ == "__main__":
     # 要删除的文件夹路径

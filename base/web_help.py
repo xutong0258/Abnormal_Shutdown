@@ -121,7 +121,7 @@ def get_Abnormal_Shutdown_time(folder_path):
             logger.info(f'target_elem:{target_elem}')
             logger.info(f'target_time:{target_time}')
 
-    return target_time
+    return target_time, target_elem
 
 def Critical_Event_Check(folder_path):
     # logger.info(f'target_list:{target_list}')
@@ -139,6 +139,7 @@ def Critical_Event_Check(folder_path):
     target_table = None
     target_time = None
     match_check = False
+    target_list = None
     for table in tables_data:
         if target_str in table['headers'] and 'Critical' in table['data'][0] and '41' in table['data'][0]:
             target_list =table['data'][0]
@@ -148,8 +149,8 @@ def Critical_Event_Check(folder_path):
                     match_check = True
                     break
 
-    logger.info(f'match_check:{match_check}')
-    return match_check
+    logger.info(f'Critical_Event_Check match_check:{match_check}')
+    return match_check, target_list
 
 def get_wakeup_reason(folder_path):
     # logger.info(f'target_list:{target_list}')

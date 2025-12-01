@@ -7,18 +7,12 @@
     <list default="true" id="47a7c56e-3d14-440a-b23b-8521960fcd91" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/0_common_sop.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/0_common_sop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/1_auto_search_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/1_auto_search_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/异常关机重启_result.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/02_sleep_abnormal/0_common_sop.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_sleep_abnormal/0_common_sop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_sleep_abnormal/1_auto_search_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_sleep_abnormal/1_auto_search_log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_sleep_abnormal/唤不醒_result.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/02_sleep_abnormal/唤不醒_result.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/folder_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/folder_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/shutdown_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/shutdown_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/svctx_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/svctx_parse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/web_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/web_help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/table.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/table.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/count_all_subfolders.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/logger_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/logger_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,44 +46,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.01_abnormal_shutdown_reboot.executor": "Run",
-    "Python.02_sleep_abnormal.executor": "Run",
-    "Python.0_abnormal_shutdown_reboot.executor": "Run",
-    "Python.0_common_sop (1).executor": "Run",
-    "Python.0_common_sop.executor": "Run",
-    "Python.0_parse_txt_cfg_to_dict.executor": "Run",
-    "Python.1_auto_search_log (1).executor": "Run",
-    "Python.1_auto_search_log.executor": "Run",
-    "Python.1_sleep_abnormal.executor": "Run",
-    "Python.Qwen_python_20251107_ny87f9ssq.executor": "Run",
-    "Python.common_sop (1).executor": "Run",
-    "Python.common_sop.executor": "Run",
-    "Python.date_help.executor": "Run",
-    "Python.folder_file.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.hello_web_OK.executor": "Run",
-    "Python.html_ed.executor": "Run",
-    "Python.html_parse.executor": "Run",
-    "Python.logger_util.executor": "Run",
-    "Python.prepare_commit.executor": "Run",
-    "Python.shutdown_util.executor": "Run",
-    "Python.svctx_parse.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test_2.executor": "Run",
-    "Python.translator_help.executor": "Run",
-    "Python.util.executor": "Run",
-    "Python.web_help (1).executor": "Run",
-    "Python.web_help.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01_abnormal_shutdown_reboot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_sleep_abnormal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0_abnormal_shutdown_reboot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0_common_sop (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.0_common_sop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0_parse_txt_cfg_to_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_auto_search_log (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_auto_search_log.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_sleep_abnormal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Qwen_python_20251107_ny87f9ssq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.common_sop (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.common_sop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.date_help.executor&quot;: &quot;Run&quot;,
+    &quot;Python.folder_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_web_OK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.html_ed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.html_parse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger_util.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prepare_commit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shutdown_util.executor&quot;: &quot;Run&quot;,
+    &quot;Python.svctx_parse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.translator_help.executor&quot;: &quot;Run&quot;,
+    &quot;Python.util.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_help (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_help.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\0_shutdown_parse\base" />
@@ -209,9 +203,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.prepare_commit" />
-        <item itemvalue="Python.1_auto_search_log (1)" />
-        <item itemvalue="Python.0_common_sop (1)" />
         <item itemvalue="Python.0_common_sop" />
+        <item itemvalue="Python.0_common_sop (1)" />
+        <item itemvalue="Python.1_auto_search_log (1)" />
         <item itemvalue="Python.shutdown_util" />
       </list>
     </recent_temporary>
