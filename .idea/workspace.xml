@@ -5,13 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a7c56e-3d14-440a-b23b-8521960fcd91" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/0_common_sop.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/0_common_sop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/1_auto_search_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_abnormal_shutdown_reboot/1_auto_search_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/shutdown_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/shutdown_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/svctx_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/svctx_parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/web_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/web_help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/case_path_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/case_path_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepare_commit.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepare_commit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/2025_10_24_13_00_00.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/3DMarkPXA_Stress_Final[10Min]/1_3DMarkPXA_Stress_Final[10Min]/3DMarkStress_000/1761265716928__ResultParser.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/3DMarkPXA_Stress_Final[10Min]/1_3DMarkPXA_Stress_Final[10Min]/3DMarkStress_000/1761265947265__ResultParser.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/3DMarkPXA_Stress_Final[10Min]/1_3DMarkPXA_Stress_Final[10Min]/3DMarkStress_000/1761266174108__ResultParser.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/AutoRI.Plugins/Plugins.Err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/AutoRI.Plugins/Plugins.Info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/BurnIn Test(NoTemp)[5Min]/1_BurnIn Test(NoTemp)[5Min]/logs/BIT.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/BurnIn Test(NoTemp)[5Min]/1_BurnIn Test(NoTemp)[5Min]/raw-data/BurnIn_Logs/BIT.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/CGTT.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/CGTT_Err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/PF5XXDFZ_N4CET36W_1.12/20251024082012_CGTTInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/PF5XXDFZ_N4CET36W_1.12/20251024082012_CGTTInfo_UnitInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/PF5XXDFZ_N4CET36W_1.12/20251024082012_CGTTLogParser.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/PF5XXDFZ_N4CET36W_1.12/20251024082012_PXAReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/PF5XXDFZ_N4CET36W_1.12/20251024082012_iPTAT_24-10-2025_08H-20-23S422.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/PF5XXDFZ_N4CET36W_1.12/PTAT_System_Info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTT-TATStress-5mins_TBG/1_CGTT-TATStress-5mins_TBG/PF5XXDFZ_N4CET36W_1.12/ResultParser.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTTPXA_CPU[15MIN]/1_CGTTPXA_CPU[15MIN]/CPU_Single_000/1761264177843_CGTTLogParser.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/CGTTPXA_CPU[15MIN]/1_CGTTPXA_CPU[15MIN]/CPU_Single_000/1761264177843__ResultParser.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/Disk S.M.A.R.T Collection[1Time]/1_Disk S.M.A.R.T Collection[1Time]/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/Disk S.M.A.R.T Collection[1Time]/1_Disk S.M.A.R.T Collection[1Time]/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/DiskInfo/1_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/DiskInfo/1_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/DiskInfo_ERR.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/LDiag-Shell[1Min]/1_LDiag-Shell[1Min]/LDIAG.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/LDiag-Shell[1Min]/1_LDiag-Shell[1Min]/LDIAG_Err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/LDiag-Shell[1Min]/2_LDiag-Shell[1Min]/LDIAG.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/LDiag-Shell[1Min]/2_LDiag-Shell[1Min]/LDIAG_Err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/IMGLog/runin/Power Conversion Test-MS[1Time]/1_Power Conversion Test-MS[1Time]/RawData/result/2025_10_24_07_55_29/PwrTest/Temp/pwrtestlog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/SystemInfo/FirmwareVersion.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/SystemInfo/PowerSetting.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/TestToolLog/TestToolLog/3DMark/Documents_3DMark/3DMark.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/TestToolLog/TestToolLog/Autolog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/TestToolLog/TestToolLog/OSAging/Logs/exception.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/TestToolLog/TestToolLog/OSAging/Logs/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/01_异常关机/01_ALADDIN_ILL-SVT/TestToolLog/TestToolLog/OSAging/Result/2025_10_24_07_55_29/PwrTest/Temp/pwrtestlog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/2025_11_24_13_44_41.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/BIOSandECLog/GlobalResetCause.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/BIOSandECLog/LfcDebugInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/IMGLog/runin/DiskInfo/1_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/IMGLog/runin/DiskInfo/1_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/IMGLog/runin/DiskInfo_ERR.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/SystemInfo/FirmwareVersion.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/YOGA 360 14 IPH11X_PF5TS0SD_2025_11_24_13_44_41/SystemInfo/PowerSetting.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/sku9-13-wb-63-abreboot-1027/2025_10_27_09_23_26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/sku9-13-wb-63-abreboot-1027/BIOSandECLog/GlobalResetCause.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/sku9-13-wb-63-abreboot-1027/BIOSandECLog/LfcDebugInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/sku9-13-wb-63-abreboot-1027/SystemInfo/FirmwareVersion.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/sku9-13-wb-63-abreboot-1027/SystemInfo/PowerSetting.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/sku9-13-wb-63-abreboot-1027/TestToolLog/Autolog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/sku9-13-wb-63-abreboot-1027/TestToolLog/OSAging/Logs/exception.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/02_异常重启/sku9-13-wb-63-abreboot-1027/TestToolLog/OSAging/Logs/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/2025_08_06_08_30_18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/BIOSandECLog/GlobalResetCause.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo/1_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo/1_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo/2_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo/2_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo/3_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo/3_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo/4_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo/4_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo_ERR.2025-08-01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/IMGLog/runin/DiskInfo_ERR.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/SystemInfo/FirmwareVersion.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3 abnoamal resume/SystemInfo/PowerSetting.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/2025_08_05_08_34_35.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/BIOSandECLog/GlobalResetCause.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/IMGLog/runin/DiskInfo/1_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/IMGLog/runin/DiskInfo/1_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/IMGLog/runin/DiskInfo/2_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/IMGLog/runin/DiskInfo/2_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/IMGLog/runin/DiskInfo/3_DiskInfo/DiskInfo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/IMGLog/runin/DiskInfo/3_DiskInfo/DiskInfoErr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/IMGLog/runin/DiskInfo_ERR.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/SystemInfo/FirmwareVersion.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/03_睡眠休眠异常/S3_Resume_abnormal/SystemInfo/PowerSetting.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +163,7 @@
       <recent name="D:\0_shutdown_parse\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_auto_search_log (1)">
+  <component name="RunManager" selected="Python.prepare_commit">
     <configuration name="0_common_sop (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="0_shutdown_parse" />
       <option name="ENV_FILES" value="" />
@@ -201,10 +276,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prepare_commit" />
         <item itemvalue="Python.1_auto_search_log (1)" />
         <item itemvalue="Python.1_auto_search_log" />
         <item itemvalue="Python.0_common_sop" />
-        <item itemvalue="Python.prepare_commit" />
         <item itemvalue="Python.0_common_sop (1)" />
       </list>
     </recent_temporary>

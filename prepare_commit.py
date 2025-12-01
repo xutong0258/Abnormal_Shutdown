@@ -31,8 +31,9 @@ def file_walk():
             file_path = os.path.join(root, file)
             # print(file_path)
             if '.log' in file_path:
-                os.remove(file_path)
-                print(f"del: {file_path}")
+                # os.remove(file_path)
+                # print(f"del: {file_path}")
+                pass
     return
 
 def clean_dir(folder_path):

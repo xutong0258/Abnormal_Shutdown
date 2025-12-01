@@ -1,123 +1,0 @@
-"result" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\result" 
-
--------------------------------------------------------------------------------
-   ROBOCOPY     ::     Windows 的可靠文件复制                              
--------------------------------------------------------------------------------
-
-  开始时间: 2025年10月27日 9:23:54
-        源: C:\Tools\OSAGIN~1.5\result\
-      目标: C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\OSAging\result\
-
-      文件: *.*
-	    
-Exc 文件: *log*.txt
-	    *do*.txt
-	    
-      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
-
-------------------------------------------------------------------------------
-
-	  新目录           1	C:\Tools\OSAGIN~1.5\result\
-	    新文件    		      18	SysTimeStamp.Lock100%  
-	  新目录           4	C:\Tools\OSAGIN~1.5\result\2023_08_23_09_44_27\
-	    新文件    		    3766	Config.json 99%  100%  
-	    新文件    		    1475	report.TXT 98%  100%  
-	    新文件    		    4884	Sequence.json 99%  100%  
-	    新文件    		     793	XMLLog.xml 96%  100%  
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_23_09_44_27\DeviceCheck\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_23_09_44_27\PwrTest\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_23_09_44_27\PwrTest\Temp\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_23_09_44_27\WPR\
-	  新目录           3	C:\Tools\OSAGIN~1.5\result\2023_08_24_13_24_57\
-	    新文件    		    3766	Config.json 99%  100%  
-	    新文件    		      19	InFirstCountDown.Flag 42%  100%  
-	    新文件    		    2604	Sequence.json 99%  100%  
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_24_13_24_57\DeviceCheck\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_24_13_24_57\PwrTest\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_24_13_24_57\PwrTest\Temp\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_24_13_24_57\WPR\
-	  新目录           4	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_40_33\
-	    新文件    		    3766	Config.json 99%  100%  
-	    新文件    		    1231	report.TXT 97%  100%  
-	    新文件    		    3201	Sequence.json 99%  100%  
-	    新文件    		     793	XMLLog.xml 96%  100%  
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_40_33\DeviceCheck\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_40_33\PwrTest\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_40_33\PwrTest\Temp\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_40_33\WPR\
-	  新目录           4	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_15\
-	    新文件    		    3766	Config.json 99%  100%  
-	    新文件    		    1231	report.TXT 97%  100%  
-	    新文件    		    3202	Sequence.json 99%  100%  
-	    新文件    		     793	XMLLog.xml 96%  100%  
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_15\DeviceCheck\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_15\PwrTest\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_15\PwrTest\Temp\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_15\WPR\
-	  新目录           2	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_51\
-	    新文件    		    3766	Config.json 99%  100%  
-	    新文件    		    6063	Sequence.json 99%  100%  
-	  新目录           1	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_51\DeviceCheck\
-	    新文件    		   16863	DeviceMaternal.csv 99%  100%  
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_51\PwrTest\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_51\PwrTest\Temp\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2023_08_28_09_41_51\WPR\
-	  新目录           2	C:\Tools\OSAGIN~1.5\result\2025_10_24_18_34_08\
-	    新文件    		    4188	Config.json100%  
-	    新文件    		    4985	Sequence.json100%  
-	  新目录           2	C:\Tools\OSAGIN~1.5\result\2025_10_24_18_34_08\DeviceCheck\
-	    新文件    		   15749	DeviceGenerate.csv100%  
-	    新文件    		   15749	DeviceMaternal.csv100%  
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2025_10_24_18_34_08\PwrTest\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2025_10_24_18_34_08\PwrTest\Temp\
-	  新目录           0	C:\Tools\OSAGIN~1.5\result\2025_10_24_18_34_08\WPR\
-
-------------------------------------------------------------------------------
-
-                  总数        复制        跳过       不匹配        失败        其他
-       目录:        31        31         0         0         0         0
-       文件:        23        23         0         0         0         0
-       字节:   100.2 k   100.2 k         0         0         0         0
-       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
-
-
-       速度:           2,444,547 字节/秒。
-       速度:             139.878 MB/分钟。
-   已结束: 2025年10月27日 9:23:54
-
-"Logs" "C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\\OSAging\Logs" 
-
--------------------------------------------------------------------------------
-   ROBOCOPY     ::     Windows 的可靠文件复制                              
--------------------------------------------------------------------------------
-
-  开始时间: 2025年10月27日 9:23:54
-        源: C:\Tools\OSAGIN~1.5\Logs\
-      目标: C:\Users\PATest\Desktop\0-LogTool\AutoLog\XiaoXinPro 16GT AGP11_PF5RSQT2_2025_10_27_09_23_26\TestToolLog\OSAging\Logs\
-
-      文件: *.*
-	    
-Exc 文件: *log*.txt
-	    *do*.txt
-	    
-      选项: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
-
-------------------------------------------------------------------------------
-
-	  新目录           2	C:\Tools\OSAGIN~1.5\Logs\
-	    新文件    		    1690	exception.log 98%  100%  
-	    新文件    		  388602	info.log 99%  100%  
-
-------------------------------------------------------------------------------
-
-                  总数        复制        跳过       不匹配        失败        其他
-       目录:         1         1         0         0         0         0
-       文件:         2         2         0         0         0         0
-       字节:   381.1 k   381.1 k         0         0         0         0
-       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
-
-
-       速度:           97,573,000 字节/秒。
-       速度:            5,583.172 MB/分钟。
-   已结束: 2025年10月27日 9:23:54
-
